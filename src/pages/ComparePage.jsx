@@ -14,6 +14,16 @@ const ComparePage = () => {
   const u1 = data[uni1];
   const u2 = data[uni2];
 
+  // ✅ safety check
+  if (!u1 || !u2) {
+    return (
+      <div style={{ padding: "40px" }}>
+        <h2>Invalid comparison</h2>
+        <Link to="/">Go Back</Link>
+      </div>
+    );
+  }
+
   return (
     <div style={{ background: "#f5f7fa", minHeight: "100vh", padding: "40px" }}>
       <div style={{ maxWidth: "900px", margin: "auto" }}>
@@ -31,69 +41,41 @@ const ComparePage = () => {
           boxShadow: "0 2px 10px rgba(0,0,0,0.05)",
           textAlign: "center"
         }}>
-          <h1 style={{
-            margin: 0,
-            fontSize: "32px",
-            fontWeight: "700",
-            color: "#1a202c"   // dark visible color
-            }}>
+          <h1 style={{ fontSize: "32px", color: "#1a202c" }}>
             {uni1} vs {uni2}
-            </h1>
-          <p style={{ color: "#4a5568" }}>
-            University Comparison
-            </p>
+          </h1>
         </div>
 
-        <div style={{
-          background: "white",
-          borderRadius: "10px",
-          boxShadow: "0 2px 10px rgba(0,0,0,0.05)",
-          overflow: "hidden"
-        }}>
-          <table style={{ width: "100%", borderCollapse: "collapse" }}>
-            <thead style={{ background: "#eef2f7", color: "#2d3748" }}>
-              <tr>
-                <th style={{ padding: "12px" }}>Metric</th>
-                <th style={{ padding: "12px" }}>{uni1}</th>
-                <th style={{ padding: "12px" }}>{uni2}</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr style={row}>
-                <td>Total Papers</td>
-                <td>{u1.papers}</td>
-                <td>{u2.papers}</td>
-              </tr>
-
-              <tr style={row}>
-                <td>Citations</td>
-                <td>{u1.citations}</td>
-                <td>{u2.citations}</td>
-              </tr>
-
-              <tr style={row}>
-                <td>H-Index</td>
-                <td>{u1.hIndex}</td>
-                <td>{u2.hIndex}</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        <table style={{ width: "100%", background: "white" }}>
+          <thead>
+            <tr>
+              <th>Metric</th>
+              <th>{uni1}</th>
+              <th>{uni2}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Total Papers</td>
+              <td>{u1.papers}</td>
+              <td>{u2.papers}</td>
+            </tr>
+            <tr>
+              <td>Citations</td>
+              <td>{u1.citations}</td>
+              <td>{u2.citations}</td>
+            </tr>
+            <tr>
+              <td>H-Index</td>
+              <td>{u1.hIndex}</td>
+              <td>{u2.hIndex}</td>
+            </tr>
+          </tbody>
+        </table>
 
       </div>
     </div>
   );
 };
-
-const row = {
-  borderTop: "1px solid #eee",
-  textAlign: "center",
-  color: "#2d3748",   // makes all row text visible
-};
-
-<td style={{ fontWeight: "600", color: "#2b6cb0" }}>
-  {u1.papers}
-</td>
 
 export default ComparePage;

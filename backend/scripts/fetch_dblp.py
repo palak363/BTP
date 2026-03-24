@@ -1,50 +1,44 @@
-import os
 import requests
-import pandas as pd
 import xml.etree.ElementTree as ET
+import time
 
-# Get the path of this script
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+HEADERS = {
+    "User-Agent": "Mozilla/5.0"
+}
 
-# Move one folder up to backend/
-BASE_DIR = os.path.dirname(SCRIPT_DIR)
+def fetch_papers(dblp_url):
+    xml_url = dblp_url.replace(".html", ".xml")
 
-# Path to data file
-FACULTY_FILE = os.path.join(BASE_DIR, "data", "iiitd_faculty.csv")
+    for attempt in range(3):
+        try:
+            res = requests.get(xml_url, headers=HEADERS, timeout=10)
+            res.raise_for_status()
 
-faculty = pd.read_csv(FACULTY_FILE)
+            root = ET.fromstring(res.content)
 
-papers = []
+            papers = []
 
-for _, row in faculty.iterrows():
+            # 🔥 FIX: correct traversal
+            for r in root.findall("r"):
+                for child in r:
+                    if child.tag in ["article", "inproceedings"]:
+                        title = child.find("title")
+                        year = child.find("year")
+                        venue = child.find("booktitle") or child.find("journal")
 
-    pid = row["dblp_id"]
+                        if title is not None and year is not None:
+                            papers.append({
+                                "title": title.text,
+                                "year": year.text,
+                                "venue": venue.text if venue is not None else ""
+                            })
 
-    url = f"https://dblp.org/pid/{pid}.xml"
+            time.sleep(3)
+            return papers
 
-    response = requests.get(url)
+        except Exception as e:
+            print(f"Retry {attempt+1} for {dblp_url}...")
+            time.sleep(3)
 
-    root = ET.fromstring(response.content)
-
-    for record in root:
-
-        title = record.find("title")
-        year = record.find("year")
-        venue = record.find("journal") or record.find("booktitle")
-
-        if title is None or year is None:
-            continue
-
-        papers.append({
-            "title": title.text,
-            "year": int(year.text),
-            "venue": venue.text if venue is not None else "Unknown",
-            "author": row["name"],
-            "institute": row["institute"]
-        })
-
-df = pd.DataFrame(papers)
-
-df.to_csv("../data/raw_papers.csv", index=False)
-
-print("Saved raw papers")
+    print(f"❌ Failed for {dblp_url}")
+    return []
