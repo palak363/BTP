@@ -165,13 +165,25 @@ const InstitutePage = () => {
   const { name } = useParams();
 
   const [facultyData, setFacultyData] = useState([]);
-  const [sortBy, setSortBy] = useState("score"); // 🔥 toggle state
+  const [domainsData, setDomainsData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [sortBy, setSortBy] = useState("score");
 
   useEffect(() => {
-    fetch("http://localhost:5000/iiitd")
-      .then(res => res.json())
-      .then(data => setFacultyData(data))
-      .catch(err => console.error(err));
+    // Fetch both rankings and domains data
+    Promise.all([
+      fetch("http://localhost:5000/iiitd").then(res => res.json()),
+      fetch("http://localhost:5000/iiitd/domains").then(res => res.json())
+    ])
+      .then(([rankingsData, domainsData]) => {
+        setFacultyData(rankingsData);
+        setDomainsData(domainsData);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error("API error:", err);
+        setLoading(false);
+      });
   }, []);
 
   // 🔥 COMPUTE REAL STATS
@@ -189,20 +201,17 @@ const InstitutePage = () => {
 
   const topAuthors = sortedFaculty.slice(0, 5);
 
-  // keep these static for now
-  const topAreas = [
-    { area: "Machine Learning", papers: 320 },
-    { area: "Computer Vision", papers: 210 },
-    { area: "Distributed Systems", papers: 150 },
-    { area: "Databases", papers: 120 },
-  ];
+  // 🔥 USE API DATA INSTEAD OF HARDCODED
+  const topAreas = domainsData?.top_areas || [];
+  const topVenues = domainsData?.top_venues || [];
 
-  const topVenues = [
-    { venue: "NeurIPS", papers: 45 },
-    { venue: "ICML", papers: 40 },
-    { venue: "CVPR", papers: 38 },
-    { venue: "SIGMOD", papers: 25 },
-  ];
+  if (loading) {
+    return (
+      <div style={{ background: "#f5f7fa", minHeight: "100vh", padding: "40px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <div style={{ fontSize: "18px", color: "#555" }}>Loading...</div>
+      </div>
+    );
+  }
 
   return (
     <div style={{ background: "#f5f7fa", minHeight: "100vh", padding: "40px" }}>

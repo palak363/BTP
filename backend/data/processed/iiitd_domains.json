@@ -1,666 +1,680 @@
 {
-  "total_faculty": 21,
-  "total_papers": 1222,
-  "field_distribution": {
-    "Computer Science": 506,
-    "Engineering": 84,
-    "Medicine": 41,
-    "Materials Science": 3,
-    "Other": 361,
-    "Business, Management and Accounting": 6,
-    "Biochemistry, Genetics and Molecular Biology": 83,
-    "Economics, Econometrics and Finance": 3,
-    "Environmental Science": 10,
-    "Agricultural and Biological Sciences": 6,
-    "Social Sciences": 29,
-    "Decision Sciences": 20,
-    "Mathematics": 11,
-    "Physics and Astronomy": 20,
-    "Health Professions": 1,
-    "Psychology": 16,
-    "Neuroscience": 13,
-    "Nursing": 1,
-    "Arts and Humanities": 3,
-    "Earth and Planetary Sciences": 1,
-    "Immunology and Microbiology": 4
+  "total_faculty": 26,
+  "total_papers": 1512,
+  "domain_distribution": {
+    "Other": 1211,
+    "Economics & computation": 80,
+    "Robotics": 5,
+    "Artificial intelligence": 20,
+    "The Web & information retrieval": 19,
+    "Mobile computing": 14,
+    "Databases": 35,
+    "Operating systems": 4,
+    "Machine learning": 7,
+    "Computer vision": 28,
+    "High-performance computing": 16,
+    "Computer security": 3,
+    "Design automation": 2,
+    "Logic & verification": 4,
+    "Measurement & perf. analysis": 1,
+    "Natural language processing": 10,
+    "Software engineering": 19,
+    "Algorithms & complexity": 11,
+    "Human-computer interaction": 22,
+    "Cryptography": 1
   },
-  "subfield_distribution": {
-    "Computer Vision and Pattern Recognition": 175,
-    "Artificial Intelligence": 139,
-    "Computer Graphics and Computer-Aided Design": 3,
-    "Electrical and Electronic Engineering": 27,
-    "Epidemiology": 3,
-    "Computational Theory and Mathematics": 33,
-    "Health Informatics": 3,
-    "Computational Mechanics": 13,
-    "Media Technology": 5,
-    "Materials Chemistry": 1,
-    "Industrial and Manufacturing Engineering": 1,
-    "Information Systems": 41,
-    "Building and Construction": 1,
-    "Other": 361,
-    "Pathology and Forensic Medicine": 1,
-    "Biomedical Engineering": 12,
-    "Marketing": 3,
-    "Molecular Medicine": 1,
-    "Finance": 1,
-    "Global and Planetary Change": 5,
-    "General Agricultural and Biological Sciences": 1,
-    "Ecology": 2,
-    "Communication": 4,
-    "Soil Science": 1,
-    "Management Science and Operations Research": 13,
-    "Safety Research": 1,
-    "Sociology and Political Science": 20,
-    "Signal Processing": 19,
-    "Strategy and Management": 2,
-    "Economics and Econometrics": 2,
-    "Modeling and Simulation": 3,
-    "Business and International Management": 1,
-    "Computer Science Applications": 1,
-    "Statistical and Nonlinear Physics": 20,
-    "Oncology": 1,
-    "Computer Networks and Communications": 89,
-    "General Health Professions": 1,
-    "Information Systems and Management": 6,
-    "Pediatrics, Perinatology and Child Health": 1,
-    "Electronic, Optical and Magnetic Materials": 1,
-    "Hardware and Architecture": 3,
-    "Mechanics of Materials": 1,
-    "Statistics, Probability and Uncertainty": 1,
-    "Numerical Analysis": 1,
-    "Statistics and Probability": 5,
-    "Social Psychology": 3,
-    "Plant Science": 4,
-    "Aerospace Engineering": 7,
-    "Radiology, Nuclear Medicine and Imaging": 9,
-    "Molecular Biology": 70,
-    "Urban Studies": 1,
-    "Automotive Engineering": 7,
-    "Cognitive Neuroscience": 10,
-    "Political Science and International Relations": 1,
-    "Control and Systems Engineering": 4,
-    "Applied Mathematics": 1,
-    "Issues, ethics and legal aspects": 1,
-    "Environmental Chemistry": 1,
-    "Cultural Studies": 1,
-    "Ocean Engineering": 3,
-    "Transportation": 1,
-    "Experimental and Cognitive Psychology": 11,
-    "Clinical Psychology": 1,
-    "Music": 1,
-    "Developmental Biology": 2,
-    "Pulmonary and Respiratory Medicine": 3,
-    "Mechanical Engineering": 1,
-    "Geometry and Topology": 1,
-    "Biophysics": 1,
-    "Psychiatry and Mental health": 2,
-    "Cellular and Molecular Neuroscience": 1,
-    "Neurology": 5,
-    "Complementary and alternative medicine": 1,
-    "Geophysics": 1,
-    "Software": 2,
-    "Surgery": 10,
-    "Language and Linguistics": 1,
-    "Cancer Research": 5,
-    "Safety, Risk, Reliability and Quality": 2,
-    "Applied Psychology": 1,
-    "Management, Monitoring, Policy and Law": 1,
-    "Critical Care and Intensive Care Medicine": 1,
-    "Environmental Engineering": 1,
-    "Human-Computer Interaction": 1,
-    "Visual Arts and Performing Arts": 1,
-    "Physiology": 2,
-    "Immunology": 1,
-    "Genetics": 3,
-    "Biomaterials": 1,
-    "Microbiology": 3,
-    "Biotechnology": 1,
-    "Infectious Diseases": 1
-  },
+  "top_areas": [
+    {
+      "area": "Economics & computation",
+      "papers": 80
+    },
+    {
+      "area": "Databases",
+      "papers": 35
+    },
+    {
+      "area": "Computer vision",
+      "papers": 28
+    },
+    {
+      "area": "Human-computer interaction",
+      "papers": 22
+    },
+    {
+      "area": "Artificial intelligence",
+      "papers": 20
+    },
+    {
+      "area": "The Web & information retrieval",
+      "papers": 19
+    },
+    {
+      "area": "Software engineering",
+      "papers": 19
+    },
+    {
+      "area": "High-performance computing",
+      "papers": 16
+    },
+    {
+      "area": "Mobile computing",
+      "papers": 14
+    },
+    {
+      "area": "Algorithms & complexity",
+      "papers": 11
+    }
+  ],
+  "top_venues": [
+    {
+      "venue": "icde",
+      "papers": 19
+    },
+    {
+      "venue": "chi",
+      "papers": 19
+    },
+    {
+      "venue": "aaai",
+      "papers": 15
+    },
+    {
+      "venue": "cvpr",
+      "papers": 15
+    },
+    {
+      "venue": "cikm",
+      "papers": 10
+    },
+    {
+      "venue": "sensys",
+      "papers": 8
+    },
+    {
+      "venue": "focs",
+      "papers": 7
+    },
+    {
+      "venue": "eccv",
+      "papers": 7
+    },
+    {
+      "venue": "sigmod",
+      "papers": 6
+    },
+    {
+      "venue": "ijcai",
+      "papers": 5
+    }
+  ],
   "faculty_rankings": [
     {
       "name": "Chetan Arora 0001",
       "papers": 165,
-      "fields": {
-        "Computer Science": 116,
-        "Engineering": 18,
-        "Medicine": 16,
-        "Social Sciences": 1,
-        "Decision Sciences": 1,
-        "Arts and Humanities": 2,
-        "Mathematics": 1,
-        "Other": 2,
-        "Biochemistry, Genetics and Molecular Biology": 3,
-        "Psychology": 1,
-        "Environmental Science": 2,
-        "Neuroscience": 1,
-        "Business, Management and Accounting": 1
+      "domains": {
+        "Artificial intelligence": 2,
+        "Other": 133,
+        "Computer vision": 24,
+        "Robotics": 2,
+        "Economics & computation": 4
       },
-      "subfields": {
-        "Artificial Intelligence": 37,
-        "Biomedical Engineering": 7,
-        "Software": 2,
-        "Information Systems": 5,
-        "Surgery": 10,
-        "Computer Vision and Pattern Recognition": 67,
-        "Sociology and Political Science": 1,
-        "Control and Systems Engineering": 3,
-        "Information Systems and Management": 1,
-        "Language and Linguistics": 1,
-        "Modeling and Simulation": 1,
-        "Other": 2,
-        "Media Technology": 1,
-        "Cancer Research": 3,
-        "Safety, Risk, Reliability and Quality": 2,
-        "Ocean Engineering": 1,
-        "Applied Psychology": 1,
-        "Aerospace Engineering": 4,
-        "Health Informatics": 2,
-        "Management, Monitoring, Policy and Law": 1,
-        "Radiology, Nuclear Medicine and Imaging": 3,
-        "Signal Processing": 2,
-        "Critical Care and Intensive Care Medicine": 1,
-        "Cognitive Neuroscience": 1,
-        "Environmental Engineering": 1,
-        "Strategy and Management": 1,
-        "Computer Networks and Communications": 1,
-        "Human-Computer Interaction": 1,
-        "Computational Theory and Mathematics": 1,
-        "Visual Arts and Performing Arts": 1
-      },
-      "top_field": "Computer Science",
-      "top_subfield": "Computer Vision and Pattern Recognition"
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "cvpr",
+          "papers": 14
+        },
+        {
+          "venue": "eccv",
+          "papers": 7
+        },
+        {
+          "venue": "iros",
+          "papers": 2
+        },
+        {
+          "venue": "iccv",
+          "papers": 2
+        },
+        {
+          "venue": "aaai",
+          "papers": 1
+        }
+      ]
     },
     {
       "name": "Gautam M. Shroff",
       "papers": 160,
-      "fields": {
-        "Other": 160
+      "domains": {
+        "Artificial intelligence": 7,
+        "Other": 131,
+        "The Web & information retrieval": 7,
+        "Natural language processing": 6,
+        "Economics & computation": 3,
+        "Computer vision": 1,
+        "Databases": 1,
+        "Mobile computing": 1,
+        "Software engineering": 3
       },
-      "subfields": {
-        "Other": 160
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "aaai",
+          "papers": 5
+        },
+        {
+          "venue": "cikm",
+          "papers": 4
+        },
+        {
+          "venue": "eacl",
+          "papers": 3
+        },
+        {
+          "venue": "sigir",
+          "papers": 2
+        },
+        {
+          "venue": "ijcai",
+          "papers": 2
+        }
+      ]
+    },
+    {
+      "name": "Pushpendra Singh",
+      "papers": 111,
+      "domains": {
+        "Economics & computation": 4,
+        "Other": 75,
+        "Human-computer interaction": 20,
+        "Natural language processing": 1,
+        "Mobile computing": 7,
+        "The Web & information retrieval": 1,
+        "High-performance computing": 3
       },
-      "top_field": "Other",
-      "top_subfield": "Other"
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "chi",
+          "papers": 17
+        },
+        {
+          "venue": "sensys",
+          "papers": 7
+        },
+        {
+          "venue": "cscw",
+          "papers": 2
+        },
+        {
+          "venue": "www",
+          "papers": 1
+        }
+      ]
     },
     {
       "name": "G. P. S. Raghava",
       "papers": 103,
-      "fields": {
-        "Biochemistry, Genetics and Molecular Biology": 72,
-        "Environmental Science": 1,
-        "Medicine": 7,
-        "Immunology and Microbiology": 4,
-        "Computer Science": 8,
-        "Other": 5,
-        "Materials Science": 1,
-        "Engineering": 3,
-        "Agricultural and Biological Sciences": 2
+      "domains": {
+        "Software engineering": 11,
+        "Other": 90,
+        "High-performance computing": 1,
+        "Economics & computation": 1
       },
-      "subfields": {
-        "Molecular Biology": 66,
-        "Ecology": 1,
-        "Physiology": 2,
-        "Immunology": 1,
-        "Genetics": 3,
-        "Computational Theory and Mathematics": 7,
-        "Artificial Intelligence": 1,
-        "Other": 5,
-        "Biomaterials": 1,
-        "Pulmonary and Respiratory Medicine": 1,
-        "Biomedical Engineering": 3,
-        "Microbiology": 3,
-        "Radiology, Nuclear Medicine and Imaging": 2,
-        "Biotechnology": 1,
-        "Cancer Research": 2,
-        "Plant Science": 2,
-        "Infectious Diseases": 1,
-        "Epidemiology": 1
-      },
-      "top_field": "Biochemistry, Genetics and Molecular Biology",
-      "top_subfield": "Molecular Biology"
+      "top_domain": "Other",
+      "top_venues": []
     },
     {
       "name": "Amitabha Bagchi",
       "papers": 96,
-      "fields": {
-        "Other": 3,
-        "Computer Science": 52,
-        "Physics and Astronomy": 14,
-        "Decision Sciences": 3,
-        "Engineering": 10,
-        "Social Sciences": 6,
-        "Mathematics": 3,
-        "Neuroscience": 1,
-        "Biochemistry, Genetics and Molecular Biology": 1,
-        "Business, Management and Accounting": 1,
-        "Nursing": 1,
-        "Environmental Science": 1
+      "domains": {
+        "Other": 73,
+        "Databases": 10,
+        "Artificial intelligence": 2,
+        "The Web & information retrieval": 6,
+        "Economics & computation": 3,
+        "High-performance computing": 2
       },
-      "subfields": {
-        "Other": 3,
-        "Artificial Intelligence": 10,
-        "Computational Theory and Mathematics": 4,
-        "Computer Vision and Pattern Recognition": 2,
-        "Statistical and Nonlinear Physics": 14,
-        "Information Systems and Management": 2,
-        "Automotive Engineering": 4,
-        "Sociology and Political Science": 5,
-        "Statistics and Probability": 2,
-        "Hardware and Architecture": 1,
-        "Signal Processing": 5,
-        "Electrical and Electronic Engineering": 4,
-        "Computer Networks and Communications": 26,
-        "Cognitive Neuroscience": 1,
-        "Molecular Biology": 1,
-        "Aerospace Engineering": 1,
-        "Information Systems": 3,
-        "Political Science and International Relations": 1,
-        "Marketing": 1,
-        "Control and Systems Engineering": 1,
-        "Applied Mathematics": 1,
-        "Computer Graphics and Computer-Aided Design": 1,
-        "Issues, ethics and legal aspects": 1,
-        "Environmental Chemistry": 1,
-        "Management Science and Operations Research": 1
-      },
-      "top_field": "Computer Science",
-      "top_subfield": "Computer Networks and Communications"
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "icde",
+          "papers": 4
+        },
+        {
+          "venue": "cikm",
+          "papers": 4
+        },
+        {
+          "venue": "sigmod",
+          "papers": 2
+        },
+        {
+          "venue": "aaai",
+          "papers": 1
+        },
+        {
+          "venue": "ijcai",
+          "papers": 1
+        }
+      ]
     },
     {
       "name": "Arun Balaji Buduru",
       "papers": 96,
-      "fields": {
-        "Computer Science": 60,
-        "Psychology": 14,
-        "Engineering": 6,
-        "Neuroscience": 3,
-        "Arts and Humanities": 1,
-        "Biochemistry, Genetics and Molecular Biology": 2,
-        "Medicine": 2,
-        "Physics and Astronomy": 1,
-        "Social Sciences": 6,
-        "Other": 1
+      "domains": {
+        "Other": 73,
+        "Natural language processing": 3,
+        "Economics & computation": 17,
+        "Software engineering": 1,
+        "High-performance computing": 2
       },
-      "subfields": {
-        "Signal Processing": 7,
-        "Artificial Intelligence": 37,
-        "Experimental and Cognitive Psychology": 11,
-        "Aerospace Engineering": 1,
-        "Clinical Psychology": 1,
-        "Cognitive Neuroscience": 3,
-        "Music": 1,
-        "Computer Vision and Pattern Recognition": 10,
-        "Developmental Biology": 2,
-        "Pulmonary and Respiratory Medicine": 2,
-        "Social Psychology": 2,
-        "Statistical and Nonlinear Physics": 1,
-        "Sociology and Political Science": 4,
-        "Other": 1,
-        "Computer Networks and Communications": 4,
-        "Electrical and Electronic Engineering": 4,
-        "Communication": 2,
-        "Automotive Engineering": 1,
-        "Information Systems": 2
-      },
-      "top_field": "Computer Science",
-      "top_subfield": "Artificial Intelligence"
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "naacl",
+          "papers": 2
+        },
+        {
+          "venue": "acl",
+          "papers": 1
+        }
+      ]
     },
     {
       "name": "Aaditeshwar Seth",
       "papers": 90,
-      "fields": {
-        "Business, Management and Accounting": 4,
-        "Computer Science": 48,
-        "Biochemistry, Genetics and Molecular Biology": 1,
-        "Economics, Econometrics and Finance": 2,
-        "Environmental Science": 6,
-        "Agricultural and Biological Sciences": 2,
-        "Social Sciences": 12,
-        "Decision Sciences": 1,
-        "Engineering": 4,
-        "Mathematics": 1,
-        "Physics and Astronomy": 3,
-        "Medicine": 1,
-        "Other": 4,
-        "Health Professions": 1
+      "domains": {
+        "Other": 85,
+        "Artificial intelligence": 1,
+        "Economics & computation": 1,
+        "The Web & information retrieval": 2,
+        "Mobile computing": 1
       },
-      "subfields": {
-        "Marketing": 2,
-        "Information Systems": 28,
-        "Molecular Medicine": 1,
-        "Finance": 1,
-        "Global and Planetary Change": 5,
-        "General Agricultural and Biological Sciences": 1,
-        "Ecology": 1,
-        "Communication": 2,
-        "Soil Science": 1,
-        "Artificial Intelligence": 4,
-        "Computer Vision and Pattern Recognition": 1,
-        "Management Science and Operations Research": 1,
-        "Safety Research": 1,
-        "Sociology and Political Science": 9,
-        "Signal Processing": 1,
-        "Media Technology": 3,
-        "Strategy and Management": 1,
-        "Economics and Econometrics": 1,
-        "Modeling and Simulation": 1,
-        "Business and International Management": 1,
-        "Computer Science Applications": 1,
-        "Statistical and Nonlinear Physics": 3,
-        "Oncology": 1,
-        "Computer Networks and Communications": 13,
-        "Other": 4,
-        "General Health Professions": 1,
-        "Biomedical Engineering": 1
-      },
-      "top_field": "Computer Science",
-      "top_subfield": "Information Systems"
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "ijcai",
+          "papers": 1
+        },
+        {
+          "venue": "cikm",
+          "papers": 1
+        },
+        {
+          "venue": "www",
+          "papers": 1
+        },
+        {
+          "venue": "mobicom",
+          "papers": 1
+        }
+      ]
     },
     {
       "name": "A. V. Subramanyam",
       "papers": 76,
-      "fields": {
-        "Computer Science": 63,
-        "Engineering": 8,
-        "Medicine": 3,
-        "Materials Science": 1,
-        "Other": 1
+      "domains": {
+        "Other": 66,
+        "Economics & computation": 9,
+        "Robotics": 1
       },
-      "subfields": {
-        "Computer Vision and Pattern Recognition": 45,
-        "Artificial Intelligence": 14,
-        "Computer Graphics and Computer-Aided Design": 2,
-        "Electrical and Electronic Engineering": 3,
-        "Epidemiology": 1,
-        "Computational Theory and Mathematics": 1,
-        "Health Informatics": 1,
-        "Computational Mechanics": 1,
-        "Media Technology": 1,
-        "Materials Chemistry": 1,
-        "Industrial and Manufacturing Engineering": 1,
-        "Information Systems": 1,
-        "Building and Construction": 1,
-        "Other": 1,
-        "Pathology and Forensic Medicine": 1,
-        "Biomedical Engineering": 1
+      "top_domain": "Other",
+      "top_venues": []
+    },
+    {
+      "name": "Debajyoti Bera",
+      "papers": 60,
+      "domains": {
+        "Other": 53,
+        "Cryptography": 1,
+        "High-performance computing": 1,
+        "Economics & computation": 4,
+        "The Web & information retrieval": 1
       },
-      "top_field": "Computer Science",
-      "top_subfield": "Computer Vision and Pattern Recognition"
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "cikm",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Arani Bhattacharya",
+      "papers": 57,
+      "domains": {
+        "Other": 50,
+        "Economics & computation": 3,
+        "Mobile computing": 2,
+        "The Web & information retrieval": 1,
+        "Measurement & perf. analysis": 1
+      },
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "mobicom",
+          "papers": 1
+        },
+        {
+          "venue": "sensys",
+          "papers": 1
+        },
+        {
+          "venue": "www",
+          "papers": 1
+        },
+        {
+          "venue": "imc",
+          "papers": 1
+        }
+      ]
     },
     {
       "name": "Huzur Saran",
       "papers": 57,
-      "fields": {
-        "Other": 57
+      "domains": {
+        "Other": 47,
+        "Economics & computation": 3,
+        "Algorithms & complexity": 5,
+        "High-performance computing": 2
       },
-      "subfields": {
-        "Other": 57
-      },
-      "top_field": "Other",
-      "top_subfield": "Other"
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "focs",
+          "papers": 4
+        },
+        {
+          "venue": "soda",
+          "papers": 1
+        }
+      ]
     },
     {
       "name": "Jainendra Shukla",
       "papers": 57,
-      "fields": {
-        "Other": 57
+      "domains": {
+        "Other": 48,
+        "Economics & computation": 6,
+        "Human-computer interaction": 2,
+        "Robotics": 1
       },
-      "subfields": {
-        "Other": 57
-      },
-      "top_field": "Other",
-      "top_subfield": "Other"
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "chi",
+          "papers": 2
+        },
+        {
+          "venue": "hri",
+          "papers": 1
+        }
+      ]
     },
     {
       "name": "Amit Kumar 0001",
       "papers": 53,
-      "fields": {
-        "Computer Science": 42,
-        "Psychology": 1,
-        "Agricultural and Biological Sciences": 2,
-        "Engineering": 1,
-        "Medicine": 3,
-        "Other": 2,
-        "Biochemistry, Genetics and Molecular Biology": 1,
-        "Social Sciences": 1
+      "domains": {
+        "Economics & computation": 10,
+        "Other": 38,
+        "Robotics": 1,
+        "Computer vision": 3,
+        "High-performance computing": 1
       },
-      "subfields": {
-        "Artificial Intelligence": 2,
-        "Social Psychology": 1,
-        "Plant Science": 2,
-        "Computer Vision and Pattern Recognition": 39,
-        "Aerospace Engineering": 1,
-        "Radiology, Nuclear Medicine and Imaging": 2,
-        "Other": 2,
-        "Molecular Biology": 1,
-        "Epidemiology": 1,
-        "Information Systems": 1,
-        "Urban Studies": 1
-      },
-      "top_field": "Computer Science",
-      "top_subfield": "Computer Vision and Pattern Recognition"
+      "top_domain": "Other",
+      "top_venues": []
     },
     {
       "name": "Ashish Chiplunkar",
       "papers": 39,
-      "fields": {
-        "Computer Science": 33,
-        "Engineering": 1,
-        "Decision Sciences": 3,
-        "Biochemistry, Genetics and Molecular Biology": 1,
-        "Mathematics": 1
+      "domains": {
+        "Algorithms & complexity": 6,
+        "Other": 30,
+        "Economics & computation": 2,
+        "Machine learning": 1
       },
-      "subfields": {
-        "Computer Networks and Communications": 22,
-        "Mechanical Engineering": 1,
-        "Signal Processing": 1,
-        "Management Science and Operations Research": 3,
-        "Computational Theory and Mathematics": 9,
-        "Information Systems": 1,
-        "Molecular Biology": 1,
-        "Geometry and Topology": 1
-      },
-      "top_field": "Computer Science",
-      "top_subfield": "Computer Networks and Communications"
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "soda",
+          "papers": 3
+        },
+        {
+          "venue": "focs",
+          "papers": 3
+        },
+        {
+          "venue": "icml",
+          "papers": 1
+        }
+      ]
     },
     {
       "name": "Bapi Chatterjee",
       "papers": 36,
-      "fields": {
-        "Computer Science": 32,
-        "Biochemistry, Genetics and Molecular Biology": 1,
-        "Mathematics": 1,
-        "Other": 1,
-        "Decision Sciences": 1
+      "domains": {
+        "Other": 30,
+        "Machine learning": 1,
+        "High-performance computing": 1,
+        "Artificial intelligence": 2,
+        "Databases": 1,
+        "Economics & computation": 1
       },
-      "subfields": {
-        "Computer Networks and Communications": 17,
-        "Artificial Intelligence": 10,
-        "Molecular Biology": 1,
-        "Signal Processing": 2,
-        "Statistics and Probability": 1,
-        "Computational Theory and Mathematics": 2,
-        "Other": 1,
-        "Information Systems and Management": 1,
-        "Hardware and Architecture": 1
-      },
-      "top_field": "Computer Science",
-      "top_subfield": "Computer Networks and Communications"
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "aaai",
+          "papers": 2
+        },
+        {
+          "venue": "icml",
+          "papers": 1
+        },
+        {
+          "venue": "icde",
+          "papers": 1
+        }
+      ]
     },
     {
       "name": "Adarsh Barik",
       "papers": 31,
-      "fields": {
-        "Materials Science": 1,
-        "Decision Sciences": 9,
-        "Computer Science": 10,
-        "Engineering": 8,
-        "Mathematics": 3
+      "domains": {
+        "Other": 28,
+        "Artificial intelligence": 1,
+        "Machine learning": 2
       },
-      "subfields": {
-        "Electronic, Optical and Magnetic Materials": 1,
-        "Management Science and Operations Research": 8,
-        "Hardware and Architecture": 1,
-        "Artificial Intelligence": 9,
-        "Mechanics of Materials": 1,
-        "Statistics, Probability and Uncertainty": 1,
-        "Numerical Analysis": 1,
-        "Computational Mechanics": 7,
-        "Statistics and Probability": 2
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "icml",
+          "papers": 2
+        },
+        {
+          "venue": "aaai",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Ankit Rajpal",
+      "papers": 31,
+      "domains": {
+        "Other": 24,
+        "Economics & computation": 3,
+        "Machine learning": 1,
+        "Computer security": 2,
+        "High-performance computing": 1
       },
-      "top_field": "Computer Science",
-      "top_subfield": "Artificial Intelligence"
+      "top_domain": "Other",
+      "top_venues": []
+    },
+    {
+      "name": "Debarka Sengupta",
+      "papers": 31,
+      "domains": {
+        "Other": 28,
+        "Economics & computation": 2,
+        "High-performance computing": 1
+      },
+      "top_domain": "Other",
+      "top_venues": []
     },
     {
       "name": "Ganesh Bagler",
       "papers": 30,
-      "fields": {
-        "Other": 30
+      "domains": {
+        "Other": 18,
+        "Economics & computation": 1,
+        "Databases": 9,
+        "Software engineering": 2
       },
-      "subfields": {
-        "Other": 30
-      },
-      "top_field": "Other",
-      "top_subfield": "Other"
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "icde",
+          "papers": 9
+        }
+      ]
     },
     {
       "name": "Kaustubh Beedkar",
       "papers": 29,
-      "fields": {
-        "Other": 29
+      "domains": {
+        "Other": 15,
+        "Databases": 12,
+        "Software engineering": 2
       },
-      "subfields": {
-        "Other": 29
-      },
-      "top_field": "Other",
-      "top_subfield": "Other"
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "sigmod",
+          "papers": 4
+        },
+        {
+          "venue": "icde",
+          "papers": 3
+        }
+      ]
     },
     {
       "name": "Bharti Rana",
       "papers": 27,
-      "fields": {
-        "Biochemistry, Genetics and Molecular Biology": 1,
-        "Other": 4,
-        "Medicine": 8,
-        "Computer Science": 5,
-        "Neuroscience": 8,
-        "Engineering": 1
+      "domains": {
+        "Other": 24,
+        "Economics & computation": 3
       },
-      "subfields": {
-        "Biophysics": 1,
-        "Other": 4,
-        "Psychiatry and Mental health": 2,
-        "Computer Vision and Pattern Recognition": 5,
-        "Cellular and Molecular Neuroscience": 1,
-        "Electrical and Electronic Engineering": 1,
-        "Radiology, Nuclear Medicine and Imaging": 2,
-        "Cognitive Neuroscience": 5,
-        "Neurology": 5,
-        "Complementary and alternative medicine": 1
-      },
-      "top_field": "Medicine",
-      "top_subfield": "Computer Vision and Pattern Recognition"
+      "top_domain": "Other",
+      "top_venues": []
     },
     {
       "name": "Bhaskar Mukhoty",
       "papers": 25,
-      "fields": {
-        "Computer Science": 12,
-        "Engineering": 7,
-        "Other": 3,
-        "Mathematics": 1,
-        "Earth and Planetary Sciences": 1,
-        "Physics and Astronomy": 1
+      "domains": {
+        "Machine learning": 2,
+        "Other": 19,
+        "Artificial intelligence": 3,
+        "Computer security": 1
       },
-      "subfields": {
-        "Computer Networks and Communications": 2,
-        "Artificial Intelligence": 10,
-        "Electrical and Electronic Engineering": 2,
-        "Computational Mechanics": 5,
-        "Other": 3,
-        "Modeling and Simulation": 1,
-        "Geophysics": 1,
-        "Statistical and Nonlinear Physics": 1
-      },
-      "top_field": "Computer Science",
-      "top_subfield": "Artificial Intelligence"
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "aaai",
+          "papers": 3
+        },
+        {
+          "venue": "iclr",
+          "papers": 2
+        },
+        {
+          "venue": "ccs",
+          "papers": 1
+        }
+      ]
     },
     {
       "name": "Abhilash Jindal",
       "papers": 23,
-      "fields": {
-        "Decision Sciences": 2,
-        "Computer Science": 4,
-        "Engineering": 13,
-        "Medicine": 1,
-        "Social Sciences": 1,
-        "Other": 1,
-        "Economics, Econometrics and Finance": 1
+      "domains": {
+        "Databases": 2,
+        "Other": 13,
+        "Mobile computing": 3,
+        "Operating systems": 4,
+        "The Web & information retrieval": 1
       },
-      "subfields": {
-        "Information Systems and Management": 2,
-        "Signal Processing": 1,
-        "Electrical and Electronic Engineering": 13,
-        "Computer Networks and Communications": 1,
-        "Pediatrics, Perinatology and Child Health": 1,
-        "Computer Vision and Pattern Recognition": 2,
-        "Sociology and Political Science": 1,
-        "Other": 1,
-        "Economics and Econometrics": 1
-      },
-      "top_field": "Engineering",
-      "top_subfield": "Electrical and Electronic Engineering"
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "mobicom",
+          "papers": 2
+        },
+        {
+          "venue": "sosp",
+          "papers": 2
+        },
+        {
+          "venue": "icde",
+          "papers": 1
+        },
+        {
+          "venue": "osdi",
+          "papers": 1
+        },
+        {
+          "venue": "www",
+          "papers": 1
+        }
+      ]
     },
     {
       "name": "Arambam James Singh",
       "papers": 15,
-      "fields": {
-        "Engineering": 4,
-        "Computer Science": 9,
-        "Social Sciences": 1,
-        "Physics and Astronomy": 1
+      "domains": {
+        "Other": 13,
+        "Artificial intelligence": 2
       },
-      "subfields": {
-        "Automotive Engineering": 2,
-        "Artificial Intelligence": 5,
-        "Computer Vision and Pattern Recognition": 1,
-        "Ocean Engineering": 2,
-        "Transportation": 1,
-        "Computer Networks and Communications": 3,
-        "Statistical and Nonlinear Physics": 1
-      },
-      "top_field": "Computer Science",
-      "top_subfield": "Artificial Intelligence"
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "aaai",
+          "papers": 2
+        }
+      ]
     },
     {
       "name": "Anubha Gupta",
       "papers": 11,
-      "fields": {
-        "Computer Science": 9,
-        "Other": 1,
-        "Social Sciences": 1
+      "domains": {
+        "Design automation": 2,
+        "Other": 5,
+        "Logic & verification": 4
       },
-      "subfields": {
-        "Computational Theory and Mathematics": 9,
-        "Other": 1,
-        "Cultural Studies": 1
-      },
-      "top_field": "Computer Science",
-      "top_subfield": "Computational Theory and Mathematics"
+      "top_domain": "Other",
+      "top_venues": [
+        {
+          "venue": "cav",
+          "papers": 4
+        },
+        {
+          "venue": "iccad",
+          "papers": 1
+        },
+        {
+          "venue": "dac",
+          "papers": 1
+        }
+      ]
     },
     {
       "name": "Bharti",
       "papers": 3,
-      "fields": {
-        "Computer Science": 3
+      "domains": {
+        "Other": 2,
+        "High-performance computing": 1
       },
-      "subfields": {
-        "Computer Vision and Pattern Recognition": 3
-      },
-      "top_field": "Computer Science",
-      "top_subfield": "Computer Vision and Pattern Recognition"
+      "top_domain": "Other",
+      "top_venues": []
     }
   ]
 }
