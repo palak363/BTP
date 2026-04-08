@@ -2,7 +2,12 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 const HomePage = () => {
-  const [rankingType, setRankingType] = useState("csr");
+  const [rankingType, setRankingType] = useState({
+    csr: true,
+    coreAStar: false,
+    coreA: false
+  });
+
   const [uni1, setUni1] = useState("");
   const [uni2, setUni2] = useState("");
   const navigate = useNavigate();
@@ -13,6 +18,34 @@ const HomePage = () => {
     { institute: "IISc", papers: 390 },
     { institute: "IIIT Delhi", papers: 142 }
   ];
+
+  // 🔥 COMMON HEADING STYLE
+  const headingStyle = {
+    fontSize: "28px",
+    fontWeight: "700",
+    color: "#1a202c",
+    textAlign: "center",
+    margin: 0,
+    marginBottom: "16px"
+  };
+
+  // 🔥 Reusable button style
+  const btnStyle = (active) => ({
+    padding: "8px 16px",
+    borderRadius: "6px",
+    border: "1px solid #ccc",
+    background: active ? "#2b6cb0" : "white",
+    color: active ? "white" : "black",
+    cursor: "pointer"
+  });
+
+  // 🔥 Safe toggle
+  const toggle = (key) => {
+    setRankingType(prev => {
+      const updated = { ...prev, [key]: !prev[key] };
+      return updated.csr || updated.coreAStar || updated.coreA ? updated : prev;
+    });
+  };
 
   return (
     <div style={{ background: "#f5f7fa", minHeight: "100vh", padding: "40px" }}>
@@ -38,12 +71,12 @@ const HomePage = () => {
             India{" "}
             <span style={{ 
               color: "#2b6cb0",
-              borderBottom: "3px solid #2b6cb0",
-              paddingBottom: "2px"
+              textDecoration: "underline",
+              textDecorationThickness: "3px",
+              textUnderlineOffset: "6px"
             }}>
               CS Research
-            </span>{" "}
-            Rankings
+            </span>
           </h1>
 
           <p style={{ 
@@ -55,62 +88,79 @@ const HomePage = () => {
           </p>
         </div>
 
-        {/* CONTROLS */}
+        {/* RANKING CRITERIA */}
         <div style={{
           background: "white",
-          padding: "20px",
+          padding: "30px 20px",
           borderRadius: "10px",
           marginBottom: "20px",
           boxShadow: "0 2px 10px rgba(0,0,0,0.05)"
         }}>
-          <h3 style={{ marginBottom: "10px" }}>Ranking Criteria</h3>
+          <h2 style={headingStyle}>
+            Ranking Criteria
+          </h2>
 
-          <button
-            onClick={() => setRankingType("csr")}
-            style={{
-              marginRight: "10px",
-              padding: "8px 16px",
-              borderRadius: "6px",
-              border: "1px solid #ccc",
-              background: rankingType === "csr" ? "#2b6cb0" : "white",
-              color: rankingType === "csr" ? "white" : "black",
-              cursor: "pointer"
-            }}
-          >
-            CSRankings
-          </button>
+          <p style={{
+            fontSize: "14px",
+            color: "#4a5568",
+            marginBottom: "20px",
+            textAlign: "center"
+          }}>
+            Select ranking sources and conference tiers
+          </p>
 
-          <button
-            onClick={() => setRankingType("core")}
-            style={{
-              padding: "8px 16px",
-              borderRadius: "6px",
-              border: "1px solid #ccc",
-              background: rankingType === "core" ? "#2b6cb0" : "white",
-              color: rankingType === "core" ? "white" : "black",
-              cursor: "pointer"
-            }}
-          >
-            CORE Ranking
-          </button>
+          <div style={{
+            display: "flex",
+            justifyContent: "center",
+            gap: "12px",
+            flexWrap: "wrap"
+          }}>
+
+            <button onClick={() => toggle("csr")} style={btnStyle(rankingType.csr)}>
+              CSRankings
+            </button>
+
+            <button onClick={() => toggle("coreAStar")} style={btnStyle(rankingType.coreAStar)}>
+              CORE A*
+            </button>
+
+            <button onClick={() => toggle("coreA")} style={btnStyle(rankingType.coreA)}>
+              CORE A
+            </button>
+
+          </div>
         </div>
 
         {/* COMPARE UNIVERSITIES */}
         <div style={{
           background: "white",
-          padding: "20px",
+          padding: "30px 20px",
           borderRadius: "10px",
           marginBottom: "20px",
           boxShadow: "0 2px 10px rgba(0,0,0,0.05)"
         }}>
-          <h3 style={{ marginBottom: "15px" }}>Compare Universities</h3>
+          <h2 style={headingStyle}>
+            Compare Universities
+          </h2>
 
-          <div style={{ display: "flex", gap: "10px" }}>
+          <div style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "12px",
+            flexWrap: "wrap"
+          }}>
 
             <select
               value={uni1}
               onChange={(e) => setUni1(e.target.value)}
-              style={{ padding: "8px", flex: 1 }}
+              style={{
+                padding: "10px",
+                flex: 1,
+                minWidth: "220px",
+                borderRadius: "6px",
+                border: "1px solid #ccc"
+              }}
             >
               <option value="">Select University 1</option>
               {rankingData.map((inst, i) => (
@@ -123,7 +173,13 @@ const HomePage = () => {
             <select
               value={uni2}
               onChange={(e) => setUni2(e.target.value)}
-              style={{ padding: "8px", flex: 1 }}
+              style={{
+                padding: "10px",
+                flex: 1,
+                minWidth: "220px",
+                borderRadius: "6px",
+                border: "1px solid #ccc"
+              }}
             >
               <option value="">Select University 2</option>
               {rankingData.map((inst, i) => (
@@ -142,12 +198,13 @@ const HomePage = () => {
                 }
               }}
               style={{
-                padding: "8px 16px",
+                padding: "10px 18px",
                 background: "#2b6cb0",
                 color: "white",
                 border: "none",
                 borderRadius: "6px",
-                cursor: "pointer"
+                cursor: "pointer",
+                fontWeight: "600"
               }}
             >
               Compare
@@ -164,14 +221,7 @@ const HomePage = () => {
           overflow: "hidden"
         }}>
           
-          <h2 style={{ 
-            padding: "20px", 
-            margin: 0,
-            color: "#1a202c",
-            fontWeight: "600",
-            borderBottom: "1px solid #eee",
-            background: "#fafafa"
-          }}>
+          <h2 style={headingStyle}>
             Institute Rankings
           </h2>
 
@@ -187,7 +237,6 @@ const HomePage = () => {
             <tbody>
               {rankingData.map((inst, index) => (
                 <tr key={index} style={{ borderTop: "1px solid #eee" }}>
-                  
                   <td style={{ padding: "12px", fontWeight: "500" }}>
                     {index + 1}
                   </td>
@@ -195,8 +244,8 @@ const HomePage = () => {
                   <td style={{ padding: "12px" }}>
                     <Link
                       to={`/institute/${inst.institute}`}
-                      style={{ 
-                        color: "#2b6cb0", 
+                      style={{
+                        color: "#2b6cb0",
                         textDecoration: "none",
                         fontWeight: "500"
                       }}
@@ -208,7 +257,6 @@ const HomePage = () => {
                   <td style={{ padding: "12px" }}>
                     {inst.papers}
                   </td>
-
                 </tr>
               ))}
             </tbody>

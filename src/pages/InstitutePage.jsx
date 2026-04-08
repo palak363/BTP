@@ -167,7 +167,7 @@ const InstitutePage = () => {
   const [facultyData, setFacultyData] = useState([]);
   const [domainsData, setDomainsData] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [sortBy, setSortBy] = useState("score");
+  const [sortBy, setSortBy] = useState("papers");
 
   useEffect(() => {
     // Fetch both rankings and domains data
@@ -188,16 +188,17 @@ const InstitutePage = () => {
 
   // 🔥 COMPUTE REAL STATS
   const totalPapers = facultyData.reduce((sum, f) => sum + f.papers, 0);
-  const totalScore = facultyData.reduce((sum, f) => sum + f.score, 0);
+  // const totalScore = facultyData.reduce((sum, f) => sum + f.score, 0);
 
-  const citations = totalScore * 50; // temporary logic
-  const hIndex = Math.floor(totalScore / 10);
+  // const citations = totalScore * 50; // temporary logic
+  // const hIndex = Math.floor(totalScore / 10);
 
-  // 🔥 SORT BASED ON USER CHOICE
-  const sortedFaculty = [...facultyData].sort((a, b) => {
-    if (sortBy === "score") return b.score - a.score;
-    return b.papers - a.papers;
-  });
+  // // 🔥 SORT BASED ON USER CHOICE
+  // const sortedFaculty = [...facultyData].sort((a, b) => {
+  //   if (sortBy === "score") return b.score - a.score;
+  //   return b.papers - a.papers;
+  // });
+  const sortedFaculty = [...facultyData].sort((a, b) => b.papers - a.papers);
 
   const topAuthors = sortedFaculty.slice(0, 5);
 
@@ -242,7 +243,7 @@ const InstitutePage = () => {
         {/* STATS CARDS */}
         <div style={{
           display: "flex",
-          gap: "20px",
+          justifyContent: "center",
           marginBottom: "20px"
         }}>
           <div style={cardStyle}>
@@ -250,7 +251,7 @@ const InstitutePage = () => {
             <h2 style={valueStyle}>{totalPapers}</h2>
           </div>
 
-          <div style={cardStyle}>
+          {/* <div style={cardStyle}>
             <p style={labelStyle}>Citations</p>
             <h2 style={valueStyle}>{citations}</h2>
           </div>
@@ -258,7 +259,7 @@ const InstitutePage = () => {
           <div style={cardStyle}>
             <p style={labelStyle}>H-Index</p>
             <h2 style={valueStyle}>{hIndex}</h2>
-          </div>
+          </div> */}
         </div>
 
         {/* RESEARCH AREAS */}
@@ -285,7 +286,7 @@ const InstitutePage = () => {
 
           {/* 🔥 TOGGLE BUTTONS */}
           <div style={{ marginBottom: "15px", display: "flex", gap: "10px" }}>
-            <button
+            {/* <button
               onClick={() => setSortBy("score")}
               style={{
                 padding: "8px 12px",
@@ -297,7 +298,7 @@ const InstitutePage = () => {
               }}
             >
               Sort by Score
-            </button>
+            </button> */}
 
             <button
               onClick={() => setSortBy("papers")}
@@ -310,7 +311,7 @@ const InstitutePage = () => {
                 color: sortBy === "papers" ? "white" : "#333"
               }}
             >
-              Sort by Papers
+              Sorted by Number of Papers
             </button>
           </div>
 
