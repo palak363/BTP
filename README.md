@@ -1,4 +1,4 @@
-# India CS Rankings
+# India CS Research
 
 A research analytics platform for analyzing Computer Science research output of Indian institutes. Built with React + Flask + PostgreSQL.
 
