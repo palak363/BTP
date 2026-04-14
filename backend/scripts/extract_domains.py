@@ -135,6 +135,8 @@ for _, row in faculty.iterrows():
         domain_counts = defaultdict(int)
         venue_counts  = defaultdict(int)
 
+        cs_paper_count = 0
+
         for paper in papers:
             venue  = get_paper_venue(paper)
             domain = classify_venue(venue)
@@ -146,18 +148,20 @@ for _, row in faculty.iterrows():
             if venue and is_csrankings_venue(venue):
                 venue_counts[venue] += 1
                 all_venues[venue]   += 1
+                cs_paper_count += 1
 
+        domain_counts.pop("Other", None)  # Remove "Other" from domain distribution
         top_domain = max(domain_counts, key=domain_counts.get)
 
         results.append({
-            "name":       name,
-            "papers":     len(papers),
+            "name":       name,            
+            "papers":     cs_paper_count,
             "domains":    dict(domain_counts),
             "top_domain": top_domain,
             "top_venues": [{"venue": v, "papers": c} for v, c in sorted(venue_counts.items(), key=lambda x: -x[1])[:5]],
         })
 
-        print(f"  {len(papers)} papers | top: {top_domain}")
+        print(f"  {cs_paper_count} papers | top: {top_domain}")
 
     except Exception as e:
         print(f"  Error: {e}")

@@ -1,8 +1,8 @@
 {
   "total_faculty": 26,
-  "total_papers": 1512,
+  "total_papers": 165,
   "domain_distribution": {
-    "Other": 1211,
+    "Other": 1219,
     "Economics & computation": 80,
     "Robotics": 5,
     "Artificial intelligence": 20,
@@ -109,16 +109,46 @@
   ],
   "faculty_rankings": [
     {
+      "name": "Pushpendra Singh",
+      "papers": 27,
+      "domains": {
+        "Economics & computation": 4,
+        "Human-computer interaction": 20,
+        "Natural language processing": 1,
+        "Mobile computing": 7,
+        "The Web & information retrieval": 1,
+        "High-performance computing": 3
+      },
+      "top_domain": "Human-computer interaction",
+      "top_venues": [
+        {
+          "venue": "chi",
+          "papers": 17
+        },
+        {
+          "venue": "sensys",
+          "papers": 7
+        },
+        {
+          "venue": "cscw",
+          "papers": 2
+        },
+        {
+          "venue": "www",
+          "papers": 1
+        }
+      ]
+    },
+    {
       "name": "Chetan Arora 0001",
-      "papers": 165,
+      "papers": 27,
       "domains": {
         "Artificial intelligence": 2,
-        "Other": 133,
         "Computer vision": 24,
         "Robotics": 2,
         "Economics & computation": 4
       },
-      "top_domain": "Other",
+      "top_domain": "Computer vision",
       "top_venues": [
         {
           "venue": "cvpr",
@@ -144,10 +174,9 @@
     },
     {
       "name": "Gautam M. Shroff",
-      "papers": 160,
+      "papers": 24,
       "domains": {
         "Artificial intelligence": 7,
-        "Other": 131,
         "The Web & information retrieval": 7,
         "Natural language processing": 6,
         "Economics & computation": 3,
@@ -156,7 +185,7 @@
         "Mobile computing": 1,
         "Software engineering": 3
       },
-      "top_domain": "Other",
+      "top_domain": "Artificial intelligence",
       "top_venues": [
         {
           "venue": "aaai",
@@ -181,61 +210,16 @@
       ]
     },
     {
-      "name": "Pushpendra Singh",
-      "papers": 111,
-      "domains": {
-        "Economics & computation": 4,
-        "Other": 75,
-        "Human-computer interaction": 20,
-        "Natural language processing": 1,
-        "Mobile computing": 7,
-        "The Web & information retrieval": 1,
-        "High-performance computing": 3
-      },
-      "top_domain": "Other",
-      "top_venues": [
-        {
-          "venue": "chi",
-          "papers": 17
-        },
-        {
-          "venue": "sensys",
-          "papers": 7
-        },
-        {
-          "venue": "cscw",
-          "papers": 2
-        },
-        {
-          "venue": "www",
-          "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "G. P. S. Raghava",
-      "papers": 103,
-      "domains": {
-        "Software engineering": 11,
-        "Other": 90,
-        "High-performance computing": 1,
-        "Economics & computation": 1
-      },
-      "top_domain": "Other",
-      "top_venues": []
-    },
-    {
       "name": "Amitabha Bagchi",
-      "papers": 96,
+      "papers": 14,
       "domains": {
-        "Other": 73,
         "Databases": 10,
         "Artificial intelligence": 2,
         "The Web & information retrieval": 6,
         "Economics & computation": 3,
         "High-performance computing": 2
       },
-      "top_domain": "Other",
+      "top_domain": "Databases",
       "top_venues": [
         {
           "venue": "icde",
@@ -255,355 +239,20 @@
         },
         {
           "venue": "ijcai",
-          "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "Arun Balaji Buduru",
-      "papers": 96,
-      "domains": {
-        "Other": 73,
-        "Natural language processing": 3,
-        "Economics & computation": 17,
-        "Software engineering": 1,
-        "High-performance computing": 2
-      },
-      "top_domain": "Other",
-      "top_venues": [
-        {
-          "venue": "naacl",
-          "papers": 2
-        },
-        {
-          "venue": "acl",
-          "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "Aaditeshwar Seth",
-      "papers": 90,
-      "domains": {
-        "Other": 85,
-        "Artificial intelligence": 1,
-        "Economics & computation": 1,
-        "The Web & information retrieval": 2,
-        "Mobile computing": 1
-      },
-      "top_domain": "Other",
-      "top_venues": [
-        {
-          "venue": "ijcai",
-          "papers": 1
-        },
-        {
-          "venue": "cikm",
-          "papers": 1
-        },
-        {
-          "venue": "www",
-          "papers": 1
-        },
-        {
-          "venue": "mobicom",
-          "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "A. V. Subramanyam",
-      "papers": 76,
-      "domains": {
-        "Other": 66,
-        "Economics & computation": 9,
-        "Robotics": 1
-      },
-      "top_domain": "Other",
-      "top_venues": []
-    },
-    {
-      "name": "Debajyoti Bera",
-      "papers": 60,
-      "domains": {
-        "Other": 53,
-        "Cryptography": 1,
-        "High-performance computing": 1,
-        "Economics & computation": 4,
-        "The Web & information retrieval": 1
-      },
-      "top_domain": "Other",
-      "top_venues": [
-        {
-          "venue": "cikm",
-          "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "Arani Bhattacharya",
-      "papers": 57,
-      "domains": {
-        "Other": 50,
-        "Economics & computation": 3,
-        "Mobile computing": 2,
-        "The Web & information retrieval": 1,
-        "Measurement & perf. analysis": 1
-      },
-      "top_domain": "Other",
-      "top_venues": [
-        {
-          "venue": "mobicom",
-          "papers": 1
-        },
-        {
-          "venue": "sensys",
-          "papers": 1
-        },
-        {
-          "venue": "www",
-          "papers": 1
-        },
-        {
-          "venue": "imc",
-          "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "Huzur Saran",
-      "papers": 57,
-      "domains": {
-        "Other": 47,
-        "Economics & computation": 3,
-        "Algorithms & complexity": 5,
-        "High-performance computing": 2
-      },
-      "top_domain": "Other",
-      "top_venues": [
-        {
-          "venue": "focs",
-          "papers": 4
-        },
-        {
-          "venue": "soda",
-          "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "Jainendra Shukla",
-      "papers": 57,
-      "domains": {
-        "Other": 48,
-        "Economics & computation": 6,
-        "Human-computer interaction": 2,
-        "Robotics": 1
-      },
-      "top_domain": "Other",
-      "top_venues": [
-        {
-          "venue": "chi",
-          "papers": 2
-        },
-        {
-          "venue": "hri",
-          "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "Amit Kumar 0001",
-      "papers": 53,
-      "domains": {
-        "Economics & computation": 10,
-        "Other": 38,
-        "Robotics": 1,
-        "Computer vision": 3,
-        "High-performance computing": 1
-      },
-      "top_domain": "Other",
-      "top_venues": []
-    },
-    {
-      "name": "Ashish Chiplunkar",
-      "papers": 39,
-      "domains": {
-        "Algorithms & complexity": 6,
-        "Other": 30,
-        "Economics & computation": 2,
-        "Machine learning": 1
-      },
-      "top_domain": "Other",
-      "top_venues": [
-        {
-          "venue": "soda",
-          "papers": 3
-        },
-        {
-          "venue": "focs",
-          "papers": 3
-        },
-        {
-          "venue": "icml",
-          "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "Bapi Chatterjee",
-      "papers": 36,
-      "domains": {
-        "Other": 30,
-        "Machine learning": 1,
-        "High-performance computing": 1,
-        "Artificial intelligence": 2,
-        "Databases": 1,
-        "Economics & computation": 1
-      },
-      "top_domain": "Other",
-      "top_venues": [
-        {
-          "venue": "aaai",
-          "papers": 2
-        },
-        {
-          "venue": "icml",
-          "papers": 1
-        },
-        {
-          "venue": "icde",
-          "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "Adarsh Barik",
-      "papers": 31,
-      "domains": {
-        "Other": 28,
-        "Artificial intelligence": 1,
-        "Machine learning": 2
-      },
-      "top_domain": "Other",
-      "top_venues": [
-        {
-          "venue": "icml",
-          "papers": 2
-        },
-        {
-          "venue": "aaai",
-          "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "Ankit Rajpal",
-      "papers": 31,
-      "domains": {
-        "Other": 24,
-        "Economics & computation": 3,
-        "Machine learning": 1,
-        "Computer security": 2,
-        "High-performance computing": 1
-      },
-      "top_domain": "Other",
-      "top_venues": []
-    },
-    {
-      "name": "Debarka Sengupta",
-      "papers": 31,
-      "domains": {
-        "Other": 28,
-        "Economics & computation": 2,
-        "High-performance computing": 1
-      },
-      "top_domain": "Other",
-      "top_venues": []
-    },
-    {
-      "name": "Ganesh Bagler",
-      "papers": 30,
-      "domains": {
-        "Other": 18,
-        "Economics & computation": 1,
-        "Databases": 9,
-        "Software engineering": 2
-      },
-      "top_domain": "Other",
-      "top_venues": [
-        {
-          "venue": "icde",
-          "papers": 9
-        }
-      ]
-    },
-    {
-      "name": "Kaustubh Beedkar",
-      "papers": 29,
-      "domains": {
-        "Other": 15,
-        "Databases": 12,
-        "Software engineering": 2
-      },
-      "top_domain": "Other",
-      "top_venues": [
-        {
-          "venue": "sigmod",
-          "papers": 4
-        },
-        {
-          "venue": "icde",
-          "papers": 3
-        }
-      ]
-    },
-    {
-      "name": "Bharti Rana",
-      "papers": 27,
-      "domains": {
-        "Other": 24,
-        "Economics & computation": 3
-      },
-      "top_domain": "Other",
-      "top_venues": []
-    },
-    {
-      "name": "Bhaskar Mukhoty",
-      "papers": 25,
-      "domains": {
-        "Machine learning": 2,
-        "Other": 19,
-        "Artificial intelligence": 3,
-        "Computer security": 1
-      },
-      "top_domain": "Other",
-      "top_venues": [
-        {
-          "venue": "aaai",
-          "papers": 3
-        },
-        {
-          "venue": "iclr",
-          "papers": 2
-        },
-        {
-          "venue": "ccs",
           "papers": 1
         }
       ]
     },
     {
       "name": "Abhilash Jindal",
-      "papers": 23,
+      "papers": 9,
       "domains": {
         "Databases": 2,
-        "Other": 13,
         "Mobile computing": 3,
         "Operating systems": 4,
         "The Web & information retrieval": 1
       },
-      "top_domain": "Other",
+      "top_domain": "Operating systems",
       "top_venues": [
         {
           "venue": "mobicom",
@@ -628,29 +277,72 @@
       ]
     },
     {
-      "name": "Arambam James Singh",
-      "papers": 15,
+      "name": "Ganesh Bagler",
+      "papers": 9,
       "domains": {
-        "Other": 13,
-        "Artificial intelligence": 2
+        "Economics & computation": 1,
+        "Databases": 9,
+        "Software engineering": 2
       },
-      "top_domain": "Other",
+      "top_domain": "Databases",
       "top_venues": [
         {
-          "venue": "aaai",
-          "papers": 2
+          "venue": "icde",
+          "papers": 9
+        }
+      ]
+    },
+    {
+      "name": "Ashish Chiplunkar",
+      "papers": 7,
+      "domains": {
+        "Algorithms & complexity": 6,
+        "Economics & computation": 2,
+        "Machine learning": 1
+      },
+      "top_domain": "Algorithms & complexity",
+      "top_venues": [
+        {
+          "venue": "soda",
+          "papers": 3
+        },
+        {
+          "venue": "focs",
+          "papers": 3
+        },
+        {
+          "venue": "icml",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Kaustubh Beedkar",
+      "papers": 7,
+      "domains": {
+        "Databases": 12,
+        "Software engineering": 2
+      },
+      "top_domain": "Databases",
+      "top_venues": [
+        {
+          "venue": "sigmod",
+          "papers": 4
+        },
+        {
+          "venue": "icde",
+          "papers": 3
         }
       ]
     },
     {
       "name": "Anubha Gupta",
-      "papers": 11,
+      "papers": 6,
       "domains": {
         "Design automation": 2,
-        "Other": 5,
         "Logic & verification": 4
       },
-      "top_domain": "Other",
+      "top_domain": "Logic & verification",
       "top_venues": [
         {
           "venue": "cav",
@@ -667,13 +359,295 @@
       ]
     },
     {
-      "name": "Bharti",
+      "name": "Bhaskar Mukhoty",
+      "papers": 6,
+      "domains": {
+        "Machine learning": 2,
+        "Artificial intelligence": 3,
+        "Computer security": 1
+      },
+      "top_domain": "Artificial intelligence",
+      "top_venues": [
+        {
+          "venue": "aaai",
+          "papers": 3
+        },
+        {
+          "venue": "iclr",
+          "papers": 2
+        },
+        {
+          "venue": "ccs",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Huzur Saran",
+      "papers": 5,
+      "domains": {
+        "Economics & computation": 3,
+        "Algorithms & complexity": 5,
+        "High-performance computing": 2
+      },
+      "top_domain": "Algorithms & complexity",
+      "top_venues": [
+        {
+          "venue": "focs",
+          "papers": 4
+        },
+        {
+          "venue": "soda",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Aaditeshwar Seth",
+      "papers": 4,
+      "domains": {
+        "Artificial intelligence": 1,
+        "Economics & computation": 1,
+        "The Web & information retrieval": 2,
+        "Mobile computing": 1
+      },
+      "top_domain": "The Web & information retrieval",
+      "top_venues": [
+        {
+          "venue": "ijcai",
+          "papers": 1
+        },
+        {
+          "venue": "cikm",
+          "papers": 1
+        },
+        {
+          "venue": "www",
+          "papers": 1
+        },
+        {
+          "venue": "mobicom",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Arani Bhattacharya",
+      "papers": 4,
+      "domains": {
+        "Economics & computation": 3,
+        "Mobile computing": 2,
+        "The Web & information retrieval": 1,
+        "Measurement & perf. analysis": 1
+      },
+      "top_domain": "Economics & computation",
+      "top_venues": [
+        {
+          "venue": "mobicom",
+          "papers": 1
+        },
+        {
+          "venue": "sensys",
+          "papers": 1
+        },
+        {
+          "venue": "www",
+          "papers": 1
+        },
+        {
+          "venue": "imc",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Bapi Chatterjee",
+      "papers": 4,
+      "domains": {
+        "Machine learning": 1,
+        "High-performance computing": 1,
+        "Artificial intelligence": 2,
+        "Databases": 1,
+        "Economics & computation": 1
+      },
+      "top_domain": "Artificial intelligence",
+      "top_venues": [
+        {
+          "venue": "aaai",
+          "papers": 2
+        },
+        {
+          "venue": "icml",
+          "papers": 1
+        },
+        {
+          "venue": "icde",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Adarsh Barik",
       "papers": 3,
       "domains": {
-        "Other": 2,
+        "Artificial intelligence": 1,
+        "Machine learning": 2
+      },
+      "top_domain": "Machine learning",
+      "top_venues": [
+        {
+          "venue": "icml",
+          "papers": 2
+        },
+        {
+          "venue": "aaai",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Arun Balaji Buduru",
+      "papers": 3,
+      "domains": {
+        "Natural language processing": 3,
+        "Economics & computation": 17,
+        "Software engineering": 1,
+        "High-performance computing": 2
+      },
+      "top_domain": "Economics & computation",
+      "top_venues": [
+        {
+          "venue": "naacl",
+          "papers": 2
+        },
+        {
+          "venue": "acl",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Jainendra Shukla",
+      "papers": 3,
+      "domains": {
+        "Economics & computation": 6,
+        "Human-computer interaction": 2,
+        "Robotics": 1
+      },
+      "top_domain": "Economics & computation",
+      "top_venues": [
+        {
+          "venue": "chi",
+          "papers": 2
+        },
+        {
+          "venue": "hri",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Arambam James Singh",
+      "papers": 2,
+      "domains": {
+        "Artificial intelligence": 2
+      },
+      "top_domain": "Artificial intelligence",
+      "top_venues": [
+        {
+          "venue": "aaai",
+          "papers": 2
+        }
+      ]
+    },
+    {
+      "name": "Debajyoti Bera",
+      "papers": 1,
+      "domains": {
+        "Cryptography": 1,
+        "High-performance computing": 1,
+        "Economics & computation": 4,
+        "The Web & information retrieval": 1
+      },
+      "top_domain": "Economics & computation",
+      "top_venues": [
+        {
+          "venue": "cikm",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "A. V. Subramanyam",
+      "papers": 0,
+      "domains": {
+        "Economics & computation": 9,
+        "Robotics": 1
+      },
+      "top_domain": "Economics & computation",
+      "top_venues": []
+    },
+    {
+      "name": "Amit Kumar 0001",
+      "papers": 0,
+      "domains": {
+        "Economics & computation": 10,
+        "Robotics": 1,
+        "Computer vision": 3,
         "High-performance computing": 1
       },
-      "top_domain": "Other",
+      "top_domain": "Economics & computation",
+      "top_venues": []
+    },
+    {
+      "name": "Ankit Rajpal",
+      "papers": 0,
+      "domains": {
+        "Economics & computation": 3,
+        "Machine learning": 1,
+        "Computer security": 2,
+        "High-performance computing": 1
+      },
+      "top_domain": "Economics & computation",
+      "top_venues": []
+    },
+    {
+      "name": "Bharti",
+      "papers": 0,
+      "domains": {
+        "High-performance computing": 1
+      },
+      "top_domain": "High-performance computing",
+      "top_venues": []
+    },
+    {
+      "name": "Bharti Rana",
+      "papers": 0,
+      "domains": {
+        "Economics & computation": 3
+      },
+      "top_domain": "Economics & computation",
+      "top_venues": []
+    },
+    {
+      "name": "Debarka Sengupta",
+      "papers": 0,
+      "domains": {
+        "Economics & computation": 2,
+        "High-performance computing": 1
+      },
+      "top_domain": "Economics & computation",
+      "top_venues": []
+    },
+    {
+      "name": "G. P. S. Raghava",
+      "papers": 0,
+      "domains": {
+        "Software engineering": 11,
+        "High-performance computing": 1,
+        "Economics & computation": 1
+      },
+      "top_domain": "Software engineering",
       "top_venues": []
     }
   ]

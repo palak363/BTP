@@ -5,6 +5,8 @@ from models import FacultyRanking
 if __name__ == "__main__":
     session = SessionLocal()
 
+    session.query(FacultyRanking).delete()
+
     with open("data/processed/iiitd_domains.json", "r", encoding="utf-8") as f:
         payload = json.load(f)
 
@@ -17,7 +19,7 @@ if __name__ == "__main__":
             top_domain=item.get("top_domain"),
             top_venues=item.get("top_venues", []),
         )
-        session.merge(row)
+        session.add(row)
 
     session.commit()
     session.close()
