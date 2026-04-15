@@ -93,7 +93,7 @@ def classify_venue(venue):
     if v_lower in VENUE_LOWER:
         return VENUE_LOWER[v_lower]
     for keyword, area in VENUE_LOWER.items():
-        if keyword in v_lower:
+        if keyword in v_lower and area != "Economics & computation":
             return area
     return "Other"
 

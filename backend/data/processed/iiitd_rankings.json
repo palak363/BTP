@@ -1,8 +1,18 @@
 [
   {
-    "name": "Chetan Arora 0001",
-    "papers": 165,
-    "score": 278
+    "name": "Rajiv Ratn Shah",
+    "papers": 347,
+    "score": 603
+  },
+  {
+    "name": "Md. Shad Akhtar",
+    "papers": 155,
+    "score": 285
+  },
+  {
+    "name": "Mukesh K. Mohania",
+    "papers": 181,
+    "score": 219
   },
   {
     "name": "Gautam M. Shroff",
@@ -15,7 +25,7 @@
     "score": 176
   },
   {
-    "name": "Pushpendra Singh",
+    "name": "Pushpendra Singh 0001",
     "papers": 111,
     "score": 155
   },
@@ -25,19 +35,24 @@
     "score": 140
   },
   {
-    "name": "Aaditeshwar Seth",
-    "papers": 90,
-    "score": 132
+    "name": "Pankaj Jalote",
+    "papers": 114,
+    "score": 133
   },
   {
-    "name": "Amitabha Bagchi",
-    "papers": 96,
-    "score": 125
+    "name": "Saket Anand",
+    "papers": 77,
+    "score": 124
   },
   {
     "name": "A. V. Subramanyam",
     "papers": 76,
     "score": 114
+  },
+  {
+    "name": "Raghava Mutharaju",
+    "papers": 63,
+    "score": 108
   },
   {
     "name": "Arani Bhattacharya",
@@ -55,14 +70,14 @@
     "score": 85
   },
   {
-    "name": "Huzur Saran",
-    "papers": 57,
-    "score": 66
+    "name": "Mukulika Maity",
+    "papers": 41,
+    "score": 72
   },
   {
-    "name": "Amit Kumar 0001",
-    "papers": 53,
-    "score": 63
+    "name": "Ojaswa Sharma",
+    "papers": 41,
+    "score": 65
   },
   {
     "name": "Bapi Chatterjee",
@@ -70,19 +85,9 @@
     "score": 58
   },
   {
-    "name": "Ashish Chiplunkar",
-    "papers": 39,
-    "score": 57
-  },
-  {
-    "name": "Ankit Rajpal",
-    "papers": 31,
-    "score": 56
-  },
-  {
-    "name": "Adarsh Barik",
-    "papers": 31,
-    "score": 55
+    "name": "Rajiv Raman 0001",
+    "papers": 45,
+    "score": 58
   },
   {
     "name": "Ganesh Bagler",
@@ -95,29 +100,24 @@
     "score": 50
   },
   {
-    "name": "Kaustubh Beedkar",
-    "papers": 29,
-    "score": 49
-  },
-  {
-    "name": "Bhaskar Mukhoty",
-    "papers": 25,
-    "score": 45
-  },
-  {
-    "name": "Abhilash Jindal",
-    "papers": 24,
-    "score": 36
-  },
-  {
-    "name": "Bharti Rana",
+    "name": "Sambuddho Chakravarty",
     "papers": 27,
-    "score": 35
+    "score": 40
   },
   {
-    "name": "Arambam James Singh",
-    "papers": 15,
-    "score": 24
+    "name": "Rinku Shah",
+    "papers": 19,
+    "score": 34
+  },
+  {
+    "name": "Piyus Kedia",
+    "papers": 14,
+    "score": 20
+  },
+  {
+    "name": "Nikhil Gupta 0008",
+    "papers": 11,
+    "score": 18
   },
   {
     "name": "Anubha Gupta",
@@ -125,8 +125,8 @@
     "score": 11
   },
   {
-    "name": "Bharti",
-    "papers": 3,
-    "score": 6
+    "name": "Ravi Anand",
+    "papers": 2,
+    "score": 4
   }
 ]

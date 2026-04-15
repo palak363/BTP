@@ -4,7 +4,7 @@ import pandas as pd
 df = pd.read_csv("../data/raw/csrankings.csv")
 
 # filter IIIT Delhi (handle variations)
-iiitd = df[df["affiliation"].str.contains("Delhi", case=False, na=False)]
+iiitd = df[df["affiliation"].str.contains("IIIT Delhi", case=False, na=False)]
 
 print(f"Found {len(iiitd)} IIITD faculty")
 
