@@ -29,3 +29,6 @@ backend/.env
 # Python cache
 backend/__pycache__/
 backend/**/__pycache__/
+
+# DBLP fetch cache (regenerable via build_iiitd_dataset.py)
+backend/data/raw/dblp_cache/

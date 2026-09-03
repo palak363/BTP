@@ -188,17 +188,12 @@ const InstitutePage = () => {
 
   // 🔥 COMPUTE REAL STATS
   const totalPapers = facultyData.reduce((sum, f) => sum + f.papers, 0);
-  // const totalScore = facultyData.reduce((sum, f) => sum + f.score, 0);
 
-  // const citations = totalScore * 50; // temporary logic
-  // const hIndex = Math.floor(totalScore / 10);
-
-  // // 🔥 SORT BASED ON USER CHOICE
-  // const sortedFaculty = [...facultyData].sort((a, b) => {
-  //   if (sortBy === "score") return b.score - a.score;
-  //   return b.papers - a.papers;
-  // });
-  const sortedFaculty = [...facultyData].sort((a, b) => b.papers - a.papers);
+  // 🔥 SORT BASED ON USER CHOICE
+  const sortedFaculty = [...facultyData].sort((a, b) => {
+    if (sortBy === "score") return b.score - a.score;
+    return b.papers - a.papers;
+  });
 
   const topAuthors = sortedFaculty.slice(0, 5);
 
@@ -286,7 +281,7 @@ const InstitutePage = () => {
 
           {/* 🔥 TOGGLE BUTTONS */}
           <div style={{ marginBottom: "15px", display: "flex", gap: "10px" }}>
-            {/* <button
+            <button
               onClick={() => setSortBy("score")}
               style={{
                 padding: "8px 12px",
@@ -298,7 +293,7 @@ const InstitutePage = () => {
               }}
             >
               Sort by Score
-            </button> */}
+            </button>
 
             <button
               onClick={() => setSortBy("papers")}
