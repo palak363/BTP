@@ -25,3 +25,10 @@ dist-ssr
 
 # Environment files
 backend/.env
+
+# Downloaded reference sources and bibliography caches
+backend/data/reference/
+backend/data/cache/
+__pycache__/
+*.pyc
+artifacts/

@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, JSON
+from sqlalchemy import Column, Integer, Float, String, JSON
 from db import Base
 
 class FacultyRanking(Base):
@@ -7,7 +7,7 @@ class FacultyRanking(Base):
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, unique=True, nullable=False)
     papers = Column(Integer, nullable=False)
-    score = Column(Integer, nullable=False)
+    score = Column(Float, nullable=False)
     domains = Column(JSON, nullable=True)
     top_domain = Column(String, nullable=True)
     top_venues = Column(JSON, nullable=True)

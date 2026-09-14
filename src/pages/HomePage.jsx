@@ -1,272 +1,54 @@
-import { useState } from "react";
+﻿import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { availableSources } from "../data";
 
-const HomePage = () => {
-  const [rankingType, setRankingType] = useState({
-    csr: true,
-    coreAStar: false,
-    coreA: false
-  });
+const institutes = [
+  { name: "IIT Delhi", location: "New Delhi", papers: 420 },
+  { name: "IIT Bombay", location: "Mumbai", papers: 410 },
+  { name: "IISc", location: "Bengaluru", papers: 390 },
+  { name: "IIIT Delhi", location: "New Delhi", papers: 142 },
+];
 
-  const [uni1, setUni1] = useState("");
-  const [uni2, setUni2] = useState("");
+export default function HomePage() {
+  const [first, setFirst] = useState("");
+  const [second, setSecond] = useState("");
   const navigate = useNavigate();
-
-  const rankingData = [
-    { institute: "IIT Delhi", papers: 420 },
-    { institute: "IIT Bombay", papers: 410 },
-    { institute: "IISc", papers: 390 },
-    { institute: "IIIT Delhi", papers: 142 }
-  ];
-
-  // 🔥 COMMON HEADING STYLE
-  const headingStyle = {
-    fontSize: "28px",
-    fontWeight: "700",
-    color: "#1a202c",
-    textAlign: "center",
-    margin: 0,
-    marginBottom: "16px"
-  };
-
-  // 🔥 Reusable button style
-  const btnStyle = (active) => ({
-    padding: "8px 16px",
-    borderRadius: "6px",
-    border: "1px solid #ccc",
-    background: active ? "#2b6cb0" : "white",
-    color: active ? "white" : "black",
-    cursor: "pointer"
-  });
-
-  // 🔥 Safe toggle
-  const toggle = (key) => {
-    setRankingType(prev => {
-      const updated = { ...prev, [key]: !prev[key] };
-      return updated.csr || updated.coreAStar || updated.coreA ? updated : prev;
-    });
-  };
-
-  return (
-    <div style={{ background: "#f5f7fa", minHeight: "100vh", padding: "40px" }}>
-      <div style={{ maxWidth: "900px", margin: "auto" }}>
-
-        {/* HEADER */}
-        <div style={{
-          background: "white",
-          padding: "40px 30px",
-          borderRadius: "12px",
-          marginBottom: "20px",
-          boxShadow: "0 4px 20px rgba(0,0,0,0.06)",
-          textAlign: "center"
-        }}>
-          
-          <h1 style={{ 
-            margin: 0,
-            fontSize: "42px",
-            fontWeight: "700",
-            letterSpacing: "0.5px",
-            color: "#1a202c"
-          }}>
-            India{" "}
-            <span style={{ 
-              color: "#2b6cb0",
-              textDecoration: "underline",
-              textDecorationThickness: "3px",
-              textUnderlineOffset: "6px"
-            }}>
-              CS Research
-            </span>
-          </h1>
-
-          <p style={{ 
-            color: "#555",
-            marginTop: "12px",
-            fontSize: "16px"
-          }}>
-            Analyze computer science research output of Indian institutes
-          </p>
-        </div>
-
-        {/* RANKING CRITERIA */}
-        <div style={{
-          background: "white",
-          padding: "30px 20px",
-          borderRadius: "10px",
-          marginBottom: "20px",
-          boxShadow: "0 2px 10px rgba(0,0,0,0.05)"
-        }}>
-          <h2 style={headingStyle}>
-            Ranking Criteria
-          </h2>
-
-          <p style={{
-            fontSize: "14px",
-            color: "#4a5568",
-            marginBottom: "20px",
-            textAlign: "center"
-          }}>
-            Select ranking sources and conference tiers
-          </p>
-
-          <div style={{
-            display: "flex",
-            justifyContent: "center",
-            gap: "12px",
-            flexWrap: "wrap"
-          }}>
-
-            <button onClick={() => toggle("csr")} style={btnStyle(rankingType.csr)}>
-              CSRankings
-            </button>
-
-            <button onClick={() => toggle("coreAStar")} style={btnStyle(rankingType.coreAStar)}>
-              CORE A*
-            </button>
-
-            <button onClick={() => toggle("coreA")} style={btnStyle(rankingType.coreA)}>
-              CORE A
-            </button>
-
-          </div>
-        </div>
-
-        {/* COMPARE UNIVERSITIES */}
-        <div style={{
-          background: "white",
-          padding: "30px 20px",
-          borderRadius: "10px",
-          marginBottom: "20px",
-          boxShadow: "0 2px 10px rgba(0,0,0,0.05)"
-        }}>
-          <h2 style={headingStyle}>
-            Compare Universities
-          </h2>
-
-          <div style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "12px",
-            flexWrap: "wrap"
-          }}>
-
-            <select
-              value={uni1}
-              onChange={(e) => setUni1(e.target.value)}
-              style={{
-                padding: "10px",
-                flex: 1,
-                minWidth: "220px",
-                borderRadius: "6px",
-                border: "1px solid #ccc"
-              }}
-            >
-              <option value="">Select University 1</option>
-              {rankingData.map((inst, i) => (
-                <option key={i} value={inst.institute}>
-                  {inst.institute}
-                </option>
-              ))}
-            </select>
-
-            <select
-              value={uni2}
-              onChange={(e) => setUni2(e.target.value)}
-              style={{
-                padding: "10px",
-                flex: 1,
-                minWidth: "220px",
-                borderRadius: "6px",
-                border: "1px solid #ccc"
-              }}
-            >
-              <option value="">Select University 2</option>
-              {rankingData.map((inst, i) => (
-                <option key={i} value={inst.institute}>
-                  {inst.institute}
-                </option>
-              ))}
-            </select>
-
-            <button
-              onClick={() => {
-                if (uni1 && uni2 && uni1 !== uni2) {
-                  navigate(`/compare/${uni1}/${uni2}`);
-                } else {
-                  alert("Select two different universities");
-                }
-              }}
-              style={{
-                padding: "10px 18px",
-                background: "#2b6cb0",
-                color: "white",
-                border: "none",
-                borderRadius: "6px",
-                cursor: "pointer",
-                fontWeight: "600"
-              }}
-            >
-              Compare
-            </button>
-
-          </div>
-        </div>
-
-        {/* TABLE */}
-        <div style={{
-          background: "white",
-          borderRadius: "10px",
-          boxShadow: "0 2px 10px rgba(0,0,0,0.05)",
-          overflow: "hidden"
-        }}>
-          
-          <h2 style={headingStyle}>
-            Institute Rankings
-          </h2>
-
-          <table style={{ width: "100%", borderCollapse: "collapse" }}>
-            <thead style={{ background: "#eef2f7" }}>
-              <tr>
-                <th style={{ padding: "12px", textAlign: "left" }}>Rank</th>
-                <th style={{ padding: "12px", textAlign: "left" }}>Institute</th>
-                <th style={{ padding: "12px", textAlign: "left" }}>Papers</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              {rankingData.map((inst, index) => (
-                <tr key={index} style={{ borderTop: "1px solid #eee" }}>
-                  <td style={{ padding: "12px", fontWeight: "500" }}>
-                    {index + 1}
-                  </td>
-
-                  <td style={{ padding: "12px" }}>
-                    <Link
-                      to={`/institute/${inst.institute}`}
-                      style={{
-                        color: "#2b6cb0",
-                        textDecoration: "none",
-                        fontWeight: "500"
-                      }}
-                    >
-                      {inst.institute}
-                    </Link>
-                  </td>
-
-                  <td style={{ padding: "12px" }}>
-                    {inst.papers}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-
-        </div>
-
+  return <div className="page">
+    <section className="hero">
+      <div><p className="eyebrow">A closer look at computer science</p>
+        <h1>Discover research.<br /><span>Understand its impact.</span></h1>
+        <p className="hero-copy">Explore the people, research areas, and publication venues shaping computer science in India.</p>
+        <Link className="button primary" to="/institute/IIIT%20Delhi">Explore IIIT Delhi ↗</Link>
+        <p className="quiet hero-footnote">Starting with IIIT Delhi. Built on transparent publication counts.</p>
       </div>
-    </div>
-  );
-};
-
-export default HomePage;
+      <div className="hero-graphic" aria-hidden="true">
+        <div className="orbit orbit-one" /><div className="orbit orbit-two" />
+        <div className="graph-center">Research<span>in focus</span></div>
+        <span className="graph-node node-one">AI & ML</span><span className="graph-node node-two">Systems</span>
+        <span className="graph-node node-three">Theory</span><span className="graph-node node-four">People</span>
+        <div className="graph-caption">CONNECTED BY CURIOSITY</div>
+      </div>
+    </section>
+    <div className="section-heading"><div><p className="eyebrow">Explore the landscape</p><h2>One view. Three venue selections.</h2></div><span className="quiet">Publication-based research metrics</span></div>
+    <section className="source-cards" aria-label="Ranking sources">
+      {[["CSRankings","Available baseline","Faculty publication counts and fractional credit from a pinned reference snapshot."],["CORE A*","Bibliography refresh needed","Expand the selection with A* conferences from the CORE2023 catalogue."],["CORE A","Bibliography refresh needed","Include A-ranked conferences, counting overlapping papers only once."]].map(([title,status,copy],index) =>
+        <article className="source-card" key={title}><span className="source-number">0{index+1}</span><span className="badge">{availableSources.includes(["csrankings","core-a-star","core-a"][index]) ? "Available in IIITD pilot" : status}</span><h3>{title}</h3><p>{index === 0 ? "Paper eligibility follows CSRankings, with fractional credit across all coauthors." : copy}</p></article>)}
+    </section>
+    <section className="panel">
+      <div className="panel-heading"><div><h2>Institute overview</h2><p>Preview of the national view. These numbers are placeholders.</p></div><span className="badge neutral">Sample data</span></div>
+      <div className="table-scroll"><table><thead><tr><th scope="col">Preview rank</th><th scope="col">Institute</th><th scope="col">Location</th><th scope="col" className="numeric">Sample papers</th><th scope="col">Explore</th></tr></thead>
+        <tbody>{institutes.map((institute, index) => <tr key={institute.name}>
+          <td className="rank">{String(index + 1).padStart(2, "0")}</td><td className="institute-name">{institute.name}</td><td className="quiet">{institute.location}</td><td className="numeric">{institute.papers}</td>
+          <td><Link to={`/institute/${encodeURIComponent(institute.name)}`}>{institute.name === "IIIT Delhi" ? "Open pilot ↗" : "Preview ↗"}</Link></td>
+        </tr>)}</tbody></table></div>
+    </section>
+    <section className="panel compare-panel">
+      <div><p className="eyebrow">Side by side</p><h2>Compare institutes</h2><p>Explore the comparison layout with sample data.</p></div>
+      <form className="compare-form" onSubmit={event => { event.preventDefault(); navigate(`/compare/${encodeURIComponent(first)}/${encodeURIComponent(second)}`); }}>
+        <label>First institute<select value={first} onChange={event => setFirst(event.target.value)} required><option value="">Choose an institute</option>{institutes.map(i => <option key={i.name}>{i.name}</option>)}</select></label>
+        <label>Second institute<select value={second} onChange={event => setSecond(event.target.value)} required><option value="">Choose an institute</option>{institutes.map(i => <option key={i.name} disabled={i.name === first}>{i.name}</option>)}</select></label>
+        <button className="primary" disabled={!first || !second || first === second}>Compare →</button>
+      </form>
+    </section>
+  </div>;
+}

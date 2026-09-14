@@ -1,0 +1,35 @@
+{
+  "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
+  "compared_cells": 151,
+  "matching": false,
+  "differences": [
+    {
+      "name": "Md. Shad Akhtar",
+      "area": "naacl",
+      "year": 2014,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Md. Shad Akhtar",
+      "area": "naacl",
+      "year": 2024,
+      "expected_papers": 1,
+      "actual_papers": 0,
+      "expected_adjusted": 0.16667,
+      "actual_adjusted": 0.0
+    },
+    {
+      "name": "Tanmoy Kundu 0001",
+      "area": "iros",
+      "year": 2023,
+      "expected_papers": 1,
+      "actual_papers": 0,
+      "expected_adjusted": 0.5,
+      "actual_adjusted": 0.0
+    }
+  ],
+  "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten."
+}

@@ -1,378 +1,107 @@
-// import React from "react";
-// import { useParams } from "react-router-dom";
-// import AreaChart from "../components/AreaChart";
+﻿import { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
+import { availableAreas, localSummary } from "../data";
 
-// const InstitutePage = () => {
-//   const { name } = useParams();
+const format = value => new Intl.NumberFormat("en-IN", { maximumFractionDigits: 2 }).format(value);
+const sources = [["csrankings", "CSRankings"], ["core-a-star", "CORE A*"], ["core-a", "CORE A"]];
 
-//   const institute = {
-//     name: name,
-//     totalPapers: 1245,
-//     citations: 15200,
-//     hIndex: 72,
-//     topAreas: [
-//       { area: "Machine Learning", papers: 320 },
-//       { area: "Computer Vision", papers: 210 },
-//       { area: "Distributed Systems", papers: 150 },
-//       { area: "Databases", papers: 120 },
-//     ],
-//     topVenues: [
-//       { venue: "NeurIPS", papers: 45 },
-//       { venue: "ICML", papers: 40 },
-//       { venue: "CVPR", papers: 38 },
-//       { venue: "SIGMOD", papers: 25 },
-//     ],
-//     topAuthors: [
-//       { name: "Author A", papers: 85 },
-//       { name: "Author B", papers: 70 },
-//       { name: "Author C", papers: 65 },
-//     ],
-//   };
+function Distribution({ title, items, field }) {
+  const maximum = items[0]?.papers || 1;
+  return <section className="panel distribution"><div className="panel-heading"><h2>{title}</h2><span className="quiet">Top 8</span></div>
+    {items.length ? items.slice(0, 8).map(item => <div className="bar-row" key={item[field]}>
+      <div><span>{item[field]}</span><strong>{format(item.papers)}</strong></div>
+      <div className="bar-track"><div style={{ width: `${item.papers / maximum * 100}%` }} /></div>
+    </div>) : <p className="empty">No publications in this selection.</p>}
+  </section>;
+}
 
-//   return (
-//     <div style={{ background: "#f5f7fa", minHeight: "100vh", padding: "40px" }}>
-//       <div style={{ maxWidth: "900px", margin: "auto" }}>
-
-//         {/* HEADER */}
-//         <div style={{
-//           background: "white",
-//           padding: "30px",
-//           borderRadius: "12px",
-//           marginBottom: "20px",
-//           boxShadow: "0 4px 20px rgba(0,0,0,0.06)"
-//         }}>
-//           <h1 style={{
-//             margin: 0,
-//             fontSize: "36px",
-//             fontWeight: "700",
-//             color: "#1a202c"
-//           }}>
-//             {institute.name}
-//           </h1>
-
-//           <p style={{ color: "#555", marginTop: "8px" }}>
-//             Computer Science Research Overview
-//           </p>
-//         </div>
-
-//         {/* STATS CARDS */}
-//         <div style={{
-//           display: "flex",
-//           gap: "20px",
-//           marginBottom: "20px"
-//         }}>
-//           <div style={cardStyle}>
-//             <p style={labelStyle}>Total Papers</p>
-//             <h2 style={valueStyle}>{institute.totalPapers}</h2>
-//           </div>
-
-//           <div style={cardStyle}>
-//             <p style={labelStyle}>Citations</p>
-//             <h2 style={valueStyle}>{institute.citations}</h2>
-//           </div>
-
-//           <div style={cardStyle}>
-//             <p style={labelStyle}>H-Index</p>
-//             <h2 style={valueStyle}>{institute.hIndex}</h2>
-//           </div>
-//         </div>
-
-//         {/* RESEARCH AREAS */}
-//         <div style={sectionStyle}>
-//           <h2 style={sectionTitle}>Research Areas</h2>
-//           <AreaChart areas={institute.topAreas} />
-//         </div>
-
-//         {/* TOP VENUES */}
-//         <div style={sectionStyle}>
-//           <h2 style={sectionTitle}>Top Venues</h2>
-
-//           {institute.topVenues.map((v, i) => (
-//             <div key={i} style={rowStyle}>
-//               <span>{v.venue}</span>
-//               <span>{v.papers} papers</span>
-//             </div>
-//           ))}
-//         </div>
-
-//         {/* TOP AUTHORS */}
-//         <div style={sectionStyle}>
-//           <h2 style={sectionTitle}>Top Authors</h2>
-
-//           {institute.topAuthors.map((a, i) => (
-//             <div key={i} style={rowStyle}>
-//               <span>{a.name}</span>
-//               <span>{a.papers} papers</span>
-//             </div>
-//           ))}
-//         </div>
-
-//       </div>
-//     </div>
-//   );
-// };
-
-// /* ---------- STYLES ---------- */
-
-// const cardStyle = {
-//   flex: 1,
-//   background: "white",
-//   padding: "20px",
-//   borderRadius: "10px",
-//   boxShadow: "0 2px 10px rgba(0,0,0,0.05)",
-//   textAlign: "center"
-// };
-
-// const labelStyle = {
-//   color: "#666",
-//   marginBottom: "5px"
-// };
-
-// const valueStyle = {
-//   margin: 0,
-//   color: "#2b6cb0"
-// };
-
-// const sectionStyle = {
-//   background: "white",
-//   borderRadius: "10px",
-//   padding: "20px",
-//   marginBottom: "20px",
-//   boxShadow: "0 2px 10px rgba(0,0,0,0.05)"
-// };
-
-// const sectionTitle = {
-//   marginBottom: "15px",
-//   color: "#1a202c",
-//   borderBottom: "1px solid #eee",
-//   paddingBottom: "8px"
-// };
-
-// const rowStyle = {
-//   display: "flex",
-//   justifyContent: "space-between",
-//   padding: "10px 0",
-//   borderBottom: "1px solid #f0f0f0"
-// };
-
-// export default InstitutePage;
-
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import AreaChart from "../components/AreaChart";
-
-const InstitutePage = () => {
-  const { name } = useParams();
-
-  const [facultyData, setFacultyData] = useState([]);
-  const [domainsData, setDomainsData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [sortBy, setSortBy] = useState("papers");
-
+function Pilot() {
+  const [filters, setFilters] = useState({ start: 2016, end: 2026, area: "", sources: ["csrankings"], optional: false });
+  const [draftStart, setDraftStart] = useState("2016");
+  const [draftEnd, setDraftEnd] = useState("2026");
+  const [state, setState] = useState({ data: null, loading: true, error: "", local: false });
+  const [search, setSearch] = useState("");
+  const [sort, setSort] = useState("score");
+  const [retry, setRetry] = useState(0);
+  const validYears = /^\d{4}$/.test(draftStart) && /^\d{4}$/.test(draftEnd) && +draftStart >= 1970 && +draftStart <= +draftEnd && +draftEnd <= 2269;
   useEffect(() => {
-    // Fetch both rankings and domains data
-    Promise.all([
-      fetch("http://localhost:5000/iiitd").then(res => res.json()),
-      fetch("http://localhost:5000/iiitd/domains").then(res => res.json())
-    ])
-      .then(([rankingsData, domainsData]) => {
-        setFacultyData(rankingsData);
-        setDomainsData(domainsData);
-        setLoading(false);
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 5000);
+    let active = true;
+    const params = new URLSearchParams({ start_year: filters.start, end_year: filters.end, sources: filters.sources.join(","), include_optional: filters.optional });
+    if (filters.area) params.set("area", filters.area);
+    fetch(`${import.meta.env.VITE_API_BASE_URL || "/api"}/iiitd/domains?${params}`, { signal: controller.signal })
+      .then(async response => {
+        if (!response.ok) throw new Error((await response.json().catch(() => ({}))).error || "The data service is unavailable.");
+        return response.json();
       })
-      .catch(err => {
-        console.error("API error:", err);
-        setLoading(false);
-      });
-  }, []);
+      .then(data => { if (active) setState({ data, loading: false, error: "", local: false }); })
+      .catch(error => {
+        if (!active) return;
+        const fallback = localSummary(filters.start, filters.end, filters.area, filters.optional, filters.sources);
+        setState({ data: fallback, loading: false, error: fallback ? "" : error.message, local: Boolean(fallback) });
+      }).finally(() => clearTimeout(timeout));
+    return () => { active = false; clearTimeout(timeout); controller.abort(); };
+  }, [filters, retry]);
 
-  // 🔥 COMPUTE REAL STATS
-  const totalPapers = facultyData.reduce((sum, f) => sum + f.papers, 0);
-  // const totalScore = facultyData.reduce((sum, f) => sum + f.score, 0);
+  const changeFilters = next => {
+    setState(previous => ({ ...previous, loading: true }));
+    setFilters(next);
+  };
+  const data = state.data;
+  const rows = (data?.faculty_rankings || []).slice().sort((a,b) => b[sort]-a[sort] || a.name.localeCompare(b.name))
+    .map((row,index) => ({...row, rank: index+1})).filter(row => row.name.toLowerCase().includes(search.toLowerCase()));
+  const published = data?.metadata.data_source === "csrankings-published-counts";
+  return <div className="page">
+    <Link className="back-link" to="/">← All institutes</Link>
+    <div className="institute-heading"><div><p className="eyebrow">Institution profile / New Delhi</p><h1>IIIT Delhi<span className="badge">Pilot institution</span></h1><p>Indraprastha Institute of Information Technology Delhi</p></div><a className="button secondary" href="https://iiitd.ac.in/" target="_blank" rel="noreferrer">Institute website ↗</a></div>
+    <section className="panel filter-panel" aria-label="Publication filters">
+      <div className="source-toggles">{sources.map(([id,label]) => <button key={id} aria-pressed={filters.sources.includes(id)}
+        disabled={!data?.metadata.available_sources.includes(id)}
+        title={id !== "csrankings" && !data?.metadata.available_sources.includes(id) ? "Requires a complete DBLP bibliography refresh" : ""}
+        className={filters.sources.includes(id) ? "selected" : ""}
+        onClick={() => { const next = filters.sources.includes(id) ? filters.sources.filter(s => s !== id) : [...filters.sources,id]; if (next.length) changeFilters({...filters,sources:next}); }}>{label}</button>)}</div>
+      <form className="year-form" onSubmit={e => { e.preventDefault(); if (validYears) changeFilters({...filters,start:+draftStart,end:+draftEnd}); }}>
+        <label>From<input inputMode="numeric" value={draftStart} onChange={e => setDraftStart(e.target.value)} maxLength={4} aria-invalid={!validYears} /></label>
+        <span className="year-dash">—</span><label>Through<input inputMode="numeric" value={draftEnd} onChange={e => setDraftEnd(e.target.value)} maxLength={4} aria-invalid={!validYears} /></label>
+        <button className="secondary" disabled={!validYears}>Apply</button>
+      </form>
+      <label className="area-filter">Research area<select value={filters.area} onChange={e => changeFilters({...filters,area:e.target.value})}><option value="">All research areas</option>{(data?.metadata.available_areas || availableAreas).map(area => <option key={area}>{area}</option>)}</select></label>
+    </section>
+    <label className="optional-filter"><input type="checkbox" checked={filters.optional} onChange={e => changeFilters({...filters,optional:e.target.checked})} />Include optional CSRankings venues (off by default on CSRankings)</label>
+    {!validYears && <p className="error" role="alert">Enter a valid range from 1970 to 2269, with the start year first.</p>}
+    {state.loading ? <div className="panel loading" role="status">Loading research data…</div> : state.error ?
+      <div className="panel error" role="alert"><h2>Data could not be loaded</h2><p>{state.error}</p><button onClick={() => {setState({...state,loading:true});setRetry(retry+1);}}>Try again</button></div> :
+      data && <>
+        <div className="data-note"><span className="status-dot" /><span>{state.local ? (published ? "Bundled reference snapshot" : "Bundled DBLP snapshot") : published ? "Published CSRankings snapshot" : "DBLP bibliography dataset"} · {filters.start}–{filters.end} inclusive · {filters.optional ? "Including optional venues" : "Default CSRankings venues"}</span></div>
+        {published && <div className="notice">CSRankings counts are available. CORE A/A* and unique-paper totals need a complete DBLP refresh. <a href="#methodology">How counting works ↓</a></div>}
+        <section className="stat-grid" aria-label="Research summary">
+          <article><span>Faculty in roster</span><strong>{format(data.total_faculty)}</strong><small>Zero-count faculty included</small></article>
+          <article><span>Faculty paper count</span><strong>{format(data.faculty_paper_count)}</strong><small>A paper counts for each faculty author</small></article>
+          <article className="accent-stat"><span>Adjusted publication count</span><strong>{format(data.adjusted_count)}</strong><small>Credit split across all coauthors</small></article>
+          <article><span>Unique institute papers</span><strong>{data.total_papers == null ? "—" : format(data.total_papers)}</strong><small>{data.total_papers == null ? "Requires full publication records" : "Each DBLP paper counted once"}</small></article>
+        </section>
+        <div className="chart-grid"><Distribution title="Research areas" items={data.top_areas} field="area" /><Distribution title="Publication venues" items={data.top_venues} field="venue" /></div>
+        <section className="panel"><div className="panel-heading faculty-heading"><div><h2>Meet the researchers</h2><p>Explore all {data.total_faculty} faculty in the reference roster.</p></div>
+          <div className="table-controls"><label className="sr-only" htmlFor="faculty-search">Search faculty</label><input id="faculty-search" placeholder="Search faculty…" type="search" value={search} onChange={e => setSearch(e.target.value)} />
+            <label className="sr-only" htmlFor="faculty-sort">Sort faculty</label><select id="faculty-sort" value={sort} onChange={e => setSort(e.target.value)}><option value="score">Adjusted count</option><option value="papers">Paper count</option></select></div></div>
+          <div className="table-scroll"><table><thead><tr><th scope="col">#</th><th scope="col">Faculty member</th><th scope="col">Leading research area</th><th scope="col" className="numeric">Papers</th><th scope="col" className="numeric">Adjusted</th></tr></thead>
+            <tbody>{rows.map(f => <tr key={f.name}><td className="rank">{String(f.rank).padStart(2,"0")}</td><td className="institute-name">{f.dblp_url ? <a href={f.dblp_url} target="_blank" rel="noreferrer">{f.name} <span className="quiet">↗</span></a> : f.name}</td><td className="quiet">{f.top_domain}</td><td className="numeric">{f.papers}</td><td className="numeric score">{format(f.score)}</td></tr>)}</tbody></table></div>
+          {!rows.length && <p className="empty">No faculty match “{search}”.</p>}
+          <div className="table-footer">Showing {rows.length} of {data.total_faculty} faculty · Ordered by {sort === "score" ? "adjusted credit" : "paper count"}</div>
+        </section>
+        <section className="panel methodology" id="methodology"><p className="eyebrow">Transparent by design</p><h2>What do these numbers mean?</h2>
+          <div className="method-grid"><div><h3>Count papers consistently</h3><p>CSRankings eligibility includes venue-specific tracks, page thresholds, and journal proceedings. Select the same years and venues when comparing with the original site.</p></div>
+            <div><h3>Share credit fairly</h3><p>Each faculty author receives 1/N credit, where N is the number of all authors. Raw faculty totals can count a shared paper more than once.</p></div>
+            <div><h3>Know the source</h3><p>{published ? "This view uses published counts, not an independently recomputed DBLP result. CORE is kept separate until a full bibliography is available." : "Papers are keyed by DBLP identifier. Selecting multiple sources takes their union without counting an overlapping paper twice."}</p></div></div>
+          <div className="method-footer"><a href="https://csrankings.org/faq.html" target="_blank" rel="noreferrer">CSRankings methodology ↗</a><span>Reference {data.metadata.reference_revision.slice(0,12)} · Built {data.metadata.generated_at.slice(0,10)}</span></div>
+        </section>
+      </>}
+  </div>;
+}
 
-  // const citations = totalScore * 50; // temporary logic
-  // const hIndex = Math.floor(totalScore / 10);
-
-  // // 🔥 SORT BASED ON USER CHOICE
-  // const sortedFaculty = [...facultyData].sort((a, b) => {
-  //   if (sortBy === "score") return b.score - a.score;
-  //   return b.papers - a.papers;
-  // });
-  const sortedFaculty = [...facultyData].sort((a, b) => b.papers - a.papers);
-
-  const topAuthors = sortedFaculty.slice(0, 5);
-
-  // 🔥 USE API DATA INSTEAD OF HARDCODED
-  const topAreas = domainsData?.top_areas || [];
-  const topVenues = domainsData?.top_venues || [];
-
-  if (loading) {
-    return (
-      <div style={{ background: "#f5f7fa", minHeight: "100vh", padding: "40px", display: "flex", alignItems: "center", justifyContent: "center" }}>
-        <div style={{ fontSize: "18px", color: "#555" }}>Loading...</div>
-      </div>
-    );
-  }
-
-  return (
-    <div style={{ background: "#f5f7fa", minHeight: "100vh", padding: "40px" }}>
-      <div style={{ maxWidth: "900px", margin: "auto" }}>
-
-        {/* HEADER */}
-        <div style={{
-          background: "white",
-          padding: "30px",
-          borderRadius: "12px",
-          marginBottom: "20px",
-          boxShadow: "0 4px 20px rgba(0,0,0,0.06)"
-        }}>
-          <h1 style={{
-            margin: 0,
-            fontSize: "36px",
-            fontWeight: "700",
-            color: "#1a202c"
-          }}>
-            {name}
-          </h1>
-
-          <p style={{ color: "#555", marginTop: "8px" }}>
-            Computer Science Research Overview
-          </p>
-        </div>
-
-        {/* STATS CARDS */}
-        <div style={{
-          display: "flex",
-          justifyContent: "center",
-          marginBottom: "20px"
-        }}>
-          <div style={cardStyle}>
-            <p style={labelStyle}>Total Papers</p>
-            <h2 style={valueStyle}>{totalPapers}</h2>
-          </div>
-
-          {/* <div style={cardStyle}>
-            <p style={labelStyle}>Citations</p>
-            <h2 style={valueStyle}>{citations}</h2>
-          </div>
-
-          <div style={cardStyle}>
-            <p style={labelStyle}>H-Index</p>
-            <h2 style={valueStyle}>{hIndex}</h2>
-          </div> */}
-        </div>
-
-        {/* RESEARCH AREAS */}
-        <div style={sectionStyle}>
-          <h2 style={sectionTitle}>Research Areas</h2>
-          <AreaChart areas={topAreas} />
-        </div>
-
-        {/* TOP VENUES */}
-        <div style={sectionStyle}>
-          <h2 style={sectionTitle}>Top Venues</h2>
-
-          {topVenues.map((v, i) => (
-            <div key={i} style={rowStyle}>
-              <span>{v.venue}</span>
-              <span>{v.papers} papers</span>
-            </div>
-          ))}
-        </div>
-
-        {/* TOP AUTHORS */}
-        <div style={sectionStyle}>
-          <h2 style={sectionTitle}>Top Authors</h2>
-
-          {/* 🔥 TOGGLE BUTTONS */}
-          <div style={{ marginBottom: "15px", display: "flex", gap: "10px" }}>
-            {/* <button
-              onClick={() => setSortBy("score")}
-              style={{
-                padding: "8px 12px",
-                borderRadius: "6px",
-                border: "none",
-                cursor: "pointer",
-                background: sortBy === "score" ? "#2b6cb0" : "#e2e8f0",
-                color: sortBy === "score" ? "white" : "#333"
-              }}
-            >
-              Sort by Score
-            </button> */}
-
-            <button
-              onClick={() => setSortBy("papers")}
-              style={{
-                padding: "8px 12px",
-                borderRadius: "6px",
-                border: "none",
-                cursor: "pointer",
-                background: sortBy === "papers" ? "#2b6cb0" : "#e2e8f0",
-                color: sortBy === "papers" ? "white" : "#333"
-              }}
-            >
-              Sorted by Number of Papers
-            </button>
-          </div>
-
-          {topAuthors.map((a, i) => (
-            <div key={i} style={rowStyle}>
-              <span>{i + 1}. {a.name}</span>
-              <span>
-                {sortBy === "score"
-                  ? `${a.score} score`
-                  : `${a.papers} papers`}
-              </span>
-            </div>
-          ))}
-        </div>
-
-      </div>
-    </div>
-  );
-};
-
-/* ---------- STYLES ---------- */
-
-const cardStyle = {
-  flex: 1,
-  background: "white",
-  padding: "20px",
-  borderRadius: "10px",
-  boxShadow: "0 2px 10px rgba(0,0,0,0.05)",
-  textAlign: "center"
-};
-
-const labelStyle = {
-  color: "#666",
-  marginBottom: "5px"
-};
-
-const valueStyle = {
-  margin: 0,
-  color: "#2b6cb0"
-};
-
-const sectionStyle = {
-  background: "white",
-  borderRadius: "10px",
-  padding: "20px",
-  marginBottom: "20px",
-  boxShadow: "0 2px 10px rgba(0,0,0,0.05)"
-};
-
-const sectionTitle = {
-  marginBottom: "15px",
-  color: "#1a202c",
-  borderBottom: "1px solid #eee",
-  paddingBottom: "8px"
-};
-
-const rowStyle = {
-  display: "flex",
-  justifyContent: "space-between",
-  padding: "10px 0",
-  borderBottom: "1px solid #f0f0f0"
-};
-
-export default InstitutePage;
+export default function InstitutePage() {
+  const { name } = useParams();
+  if (name !== "IIIT Delhi") return <div className="page"><Link className="back-link" to="/">← All institutes</Link><section className="panel placeholder-page"><span className="badge neutral">Placeholder</span><h1>{name}</h1><p>This institute’s research profile is coming later. Explore the IIIT Delhi pilot for available data.</p><Link className="button primary" to="/institute/IIIT%20Delhi">Explore IIIT Delhi ↗</Link></section></div>;
+  return <Pilot />;
+}

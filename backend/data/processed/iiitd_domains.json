@@ -1,680 +1,1121 @@
 {
-  "total_faculty": 25,
-  "total_papers": 254,
+  "metadata": {
+    "schema_version": 2,
+    "institution": "IIIT Delhi",
+    "data_source": "dblp-sparql",
+    "generated_at": "2026-09-14T19:23:07.649227+00:00",
+    "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
+    "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
+    "available_sources": [
+      "csrankings",
+      "core-a-star",
+      "core-a"
+    ],
+    "core_edition": "CORE2023",
+    "available_areas": [
+      "Artificial intelligence",
+      "Computer vision",
+      "Machine learning & data mining",
+      "Natural language processing",
+      "The Web & information retrieval",
+      "Computer architecture",
+      "Computer networks",
+      "Computer security",
+      "Databases",
+      "Design automation",
+      "Embedded & real-time systems",
+      "High-performance computing",
+      "Mobile computing",
+      "Measurement & performance analysis",
+      "Operating systems",
+      "Programming languages",
+      "Software engineering",
+      "Algorithms & complexity",
+      "Cryptography",
+      "Logic & verification",
+      "Computational biology",
+      "Computer graphics",
+      "Human-computer interaction",
+      "Robotics",
+      "Visualization",
+      "Economics & computation",
+      "Computer science education",
+      "Other CORE areas"
+    ],
+    "area_names": {
+      "aaai": "Artificial intelligence",
+      "ijcai": "Artificial intelligence",
+      "cvpr": "Computer vision",
+      "iccv": "Computer vision",
+      "eccv": "Computer vision",
+      "icml": "Machine learning & data mining",
+      "nips": "Machine learning & data mining",
+      "kdd": "Machine learning & data mining",
+      "iclr": "Machine learning & data mining",
+      "acl": "Natural language processing",
+      "emnlp": "Natural language processing",
+      "naacl": "Natural language processing",
+      "www": "The Web & information retrieval",
+      "sigir": "The Web & information retrieval",
+      "asplos": "Computer architecture",
+      "isca": "Computer architecture",
+      "micro": "Computer architecture",
+      "hpca": "Computer architecture",
+      "sigcomm": "Computer networks",
+      "nsdi": "Computer networks",
+      "ccs": "Computer security",
+      "oakland": "Computer security",
+      "usenixsec": "Computer security",
+      "ndss": "Computer security",
+      "pets": "Computer security",
+      "sigmod": "Databases",
+      "vldb": "Databases",
+      "icde": "Databases",
+      "pods": "Databases",
+      "dac": "Design automation",
+      "iccad": "Design automation",
+      "emsoft": "Embedded & real-time systems",
+      "rtss": "Embedded & real-time systems",
+      "rtas": "Embedded & real-time systems",
+      "sc": "High-performance computing",
+      "hpdc": "High-performance computing",
+      "ics": "High-performance computing",
+      "mobicom": "Mobile computing",
+      "mobisys": "Mobile computing",
+      "sensys": "Mobile computing",
+      "imc": "Measurement & performance analysis",
+      "sigmetrics": "Measurement & performance analysis",
+      "sosp": "Operating systems",
+      "osdi": "Operating systems",
+      "eurosys": "Operating systems",
+      "fast": "Operating systems",
+      "usenixatc": "Operating systems",
+      "popl": "Programming languages",
+      "pldi": "Programming languages",
+      "oopsla": "Programming languages",
+      "icfp": "Programming languages",
+      "icse": "Software engineering",
+      "fse": "Software engineering",
+      "ase": "Software engineering",
+      "issta": "Software engineering",
+      "focs": "Algorithms & complexity",
+      "stoc": "Algorithms & complexity",
+      "soda": "Algorithms & complexity",
+      "crypto": "Cryptography",
+      "eurocrypt": "Cryptography",
+      "cav": "Logic & verification",
+      "lics": "Logic & verification",
+      "ismb": "Computational biology",
+      "recomb": "Computational biology",
+      "siggraph": "Computer graphics",
+      "siggraph-asia": "Computer graphics",
+      "eurographics": "Computer graphics",
+      "chiconf": "Human-computer interaction",
+      "uist": "Human-computer interaction",
+      "ubicomp": "Human-computer interaction",
+      "icra": "Robotics",
+      "iros": "Robotics",
+      "rss": "Robotics",
+      "vis": "Visualization",
+      "vr": "Visualization",
+      "ec": "Economics & computation",
+      "wine": "Economics & computation",
+      "sigcse": "Computer science education"
+    },
+    "optional_venues": [
+      "ase",
+      "eurographics",
+      "eurosys",
+      "fast",
+      "hpca",
+      "icde",
+      "icfp",
+      "issta",
+      "kdd",
+      "ndss",
+      "oopsla",
+      "pets",
+      "pods",
+      "usenixatc"
+    ],
+    "counting": "Unique DBLP keys; faculty credit is 1 / all authors; all reference venues, including optional venues.",
+    "validation": {
+      "matching": false,
+      "differing_cells": 3,
+      "compared_cells": 151
+    }
+  },
+  "filters": {
+    "start_year": 2016,
+    "end_year": 2026,
+    "sources": [
+      "csrankings"
+    ],
+    "areas": [],
+    "include_optional": false
+  },
+  "total_faculty": 33,
+  "total_papers": 130,
+  "faculty_paper_count": 135,
+  "adjusted_count": 30.65756520088099,
+  "average_count": 1.605277434488405,
   "domain_distribution": {
-    "Other": 1645,
-    "Robotics": 2,
-    "Design automation": 2,
-    "Logic & verification": 4,
-    "Mobile computing": 13,
-    "The Web & information retrieval": 40,
-    "Measurement & perf. analysis": 3,
-    "Natural language processing": 67,
-    "Software engineering": 29,
-    "High-performance computing": 33,
-    "Machine learning": 6,
-    "Artificial intelligence": 52,
-    "Databases": 28,
-    "Cryptography": 1,
-    "Computer vision": 11,
-    "Human-computer interaction": 24,
-    "Algorithms & complexity": 4,
-    "Computer graphics": 1,
-    "Operating systems": 3,
+    "Artificial intelligence": 30,
+    "Natural language processing": 33,
+    "Logic & verification": 1,
+    "Human-computer interaction": 21,
+    "Computer vision": 5,
+    "Cryptography": 2,
+    "Machine learning & data mining": 16,
+    "Robotics": 5,
+    "Measurement & performance analysis": 2,
     "Programming languages": 1,
-    "Computer networks": 2,
-    "Computer security": 1
+    "High-performance computing": 1,
+    "Mobile computing": 1,
+    "Algorithms & complexity": 3,
+    "Visualization": 1,
+    "The Web & information retrieval": 7,
+    "Databases": 1
   },
   "top_areas": [
     {
       "area": "Natural language processing",
-      "papers": 67
-    },
-    {
-      "area": "Artificial intelligence",
-      "papers": 52
-    },
-    {
-      "area": "The Web & information retrieval",
-      "papers": 40
-    },
-    {
-      "area": "High-performance computing",
       "papers": 33
     },
     {
-      "area": "Software engineering",
-      "papers": 29
-    },
-    {
-      "area": "Databases",
-      "papers": 28
+      "area": "Artificial intelligence",
+      "papers": 30
     },
     {
       "area": "Human-computer interaction",
-      "papers": 24
+      "papers": 21
     },
     {
-      "area": "Mobile computing",
-      "papers": 13
+      "area": "Machine learning & data mining",
+      "papers": 16
+    },
+    {
+      "area": "The Web & information retrieval",
+      "papers": 7
     },
     {
       "area": "Computer vision",
-      "papers": 11
+      "papers": 5
     },
     {
-      "area": "Machine learning",
-      "papers": 6
+      "area": "Robotics",
+      "papers": 5
+    },
+    {
+      "area": "Algorithms & complexity",
+      "papers": 3
+    },
+    {
+      "area": "Cryptography",
+      "papers": 2
+    },
+    {
+      "area": "Measurement & performance analysis",
+      "papers": 2
+    },
+    {
+      "area": "Logic & verification",
+      "papers": 1
+    },
+    {
+      "area": "Programming languages",
+      "papers": 1
+    },
+    {
+      "area": "High-performance computing",
+      "papers": 1
+    },
+    {
+      "area": "Mobile computing",
+      "papers": 1
+    },
+    {
+      "area": "Visualization",
+      "papers": 1
+    },
+    {
+      "area": "Databases",
+      "papers": 1
     }
   ],
   "top_venues": [
     {
-      "venue": "aaai",
-      "papers": 45
+      "venue": "AAAI",
+      "papers": 26
     },
     {
-      "venue": "cikm",
-      "papers": 23
-    },
-    {
-      "venue": "icde",
-      "papers": 21
-    },
-    {
-      "venue": "chi",
-      "papers": 21
-    },
-    {
-      "venue": "naacl",
-      "papers": 19
-    },
-    {
-      "venue": "acl",
+      "venue": "CHI",
       "papers": 16
     },
     {
-      "venue": "emnlp",
-      "papers": 16
-    },
-    {
-      "venue": "www",
-      "papers": 10
-    },
-    {
-      "venue": "eacl",
-      "papers": 9
-    },
-    {
-      "venue": "sensys",
+      "venue": "ACL (1)",
       "papers": 8
+    },
+    {
+      "venue": "EMNLP",
+      "papers": 8
+    },
+    {
+      "venue": "NeurIPS",
+      "papers": 8
+    },
+    {
+      "venue": "NAACL-HLT",
+      "papers": 7
+    },
+    {
+      "venue": "WWW",
+      "papers": 7
+    },
+    {
+      "venue": "EMNLP (1)",
+      "papers": 5
+    },
+    {
+      "venue": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+      "papers": 5
+    },
+    {
+      "venue": "ICLR",
+      "papers": 4
+    },
+    {
+      "venue": "ICML",
+      "papers": 4
+    },
+    {
+      "venue": "IJCAI",
+      "papers": 4
+    },
+    {
+      "venue": "ICRA",
+      "papers": 3
+    },
+    {
+      "venue": "SODA",
+      "papers": 3
+    },
+    {
+      "venue": "ACL (2)",
+      "papers": 2
+    },
+    {
+      "venue": "EUROCRYPT (4)",
+      "papers": 2
+    },
+    {
+      "venue": "Internet Measurement Conference",
+      "papers": 2
+    },
+    {
+      "venue": "IROS",
+      "papers": 2
+    },
+    {
+      "venue": "ACL/IJCNLP (1)",
+      "papers": 1
+    },
+    {
+      "venue": "CAV (3)",
+      "papers": 1
+    },
+    {
+      "venue": "CVPR",
+      "papers": 1
+    },
+    {
+      "venue": "ECCV (16)",
+      "papers": 1
+    },
+    {
+      "venue": "ECCV (24)",
+      "papers": 1
+    },
+    {
+      "venue": "ECCV (3)",
+      "papers": 1
+    },
+    {
+      "venue": "ECCV (11)",
+      "papers": 1
+    },
+    {
+      "venue": "EMNLP/IJCNLP (1)",
+      "papers": 1
+    },
+    {
+      "venue": "NAACL-HLT (1)",
+      "papers": 1
+    },
+    {
+      "venue": "PLDI",
+      "papers": 1
+    },
+    {
+      "venue": "SC",
+      "papers": 1
+    },
+    {
+      "venue": "SenSys",
+      "papers": 1
+    },
+    {
+      "venue": "VR",
+      "papers": 1
+    },
+    {
+      "venue": "Proc. VLDB Endow.",
+      "papers": 1
     }
   ],
   "faculty_rankings": [
     {
       "name": "Rajiv Ratn Shah",
-      "papers": 66,
+      "dblp_url": "https://dblp.org/pid/134/3502",
+      "area": "Unknown",
+      "papers": 37,
+      "score": 7.110389610389612,
       "domains": {
-        "Artificial intelligence": 29,
-        "Machine learning": 4,
-        "Natural language processing": 25,
-        "The Web & information retrieval": 10,
-        "High-performance computing": 3,
+        "Artificial intelligence": 15,
+        "Natural language processing": 15,
         "Human-computer interaction": 1,
-        "Software engineering": 2
+        "Machine learning & data mining": 5,
+        "The Web & information retrieval": 1
       },
+      "adjusted_count": 7.110389610389612,
       "top_domain": "Artificial intelligence",
       "top_venues": [
         {
-          "venue": "aaai",
-          "papers": 28
+          "venue": "AAAI",
+          "papers": 14
         },
         {
-          "venue": "naacl",
-          "papers": 9
-        },
-        {
-          "venue": "emnlp",
-          "papers": 6
-        },
-        {
-          "venue": "acl",
+          "venue": "EMNLP (1)",
           "papers": 5
         },
         {
-          "venue": "iclr",
+          "venue": "NAACL-HLT",
           "papers": 4
+        },
+        {
+          "venue": "ICLR",
+          "papers": 3
+        },
+        {
+          "venue": "ACL (2)",
+          "papers": 2
+        },
+        {
+          "venue": "ACL (1)",
+          "papers": 2
+        },
+        {
+          "venue": "NeurIPS",
+          "papers": 2
+        },
+        {
+          "venue": "ACL/IJCNLP (1)",
+          "papers": 1
+        },
+        {
+          "venue": "CHI",
+          "papers": 1
+        },
+        {
+          "venue": "EMNLP",
+          "papers": 1
+        },
+        {
+          "venue": "IJCAI",
+          "papers": 1
+        },
+        {
+          "venue": "WWW",
+          "papers": 1
         }
       ]
     },
     {
       "name": "Md. Shad Akhtar",
-      "papers": 37,
+      "dblp_url": "https://dblp.org/pid/184/8579",
+      "area": "Unknown",
+      "papers": 23,
+      "score": 4.808333333333334,
       "domains": {
-        "Artificial intelligence": 7,
-        "Natural language processing": 27,
-        "The Web & information retrieval": 4,
-        "Machine learning": 1,
-        "Software engineering": 2,
-        "High-performance computing": 1
+        "Artificial intelligence": 5,
+        "Natural language processing": 13,
+        "Machine learning & data mining": 3,
+        "The Web & information retrieval": 2
       },
+      "adjusted_count": 4.808333333333334,
       "top_domain": "Natural language processing",
       "top_venues": [
         {
-          "venue": "emnlp",
-          "papers": 10
-        },
-        {
-          "venue": "acl",
-          "papers": 7
-        },
-        {
-          "venue": "aaai",
+          "venue": "EMNLP",
           "papers": 6
         },
         {
-          "venue": "naacl",
-          "papers": 5
+          "venue": "AAAI",
+          "papers": 4
         },
         {
-          "venue": "eacl",
-          "papers": 3
-        }
-      ]
-    },
-    {
-      "name": "Mukesh K. Mohania",
-      "papers": 29,
-      "domains": {
-        "The Web & information retrieval": 14,
-        "Natural language processing": 3,
-        "High-performance computing": 10,
-        "Software engineering": 2,
-        "Databases": 14,
-        "Measurement & perf. analysis": 1
-      },
-      "top_domain": "The Web & information retrieval",
-      "top_venues": [
-        {
-          "venue": "cikm",
-          "papers": 13
+          "venue": "ACL (1)",
+          "papers": 4
         },
         {
-          "venue": "icde",
-          "papers": 7
-        },
-        {
-          "venue": "vldb",
-          "papers": 3
-        },
-        {
-          "venue": "acl",
+          "venue": "NeurIPS",
           "papers": 2
         },
         {
-          "venue": "sigmod",
+          "venue": "WWW",
           "papers": 2
+        },
+        {
+          "venue": "EMNLP/IJCNLP (1)",
+          "papers": 1
+        },
+        {
+          "venue": "ICLR",
+          "papers": 1
+        },
+        {
+          "venue": "IJCAI",
+          "papers": 1
+        },
+        {
+          "venue": "NAACL-HLT (1)",
+          "papers": 1
+        },
+        {
+          "venue": "NAACL-HLT",
+          "papers": 1
         }
       ]
     },
     {
       "name": "Pushpendra Singh 0001",
-      "papers": 27,
+      "dblp_url": "https://dblp.org/pid/55/1719-1",
+      "area": "Unknown",
+      "papers": 18,
+      "score": 4.026874003189793,
       "domains": {
-        "Human-computer interaction": 20,
-        "Natural language processing": 1,
-        "Mobile computing": 7,
-        "The Web & information retrieval": 1,
-        "High-performance computing": 3
+        "Human-computer interaction": 14,
+        "Machine learning & data mining": 2,
+        "Visualization": 1,
+        "The Web & information retrieval": 1
       },
+      "adjusted_count": 4.026874003189793,
       "top_domain": "Human-computer interaction",
       "top_venues": [
         {
-          "venue": "chi",
-          "papers": 17
+          "venue": "CHI",
+          "papers": 13
         },
         {
-          "venue": "sensys",
-          "papers": 7
-        },
-        {
-          "venue": "cscw",
+          "venue": "NeurIPS",
           "papers": 2
         },
         {
-          "venue": "www",
+          "venue": "VR",
+          "papers": 1
+        },
+        {
+          "venue": "WWW",
+          "papers": 1
+        },
+        {
+          "venue": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
           "papers": 1
         }
       ]
     },
     {
-      "name": "Gautam M. Shroff",
-      "papers": 24,
+      "name": "Tanmoy Kundu 0001",
+      "dblp_url": "https://dblp.org/pid/226/6193-1",
+      "area": "Unknown",
+      "papers": 5,
+      "score": 2.333333333333333,
       "domains": {
-        "Artificial intelligence": 7,
-        "The Web & information retrieval": 7,
-        "Natural language processing": 6,
-        "Computer vision": 1,
-        "Databases": 1,
-        "Mobile computing": 1,
-        "Software engineering": 3
+        "Robotics": 5
       },
-      "top_domain": "Artificial intelligence",
+      "adjusted_count": 2.333333333333333,
+      "top_domain": "Robotics",
       "top_venues": [
         {
-          "venue": "aaai",
-          "papers": 5
-        },
-        {
-          "venue": "cikm",
-          "papers": 4
-        },
-        {
-          "venue": "eacl",
+          "venue": "ICRA",
           "papers": 3
         },
         {
-          "venue": "sigir",
+          "venue": "IROS",
+          "papers": 2
+        }
+      ]
+    },
+    {
+      "name": "Vinayak Abrol",
+      "dblp_url": "https://dblp.org/pid/136/4698",
+      "area": "Unknown",
+      "papers": 4,
+      "score": 1.5833333333333333,
+      "domains": {
+        "Artificial intelligence": 2,
+        "Machine learning & data mining": 1,
+        "The Web & information retrieval": 1
+      },
+      "adjusted_count": 1.5833333333333333,
+      "top_domain": "Artificial intelligence",
+      "top_venues": [
+        {
+          "venue": "AAAI",
           "papers": 2
         },
         {
-          "venue": "ijcai",
-          "papers": 2
+          "venue": "ICML",
+          "papers": 1
+        },
+        {
+          "venue": "WWW",
+          "papers": 1
         }
       ]
     },
     {
       "name": "Saket Anand",
-      "papers": 12,
+      "dblp_url": "https://dblp.org/pid/11/4747",
+      "area": "Unknown",
+      "papers": 7,
+      "score": 1.5694444444444444,
       "domains": {
         "Artificial intelligence": 3,
-        "Mobile computing": 1,
-        "Computer vision": 9,
-        "High-performance computing": 1
+        "Computer vision": 4
       },
+      "adjusted_count": 1.5694444444444444,
       "top_domain": "Computer vision",
       "top_venues": [
         {
-          "venue": "eccv",
-          "papers": 6
-        },
-        {
-          "venue": "aaai",
+          "venue": "AAAI",
           "papers": 2
         },
         {
-          "venue": "cvpr",
-          "papers": 2
-        },
-        {
-          "venue": "mobicom",
+          "venue": "ECCV (16)",
           "papers": 1
         },
         {
-          "venue": "ijcai",
-          "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "Ganesh Bagler",
-      "papers": 9,
-      "domains": {
-        "Databases": 9,
-        "Software engineering": 2
-      },
-      "top_domain": "Databases",
-      "top_venues": [
-        {
-          "venue": "icde",
-          "papers": 9
-        }
-      ]
-    },
-    {
-      "name": "Pankaj Jalote",
-      "papers": 7,
-      "domains": {
-        "Software engineering": 5,
-        "The Web & information retrieval": 2,
-        "Databases": 3
-      },
-      "top_domain": "Software engineering",
-      "top_venues": [
-        {
-          "venue": "icde",
-          "papers": 3
-        },
-        {
-          "venue": "www",
-          "papers": 2
-        },
-        {
-          "venue": "icse",
-          "papers": 2
-        }
-      ]
-    },
-    {
-      "name": "Anubha Gupta",
-      "papers": 6,
-      "domains": {
-        "Design automation": 2,
-        "Logic & verification": 4
-      },
-      "top_domain": "Logic & verification",
-      "top_venues": [
-        {
-          "venue": "cav",
-          "papers": 4
-        },
-        {
-          "venue": "iccad",
+          "venue": "ECCV (24)",
           "papers": 1
         },
         {
-          "venue": "dac",
+          "venue": "ECCV (3)",
+          "papers": 1
+        },
+        {
+          "venue": "ECCV (11)",
+          "papers": 1
+        },
+        {
+          "venue": "IJCAI",
           "papers": 1
         }
       ]
     },
     {
-      "name": "Piyus Kedia",
+      "name": "Syamantak Das",
+      "dblp_url": "https://dblp.org/pid/135/6297",
+      "area": "Unknown",
       "papers": 5,
+      "score": 1.125,
       "domains": {
-        "Software engineering": 1,
-        "Operating systems": 3,
-        "Programming languages": 1
-      },
-      "top_domain": "Operating systems",
-      "top_venues": [
-        {
-          "venue": "issta",
-          "papers": 1
-        },
-        {
-          "venue": "eurosys",
-          "papers": 1
-        },
-        {
-          "venue": "fast",
-          "papers": 1
-        },
-        {
-          "venue": "pldi",
-          "papers": 1
-        },
-        {
-          "venue": "sosp",
-          "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "Raghava Mutharaju",
-      "papers": 5,
-      "domains": {
-        "Artificial intelligence": 4,
-        "Natural language processing": 2
-      },
-      "top_domain": "Artificial intelligence",
-      "top_venues": [
-        {
-          "venue": "aaai",
-          "papers": 2
-        },
-        {
-          "venue": "ijcai",
-          "papers": 1
-        },
-        {
-          "venue": "acl",
-          "papers": 1
-        },
-        {
-          "venue": "eacl",
-          "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "Arani Bhattacharya",
-      "papers": 4,
-      "domains": {
-        "Mobile computing": 2,
+        "Machine learning & data mining": 1,
+        "Algorithms & complexity": 2,
         "The Web & information retrieval": 1,
-        "Measurement & perf. analysis": 1
-      },
-      "top_domain": "Mobile computing",
-      "top_venues": [
-        {
-          "venue": "mobicom",
-          "papers": 1
-        },
-        {
-          "venue": "sensys",
-          "papers": 1
-        },
-        {
-          "venue": "www",
-          "papers": 1
-        },
-        {
-          "venue": "imc",
-          "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "Bapi Chatterjee",
-      "papers": 4,
-      "domains": {
-        "Machine learning": 1,
-        "High-performance computing": 1,
-        "Artificial intelligence": 2,
         "Databases": 1
       },
-      "top_domain": "Artificial intelligence",
+      "adjusted_count": 1.125,
+      "top_domain": "Algorithms & complexity",
       "top_venues": [
         {
-          "venue": "aaai",
+          "venue": "SODA",
           "papers": 2
         },
         {
-          "venue": "icml",
+          "venue": "NeurIPS",
           "papers": 1
         },
         {
-          "venue": "icde",
+          "venue": "WWW",
           "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "Arun Balaji Buduru",
-      "papers": 3,
-      "domains": {
-        "Natural language processing": 3,
-        "Software engineering": 1,
-        "High-performance computing": 2
-      },
-      "top_domain": "Natural language processing",
-      "top_venues": [
-        {
-          "venue": "naacl",
-          "papers": 2
         },
         {
-          "venue": "acl",
+          "venue": "Proc. VLDB Endow.",
           "papers": 1
         }
       ]
     },
     {
       "name": "Jainendra Shukla",
-      "papers": 3,
+      "dblp_url": "https://dblp.org/pid/117/9926",
+      "area": "Unknown",
+      "papers": 4,
+      "score": 0.8999999999999999,
       "domains": {
-        "Human-computer interaction": 2,
-        "Robotics": 1
+        "Human-computer interaction": 4
       },
+      "adjusted_count": 0.8999999999999999,
       "top_domain": "Human-computer interaction",
       "top_venues": [
         {
-          "venue": "chi",
+          "venue": "CHI",
           "papers": 2
         },
         {
-          "venue": "hri",
+          "venue": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+          "papers": 2
+        }
+      ]
+    },
+    {
+      "name": "Vikram Goyal",
+      "dblp_url": "https://dblp.org/pid/70/6404",
+      "area": "Unknown",
+      "papers": 4,
+      "score": 0.8666666666666667,
+      "domains": {
+        "Logic & verification": 1,
+        "Natural language processing": 2,
+        "The Web & information retrieval": 1
+      },
+      "adjusted_count": 0.8666666666666667,
+      "top_domain": "Natural language processing",
+      "top_venues": [
+        {
+          "venue": "CAV (3)",
+          "papers": 1
+        },
+        {
+          "venue": "EMNLP",
+          "papers": 1
+        },
+        {
+          "venue": "NAACL-HLT",
+          "papers": 1
+        },
+        {
+          "venue": "WWW",
           "papers": 1
         }
       ]
     },
     {
-      "name": "Ojaswa Sharma",
+      "name": "Supratim Shit",
+      "dblp_url": "https://dblp.org/pid/185/5317",
+      "area": "Unknown",
       "papers": 3,
+      "score": 0.8333333333333333,
       "domains": {
-        "Human-computer interaction": 1,
-        "Computer graphics": 1,
-        "High-performance computing": 2,
+        "Machine learning & data mining": 3
+      },
+      "adjusted_count": 0.8333333333333333,
+      "top_domain": "Machine learning & data mining",
+      "top_venues": [
+        {
+          "venue": "ICML",
+          "papers": 3
+        }
+      ]
+    },
+    {
+      "name": "Arani Bhattacharya",
+      "dblp_url": "https://dblp.org/pid/139/0489",
+      "area": "Unknown",
+      "papers": 4,
+      "score": 0.7833333333333333,
+      "domains": {
+        "Measurement & performance analysis": 1,
+        "Mobile computing": 1,
+        "The Web & information retrieval": 1,
+        "Human-computer interaction": 1
+      },
+      "adjusted_count": 0.7833333333333333,
+      "top_domain": "Measurement & performance analysis",
+      "top_venues": [
+        {
+          "venue": "Internet Measurement Conference",
+          "papers": 1
+        },
+        {
+          "venue": "SenSys",
+          "papers": 1
+        },
+        {
+          "venue": "WWW",
+          "papers": 1
+        },
+        {
+          "venue": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Bapi Chatterjee",
+      "dblp_url": "https://dblp.org/pid/117/6988",
+      "area": "Unknown",
+      "papers": 3,
+      "score": 0.7,
+      "domains": {
+        "Artificial intelligence": 2,
+        "Machine learning & data mining": 1
+      },
+      "adjusted_count": 0.7,
+      "top_domain": "Artificial intelligence",
+      "top_venues": [
+        {
+          "venue": "AAAI",
+          "papers": 2
+        },
+        {
+          "venue": "ICML",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Gautam Shroff",
+      "dblp_url": "https://dblp.org/pid/54/3265",
+      "area": "Unknown",
+      "papers": 2,
+      "score": 0.7,
+      "domains": {
+        "Artificial intelligence": 1,
+        "Natural language processing": 1
+      },
+      "adjusted_count": 0.7,
+      "top_domain": "Artificial intelligence",
+      "top_venues": [
+        {
+          "venue": "AAAI",
+          "papers": 1
+        },
+        {
+          "venue": "NAACL-HLT",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Anubha Gupta",
+      "dblp_url": "https://dblp.org/pid/95/491",
+      "area": "Unknown",
+      "papers": 3,
+      "score": 0.5413333333333333,
+      "domains": {
+        "Natural language processing": 2,
         "Computer vision": 1
       },
-      "top_domain": "High-performance computing",
+      "adjusted_count": 0.5413333333333333,
+      "top_domain": "Natural language processing",
       "top_venues": [
         {
-          "venue": "chi",
-          "papers": 1
-        },
-        {
-          "venue": "siggraph",
-          "papers": 1
-        },
-        {
-          "venue": "cvpr",
-          "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "Rajiv Raman 0001",
-      "papers": 3,
-      "domains": {
-        "High-performance computing": 7,
-        "Algorithms & complexity": 3
-      },
-      "top_domain": "High-performance computing",
-      "top_venues": [
-        {
-          "venue": "soda",
+          "venue": "ACL (1)",
           "papers": 2
         },
         {
-          "venue": "focs",
+          "venue": "CVPR",
           "papers": 1
         }
       ]
     },
     {
       "name": "Mukulika Maity",
+      "dblp_url": "https://dblp.org/pid/157/1298",
+      "area": "Unknown",
       "papers": 2,
+      "score": 0.41666666666666663,
       "domains": {
-        "Mobile computing": 2
+        "Machine learning & data mining": 1,
+        "Human-computer interaction": 1
       },
-      "top_domain": "Mobile computing",
+      "adjusted_count": 0.41666666666666663,
+      "top_domain": "Machine learning & data mining",
       "top_venues": [
         {
-          "venue": "mobicom",
+          "venue": "NeurIPS",
+          "papers": 1
+        },
+        {
+          "venue": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Raghava Mutharaju",
+      "dblp_url": "https://dblp.org/pid/63/7446",
+      "area": "Unknown",
+      "papers": 2,
+      "score": 0.41666666666666663,
+      "domains": {
+        "Artificial intelligence": 2
+      },
+      "adjusted_count": 0.41666666666666663,
+      "top_domain": "Artificial intelligence",
+      "top_venues": [
+        {
+          "venue": "AAAI",
+          "papers": 1
+        },
+        {
+          "venue": "IJCAI",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Ravi Anand",
+      "dblp_url": "https://dblp.org/pid/203/4259",
+      "area": "Unknown",
+      "papers": 2,
+      "score": 0.34285714285714286,
+      "domains": {
+        "Cryptography": 2
+      },
+      "adjusted_count": 0.34285714285714286,
+      "top_domain": "Cryptography",
+      "top_venues": [
+        {
+          "venue": "EUROCRYPT (4)",
           "papers": 2
         }
       ]
     },
     {
-      "name": "Rinku Shah",
-      "papers": 2,
-      "domains": {
-        "Computer networks": 2
-      },
-      "top_domain": "Computer networks",
-      "top_venues": [
-        {
-          "venue": "conext",
-          "papers": 1
-        },
-        {
-          "venue": "sigcomm",
-          "papers": 1
-        }
-      ]
-    },
-    {
-      "name": "Debajyoti Bera",
-      "papers": 1,
-      "domains": {
-        "Cryptography": 1,
-        "High-performance computing": 1,
-        "The Web & information retrieval": 1
-      },
-      "top_domain": "Cryptography",
-      "top_venues": [
-        {
-          "venue": "cikm",
-          "papers": 1
-        }
-      ]
-    },
-    {
       "name": "Nikhil Gupta 0008",
+      "dblp_url": "https://dblp.org/pid/49/6983-8",
+      "area": "Unknown",
       "papers": 1,
+      "score": 0.3333333333333333,
       "domains": {
         "Algorithms & complexity": 1
       },
+      "adjusted_count": 0.3333333333333333,
       "top_domain": "Algorithms & complexity",
       "top_venues": [
         {
-          "venue": "soda",
+          "venue": "SODA",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Arun Balaji Buduru",
+      "dblp_url": "https://dblp.org/pid/128/4273",
+      "area": "Unknown",
+      "papers": 1,
+      "score": 0.25,
+      "domains": {
+        "Human-computer interaction": 1
+      },
+      "adjusted_count": 0.25,
+      "top_domain": "Human-computer interaction",
+      "top_venues": [
+        {
+          "venue": "CHI",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Vivek Kumar 0001",
+      "dblp_url": "https://dblp.org/pid/82/2381-1",
+      "area": "Unknown",
+      "papers": 1,
+      "score": 0.25,
+      "domains": {
+        "High-performance computing": 1
+      },
+      "adjusted_count": 0.25,
+      "top_domain": "High-performance computing",
+      "top_venues": [
+        {
+          "venue": "SC",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Debarka Sengupta",
+      "dblp_url": "https://dblp.org/pid/14/11132",
+      "area": "Unknown",
+      "papers": 1,
+      "score": 0.2,
+      "domains": {
+        "Human-computer interaction": 1
+      },
+      "adjusted_count": 0.2,
+      "top_domain": "Human-computer interaction",
+      "top_venues": [
+        {
+          "venue": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "Mukesh K. Mohania",
+      "dblp_url": "https://dblp.org/pid/85/6670",
+      "area": "Unknown",
+      "papers": 1,
+      "score": 0.2,
+      "domains": {
+        "Natural language processing": 1
+      },
+      "adjusted_count": 0.2,
+      "top_domain": "Natural language processing",
+      "top_venues": [
+        {
+          "venue": "NAACL-HLT",
           "papers": 1
         }
       ]
     },
     {
       "name": "Sambuddho Chakravarty",
+      "dblp_url": "https://dblp.org/pid/95/1983",
+      "area": "Unknown",
       "papers": 1,
+      "score": 0.2,
       "domains": {
-        "Computer security": 1,
-        "Measurement & perf. analysis": 1
+        "Measurement & performance analysis": 1
       },
-      "top_domain": "Computer security",
+      "adjusted_count": 0.2,
+      "top_domain": "Measurement & performance analysis",
       "top_venues": [
         {
-          "venue": "imc",
+          "venue": "Internet Measurement Conference",
           "papers": 1
         }
       ]
     },
     {
-      "name": "A. V. Subramanyam",
-      "papers": 0,
+      "name": "Piyus Kedia",
+      "dblp_url": "https://dblp.org/pid/201/4871",
+      "area": "Unknown",
+      "papers": 1,
+      "score": 0.16666666666666666,
       "domains": {
-        "Robotics": 1
+        "Programming languages": 1
       },
-      "top_domain": "Robotics",
+      "adjusted_count": 0.16666666666666666,
+      "top_domain": "Programming languages",
+      "top_venues": [
+        {
+          "venue": "PLDI",
+          "papers": 1
+        }
+      ]
+    },
+    {
+      "name": "A. Venkata Subramanyam",
+      "dblp_url": "https://dblp.org/pid/232/6141",
+      "area": "Unknown",
+      "papers": 0,
+      "score": 0.0,
+      "domains": {},
+      "adjusted_count": 0.0,
+      "top_domain": "No selected papers",
       "top_venues": []
     },
     {
-      "name": "Debarka Sengupta",
+      "name": "Debajyoti Bera",
+      "dblp_url": "https://dblp.org/pid/46/6276",
+      "area": "Unknown",
       "papers": 0,
-      "domains": {
-        "High-performance computing": 1
-      },
-      "top_domain": "High-performance computing",
+      "score": 0.0,
+      "domains": {},
+      "adjusted_count": 0.0,
+      "top_domain": "No selected papers",
       "top_venues": []
     },
     {
-      "name": "G. P. S. Raghava",
+      "name": "Gajendra P. S. Raghava",
+      "dblp_url": "https://dblp.org/pid/43/5459",
+      "area": "Unknown",
       "papers": 0,
-      "domains": {
-        "Software engineering": 11,
-        "High-performance computing": 1
-      },
-      "top_domain": "Software engineering",
+      "score": 0.0,
+      "domains": {},
+      "adjusted_count": 0.0,
+      "top_domain": "No selected papers",
+      "top_venues": []
+    },
+    {
+      "name": "Ganesh Bagler",
+      "dblp_url": "https://dblp.org/pid/86/5221",
+      "area": "Unknown",
+      "papers": 0,
+      "score": 0.0,
+      "domains": {},
+      "adjusted_count": 0.0,
+      "top_domain": "No selected papers",
+      "top_venues": []
+    },
+    {
+      "name": "Ojaswa Sharma",
+      "dblp_url": "https://dblp.org/pid/08/4556",
+      "area": "Unknown",
+      "papers": 0,
+      "score": 0.0,
+      "domains": {},
+      "adjusted_count": 0.0,
+      "top_domain": "No selected papers",
+      "top_venues": []
+    },
+    {
+      "name": "Pankaj Jalote",
+      "dblp_url": "https://dblp.org/pid/j/PankajJalote",
+      "area": "Unknown",
+      "papers": 0,
+      "score": 0.0,
+      "domains": {},
+      "adjusted_count": 0.0,
+      "top_domain": "No selected papers",
+      "top_venues": []
+    },
+    {
+      "name": "Rajiv Raman 0001",
+      "dblp_url": "https://dblp.org/pid/42/6468",
+      "area": "Unknown",
+      "papers": 0,
+      "score": 0.0,
+      "domains": {},
+      "adjusted_count": 0.0,
+      "top_domain": "No selected papers",
+      "top_venues": []
+    },
+    {
+      "name": "Rinku Shah",
+      "dblp_url": "https://dblp.org/pid/146/0131",
+      "area": "Unknown",
+      "papers": 0,
+      "score": 0.0,
+      "domains": {},
+      "adjusted_count": 0.0,
+      "top_domain": "No selected papers",
+      "top_venues": []
+    },
+    {
+      "name": "Sujay Deb",
+      "dblp_url": "https://dblp.org/pid/61/8572",
+      "area": "Unknown",
+      "papers": 0,
+      "score": 0.0,
+      "domains": {},
+      "adjusted_count": 0.0,
+      "top_domain": "No selected papers",
       "top_venues": []
     }
   ]

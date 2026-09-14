@@ -1,53 +1,69 @@
-import requests
-import xml.etree.ElementTree as ET
+﻿"""Fetch complete, PID-identified DBLP bibliographies without losing metadata."""
 import time
+from pathlib import Path
+from urllib.parse import urlsplit
+import xml.etree.ElementTree as ET
+import requests
 
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+CACHE = Path(__file__).resolve().parents[1] / 'data' / 'cache' / 'dblp'
 
 
-def fetch_papers(dblp_url):
-    xml_url = dblp_url.replace(".html", ".xml")
+def element_text(element, field):
+    child = element.find(field)
+    return ''.join(child.itertext()).strip() if child is not None else ''
 
-    for attempt in range(3):
+
+def parse_profile(content, expected_name=None):
+    root = ET.fromstring(content)
+    if root.tag != 'dblpperson':
+        raise ValueError('Response is not a DBLP person bibliography')
+    aliases = {''.join(a.itertext()).strip() for a in root.findall('./person/author')}
+    aliases.add(root.get('name', ''))
+    if expected_name and expected_name not in aliases:
+        raise ValueError(f'PID identity mismatch: {expected_name!r}; profile aliases: {sorted(aliases)}')
+    papers = {}
+    for wrapper in root.findall('r'):
+        for entry in wrapper:
+            if entry.tag not in {'article', 'inproceedings'}:
+                continue
+            key = entry.get('key')
+            if not key:
+                raise ValueError('Publication has no DBLP key')
+            paper = {field: element_text(entry, field) for field in
+                     ('title', 'year', 'booktitle', 'journal', 'volume', 'number', 'pages', 'url')}
+            paper.update(key=key, type=entry.tag, authors=[
+                ''.join(a.itertext()).strip() for a in entry.findall('author')])
+            paper['venue'] = paper['booktitle'] or paper['journal']
+            paper['year'] = int(paper['year'])
+            if not paper['authors']:
+                raise ValueError(f'Publication {key} has no authors')
+            papers[key] = paper
+    return list(papers.values())
+
+
+def fetch_papers(dblp_url, expected_name=None, refresh=False, offline=False):
+    parsed = urlsplit(dblp_url)
+    if parsed.hostname not in {'dblp.org', 'dblp.uni-trier.de'} or not parsed.path.startswith('/pid/'):
+        raise ValueError(f'Expected a DBLP PID URL: {dblp_url}')
+    pid = parsed.path[5:].removesuffix('.html').removesuffix('.xml')
+    cache = CACHE / (pid.replace('/', '_') + '.xml')
+    if cache.exists() and not refresh:
+        return parse_profile(cache.read_bytes(), expected_name)
+    if offline:
+        raise FileNotFoundError(f'No cached bibliography for {expected_name or pid}')
+    for attempt in range(4):
         try:
-            res = requests.get(xml_url, headers=HEADERS, timeout=10)
-            res.raise_for_status()
-
-            root = ET.fromstring(res.content)
-
-            papers = []
-
-            for r in root.findall("r"):
-                for child in r:
-                    if child.tag in ["article", "inproceedings"]:
-                        title = child.find("title")
-                        year = child.find("year")
-                        venue = child.find("booktitle") or child.find("journal")
-
-                        if title is not None and year is not None:
-                            venue_text = venue.text.strip() if venue is not None and venue.text else ""
-
-                            # Fallback: parse venue from DBLP key attribute
-                            # key="conf/nips/Smith23" → parts[1] = "nips"
-                            # key="journals/jmlr/Lee22" → parts[1] = "jmlr"
-                            if not venue_text:
-                                key = child.get("key", "")
-                                parts = key.split("/")
-                                if len(parts) >= 2:
-                                    venue_text = parts[1]
-
-                            papers.append({
-                                "title": title.text,
-                                "year": year.text,
-                                "venue": venue_text
-                            })
-
-            time.sleep(3)
+            response = requests.get(f'https://dblp.org/pid/{pid}.xml', timeout=60,
+                                    headers={'User-Agent': 'IIITD-Research-Pipeline/1.0'})
+            response.raise_for_status()
+            if 'html' in response.headers.get('Content-Type', ''):
+                raise RuntimeError('DBLP returned an HTML challenge. No dataset was replaced; retry later or use cached XML.')
+            papers = parse_profile(response.content, expected_name)
+            CACHE.mkdir(parents=True, exist_ok=True)
+            cache.write_bytes(response.content)
+            time.sleep(1)
             return papers
-
-        except Exception as e:
-            print(f"Retry {attempt+1} for {dblp_url}: {e}")
-            time.sleep(3)
-
-    print(f"❌ Failed for {dblp_url}")
-    return []
+        except requests.RequestException:
+            if attempt == 3:
+                raise
+            time.sleep(2 ** (attempt + 1))

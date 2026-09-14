@@ -1,7 +1,7 @@
-TOP_VENUES = [
-    "ICML", "NeurIPS", "CVPR", "ACL",
-    "KDD", "AAAI", "IJCAI"
-]
+﻿"""Paper-level filtering requires metadata, not substring venue matching."""
+from venue_rules import classify_csr, load_rules
 
-def is_top_venue(venue):
-    return any(v in venue for v in TOP_VENUES)
+
+def filter_publications(papers):
+    rules = load_rules()
+    return [paper for paper in papers if classify_csr(paper, rules) is not None]

@@ -1,0 +1,10 @@
+{
+  "revision": "b2e76bcec658a429c26011530767528839d524df",
+  "sha256": {
+    "csrankings.py": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
+    "sigcse-research-articles.csv": "661063fe09a1c83aaa23521ad0ff82910a4920535126b43c684628ea55a0ae80",
+    "csrankings.csv": "b78ce8b7ccc8d967b5560228e88ca53b2aa0b273846d863ccbc62d4eb8add009",
+    "dblp-aliases.csv": "6719bf0ea2a5822434eb046ad7860be14a310437d1a34b239bedd91b5884f99a",
+    "generated-author-info.csv": "b92284079773e59cf0ec1b782062a2c511ef2882ba1d6088dab5d436a530042a"
+  }
+}
