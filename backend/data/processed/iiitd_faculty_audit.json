@@ -1,0 +1,349 @@
+{
+  "checked_at": "2026-09-15T05:24:53.844066+00:00",
+  "start_year": 2016,
+  "end_year": 2026,
+  "default_selection": "CSRankings default venues; optional venues excluded",
+  "reference_directory": "C:\\Users\\Arnav Gupta\\Desktop\\BTP\\BTP\\backend\\data\\reference\\deployed-audit",
+  "reference_sha256": {
+    "generated-author-info.csv": "b92284079773e59cf0ec1b782062a2c511ef2882ba1d6088dab5d436a530042a",
+    "csrankings.csv": "b78ce8b7ccc8d967b5560228e88ca53b2aa0b273846d863ccbc62d4eb8add009",
+    "dblp-aliases.csv": "6719bf0ea2a5822434eb046ad7860be14a310437d1a34b239bedd91b5884f99a"
+  },
+  "faculty_count": 33,
+  "checked_faculty_venue_year_cells": 150,
+  "matching": true,
+  "differences": [],
+  "faculty": [
+    {
+      "name": "A. Venkata Subramanyam",
+      "papers": 0,
+      "csrankings_papers": 0,
+      "adjusted_count": 0,
+      "csrankings_adjusted_count": 0,
+      "papers_with_optional": 0,
+      "csrankings_papers_with_optional": 0,
+      "status": "MATCH"
+    },
+    {
+      "name": "Anubha Gupta",
+      "papers": 3,
+      "csrankings_papers": 3,
+      "adjusted_count": 0.54133333,
+      "csrankings_adjusted_count": 0.54133,
+      "papers_with_optional": 3,
+      "csrankings_papers_with_optional": 3,
+      "status": "MATCH"
+    },
+    {
+      "name": "Arani Bhattacharya",
+      "papers": 4,
+      "csrankings_papers": 4,
+      "adjusted_count": 0.78333333,
+      "csrankings_adjusted_count": 0.78334,
+      "papers_with_optional": 5,
+      "csrankings_papers_with_optional": 5,
+      "status": "MATCH"
+    },
+    {
+      "name": "Arun Balaji Buduru",
+      "papers": 1,
+      "csrankings_papers": 1,
+      "adjusted_count": 0.25,
+      "csrankings_adjusted_count": 0.25,
+      "papers_with_optional": 1,
+      "csrankings_papers_with_optional": 1,
+      "status": "MATCH"
+    },
+    {
+      "name": "Bapi Chatterjee",
+      "papers": 3,
+      "csrankings_papers": 3,
+      "adjusted_count": 0.7,
+      "csrankings_adjusted_count": 0.7,
+      "papers_with_optional": 4,
+      "csrankings_papers_with_optional": 4,
+      "status": "MATCH"
+    },
+    {
+      "name": "Debajyoti Bera",
+      "papers": 0,
+      "csrankings_papers": 0,
+      "adjusted_count": 0,
+      "csrankings_adjusted_count": 0,
+      "papers_with_optional": 0,
+      "csrankings_papers_with_optional": 0,
+      "status": "MATCH"
+    },
+    {
+      "name": "Debarka Sengupta",
+      "papers": 1,
+      "csrankings_papers": 1,
+      "adjusted_count": 0.2,
+      "csrankings_adjusted_count": 0.2,
+      "papers_with_optional": 1,
+      "csrankings_papers_with_optional": 1,
+      "status": "MATCH"
+    },
+    {
+      "name": "Gajendra P. S. Raghava",
+      "papers": 0,
+      "csrankings_papers": 0,
+      "adjusted_count": 0,
+      "csrankings_adjusted_count": 0,
+      "papers_with_optional": 0,
+      "csrankings_papers_with_optional": 0,
+      "status": "MATCH"
+    },
+    {
+      "name": "Ganesh Bagler",
+      "papers": 0,
+      "csrankings_papers": 0,
+      "adjusted_count": 0,
+      "csrankings_adjusted_count": 0,
+      "papers_with_optional": 0,
+      "csrankings_papers_with_optional": 0,
+      "status": "MATCH"
+    },
+    {
+      "name": "Gautam Shroff",
+      "papers": 2,
+      "csrankings_papers": 2,
+      "adjusted_count": 0.7,
+      "csrankings_adjusted_count": 0.7,
+      "papers_with_optional": 4,
+      "csrankings_papers_with_optional": 4,
+      "status": "MATCH"
+    },
+    {
+      "name": "Jainendra Shukla",
+      "papers": 4,
+      "csrankings_papers": 4,
+      "adjusted_count": 0.9,
+      "csrankings_adjusted_count": 0.9,
+      "papers_with_optional": 4,
+      "csrankings_papers_with_optional": 4,
+      "status": "MATCH"
+    },
+    {
+      "name": "Md. Shad Akhtar",
+      "papers": 24,
+      "csrankings_papers": 24,
+      "adjusted_count": 4.975,
+      "csrankings_adjusted_count": 4.97501,
+      "papers_with_optional": 26,
+      "csrankings_papers_with_optional": 26,
+      "status": "MATCH"
+    },
+    {
+      "name": "Mukesh K. Mohania",
+      "papers": 1,
+      "csrankings_papers": 1,
+      "adjusted_count": 0.2,
+      "csrankings_adjusted_count": 0.2,
+      "papers_with_optional": 1,
+      "csrankings_papers_with_optional": 1,
+      "status": "MATCH"
+    },
+    {
+      "name": "Mukulika Maity",
+      "papers": 2,
+      "csrankings_papers": 2,
+      "adjusted_count": 0.41666667,
+      "csrankings_adjusted_count": 0.41667,
+      "papers_with_optional": 5,
+      "csrankings_papers_with_optional": 5,
+      "status": "MATCH"
+    },
+    {
+      "name": "Nikhil Gupta 0008",
+      "papers": 1,
+      "csrankings_papers": 1,
+      "adjusted_count": 0.33333333,
+      "csrankings_adjusted_count": 0.33333,
+      "papers_with_optional": 1,
+      "csrankings_papers_with_optional": 1,
+      "status": "MATCH"
+    },
+    {
+      "name": "Ojaswa Sharma",
+      "papers": 0,
+      "csrankings_papers": 0,
+      "adjusted_count": 0,
+      "csrankings_adjusted_count": 0,
+      "papers_with_optional": 1,
+      "csrankings_papers_with_optional": 1,
+      "status": "MATCH"
+    },
+    {
+      "name": "Pankaj Jalote",
+      "papers": 0,
+      "csrankings_papers": 0,
+      "adjusted_count": 0,
+      "csrankings_adjusted_count": 0,
+      "papers_with_optional": 0,
+      "csrankings_papers_with_optional": 0,
+      "status": "MATCH"
+    },
+    {
+      "name": "Piyus Kedia",
+      "papers": 1,
+      "csrankings_papers": 1,
+      "adjusted_count": 0.16666667,
+      "csrankings_adjusted_count": 0.16667,
+      "papers_with_optional": 6,
+      "csrankings_papers_with_optional": 6,
+      "status": "MATCH"
+    },
+    {
+      "name": "Pushpendra Singh 0001",
+      "papers": 18,
+      "csrankings_papers": 18,
+      "adjusted_count": 4.026874,
+      "csrankings_adjusted_count": 4.026871,
+      "papers_with_optional": 18,
+      "csrankings_papers_with_optional": 18,
+      "status": "MATCH"
+    },
+    {
+      "name": "Raghava Mutharaju",
+      "papers": 2,
+      "csrankings_papers": 2,
+      "adjusted_count": 0.41666667,
+      "csrankings_adjusted_count": 0.41667,
+      "papers_with_optional": 2,
+      "csrankings_papers_with_optional": 2,
+      "status": "MATCH"
+    },
+    {
+      "name": "Rajiv Raman 0001",
+      "papers": 0,
+      "csrankings_papers": 0,
+      "adjusted_count": 0,
+      "csrankings_adjusted_count": 0,
+      "papers_with_optional": 0,
+      "csrankings_papers_with_optional": 0,
+      "status": "MATCH"
+    },
+    {
+      "name": "Rajiv Ratn Shah",
+      "papers": 37,
+      "csrankings_papers": 37,
+      "adjusted_count": 7.11038961,
+      "csrankings_adjusted_count": 7.110358,
+      "papers_with_optional": 37,
+      "csrankings_papers_with_optional": 37,
+      "status": "MATCH"
+    },
+    {
+      "name": "Ravi Anand",
+      "papers": 2,
+      "csrankings_papers": 2,
+      "adjusted_count": 0.34285714,
+      "csrankings_adjusted_count": 0.34286,
+      "papers_with_optional": 2,
+      "csrankings_papers_with_optional": 2,
+      "status": "MATCH"
+    },
+    {
+      "name": "Rinku Shah",
+      "papers": 0,
+      "csrankings_papers": 0,
+      "adjusted_count": 0,
+      "csrankings_adjusted_count": 0,
+      "papers_with_optional": 0,
+      "csrankings_papers_with_optional": 0,
+      "status": "MATCH"
+    },
+    {
+      "name": "Saket Anand",
+      "papers": 7,
+      "csrankings_papers": 7,
+      "adjusted_count": 1.56944444,
+      "csrankings_adjusted_count": 1.56944,
+      "papers_with_optional": 7,
+      "csrankings_papers_with_optional": 7,
+      "status": "MATCH"
+    },
+    {
+      "name": "Sambuddho Chakravarty",
+      "papers": 1,
+      "csrankings_papers": 1,
+      "adjusted_count": 0.2,
+      "csrankings_adjusted_count": 0.2,
+      "papers_with_optional": 5,
+      "csrankings_papers_with_optional": 5,
+      "status": "MATCH"
+    },
+    {
+      "name": "Sujay Deb",
+      "papers": 0,
+      "csrankings_papers": 0,
+      "adjusted_count": 0,
+      "csrankings_adjusted_count": 0,
+      "papers_with_optional": 0,
+      "csrankings_papers_with_optional": 0,
+      "status": "MATCH"
+    },
+    {
+      "name": "Supratim Shit",
+      "papers": 3,
+      "csrankings_papers": 3,
+      "adjusted_count": 0.83333333,
+      "csrankings_adjusted_count": 0.83333,
+      "papers_with_optional": 3,
+      "csrankings_papers_with_optional": 3,
+      "status": "MATCH"
+    },
+    {
+      "name": "Syamantak Das",
+      "papers": 5,
+      "csrankings_papers": 5,
+      "adjusted_count": 1.125,
+      "csrankings_adjusted_count": 1.125,
+      "papers_with_optional": 5,
+      "csrankings_papers_with_optional": 5,
+      "status": "MATCH"
+    },
+    {
+      "name": "Tanmoy Kundu 0001",
+      "papers": 6,
+      "csrankings_papers": 6,
+      "adjusted_count": 2.83333333,
+      "csrankings_adjusted_count": 2.83333,
+      "papers_with_optional": 6,
+      "csrankings_papers_with_optional": 6,
+      "status": "MATCH"
+    },
+    {
+      "name": "Vikram Goyal",
+      "papers": 4,
+      "csrankings_papers": 4,
+      "adjusted_count": 0.86666667,
+      "csrankings_adjusted_count": 0.86667,
+      "papers_with_optional": 7,
+      "csrankings_papers_with_optional": 7,
+      "status": "MATCH"
+    },
+    {
+      "name": "Vinayak Abrol",
+      "papers": 4,
+      "csrankings_papers": 4,
+      "adjusted_count": 1.58333333,
+      "csrankings_adjusted_count": 1.58333,
+      "papers_with_optional": 5,
+      "csrankings_papers_with_optional": 5,
+      "status": "MATCH"
+    },
+    {
+      "name": "Vivek Kumar 0001",
+      "papers": 1,
+      "csrankings_papers": 1,
+      "adjusted_count": 0.25,
+      "csrankings_adjusted_count": 0.25,
+      "papers_with_optional": 1,
+      "csrankings_papers_with_optional": 1,
+      "status": "MATCH"
+    }
+  ],
+  "note": "Recomputed from all 33 cached DBLP bibliographies, then checked against exported publications and reference counts. Adjusted reference credit is rounded to five significant digits per cell."
+}

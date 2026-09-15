@@ -176,7 +176,7 @@ def compare_reference(dataset, reference):
             'note': 'Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten.'}
 
 
-def build(offline=False, refresh=False, backend='sparql'):
+def build(offline=False, refresh=False, backend='sparql', allow_reference_differences=False):
     verify_reference()
     rules = load_rules()
     if backend == 'sparql':
@@ -229,6 +229,11 @@ def build(offline=False, refresh=False, backend='sparql'):
         'faculty': faculty, 'publications': sorted(publications.values(), key=lambda p: p['key']),
     }
     report = compare_reference(result, REFERENCE)
+    if not report['matching'] and not allow_reference_differences:
+        OUTPUT.mkdir(exist_ok=True)
+        (OUTPUT / 'iiitd_validation_failed.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
+        raise ValueError('CSRankings reconciliation failed. Existing dataset preserved. '
+                         'See iiitd_validation_failed.json; review source changes before rebuilding.')
     result['metadata']['validation'] = {
         'matching': report['matching'], 'differing_cells': len(report['differences']),
         'compared_cells': report['compared_cells']}
@@ -252,13 +257,14 @@ def main():
     parser.add_argument('--refresh', action='store_true', help='Refresh every DBLP bibliography')
     parser.add_argument('--reference-only', action='store_true', help='Explicitly use published CSRankings counts; CORE unavailable')
     parser.add_argument('--backend', choices=['sparql', 'xml'], default='sparql')
+    parser.add_argument('--allow-reference-differences', action='store_true', help='Publish despite reviewed reference differences')
     args = parser.parse_args()
     if args.offline and args.refresh:
         parser.error('--offline and --refresh cannot be combined')
     if args.reference_only:
         build_reference()
     else:
-        build(args.offline, args.refresh, args.backend)
+        build(args.offline, args.refresh, args.backend, args.allow_reference_differences)
 
 
 if __name__ == '__main__':

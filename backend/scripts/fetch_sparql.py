@@ -41,9 +41,16 @@ def parse_results(payload, pid_url, expected_name):
             raise ValueError(f'Missing author identities: {uri}')
         if int(value('numberOfCreators', str(len(authors)))) != len(authors):
             raise ValueError(f'Creator count mismatch: {uri}')
+        publication_year = value('yearOfPublication')
+        event_year = value('yearOfEvent')
+        # DBLP's conference year is distinct from the publication year supplied
+        # by publisher metadata. The latter can be absent or erroneous.
+        year = event_year if kind == 'inproceedings' and event_year else publication_year
         papers.append({
             'key': uri.removeprefix('https://dblp.org/rec/'), 'type': kind,
-            'title': value('title'), 'year': int(value('yearOfPublication', '-1')),
+            'title': value('title'), 'year': int(year or '-1'),
+            'publication_year': int(publication_year) if publication_year else None,
+            'event_year': int(event_year) if event_year else None,
             'venue': value('publishedInBook') or value('publishedInJournal') or value('publishedIn'),
             'booktitle': value('publishedInBook'), 'journal': value('publishedInJournal'),
             'volume': value('publishedInJournalVolume'),

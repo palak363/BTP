@@ -7,6 +7,10 @@ from pathlib import Path
 BASE = Path(__file__).resolve().parents[1]
 # Explicit DBLP-to-CORE aliases. No substring or DBLP key-prefix matching.
 ALIASES = {
+    'ACM Multimedia': 'ACMMM',
+    'NAACL-HLT': 'NAACL', 'HLT-NAACL': 'NAACL', 'NAACL (Long Papers)': 'NAACL',
+    'EMNLP/IJCNLP': 'EMNLP', 'EMNLP-IJCNLP': 'EMNLP', 'HLT/EMNLP': 'EMNLP',
+    'ACL/IJCNLP': 'ACL', 'COLING-ACL': 'ACL',
     'SIGMOD Conference': 'SIGMOD',
     'NIPS': 'NeurIPS', 'ICLR (Poster)': 'ICLR',
     'IEEE Symposium on Security and Privacy': 'S&P', 'SP': 'S&P',

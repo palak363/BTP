@@ -3,7 +3,7 @@
     "schema_version": 2,
     "institution": "IIIT Delhi",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-09-14T19:23:07.649227+00:00",
+    "generated_at": "2026-09-15T05:16:36.077422+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -140,9 +140,9 @@
     ],
     "counting": "Unique DBLP keys; faculty credit is 1 / all authors; all reference venues, including optional venues.",
     "validation": {
-      "matching": false,
-      "differing_cells": 3,
-      "compared_cells": 151
+      "matching": true,
+      "differing_cells": 0,
+      "compared_cells": 150
     }
   },
   "filters": {
@@ -155,19 +155,19 @@
     "include_optional": false
   },
   "total_faculty": 33,
-  "total_papers": 130,
-  "faculty_paper_count": 135,
-  "adjusted_count": 30.65756520088099,
-  "average_count": 1.605277434488405,
+  "total_papers": 132,
+  "faculty_paper_count": 137,
+  "adjusted_count": 31.324231867547653,
+  "average_count": 1.614810354804521,
   "domain_distribution": {
     "Artificial intelligence": 30,
-    "Natural language processing": 33,
+    "Natural language processing": 34,
     "Logic & verification": 1,
     "Human-computer interaction": 21,
     "Computer vision": 5,
     "Cryptography": 2,
     "Machine learning & data mining": 16,
-    "Robotics": 5,
+    "Robotics": 6,
     "Measurement & performance analysis": 2,
     "Programming languages": 1,
     "High-performance computing": 1,
@@ -180,7 +180,7 @@
   "top_areas": [
     {
       "area": "Natural language processing",
-      "papers": 33
+      "papers": 34
     },
     {
       "area": "Artificial intelligence",
@@ -199,11 +199,11 @@
       "papers": 7
     },
     {
-      "area": "Computer vision",
-      "papers": 5
+      "area": "Robotics",
+      "papers": 6
     },
     {
-      "area": "Robotics",
+      "area": "Computer vision",
       "papers": 5
     },
     {
@@ -261,12 +261,12 @@
       "papers": 8
     },
     {
-      "venue": "NeurIPS",
+      "venue": "NAACL-HLT",
       "papers": 8
     },
     {
-      "venue": "NAACL-HLT",
-      "papers": 7
+      "venue": "NeurIPS",
+      "papers": 8
     },
     {
       "venue": "WWW",
@@ -297,6 +297,10 @@
       "papers": 3
     },
     {
+      "venue": "IROS",
+      "papers": 3
+    },
+    {
       "venue": "SODA",
       "papers": 3
     },
@@ -310,10 +314,6 @@
     },
     {
       "venue": "Internet Measurement Conference",
-      "papers": 2
-    },
-    {
-      "venue": "IROS",
       "papers": 2
     },
     {
@@ -444,15 +444,15 @@
       "name": "Md. Shad Akhtar",
       "dblp_url": "https://dblp.org/pid/184/8579",
       "area": "Unknown",
-      "papers": 23,
-      "score": 4.808333333333334,
+      "papers": 24,
+      "score": 4.975,
       "domains": {
         "Artificial intelligence": 5,
-        "Natural language processing": 13,
+        "Natural language processing": 14,
         "Machine learning & data mining": 3,
         "The Web & information retrieval": 2
       },
-      "adjusted_count": 4.808333333333334,
+      "adjusted_count": 4.975,
       "top_domain": "Natural language processing",
       "top_venues": [
         {
@@ -466,6 +466,10 @@
         {
           "venue": "ACL (1)",
           "papers": 4
+        },
+        {
+          "venue": "NAACL-HLT",
+          "papers": 2
         },
         {
           "venue": "NeurIPS",
@@ -489,10 +493,6 @@
         },
         {
           "venue": "NAACL-HLT (1)",
-          "papers": 1
-        },
-        {
-          "venue": "NAACL-HLT",
           "papers": 1
         }
       ]
@@ -538,12 +538,12 @@
       "name": "Tanmoy Kundu 0001",
       "dblp_url": "https://dblp.org/pid/226/6193-1",
       "area": "Unknown",
-      "papers": 5,
-      "score": 2.333333333333333,
+      "papers": 6,
+      "score": 2.833333333333333,
       "domains": {
-        "Robotics": 5
+        "Robotics": 6
       },
-      "adjusted_count": 2.333333333333333,
+      "adjusted_count": 2.833333333333333,
       "top_domain": "Robotics",
       "top_venues": [
         {
@@ -552,7 +552,7 @@
         },
         {
           "venue": "IROS",
-          "papers": 2
+          "papers": 3
         }
       ]
     },

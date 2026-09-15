@@ -10,6 +10,7 @@ BASE = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BASE / 'scripts'))
 sys.path.insert(0, str(BASE))
 from fetch_dblp import parse_profile, fetch_papers
+from fetch_sparql import parse_results, SCHEMA, RDF_TYPE
 from venue_rules import load_rules, classify_csr
 from core_venues import classify_core
 from build_iiitd_dataset import summarize
@@ -52,6 +53,40 @@ class ParserTests(unittest.TestCase):
         with patch('fetch_dblp.requests.get', side_effect=__import__('requests').ConnectionError()), patch('fetch_dblp.time.sleep'):
             with self.assertRaises(__import__('requests').ConnectionError):
                 fetch_papers('https://dblp.org/pid/fiction/test.html', refresh=True)
+
+
+class SparqlTests(unittest.TestCase):
+    def payload(self, publication_year, event_year):
+        pid, key = 'https://dblp.org/pid/test/alice', 'https://dblp.org/rec/conf/test/paper'
+        triples = [(pid, SCHEMA + 'creatorName', 'Alice'),
+                   (key, RDF_TYPE, SCHEMA + 'Inproceedings'),
+                   (key, SCHEMA + 'authoredBy', pid),
+                   (key, SCHEMA + 'title', 'A conference paper'),
+                   (key, SCHEMA + 'publishedInBook', 'NAACL-HLT')]
+        if publication_year is not None:
+            triples.append((key, SCHEMA + 'yearOfPublication', str(publication_year)))
+        if event_year is not None:
+            triples.append((key, SCHEMA + 'yearOfEvent', str(event_year)))
+        rows = [{'subject': {'value': s}, 'p': {'value': p}, 'o': {'value': o}} for s, p, o in triples]
+        return {'results': {'bindings': rows}, 'meta': {'result-size-total': len(rows)}}
+
+    def test_conference_year_corrects_bad_publisher_year(self):
+        result = parse_results(self.payload(2014, 2024), 'https://dblp.org/pid/test/alice', 'Alice')[0]
+        self.assertEqual(result['year'], 2024)
+        self.assertEqual(result['publication_year'], 2014)
+
+    def test_missing_publication_year_uses_event_year(self):
+        result = parse_results(self.payload(None, 2023), 'https://dblp.org/pid/test/alice', 'Alice')[0]
+        self.assertEqual(result['year'], 2023)
+        self.assertIsNone(result['publication_year'])
+
+    def test_wrong_identity_or_truncated_query_fails(self):
+        payload = self.payload(2024, 2024)
+        with self.assertRaises(ValueError):
+            parse_results(payload, 'https://dblp.org/pid/test/alice', 'Other')
+        payload['meta']['result-size-total'] += 1
+        with self.assertRaises(ValueError):
+            parse_results(payload, 'https://dblp.org/pid/test/alice', 'Alice')
 
 
 @unittest.skipUnless((BASE / 'data/reference/csrankings.py').exists(), 'Download reference rules first')
@@ -137,6 +172,23 @@ class ApiTests(unittest.TestCase):
         payload = self.client.get('/iiitd/domains?start_year=2100&end_year=2100').get_json()
         self.assertEqual(payload['faculty_paper_count'], 0)
         self.assertEqual(len(payload['faculty_rankings']), 33)
+
+    def test_reported_faculty_counts_and_year_boundary(self):
+        rows = self.client.get('/iiitd?start_year=2016&end_year=2026').get_json()
+        counts = {r['name']: r['papers'] for r in rows}
+        self.assertEqual(counts['Md. Shad Akhtar'], 24)
+        self.assertEqual(counts['Pushpendra Singh 0001'], 18)
+        rows = self.client.get('/iiitd?start_year=2015&end_year=2026').get_json()
+        self.assertEqual(next(r['papers'] for r in rows if r['name'] == 'Pushpendra Singh 0001'), 19)
+
+    def test_reconciled_reference_and_source_union(self):
+        report = self.client.get('/iiitd/validation').get_json()
+        self.assertTrue(report['matching'])
+        self.assertEqual(report['differences'], [])
+        totals = [self.client.get('/iiitd/domains?sources=' + source).get_json()['total_papers']
+                  for source in ['csrankings', 'core-a-star', 'core-a', 'csrankings,core-a-star,core-a']]
+        self.assertGreater(totals[-1], max(totals[:-1]))
+        self.assertLess(totals[-1], sum(totals[:-1]))
 
 
 if __name__ == '__main__':

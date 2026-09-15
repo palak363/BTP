@@ -1,26 +1,24 @@
+﻿"""Optional legacy PostgreSQL export; the API serves the publication artifact."""
 import json
-from db import SessionLocal
+from pathlib import Path
+from sqlalchemy import Integer, inspect
+from db import SessionLocal, engine
 from models import FacultyRanking
 
-if __name__ == "__main__":
-    session = SessionLocal()
 
-    session.query(FacultyRanking).delete()
+def main():
+    payload = json.loads((Path(__file__).parent / 'data/processed/iiitd_domains.json').read_text(encoding='utf-8'))
+    columns = inspect(engine).get_columns('faculty_rankings')
+    if any(c['name'] == 'score' and isinstance(c['type'], Integer) for c in columns):
+        raise RuntimeError('Legacy score column is integer. Migrate it to DOUBLE PRECISION before exporting fractional credit.')
+    with SessionLocal.begin() as session:
+        session.query(FacultyRanking).delete()
+        for item in payload['faculty_rankings']:
+            session.add(FacultyRanking(
+                name=item['name'], papers=item['papers'], score=item['score'],
+                domains=item['domains'], top_domain=item['top_domain'], top_venues=item['top_venues']))
+    print('Exported faculty summary to PostgreSQL. The API uses iiitd_dataset.json.')
 
-    with open("data/processed/iiitd_domains.json", "r", encoding="utf-8") as f:
-        payload = json.load(f)
 
-    for item in payload.get("faculty_rankings", []):
-        row = FacultyRanking(
-            name=item["name"],
-            papers=item.get("papers", 0),
-            score=item.get("score", 0),
-            domains=item.get("domains", {}),
-            top_domain=item.get("top_domain"),
-            top_venues=item.get("top_venues", []),
-        )
-        session.add(row)
-
-    session.commit()
-    session.close()
-    print("✅ Loaded data into PostgreSQL")
+if __name__ == '__main__':
+    main()

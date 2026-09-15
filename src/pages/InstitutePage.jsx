@@ -94,7 +94,7 @@ function Pilot() {
           <div className="method-grid"><div><h3>Count papers consistently</h3><p>CSRankings eligibility includes venue-specific tracks, page thresholds, and journal proceedings. Select the same years and venues when comparing with the original site.</p></div>
             <div><h3>Share credit fairly</h3><p>Each faculty author receives 1/N credit, where N is the number of all authors. Raw faculty totals can count a shared paper more than once.</p></div>
             <div><h3>Know the source</h3><p>{published ? "This view uses published counts, not an independently recomputed DBLP result. CORE is kept separate until a full bibliography is available." : "Papers are keyed by DBLP identifier. Selecting multiple sources takes their union without counting an overlapping paper twice."}</p></div></div>
-          <div className="method-footer"><a href="https://csrankings.org/faq.html" target="_blank" rel="noreferrer">CSRankings methodology ↗</a><span>Reference {data.metadata.reference_revision.slice(0,12)} · Built {data.metadata.generated_at.slice(0,10)}</span></div>
+          <div className="method-footer"><span>Publication-based counting methodology</span><span>Reference {data.metadata.reference_revision.slice(0,12)} · Built {data.metadata.generated_at.slice(0,10)}</span></div>
         </section>
       </>}
   </div>;

@@ -69,15 +69,15 @@
     "name": "Md. Shad Akhtar",
     "dblp_url": "https://dblp.org/pid/184/8579",
     "area": "Unknown",
-    "papers": 23,
-    "score": 4.808333333333334,
+    "papers": 24,
+    "score": 4.975,
     "domains": {
       "Artificial intelligence": 5,
-      "Natural language processing": 13,
+      "Natural language processing": 14,
       "Machine learning & data mining": 3,
       "The Web & information retrieval": 2
     },
-    "adjusted_count": 4.808333333333334,
+    "adjusted_count": 4.975,
     "top_domain": "Natural language processing",
     "top_venues": [
       {
@@ -91,6 +91,10 @@
       {
         "venue": "ACL (1)",
         "papers": 4
+      },
+      {
+        "venue": "NAACL-HLT",
+        "papers": 2
       },
       {
         "venue": "NeurIPS",
@@ -114,10 +118,6 @@
       },
       {
         "venue": "NAACL-HLT (1)",
-        "papers": 1
-      },
-      {
-        "venue": "NAACL-HLT",
         "papers": 1
       }
     ]
@@ -163,12 +163,12 @@
     "name": "Tanmoy Kundu 0001",
     "dblp_url": "https://dblp.org/pid/226/6193-1",
     "area": "Unknown",
-    "papers": 5,
-    "score": 2.333333333333333,
+    "papers": 6,
+    "score": 2.833333333333333,
     "domains": {
-      "Robotics": 5
+      "Robotics": 6
     },
-    "adjusted_count": 2.333333333333333,
+    "adjusted_count": 2.833333333333333,
     "top_domain": "Robotics",
     "top_venues": [
       {
@@ -177,7 +177,7 @@
       },
       {
         "venue": "IROS",
-        "papers": 2
+        "papers": 3
       }
     ]
   },

@@ -1,11 +1,25 @@
-import pandas as pd
+﻿"""Extract IIIT Delhi's reference roster with deterministic paths."""
+import csv
+from pathlib import Path
 
-# load your CSV (rename your file if needed)
-df = pd.read_csv("../data/raw/csrankings.csv")
+BASE = Path(__file__).resolve().parents[1]
 
-# filter IIIT Delhi (handle variations)
-iiitd = df[df["affiliation"].str.contains("IIIT Delhi", case=False, na=False)]
 
-print(f"Found {len(iiitd)} IIITD faculty")
+def main():
+    source = BASE / 'data/reference/csrankings.csv'
+    if not source.exists():
+        source = BASE / 'data/raw/csrankings.csv'
+    with source.open(encoding='utf-8-sig', newline='') as stream:
+        reader = csv.DictReader(stream)
+        fields = reader.fieldnames
+        rows = [row for row in reader if row['affiliation'] == 'IIIT Delhi']
+    destination = BASE / 'data/raw/iiitd_raw.csv'
+    with destination.open('w', encoding='utf-8', newline='') as stream:
+        writer = csv.DictWriter(stream, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(rows)
+    print(f'Extracted {len(rows)} roster entries, including aliases. Run prepare_sources.py to canonicalize.')
 
-iiitd.to_csv("../data/raw/iiitd_raw.csv", index=False)
+
+if __name__ == '__main__':
+    main()
