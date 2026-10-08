@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-09-15T05:24:53.844066+00:00",
+  "checked_at": "2026-10-08T22:55:27.194841+00:00",
   "start_year": 2016,
   "end_year": 2026,
   "default_selection": "CSRankings default venues; optional venues excluded",
-  "reference_directory": "C:\\Users\\Arnav Gupta\\Desktop\\BTP\\BTP\\backend\\data\\reference\\deployed-audit",
+  "reference_directory": "C:\\Users\\Arnav Gupta\\Desktop\\BTP\\BTP\\backend\\data\\reference",
   "reference_sha256": {
     "generated-author-info.csv": "b92284079773e59cf0ec1b782062a2c511ef2882ba1d6088dab5d436a530042a",
     "csrankings.csv": "b78ce8b7ccc8d967b5560228e88ca53b2aa0b273846d863ccbc62d4eb8add009",

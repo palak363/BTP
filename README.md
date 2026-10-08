@@ -72,6 +72,10 @@ Select CSRankings, CORE A*, CORE A, or their union. Overlapping papers count onc
 
 CORE ranks venues, not individual paper tracks. This implementation includes conference papers with at least six pages, or papers that already pass the venue-specific CSRankings full-paper rules. It excludes workshop variants and does not classify arbitrary journal articles as conference papers. Shorter legitimate conference papers can therefore be excluded under this stated policy. Additional CORE venues outside the CSRankings area map appear under Other CORE areas.
 
+The CORE coverage audit checks all 60 A* and 117 A entries in the pinned CORE2023 catalogue and recomputes all 33 faculty counts from cached bibliographies. Corrected aliases include ECML/PKDD, APPROX-RANDOM, ICSM, OOPSLA1/2, PoPETs and IEEE S&P. Semantic Web ISWC is resolved using its exact venue name plus the verified DBLP `conf/semweb/` series, keeping Wearable Computers and named satellite tracks separate. Full catalogue titles also resolve exactly. This does not establish complete coverage of every historical DBLP alias or refresh the catalogue to ICORE2026.
+
+Run `python backend/scripts/audit_core_counts.py` after rebuilding. It writes `iiitd_core_audit.json` (catalogue coverage, unmapped venues, exclusions and source/API checks) and `iiitd_core_faculty_counts.csv` (all faculty counts for 2016–2026). Optional `--baseline path/to/previous-dataset.json` records before/after changes. The audit uses cached records and the existing paper eligibility policy; it does not fetch new bibliographies.
+
 ## Generated artifacts and API
 
 - backend/data/processed/iiitd_dataset.json: publication identifiers, metadata, faculty memberships, source memberships, and provenance.

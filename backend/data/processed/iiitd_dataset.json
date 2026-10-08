@@ -3,7 +3,7 @@
     "schema_version": 2,
     "institution": "IIIT Delhi",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-09-15T05:16:36.077422+00:00",
+    "generated_at": "2026-10-08T22:53:53.572469+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -2111,6 +2111,72 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/approx/ChalermsookDELV18",
+      "type": "inproceedings",
+      "title": "Survivable Network Design for Group Connectivity in Low-Treewidth Graphs.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "APPROX-RANDOM",
+      "booktitle": "APPROX-RANDOM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "8:1-8:19",
+      "authors": [
+        "https://dblp.org/pid/133/1705",
+        "https://dblp.org/pid/135/6297",
+        "https://dblp.org/pid/45/1790",
+        "https://dblp.org/pid/50/1947",
+        "https://dblp.org/pid/56/1487"
+      ],
+      "url": "https://dblp.org/db/conf/approx/approx2018#conf/approx/ChalermsookDELV18",
+      "faculty": [
+        "Syamantak Das"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "APPROX/RANDOM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/approx/DasJK20",
+      "type": "inproceedings",
+      "title": "A Constant Factor Approximation for Capacitated Min-Max Tree Cover.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "APPROX-RANDOM",
+      "booktitle": "APPROX-RANDOM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "55:1-55:13",
+      "authors": [
+        "https://dblp.org/pid/135/6297",
+        "https://dblp.org/pid/245/2884",
+        "https://dblp.org/pid/85/4186-1"
+      ],
+      "url": "https://dblp.org/db/conf/approx/approx2020#conf/approx/DasJK20",
+      "faculty": [
+        "Syamantak Das"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "APPROX/RANDOM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
         }
       ]
     },
@@ -7368,6 +7434,38 @@
       ]
     },
     {
+      "key": "conf/icsm/KiranHJ97",
+      "type": "inproceedings",
+      "title": "Effect of Object Orientation on Maintainability of Software.",
+      "year": 1997,
+      "publication_year": 1997,
+      "event_year": 1997,
+      "venue": "ICSM",
+      "booktitle": "ICSM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "114-121",
+      "authors": [
+        "https://dblp.org/pid/28/6750",
+        "https://dblp.org/pid/40/3196",
+        "https://dblp.org/pid/j/PankajJalote"
+      ],
+      "url": "https://dblp.org/db/conf/icsm/icsm1997#conf/icsm/KiranHJ97",
+      "faculty": [
+        "Pankaj Jalote"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ICSME",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 1997
+        }
+      ]
+    },
+    {
       "key": "conf/icsoc/MudamBCB20",
       "type": "inproceedings",
       "title": "Mobility-Aware Service Placement for Vehicular Users in Edge-Cloud Environment.",
@@ -10186,6 +10284,202 @@
       ]
     },
     {
+      "key": "conf/pkdd/CheemaA17",
+      "type": "inproceedings",
+      "title": "Automatic Detection and Recognition of Individuals in Patterned Species.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "ECML/PKDD (3)",
+      "booktitle": "ECML/PKDD (3)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "27-38",
+      "authors": [
+        "https://dblp.org/pid/11/4747",
+        "https://dblp.org/pid/211/5762"
+      ],
+      "url": "https://dblp.org/db/conf/pkdd/pkdd2017-3#conf/pkdd/CheemaA17",
+      "faculty": [
+        "Saket Anand"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ECML PKDD",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/pkdd/GoelVG23",
+      "type": "inproceedings",
+      "title": "MWPRanker: An Expression Similarity Based Math Word Problem Retriever.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "ECML/PKDD (7)",
+      "booktitle": "ECML/PKDD (7)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "372-377",
+      "authors": [
+        "https://dblp.org/pid/274/2996",
+        "https://dblp.org/pid/70/6404",
+        "https://dblp.org/pid/72/11299"
+      ],
+      "url": "https://dblp.org/db/conf/pkdd/pkdd2023-7#conf/pkdd/GoelVG23",
+      "faculty": [
+        "Vikram Goyal"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ECML PKDD",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/pkdd/GuptaVMG22",
+      "type": "inproceedings",
+      "title": "'John Ate 5 Apples' != 'John Ate Some Apples': Self-supervised Paraphrase Quality Detection for Algebraic Word Problems.",
+      "year": 2022,
+      "publication_year": 2023,
+      "event_year": 2022,
+      "venue": "ECML/PKDD (6)",
+      "booktitle": "ECML/PKDD (6)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "353-369",
+      "authors": [
+        "https://dblp.org/pid/274/2996",
+        "https://dblp.org/pid/70/6404",
+        "https://dblp.org/pid/83/6555",
+        "https://dblp.org/pid/85/6670"
+      ],
+      "url": "https://dblp.org/db/conf/pkdd/pkdd2022-6#conf/pkdd/GuptaVMG22",
+      "faculty": [
+        "Mukesh K. Mohania",
+        "Vikram Goyal"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ECML PKDD",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/pkdd/JainSM23",
+      "type": "inproceedings",
+      "title": "ReOnto: A Neuro-Symbolic Approach for Biomedical Relation Extraction.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "ECML/PKDD (4)",
+      "booktitle": "ECML/PKDD (4)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "230-247",
+      "authors": [
+        "https://dblp.org/pid/52/7907",
+        "https://dblp.org/pid/63/7446",
+        "https://dblp.org/pid/81/4530"
+      ],
+      "url": "https://dblp.org/db/conf/pkdd/pkdd2023-4#conf/pkdd/JainSM23",
+      "faculty": [
+        "Raghava Mutharaju"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ECML PKDD",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/pkdd/TVMNVS19",
+      "type": "inproceedings",
+      "title": "Meta-Learning for Black-Box Optimization.",
+      "year": 2019,
+      "publication_year": 2020,
+      "event_year": 2019,
+      "venue": "ECML/PKDD (2)",
+      "booktitle": "ECML/PKDD (2)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "366-381",
+      "authors": [
+        "https://dblp.org/pid/16/4559",
+        "https://dblp.org/pid/185/0511",
+        "https://dblp.org/pid/239/4147",
+        "https://dblp.org/pid/42/811",
+        "https://dblp.org/pid/54/3265"
+      ],
+      "url": "https://dblp.org/db/conf/pkdd/pkdd2019-2#conf/pkdd/TVMNVS19",
+      "faculty": [
+        "Gautam Shroff"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ECML PKDD",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/pkdd/VMG21",
+      "type": "inproceedings",
+      "title": "TagRec: Automated Tagging of Questions with Hierarchical Learning Taxonomy.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "ECML/PKDD (5)",
+      "booktitle": "ECML/PKDD (5)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "381-396",
+      "authors": [
+        "https://dblp.org/pid/274/2996",
+        "https://dblp.org/pid/70/6404",
+        "https://dblp.org/pid/85/6670"
+      ],
+      "url": "https://dblp.org/db/conf/pkdd/pkdd2021-5#conf/pkdd/VMG21",
+      "faculty": [
+        "Mukesh K. Mohania",
+        "Vikram Goyal"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ECML PKDD",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
       "key": "conf/pldi/KediaCPVVB17",
       "type": "inproceedings",
       "title": "Simple, fast, and safe manual memory management.",
@@ -10507,6 +10801,68 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2003
+        }
+      ]
+    },
+    {
+      "key": "conf/semweb/Mutharaju12",
+      "type": "inproceedings",
+      "title": "Very Large Scale OWL Reasoning through Distributed Computation.",
+      "year": 2012,
+      "publication_year": 2012,
+      "event_year": 2012,
+      "venue": "ISWC (2)",
+      "booktitle": "ISWC (2)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "407-414",
+      "authors": [
+        "https://dblp.org/pid/63/7446"
+      ],
+      "url": "https://dblp.org/db/conf/semweb/iswc2012-2#conf/semweb/Mutharaju12",
+      "faculty": [
+        "Raghava Mutharaju"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ISWC",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2012
+        }
+      ]
+    },
+    {
+      "key": "conf/semweb/SinghBM20",
+      "type": "inproceedings",
+      "title": "OWL2Bench: A Benchmark for OWL 2 Reasoners.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "ISWC (2)",
+      "booktitle": "ISWC (2)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "81-96",
+      "authors": [
+        "https://dblp.org/pid/217/5394",
+        "https://dblp.org/pid/52/7536",
+        "https://dblp.org/pid/63/7446"
+      ],
+      "url": "https://dblp.org/db/conf/semweb/iswc2020-2#conf/semweb/SinghBM20",
+      "faculty": [
+        "Raghava Mutharaju"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ISWC",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
         }
       ]
     },
@@ -12361,6 +12717,13 @@
           "area": "oopsla",
           "domain": "Programming languages",
           "source": "csrankings"
+        },
+        {
+          "source": "core-a",
+          "venue": "OOPSLA",
+          "area": "oopsla",
+          "domain": "Programming languages",
+          "year": 2022
         }
       ]
     },
@@ -12393,6 +12756,13 @@
           "area": "oopsla",
           "domain": "Programming languages",
           "source": "csrankings"
+        },
+        {
+          "source": "core-a",
+          "venue": "OOPSLA",
+          "area": "oopsla",
+          "domain": "Programming languages",
+          "year": 2023
         }
       ]
     },
@@ -12425,6 +12795,13 @@
           "area": "pets",
           "domain": "Computer security",
           "source": "csrankings"
+        },
+        {
+          "source": "core-a",
+          "venue": "PETS",
+          "area": "pets",
+          "domain": "Computer security",
+          "year": 2021
         }
       ]
     },
@@ -12460,6 +12837,13 @@
           "area": "pets",
           "domain": "Computer security",
           "source": "csrankings"
+        },
+        {
+          "source": "core-a",
+          "venue": "PETS",
+          "area": "pets",
+          "domain": "Computer security",
+          "year": 2020
         }
       ]
     },
@@ -12497,6 +12881,13 @@
           "area": "pets",
           "domain": "Computer security",
           "source": "csrankings"
+        },
+        {
+          "source": "core-a",
+          "venue": "PETS",
+          "area": "pets",
+          "domain": "Computer security",
+          "year": 2020
         }
       ]
     },
@@ -12532,6 +12923,13 @@
           "area": "pets",
           "domain": "Computer security",
           "source": "csrankings"
+        },
+        {
+          "source": "core-a",
+          "venue": "PETS",
+          "area": "pets",
+          "domain": "Computer security",
+          "year": 2023
         }
       ]
     },

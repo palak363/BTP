@@ -13,7 +13,7 @@ ALIASES = {
     'ACL/IJCNLP': 'ACL', 'COLING-ACL': 'ACL',
     'SIGMOD Conference': 'SIGMOD',
     'NIPS': 'NeurIPS', 'ICLR (Poster)': 'ICLR',
-    'IEEE Symposium on Security and Privacy': 'S&P', 'SP': 'S&P',
+    'IEEE Symposium on Security and Privacy': 'SP', 'S&P': 'SP',
     'USENIX Security Symposium': 'USENIX-Security', 'USENIX Security': 'USENIX-Security',
     'USENIX Annual Technical Conference': 'USENIX', 'USENIX ATC': 'USENIX',
     'Robotics: Science and Systems': 'RSS', 'Internet Measurement Conference': 'IMC',
@@ -22,6 +22,13 @@ ALIASES = {
     'IMWUT': 'UbiComp', 'SIGGRAPH Asia': 'SIGGRAPH Asia',
     'ACM Conference on Computer and Communications Security': 'CCS',
     'Proc. ACM Meas. Anal. Comput. Syst.': 'SIGMETRICS',
+    'ECML/PKDD': 'ECML PKDD',
+    'APPROX-RANDOM': 'APPROX/RANDOM',
+    'ICSM': 'ICSME',
+    'OOPSLA1': 'OOPSLA', 'OOPSLA2': 'OOPSLA',
+    'Proc. Priv. Enhancing Technol.': 'PETS',
+    'IEEE Trans. Vis. Comput. Graph.': 'IEEE VIS',
+    'IEEE Visualization': 'IEEE VIS', 'VIS': 'IEEE VIS',
 }
 VENUE_IDS = {'SIGSOFT FSE': '52', 'ESEC/SIGSOFT FSE': '52', 'Proc. ACM Softw. Eng.': '52'}
 
@@ -52,14 +59,31 @@ def import_catalogue(path):
     return payload
 
 
-def classify_core(paper, csr, catalogue, rules):
-    if paper['year'] < 1970:
-        return None
+def resolve_core_entry(paper, csr, catalogue):
+    """Resolve exact names; disambiguate Semantic Web using its verified DBLP series."""
     venue = csr['venue'] if csr else paper['venue']
     venue = re.sub(r' \(\d+\)$', '', venue)
+    if venue == 'ISWC' and paper.get('key', '').startswith('conf/semweb/'):
+        return catalogue.get('by_id', {}).get('1338')
+    if venue == 'FSE' and csr and csr['area'] == 'fse':
+        return catalogue.get('by_id', {}).get('52')
+    # Only validated VIS journal issues may use the IEEE VIS rank.
+    if venue == 'IEEE Trans. Vis. Comput. Graph.' and (not csr or csr['area'] != 'vis'):
+        return None
     acronym = ALIASES.get(venue, venue)
     entry = (catalogue.get('by_id', {}).get(VENUE_IDS[venue]) if venue in VENUE_IDS
              else catalogue['venues'].get(acronym.casefold()))
+    if entry is None:
+        matches = [value for value in catalogue.get('by_id', {}).values()
+                   if value['title'].casefold() == venue.casefold()]
+        entry = matches[0] if len(matches) == 1 else None
+    return entry
+
+
+def classify_core(paper, csr, catalogue, rules):
+    if paper['year'] < 1970:
+        return None
+    entry = resolve_core_entry(paper, csr, catalogue)
     if not entry or entry['rank'] not in {'A*', 'A'}:
         return None
     # CORE ranks venues, not paper tracks. Our extension counts full papers;

@@ -1,0 +1,6270 @@
+{
+  "generated_at": "2026-10-08T22:54:56.825063+00:00",
+  "edition": "CORE2023",
+  "scope": "Cached DBLP bibliographies; not a live DBLP refresh or a ranking-edition upgrade.",
+  "year_range": [
+    2016,
+    2026
+  ],
+  "faculty_count": 33,
+  "raw_unique_papers": 1913,
+  "catalogue_rank_counts": {
+    "A*": 60,
+    "A": 117
+  },
+  "unique_papers_by_selection": {
+    "csrankings": 132,
+    "core_a_star": 139,
+    "core_a": 131,
+    "core_union": 270,
+    "all_sources_union": 275
+  },
+  "faculty_counts": [
+    {
+      "name": "A. Venkata Subramanyam",
+      "csrankings": 0,
+      "core_a_star": 1,
+      "core_a": 4,
+      "core_union": 5,
+      "all_sources_union": 5,
+      "core_union_before": 5,
+      "core_union_change": 0
+    },
+    {
+      "name": "Anubha Gupta",
+      "csrankings": 3,
+      "core_a_star": 3,
+      "core_a": 1,
+      "core_union": 4,
+      "all_sources_union": 4,
+      "core_union_before": 4,
+      "core_union_change": 0
+    },
+    {
+      "name": "Arani Bhattacharya",
+      "csrankings": 4,
+      "core_a_star": 6,
+      "core_a": 7,
+      "core_union": 13,
+      "all_sources_union": 14,
+      "core_union_before": 13,
+      "core_union_change": 0
+    },
+    {
+      "name": "Arun Balaji Buduru",
+      "csrankings": 1,
+      "core_a_star": 1,
+      "core_a": 2,
+      "core_union": 3,
+      "all_sources_union": 3,
+      "core_union_before": 3,
+      "core_union_change": 0
+    },
+    {
+      "name": "Bapi Chatterjee",
+      "csrankings": 3,
+      "core_a_star": 4,
+      "core_a": 1,
+      "core_union": 5,
+      "all_sources_union": 5,
+      "core_union_before": 5,
+      "core_union_change": 0
+    },
+    {
+      "name": "Debajyoti Bera",
+      "csrankings": 0,
+      "core_a_star": 1,
+      "core_a": 2,
+      "core_union": 3,
+      "all_sources_union": 3,
+      "core_union_before": 3,
+      "core_union_change": 0
+    },
+    {
+      "name": "Debarka Sengupta",
+      "csrankings": 1,
+      "core_a_star": 0,
+      "core_a": 0,
+      "core_union": 0,
+      "all_sources_union": 1,
+      "core_union_before": 0,
+      "core_union_change": 0
+    },
+    {
+      "name": "Gajendra P. S. Raghava",
+      "csrankings": 0,
+      "core_a_star": 0,
+      "core_a": 0,
+      "core_union": 0,
+      "all_sources_union": 0,
+      "core_union_before": 0,
+      "core_union_change": 0
+    },
+    {
+      "name": "Ganesh Bagler",
+      "csrankings": 0,
+      "core_a_star": 0,
+      "core_a": 0,
+      "core_union": 0,
+      "all_sources_union": 0,
+      "core_union_before": 0,
+      "core_union_change": 0
+    },
+    {
+      "name": "Gautam Shroff",
+      "csrankings": 2,
+      "core_a_star": 4,
+      "core_a": 9,
+      "core_union": 13,
+      "all_sources_union": 13,
+      "core_union_before": 12,
+      "core_union_change": 1
+    },
+    {
+      "name": "Jainendra Shukla",
+      "csrankings": 4,
+      "core_a_star": 2,
+      "core_a": 2,
+      "core_union": 4,
+      "all_sources_union": 6,
+      "core_union_before": 4,
+      "core_union_change": 0
+    },
+    {
+      "name": "Md. Shad Akhtar",
+      "csrankings": 24,
+      "core_a_star": 23,
+      "core_a": 10,
+      "core_union": 33,
+      "all_sources_union": 33,
+      "core_union_before": 33,
+      "core_union_change": 0
+    },
+    {
+      "name": "Mukesh K. Mohania",
+      "csrankings": 1,
+      "core_a_star": 0,
+      "core_a": 8,
+      "core_union": 8,
+      "all_sources_union": 8,
+      "core_union_before": 6,
+      "core_union_change": 2
+    },
+    {
+      "name": "Mukulika Maity",
+      "csrankings": 2,
+      "core_a_star": 1,
+      "core_a": 6,
+      "core_union": 7,
+      "all_sources_union": 8,
+      "core_union_before": 5,
+      "core_union_change": 2
+    },
+    {
+      "name": "Nikhil Gupta 0008",
+      "csrankings": 1,
+      "core_a_star": 1,
+      "core_a": 3,
+      "core_union": 4,
+      "all_sources_union": 4,
+      "core_union_before": 4,
+      "core_union_change": 0
+    },
+    {
+      "name": "Ojaswa Sharma",
+      "csrankings": 0,
+      "core_a_star": 1,
+      "core_a": 3,
+      "core_union": 4,
+      "all_sources_union": 4,
+      "core_union_before": 4,
+      "core_union_change": 0
+    },
+    {
+      "name": "Pankaj Jalote",
+      "csrankings": 0,
+      "core_a_star": 0,
+      "core_a": 1,
+      "core_union": 1,
+      "all_sources_union": 1,
+      "core_union_before": 1,
+      "core_union_change": 0
+    },
+    {
+      "name": "Piyus Kedia",
+      "csrankings": 1,
+      "core_a_star": 1,
+      "core_a": 5,
+      "core_union": 6,
+      "all_sources_union": 6,
+      "core_union_before": 4,
+      "core_union_change": 2
+    },
+    {
+      "name": "Pushpendra Singh 0001",
+      "csrankings": 18,
+      "core_a_star": 17,
+      "core_a": 3,
+      "core_union": 20,
+      "all_sources_union": 21,
+      "core_union_before": 20,
+      "core_union_change": 0
+    },
+    {
+      "name": "Raghava Mutharaju",
+      "csrankings": 2,
+      "core_a_star": 2,
+      "core_a": 5,
+      "core_union": 7,
+      "all_sources_union": 7,
+      "core_union_before": 5,
+      "core_union_change": 2
+    },
+    {
+      "name": "Rajiv Raman 0001",
+      "csrankings": 0,
+      "core_a_star": 0,
+      "core_a": 8,
+      "core_union": 8,
+      "all_sources_union": 8,
+      "core_union_before": 8,
+      "core_union_change": 0
+    },
+    {
+      "name": "Rajiv Ratn Shah",
+      "csrankings": 37,
+      "core_a_star": 41,
+      "core_a": 27,
+      "core_union": 68,
+      "all_sources_union": 68,
+      "core_union_before": 68,
+      "core_union_change": 0
+    },
+    {
+      "name": "Ravi Anand",
+      "csrankings": 2,
+      "core_a_star": 2,
+      "core_a": 1,
+      "core_union": 3,
+      "all_sources_union": 3,
+      "core_union_before": 3,
+      "core_union_change": 0
+    },
+    {
+      "name": "Rinku Shah",
+      "csrankings": 0,
+      "core_a_star": 0,
+      "core_a": 1,
+      "core_union": 1,
+      "all_sources_union": 1,
+      "core_union_before": 1,
+      "core_union_change": 0
+    },
+    {
+      "name": "Saket Anand",
+      "csrankings": 7,
+      "core_a_star": 8,
+      "core_a": 10,
+      "core_union": 18,
+      "all_sources_union": 18,
+      "core_union_before": 17,
+      "core_union_change": 1
+    },
+    {
+      "name": "Sambuddho Chakravarty",
+      "csrankings": 1,
+      "core_a_star": 0,
+      "core_a": 10,
+      "core_union": 10,
+      "all_sources_union": 10,
+      "core_union_before": 6,
+      "core_union_change": 4
+    },
+    {
+      "name": "Sujay Deb",
+      "csrankings": 0,
+      "core_a_star": 0,
+      "core_a": 0,
+      "core_union": 0,
+      "all_sources_union": 0,
+      "core_union_before": 0,
+      "core_union_change": 0
+    },
+    {
+      "name": "Supratim Shit",
+      "csrankings": 3,
+      "core_a_star": 3,
+      "core_a": 1,
+      "core_union": 4,
+      "all_sources_union": 4,
+      "core_union_before": 4,
+      "core_union_change": 0
+    },
+    {
+      "name": "Syamantak Das",
+      "csrankings": 5,
+      "core_a_star": 6,
+      "core_a": 7,
+      "core_union": 13,
+      "all_sources_union": 13,
+      "core_union_before": 11,
+      "core_union_change": 2
+    },
+    {
+      "name": "Tanmoy Kundu 0001",
+      "csrankings": 6,
+      "core_a_star": 3,
+      "core_a": 3,
+      "core_union": 6,
+      "all_sources_union": 6,
+      "core_union_before": 6,
+      "core_union_change": 0
+    },
+    {
+      "name": "Vikram Goyal",
+      "csrankings": 4,
+      "core_a_star": 6,
+      "core_a": 9,
+      "core_union": 15,
+      "all_sources_union": 15,
+      "core_union_before": 12,
+      "core_union_change": 3
+    },
+    {
+      "name": "Vinayak Abrol",
+      "csrankings": 4,
+      "core_a_star": 5,
+      "core_a": 0,
+      "core_union": 5,
+      "all_sources_union": 5,
+      "core_union_before": 5,
+      "core_union_change": 0
+    },
+    {
+      "name": "Vivek Kumar 0001",
+      "csrankings": 1,
+      "core_a_star": 0,
+      "core_a": 1,
+      "core_union": 1,
+      "all_sources_union": 1,
+      "core_union_before": 1,
+      "core_union_change": 0
+    }
+  ],
+  "differences": [],
+  "membership_differences": [],
+  "raw_classification": {
+    "unmapped_venue_or_non_main_track": 1127,
+    "ranked_venue_excluded_by_paper_policy": 105,
+    "venue_not_core_a_or_a_star": 347,
+    "included_core": 334
+  },
+  "coverage": [
+    {
+      "id": "11",
+      "title": "ACM Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+      "acronym": "SIGCOMM",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "12",
+      "title": "ACM Conference on Computer and Communications Security",
+      "acronym": "CCS",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "13",
+      "title": "ACM Conference on Computer Supported Cooperative Work",
+      "acronym": "CSCW",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "14",
+      "title": "ACM Conference on Economics and Computation",
+      "acronym": "EC",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "15",
+      "title": "ACM Conference on Embedded Networked Sensor Systems",
+      "acronym": "SENSYS",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "18",
+      "title": "ACM Conference on Object Oriented Programming Systems Languages and Applications",
+      "acronym": "OOPSLA",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 3
+    },
+    {
+      "id": "22",
+      "title": "ACM International Conference on Advances in Geographic Information Systems",
+      "acronym": "SIGSPATIAL",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "24",
+      "title": "ACM International Conference on Emerging Networking Experiments and Technologies",
+      "acronym": "CoNEXT",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "25",
+      "title": "ACM International Conference on Information and Knowledge Management",
+      "acronym": "CIKM",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 16
+    },
+    {
+      "id": "26",
+      "title": "ACM International Conference on Knowledge Discovery and Data Mining",
+      "acronym": "KDD",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 6
+    },
+    {
+      "id": "27",
+      "title": "ACM International Conference on Mobile Computing and Networking",
+      "acronym": "MOBICOM",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "28",
+      "title": "ACM International Conference on Recommender Systems",
+      "acronym": "RecSys",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "29",
+      "title": "ACM International Conference on Research and Development in Information Retrieval",
+      "acronym": "SIGIR",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "30",
+      "title": "ACM International Conference on Supercomputing",
+      "acronym": "ICS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "52",
+      "title": "ACM International Conference on the Foundations of Software Engineering (was ESEC/FSE, changed 2024; duplicate previously listed as ESEC, removed from DB)",
+      "acronym": "FSE",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "31",
+      "title": "ACM International Conference on Web Search and Data Mining",
+      "acronym": "WSDM",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 3
+    },
+    {
+      "id": "32",
+      "title": "ACM International Symposium on Computer Architecture",
+      "acronym": "ISCA",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "33",
+      "title": "ACM International Symposium on High Performance Distributed Computing",
+      "acronym": "HPDC",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "37",
+      "title": "ACM Multimedia",
+      "acronym": "ACMMM",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 9
+    },
+    {
+      "id": "38",
+      "title": "ACM SIG International Conference on Computer Graphics and Interactive Techniques",
+      "acronym": "SIGGRAPH",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "45",
+      "title": "ACM SIGMOBILE International Conference on Mobile Systems, Applications and Services",
+      "acronym": "Mobisys",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "46",
+      "title": "ACM SIGMOD-SIGACT-SIGART Conference on Principles of Database Systems",
+      "acronym": "PODS",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "48",
+      "title": "ACM SIGOPS Symposium on Operating Systems Principles",
+      "acronym": "SOSP",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "55",
+      "title": "ACM Special Interest Group on Computer Science Education Conference",
+      "acronym": "SIGCSE",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "56",
+      "title": "ACM Special Interest Group on Management of Data Conference",
+      "acronym": "SIGMOD",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 2
+    },
+    {
+      "id": "58",
+      "title": "ACM Symposium on Mobile Ad Hoc Networking and Computing",
+      "acronym": "MOBIHOC",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "63",
+      "title": "ACM Symposium on Principles of Distributed Computing",
+      "acronym": "PODC",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "65",
+      "title": "ACM Symposium on Theory of Computing",
+      "acronym": "STOC",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "66",
+      "title": "ACM Symposium on User Interface Software and Technology",
+      "acronym": "UIST",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "67",
+      "title": "ACM Virtual Reality Software and Technology",
+      "acronym": "VRST",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "82",
+      "title": "ACM-SIGACT Symposium on Principles of Programming Languages",
+      "acronym": "POPL",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "84",
+      "title": "ACM-SIGPLAN Conference on Programming Language Design and Implementation",
+      "acronym": "PLDI",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "2310",
+      "title": "ACM/IEEE International Conference on Human-Robot Interaction",
+      "acronym": "HRI",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "76",
+      "title": "ACM/IEEE International Conference on Modelling, Analysis and Simulation of Wireless and Mobile Systems",
+      "acronym": "MSWIM",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "79",
+      "title": "ACM/IFIP/USENIX International Middleware Conference",
+      "acronym": "Middleware",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "80",
+      "title": "ACM/SIAM Symposium on Discrete Algorithms",
+      "acronym": "SODA",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 6
+    },
+    {
+      "id": "94",
+      "title": "Advances in Cryptology",
+      "acronym": "CRYPTO",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "98",
+      "title": "Advances in Neural Information Processing Systems (was NIPS)",
+      "acronym": "NeurIPS",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 8
+    },
+    {
+      "id": "117",
+      "title": "Annual Computer Security Applications Conference",
+      "acronym": "ACSAC",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "147",
+      "title": "Architectural Support for Programming Languages and Operating Systems",
+      "acronym": "ASPLOS",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "61",
+      "title": "Asia Conference on Information, Computer and Communications Security",
+      "acronym": "AsiaCCS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 2
+    },
+    {
+      "id": "196",
+      "title": "Association for Computational Linguistics",
+      "acronym": "ACL",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 12
+    },
+    {
+      "id": "279",
+      "title": "Automated Software Engineering Conference",
+      "acronym": "ASE",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "296",
+      "title": "British Machine Vision Conference",
+      "acronym": "BMVC",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "331",
+      "title": "Computer Aided Verification",
+      "acronym": "CAV",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "346",
+      "title": "Conference in Uncertainty in Artificial Intelligence",
+      "acronym": "UAI",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "1839",
+      "title": "Conference on File and Storage Technologies",
+      "acronym": "FAST",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "369",
+      "title": "Conference on Innovative Data Systems Research",
+      "acronym": "CIDR",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "370",
+      "title": "Conference on Integer Programming and Combinatorial Optimization",
+      "acronym": "IPCO",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1245",
+      "title": "Conference on Interactive Theorem Proving (previously TPHOLs, changed in 2009)",
+      "acronym": "ITP",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "124",
+      "title": "Conference on Learning Theory",
+      "acronym": "COLT",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "422",
+      "title": "Designing Interactive Systems",
+      "acronym": "DIS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "448",
+      "title": "Empirical Methods in Natural Language Processing",
+      "acronym": "EMNLP",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 14
+    },
+    {
+      "id": "468",
+      "title": "European Association for Computational Linguistics",
+      "acronym": "EACL",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 6
+    },
+    {
+      "id": "473",
+      "title": "European Conference on Artificial Intelligence",
+      "acronym": "ECAI",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "479",
+      "title": "European Conference on Computer Vision",
+      "acronym": "ECCV",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 4
+    },
+    {
+      "id": "483",
+      "title": "European Conference on Information Retrieval",
+      "acronym": "ECIR",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 6
+    },
+    {
+      "id": "491",
+      "title": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Database (PKDD and ECML combined from 2008)",
+      "acronym": "ECML PKDD",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 6
+    },
+    {
+      "id": "488",
+      "title": "European Conference on Object-Oriented Programming",
+      "acronym": "ECOOP",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "2165",
+      "title": "European Conference on Software Architecture",
+      "acronym": "ECSA",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "511",
+      "title": "European Symposium on Algorithms",
+      "acronym": "ESA",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 6
+    },
+    {
+      "id": "514",
+      "title": "European Symposium on Programming",
+      "acronym": "ESOP",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "515",
+      "title": "European Symposium On Research In Computer Security",
+      "acronym": "ESORICS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 2
+    },
+    {
+      "id": "525",
+      "title": "Eurosys Conference",
+      "acronym": "EuroSys",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "528",
+      "title": "Extending Database Technology",
+      "acronym": "EDBT",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 3
+    },
+    {
+      "id": "533",
+      "title": "Financial Cryptography and Data Security Conference",
+      "acronym": "FC",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "546",
+      "title": "Foundations of Genetic Algorithms",
+      "acronym": "FOGA",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "547",
+      "title": "Foundations of Software Science and Computational Structures",
+      "acronym": "FOSSACS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "556",
+      "title": "Genetic and Evolutionary Computations",
+      "acronym": "GECCO",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "572",
+      "title": "Graph Drawing",
+      "acronym": "GD",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "599",
+      "title": "IEEE Computer Security Foundations Symposium (was CSFW)",
+      "acronym": "CSF",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "602",
+      "title": "IEEE Conference on Computational Complexity",
+      "acronym": "CCC",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "604",
+      "title": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "acronym": "CVPR",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 3
+    },
+    {
+      "id": "758",
+      "title": "IEEE Conference on Virtual Reality and 3D User Interfaces",
+      "acronym": "VR",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "2185",
+      "title": "IEEE European Symposium on Security and Privacy",
+      "acronym": "EuroS&P",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 3
+    },
+    {
+      "id": "2074",
+      "title": "IEEE International Conference on Computer Communications",
+      "acronym": "INFOCOM",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 3
+    },
+    {
+      "id": "638",
+      "title": "IEEE International Conference on Computer Vision",
+      "acronym": "ICCV",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "642",
+      "title": "IEEE International Conference on Data Mining",
+      "acronym": "ICDM",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 3
+    },
+    {
+      "id": "2047",
+      "title": "IEEE International Conference on Document Analysis and Recognition",
+      "acronym": "ICDAR",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "664",
+      "title": "IEEE International Conference on Multimedia and Expo",
+      "acronym": "ICME",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 5
+    },
+    {
+      "id": "669",
+      "title": "IEEE International Conference on Pervasive Computing and Communications",
+      "acronym": "PERCOM",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1181",
+      "title": "IEEE International Conference on Program Comprehension (previously IWPC, changed in 2006)",
+      "acronym": "ICPC",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "2051",
+      "title": "IEEE International Conference on Robotics and Automation",
+      "acronym": "ICRA",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 3
+    },
+    {
+      "id": "2280",
+      "title": "IEEE International Conference on Software Analysis, Evolution and Reengineering",
+      "acronym": "SANER",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "676",
+      "title": "IEEE International Conference on Software Maintenance and Evolution (prior to 2014 was ICSM, IEEE International Conference on Software Maintenance)",
+      "acronym": "ICSME",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "678",
+      "title": "IEEE International Conference on Web Services",
+      "acronym": "ICWS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 2
+    },
+    {
+      "id": "688",
+      "title": "IEEE International Parallel and Distributed Processing Symposium (was IPPS and SPDP)",
+      "acronym": "IPDPS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "690",
+      "title": "IEEE International Requirements Engineering Conference",
+      "acronym": "RE",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "711",
+      "title": "IEEE International Working Conference on Mining Software Repositories",
+      "acronym": "MSR",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "725",
+      "title": "IEEE Real-Time and Embedded Technology and Applications Symposium",
+      "acronym": "RTAS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "745",
+      "title": "IEEE Symposium on Foundations of Computer Science",
+      "acronym": "FOCS",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "748",
+      "title": "IEEE Symposium on Logic in Computer Science",
+      "acronym": "LICS",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "750",
+      "title": "IEEE Symposium on Security and Privacy",
+      "acronym": "SP",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "759",
+      "title": "IEEE Visualization",
+      "acronym": "IEEE VIS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "763",
+      "title": "IEEE Workshop on Applications of Computer Vision",
+      "acronym": "WACV",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 17
+    },
+    {
+      "id": "783",
+      "title": "IEEE/ACM International Conference on Computer-Aided Design",
+      "acronym": "ICCAD",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "785",
+      "title": "IEEE/ACM International Symposium on Mixed and Augmented Reality",
+      "acronym": "ISMAR",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "787",
+      "title": "IEEE/IFIP International Conference on Dependable Systems and Networks",
+      "acronym": "DSN",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "792",
+      "title": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+      "acronym": "IROS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 3
+    },
+    {
+      "id": "823",
+      "title": "Information Processing in Sensor Networks",
+      "acronym": "IPSN",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "2176",
+      "title": "Innovations in Theoretical Computer Science",
+      "acronym": "ITCS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "2258",
+      "title": "International ACM SIGACCESS Conference on Computers and Accessibility",
+      "acronym": "ASSETS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "864",
+      "title": "International Colloquium on Automata Languages and Programming",
+      "acronym": "ICALP",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 3
+    },
+    {
+      "id": "872",
+      "title": "International Computing Education Research Workshop",
+      "acronym": "ICER",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "77",
+      "title": "International Conference for High Performance Computing, Networking, Storage and Analysis (was Supercomputing Conference)",
+      "acronym": "SC",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "878",
+      "title": "International Conference in Business Process Management",
+      "acronym": "BPM",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "891",
+      "title": "International Conference on Advanced Information Systems Engineering",
+      "acronym": "CaiSE",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "913",
+      "title": "International Conference on Artificial Intelligence and Statistics",
+      "acronym": "AISTATS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 2
+    },
+    {
+      "id": "1961",
+      "title": "International Conference on Artificial Intelligence in Education",
+      "acronym": "AIED",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 2
+    },
+    {
+      "id": "918",
+      "title": "International Conference on Automated Deduction",
+      "acronym": "CADE",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "919",
+      "title": "International Conference on Automated Planning and Scheduling",
+      "acronym": "ICAPS",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "971",
+      "title": "International Conference on Conceptual Modelling",
+      "acronym": "ER",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 3
+    },
+    {
+      "id": "973",
+      "title": "International Conference on Concurrency Theory",
+      "acronym": "CONCUR",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "986",
+      "title": "International Conference on Data Engineering",
+      "acronym": "ICDE",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 9
+    },
+    {
+      "id": "989",
+      "title": "International Conference on Database Theory",
+      "acronym": "ICDT",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1002",
+      "title": "International Conference on Distributed Computing Systems",
+      "acronym": "ICDCS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 8
+    },
+    {
+      "id": "1022",
+      "title": "International Conference on Evaluation and Assessment in Software Engineering",
+      "acronym": "EASE",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1037",
+      "title": "International Conference on Functional Programming",
+      "acronym": "ICFP",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1053",
+      "title": "International Conference on Human Factors in Computing Systems",
+      "acronym": "CHI",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 17
+    },
+    {
+      "id": "1101",
+      "title": "International Conference on Intelligent User Interfaces",
+      "acronym": "IUI",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "2268",
+      "title": "International Conference on Learning Analytics and Knowledge",
+      "acronym": "LAK",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "2273",
+      "title": "International Conference on Learning Representations",
+      "acronym": "ICLR",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 4
+    },
+    {
+      "id": "1119",
+      "title": "International Conference on Logic Programming",
+      "acronym": "ICLP",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1121",
+      "title": "International Conference on Machine Learning",
+      "acronym": "ICML",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 4
+    },
+    {
+      "id": "1244",
+      "title": "International Conference on Model Driven Engineering Languages and Systems (Previously UML, changed in 2005)",
+      "acronym": "MODELS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1175",
+      "title": "International Conference on Principles and Practice of Constraint Programming",
+      "acronym": "CP",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1204",
+      "title": "International Conference on Service Oriented Computing",
+      "acronym": "ICSOC",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 2
+    },
+    {
+      "id": "791",
+      "title": "International Conference on Software Architecture (was previously WICSA)",
+      "acronym": "ICSA",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1209",
+      "title": "International Conference on Software Engineering",
+      "acronym": "ICSE",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "1221",
+      "title": "International Conference on Software Testing, Verification and Validation",
+      "acronym": "ICST",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1239",
+      "title": "International Conference on the Principles of Knowledge Representation and Reasoning",
+      "acronym": "KR",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1242",
+      "title": "International Conference on the Theory and Application of Cryptographic Techniques",
+      "acronym": "EuroCrypt",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 2
+    },
+    {
+      "id": "1243",
+      "title": "International Conference on the Theory and Application of Cryptology and Information Security",
+      "acronym": "ASIACRYPT",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1250",
+      "title": "International Conference on Theory and Applications of Satisfiability Testing",
+      "acronym": "SAT",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1261",
+      "title": "International Conference on Very Large Databases",
+      "acronym": "VLDB",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 5
+    },
+    {
+      "id": "2169",
+      "title": "International Conference on Web and Social Media",
+      "acronym": "ICWSM",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 9
+    },
+    {
+      "id": "1313",
+      "title": "International Joint Conference on Artificial Intelligence",
+      "acronym": "IJCAI",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 4
+    },
+    {
+      "id": "1314",
+      "title": "International Joint Conference on Automated Reasoning",
+      "acronym": "IJCAR",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "922",
+      "title": "International Joint Conference on Autonomous Agents and Multiagent Systems (previously the International Conference on Multiagent Systems, ICMAS, changed in 2000)",
+      "acronym": "AAMAS",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1338",
+      "title": "International Semantic Web Conference",
+      "acronym": "ISWC",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 2
+    },
+    {
+      "id": "1349",
+      "title": "International Symposium on Algorithms and Computation",
+      "acronym": "ISAAC",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 3
+    },
+    {
+      "id": "1362",
+      "title": "International Symposium on Code Generation and Optimization",
+      "acronym": "CGO",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "60",
+      "title": "International Symposium on Computational Geometry",
+      "acronym": "SoCG",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "1374",
+      "title": "International Symposium on Distributed Computing (was WDAG)",
+      "acronym": "DISC",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1376",
+      "title": "International Symposium on Empirical Software Engineering and Measurement",
+      "acronym": "ESEM",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 2
+    },
+    {
+      "id": "540",
+      "title": "International Symposium on Formal Methods (was Formal Methods Europe FME)",
+      "acronym": "FM",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1386",
+      "title": "International Symposium on High Performance Computer Architecture",
+      "acronym": "HPCA",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1398",
+      "title": "International Symposium on Mathematical Foundations of Computer Science",
+      "acronym": "MFCS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 2
+    },
+    {
+      "id": "2281",
+      "title": "International Symposium on Software Engineering for Adaptive and Self-Managing Systems",
+      "acronym": "SEAMS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1411",
+      "title": "International Symposium on Software Reliability Engineering",
+      "acronym": "ISSRE",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 4
+    },
+    {
+      "id": "1412",
+      "title": "International Symposium on Software Testing and Analysis",
+      "acronym": "ISSTA",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "1420",
+      "title": "International Symposium on Symbolic and Algebraic Computation",
+      "acronym": "ISSAC",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1426",
+      "title": "International Symposium on Theoretical Aspects of Computer Science",
+      "acronym": "STACS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1451",
+      "title": "International Workshop on Approximation Algorithms for Combinatorial Optimization Problems and International Conference on Randomization and Computation",
+      "acronym": "APPROX/RANDOM",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 3
+    },
+    {
+      "id": "1548",
+      "title": "International World Wide Web Conference",
+      "acronym": "WWW",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 7
+    },
+    {
+      "id": "1551",
+      "title": "Internet Measurement Conference",
+      "acronym": "IMC",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 2
+    },
+    {
+      "id": "494",
+      "title": "Interspeech (combined EuroSpeech and ICSLP in 2000)",
+      "acronym": "Interspeech",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1598",
+      "title": "Logics in Artificial Intelligence, European Conference",
+      "acronym": "JELIA",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "39",
+      "title": "Measurement and Modeling of Computer Systems",
+      "acronym": "SIGMETRICS",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1607",
+      "title": "Medical Image Computing and Computer-Assisted Intervention",
+      "acronym": "MICCAI",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 2
+    },
+    {
+      "id": "1629",
+      "title": "National Conference of the American Association for Artificial Intelligence",
+      "acronym": "AAAI",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 26
+    },
+    {
+      "id": "1648",
+      "title": "North American Association for Computational Linguistics",
+      "acronym": "NAACL",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 10
+    },
+    {
+      "id": "1676",
+      "title": "Parallel Problem Solving from Nature",
+      "acronym": "PPSN",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1442",
+      "title": "Privacy Enhancing Technologies Symposium (was International Workshop of Privacy Enhancing Technologies)",
+      "acronym": "PETS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 4
+    },
+    {
+      "id": "1701",
+      "title": "Real Time Systems Symposium",
+      "acronym": "RTSS",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1727",
+      "title": "SIAM International Conference on Data Mining",
+      "acronym": "SDM",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 2
+    },
+    {
+      "id": "1408",
+      "title": "The International Symposium on Research in Attacks, Intrusions and Defenses (was International Symposium on Recent Advances in Intrusion Detection)",
+      "acronym": "RAID",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "1814",
+      "title": "Theoretical Aspects of Rationality and Knowledge",
+      "acronym": "TARK",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1815",
+      "title": "Theory of Cryptography Conference",
+      "acronym": "TCC",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1818",
+      "title": "Tools and Algorithms for Construction and Analysis of Systems",
+      "acronym": "TACAS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "1838",
+      "title": "Usenix Annual Technical Conference",
+      "acronym": "USENIX",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 1
+    },
+    {
+      "id": "1840",
+      "title": "Usenix Network and Distributed System Security Symposium",
+      "acronym": "NDSS",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1841",
+      "title": "Usenix Security Symposium",
+      "acronym": "USENIX-Security",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1842",
+      "title": "Usenix Symposium on Operating Systems Design and Implementation",
+      "acronym": "OSDI",
+      "rank": "A*",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1845",
+      "title": "USENIX Workshop on Hot Topics in Operating Systems",
+      "acronym": "HotOS",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1870",
+      "title": "Workshop on Algorithm Engineering and Experiments",
+      "acronym": "ALENEX",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    },
+    {
+      "id": "1894",
+      "title": "Workshop on Cryptographic Hardware and Embedded Systems",
+      "acronym": "CHES",
+      "rank": "A",
+      "exact_title_resolves": true,
+      "loaded_unique_papers": 0
+    }
+  ],
+  "corrected_memberships": [
+    {
+      "key": "conf/approx/ChalermsookDELV18",
+      "title": "Survivable Network Design for Group Connectivity in Low-Treewidth Graphs.",
+      "year": 2018,
+      "faculty": [
+        "Syamantak Das"
+      ],
+      "memberships_added": [
+        {
+          "source": "core-a",
+          "venue": "APPROX/RANDOM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/approx/DasJK20",
+      "title": "A Constant Factor Approximation for Capacitated Min-Max Tree Cover.",
+      "year": 2020,
+      "faculty": [
+        "Syamantak Das"
+      ],
+      "memberships_added": [
+        {
+          "source": "core-a",
+          "venue": "APPROX/RANDOM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/icsm/KiranHJ97",
+      "title": "Effect of Object Orientation on Maintainability of Software.",
+      "year": 1997,
+      "faculty": [
+        "Pankaj Jalote"
+      ],
+      "memberships_added": [
+        {
+          "source": "core-a",
+          "venue": "ICSME",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 1997
+        }
+      ]
+    },
+    {
+      "key": "conf/pkdd/CheemaA17",
+      "title": "Automatic Detection and Recognition of Individuals in Patterned Species.",
+      "year": 2017,
+      "faculty": [
+        "Saket Anand"
+      ],
+      "memberships_added": [
+        {
+          "source": "core-a",
+          "venue": "ECML PKDD",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/pkdd/GoelVG23",
+      "title": "MWPRanker: An Expression Similarity Based Math Word Problem Retriever.",
+      "year": 2023,
+      "faculty": [
+        "Vikram Goyal"
+      ],
+      "memberships_added": [
+        {
+          "source": "core-a",
+          "venue": "ECML PKDD",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/pkdd/GuptaVMG22",
+      "title": "'John Ate 5 Apples' != 'John Ate Some Apples': Self-supervised Paraphrase Quality Detection for Algebraic Word Problems.",
+      "year": 2022,
+      "faculty": [
+        "Mukesh K. Mohania",
+        "Vikram Goyal"
+      ],
+      "memberships_added": [
+        {
+          "source": "core-a",
+          "venue": "ECML PKDD",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/pkdd/JainSM23",
+      "title": "ReOnto: A Neuro-Symbolic Approach for Biomedical Relation Extraction.",
+      "year": 2023,
+      "faculty": [
+        "Raghava Mutharaju"
+      ],
+      "memberships_added": [
+        {
+          "source": "core-a",
+          "venue": "ECML PKDD",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/pkdd/TVMNVS19",
+      "title": "Meta-Learning for Black-Box Optimization.",
+      "year": 2019,
+      "faculty": [
+        "Gautam Shroff"
+      ],
+      "memberships_added": [
+        {
+          "source": "core-a",
+          "venue": "ECML PKDD",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/pkdd/VMG21",
+      "title": "TagRec: Automated Tagging of Questions with Hierarchical Learning Taxonomy.",
+      "year": 2021,
+      "faculty": [
+        "Mukesh K. Mohania",
+        "Vikram Goyal"
+      ],
+      "memberships_added": [
+        {
+          "source": "core-a",
+          "venue": "ECML PKDD",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/semweb/Mutharaju12",
+      "title": "Very Large Scale OWL Reasoning through Distributed Computation.",
+      "year": 2012,
+      "faculty": [
+        "Raghava Mutharaju"
+      ],
+      "memberships_added": [
+        {
+          "source": "core-a",
+          "venue": "ISWC",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2012
+        }
+      ]
+    },
+    {
+      "key": "conf/semweb/SinghBM20",
+      "title": "OWL2Bench: A Benchmark for OWL 2 Reasoners.",
+      "year": 2020,
+      "faculty": [
+        "Raghava Mutharaju"
+      ],
+      "memberships_added": [
+        {
+          "source": "core-a",
+          "venue": "ISWC",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "journals/pacmpl/ChitreKP22",
+      "title": "The road not taken: exploring alias analysis based optimizations missed by the compiler.",
+      "year": 2022,
+      "faculty": [
+        "Piyus Kedia"
+      ],
+      "memberships_added": [
+        {
+          "source": "core-a",
+          "venue": "OOPSLA",
+          "area": "oopsla",
+          "domain": "Programming languages",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "journals/pacmpl/ChitreKP23",
+      "title": "Rapid: Region-Based Pointer Disambiguation.",
+      "year": 2023,
+      "faculty": [
+        "Piyus Kedia"
+      ],
+      "memberships_added": [
+        {
+          "source": "core-a",
+          "venue": "OOPSLA",
+          "area": "oopsla",
+          "domain": "Programming languages",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "journals/popets/GosainMC21",
+      "title": "Too Close for Comfort: Morasses of (Anti-) Censorship in the Era of CDNs.",
+      "year": 2021,
+      "faculty": [
+        "Sambuddho Chakravarty"
+      ],
+      "memberships_added": [
+        {
+          "source": "core-a",
+          "venue": "PETS",
+          "area": "pets",
+          "domain": "Computer security",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "journals/popets/SharmaCHMC20",
+      "title": "The Road Not Taken: Re-thinking the Feasibility of Voice Calling Over Tor.",
+      "year": 2020,
+      "faculty": [
+        "Mukulika Maity",
+        "Sambuddho Chakravarty"
+      ],
+      "memberships_added": [
+        {
+          "source": "core-a",
+          "venue": "PETS",
+          "area": "pets",
+          "domain": "Computer security",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "journals/popets/SharmaGSKDNAC20",
+      "title": "SiegeBreaker: An SDN Based Practical Decoy Routing System.",
+      "year": 2020,
+      "faculty": [
+        "Sambuddho Chakravarty"
+      ],
+      "memberships_added": [
+        {
+          "source": "core-a",
+          "venue": "PETS",
+          "area": "pets",
+          "domain": "Computer security",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "journals/popets/SharmaSSMC23",
+      "title": "Dolphin: A Cellular Voice Based Internet Shutdown Resistance System.",
+      "year": 2023,
+      "faculty": [
+        "Mukulika Maity",
+        "Sambuddho Chakravarty"
+      ],
+      "memberships_added": [
+        {
+          "source": "core-a",
+          "venue": "PETS",
+          "area": "pets",
+          "domain": "Computer security",
+          "year": 2023
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Exact-title coverage does not prove every historical DBLP alias is mapped.",
+    "CORE extension retains the six-page minimum for non-CSRankings conference papers.",
+    "Journal proceedings require CSRankings issue eligibility; Journal Published is not an A/A* rank.",
+    "Unmapped venues and non-main tracks are listed separately for review."
+  ],
+  "unmapped_venues": [
+    {
+      "venue": "AAAI Spring Symposium: Combining Machine Learning with Knowledge Engineering",
+      "papers": 1,
+      "keys": [
+        "conf/aaaiss/MondalBM21"
+      ]
+    },
+    {
+      "venue": "AAAI Workshops",
+      "papers": 1,
+      "keys": [
+        "conf/aaai/DVSA18"
+      ]
+    },
+    {
+      "venue": "AACL/IJCNLP",
+      "papers": 1,
+      "keys": [
+        "conf/ijcnlp/UppalGSZMGSS20"
+      ]
+    },
+    {
+      "venue": "AACL/IJCNLP (1)",
+      "papers": 1,
+      "keys": [
+        "conf/ijcnlp/SharmaSAC22"
+      ]
+    },
+    {
+      "venue": "ACCV Workshops",
+      "papers": 1,
+      "keys": [
+        "conf/accv/DRSSCSVSS18"
+      ]
+    },
+    {
+      "venue": "ACL (Findings)",
+      "papers": 7,
+      "keys": [
+        "conf/acl/GirishAPB26",
+        "conf/acl/GoyalGGM24",
+        "conf/acl/JainMSK24",
+        "conf/acl/KukrejaSGASWNC26",
+        "conf/acl/NaikC0A24",
+        "conf/acl/PhukanSBB025",
+        "conf/acl/YadavMGA024"
+      ]
+    },
+    {
+      "venue": "ACL (student)",
+      "papers": 1,
+      "keys": [
+        "conf/acl/PaiSSS20"
+      ]
+    },
+    {
+      "venue": "ACL/IJCNLP (Findings)",
+      "papers": 2,
+      "keys": [
+        "conf/acl/PramanickDMSANC21",
+        "conf/acl/SenguptaBCA21"
+      ]
+    },
+    {
+      "venue": "ACM DEV (3)",
+      "papers": 4,
+      "keys": [
+        "conf/dev/AsthanaSS13",
+        "conf/dev/AsthanaSS13a",
+        "conf/dev/BakhshiJSA13",
+        "conf/dev/SinghJK13"
+      ]
+    },
+    {
+      "venue": "ACM DL",
+      "papers": 1,
+      "keys": [
+        "conf/dl/KumazawaKYHKM00"
+      ]
+    },
+    {
+      "venue": "ACM Great Lakes Symposium on VLSI",
+      "papers": 2,
+      "keys": [
+        "conf/glvlsi/DebCCGPHB12",
+        "conf/glvlsi/ShamimMSGDR14"
+      ]
+    },
+    {
+      "venue": "ACM J. Comput. Sustain. Soc.",
+      "papers": 1,
+      "keys": [
+        "journals/acmjcss/GoelMSGAXMB25"
+      ]
+    },
+    {
+      "venue": "ACM J. Emerg. Technol. Comput. Syst.",
+      "papers": 2,
+      "keys": [
+        "journals/jetc/ChangDGYSPBH12",
+        "journals/jetc/RoutSD23"
+      ]
+    },
+    {
+      "venue": "ACM J. Exp. Algorithmics",
+      "papers": 2,
+      "keys": [
+        "journals/jea/CodenottiMPRV08",
+        "journals/jea/PemmarajuPR05"
+      ]
+    },
+    {
+      "venue": "ACM SIGOPS Oper. Syst. Rev.",
+      "papers": 1,
+      "keys": [
+        "journals/sigops/JaloteT90"
+      ]
+    },
+    {
+      "venue": "ACM SIGSOFT Softw. Eng. Notes",
+      "papers": 3,
+      "keys": [
+        "journals/sigsoft/BhattKSM06",
+        "journals/sigsoft/BhattSM04",
+        "journals/sigsoft/VipindeepJ05"
+      ]
+    },
+    {
+      "venue": "ACM Trans. Algorithms",
+      "papers": 2,
+      "keys": [
+        "journals/talg/ChakaravarthyPRAM11",
+        "journals/talg/PemmarajuRV11"
+      ]
+    },
+    {
+      "venue": "ACM Trans. Asian Low Resour. Lang. Inf. Process.",
+      "papers": 1,
+      "keys": [
+        "journals/talip/AkhtarSSEB19"
+      ]
+    },
+    {
+      "venue": "ACM Trans. Comput. Hum. Interact.",
+      "papers": 1,
+      "keys": [
+        "journals/tochi/TuliDKS19"
+      ]
+    },
+    {
+      "venue": "ACM Trans. Cyber Phys. Syst.",
+      "papers": 2,
+      "keys": [
+        "journals/tcps/AgarwalAKA25",
+        "journals/tcps/AgarwalAKBA26"
+      ]
+    },
+    {
+      "venue": "ACM Trans. Design Autom. Electr. Syst.",
+      "papers": 3,
+      "keys": [
+        "journals/todaes/GadeADG19",
+        "journals/todaes/GadeD22",
+        "journals/todaes/SinhaGBD21"
+      ]
+    },
+    {
+      "venue": "ACM Trans. Intell. Syst. Technol.",
+      "papers": 1,
+      "keys": [
+        "journals/tist/ThukralPGGC19"
+      ]
+    },
+    {
+      "venue": "ACM Trans. Knowl. Discov. Data",
+      "papers": 2,
+      "keys": [
+        "journals/tkdd/AkhtarCE20",
+        "journals/tkdd/SehnanGMJGC23"
+      ]
+    },
+    {
+      "venue": "ACM Trans. Multim. Comput. Commun. Appl.",
+      "papers": 2,
+      "keys": [
+        "journals/tomccap/KimKGBR25",
+        "journals/tomccap/RaviSE16"
+      ]
+    },
+    {
+      "venue": "ACM Trans. Quantum Comput.",
+      "papers": 1,
+      "keys": [
+        "journals/tqc/BeraT21"
+      ]
+    },
+    {
+      "venue": "ACM Trans. Sens. Networks",
+      "papers": 1,
+      "keys": [
+        "journals/tosn/RathoreBS16"
+      ]
+    },
+    {
+      "venue": "ACM Trans. Softw. Eng. Methodol.",
+      "papers": 1,
+      "keys": [
+        "journals/tosem/JaloteMS07"
+      ]
+    },
+    {
+      "venue": "ACM Trans. Spatial Algorithms Syst.",
+      "papers": 1,
+      "keys": [
+        "journals/tsas/YinSWZ18"
+      ]
+    },
+    {
+      "venue": "ACM Trans. Storage",
+      "papers": 1,
+      "keys": [
+        "journals/tos/SivathanuVGRLMK20"
+      ]
+    },
+    {
+      "venue": "AI Matters",
+      "papers": 1,
+      "keys": [
+        "journals/aimatters/GuerzhoyNVASOS23"
+      ]
+    },
+    {
+      "venue": "AIED (Posters/Late Breaking Results/...)",
+      "papers": 1,
+      "keys": [
+        "conf/aied/YadavSS23"
+      ]
+    },
+    {
+      "venue": "AIED Companion (1)",
+      "papers": 1,
+      "keys": [
+        "conf/aied/TharejaDGBMS24"
+      ]
+    },
+    {
+      "venue": "AIMLR",
+      "papers": 1,
+      "keys": [
+        "conf/aimlr/RaiGGG23"
+      ]
+    },
+    {
+      "venue": "AIMLSystems",
+      "papers": 2,
+      "keys": [
+        "conf/aiml2/Gandhi0VS24",
+        "conf/aiml2/VermaBG22"
+      ]
+    },
+    {
+      "venue": "AIware",
+      "papers": 1,
+      "keys": [
+        "conf/aiware/BhartiJKJ25"
+      ]
+    },
+    {
+      "venue": "ALENEX/ANALCO",
+      "papers": 1,
+      "keys": [
+        "conf/alenex/CodenottiMPRV05"
+      ]
+    },
+    {
+      "venue": "ALW",
+      "papers": 1,
+      "keys": [
+        "conf/acl-alw/MathurSAS18"
+      ]
+    },
+    {
+      "venue": "ANTS",
+      "papers": 1,
+      "keys": [
+        "conf/IEEEants/PandeyNSS25"
+      ]
+    },
+    {
+      "venue": "APNet",
+      "papers": 4,
+      "keys": [
+        "conf/apnet/AKMBTKS23",
+        "conf/apnet/BoseMAUSV21",
+        "conf/apnet/ShahVK17",
+        "conf/apnet/VenkataKeerthyA22"
+      ]
+    },
+    {
+      "venue": "APSIPA",
+      "papers": 4,
+      "keys": [
+        "conf/apsipa/AkhtarGPBRNNB25",
+        "conf/apsipa/PhukanAGBBRB25",
+        "conf/apsipa/PhukanBGAB025",
+        "conf/apsipa/PhukanGANMBBRB25"
+      ]
+    },
+    {
+      "venue": "APWeb/WAIM",
+      "papers": 1,
+      "keys": [
+        "conf/waim/RoyM07"
+      ]
+    },
+    {
+      "venue": "ARMS-CC@PODC",
+      "papers": 2,
+      "keys": [
+        "conf/podc/BhattacharyaBD15",
+        "conf/podc/BhattacharyaD16"
+      ]
+    },
+    {
+      "venue": "ASAP",
+      "papers": 3,
+      "keys": [
+        "conf/asap/DebGCPBH10",
+        "conf/asap/SinhaGSD18",
+        "conf/asap/WettinPHBDG13"
+      ]
+    },
+    {
+      "venue": "ASIAN",
+      "papers": 2,
+      "keys": [
+        "conf/asian/Jalote95",
+        "conf/asian/MohaniaD96"
+      ]
+    },
+    {
+      "venue": "ASP-DAC",
+      "papers": 1,
+      "keys": [
+        "conf/aspdac/RoutMD20"
+      ]
+    },
+    {
+      "venue": "Acta Informatica",
+      "papers": 2,
+      "keys": [
+        "journals/acta/HuangJ89",
+        "journals/acta/VincentLM07"
+      ]
+    },
+    {
+      "venue": "Adv. Comput.",
+      "papers": 2,
+      "keys": [
+        "journals/ac/GuptaGM13",
+        "journals/ac/JalotePK04"
+      ]
+    },
+    {
+      "venue": "Adv. Math. Commun.",
+      "papers": 1,
+      "keys": [
+        "journals/amco/AnandRS23"
+      ]
+    },
+    {
+      "venue": "Algorithmica",
+      "papers": 2,
+      "keys": [
+        "journals/algorithmica/ChanCR14",
+        "journals/algorithmica/DalalGRR26"
+      ]
+    },
+    {
+      "venue": "Appl. Intell.",
+      "papers": 3,
+      "keys": [
+        "journals/apin/DawarGB17",
+        "journals/apin/DawarSG17",
+        "journals/apin/VermaDKNG21"
+      ]
+    },
+    {
+      "venue": "Appl. Soft Comput.",
+      "papers": 2,
+      "keys": [
+        "journals/asc/FatimahASG22",
+        "journals/asc/SinghATPA23"
+      ]
+    },
+    {
+      "venue": "Australas. J. Inf. Syst.",
+      "papers": 1,
+      "keys": [
+        "journals/ajis/MohaniaSRK99"
+      ]
+    },
+    {
+      "venue": "BCB",
+      "papers": 1,
+      "keys": [
+        "conf/bcb/BhallaSR17"
+      ]
+    },
+    {
+      "venue": "BDA",
+      "papers": 13,
+      "keys": [
+        "conf/bigda/0001SG15",
+        "conf/bigda/AnandABGHGS23",
+        "conf/bigda/AnandGHBKVGS23",
+        "conf/bigda/AnandGPGLVS23",
+        "conf/bigda/AnandJLBSVSS23",
+        "conf/bigda/AnandPGGLVS23",
+        "conf/bigda/BansalDG15",
+        "conf/bigda/GuptaGM12",
+        "conf/bigda/KhatriYSK25",
+        "conf/bigda/MishraSK25",
+        "conf/bigda/MishraYSK23",
+        "conf/bigda/ShaikhGRKMS25",
+        "conf/bigda/VoMVM18"
+      ]
+    },
+    {
+      "venue": "BEA@ACL",
+      "papers": 1,
+      "keys": [
+        "conf/bea/TharejaGBDMK23"
+      ]
+    },
+    {
+      "venue": "BMC Bioinform.",
+      "papers": 23,
+      "keys": [
+        "journals/bmcbi/AgrawalSSSKR19",
+        "journals/bmcbi/AhmedAR09",
+        "journals/bmcbi/AhmedKR13",
+        "journals/bmcbi/AnsariR10",
+        "journals/bmcbi/ChauhanMR09",
+        "journals/bmcbi/ChauhanMR10",
+        "journals/bmcbi/GargR08",
+        "journals/bmcbi/GargTR10",
+        "journals/bmcbi/GargTR10a",
+        "journals/bmcbi/KaundalKR06",
+        "journals/bmcbi/KumarGR07",
+        "journals/bmcbi/KumarR09",
+        "journals/bmcbi/LataMR10",
+        "journals/bmcbi/LataSR07",
+        "journals/bmcbi/MishraR10",
+        "journals/bmcbi/PanwarGR13",
+        "journals/bmcbi/PanwarR14",
+        "journals/bmcbi/RaghavaB06",
+        "journals/bmcbi/RaghavaH05",
+        "journals/bmcbi/RaghavaSABB03",
+        "journals/bmcbi/RashidSR07",
+        "journals/bmcbi/SharmaSRR14",
+        "journals/bmcbi/VermaTKVR08"
+      ]
+    },
+    {
+      "venue": "BMC Medical Informatics Decis. Mak.",
+      "papers": 1,
+      "keys": [
+        "journals/midm/CoxSVGDDKBKSA25"
+      ]
+    },
+    {
+      "venue": "Big Data Res.",
+      "papers": 2,
+      "keys": [
+        "journals/bdr/BarideSG23",
+        "journals/bdr/GuptaJJS21"
+      ]
+    },
+    {
+      "venue": "BigDAS",
+      "papers": 1,
+      "keys": [
+        "conf/bigdas/Mohania15"
+      ]
+    },
+    {
+      "venue": "BigData Congress",
+      "papers": 1,
+      "keys": [
+        "conf/bigdata/AgarwalSM13"
+      ]
+    },
+    {
+      "venue": "BigMM",
+      "papers": 30,
+      "keys": [
+        "conf/bigmm/AggarwalSTZ19",
+        "conf/bigmm/ChoudharyS20",
+        "conf/bigmm/GautamMKMAS19",
+        "conf/bigmm/GoelGS20",
+        "conf/bigmm/GuptaSBK20",
+        "conf/bigmm/HitkulGSGSSK20",
+        "conf/bigmm/HitkulSKS19",
+        "conf/bigmm/JollyANGGS19",
+        "conf/bigmm/KansalS19",
+        "conf/bigmm/KhanLSS20",
+        "conf/bigmm/LeekhaGSYZ19",
+        "conf/bigmm/MadaanRB20",
+        "conf/bigmm/MishraKSSSGBJ20",
+        "conf/bigmm/NasirJG0KS19",
+        "conf/bigmm/PaiSSZ19",
+        "conf/bigmm/RustagiGAKKS20",
+        "conf/bigmm/SagarGKBSY20",
+        "conf/bigmm/SahrawatASAASZ19",
+        "conf/bigmm/SawhneyGS20",
+        "conf/bigmm/SharmaPAK20",
+        "conf/bigmm/ShrivastavaSAAY19",
+        "conf/bigmm/ShuklaCA20",
+        "conf/bigmm/SinghAPGS19",
+        "conf/bigmm/SinghS20",
+        "conf/bigmm/SinghVV19",
+        "conf/bigmm/SinghYSGS19",
+        "conf/bigmm/SinghalS0KS19",
+        "conf/bigmm/UdandaraoAKS20",
+        "conf/bigmm/VermaB20",
+        "conf/bigmm/VermaGS20"
+      ]
+    },
+    {
+      "venue": "Bioinform.",
+      "papers": 15,
+      "keys": [
+        "journals/bioinformatics/BaglerS07",
+        "journals/bioinformatics/BhasinGR05",
+        "journals/bioinformatics/BhasinR04",
+        "journals/bioinformatics/BhasinSR03",
+        "journals/bioinformatics/GuptaCMMGAKKDKG21",
+        "journals/bioinformatics/IssacSKR02",
+        "journals/bioinformatics/KaurR02",
+        "journals/bioinformatics/KaurR02a",
+        "journals/bioinformatics/KaurR04",
+        "journals/bioinformatics/RaiJKSJCRGPM0AS24",
+        "journals/bioinformatics/SharmaIRR04",
+        "journals/bioinformatics/SinghR01",
+        "journals/bioinformatics/SinghR03",
+        "journals/bioinformatics/SinghSRV06",
+        "journals/bioinformatics/SinhaSSBS20"
+      ]
+    },
+    {
+      "venue": "Biomed. Signal Process. Control.",
+      "papers": 4,
+      "keys": [
+        "journals/bspc/AnandKSG22",
+        "journals/bspc/AnsariG19",
+        "journals/bspc/MathurGJV21",
+        "journals/bspc/ShuklaBOP18"
+      ]
+    },
+    {
+      "venue": "Brain Connect.",
+      "papers": 1,
+      "keys": [
+        "journals/brain/SharmaSKAKDBM23"
+      ]
+    },
+    {
+      "venue": "Brain Informatics",
+      "papers": 1,
+      "keys": [
+        "journals/braininf/AggarwalSKG17"
+      ]
+    },
+    {
+      "venue": "Briefings Bioinform.",
+      "papers": 16,
+      "keys": [
+        "journals/bib/AgrawalBMSR21",
+        "journals/bib/BajiyaDAR23",
+        "journals/bib/BhattacharyaCKMHGGMSNCA25",
+        "journals/bib/DhallPR22",
+        "journals/bib/DhallPSUR21",
+        "journals/bib/DhandaUANGR17",
+        "journals/bib/DwivediAYKKR21",
+        "journals/bib/GautamGGRMMAGSS22",
+        "journals/bib/GautamMKMGRNMSA21",
+        "journals/bib/GuptaMMKKMASA21",
+        "journals/bib/KumarPCTDR23",
+        "journals/bib/PatiyalDBSR23",
+        "journals/bib/PatiyalDR22",
+        "journals/bib/PriyadarsineeKKCSM26",
+        "journals/bib/SharmaDJR22",
+        "journals/bib/SharmaPDPAR21"
+      ]
+    },
+    {
+      "venue": "BuildSys",
+      "papers": 5,
+      "keys": [
+        "conf/sensys/ArjunanKGCSS15",
+        "conf/sensys/Rashid0S18",
+        "conf/sensys/RashidMSRSS17",
+        "conf/sensys/RashidS17",
+        "conf/sensys/RashidSR17"
+      ]
+    },
+    {
+      "venue": "BuildSys@SenSys",
+      "papers": 1,
+      "keys": [
+        "conf/sensys/ArjunanBCSSS12"
+      ]
+    },
+    {
+      "venue": "Business Process Management Workshops",
+      "papers": 1,
+      "keys": [
+        "conf/bpm/TripathiJ07"
+      ]
+    },
+    {
+      "venue": "C3S2E",
+      "papers": 1,
+      "keys": [
+        "conf/c3s2e/GoyalSP15"
+      ]
+    },
+    {
+      "venue": "CAAI Trans. Intell. Technol.",
+      "papers": 1,
+      "keys": [
+        "journals/caaitrit/BaksiSSAC21"
+      ]
+    },
+    {
+      "venue": "CASE@EMNLP",
+      "papers": 1,
+      "keys": [
+        "conf/case-ws/NehaAMKB22"
+      ]
+    },
+    {
+      "venue": "CBSE",
+      "papers": 3,
+      "keys": [
+        "conf/cbse/JaloteMP06",
+        "conf/cbse/SharmaJ08",
+        "conf/cbse/SharmaJT05"
+      ]
+    },
+    {
+      "venue": "CCCG",
+      "papers": 1,
+      "keys": [
+        "conf/cccg/MustafaR14"
+      ]
+    },
+    {
+      "venue": "CCGridW",
+      "papers": 1,
+      "keys": [
+        "conf/ccgrid/HussainRYDTS23"
+      ]
+    },
+    {
+      "venue": "CCNC",
+      "papers": 1,
+      "keys": [
+        "conf/ccnc/BhattacharyaBD17"
+      ]
+    },
+    {
+      "venue": "CD@KDD",
+      "papers": 1,
+      "keys": [
+        "conf/kdd/SharmaGPCVS20"
+      ]
+    },
+    {
+      "venue": "CHASE",
+      "papers": 1,
+      "keys": [
+        "conf/icse/DewanASH09"
+      ]
+    },
+    {
+      "venue": "CHI Extended Abstracts",
+      "papers": 6,
+      "keys": [
+        "conf/chi/AsthanaSS13",
+        "conf/chi/AsthanaSS13a",
+        "conf/chi/GargSGS22",
+        "conf/chi/JainISBTGJTCRRP21",
+        "conf/chi/SharmaOVWSLQ024",
+        "conf/chi/SrinivasanBSGJD25"
+      ]
+    },
+    {
+      "venue": "CHINZ",
+      "papers": 1,
+      "keys": [
+        "conf/chinz/AsthanaS15"
+      ]
+    },
+    {
+      "venue": "CIC",
+      "papers": 1,
+      "keys": [
+        "conf/coinco/RashidS18"
+      ]
+    },
+    {
+      "venue": "CNS",
+      "papers": 1,
+      "keys": [
+        "conf/cns/AllamiMJ18"
+      ]
+    },
+    {
+      "venue": "CODAS",
+      "papers": 3,
+      "keys": [
+        "conf/codas/LiuVM99",
+        "conf/codas/MohaniaD96",
+        "conf/codas/RainsfordMR96"
+      ]
+    },
+    {
+      "venue": "CODS",
+      "papers": 4,
+      "keys": [
+        "conf/cods/AgarwalSSK15",
+        "conf/cods/GargJAM25",
+        "conf/cods/GuptaG15",
+        "conf/cods/HassanSA15"
+      ]
+    },
+    {
+      "venue": "COMAD/CODS",
+      "papers": 12,
+      "keys": [
+        "conf/comad/AgrawalSM22",
+        "conf/comad/AijazMKCS24",
+        "conf/comad/BhattacharyyaM21",
+        "conf/comad/JainMM20",
+        "conf/comad/KabraBSLS22",
+        "conf/comad/NarwariyaMVST20",
+        "conf/comad/NathUS21",
+        "conf/comad/SauravMTGVAS18",
+        "conf/comad/Shit21",
+        "conf/comad/SinghBM20",
+        "conf/comad/SinghGTS18",
+        "conf/comad/SinghalSKCKVVT19"
+      ]
+    },
+    {
+      "venue": "COMPASS",
+      "papers": 6,
+      "keys": [
+        "conf/dev/KaurG022",
+        "conf/dev/MoinHS26",
+        "conf/dev/PandeyMBS20",
+        "conf/dev/SharmaGS25",
+        "conf/dev/SrinivasanS0K24",
+        "conf/dev/YadavGCS18"
+      ]
+    },
+    {
+      "venue": "COMPLEX NETWORKS (1)",
+      "papers": 2,
+      "keys": [
+        "conf/complexnetworks/Bera20",
+        "conf/complexnetworks/BhatiaCNK19"
+      ]
+    },
+    {
+      "venue": "COMPUTE",
+      "papers": 1,
+      "keys": [
+        "conf/compute/BidyarthyRT14"
+      ]
+    },
+    {
+      "venue": "COMSNETS (Extended Selected Papers)",
+      "papers": 1,
+      "keys": [
+        "conf/comsnets/ChikaraBNSD18"
+      ]
+    },
+    {
+      "venue": "CONSTRAINT@AAAI",
+      "papers": 2,
+      "keys": [
+        "conf/aaai/PatwaBGKSPDEA021",
+        "conf/aaai/PatwaSPGKAED021"
+      ]
+    },
+    {
+      "venue": "CSCW Companion",
+      "papers": 2,
+      "keys": [
+        "conf/cscw/KarusalaIBGPKAB21",
+        "conf/cscw/KaurWS19"
+      ]
+    },
+    {
+      "venue": "CSEE&T",
+      "papers": 2,
+      "keys": [
+        "conf/csee/Jalote09",
+        "conf/csee/VarmaAJ09"
+      ]
+    },
+    {
+      "venue": "CSET @ USENIX Security Symposium",
+      "papers": 1,
+      "keys": [
+        "conf/uss/UmayyaMNKKC24"
+      ]
+    },
+    {
+      "venue": "CSMR",
+      "papers": 1,
+      "keys": [
+        "conf/csmr/DubeyAJ05"
+      ]
+    },
+    {
+      "venue": "CVIP (1)",
+      "papers": 1,
+      "keys": [
+        "conf/cvip/GoelDGVCGVAGCJJ23"
+      ]
+    },
+    {
+      "venue": "CVPR Workshops",
+      "papers": 2,
+      "keys": [
+        "conf/cvpr/PodilchukPHAM05",
+        "conf/cvpr/RastogiARVAS020"
+      ]
+    },
+    {
+      "venue": "ClinicalNLP@ACL",
+      "papers": 1,
+      "keys": [
+        "conf/acl-clinicalnlp/MishraSK0S23"
+      ]
+    },
+    {
+      "venue": "CoCo@NIPS",
+      "papers": 1,
+      "keys": [
+        "conf/nips/SaikiaVSSAR16"
+      ]
+    },
+    {
+      "venue": "CoNEXT (Short Papers)",
+      "papers": 1,
+      "keys": [
+        "conf/conext/NayakRDMGS24"
+      ]
+    },
+    {
+      "venue": "Commun. ACM",
+      "papers": 4,
+      "keys": [
+        "journals/cacm/JaloteN19",
+        "journals/cacm/NarayananJD19",
+        "journals/cacm/ShroffK19",
+        "journals/cacm/SinghalKSK22"
+      ]
+    },
+    {
+      "venue": "CompEd (1)",
+      "papers": 1,
+      "keys": [
+        "conf/comped/Jalote23"
+      ]
+    },
+    {
+      "venue": "CompEd (2)",
+      "papers": 1,
+      "keys": [
+        "conf/comped/RajBGJ23"
+      ]
+    },
+    {
+      "venue": "Comput. Appl. Eng. Educ.",
+      "papers": 2,
+      "keys": [
+        "journals/caee/SinghMSDK19",
+        "journals/caee/SinghMSK21"
+      ]
+    },
+    {
+      "venue": "Comput. Artif. Intell.",
+      "papers": 1,
+      "keys": [
+        "journals/cai/MohaniaS95"
+      ]
+    },
+    {
+      "venue": "Comput. Biol. Medicine",
+      "papers": 21,
+      "keys": [
+        "journals/cbm/AggarwalG17",
+        "journals/cbm/AggarwalMFSGJ22",
+        "journals/cbm/AgrawalCSPGG22",
+        "journals/cbm/AgrawalG13",
+        "journals/cbm/DeviSR23",
+        "journals/cbm/DhallPCJNR23",
+        "journals/cbm/DhallPKR23",
+        "journals/cbm/DhallPSDR21",
+        "journals/cbm/GoelSCKKB23",
+        "journals/cbm/GuptaSDJR22",
+        "journals/cbm/JainDPR22",
+        "journals/cbm/KumarTSPDR24",
+        "journals/cbm/LathwalKR21",
+        "journals/cbm/MathurKDSR21",
+        "journals/cbm/RathoreCATR24",
+        "journals/cbm/RuhelaGOG25",
+        "journals/cbm/SagarAFGG22",
+        "journals/cbm/SharmaCRS25",
+        "journals/cbm/SharmaPDDR21",
+        "journals/cbm/VaishGR22",
+        "journals/cbm/VaishRG22"
+      ]
+    },
+    {
+      "venue": "Comput. Commun.",
+      "papers": 1,
+      "keys": [
+        "journals/comcom/ParamitaBSB24"
+      ]
+    },
+    {
+      "venue": "Comput. Electr. Eng.",
+      "papers": 3,
+      "keys": [
+        "journals/cee/AnandM26",
+        "journals/cee/KhanSCAVTC23",
+        "journals/cee/SharmaBG17"
+      ]
+    },
+    {
+      "venue": "Comput. Geom.",
+      "papers": 1,
+      "keys": [
+        "journals/comgeo/BanikRR23"
+      ]
+    },
+    {
+      "venue": "Comput. Graph.",
+      "papers": 3,
+      "keys": [
+        "journals/cg/GumilarSBSHMBG021",
+        "journals/cg/RaiSS26",
+        "journals/cg/SharmaA17"
+      ]
+    },
+    {
+      "venue": "Comput. Graph. Forum",
+      "papers": 2,
+      "keys": [
+        "journals/cgf/RaiGS24",
+        "journals/cgf/SharmaAK20"
+      ]
+    },
+    {
+      "venue": "Comput. Ind. Eng.",
+      "papers": 1,
+      "keys": [
+        "journals/candie/GharotePLR15"
+      ]
+    },
+    {
+      "venue": "Comput. Lang.",
+      "papers": 3,
+      "keys": [
+        "journals/cl/BolotJ90",
+        "journals/cl/Jalote92",
+        "journals/cl/PurtiloJ91"
+      ]
+    },
+    {
+      "venue": "Comput. Networks",
+      "papers": 2,
+      "keys": [
+        "journals/cn/EspositoMBM11",
+        "journals/cn/RangarajanYJ98"
+      ]
+    },
+    {
+      "venue": "Comput. Speech Lang.",
+      "papers": 2,
+      "keys": [
+        "journals/csl/SharmaADS18",
+        "journals/csl/SharmaANS18"
+      ]
+    },
+    {
+      "venue": "Comput. Syst. Sci. Eng.",
+      "papers": 2,
+      "keys": [
+        "journals/csse/DillonCCMR20",
+        "journals/csse/DillonM06"
+      ]
+    },
+    {
+      "venue": "Comput. Vis. Image Underst.",
+      "papers": 1,
+      "keys": [
+        "journals/cviu/JainSDSF20"
+      ]
+    },
+    {
+      "venue": "Computer",
+      "papers": 3,
+      "keys": [
+        "journals/computer/GuptaMAUC22",
+        "journals/computer/MotwaniG21",
+        "journals/computer/MotwaniSG21"
+      ]
+    },
+    {
+      "venue": "Computing",
+      "papers": 1,
+      "keys": [
+        "journals/computing/YauYB14"
+      ]
+    },
+    {
+      "venue": "Concurr. Comput. Pract. Exp.",
+      "papers": 1,
+      "keys": [
+        "journals/concurrency/BellatrecheM16"
+      ]
+    },
+    {
+      "venue": "Converse@KDD",
+      "papers": 1,
+      "keys": [
+        "conf/kdd/SrivastavaKSVVA20"
+      ]
+    },
+    {
+      "venue": "CrowdSenSys@SenSys",
+      "papers": 1,
+      "keys": [
+        "conf/sensys/BajajS17"
+      ]
+    },
+    {
+      "venue": "DANTE",
+      "papers": 2,
+      "keys": [
+        "conf/dante/BellatrecheKM99",
+        "conf/dante/RainsfordM99"
+      ]
+    },
+    {
+      "venue": "DASC/PiCom/DataCom/CyberSciTech",
+      "papers": 1,
+      "keys": [
+        "conf/dasc/GuhaYB16"
+      ]
+    },
+    {
+      "venue": "DCIS",
+      "papers": 1,
+      "keys": [
+        "conf/dcis/GadeRKD18"
+      ]
+    },
+    {
+      "venue": "DEBS",
+      "papers": 1,
+      "keys": [
+        "conf/debs/GuptaSM14"
+      ]
+    },
+    {
+      "venue": "DEXA Workshop",
+      "papers": 1,
+      "keys": [
+        "conf/dexaw/ChengKM01"
+      ]
+    },
+    {
+      "venue": "DFF@MM",
+      "papers": 1,
+      "keys": [
+        "conf/dff/VenaikKAS25"
+      ]
+    },
+    {
+      "venue": "DL4SR@CIKM",
+      "papers": 1,
+      "keys": [
+        "conf/cikm/MahataAGKPSAS22"
+      ]
+    },
+    {
+      "venue": "DNIS",
+      "papers": 2,
+      "keys": [
+        "conf/dnis/GoyalDS15",
+        "conf/dnis/GoyalSL10"
+      ]
+    },
+    {
+      "venue": "DSP",
+      "papers": 2,
+      "keys": [
+        "conf/icdsp/AnsariG15",
+        "conf/icdsp/AnsariG15a"
+      ]
+    },
+    {
+      "venue": "Data Knowl. Eng.",
+      "papers": 7,
+      "keys": [
+        "journals/dke/GuptaGGM07",
+        "journals/dke/Mohania01",
+        "journals/dke/MohaniaAG07",
+        "journals/dke/MohaniaK00",
+        "journals/dke/MohaniaS94",
+        "journals/dke/RalyteJM23",
+        "journals/dke/ThalhammerSM01"
+      ]
+    },
+    {
+      "venue": "Data Min. Knowl. Discov.",
+      "papers": 1,
+      "keys": [
+        "journals/datamine/VermaPB22"
+      ]
+    },
+    {
+      "venue": "Data Sci. Eng.",
+      "papers": 1,
+      "keys": [
+        "journals/dase/MondalKPM21"
+      ]
+    },
+    {
+      "venue": "Database J. Biol. Databases Curation",
+      "papers": 13,
+      "keys": [
+        "journals/biodb/AgrawalPKKSRR19",
+        "journals/biodb/AkhterKAR19",
+        "journals/biodb/AroraKPKTR23",
+        "journals/biodb/BatraDUKSSKMKST20",
+        "journals/biodb/BhartiyaPGKJPJSSSRSS13",
+        "journals/biodb/ChauhanGTR25",
+        "journals/biodb/GautamSTCKKR12",
+        "journals/biodb/KaurBKR20",
+        "journals/biodb/KaurPSUR19",
+        "journals/biodb/MehtaAKJMSTCGGVR14",
+        "journals/biodb/PathaniaRB15",
+        "journals/biodb/UsmaniASPR19",
+        "journals/biodb/UsmaniKKSR18"
+      ]
+    },
+    {
+      "venue": "DeepLo@EMNLP-IJCNLP",
+      "papers": 1,
+      "keys": [
+        "conf/acl-deeplo/PatidarKPKAVS19"
+      ]
+    },
+    {
+      "venue": "Description Logics",
+      "papers": 1,
+      "keys": [
+        "conf/dlog/MutharajuMH10"
+      ]
+    },
+    {
+      "venue": "Dialogue Discourse",
+      "papers": 1,
+      "keys": [
+        "journals/dad/KumarPSLSC23"
+      ]
+    },
+    {
+      "venue": "Digit. Commun. Networks",
+      "papers": 1,
+      "keys": [
+        "journals/dcan/AbdullahIKPS17"
+      ]
+    },
+    {
+      "venue": "Digit. Signal Process.",
+      "papers": 1,
+      "keys": [
+        "journals/dsp/GuptaSAJ25"
+      ]
+    },
+    {
+      "venue": "Discret. Comput. Geom.",
+      "papers": 3,
+      "keys": [
+        "journals/dcg/RamanR20",
+        "journals/dcg/RamanR22",
+        "journals/dcg/RoyGRR18"
+      ]
+    },
+    {
+      "venue": "Discret. Math.",
+      "papers": 2,
+      "keys": [
+        "journals/dm/DabrowskiLRR12",
+        "journals/dm/ElbassioniRRS26"
+      ]
+    },
+    {
+      "venue": "Discret. Math. Algorithms Appl.",
+      "papers": 1,
+      "keys": [
+        "journals/dmaa/GandhiGPR10"
+      ]
+    },
+    {
+      "venue": "Discret. Optim.",
+      "papers": 1,
+      "keys": [
+        "journals/disopt/CanzarEER18"
+      ]
+    },
+    {
+      "venue": "Distributed Comput.",
+      "papers": 1,
+      "keys": [
+        "journals/dc/Jalote89"
+      ]
+    },
+    {
+      "venue": "Distributed Parallel Databases",
+      "papers": 2,
+      "keys": [
+        "journals/dpd/BaileyDMW98",
+        "journals/dpd/BellatrecheFM16"
+      ]
+    },
+    {
+      "venue": "DySPAN",
+      "papers": 2,
+      "keys": [
+        "conf/dyspan/BhattacharyaCMD18",
+        "conf/dyspan/GhoshB21"
+      ]
+    },
+    {
+      "venue": "EACL (Findings)",
+      "papers": 3,
+      "keys": [
+        "conf/eacl/BhaisahebPPPVS23",
+        "conf/eacl/GoyalKSMSK23",
+        "conf/eacl/MasudKGAC24"
+      ]
+    },
+    {
+      "venue": "EAI Endorsed Trans. Scalable Inf. Syst.",
+      "papers": 1,
+      "keys": [
+        "journals/sis/ArjunanSSS15"
+      ]
+    },
+    {
+      "venue": "EC-Web",
+      "papers": 5,
+      "keys": [
+        "conf/ecweb/GuptaBM04",
+        "conf/ecweb/KothariMK02",
+        "conf/ecweb/MarkovMMK03",
+        "conf/ecweb/MittalGMGID06",
+        "conf/ecweb/PassiLMSMB02"
+      ]
+    },
+    {
+      "venue": "ECCV Workshops (1)",
+      "papers": 1,
+      "keys": [
+        "conf/eccv/SinhaAV0A18"
+      ]
+    },
+    {
+      "venue": "ECCV Workshops (6)",
+      "papers": 1,
+      "keys": [
+        "conf/eccv/BhagatUUA20"
+      ]
+    },
+    {
+      "venue": "EDA",
+      "papers": 1,
+      "keys": [
+        "conf/eda/Mohania07"
+      ]
+    },
+    {
+      "venue": "EDBT/ICDT Workshops",
+      "papers": 1,
+      "keys": [
+        "conf/edbt/MalhotraAS14"
+      ]
+    },
+    {
+      "venue": "EMBC",
+      "papers": 3,
+      "keys": [
+        "conf/embc/JainKD16",
+        "conf/embc/SethiDRS17",
+        "conf/embc/SinghSDM14"
+      ]
+    },
+    {
+      "venue": "EMNLP (Findings)",
+      "papers": 3,
+      "keys": [
+        "conf/emnlp/GaurGSGA25",
+        "conf/emnlp/PramanickSDAN021",
+        "conf/emnlp/SenguptaA023"
+      ]
+    },
+    {
+      "venue": "ER (Companion)",
+      "papers": 2,
+      "keys": [
+        "conf/er/SinghKBM24",
+        "conf/er/SinghM25"
+      ]
+    },
+    {
+      "venue": "ER Workshops",
+      "papers": 1,
+      "keys": [
+        "conf/er/SamtaniMKK98"
+      ]
+    },
+    {
+      "venue": "ESWC (Satellite Events)",
+      "papers": 1,
+      "keys": [
+        "conf/esws/SachdevaJM21"
+      ]
+    },
+    {
+      "venue": "EUMAS/AT",
+      "papers": 1,
+      "keys": [
+        "conf/eumas/AgrawalCSSS15"
+      ]
+    },
+    {
+      "venue": "EUSIPCO",
+      "papers": 11,
+      "keys": [
+        "conf/eusipco/AbrolSS16",
+        "conf/eusipco/AbrolSTRDS17",
+        "conf/eusipco/AkhtarPGBNNBS25",
+        "conf/eusipco/BiswasNA23",
+        "conf/eusipco/GirishAPSBRBS25",
+        "conf/eusipco/JainSEGB20",
+        "conf/eusipco/KarlekarG14",
+        "conf/eusipco/PhukanDB024",
+        "conf/eusipco/SharmaADS17",
+        "conf/eusipco/SharmaAS15",
+        "conf/eusipco/SharmaASD16"
+      ]
+    },
+    {
+      "venue": "Electron. Commer. Res.",
+      "papers": 1,
+      "keys": [
+        "journals/ecr/RamanujamGKST10"
+      ]
+    },
+    {
+      "venue": "EurAsia-ICT",
+      "papers": 1,
+      "keys": [
+        "conf/eurasiaict/SanghiJA02"
+      ]
+    },
+    {
+      "venue": "Euro-Par",
+      "papers": 2,
+      "keys": [
+        "conf/europar/CedermanCT12",
+        "conf/europar/Kumar19"
+      ]
+    },
+    {
+      "venue": "EuroVA@EuroVis",
+      "papers": 2,
+      "keys": [
+        "conf/vissym/SehgalRGGSS18",
+        "conf/vissym/SharmaSPAS14"
+      ]
+    },
+    {
+      "venue": "Expert Syst. Appl.",
+      "papers": 1,
+      "keys": [
+        "journals/eswa/NabizadehLRS20"
+      ]
+    },
+    {
+      "venue": "FAccT",
+      "papers": 1,
+      "keys": [
+        "conf/fat/SinghDC23"
+      ]
+    },
+    {
+      "venue": "FFSPIN@SIGCOMM",
+      "papers": 1,
+      "keys": [
+        "conf/sigcomm/KotturKTS22"
+      ]
+    },
+    {
+      "venue": "FIRE",
+      "papers": 4,
+      "keys": [
+        "conf/fire/SataparaMMKA0M023",
+        "conf/fire/ShaikhJRSK11",
+        "conf/fire/ShaikhSS13",
+        "conf/fire/SundriyalA023"
+      ]
+    },
+    {
+      "venue": "FIRE (Working Notes)",
+      "papers": 8,
+      "keys": [
+        "conf/fire/AnandGSK18",
+        "conf/fire/BawejaAGM17",
+        "conf/fire/FarooqiGS21",
+        "conf/fire/GaurASS18",
+        "conf/fire/GuptaASS18",
+        "conf/fire/MasudKAC23",
+        "conf/fire/PathakCS18",
+        "conf/fire/SundriyalA023a"
+      ]
+    },
+    {
+      "venue": "FLINS-ISKE (5)",
+      "papers": 1,
+      "keys": [
+        "conf/iske/SriramNSAZASWHP26"
+      ]
+    },
+    {
+      "venue": "FODO",
+      "papers": 1,
+      "keys": [
+        "conf/fodo/MadriaMR98"
+      ]
+    },
+    {
+      "venue": "FSTTCS",
+      "papers": 3,
+      "keys": [
+        "conf/fsttcs/BeraT23",
+        "conf/fsttcs/Bisht0V23",
+        "conf/fsttcs/ChoudhuryD015"
+      ]
+    },
+    {
+      "venue": "FTCS",
+      "papers": 5,
+      "keys": [
+        "conf/ftcs/BolotJ89",
+        "conf/ftcs/FujimuraJ88",
+        "conf/ftcs/GuptaJ93",
+        "conf/ftcs/Jalote92",
+        "conf/ftcs/PurtiloJ89"
+      ]
+    },
+    {
+      "venue": "Frontiers Bioinform.",
+      "papers": 6,
+      "keys": [
+        "journals/fbinf/ChoudhuryBPR24",
+        "journals/fbinf/ChoudhuryMR25",
+        "journals/fbinf/JainTPR26",
+        "journals/fbinf/MalikTAR26",
+        "journals/fbinf/PatiyalTGDDR24",
+        "journals/fbinf/RuhelaGSAKG22"
+      ]
+    },
+    {
+      "venue": "Future Gener. Comput. Syst.",
+      "papers": 1,
+      "keys": [
+        "journals/fgcs/BentDWM17"
+      ]
+    },
+    {
+      "venue": "GIR",
+      "papers": 1,
+      "keys": [
+        "conf/gir/GoyalN13"
+      ]
+    },
+    {
+      "venue": "GLOBECOM Workshops",
+      "papers": 1,
+      "keys": [
+        "conf/globecom/SharmaDBG18"
+      ]
+    },
+    {
+      "venue": "GRIVAPP",
+      "papers": 1,
+      "keys": [
+        "conf/grivapp/SharmaG26"
+      ]
+    },
+    {
+      "venue": "Genom. Proteom. Bioinform.",
+      "papers": 3,
+      "keys": [
+        "journals/gpb/MuthukrishnanGR07",
+        "journals/gpb/SahaR06",
+        "journals/gpb/SahaZSR06"
+      ]
+    },
+    {
+      "venue": "GeoInformatica",
+      "papers": 1,
+      "keys": [
+        "journals/geoinformatica/KaurGG21"
+      ]
+    },
+    {
+      "venue": "GlobalSIP",
+      "papers": 2,
+      "keys": [
+        "conf/globalsip/AggarwalGG15",
+        "conf/globalsip/AnsariGG15"
+      ]
+    },
+    {
+      "venue": "HICSS",
+      "papers": 1,
+      "keys": [
+        "conf/hicss/LingampallyGJ07"
+      ]
+    },
+    {
+      "venue": "HIPCW",
+      "papers": 1,
+      "keys": [
+        "conf/hipc/Kumar0B24"
+      ]
+    },
+    {
+      "venue": "HPEC",
+      "papers": 1,
+      "keys": [
+        "conf/hpec/0001SJBMS15"
+      ]
+    },
+    {
+      "venue": "HRI (Companion)",
+      "papers": 1,
+      "keys": [
+        "conf/hri/SinghSSE20"
+      ]
+    },
+    {
+      "venue": "HT",
+      "papers": 2,
+      "keys": [
+        "conf/ht/ChandraRSGBK21",
+        "conf/ht/ChowdhuryDSS19"
+      ]
+    },
+    {
+      "venue": "Hardware and Software Architectures for Fault Tolerance",
+      "papers": 1,
+      "keys": [
+        "conf/hsaft/HuangKJ93"
+      ]
+    },
+    {
+      "venue": "HiPC Workshops",
+      "papers": 1,
+      "keys": [
+        "conf/hipc/Kumar21"
+      ]
+    },
+    {
+      "venue": "HiPCW",
+      "papers": 1,
+      "keys": [
+        "conf/hipc/SharmaGD25"
+      ]
+    },
+    {
+      "venue": "IA3@SC",
+      "papers": 1,
+      "keys": [
+        "conf/sc/0001MSZ16"
+      ]
+    },
+    {
+      "venue": "IACR Trans. Cryptogr. Hardw. Embed. Syst.",
+      "papers": 1,
+      "keys": [
+        "journals/tches/AnandBCIILMRS24"
+      ]
+    },
+    {
+      "venue": "IARML@IJCAI",
+      "papers": 1,
+      "keys": [
+        "conf/ijcai/PanditS0V23"
+      ]
+    },
+    {
+      "venue": "IBM J. Res. Dev.",
+      "papers": 1,
+      "keys": [
+        "journals/ibmrd/MittalKMNBRSY04"
+      ]
+    },
+    {
+      "venue": "IC3",
+      "papers": 2,
+      "keys": [
+        "conf/ic3/AnsariPSNC12",
+        "conf/ic3/ShuklaPANC12"
+      ]
+    },
+    {
+      "venue": "ICAC",
+      "papers": 5,
+      "keys": [
+        "conf/icac/AnanthanarayananMG05",
+        "conf/icac/BhideGJMR04",
+        "conf/icac/GuptaPM08",
+        "conf/icac/LotlikaVMC05",
+        "conf/icac/VatsavaiCM05"
+      ]
+    },
+    {
+      "venue": "ICACCI",
+      "papers": 1,
+      "keys": [
+        "conf/icacci/KumarAD14"
+      ]
+    },
+    {
+      "venue": "ICACS",
+      "papers": 1,
+      "keys": [
+        "conf/icacs2/JaipuriaBB23"
+      ]
+    },
+    {
+      "venue": "ICAIF",
+      "papers": 3,
+      "keys": [
+        "conf/icaif/GhoshABC23",
+        "conf/icaif/MukherjeeSS24",
+        "conf/icaif/NabarS23"
+      ]
+    },
+    {
+      "venue": "ICARIS",
+      "papers": 1,
+      "keys": [
+        "conf/icaris/SahaR04"
+      ]
+    },
+    {
+      "venue": "ICC",
+      "papers": 4,
+      "keys": [
+        "conf/icc/GuptaDM22",
+        "conf/icc/HalderMOC22",
+        "conf/icc/KumarVMC26",
+        "conf/icc/SharmaBG18"
+      ]
+    },
+    {
+      "venue": "ICC Workshops",
+      "papers": 1,
+      "keys": [
+        "conf/icc/0002SB020"
+      ]
+    },
+    {
+      "venue": "ICCV Workshops",
+      "papers": 2,
+      "keys": [
+        "conf/iccvw/GuptaD17",
+        "conf/iccvw/ShuklaACGOAAF19"
+      ]
+    },
+    {
+      "venue": "ICDE Workshops",
+      "papers": 10,
+      "keys": [
+        "conf/icde/BaglerS18",
+        "conf/icde/DiwanBB20",
+        "conf/icde/GoelCPKTSB22",
+        "conf/icde/GoyalGMG06",
+        "conf/icde/KalraBDB20",
+        "conf/icde/PandeyPTGADGB22",
+        "conf/icde/PiplaniGMGGB22",
+        "conf/icde/SharmaUB20",
+        "conf/icde/SharmaUKAAAB20",
+        "conf/icde/TuwaniSSB19"
+      ]
+    },
+    {
+      "venue": "ICDIM",
+      "papers": 1,
+      "keys": [
+        "conf/icdim/GuptaDGG06"
+      ]
+    },
+    {
+      "venue": "ICDM (Workshops)",
+      "papers": 2,
+      "keys": [
+        "conf/icdm/KumarGPCVS20",
+        "conf/icdm/SinglaSCS22"
+      ]
+    },
+    {
+      "venue": "ICDM Workshops",
+      "papers": 2,
+      "keys": [
+        "conf/icdm/PatidarRCSAS16",
+        "conf/icdm/SharmaSPSSPA15"
+      ]
+    },
+    {
+      "venue": "ICETET",
+      "papers": 1,
+      "keys": [
+        "conf/icetet/GuptaGDGS08"
+      ]
+    },
+    {
+      "venue": "ICGEC",
+      "papers": 1,
+      "keys": [
+        "conf/icgec/LinYFDGSV16"
+      ]
+    },
+    {
+      "venue": "ICGI",
+      "papers": 1,
+      "keys": [
+        "conf/icgi/DubeyJA06"
+      ]
+    },
+    {
+      "venue": "ICISTM",
+      "papers": 1,
+      "keys": [
+        "conf/icistm/Jalote09"
+      ]
+    },
+    {
+      "venue": "ICME Workshops",
+      "papers": 1,
+      "keys": [
+        "conf/icmcs/KansalSWS21"
+      ]
+    },
+    {
+      "venue": "ICMI Companion",
+      "papers": 2,
+      "keys": [
+        "conf/icmi/ChauhanPS20",
+        "conf/icmi/GulatiJJS20"
+      ]
+    },
+    {
+      "venue": "ICNLSP",
+      "papers": 1,
+      "keys": [
+        "conf/icnlsp/KumarA25"
+      ]
+    },
+    {
+      "venue": "ICON",
+      "papers": 3,
+      "keys": [
+        "conf/icon-nlp/RoychoudhuryDAD22",
+        "conf/icon-nlp/VermaSAG20",
+        "conf/icon-nlp/YadavA022"
+      ]
+    },
+    {
+      "venue": "ICPS",
+      "papers": 1,
+      "keys": [
+        "conf/icps/UtherSU05"
+      ]
+    },
+    {
+      "venue": "ICSC",
+      "papers": 1,
+      "keys": [
+        "conf/semco/RamanujamGKST09"
+      ]
+    },
+    {
+      "venue": "ICSE Companion",
+      "papers": 1,
+      "keys": [
+        "conf/icse/ShroffAD09"
+      ]
+    },
+    {
+      "venue": "ICTCS",
+      "papers": 1,
+      "keys": [
+        "conf/ictcs/BeraT24"
+      ]
+    },
+    {
+      "venue": "ICUIMC",
+      "papers": 2,
+      "keys": [
+        "conf/icuimc/GuptaGG08",
+        "conf/icuimc/MohaniaB08"
+      ]
+    },
+    {
+      "venue": "ICVGIP",
+      "papers": 8,
+      "keys": [
+        "conf/icvgip/DuggalGGWA16",
+        "conf/icvgip/GargTBSAS23",
+        "conf/icvgip/MittalAPG21",
+        "conf/icvgip/PatelAG16",
+        "conf/icvgip/PrasadSA25",
+        "conf/icvgip/SethiSAAG16",
+        "conf/icvgip/ShuklaUBAT18",
+        "conf/icvgip/SubramanyamDSL23"
+      ]
+    },
+    {
+      "venue": "ICWI",
+      "papers": 3,
+      "keys": [
+        "conf/iadis/KumarGJ02",
+        "conf/iadis/SanghiJA02",
+        "conf/iadis/VaradarajanKGJ02"
+      ]
+    },
+    {
+      "venue": "IDT",
+      "papers": 1,
+      "keys": [
+        "conf/idt/MondalD13"
+      ]
+    },
+    {
+      "venue": "IEEE ACM Trans. Audio Speech Lang. Process.",
+      "papers": 5,
+      "keys": [
+        "journals/taslp/AbrolS20",
+        "journals/taslp/AtriGC23",
+        "journals/taslp/BiswasNA24",
+        "journals/taslp/KumarAM24",
+        "journals/taslp/SharmaAS17"
+      ]
+    },
+    {
+      "venue": "IEEE ACM Trans. Comput. Biol. Bioinform.",
+      "papers": 3,
+      "keys": [
+        "journals/tcbb/RaiSM22",
+        "journals/tcbb/SenguptaMB12",
+        "journals/tcbb/SenguptaPMB13"
+      ]
+    },
+    {
+      "venue": "IEEE Access",
+      "papers": 7,
+      "keys": [
+        "journals/access/AnsariG18",
+        "journals/access/BajajASGI18",
+        "journals/access/KansalS19",
+        "journals/access/KaurJMSGMCSPKS23",
+        "journals/access/MehrishSE19",
+        "journals/access/SharmaGB16",
+        "journals/access/ZiJTLBSTP26"
+      ]
+    },
+    {
+      "venue": "IEEE Commun. Lett.",
+      "papers": 5,
+      "keys": [
+        "journals/icl/HalderMOC22",
+        "journals/icl/ParamitaBBS26",
+        "journals/icl/SharmaDBG19",
+        "journals/icl/SharmaGB18",
+        "journals/icl/SinghSFGJ21"
+      ]
+    },
+    {
+      "venue": "IEEE Comput. Intell. Mag.",
+      "papers": 1,
+      "keys": [
+        "journals/cim/AkhtarEC20"
+      ]
+    },
+    {
+      "venue": "IEEE Des. Test",
+      "papers": 2,
+      "keys": [
+        "journals/dt/NikdastMED23",
+        "journals/dt/PasrichaJD22"
+      ]
+    },
+    {
+      "venue": "IEEE Intell. Informatics Bull.",
+      "papers": 1,
+      "keys": [
+        "journals/cib/MutharajuLPWH16"
+      ]
+    },
+    {
+      "venue": "IEEE Intell. Syst.",
+      "papers": 2,
+      "keys": [
+        "journals/expert/AkhtarENS18",
+        "journals/expert/MahataFSJ18"
+      ]
+    },
+    {
+      "venue": "IEEE Internet Things J.",
+      "papers": 1,
+      "keys": [
+        "journals/iotj/KaiwartyaACLKSP18"
+      ]
+    },
+    {
+      "venue": "IEEE J. Biomed. Health Informatics",
+      "papers": 1,
+      "keys": [
+        "journals/titb/SharmaSAC22"
+      ]
+    },
+    {
+      "venue": "IEEE J. Emerg. Sel. Topics Circuits Syst.",
+      "papers": 2,
+      "keys": [
+        "journals/esticas/DebGPBH12",
+        "journals/esticas/SinhaGRD21"
+      ]
+    },
+    {
+      "venue": "IEEE J. Sel. Top. Signal Process.",
+      "papers": 2,
+      "keys": [
+        "journals/jstsp/JainGAFA20",
+        "journals/jstsp/SureshAKR25"
+      ]
+    },
+    {
+      "venue": "IEEE MS",
+      "papers": 2,
+      "keys": [
+        "conf/mobserv/AddoAYB14",
+        "conf/mobserv/YauB14"
+      ]
+    },
+    {
+      "venue": "IEEE Netw.",
+      "papers": 1,
+      "keys": [
+        "journals/network/ChintamaneniJST88"
+      ]
+    },
+    {
+      "venue": "IEEE SCC",
+      "papers": 4,
+      "keys": [
+        "conf/IEEEscc/DaniFGKMPSS10",
+        "conf/IEEEscc/GuptaGNM12",
+        "conf/IEEEscc/NambiarFPSM11",
+        "conf/IEEEscc/PrasadFSMV10"
+      ]
+    },
+    {
+      "venue": "IEEE Signal Process. Lett.",
+      "papers": 3,
+      "keys": [
+        "journals/spl/MehrishSE16",
+        "journals/spl/RaviSE16",
+        "journals/spl/SubramanyamGA19"
+      ]
+    },
+    {
+      "venue": "IEEE Signal Process. Mag.",
+      "papers": 2,
+      "keys": [
+        "journals/spm/SinghSFGJ22",
+        "journals/spm/SinghSGG26"
+      ]
+    },
+    {
+      "venue": "IEEE Syst. J.",
+      "papers": 1,
+      "keys": [
+        "journals/sj/SharmaBG19"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Affect. Comput.",
+      "papers": 7,
+      "keys": [
+        "journals/taffco/AkhtarGEBK22",
+        "journals/taffco/BediKAC23",
+        "journals/taffco/KumarACSM24",
+        "journals/taffco/LeekhaKSSS24",
+        "journals/taffco/SharmaSAC24",
+        "journals/taffco/ShuklaBONP21",
+        "journals/taffco/VatsalMTCSS24"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Artif. Intell.",
+      "papers": 3,
+      "keys": [
+        "journals/tai/AshwiniDGS24",
+        "journals/tai/KumarDAC24",
+        "journals/tai/SundriyalAC26"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Biom. Behav. Identity Sci.",
+      "papers": 1,
+      "keys": [
+        "journals/tbbis/AgrawalMKS22"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Circuits Syst. I Regul. Pap.",
+      "papers": 2,
+      "keys": [
+        "journals/tcasI/AgarwalGSRD25",
+        "journals/tcasI/GroverSARAKD25"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "papers": 1,
+      "keys": [
+        "journals/tcasII/SinghMA24"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Circuits Syst. Video Technol.",
+      "papers": 4,
+      "keys": [
+        "journals/tcsv/JainTSDSF22",
+        "journals/tcsv/KansalSWS20",
+        "journals/tcsv/MehrishSJSK20",
+        "journals/tcsv/Subramanyam23"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Cogn. Commun. Netw.",
+      "papers": 1,
+      "keys": [
+        "journals/tccn/BhattacharyaCDG20"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Commun.",
+      "papers": 1,
+      "keys": [
+        "journals/tcom/AhmedRMOC24"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.",
+      "papers": 2,
+      "keys": [
+        "journals/tcad/Bera18",
+        "journals/tcad/RoutDB21"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Comput. Soc. Syst.",
+      "papers": 4,
+      "keys": [
+        "journals/tcss/BhardwajSBAC24",
+        "journals/tcss/MittalSC21",
+        "journals/tcss/PandeyAC21",
+        "journals/tcss/SureshSAC24"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Computers",
+      "papers": 6,
+      "keys": [
+        "journals/tc/AgarwalGSD25",
+        "journals/tc/DebCYSCGPBH13",
+        "journals/tc/GadeD17",
+        "journals/tc/GangulyCDPBT11",
+        "journals/tc/HuangJ92",
+        "journals/tc/Maitra0SAG18"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Consumer Electron.",
+      "papers": 1,
+      "keys": [
+        "journals/tce/SinghDB20"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Emerg. Top. Comput.",
+      "papers": 2,
+      "keys": [
+        "journals/tetc/RoutMSD23",
+        "journals/tetc/SinhaBRPD22"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Image Process.",
+      "papers": 2,
+      "keys": [
+        "journals/tip/AnsariG17",
+        "journals/tip/Subramanyam22"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Inf. Forensics Secur.",
+      "papers": 1,
+      "keys": [
+        "journals/tifs/ThomasESK09"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Instrum. Meas.",
+      "papers": 1,
+      "keys": [
+        "journals/tim/KannadasanSVBR24"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Intell. Transp. Syst.",
+      "papers": 1,
+      "keys": [
+        "journals/tits/BajajS21"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Knowl. Data Eng.",
+      "papers": 6,
+      "keys": [
+        "journals/tkde/BandyopadhyayCS15",
+        "journals/tkde/BeraPV23",
+        "journals/tkde/BeraPVSC23",
+        "journals/tkde/FujimuraJ93",
+        "journals/tkde/KharbandaSM25",
+        "journals/tkde/VMG24"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Mob. Comput.",
+      "papers": 2,
+      "keys": [
+        "journals/tmc/MaityRV17",
+        "journals/tmc/MaityRVCS18"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Multi Scale Comput. Syst.",
+      "papers": 1,
+      "keys": [
+        "journals/tmscs/MondalGSDG17"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Multim.",
+      "papers": 5,
+      "keys": [
+        "journals/tmm/AbrolSP21",
+        "journals/tmm/FatimaYKLS25",
+        "journals/tmm/SubramanyamEK12",
+        "journals/tmm/VermaSWSS23",
+        "journals/tmm/YinZLWSZ22"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Netw. Serv. Manag.",
+      "papers": 4,
+      "keys": [
+        "journals/tnsm/ChatterjeeAWMO22",
+        "journals/tnsm/ChaudharySSCM24",
+        "journals/tnsm/ParkBYDS21",
+        "journals/tnsm/ShokhandaPKCB25"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Neural Networks Learn. Syst.",
+      "papers": 2,
+      "keys": [
+        "journals/tnn/SenguptaBS17",
+        "journals/tnn/ThakurASZC24"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Parallel Distributed Syst.",
+      "papers": 1,
+      "keys": [
+        "journals/tpds/AgrawalJ95"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Pattern Anal. Mach. Intell.",
+      "papers": 2,
+      "keys": [
+        "journals/pami/AnandMTM14",
+        "journals/pami/MittalAM12"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Signal Process.",
+      "papers": 6,
+      "keys": [
+        "journals/tsp/0002GJ22",
+        "journals/tsp/BischofS92",
+        "journals/tsp/GuptaJ08",
+        "journals/tsp/GuptaJ08a",
+        "journals/tsp/GuptaJ10",
+        "journals/tsp/GuptaJP05"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Software Eng.",
+      "papers": 10,
+      "keys": [
+        "journals/tse/GuptaJB96",
+        "journals/tse/Jalote89",
+        "journals/tse/Jalote89a",
+        "journals/tse/Jalote89b",
+        "journals/tse/JaloteC86",
+        "journals/tse/JaloteK21",
+        "journals/tse/JaloteS02",
+        "journals/tse/MehrotraAGALP22",
+        "journals/tse/PurtiloJ91",
+        "journals/tse/RangarajanJT93"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Sustain. Comput.",
+      "papers": 1,
+      "keys": [
+        "journals/tsusc/MondalGKD17"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Veh. Technol.",
+      "papers": 3,
+      "keys": [
+        "journals/tvt/KaiwartyaCLKAKA18",
+        "journals/tvt/ParamitaBABS25",
+        "journals/tvt/SharmaGB19"
+      ]
+    },
+    {
+      "venue": "IEEE Trans. Vis. Comput. Graph.",
+      "papers": 1,
+      "keys": [
+        "journals/tvcg/MishraSPS24"
+      ]
+    },
+    {
+      "venue": "IEEE Wirel. Commun. Lett.",
+      "papers": 2,
+      "keys": [
+        "journals/wcl/JainGB19",
+        "journals/wcl/SharmaBDG19"
+      ]
+    },
+    {
+      "venue": "IEEE/ACM Trans. Netw.",
+      "papers": 1,
+      "keys": [
+        "journals/ton/BhattacharyaZMG22"
+      ]
+    },
+    {
+      "venue": "IET Cyper-Phys. Syst.: Theory & Appl.",
+      "papers": 1,
+      "keys": [
+        "journals/iet-cps/SinghD18"
+      ]
+    },
+    {
+      "venue": "IET Inf. Secur.",
+      "papers": 1,
+      "keys": [
+        "journals/iet-ifs/ShibaAMI23"
+      ]
+    },
+    {
+      "venue": "IET Quantum Commun.",
+      "papers": 1,
+      "keys": [
+        "journals/iet-qtc/AnandNI24"
+      ]
+    },
+    {
+      "venue": "IET Softw.",
+      "papers": 1,
+      "keys": [
+        "journals/iee/DubeyJA08"
+      ]
+    },
+    {
+      "venue": "IFIP Networking",
+      "papers": 2,
+      "keys": [
+        "conf/networking/BothraPSMS24",
+        "conf/networking/KulshresthaMIAM24"
+      ]
+    },
+    {
+      "venue": "IFIPTM",
+      "papers": 1,
+      "keys": [
+        "conf/ifiptm/RamanujamGKST09"
+      ]
+    },
+    {
+      "venue": "IGSC",
+      "papers": 2,
+      "keys": [
+        "conf/green/MondalGKD15",
+        "conf/green/SinhaRGD18"
+      ]
+    },
+    {
+      "venue": "IH",
+      "papers": 1,
+      "keys": [
+        "conf/ih2/SrinivasanOTTMN26"
+      ]
+    },
+    {
+      "venue": "IHCI",
+      "papers": 1,
+      "keys": [
+        "conf/ihci/DebD12"
+      ]
+    },
+    {
+      "venue": "IJCNLP (Findings)",
+      "papers": 1,
+      "keys": [
+        "conf/ijcnlp/MishraSSKB23"
+      ]
+    },
+    {
+      "venue": "IJCNLP(1)",
+      "papers": 1,
+      "keys": [
+        "conf/ijcnlp/VishalYVS17"
+      ]
+    },
+    {
+      "venue": "IJCRS (2)",
+      "papers": 1,
+      "keys": [
+        "conf/rskt/BadhwarB17"
+      ]
+    },
+    {
+      "venue": "IMX",
+      "papers": 1,
+      "keys": [
+        "conf/tvx/BelaniS26"
+      ]
+    },
+    {
+      "venue": "IPDPS Workshops",
+      "papers": 2,
+      "keys": [
+        "conf/ipps/DuttaCKB17",
+        "conf/ipps/Grossman0VBS17"
+      ]
+    },
+    {
+      "venue": "ISBI",
+      "papers": 4,
+      "keys": [
+        "conf/isbi/DashASB18",
+        "conf/isbi/DashASB18a",
+        "conf/isbi/GehlotFGG19",
+        "conf/isbi/MathurCGS25"
+      ]
+    },
+    {
+      "venue": "ISBRA",
+      "papers": 1,
+      "keys": [
+        "conf/isbra/SenguptaMB12"
+      ]
+    },
+    {
+      "venue": "ISC (1)",
+      "papers": 1,
+      "keys": [
+        "conf/isw/AnandGIS24"
+      ]
+    },
+    {
+      "venue": "ISC2",
+      "papers": 1,
+      "keys": [
+        "conf/isc2/BajajABSGI16"
+      ]
+    },
+    {
+      "venue": "ISEC",
+      "papers": 4,
+      "keys": [
+        "conf/indiaSE/Jalote12",
+        "conf/indiaSE/JaloteG11",
+        "conf/indiaSE/KammaJ13",
+        "conf/indiaSE/ShroffAD09"
+      ]
+    },
+    {
+      "venue": "ISMAR Adjunct",
+      "papers": 1,
+      "keys": [
+        "conf/ismar/RamakrishnaHHSG16"
+      ]
+    },
+    {
+      "venue": "ISQED",
+      "papers": 4,
+      "keys": [
+        "conf/isqed/DebCGYTPHB12",
+        "conf/isqed/MondalGKKD16",
+        "conf/isqed/RoutMJGD18",
+        "conf/isqed/SinghGJD17"
+      ]
+    },
+    {
+      "venue": "ISSNIP",
+      "papers": 1,
+      "keys": [
+        "conf/issnip/BatraASS13"
+      ]
+    },
+    {
+      "venue": "ISVD",
+      "papers": 3,
+      "keys": [
+        "conf/isvd/SharmaA10",
+        "conf/isvd/SharmaAM09",
+        "conf/isvd/SharmaMA06"
+      ]
+    },
+    {
+      "venue": "ISVLSI",
+      "papers": 6,
+      "keys": [
+        "conf/isvlsi/GadeGD17",
+        "conf/isvlsi/GadeMD18",
+        "conf/isvlsi/GadeSRD18",
+        "conf/isvlsi/MondalHD14",
+        "conf/isvlsi/RehaniDBOB18",
+        "conf/isvlsi/SharmaGD25"
+      ]
+    },
+    {
+      "venue": "ISWC (Demos/Industry)",
+      "papers": 1,
+      "keys": [
+        "conf/semweb/SinghKBBM20"
+      ]
+    },
+    {
+      "venue": "ISWC (Developers Workshop)",
+      "papers": 1,
+      "keys": [
+        "conf/semweb/MutharajuMH14"
+      ]
+    },
+    {
+      "venue": "ISWC (Industry/Doctoral Consortium/Posters/Demos)",
+      "papers": 1,
+      "keys": [
+        "conf/semweb/DawraGJKPCM25"
+      ]
+    },
+    {
+      "venue": "ISWC (Posters & Demos)",
+      "papers": 1,
+      "keys": [
+        "conf/semweb/MutharajuSSH13"
+      ]
+    },
+    {
+      "venue": "ISWC (Satellites)",
+      "papers": 1,
+      "keys": [
+        "conf/semweb/YadavSMB19"
+      ]
+    },
+    {
+      "venue": "ISWCS",
+      "papers": 1,
+      "keys": [
+        "conf/iswcs/SharmaBGD19"
+      ]
+    },
+    {
+      "venue": "IT Prof.",
+      "papers": 1,
+      "keys": [
+        "journals/itpro/MotwaniG22"
+      ]
+    },
+    {
+      "venue": "ITSC",
+      "papers": 2,
+      "keys": [
+        "conf/itsc/BajajBPSGI15",
+        "conf/itsc/PalBSKAS18"
+      ]
+    },
+    {
+      "venue": "IWCS (1)",
+      "papers": 1,
+      "keys": [
+        "conf/iwcs/AkhtarKEBB19"
+      ]
+    },
+    {
+      "venue": "IWGS@SIGSPATIAL",
+      "papers": 1,
+      "keys": [
+        "conf/gis/YinSZ16"
+      ]
+    },
+    {
+      "venue": "IWOMP",
+      "papers": 1,
+      "keys": [
+        "conf/iwomp/KumarTM19"
+      ]
+    },
+    {
+      "venue": "Image Vis. Comput.",
+      "papers": 1,
+      "keys": [
+        "journals/ivc/SharmaAK20"
+      ]
+    },
+    {
+      "venue": "Inf. Process. Lett.",
+      "papers": 1,
+      "keys": [
+        "journals/ipl/Bera11"
+      ]
+    },
+    {
+      "venue": "Inf. Sci.",
+      "papers": 1,
+      "keys": [
+        "journals/isci/MadriaMBB02"
+      ]
+    },
+    {
+      "venue": "Inf. Secur. J. A Glob. Perspect.",
+      "papers": 1,
+      "keys": [
+        "journals/isjgp/GuptaGGGGS10"
+      ]
+    },
+    {
+      "venue": "Inf. Softw. Technol.",
+      "papers": 1,
+      "keys": [
+        "journals/infsof/MohaniaS94"
+      ]
+    },
+    {
+      "venue": "Inf. Syst.",
+      "papers": 1,
+      "keys": [
+        "journals/is/BhideHIM10"
+      ]
+    },
+    {
+      "venue": "Inroads",
+      "papers": 1,
+      "keys": [
+        "journals/inroads/KumarBPOJSABEA23"
+      ]
+    },
+    {
+      "venue": "Int. J. Artif. Intell. Educ.",
+      "papers": 1,
+      "keys": [
+        "journals/aiedu/BamdevGSVHS23"
+      ]
+    },
+    {
+      "venue": "Int. J. Bus. Intell. Data Min.",
+      "papers": 1,
+      "keys": [
+        "journals/ijbidm/PrakashJBSSSKP20"
+      ]
+    },
+    {
+      "venue": "Int. J. Circuit Theory Appl.",
+      "papers": 3,
+      "keys": [
+        "journals/ijcta/AnandM24",
+        "journals/ijcta/AnandMC25",
+        "journals/ijcta/WadhwaBCGDB19"
+      ]
+    },
+    {
+      "venue": "Int. J. Hum. Comput. Stud.",
+      "papers": 1,
+      "keys": [
+        "journals/ijmms/DeyBYSDGGGB22"
+      ]
+    },
+    {
+      "venue": "Int. J. Inf. Sec.",
+      "papers": 1,
+      "keys": [
+        "journals/ijisec/ChakravartyPPK15"
+      ]
+    },
+    {
+      "venue": "Int. J. Netw. Comput.",
+      "papers": 1,
+      "keys": [
+        "journals/ijnc/DuttaCKB18"
+      ]
+    },
+    {
+      "venue": "Int. J. Semantic Comput.",
+      "papers": 1,
+      "keys": [
+        "journals/ijsc/RamanujamGKTS09"
+      ]
+    },
+    {
+      "venue": "Int. J. Soc. Robotics",
+      "papers": 3,
+      "keys": [
+        "journals/ijsr/ShuklaCOP19",
+        "journals/ijsr/SinghKFSS23",
+        "journals/ijsr/SinghKFSS23a"
+      ]
+    },
+    {
+      "venue": "Int. J. Softw. Tools Technol. Transf.",
+      "papers": 1,
+      "keys": [
+        "journals/sttt/GuptaJ08"
+      ]
+    },
+    {
+      "venue": "Int. J. Web Serv. Res.",
+      "papers": 1,
+      "keys": [
+        "journals/jwsr/YauAB12"
+      ]
+    },
+    {
+      "venue": "Integr.",
+      "papers": 2,
+      "keys": [
+        "journals/integration/GadeRD19",
+        "journals/integration/SinghSDM17"
+      ]
+    },
+    {
+      "venue": "International Conference on Wireless Networks",
+      "papers": 1,
+      "keys": [
+        "conf/icwn/SinghC03"
+      ]
+    },
+    {
+      "venue": "J. Am. Medical Informatics Assoc.",
+      "papers": 1,
+      "keys": [
+        "journals/jamia/SawhneyJGJS21"
+      ]
+    },
+    {
+      "venue": "J. Artif. Intell. Soft Comput. Res.",
+      "papers": 1,
+      "keys": [
+        "journals/jaiscr/PrasadLLLSK17"
+      ]
+    },
+    {
+      "venue": "J. Bioinform. Comput. Biol.",
+      "papers": 1,
+      "keys": [
+        "journals/jbcb/KaurR03"
+      ]
+    },
+    {
+      "venue": "J. Biomed. Informatics",
+      "papers": 1,
+      "keys": [
+        "journals/jbi/FarswanGG22"
+      ]
+    },
+    {
+      "venue": "J. Cheminformatics",
+      "papers": 1,
+      "keys": [
+        "journals/jcheminf/SatijaMJVSGAMSCDKRDKDST26"
+      ]
+    },
+    {
+      "venue": "J. Comb. Optim.",
+      "papers": 1,
+      "keys": [
+        "journals/jco/AuroraJR18"
+      ]
+    },
+    {
+      "venue": "J. Comput. Biol.",
+      "papers": 5,
+      "keys": [
+        "journals/jcb/JainMPR23",
+        "journals/jcb/LallSBS18",
+        "journals/jcb/MongiaSM20",
+        "journals/jcb/PandePLAKDMKSJUAKKR23",
+        "journals/jcb/SapraKDR21"
+      ]
+    },
+    {
+      "venue": "J. Comput. Syst. Sci.",
+      "papers": 2,
+      "keys": [
+        "journals/jcss/ChoudhuryDGK18",
+        "journals/jcss/VincentLM12"
+      ]
+    },
+    {
+      "venue": "J. Cryptogr. Eng.",
+      "papers": 1,
+      "keys": [
+        "journals/jce/AnandIKRS24"
+      ]
+    },
+    {
+      "venue": "J. Digit. Imaging",
+      "papers": 2,
+      "keys": [
+        "journals/jdi/KunduCMDCAMDABR21",
+        "journals/jdi/KunduCMDCAMDABR22"
+      ]
+    },
+    {
+      "venue": "J. Electronic Imaging",
+      "papers": 3,
+      "keys": [
+        "journals/jei/KansalSPK19",
+        "journals/jei/SainiKS19",
+        "journals/jei/SitaniSM19"
+      ]
+    },
+    {
+      "venue": "J. Frankl. Inst.",
+      "papers": 1,
+      "keys": [
+        "journals/jfi/GuptaJS18"
+      ]
+    },
+    {
+      "venue": "J. Heal. Informatics Res.",
+      "papers": 1,
+      "keys": [
+        "journals/jhir/GuptaMNVS20"
+      ]
+    },
+    {
+      "venue": "J. Inf. Secur. Appl.",
+      "papers": 1,
+      "keys": [
+        "journals/istr/SaxenaBG19"
+      ]
+    },
+    {
+      "venue": "J. Intell. Inf. Syst.",
+      "papers": 1,
+      "keys": [
+        "journals/jiis/MohaniaTK00"
+      ]
+    },
+    {
+      "venue": "J. Netw. Comput. Appl.",
+      "papers": 1,
+      "keys": [
+        "journals/jnca/BhattacharyaD17"
+      ]
+    },
+    {
+      "venue": "J. Parallel Distributed Comput.",
+      "papers": 1,
+      "keys": [
+        "journals/jpdc/ChahalGDS20"
+      ]
+    },
+    {
+      "venue": "J. Softw. Maintenance Res. Pract.",
+      "papers": 1,
+      "keys": [
+        "journals/smr/BhattSAM06"
+      ]
+    },
+    {
+      "venue": "J. Syst. Softw.",
+      "papers": 3,
+      "keys": [
+        "journals/jss/JaloteJ06",
+        "journals/jss/JaloteMP07",
+        "journals/jss/JalotePKP04"
+      ]
+    },
+    {
+      "venue": "J. Vis. Commun. Image Represent.",
+      "papers": 1,
+      "keys": [
+        "journals/jvcir/SharmaRSE20"
+      ]
+    },
+    {
+      "venue": "JCDL",
+      "papers": 1,
+      "keys": [
+        "conf/jcdl/JollyJB020"
+      ]
+    },
+    {
+      "venue": "KDH@IJCAI",
+      "papers": 1,
+      "keys": [
+        "conf/ijcai/GuptaMVS18"
+      ]
+    },
+    {
+      "venue": "KGSWC",
+      "papers": 1,
+      "keys": [
+        "conf/kgswc/BhattacharyyaCM24"
+      ]
+    },
+    {
+      "venue": "KSII Trans. Internet Inf. Syst.",
+      "papers": 1,
+      "keys": [
+        "journals/itiis/KambojKG25"
+      ]
+    },
+    {
+      "venue": "Knowl. Based Syst.",
+      "papers": 6,
+      "keys": [
+        "journals/kbs/AkhtarGEB17",
+        "journals/kbs/AtriPGC21",
+        "journals/kbs/BhavanCHS19",
+        "journals/kbs/KumarSA022",
+        "journals/kbs/ShahYVTSZ16",
+        "journals/kbs/UdandaraoAGC21"
+      ]
+    },
+    {
+      "venue": "Knowl. Eng. Rev.",
+      "papers": 1,
+      "keys": [
+        "journals/ker/AntoniouBMPQTUZ18"
+      ]
+    },
+    {
+      "venue": "Knowl. Inf. Syst.",
+      "papers": 2,
+      "keys": [
+        "journals/kais/DeshpandeJDMMA15",
+        "journals/kais/LiuVM03"
+      ]
+    },
+    {
+      "venue": "Kyoto International Conference on Digital Libraries",
+      "papers": 4,
+      "keys": [
+        "conf/kyotoDL/AgrawalMKBM00",
+        "conf/kyotoDL/KaiKLM00",
+        "conf/kyotoDL/MadriaRBM00",
+        "conf/kyotoDL/MohaniaKKB00"
+      ]
+    },
+    {
+      "venue": "LLM4CODE@ICSE",
+      "papers": 1,
+      "keys": [
+        "conf/llm4code/BhatiaG0J24"
+      ]
+    },
+    {
+      "venue": "LREC/COLING",
+      "papers": 5,
+      "keys": [
+        "conf/coling/AgarwalKAKGGRNB24",
+        "conf/coling/KartikSK0A24",
+        "conf/coling/KumarGA024",
+        "conf/coling/MishraDSK24",
+        "conf/coling/SinghFJA24"
+      ]
+    },
+    {
+      "venue": "LSDS-IR@CIKM",
+      "papers": 1,
+      "keys": [
+        "conf/cikm/AgarwalRS15"
+      ]
+    },
+    {
+      "venue": "MCGE@MM",
+      "papers": 1,
+      "keys": [
+        "conf/mcge/GoyalBUJ0YS23"
+      ]
+    },
+    {
+      "venue": "MIKE",
+      "papers": 1,
+      "keys": [
+        "conf/mike/GuptaJS18"
+      ]
+    },
+    {
+      "venue": "MIPR",
+      "papers": 7,
+      "keys": [
+        "conf/mipr/AnandJDMPMNPKVS24",
+        "conf/mipr/AnandJSDGVJLSZ24",
+        "conf/mipr/AnandMDKRLVBHSZ24",
+        "conf/mipr/JoshiS22",
+        "conf/mipr/MahataSKZT18",
+        "conf/mipr/MeghawatYMYSZ18",
+        "conf/mipr/VermaSS22"
+      ]
+    },
+    {
+      "venue": "MLMI@MICCAI",
+      "papers": 1,
+      "keys": [
+        "conf/miccai/GehlotG21"
+      ]
+    },
+    {
+      "venue": "MLSP",
+      "papers": 2,
+      "keys": [
+        "conf/mlsp/ThakurASR17",
+        "conf/mlsp/VaishCGR23"
+      ]
+    },
+    {
+      "venue": "MMAsia",
+      "papers": 8,
+      "keys": [
+        "conf/mmasia/AnandJGBBLSJS023",
+        "conf/mmasia/BhardwajCS20",
+        "conf/mmasia/GoyalUBGM0YS22",
+        "conf/mmasia/JainSPASY20",
+        "conf/mmasia/JaiswalAS24",
+        "conf/mmasia/SharmaPDVRS21",
+        "conf/mmasia/SinghalDSK21",
+        "conf/mmasia/UppalMB0S20"
+      ]
+    },
+    {
+      "venue": "MMCommons @ ACM Multimedia",
+      "papers": 1,
+      "keys": [
+        "conf/mm/ShahYTSVZ16"
+      ]
+    },
+    {
+      "venue": "MMIR@MM",
+      "papers": 1,
+      "keys": [
+        "conf/mmir/AnandJBGBIS023"
+      ]
+    },
+    {
+      "venue": "MMSys",
+      "papers": 4,
+      "keys": [
+        "conf/mmsys/0006MGRBM25",
+        "conf/mmsys/ShahYZ14",
+        "conf/mmsys/ShokhandaB26",
+        "conf/mmsys/VaishnavB26"
+      ]
+    },
+    {
+      "venue": "MWSCAS",
+      "papers": 1,
+      "keys": [
+        "conf/mwscas/KaushikAMGD17"
+      ]
+    },
+    {
+      "venue": "Mach. Learn.",
+      "papers": 1,
+      "keys": [
+        "journals/ml/SrinivasanVS20"
+      ]
+    },
+    {
+      "venue": "Medical Image Anal.",
+      "papers": 6,
+      "keys": [
+        "journals/mia/AggarwalG19",
+        "journals/mia/AggarwalGG17",
+        "journals/mia/GehlotGG20",
+        "journals/mia/GehlotGG21",
+        "journals/mia/GuptaDGGMKTS20",
+        "journals/mia/GuptaGGMGGSMAMB23"
+      ]
+    },
+    {
+      "venue": "MobiWac",
+      "papers": 1,
+      "keys": [
+        "conf/mobiwac/DevSKM22"
+      ]
+    },
+    {
+      "venue": "Mobile HCI",
+      "papers": 1,
+      "keys": [
+        "conf/mhci/SinghHKOKBJ06"
+      ]
+    },
+    {
+      "venue": "Multim. Tools Appl.",
+      "papers": 2,
+      "keys": [
+        "journals/mta/SharmaKCS21",
+        "journals/mta/SubramanyamE14"
+      ]
+    },
+    {
+      "venue": "NAACL (Findings)",
+      "papers": 1,
+      "keys": [
+        "conf/naacl/GoelCA25"
+      ]
+    },
+    {
+      "venue": "NAACL (Student Research Workshop)",
+      "papers": 1,
+      "keys": [
+        "conf/naacl/GuptaAS25"
+      ]
+    },
+    {
+      "venue": "NAACL-HLT (Findings)",
+      "papers": 5,
+      "keys": [
+        "conf/naacl/MhaskarSZGWS24",
+        "conf/naacl/PhukanKBS24",
+        "conf/naacl/SharmaAN022",
+        "conf/naacl/SharmaB22",
+        "conf/naacl/VarshneyPKVS22"
+      ]
+    },
+    {
+      "venue": "NAACL-HLT (Student Research Workshop)",
+      "papers": 2,
+      "keys": [
+        "conf/naacl/ChowdhurySMMS19",
+        "conf/naacl/MishraSSMMS19"
+      ]
+    },
+    {
+      "venue": "NAIC",
+      "papers": 1,
+      "keys": [
+        "conf/naic/KumarTSSDTBKS25"
+      ]
+    },
+    {
+      "venue": "NCC",
+      "papers": 2,
+      "keys": [
+        "conf/ncc/SharmaAS15",
+        "conf/ncc/SharmaBG17"
+      ]
+    },
+    {
+      "venue": "NCVPRIPG",
+      "papers": 1,
+      "keys": [
+        "conf/ncvpripg/SushmaGS13"
+      ]
+    },
+    {
+      "venue": "NETWORKS",
+      "papers": 1,
+      "keys": [
+        "conf/networks/GhatareJ92"
+      ]
+    },
+    {
+      "venue": "NOCS",
+      "papers": 2,
+      "keys": [
+        "conf/nocs/GadeD15",
+        "conf/nocs/GadeRD18"
+      ]
+    },
+    {
+      "venue": "NSDR",
+      "papers": 2,
+      "keys": [
+        "conf/nsdr/BhardwajASNS11",
+        "conf/nsdr/YadavNSSKC10"
+      ]
+    },
+    {
+      "venue": "NTMS",
+      "papers": 2,
+      "keys": [
+        "conf/ntms/AsthanaSJ15",
+        "conf/ntms/BajajS15"
+      ]
+    },
+    {
+      "venue": "NUT@IJCNLP",
+      "papers": 2,
+      "keys": [
+        "conf/aclnut/AkhtarSE15",
+        "conf/aclnut/AkhtarSE15a"
+      ]
+    },
+    {
+      "venue": "NeSy",
+      "papers": 2,
+      "keys": [
+        "conf/nesy/ShahSSVDS22",
+        "conf/nesy/SonwaneLMSV22"
+      ]
+    },
+    {
+      "venue": "NeSy@IJCAI",
+      "papers": 1,
+      "keys": [
+        "conf/nesy/SunderSVSR19"
+      ]
+    },
+    {
+      "venue": "NeurReps",
+      "papers": 2,
+      "keys": [
+        "conf/neurreps/SureshAT23",
+        "conf/neurreps/ThakurAS22"
+      ]
+    },
+    {
+      "venue": "Neural Comput. Appl.",
+      "papers": 2,
+      "keys": [
+        "journals/nca/MishraSGJ25",
+        "journals/nca/YuZDSSR23"
+      ]
+    },
+    {
+      "venue": "NeuroImage",
+      "papers": 1,
+      "keys": [
+        "journals/neuroimage/SareenZVGGA21"
+      ]
+    },
+    {
+      "venue": "Neurocomputing",
+      "papers": 5,
+      "keys": [
+        "journals/ijon/AggarwalG16",
+        "journals/ijon/AggarwalG19",
+        "journals/ijon/AkhtarGE20",
+        "journals/ijon/GuptaJJS21",
+        "journals/ijon/SenguptaBAC22"
+      ]
+    },
+    {
+      "venue": "NoCArc@MICRO",
+      "papers": 1,
+      "keys": [
+        "conf/micro/KumarGSD23"
+      ]
+    },
+    {
+      "venue": "NoISE@ESWC",
+      "papers": 1,
+      "keys": [
+        "conf/esws/MutharajuK15"
+      ]
+    },
+    {
+      "venue": "Nucleic Acids Res.",
+      "papers": 18,
+      "keys": [
+        "journals/nar/AgarwalRSR11",
+        "journals/nar/AgrawalBUSCRG16",
+        "journals/nar/AnsariFR10",
+        "journals/nar/BhasinR04",
+        "journals/nar/BhasinR04a",
+        "journals/nar/BhasinR05",
+        "journals/nar/BhasinR05a",
+        "journals/nar/BhatMCRMR12",
+        "journals/nar/GargSTNDIGASSKB18",
+        "journals/nar/GautamCSJATMVR14",
+        "journals/nar/KumarBNR05",
+        "journals/nar/KumarCSNCSGR15",
+        "journals/nar/MangalSSRA13",
+        "journals/nar/SahaR06",
+        "journals/nar/SinghCDBUGTAMR16",
+        "journals/nar/SinghCGR12",
+        "journals/nar/SrivastavaIKS18",
+        "journals/nar/TyagiTAGSMJSGR15"
+      ]
+    },
+    {
+      "venue": "OTM Conferences (2)",
+      "papers": 2,
+      "keys": [
+        "conf/otm/HauswirthHM11",
+        "conf/otm/SahooWMAST09"
+      ]
+    },
+    {
+      "venue": "OTM Workshops",
+      "papers": 2,
+      "keys": [
+        "conf/otm/HauswirthHM11a",
+        "conf/otm/KumarJG03"
+      ]
+    },
+    {
+      "venue": "OWLED",
+      "papers": 1,
+      "keys": [
+        "conf/owled/MutharajuMH15"
+      ]
+    },
+    {
+      "venue": "OpenSHMEM",
+      "papers": 1,
+      "keys": [
+        "conf/openshmem/Grossman0BS16"
+      ]
+    },
+    {
+      "venue": "PACMNET",
+      "papers": 1,
+      "keys": [
+        "journals/pacmnet/PeerBSYSTDS26"
+      ]
+    },
+    {
+      "venue": "PAKDD (Workshops)",
+      "papers": 2,
+      "keys": [
+        "conf/pakdd/SangroyaSRSA19",
+        "conf/pakdd/SinghGSA17"
+      ]
+    },
+    {
+      "venue": "PG (Short Papers and Posters)",
+      "papers": 1,
+      "keys": [
+        "conf/pg/SharmaAK18"
+      ]
+    },
+    {
+      "venue": "PGAS",
+      "papers": 1,
+      "keys": [
+        "conf/pgas/KumarZCBS14"
+      ]
+    },
+    {
+      "venue": "PLATO@ICAPS",
+      "papers": 1,
+      "keys": [
+        "conf/plato/MuppasaniPSM23"
+      ]
+    },
+    {
+      "venue": "PLoS Comput. Biol.",
+      "papers": 1,
+      "keys": [
+        "journals/ploscb/GhannoumFZRPNSI23"
+      ]
+    },
+    {
+      "venue": "POLICY",
+      "papers": 3,
+      "keys": [
+        "conf/policy/BatraBCGMS02",
+        "conf/policy/LotlikarCVM05",
+        "conf/policy/VatsavaiCM06"
+      ]
+    },
+    {
+      "venue": "PPPJ",
+      "papers": 1,
+      "keys": [
+        "conf/pppj/0001DB16"
+      ]
+    },
+    {
+      "venue": "PReMI",
+      "papers": 1,
+      "keys": [
+        "conf/premi/SushmaGS13"
+      ]
+    },
+    {
+      "venue": "PWC",
+      "papers": 1,
+      "keys": [
+        "conf/ifip6-8/SinghC03"
+      ]
+    },
+    {
+      "venue": "Pattern Recognit.",
+      "papers": 1,
+      "keys": [
+        "journals/pr/LallSGSB21"
+      ]
+    },
+    {
+      "venue": "Pattern Recognit. Lett.",
+      "papers": 3,
+      "keys": [
+        "journals/prl/AbrolSS16",
+        "journals/prl/KimRBC06",
+        "journals/prl/SureshDAR24"
+      ]
+    },
+    {
+      "venue": "PerCom Workshops",
+      "papers": 2,
+      "keys": [
+        "conf/percom/BennaceurSRI09",
+        "conf/percom/GoelMSGAXMB24"
+      ]
+    },
+    {
+      "venue": "Pervasive Mob. Comput.",
+      "papers": 1,
+      "keys": [
+        "journals/percom/SahaDGD25"
+      ]
+    },
+    {
+      "venue": "Proc. ACM Comput. Graph. Interact. Tech.",
+      "papers": 1,
+      "keys": [
+        "journals/pacmcgit/PatelLS25"
+      ]
+    },
+    {
+      "venue": "Proc. ACM Hum. Comput. Interact.",
+      "papers": 13,
+      "keys": [
+        "journals/pacmhci/IsmailYGDSK22",
+        "journals/pacmhci/Kaur025",
+        "journals/pacmhci/KaurS25",
+        "journals/pacmhci/KaurSKDDAVS24",
+        "journals/pacmhci/KaurSS25",
+        "journals/pacmhci/SinghBJKS25",
+        "journals/pacmhci/SrinivasanK025",
+        "journals/pacmhci/SrivastavaKTS21",
+        "journals/pacmhci/TuliCKS18",
+        "journals/pacmhci/WaniJS24",
+        "journals/pacmhci/WaniS25",
+        "journals/pacmhci/YadavBS19",
+        "journals/pacmhci/YadavMDS19"
+      ]
+    },
+    {
+      "venue": "Quantum Inf. Comput.",
+      "papers": 1,
+      "keys": [
+        "journals/qic/BeraFGH10"
+      ]
+    },
+    {
+      "venue": "Quantum Inf. Process.",
+      "papers": 4,
+      "keys": [
+        "journals/qip/AnandI23",
+        "journals/qip/AnandMM20",
+        "journals/qip/BatheAD21",
+        "journals/qip/Bera15"
+      ]
+    },
+    {
+      "venue": "Quantum Mach. Intell.",
+      "papers": 1,
+      "keys": [
+        "journals/qmi/ChatterjeeBCB23"
+      ]
+    },
+    {
+      "venue": "RIDE",
+      "papers": 2,
+      "keys": [
+        "conf/ride/ChengXIXM05",
+        "conf/ride/KambayashiKM99"
+      ]
+    },
+    {
+      "venue": "RO-MAN",
+      "papers": 5,
+      "keys": [
+        "conf/ro-man/AshwiniNBS21",
+        "conf/ro-man/OliverOSFMCP19",
+        "conf/ro-man/RanaMS21",
+        "conf/ro-man/ShuklaBOP17",
+        "conf/ro-man/ShuklaSGVK19"
+      ]
+    },
+    {
+      "venue": "ROBOT (2)",
+      "papers": 1,
+      "keys": [
+        "conf/robot/ShuklaCAVP15"
+      ]
+    },
+    {
+      "venue": "RSFDGrC",
+      "papers": 1,
+      "keys": [
+        "conf/rsfdgrc/SurekaGCM09"
+      ]
+    },
+    {
+      "venue": "Robophilosophy/TRANSOR",
+      "papers": 1,
+      "keys": [
+        "conf/robophilosophy/VillarongaBOS16"
+      ]
+    },
+    {
+      "venue": "Rules in Database Systems",
+      "papers": 1,
+      "keys": [
+        "conf/rules/MohaniaS93"
+      ]
+    },
+    {
+      "venue": "SAC",
+      "papers": 2,
+      "keys": [
+        "conf/sac/DubeyJA06",
+        "conf/sac/SinghKBK19"
+      ]
+    },
+    {
+      "venue": "SDP@ACL",
+      "papers": 2,
+      "keys": [
+        "conf/sdp/ChitnisPSTVS24",
+        "conf/sdp/PalitPVS24"
+      ]
+    },
+    {
+      "venue": "SENSORS",
+      "papers": 2,
+      "keys": [
+        "conf/ieeesensors/AnandDS23",
+        "conf/ieeesensors/DuttaAS23"
+      ]
+    },
+    {
+      "venue": "SIAM J. Comput.",
+      "papers": 1,
+      "keys": [
+        "journals/siamcomp/MustafaRR15"
+      ]
+    },
+    {
+      "venue": "SIAM J. Matrix Anal. Appl.",
+      "papers": 1,
+      "keys": [
+        "journals/siammax/ShroffB92"
+      ]
+    },
+    {
+      "venue": "SIGACT News",
+      "papers": 1,
+      "keys": [
+        "journals/sigact/BeraGH07"
+      ]
+    },
+    {
+      "venue": "SIGGRAPH Asia Technical Briefs",
+      "papers": 1,
+      "keys": [
+        "conf/siggraph/SharmaT15"
+      ]
+    },
+    {
+      "venue": "SIGMAP",
+      "papers": 1,
+      "keys": [
+        "conf/sigmap/SubramanyamE11"
+      ]
+    },
+    {
+      "venue": "SIGSPATIAL/GIS",
+      "papers": 1,
+      "keys": [
+        "conf/gis/YinLZWSZ19"
+      ]
+    },
+    {
+      "venue": "SITIS",
+      "papers": 1,
+      "keys": [
+        "conf/sitis/ChakravartySK08"
+      ]
+    },
+    {
+      "venue": "SMDS",
+      "papers": 1,
+      "keys": [
+        "conf/smds/GuptaBDBK20"
+      ]
+    },
+    {
+      "venue": "SMM4H@ACL",
+      "papers": 1,
+      "keys": [
+        "conf/smm4h/MahataAZSMKS19"
+      ]
+    },
+    {
+      "venue": "SN Comput. Sci.",
+      "papers": 1,
+      "keys": [
+        "journals/sncs/SharmaKCS21"
+      ]
+    },
+    {
+      "venue": "SOCA",
+      "papers": 1,
+      "keys": [
+        "conf/soca/AgarwalJ09"
+      ]
+    },
+    {
+      "venue": "SOCC",
+      "papers": 3,
+      "keys": [
+        "conf/socc/KhanD25",
+        "conf/socc/PathaniaGKGD25",
+        "conf/socc/SonamD25"
+      ]
+    },
+    {
+      "venue": "SOLI",
+      "papers": 2,
+      "keys": [
+        "conf/soli/PrasadCFSM12",
+        "conf/soli/PrasadCFSM12a"
+      ]
+    },
+    {
+      "venue": "SOSR",
+      "papers": 3,
+      "keys": [
+        "conf/sosr/BoseKCSV22",
+        "conf/sosr/NagendraBGD19",
+        "conf/sosr/ShahKVK20"
+      ]
+    },
+    {
+      "venue": "SPAWC",
+      "papers": 2,
+      "keys": [
+        "conf/spawc/KimothiSBAH17",
+        "conf/spawc/SharmaBG16"
+      ]
+    },
+    {
+      "venue": "SPCOM",
+      "papers": 2,
+      "keys": [
+        "conf/spcom/BuragohainNDA24",
+        "conf/spcom/SharmaBGB18"
+      ]
+    },
+    {
+      "venue": "SSWS@ISWC",
+      "papers": 2,
+      "keys": [
+        "conf/semweb/MutharajuHM13",
+        "conf/semweb/MutharajuHM14"
+      ]
+    },
+    {
+      "venue": "Sarnoff Symposium",
+      "papers": 2,
+      "keys": [
+        "conf/sarnoff/ChakrabortyBGD17",
+        "conf/sarnoff/ParkBDD18"
+      ]
+    },
+    {
+      "venue": "Secure Data Management",
+      "papers": 1,
+      "keys": [
+        "conf/sdmw/GoyalGSG08"
+      ]
+    },
+    {
+      "venue": "SemEval@ACL",
+      "papers": 3,
+      "keys": [
+        "conf/semeval/GhosalBAEB17",
+        "conf/semeval/KumarSAEBB17",
+        "conf/semeval/SinghNAEB17"
+      ]
+    },
+    {
+      "venue": "SemEval@COLING",
+      "papers": 1,
+      "keys": [
+        "conf/semeval/AnandGYMGZS20"
+      ]
+    },
+    {
+      "venue": "SemEval@NAACL",
+      "papers": 1,
+      "keys": [
+        "conf/semeval/KumarACC24"
+      ]
+    },
+    {
+      "venue": "SemEval@NAACL-HLT",
+      "papers": 2,
+      "keys": [
+        "conf/semeval/AnandMAMSZKSU19",
+        "conf/semeval/MahataZUKSSMA19"
+      ]
+    },
+    {
+      "venue": "SemREC@ISWC",
+      "papers": 1,
+      "keys": [
+        "conf/semweb/MohapatraBM021"
+      ]
+    },
+    {
+      "venue": "Signal Process.",
+      "papers": 3,
+      "keys": [
+        "journals/sigpro/GuptaJ11",
+        "journals/sigpro/GuptaJP05",
+        "journals/sigpro/SinghSFG23"
+      ]
+    },
+    {
+      "venue": "Signal Process. Image Commun.",
+      "papers": 1,
+      "keys": [
+        "journals/spic/MehrishSE18"
+      ]
+    },
+    {
+      "venue": "Silico Biol.",
+      "papers": 6,
+      "keys": [
+        "journals/isb/AhmedKR09",
+        "journals/isb/GargR08",
+        "journals/isb/KaurR06",
+        "journals/isb/KumarTR08",
+        "journals/isb/SahaR07",
+        "journals/isb/SahaR07a"
+      ]
+    },
+    {
+      "venue": "SoCC",
+      "papers": 5,
+      "keys": [
+        "conf/socc/DebCGP10",
+        "conf/socc/MondalCMMDD18",
+        "conf/socc/MondalD14",
+        "conf/socc/RoutCPD19",
+        "conf/socc/RoutPCD19"
+      ]
+    },
+    {
+      "venue": "SocInfo (1)",
+      "papers": 1,
+      "keys": [
+        "conf/socinfo/GoelSKSG16"
+      ]
+    },
+    {
+      "venue": "SocialNLP@ACL",
+      "papers": 1,
+      "keys": [
+        "conf/acl-socialnlp/MathurSSM18"
+      ]
+    },
+    {
+      "venue": "Softw. Pract. Exp.",
+      "papers": 5,
+      "keys": [
+        "journals/spe/DikshitTJ89",
+        "journals/spe/GuptaJ93",
+        "journals/spe/JainAJB04",
+        "journals/spe/Jalote87",
+        "journals/spe/SanghiJAJB04"
+      ]
+    },
+    {
+      "venue": "Software Engineering Research and Practice",
+      "papers": 1,
+      "keys": [
+        "conf/serp/GandheAS05"
+      ]
+    },
+    {
+      "venue": "Speech Commun.",
+      "papers": 3,
+      "keys": [
+        "journals/speech/AbrolSS15",
+        "journals/speech/AbrolSS16",
+        "journals/speech/BhooiA26"
+      ]
+    },
+    {
+      "venue": "Sustain. Comput. Informatics Syst.",
+      "papers": 2,
+      "keys": [
+        "journals/suscom/MondalGKD17",
+        "journals/suscom/MondalKHPSD22"
+      ]
+    },
+    {
+      "venue": "Swarm Evol. Comput.",
+      "papers": 1,
+      "keys": [
+        "journals/swevo/AryaST12"
+      ]
+    },
+    {
+      "venue": "T4E",
+      "papers": 1,
+      "keys": [
+        "conf/t4e/MishraM14"
+      ]
+    },
+    {
+      "venue": "TALN (1)",
+      "papers": 1,
+      "keys": [
+        "conf/taln/YadavLHMGSS24"
+      ]
+    },
+    {
+      "venue": "TIA@MICCAI",
+      "papers": 1,
+      "keys": [
+        "conf/miccai/MahajanSVKKNDSS20"
+      ]
+    },
+    {
+      "venue": "TL4NLP",
+      "papers": 1,
+      "keys": [
+        "conf/tl4nlp/PatilPKVS22"
+      ]
+    },
+    {
+      "venue": "TMA",
+      "papers": 2,
+      "keys": [
+        "conf/tma/ChoWBDR24",
+        "conf/tma/RajoreJGGPC25"
+      ]
+    },
+    {
+      "venue": "TPS-ISA",
+      "papers": 3,
+      "keys": [
+        "conf/tpsisa/GuptaBK20",
+        "conf/tpsisa/MalvankarPBKCM19",
+        "conf/tpsisa/NangiaBMK23"
+      ]
+    },
+    {
+      "venue": "Theor. Comput. Sci.",
+      "papers": 3,
+      "keys": [
+        "journals/tcs/BeraD016",
+        "journals/tcs/ChatterjeeWT21",
+        "journals/tcs/ElbassioniRRS12"
+      ]
+    },
+    {
+      "venue": "Tiny Papers @ ICLR",
+      "papers": 3,
+      "keys": [
+        "conf/iclr/GoelHG24",
+        "conf/iclr/HiraGG24",
+        "conf/iclr/JainSKSS24"
+      ]
+    },
+    {
+      "venue": "Trans. Comput. Sci.",
+      "papers": 2,
+      "keys": [
+        "journals/tcos/SharmaA11",
+        "journals/tcos/SharmaZAB11"
+      ]
+    },
+    {
+      "venue": "Trans. Data Hiding Multim. Secur.",
+      "papers": 1,
+      "keys": [
+        "journals/tdhms/SubramanyamE11"
+      ]
+    },
+    {
+      "venue": "Trans. Large Scale Data Knowl. Centered Syst.",
+      "papers": 1,
+      "keys": [
+        "journals/tlsdkcs/MohaniaBRCG09"
+      ]
+    },
+    {
+      "venue": "Trans. Mach. Learn. Res.",
+      "papers": 4,
+      "keys": [
+        "journals/tmlr/MalaviyaCDS26",
+        "journals/tmlr/SenguptaA024",
+        "journals/tmlr/SharmaBGGG26",
+        "journals/tmlr/ShitDCC22"
+      ]
+    },
+    {
+      "venue": "UIC/ATC/ScalCom",
+      "papers": 1,
+      "keys": [
+        "conf/uic/ArjunanSCGSSS15"
+      ]
+    },
+    {
+      "venue": "UbiComp Adjunct",
+      "papers": 1,
+      "keys": [
+        "conf/huc/TuliSSDJJWCV16"
+      ]
+    },
+    {
+      "venue": "UbiComp/ISWC Adjunct",
+      "papers": 1,
+      "keys": [
+        "conf/huc/BajajS15"
+      ]
+    },
+    {
+      "venue": "VAST",
+      "papers": 1,
+      "keys": [
+        "conf/ieeevast/GuptaPSSSS17"
+      ]
+    },
+    {
+      "venue": "VDAT",
+      "papers": 11,
+      "keys": [
+        "conf/vdat/BhattacharyaBSBK13",
+        "conf/vdat/GadeKD16",
+        "conf/vdat/GuptaDSSSD17",
+        "conf/vdat/KaurMD15",
+        "conf/vdat/KishoreMD16",
+        "conf/vdat/MalhotraDC15",
+        "conf/vdat/RehaniDS17",
+        "conf/vdat/SamantaCDG14",
+        "conf/vdat/SehgalSMRD16",
+        "conf/vdat/SinghD15",
+        "conf/vdat/WadhwaBD18"
+      ]
+    },
+    {
+      "venue": "VISIGRAPP (1): GRAPP, HUCAPP, IVAPP",
+      "papers": 2,
+      "keys": [
+        "conf/visigrapp/MathurKS25",
+        "conf/visigrapp/RaiS25"
+      ]
+    },
+    {
+      "venue": "VR Workshops",
+      "papers": 1,
+      "keys": [
+        "conf/vr/BelaniWBS26"
+      ]
+    },
+    {
+      "venue": "VRCAI",
+      "papers": 2,
+      "keys": [
+        "conf/vrcai/SinghSADS19",
+        "conf/vrcai/TomarSDS19"
+      ]
+    },
+    {
+      "venue": "VTC Spring",
+      "papers": 2,
+      "keys": [
+        "conf/vtc/ParamitaBBS24",
+        "conf/vtc/SharmaGB17"
+      ]
+    },
+    {
+      "venue": "Vis. Comput.",
+      "papers": 2,
+      "keys": [
+        "journals/vc/SharmaA11",
+        "journals/vc/SharmaPAR18"
+      ]
+    },
+    {
+      "venue": "WAIM",
+      "papers": 2,
+      "keys": [
+        "conf/waim/JainMP13",
+        "conf/waim/NegiBBMB12"
+      ]
+    },
+    {
+      "venue": "WASPAA",
+      "papers": 1,
+      "keys": [
+        "conf/waspaa/ChaudharyA23"
+      ]
+    },
+    {
+      "venue": "WASSA@EMNLP",
+      "papers": 2,
+      "keys": [
+        "conf/wassa/AkhtarSEPB17",
+        "conf/wassa/SawhneyMMSS18"
+      ]
+    },
+    {
+      "venue": "WEA",
+      "papers": 1,
+      "keys": [
+        "conf/wea/PemmarajuPR04"
+      ]
+    },
+    {
+      "venue": "WI-IAT (1)",
+      "papers": 1,
+      "keys": [
+        "conf/webi/ShroffDG14"
+      ]
+    },
+    {
+      "venue": "WI/IAT",
+      "papers": 1,
+      "keys": [
+        "conf/webi/KarandikarPTBK21"
+      ]
+    },
+    {
+      "venue": "WIFS",
+      "papers": 1,
+      "keys": [
+        "conf/wifs/SharmaSJME16"
+      ]
+    },
+    {
+      "venue": "WIREs Data Mining Knowl. Discov.",
+      "papers": 2,
+      "keys": [
+        "journals/widm/BhattacharyaNAS21",
+        "journals/widm/SharmaDGR22"
+      ]
+    },
+    {
+      "venue": "WMTE",
+      "papers": 1,
+      "keys": [
+        "conf/wmte/UtherZSU05"
+      ]
+    },
+    {
+      "venue": "WOCN",
+      "papers": 3,
+      "keys": [
+        "conf/wocn/AbrolS14",
+        "conf/wocn/SharmaA13",
+        "conf/wocn/SharmaA13a"
+      ]
+    },
+    {
+      "venue": "WOP (Book)",
+      "papers": 2,
+      "keys": [
+        "conf/semweb/KaushikM21",
+        "conf/semweb/YasviM21"
+      ]
+    },
+    {
+      "venue": "WOP@ISWC",
+      "papers": 2,
+      "keys": [
+        "conf/semweb/YasviM19",
+        "conf/wop/AhmadAM21"
+      ]
+    },
+    {
+      "venue": "WPES",
+      "papers": 1,
+      "keys": [
+        "conf/wpes/GaoBJC25"
+      ]
+    },
+    {
+      "venue": "WWW (Companion Volume)",
+      "papers": 3,
+      "keys": [
+        "conf/www/HakimovC0SS22",
+        "conf/www/JangidSSZ18",
+        "conf/www/SinghalPMSK22"
+      ]
+    },
+    {
+      "venue": "WWW Posters",
+      "papers": 2,
+      "keys": [
+        "conf/www/KumarGJ01",
+        "conf/www/SriramKGJ01"
+      ]
+    },
+    {
+      "venue": "Web Intelligence",
+      "papers": 3,
+      "keys": [
+        "conf/webi/BullotGM03",
+        "conf/webi/DeyHMS13",
+        "conf/webi/RamanujamGKST09"
+      ]
+    },
+    {
+      "venue": "WebDB",
+      "papers": 1,
+      "keys": [
+        "conf/webdb/ChengKM01"
+      ]
+    },
+    {
+      "venue": "WebSci",
+      "papers": 1,
+      "keys": [
+        "conf/websci/NehaAKMCBSK22"
+      ]
+    },
+    {
+      "venue": "Wirel. Networks",
+      "papers": 1,
+      "keys": [
+        "journals/winet/ChandhokJSD21"
+      ]
+    },
+    {
+      "venue": "Wirel. Pers. Commun.",
+      "papers": 1,
+      "keys": [
+        "journals/wpc/AggarwalGB16"
+      ]
+    },
+    {
+      "venue": "World Wide Web",
+      "papers": 1,
+      "keys": [
+        "journals/www/MadriaMB00"
+      ]
+    },
+    {
+      "venue": "XRDS",
+      "papers": 1,
+      "keys": [
+        "journals/crossroads/Sengupta13"
+      ]
+    },
+    {
+      "venue": "e-Energy (Posters)",
+      "papers": 1,
+      "keys": [
+        "conf/eenergy/RashidASS16"
+      ]
+    },
+    {
+      "venue": "eCom@SIGIR",
+      "papers": 1,
+      "keys": [
+        "conf/ecom/NarwariyaGGVS23"
+      ]
+    },
+    {
+      "venue": "iNIS",
+      "papers": 3,
+      "keys": [
+        "conf/ises/BansalMGD17",
+        "conf/ises/SehgalMRD16",
+        "conf/ises/SinghD15"
+      ]
+    },
+    {
+      "venue": "iSES",
+      "papers": 15,
+      "keys": [
+        "conf/ises/AakashCSD24",
+        "conf/ises/GaurRD19",
+        "conf/ises/GuptaPGSD24",
+        "conf/ises/GuptaTD21",
+        "conf/ises/HussainD21",
+        "conf/ises/JindalSD18",
+        "conf/ises/MalhotraGGSGD24",
+        "conf/ises/MathuriyaGD24",
+        "conf/ises/NagariaD20",
+        "conf/ises/PagarPSD24",
+        "conf/ises/PaiAGD24",
+        "conf/ises/RanjanMD24",
+        "conf/ises/SharmaDD24",
+        "conf/ises/SinghD19",
+        "conf/ises/SinghSGGD23"
+      ]
+    },
+    {
+      "venue": "iThings/GreenCom/CPSCom/SmartData",
+      "papers": 1,
+      "keys": [
+        "conf/ithings/VoWKWAM18"
+      ]
+    },
+    {
+      "venue": "npj Digit. Medicine",
+      "papers": 1,
+      "keys": [
+        "journals/npjdm/SiebertsSDPSSDP21"
+      ]
+    }
+  ]
+}

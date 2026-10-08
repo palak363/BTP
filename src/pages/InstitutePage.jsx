@@ -1,7 +1,8 @@
 ﻿import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { availableAreas, localSummary } from "../data";
+import { availableAreas, areaNames, localSummary } from "../data";
 import ProfessorLink from "../components/ProfessorLink";
+import AreaSelector from "../components/AreaSelector";
 
 const format = value => new Intl.NumberFormat("en-IN", { maximumFractionDigits: 2 }).format(value);
 const sources = [["csrankings", "CSRankings"], ["core-a-star", "CORE A*"], ["core-a", "CORE A"]];
@@ -17,7 +18,7 @@ function Distribution({ title, items, field }) {
 }
 
 function InstituteProfile() {
-  const [filters, setFilters] = useState({ start: 2016, end: 2026, area: "", sources: ["csrankings"], optional: false });
+  const [filters, setFilters] = useState({ start: 2016, end: 2026, areas: availableAreas, sources: ["csrankings"], optional: false });
   const [draftStart, setDraftStart] = useState("2016");
   const [draftEnd, setDraftEnd] = useState("2026");
   const [state, setState] = useState({ data: null, loading: true, error: "", local: false });
@@ -30,16 +31,19 @@ function InstituteProfile() {
     const timeout = setTimeout(() => controller.abort(), 5000);
     let active = true;
     const params = new URLSearchParams({ start_year: filters.start, end_year: filters.end, sources: filters.sources.join(","), include_optional: filters.optional });
-    if (filters.area) params.set("area", filters.area);
-    fetch(`${import.meta.env.VITE_API_BASE_URL || "/api"}/iiitd/domains?${params}`, { signal: controller.signal })
+    if (filters.areas.length !== availableAreas.length) {
+      for (const area of filters.areas) params.append("area", area);
+    }
+    const request = filters.areas.length ? fetch(`${import.meta.env.VITE_API_BASE_URL || "/api"}/iiitd/domains?${params}`, { signal: controller.signal })
       .then(async response => {
         if (!response.ok) throw new Error((await response.json().catch(() => ({}))).error || "The data service is unavailable.");
         return response.json();
-      })
-      .then(data => { if (active) setState({ data, loading: false, error: "", local: false }); })
+      }) : Promise.resolve(localSummary(filters.start, filters.end, [], filters.optional, filters.sources));
+    request
+      .then(data => { if (active) setState({ data, loading: false, error: "", local: !filters.areas.length }); })
       .catch(error => {
         if (!active) return;
-        const fallback = localSummary(filters.start, filters.end, filters.area, filters.optional, filters.sources);
+        const fallback = localSummary(filters.start, filters.end, filters.areas, filters.optional, filters.sources);
         setState({ data: fallback, loading: false, error: fallback ? "" : error.message, local: Boolean(fallback) });
       }).finally(() => clearTimeout(timeout));
     return () => { active = false; clearTimeout(timeout); controller.abort(); };
@@ -67,15 +71,15 @@ function InstituteProfile() {
         <span className="year-dash">—</span><label>Through<input inputMode="numeric" value={draftEnd} onChange={e => setDraftEnd(e.target.value)} maxLength={4} aria-invalid={!validYears} /></label>
         <button className="secondary" disabled={!validYears}>Apply</button>
       </form>
-      <label className="area-filter">Research area<select value={filters.area} onChange={e => changeFilters({...filters,area:e.target.value})}><option value="">All research areas</option>{(data?.metadata.available_areas || availableAreas).map(area => <option key={area}>{area}</option>)}</select></label>
     </section>
+    <AreaSelector available={availableAreas} areaNames={areaNames} selected={filters.areas} onChange={areas => changeFilters({ ...filters, areas })} />
     <label className="optional-filter"><input type="checkbox" checked={filters.optional} onChange={e => changeFilters({...filters,optional:e.target.checked})} />Include optional CSRankings venues (off by default on CSRankings)</label>
     {!validYears && <p className="error" role="alert">Enter a valid range from 1970 to 2269, with the start year first.</p>}
     {state.loading ? <div className="panel loading" role="status">Loading research data…</div> : state.error ?
       <div className="panel error" role="alert"><h2>Data could not be loaded</h2><p>{state.error}</p><button onClick={() => {setState({...state,loading:true});setRetry(retry+1);}}>Try again</button></div> :
       data && <>
         <div className="data-note"><span className="status-dot" /><span>{state.local ? (published ? "Bundled reference snapshot" : "Bundled DBLP snapshot") : published ? "Published CSRankings snapshot" : "DBLP bibliography dataset"} · {filters.start}–{filters.end} inclusive · {filters.optional ? "Including optional venues" : "Default CSRankings venues"}</span></div>
-        {published && <div className="notice">CSRankings counts are available. CORE A/A* and unique-paper totals need a complete DBLP refresh. <a href="#methodology">How counting works ↓</a></div>}
+        {published && <div className="notice">CSRankings counts are available. CORE A/A* and unique-paper totals need a complete DBLP refresh.</div>}
         <section className="stat-grid" aria-label="Research summary">
           <article><span>Faculty in roster</span><strong>{format(data.total_faculty)}</strong><small>Zero-count faculty included</small></article>
           <article><span>Faculty paper count</span><strong>{format(data.faculty_paper_count)}</strong><small>A paper counts for each faculty author</small></article>
@@ -89,12 +93,6 @@ function InstituteProfile() {
             <tbody>{rows.map(f => <tr key={f.name}><td className="rank">{String(f.rank).padStart(2,"0")}</td><td className="institute-name"><ProfessorLink name={f.name} /></td><td className="quiet">{f.top_domain}</td><td className="numeric">{f.papers}</td></tr>)}</tbody></table></div>
           {!rows.length && <p className="empty">No faculty match “{search}”.</p>}
           <div className="table-footer">Showing {rows.length} of {data.total_faculty} faculty · Ordered by {sort === "papers" ? "paper count" : "name"}</div>
-        </section>
-        <section className="panel methodology" id="methodology"><p className="eyebrow">Transparent by design</p><h2>What do these numbers mean?</h2>
-          <div className="method-grid"><div><h3>Count papers consistently</h3><p>CSRankings eligibility includes venue-specific tracks, page thresholds, and journal proceedings. Select the same years and venues when comparing with the original site.</p></div>
-            <div><h3>Understand paper totals</h3><p>A shared paper appears in each faculty author's count. Unique institute papers count that publication just once.</p></div>
-            <div><h3>Know the source</h3><p>{published ? "This view uses published counts, not an independently recomputed DBLP result. CORE is kept separate until a full bibliography is available." : "Papers are keyed by DBLP identifier. Selecting multiple sources takes their union without counting an overlapping paper twice."}</p></div></div>
-          <div className="method-footer"><span>Publication-based counting methodology</span><span>Reference {data.metadata.reference_revision.slice(0,12)} · Built {data.metadata.generated_at.slice(0,10)}</span></div>
         </section>
       </>}
   </div>;

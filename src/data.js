@@ -1,6 +1,7 @@
 ﻿import snapshot from "../backend/data/processed/iiitd_dataset.json";
 
 export const availableAreas = snapshot.metadata.available_areas;
+export const areaNames = snapshot.metadata.area_names;
 export const availableSources = snapshot.metadata.available_sources;
 export const facultyDirectory = snapshot.faculty;
 
@@ -15,6 +16,7 @@ export function localProfessor(name) {
 }
 
 export function localSummary(start, end, area, includeOptional = false, sources = ["csrankings"]) {
+  const selectedAreas = Array.isArray(area) ? area : area ? [area] : null;
   if (sources.some(source => !availableSources.includes(source))) return null;
   const rows = new Map(snapshot.faculty.map(f => [f.name, { ...f, papers: 0, domains: {} }]));
   const domains = {}, venues = {};
@@ -33,14 +35,14 @@ export function localSummary(start, end, area, includeOptional = false, sources 
     for (const cell of snapshot.counts) {
       if (!includeOptional && snapshot.metadata.optional_venues.includes(cell.area)) continue;
       const domain = snapshot.metadata.area_names[cell.area] || cell.area;
-      if (cell.year < start || cell.year > end || (area && domain !== area)) continue;
+      if (cell.year < start || cell.year > end || (selectedAreas && !selectedAreas.includes(domain))) continue;
       addFaculty(cell.name, domain, cell.count);
       addDistribution(domain, cell.area, cell.count);
     }
   } else {
     for (const paper of snapshot.publications) {
       const membership = paper.memberships.find(m => sources.includes(m.source) && m.year >= start && m.year <= end &&
-        (!area || m.domain === area) && (m.source !== "csrankings" || includeOptional || !snapshot.metadata.optional_venues.includes(m.area)));
+        (!selectedAreas || selectedAreas.includes(m.domain)) && (m.source !== "csrankings" || includeOptional || !snapshot.metadata.optional_venues.includes(m.area)));
       if (!membership) continue;
       unique += 1;
       addDistribution(membership.domain, membership.venue, 1);
