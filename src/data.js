@@ -2,17 +2,27 @@
 
 export const availableAreas = snapshot.metadata.available_areas;
 export const availableSources = snapshot.metadata.available_sources;
+export const facultyDirectory = snapshot.faculty;
+
+export function localProfessor(name) {
+  if (!snapshot.faculty.some(faculty => faculty.name === name)) return null;
+  return {
+    name, institution: snapshot.metadata.institution, generated_at: snapshot.metadata.generated_at,
+    records_available: snapshot.metadata.data_source !== "csrankings-published-counts",
+    publications: [...new Map((snapshot.publications || []).filter(paper => paper.faculty.includes(name))
+      .map(paper => [paper.key, paper])).values()],
+  };
+}
 
 export function localSummary(start, end, area, includeOptional = false, sources = ["csrankings"]) {
   if (sources.some(source => !availableSources.includes(source))) return null;
-  const rows = new Map(snapshot.faculty.map(f => [f.name, { ...f, papers: 0, score: 0, domains: {} }]));
+  const rows = new Map(snapshot.faculty.map(f => [f.name, { ...f, papers: 0, domains: {} }]));
   const domains = {}, venues = {};
   const published = snapshot.metadata.data_source === "csrankings-published-counts";
   let unique = 0;
-  const addFaculty = (name, domain, count, credit) => {
+  const addFaculty = (name, domain, count) => {
     const row = rows.get(name);
     row.papers += count;
-    row.score += credit;
     row.domains[domain] = (row.domains[domain] || 0) + count;
   };
   const addDistribution = (domain, venue, count) => {
@@ -24,7 +34,7 @@ export function localSummary(start, end, area, includeOptional = false, sources 
       if (!includeOptional && snapshot.metadata.optional_venues.includes(cell.area)) continue;
       const domain = snapshot.metadata.area_names[cell.area] || cell.area;
       if (cell.year < start || cell.year > end || (area && domain !== area)) continue;
-      addFaculty(cell.name, domain, cell.count, cell.adjustedcount);
+      addFaculty(cell.name, domain, cell.count);
       addDistribution(domain, cell.area, cell.count);
     }
   } else {
@@ -34,13 +44,13 @@ export function localSummary(start, end, area, includeOptional = false, sources 
       if (!membership) continue;
       unique += 1;
       addDistribution(membership.domain, membership.venue, 1);
-      for (const name of paper.faculty) addFaculty(name, membership.domain, 1, 1 / paper.authors.length);
+      for (const name of paper.faculty) addFaculty(name, membership.domain, 1);
     }
   }
   const faculty = [...rows.values()].map(row => ({ ...row, top_domain: Object.entries(row.domains).sort((a,b) => b[1]-a[1])[0]?.[0] || "No selected papers" }));
   return { metadata: snapshot.metadata, total_faculty: faculty.length, total_papers: published ? null : unique,
     faculty_paper_count: faculty.reduce((sum,f) => sum + f.papers, 0),
-    adjusted_count: faculty.reduce((sum,f) => sum + f.score, 0), faculty_rankings: faculty,
+    faculty_rankings: faculty,
     top_areas: Object.entries(domains).map(([area,papers]) => ({area,papers})).sort((a,b) => b.papers-a.papers),
     top_venues: Object.entries(venues).map(([venue,papers]) => ({venue,papers})).sort((a,b) => b.papers-a.papers) };
 }

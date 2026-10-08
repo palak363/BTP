@@ -85,9 +85,12 @@ Endpoints:
 GET /iiitd
 GET /iiitd/domains
 GET /iiitd/validation
+GET /iiitd/faculty/<URL-encoded faculty name>
 ```
 
 Both summary endpoints accept start_year, end_year, sources (comma-separated csrankings,core-a-star,core-a), repeated area parameters, and include_optional=true|false. Invalid ranges and unavailable selections return HTTP 400; an absent dataset returns HTTP 503.
+
+The faculty endpoint returns every loaded publication record for an exact faculty name, independently of institute filters, and returns HTTP 404 for an unknown name. Professor names open an internal bibliography with title/venue search, year and venue sorting, and a publication-venue pie chart. An all-years venue chart appears in the left margin on hover or keyboard focus in the institute table when there is enough space beside the name. On narrow screens, open the professor page to see the chart. Professor pages support multiple conference sources, individual venues, and inclusive year periods; the chart, totals, and bibliography follow these filters. Selections within each filter are combined as a union, and the different filters intersect. Overlapping periods do not duplicate papers. Reset filters restores all loaded records. Both views deduplicate DBLP keys and fall back to the bundled snapshot when the API is unavailable. The UI displays paper counts only.
 
 The optional legacy backend/load_data.py exports the default faculty summary to PostgreSQL. Existing databases with an integer score column must migrate it to DOUBLE PRECISION first; the exporter refuses to truncate fractional credits. This database export is not used by the API.
 
@@ -95,11 +98,12 @@ The optional legacy backend/load_data.py exports the default faculty summary to 
 
 ```powershell
 python -m unittest discover -s backend/tests -v
+node --test tests/publications.test.mjs
 npm.cmd run lint
 npm.cmd run build
 ```
 
-Browser checks cover desktop/mobile layouts, faculty search, optional venue filtering, and placeholder routes.
+Browser checks cover desktop/mobile layouts, faculty search, optional venue filtering, and placeholder routes. Professor checks cover venue previews, keyboard dismissal, internal navigation, complete paper lists, sorting, search, direct-page reloads, and unknown names.
 
 ## Data sources
 

@@ -20,11 +20,15 @@ def read_dataset(path, modified):
     return json.loads(Path(path).read_text(encoding='utf-8'))
 
 
-def payload():
+def current_dataset():
     path = BASE / 'data/processed/iiitd_dataset.json'
     if not path.exists():
         raise FileNotFoundError('IIITD dataset is not built. Run backend/scripts/build_iiitd_dataset.py.')
-    dataset = read_dataset(str(path), path.stat().st_mtime_ns)
+    return read_dataset(str(path), path.stat().st_mtime_ns)
+
+
+def payload():
+    dataset = current_dataset()
     start, end = int(request.args.get('start_year', 2016)), int(request.args.get('end_year', 2026))
     if not 1970 <= start <= end <= 2269:
         raise ValueError('Choose an inclusive year range between 1970 and 2269.')
@@ -66,6 +70,23 @@ def validation():
     if not path.exists():
         raise FileNotFoundError('Validation report is not available.')
     return jsonify(json.loads(path.read_text(encoding='utf-8')))
+
+
+@app.route('/iiitd/faculty/<path:name>')
+def faculty_profile(name):
+    """All loaded paper records, independent of institute summary filters."""
+    dataset = current_dataset()
+    faculty = next((f for f in dataset['faculty'] if f['name'] == name), None)
+    if faculty is None:
+        return jsonify(error='Faculty member not found.'), 404
+    papers = {p['key']: p for p in dataset.get('publications', []) if name in p['faculty']}
+    return jsonify({
+        'name': name,
+        'institution': dataset['metadata']['institution'],
+        'generated_at': dataset['metadata']['generated_at'],
+        'records_available': dataset['metadata']['data_source'] != 'csrankings-published-counts',
+        'publications': list(papers.values()),
+    })
 
 
 if __name__ == '__main__':

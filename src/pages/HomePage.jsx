@@ -26,20 +26,19 @@ export default function HomePage() {
         <div className="graph-center">Research<span>in focus</span></div>
         <span className="graph-node node-one">AI & ML</span><span className="graph-node node-two">Systems</span>
         <span className="graph-node node-three">Theory</span><span className="graph-node node-four">People</span>
-        <div className="graph-caption">CONNECTED BY CURIOSITY</div>
       </div>
     </section>
     <div className="section-heading"><div><p className="eyebrow">Explore the landscape</p><h2>One view. Three venue selections.</h2></div><span className="quiet">Publication-based research metrics</span></div>
     <section className="source-cards" aria-label="Ranking sources">
-      {[["CSRankings","Available baseline","Faculty publication counts and fractional credit from a pinned reference snapshot."],["CORE A*","Bibliography refresh needed","Expand the selection with A* conferences from the CORE2023 catalogue."],["CORE A","Bibliography refresh needed","Include A-ranked conferences, counting overlapping papers only once."]].map(([title,status,copy],index) =>
-        <article className="source-card" key={title}><span className="source-number">0{index+1}</span><span className="badge">{availableSources.includes(["csrankings","core-a-star","core-a"][index]) ? "Available in IIITD pilot" : status}</span><h3>{title}</h3><p>{index === 0 ? "Paper eligibility follows CSRankings, with fractional credit across all coauthors." : copy}</p></article>)}
+      {[["CSRankings","Available baseline","Explore faculty publications that meet CSRankings venue and paper eligibility rules."],["CORE A*","Bibliography refresh needed","Expand the selection with A* conferences from the CORE2023 catalogue."],["CORE A","Bibliography refresh needed","Include A-ranked conferences, counting overlapping papers only once."]].map(([title,status,copy],index) =>
+        <article className="source-card" key={title}><span className="source-number">0{index+1}</span><span className="badge">{availableSources.includes(["csrankings","core-a-star","core-a"][index]) ? "Available" : status}</span><h3>{title}</h3><p>{copy}</p></article>)}
     </section>
     <section className="panel">
       <div className="panel-heading"><div><h2>Institute overview</h2><p>Preview of the national view. These numbers are placeholders.</p></div><span className="badge neutral">Sample data</span></div>
       <div className="table-scroll"><table><thead><tr><th scope="col">Preview rank</th><th scope="col">Institute</th><th scope="col">Location</th><th scope="col" className="numeric">Sample papers</th><th scope="col">Explore</th></tr></thead>
         <tbody>{institutes.map((institute, index) => <tr key={institute.name}>
           <td className="rank">{String(index + 1).padStart(2, "0")}</td><td className="institute-name">{institute.name}</td><td className="quiet">{institute.location}</td><td className="numeric">{institute.papers}</td>
-          <td><Link to={`/institute/${encodeURIComponent(institute.name)}`}>{institute.name === "IIIT Delhi" ? "Open pilot ↗" : "Preview ↗"}</Link></td>
+          <td><Link to={`/institute/${encodeURIComponent(institute.name)}`}>{institute.name === "IIIT Delhi" ? "View profile ↗" : "Preview ↗"}</Link></td>
         </tr>)}</tbody></table></div>
     </section>
     <section className="panel compare-panel">

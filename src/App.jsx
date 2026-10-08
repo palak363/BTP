@@ -2,6 +2,8 @@
 import HomePage from "./pages/HomePage";
 import InstitutePage from "./pages/InstitutePage";
 import ComparePage from "./pages/ComparePage";
+import ProfessorPage from "./pages/ProfessorPage";
+import DblpSearch from "./components/DblpSearch";
 
 export default function App() {
   return <BrowserRouter>
@@ -9,11 +11,12 @@ export default function App() {
     <header className="site-header">
       <Link to="/" className="brand"><span className="brand-mark">iR</span>India CS research</Link>
       <nav aria-label="Main navigation"><NavLink to="/" end>Overview</NavLink><NavLink to="/institute/IIIT%20Delhi">IIIT Delhi</NavLink></nav>
-      <span className="header-note"><span className="status-dot" />IIITD pilot</span>
+      <DblpSearch />
     </header>
     <main id="main"><Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/institute/:name" element={<InstitutePage />} />
+      <Route path="/professor/:name" element={<ProfessorPage />} />
       <Route path="/compare/:uni1/:uni2" element={<ComparePage />} />
       <Route path="*" element={<div className="page"><h1>Page not found</h1><Link to="/">Back to overview</Link></div>} />
     </Routes></main>
