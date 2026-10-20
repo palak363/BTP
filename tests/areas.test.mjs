@@ -2,11 +2,10 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 
-// Load the bundled summary in Node without Vite's JSON import transform.
-const snapshot = JSON.parse(fs.readFileSync(new URL('../backend/data/processed/iiitd_dataset.json', import.meta.url)));
-const source = fs.readFileSync(new URL('../src/data.js', import.meta.url), 'utf8')
-  .replace('import snapshot from "../backend/data/processed/iiitd_dataset.json";', `const snapshot = ${JSON.stringify(snapshot)};`);
-const { localSummary } = await import(`data:text/javascript;base64,${Buffer.from(source).toString('base64')}`);
+import { localSummary as summarize } from '../src/summary.js';
+
+const snapshot = JSON.parse(fs.readFileSync(new URL('../backend/data/processed/institutes/iiit-delhi.json', import.meta.url)));
+const localSummary = (...filters) => summarize(snapshot, ...filters);
 
 test('all areas preserve existing counts; no areas means no publications', () => {
   const original = localSummary(2016, 2026, '');

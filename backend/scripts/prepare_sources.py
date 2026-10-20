@@ -11,7 +11,7 @@ REFERENCE = BASE / 'data/reference'
 MANIFEST = json.loads(Path(__file__).with_name('reference_manifest.json').read_text(encoding='utf-8'))
 REVISION = MANIFEST['revision']
 FILES = ['util/csrankings.py', 'sigcse-research-articles.csv',
-         'csrankings.csv', 'dblp-aliases.csv', 'generated-author-info.csv']
+         'csrankings.csv', 'dblp-aliases.csv', 'generated-author-info.csv', 'institutions.csv']
 
 
 def read_csv(path):

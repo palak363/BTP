@@ -1,0 +1,5966 @@
+{
+  "metadata": {
+    "schema_version": 3,
+    "institution": "IIT Tirupati",
+    "slug": "iit-tirupati",
+    "homepage": "https://cse.iittp.ac.in/",
+    "data_source": "dblp-sparql",
+    "generated_at": "2026-10-20T20:15:52.399999+00:00",
+    "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
+    "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
+    "available_sources": [
+      "csrankings",
+      "core-a-star",
+      "core-a",
+      "ieee",
+      "acm"
+    ],
+    "core_edition": "CORE2023",
+    "available_areas": [
+      "Artificial intelligence",
+      "Computer vision",
+      "Machine learning & data mining",
+      "Natural language processing",
+      "The Web & information retrieval",
+      "Computer architecture",
+      "Computer networks",
+      "Computer security",
+      "Databases",
+      "Design automation",
+      "Embedded & real-time systems",
+      "High-performance computing",
+      "Mobile computing",
+      "Measurement & performance analysis",
+      "Operating systems",
+      "Programming languages",
+      "Software engineering",
+      "Algorithms & complexity",
+      "Cryptography",
+      "Logic & verification",
+      "Computational biology",
+      "Computer graphics",
+      "Human-computer interaction",
+      "Robotics",
+      "Visualization",
+      "Economics & computation",
+      "Computer science education",
+      "Other CORE areas",
+      "Other IEEE/ACM areas"
+    ],
+    "area_names": {
+      "aaai": "Artificial intelligence",
+      "ijcai": "Artificial intelligence",
+      "cvpr": "Computer vision",
+      "iccv": "Computer vision",
+      "eccv": "Computer vision",
+      "icml": "Machine learning & data mining",
+      "nips": "Machine learning & data mining",
+      "kdd": "Machine learning & data mining",
+      "iclr": "Machine learning & data mining",
+      "acl": "Natural language processing",
+      "emnlp": "Natural language processing",
+      "naacl": "Natural language processing",
+      "www": "The Web & information retrieval",
+      "sigir": "The Web & information retrieval",
+      "asplos": "Computer architecture",
+      "isca": "Computer architecture",
+      "micro": "Computer architecture",
+      "hpca": "Computer architecture",
+      "sigcomm": "Computer networks",
+      "nsdi": "Computer networks",
+      "ccs": "Computer security",
+      "oakland": "Computer security",
+      "usenixsec": "Computer security",
+      "ndss": "Computer security",
+      "pets": "Computer security",
+      "sigmod": "Databases",
+      "vldb": "Databases",
+      "icde": "Databases",
+      "pods": "Databases",
+      "dac": "Design automation",
+      "iccad": "Design automation",
+      "emsoft": "Embedded & real-time systems",
+      "rtss": "Embedded & real-time systems",
+      "rtas": "Embedded & real-time systems",
+      "sc": "High-performance computing",
+      "hpdc": "High-performance computing",
+      "ics": "High-performance computing",
+      "mobicom": "Mobile computing",
+      "mobisys": "Mobile computing",
+      "sensys": "Mobile computing",
+      "imc": "Measurement & performance analysis",
+      "sigmetrics": "Measurement & performance analysis",
+      "sosp": "Operating systems",
+      "osdi": "Operating systems",
+      "eurosys": "Operating systems",
+      "fast": "Operating systems",
+      "usenixatc": "Operating systems",
+      "popl": "Programming languages",
+      "pldi": "Programming languages",
+      "oopsla": "Programming languages",
+      "icfp": "Programming languages",
+      "icse": "Software engineering",
+      "fse": "Software engineering",
+      "ase": "Software engineering",
+      "issta": "Software engineering",
+      "focs": "Algorithms & complexity",
+      "stoc": "Algorithms & complexity",
+      "soda": "Algorithms & complexity",
+      "crypto": "Cryptography",
+      "eurocrypt": "Cryptography",
+      "cav": "Logic & verification",
+      "lics": "Logic & verification",
+      "ismb": "Computational biology",
+      "recomb": "Computational biology",
+      "siggraph": "Computer graphics",
+      "siggraph-asia": "Computer graphics",
+      "eurographics": "Computer graphics",
+      "chiconf": "Human-computer interaction",
+      "uist": "Human-computer interaction",
+      "ubicomp": "Human-computer interaction",
+      "icra": "Robotics",
+      "iros": "Robotics",
+      "rss": "Robotics",
+      "vis": "Visualization",
+      "vr": "Visualization",
+      "ec": "Economics & computation",
+      "wine": "Economics & computation",
+      "sigcse": "Computer science education"
+    },
+    "optional_venues": [
+      "ase",
+      "eurographics",
+      "eurosys",
+      "fast",
+      "hpca",
+      "icde",
+      "icfp",
+      "issta",
+      "kdd",
+      "ndss",
+      "oopsla",
+      "pets",
+      "pods",
+      "usenixatc"
+    ],
+    "unresolved_faculty": [],
+    "counting": "Unique DBLP keys; faculty credit is 1 / all authors; all reference venues, including optional venues.",
+    "validation": {
+      "matching": true,
+      "compared_cells": 10,
+      "missing_cells": 0,
+      "extra_cells": 0
+    }
+  },
+  "faculty": [
+    {
+      "name": "Ajin Joseph 0001",
+      "dblp_url": "https://dblp.org/pid/171/3116"
+    },
+    {
+      "name": "Chalavadi Vishnu",
+      "dblp_url": "https://dblp.org/pid/302/7458"
+    },
+    {
+      "name": "G. Ramakrishna",
+      "dblp_url": "https://dblp.org/pid/119/4835"
+    },
+    {
+      "name": "Jaynarayan T. Tudu",
+      "dblp_url": "https://dblp.org/pid/35/8110"
+    },
+    {
+      "name": "Kalidas Yeturu",
+      "dblp_url": "https://dblp.org/pid/03/7099"
+    },
+    {
+      "name": "Raghavendra Kanakagiri",
+      "dblp_url": "https://dblp.org/pid/248/6427"
+    },
+    {
+      "name": "S. Raja 0001",
+      "dblp_url": "https://dblp.org/pid/45/8284"
+    },
+    {
+      "name": "Sridhar Chimalakonda",
+      "dblp_url": "https://dblp.org/pid/76/1783"
+    },
+    {
+      "name": "V. Mahendran",
+      "dblp_url": "https://dblp.org/pid/306/6686"
+    },
+    {
+      "name": "Venkataramana Badarla",
+      "dblp_url": "https://dblp.org/pid/48/1142"
+    }
+  ],
+  "publications": [
+    {
+      "key": "conf/IEEEants/KulkarniB14",
+      "type": "inproceedings",
+      "title": "On multipath routing algorithm for software defined networks.",
+      "year": 2014,
+      "publication_year": 2014,
+      "event_year": 2014,
+      "venue": "IEEE ANTS",
+      "booktitle": "IEEE ANTS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/160/3230",
+        "https://dblp.org/pid/48/1142"
+      ],
+      "dois": [
+        "10.1109/ants.2014.7057278"
+      ],
+      "url": "https://dblp.org/db/conf/IEEEants/IEEEants2014#conf/IEEEants/KulkarniB14",
+      "faculty": [
+        "Venkataramana Badarla"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE ANTS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "conf/IEEEants/SharmaB15",
+      "type": "inproceedings",
+      "title": "Topology aware flow scheduling for data center network.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "IEEE ANTS",
+      "booktitle": "IEEE ANTS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/22/960",
+        "https://dblp.org/pid/48/1142"
+      ],
+      "dois": [
+        "10.1109/ants.2015.7413632"
+      ],
+      "url": "https://dblp.org/db/conf/IEEEants/IEEEants2015#conf/IEEEants/SharmaB15",
+      "faculty": [
+        "Venkataramana Badarla"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE ANTS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/IEEEants/SharmaB16a",
+      "type": "inproceedings",
+      "title": "Curtailing latency in data center network by adopting Jumbo Frames.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "ANTS",
+      "booktitle": "ANTS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/22/960",
+        "https://dblp.org/pid/48/1142"
+      ],
+      "dois": [
+        "10.1109/ants.2016.7947785"
+      ],
+      "url": "https://dblp.org/db/conf/IEEEants/IEEEants2016#conf/IEEEants/SharmaB16a",
+      "faculty": [
+        "Venkataramana Badarla"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ANTS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/IEEEants/SharmaB16b",
+      "type": "inproceedings",
+      "title": "FlowFurl: A flow-level routing for faulty data center networks.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "ANTS",
+      "booktitle": "ANTS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/22/960",
+        "https://dblp.org/pid/48/1142"
+      ],
+      "dois": [
+        "10.1109/ants.2016.7947837"
+      ],
+      "url": "https://dblp.org/db/conf/IEEEants/IEEEants2016#conf/IEEEants/SharmaB16b",
+      "faculty": [
+        "Venkataramana Badarla"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ANTS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/IEEEants/TrivediB19",
+      "type": "inproceedings",
+      "title": "Inferring Occupants Count from Low Power IP based Devices in Building through Data Fusion.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "ANTS",
+      "booktitle": "ANTS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/268/3591",
+        "https://dblp.org/pid/48/1142"
+      ],
+      "dois": [
+        "10.1109/ants47819.2019.9118144"
+      ],
+      "url": "https://dblp.org/db/conf/IEEEants/IEEEants2019#conf/IEEEants/TrivediB19",
+      "faculty": [
+        "Venkataramana Badarla"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ANTS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/aipr/KumarVMM20",
+      "type": "inproceedings",
+      "title": "Black-box Adversarial Attacks in Autonomous Vehicle Technology.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "AIPR",
+      "booktitle": "AIPR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-7",
+      "authors": [
+        "https://dblp.org/pid/16/7535",
+        "https://dblp.org/pid/271/8085",
+        "https://dblp.org/pid/30/4639",
+        "https://dblp.org/pid/302/7458"
+      ],
+      "dois": [
+        "10.1109/aipr50011.2020.9425267"
+      ],
+      "url": "https://dblp.org/db/conf/aipr/aipr2020#conf/aipr/KumarVMM20",
+      "faculty": [
+        "Chalavadi Vishnu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "AIPR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/allerton/JosephB19",
+      "type": "inproceedings",
+      "title": "Stochastic Approximation Trackers for Model-Based Search.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "Allerton",
+      "booktitle": "Allerton",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "741-748",
+      "authors": [
+        "https://dblp.org/pid/171/3116",
+        "https://dblp.org/pid/71/2542"
+      ],
+      "dois": [
+        "10.1109/allerton.2019.8919816"
+      ],
+      "url": "https://dblp.org/db/conf/allerton/allerton2019#conf/allerton/JosephB19",
+      "faculty": [
+        "Ajin Joseph 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "Allerton",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/ats/AhlawatTMS15",
+      "type": "inproceedings",
+      "title": "A New Scan Flip Flop Design to Eliminate Performance Penalty of Scan.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "ATS",
+      "booktitle": "ATS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "25-30",
+      "authors": [
+        "https://dblp.org/pid/12/2988",
+        "https://dblp.org/pid/177/1140",
+        "https://dblp.org/pid/31/4795",
+        "https://dblp.org/pid/35/8110"
+      ],
+      "dois": [
+        "10.1109/ats.2015.12"
+      ],
+      "url": "https://dblp.org/db/conf/ats/ats2015#conf/ats/AhlawatTMS15",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ATS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/ats/AhlawatVTS17",
+      "type": "inproceedings",
+      "title": "On Securing Scan Design from Scan-Based Side-Channel Attacks.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "ATS",
+      "booktitle": "ATS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "58-63",
+      "authors": [
+        "https://dblp.org/pid/177/1140",
+        "https://dblp.org/pid/193/1995",
+        "https://dblp.org/pid/31/4795",
+        "https://dblp.org/pid/35/8110"
+      ],
+      "dois": [
+        "10.1109/ats.2017.23"
+      ],
+      "url": "https://dblp.org/db/conf/ats/ats2017#conf/ats/AhlawatVTS17",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ATS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/ats/USTFS20",
+      "type": "inproceedings",
+      "title": "LUT-based Circuit Approximation with Targeted Error Guarantees.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "ATS",
+      "booktitle": "ATS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/256/2416",
+        "https://dblp.org/pid/282/9129",
+        "https://dblp.org/pid/31/4795",
+        "https://dblp.org/pid/35/8110",
+        "https://dblp.org/pid/56/1768-4"
+      ],
+      "dois": [
+        "10.1109/ats49688.2020.9301574"
+      ],
+      "url": "https://dblp.org/db/conf/ats/ats2020#conf/ats/USTFS20",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ATS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/avss/RambabuDCM24",
+      "type": "inproceedings",
+      "title": "A Hybrid Embedding for Generalized Zero-Shot Scene Classification in Remote Sensing Images.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "AVSS",
+      "booktitle": "AVSS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-7",
+      "authors": [
+        "https://dblp.org/pid/282/2603",
+        "https://dblp.org/pid/30/4639",
+        "https://dblp.org/pid/302/7458",
+        "https://dblp.org/pid/385/5919"
+      ],
+      "dois": [
+        "10.1109/avss61716.2024.10672594"
+      ],
+      "url": "https://dblp.org/db/conf/avss/avss2024#conf/avss/RambabuDCM24",
+      "faculty": [
+        "Chalavadi Vishnu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "AVSS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/broadnets/BadarlaBM05",
+      "type": "inproceedings",
+      "title": "Learning-TCP: A novel learning automata based reliable transport protocol for ad hoc wireless networks.",
+      "year": 2005,
+      "publication_year": 2005,
+      "event_year": 2005,
+      "venue": "BROADNETS",
+      "booktitle": "BROADNETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "521-530",
+      "authors": [
+        "https://dblp.org/pid/47/5130",
+        "https://dblp.org/pid/48/1142",
+        "https://dblp.org/pid/78/4000"
+      ],
+      "dois": [
+        "10.1109/icbn.2005.1589652"
+      ],
+      "url": "https://dblp.org/db/conf/broadnets/broadnets2005#conf/broadnets/BadarlaBM05",
+      "faculty": [
+        "Venkataramana Badarla"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "BROADNETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2005
+        }
+      ]
+    },
+    {
+      "key": "conf/cdc/JosephB19",
+      "type": "inproceedings",
+      "title": "An Adaptive and Incremental Approach to Quantile Estimation.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "CDC",
+      "booktitle": "CDC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "6025-6031",
+      "authors": [
+        "https://dblp.org/pid/171/3116",
+        "https://dblp.org/pid/71/2542"
+      ],
+      "dois": [
+        "10.1109/cdc40024.2019.9029803"
+      ],
+      "url": "https://dblp.org/db/conf/cdc/cdc2019#conf/cdc/JosephB19",
+      "faculty": [
+        "Ajin Joseph 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "CDC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/cdc/SundarVJ23",
+      "type": "inproceedings",
+      "title": "Monotonic Model Improvement Self-Play Algorithm for Adversarial Games.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "CDC",
+      "booktitle": "CDC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "5600-5605",
+      "authors": [
+        "https://dblp.org/pid/171/3116",
+        "https://dblp.org/pid/366/9211",
+        "https://dblp.org/pid/366/9359"
+      ],
+      "dois": [
+        "10.1109/cdc49753.2023.10383417"
+      ],
+      "url": "https://dblp.org/db/conf/cdc/cdc2023#conf/cdc/SundarVJ23",
+      "faculty": [
+        "Ajin Joseph 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "CDC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/cloud/RoyK0T24",
+      "type": "inproceedings",
+      "title": "The Hidden Carbon Footprint of Serverless Computing.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "SoCC",
+      "booktitle": "SoCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "570-579",
+      "authors": [
+        "https://dblp.org/pid/246/6853",
+        "https://dblp.org/pid/248/6427",
+        "https://dblp.org/pid/308/2080-2",
+        "https://dblp.org/pid/76/9083"
+      ],
+      "dois": [
+        "10.1145/3698038.3698546"
+      ],
+      "url": "https://dblp.org/db/conf/cloud/socc2024#conf/cloud/RoyK0T24",
+      "faculty": [
+        "Raghavendra Kanakagiri"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "SoCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/comped/VenigallaC23",
+      "type": "inproceedings",
+      "title": "FlowARP - Using Augmented Reality for Visualizing Control Flows in Programs.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "CompEd (1)",
+      "booktitle": "CompEd (1)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "161-167",
+      "authors": [
+        "https://dblp.org/pid/246/8309",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3576882.3617922"
+      ],
+      "url": "https://dblp.org/db/conf/comped/comped2023-1#conf/comped/VenigallaC23",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "CompEd",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/compute/RaoCA22",
+      "type": "inproceedings",
+      "title": "BlockList: A Game to Teach Basic Linked Lists Operations To Novice Programmers.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "COMPUTE",
+      "booktitle": "COMPUTE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "35-40",
+      "authors": [
+        "https://dblp.org/pid/241/6275",
+        "https://dblp.org/pid/263/3213",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3561833.3561844"
+      ],
+      "url": "https://dblp.org/db/conf/compute/compute2022#conf/compute/RaoCA22",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "COMPUTE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/comsnets/AdilBPBS15",
+      "type": "inproceedings",
+      "title": "Development of affordable ICT solutions for water conservation in agriculture.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "COMSNETS",
+      "booktitle": "COMSNETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/162/2277",
+        "https://dblp.org/pid/162/2285",
+        "https://dblp.org/pid/162/2322",
+        "https://dblp.org/pid/162/2372",
+        "https://dblp.org/pid/48/1142"
+      ],
+      "dois": [
+        "10.1109/comsnets.2015.7098716"
+      ],
+      "url": "https://dblp.org/db/conf/comsnets/comsnets2015#conf/comsnets/AdilBPBS15",
+      "faculty": [
+        "Venkataramana Badarla"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "COMSNETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/comsnets/GuptaMB24",
+      "type": "inproceedings",
+      "title": "vStream IT: Video Streaming for Resource Constrained IoTs - An Optimal Control Approach.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "COMSNETS",
+      "booktitle": "COMSNETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "129-134",
+      "authors": [
+        "https://dblp.org/pid/306/6686",
+        "https://dblp.org/pid/47/3340",
+        "https://dblp.org/pid/48/1142"
+      ],
+      "dois": [
+        "10.1109/comsnets59351.2024.10427461"
+      ],
+      "url": "https://dblp.org/db/conf/comsnets/comsnets2024#conf/comsnets/GuptaMB24",
+      "faculty": [
+        "V. Mahendran",
+        "Venkataramana Badarla"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "COMSNETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/comsnets/KukrejaM24",
+      "type": "inproceedings",
+      "title": "PraaKrum: A Practical Byzantine-Resilient Federated Learning Algorithm.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "COMSNETS",
+      "booktitle": "COMSNETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "936-944",
+      "authors": [
+        "https://dblp.org/pid/306/6686",
+        "https://dblp.org/pid/360/4433"
+      ],
+      "dois": [
+        "10.1109/comsnets59351.2024.10427404"
+      ],
+      "url": "https://dblp.org/db/conf/comsnets/comsnets2024#conf/comsnets/KukrejaM24",
+      "faculty": [
+        "V. Mahendran"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "COMSNETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/comsnets/NithinRBHG18",
+      "type": "inproceedings",
+      "title": "Efficient load balancing for multicast traffic in data center networks using SDN.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "COMSNETS",
+      "booktitle": "COMSNETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "113-120",
+      "authors": [
+        "https://dblp.org/pid/152/0138",
+        "https://dblp.org/pid/218/8503",
+        "https://dblp.org/pid/218/8547",
+        "https://dblp.org/pid/48/1142",
+        "https://dblp.org/pid/84/5223"
+      ],
+      "dois": [
+        "10.1109/comsnets.2018.8328187"
+      ],
+      "url": "https://dblp.org/db/conf/comsnets/comsnets2018#conf/comsnets/NithinRBHG18",
+      "faculty": [
+        "Venkataramana Badarla"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "COMSNETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/comsnets/RathoreBJG14",
+      "type": "inproceedings",
+      "title": "Novel approach for security in Wireless Sensor Network using bio-inspirations.",
+      "year": 2014,
+      "publication_year": 2014,
+      "event_year": 2014,
+      "venue": "COMSNETS",
+      "booktitle": "COMSNETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-8",
+      "authors": [
+        "https://dblp.org/pid/118/7641",
+        "https://dblp.org/pid/140/0295",
+        "https://dblp.org/pid/181/2477-2",
+        "https://dblp.org/pid/48/1142"
+      ],
+      "dois": [
+        "10.1109/comsnets.2014.6734875"
+      ],
+      "url": "https://dblp.org/db/conf/comsnets/comsnets2014#conf/comsnets/RathoreBJG14",
+      "faculty": [
+        "Venkataramana Badarla"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "COMSNETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "conf/comsnets/SharmaB19",
+      "type": "inproceedings",
+      "title": "Analysis of a Novel Beacon Placement Strategy 3D Localization in Indoor Spaces.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "COMSNETS",
+      "booktitle": "COMSNETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "320-327",
+      "authors": [
+        "https://dblp.org/pid/48/1142",
+        "https://dblp.org/pid/95/3449"
+      ],
+      "dois": [
+        "10.1109/comsnets.2019.8711359"
+      ],
+      "url": "https://dblp.org/db/conf/comsnets/comsnets2019#conf/comsnets/SharmaB19",
+      "faculty": [
+        "Venkataramana Badarla"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "COMSNETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/csee/ChimalakondaN09",
+      "type": "inproceedings",
+      "title": "Automating an eLearning System - A Case Study.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "CSEE&T",
+      "booktitle": "CSEE&T",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "150-153",
+      "authors": [
+        "https://dblp.org/pid/08/11295",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/cseet.2009.35"
+      ],
+      "url": "https://dblp.org/db/conf/csee/csee2009#conf/csee/ChimalakondaN09",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "CSEE&T",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/csee/ChimalakondaN11",
+      "type": "inproceedings",
+      "title": "Can we make software engineering education better by applying learning theories?",
+      "year": 2011,
+      "publication_year": 2011,
+      "event_year": 2011,
+      "venue": "CSEE&T",
+      "booktitle": "CSEE&T",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "561",
+      "authors": [
+        "https://dblp.org/pid/08/11295",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/cseet.2011.5876157"
+      ],
+      "url": "https://dblp.org/db/conf/csee/csee2011#conf/csee/ChimalakondaN11",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "CSEE&T",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2011
+        }
+      ]
+    },
+    {
+      "key": "conf/csee/ChimalakondaN13",
+      "type": "inproceedings",
+      "title": "What makes it hard to teach software engineering to end users? some directions from adaptive and personalized learning.",
+      "year": 2013,
+      "publication_year": 2013,
+      "event_year": 2013,
+      "venue": "CSEE&T",
+      "booktitle": "CSEE&T",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "324-328",
+      "authors": [
+        "https://dblp.org/pid/08/11295",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/cseet.2013.6595270"
+      ],
+      "url": "https://dblp.org/db/conf/csee/csee2013#conf/csee/ChimalakondaN13",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "CSEE&T",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2013
+        }
+      ]
+    },
+    {
+      "key": "conf/ddecs/ShuklaJSTTIFS26",
+      "type": "inproceedings",
+      "title": "A SAT-Hard Compound Logic Locking Scheme with Empirical Resistance to Known Structural Attacks.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "DDECS",
+      "booktitle": "DDECS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/29/1552",
+        "https://dblp.org/pid/295/3373",
+        "https://dblp.org/pid/31/4795",
+        "https://dblp.org/pid/313/9844",
+        "https://dblp.org/pid/35/8110",
+        "https://dblp.org/pid/361/0498",
+        "https://dblp.org/pid/436/3952",
+        "https://dblp.org/pid/56/1768-4"
+      ],
+      "dois": [
+        "10.1109/ddecs69233.2026.11520982"
+      ],
+      "url": "https://dblp.org/db/conf/ddecs/ddecs2026#conf/ddecs/ShuklaJSTTIFS26",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "DDECS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "conf/dft/AhlawatTGFS19",
+      "type": "inproceedings",
+      "title": "Preventing Scan Attack through Test Response Encryption.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "DFT",
+      "booktitle": "DFT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/177/1140",
+        "https://dblp.org/pid/31/4795",
+        "https://dblp.org/pid/35/8110",
+        "https://dblp.org/pid/56/1768-4",
+        "https://dblp.org/pid/80/7311"
+      ],
+      "dois": [
+        "10.1109/dft.2019.8875355"
+      ],
+      "url": "https://dblp.org/db/conf/dft/dft2019#conf/dft/AhlawatTGFS19",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "DFT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/ease/DasMC22",
+      "type": "inproceedings",
+      "title": "Exploring Security Vulnerabilities in Competitive Programming: An Empirical Study.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "EASE",
+      "booktitle": "EASE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "110-119",
+      "authors": [
+        "https://dblp.org/pid/266/7727",
+        "https://dblp.org/pid/322/2248",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3530019.3530031"
+      ],
+      "url": "https://dblp.org/db/conf/ease/ease2022#conf/ease/DasMC22",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "EASE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        },
+        {
+          "source": "acm",
+          "venue": "EASE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/ease/KumarC24",
+      "type": "inproceedings",
+      "title": "Code Summarization without Direct Access to Code - Towards Exploring Federated LLMs for Software Engineering.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "EASE",
+      "booktitle": "EASE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "100-109",
+      "authors": [
+        "https://dblp.org/pid/376/0026",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3661167.3661210"
+      ],
+      "url": "https://dblp.org/db/conf/ease/ease2024#conf/ease/KumarC24",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "EASE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        },
+        {
+          "source": "acm",
+          "venue": "EASE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/ease/LellaCCM24",
+      "type": "inproceedings",
+      "title": "Towards Comprehending Energy Consumption of Database Management Systems - A Tool and Empirical Study.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "EASE",
+      "booktitle": "EASE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "272-281",
+      "authors": [
+        "https://dblp.org/pid/360/7581",
+        "https://dblp.org/pid/360/9944",
+        "https://dblp.org/pid/361/0155",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3661167.3661174"
+      ],
+      "url": "https://dblp.org/db/conf/ease/ease2024#conf/ease/LellaCCM24",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "EASE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        },
+        {
+          "source": "acm",
+          "venue": "EASE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/ease/RaoC20",
+      "type": "inproceedings",
+      "title": "An Exploratory Study Towards Understanding Lambda Expressions in Python.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "EASE",
+      "booktitle": "EASE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "318-323",
+      "authors": [
+        "https://dblp.org/pid/263/3213",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3383219.3383255"
+      ],
+      "url": "https://dblp.org/db/conf/ease/ease2020#conf/ease/RaoC20",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "EASE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        },
+        {
+          "source": "acm",
+          "venue": "EASE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/ease/SC25",
+      "type": "inproceedings",
+      "title": "LLM Vs Rule-Based - The COBRAIN Tool and An Empirical Study on Extracting Business Rules from COBOL.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "EASE",
+      "booktitle": "EASE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "294-304",
+      "authors": [
+        "https://dblp.org/pid/361/8407",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3756681.3756982"
+      ],
+      "url": "https://dblp.org/db/conf/ease/ease2025#conf/ease/SC25",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "EASE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        },
+        {
+          "source": "acm",
+          "venue": "EASE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/ease/ShanbhagCSK22",
+      "type": "inproceedings",
+      "title": "Towards a Catalog of Energy Patterns in Deep Learning Development.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "EASE",
+      "booktitle": "EASE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "150-159",
+      "authors": [
+        "https://dblp.org/pid/09/6043",
+        "https://dblp.org/pid/322/1909",
+        "https://dblp.org/pid/69/3337",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3530019.3530035"
+      ],
+      "url": "https://dblp.org/db/conf/ease/ease2022#conf/ease/ShanbhagCSK22",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "EASE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        },
+        {
+          "source": "acm",
+          "venue": "EASE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/ecai/JosephB16",
+      "type": "inproceedings",
+      "title": "Revisiting the Cross Entropy Method with Applications in Stochastic Global Optimization and Reinforcement Learning.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "ECAI",
+      "booktitle": "ECAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1026-1034",
+      "authors": [
+        "https://dblp.org/pid/171/3116",
+        "https://dblp.org/pid/71/2542"
+      ],
+      "dois": [
+        "10.3233/978-1-61499-672-9-1026"
+      ],
+      "url": "https://dblp.org/db/conf/ecai/ecai2016#conf/ecai/JosephB16",
+      "faculty": [
+        "Ajin Joseph 0001"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ECAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/ets/SKT25",
+      "type": "inproceedings",
+      "title": "SiFFS: A Scalable in-Fault Functional Simulation Framework for Fault Criticality Analysis.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "ETS",
+      "booktitle": "ETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-4",
+      "authors": [
+        "https://dblp.org/pid/345/0641",
+        "https://dblp.org/pid/35/8110",
+        "https://dblp.org/pid/409/8539"
+      ],
+      "dois": [
+        "10.1109/ets63895.2025.11049650"
+      ],
+      "url": "https://dblp.org/db/conf/ets/ets2025#conf/ets/SKT25",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/ets/TuduLSA09",
+      "type": "inproceedings",
+      "title": "On Minimization of Peak Power for Scan Circuit during Test.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "ETS",
+      "booktitle": "ETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "25-30",
+      "authors": [
+        "https://dblp.org/pid/31/4795",
+        "https://dblp.org/pid/35/8110",
+        "https://dblp.org/pid/59/2845",
+        "https://dblp.org/pid/60/5665"
+      ],
+      "dois": [
+        "10.1109/ets.2009.36"
+      ],
+      "url": "https://dblp.org/db/conf/ets/ets2009#conf/ets/TuduLSA09",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/ets/TuduLSF10",
+      "type": "inproceedings",
+      "title": "Scan cell reordering to minimize peak power during test cycle: A graph theoretic approach.",
+      "year": 2010,
+      "publication_year": 2010,
+      "event_year": 2010,
+      "venue": "ETS",
+      "booktitle": "ETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "259",
+      "authors": [
+        "https://dblp.org/pid/31/4795",
+        "https://dblp.org/pid/35/8110",
+        "https://dblp.org/pid/60/5665",
+        "https://dblp.org/pid/64/1146"
+      ],
+      "dois": [
+        "10.1109/etsym.2010.5512732"
+      ],
+      "url": "https://dblp.org/db/conf/ets/ets2010#conf/ets/TuduLSF10",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2010
+        }
+      ]
+    },
+    {
+      "key": "conf/ewdts/BadjatyaVKTFS24",
+      "type": "inproceedings",
+      "title": "Physical-Design Aware Scan Cell Reordering for Low Power Testing.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "EWDTS",
+      "booktitle": "EWDTS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/31/4795",
+        "https://dblp.org/pid/35/8110",
+        "https://dblp.org/pid/398/8969",
+        "https://dblp.org/pid/56/1768-4",
+        "https://dblp.org/pid/65/11070",
+        "https://dblp.org/pid/92/5081"
+      ],
+      "dois": [
+        "10.1109/ewdts63723.2024.10873686"
+      ],
+      "url": "https://dblp.org/db/conf/ewdts/ewdts2024#conf/ewdts/BadjatyaVKTFS24",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "EWDTS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/ewdts/KajalaSCTS10",
+      "type": "inproceedings",
+      "title": "On selection of state variables for delay test of identical functional units.",
+      "year": 2010,
+      "publication_year": 2010,
+      "event_year": 2010,
+      "venue": "EWDTS",
+      "booktitle": "EWDTS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "200-203",
+      "authors": [
+        "https://dblp.org/pid/15/11069",
+        "https://dblp.org/pid/31/4795",
+        "https://dblp.org/pid/35/8110",
+        "https://dblp.org/pid/48/11069",
+        "https://dblp.org/pid/86/11069"
+      ],
+      "dois": [
+        "10.1109/ewdts.2010.5742119"
+      ],
+      "url": "https://dblp.org/db/conf/ewdts/ewdts2010#conf/ewdts/KajalaSCTS10",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "EWDTS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2010
+        }
+      ]
+    },
+    {
+      "key": "conf/ewdts/KumarNPST16",
+      "type": "inproceedings",
+      "title": "A technique for low power, stuck-at fault diagnosable and reconfigurable scan architecture.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "EWDTS",
+      "booktitle": "EWDTS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-4",
+      "authors": [
+        "https://dblp.org/pid/07/8271",
+        "https://dblp.org/pid/122/2136-1",
+        "https://dblp.org/pid/193/2000",
+        "https://dblp.org/pid/31/4795",
+        "https://dblp.org/pid/35/8110"
+      ],
+      "dois": [
+        "10.1109/ewdts.2016.7807675"
+      ],
+      "url": "https://dblp.org/db/conf/ewdts/ewdts2016#conf/ewdts/KumarNPST16",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "EWDTS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/gecco/SanyalSB10",
+      "type": "inproceedings",
+      "title": "Necessary and sufficient conditions for success of the metropolis algorithm for optimization.",
+      "year": 2010,
+      "publication_year": 2010,
+      "event_year": 2010,
+      "venue": "GECCO",
+      "booktitle": "GECCO",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1417-1424",
+      "authors": [
+        "https://dblp.org/pid/21/7413",
+        "https://dblp.org/pid/45/8284",
+        "https://dblp.org/pid/b/SomenathBiswas"
+      ],
+      "dois": [
+        "10.1145/1830483.1830744"
+      ],
+      "url": "https://dblp.org/db/conf/gecco/gecco2010#conf/gecco/SanyalSB10",
+      "faculty": [
+        "S. Raja 0001"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "GECCO",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2010
+        },
+        {
+          "source": "acm",
+          "venue": "GECCO",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2010
+        }
+      ]
+    },
+    {
+      "key": "conf/glvlsi/TuduLSF10",
+      "type": "inproceedings",
+      "title": "Graph theoretic approach for scan cell reordering to minimize peak shift power.",
+      "year": 2010,
+      "publication_year": 2010,
+      "event_year": 2010,
+      "venue": "ACM Great Lakes Symposium on VLSI",
+      "booktitle": "ACM Great Lakes Symposium on VLSI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "73-78",
+      "authors": [
+        "https://dblp.org/pid/31/4795",
+        "https://dblp.org/pid/35/8110",
+        "https://dblp.org/pid/60/5665",
+        "https://dblp.org/pid/64/1146"
+      ],
+      "dois": [
+        "10.1145/1785481.1785499"
+      ],
+      "url": "https://dblp.org/db/conf/glvlsi/glvlsi2010#conf/glvlsi/TuduLSF10",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Great Lakes Symposium on VLSI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2010
+        }
+      ]
+    },
+    {
+      "key": "conf/hipc/HaryanRNR20",
+      "type": "inproceedings",
+      "title": "A GPU Algorithm for Earliest Arrival Time Problem in Public Transport Networks.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "HiPC",
+      "booktitle": "HiPC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "171-180",
+      "authors": [
+        "https://dblp.org/pid/119/4835",
+        "https://dblp.org/pid/255/5060",
+        "https://dblp.org/pid/255/5491",
+        "https://dblp.org/pid/31/5699"
+      ],
+      "dois": [
+        "10.1109/hipc50609.2020.00031"
+      ],
+      "url": "https://dblp.org/db/conf/hipc/hipc2020#conf/hipc/HaryanRNR20",
+      "faculty": [
+        "G. Ramakrishna"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "HiPC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/icalt/AgrahariC20",
+      "type": "inproceedings",
+      "title": "SupportArr: A Plugin to Comprehend Arrays for Novice Programmers.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "ICALT",
+      "booktitle": "ICALT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "206-207",
+      "authors": [
+        "https://dblp.org/pid/241/6275",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icalt49669.2020.00066"
+      ],
+      "url": "https://dblp.org/db/conf/icalt/icalt2020#conf/icalt/AgrahariC20",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICALT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/icalt/AgrahariC20a",
+      "type": "inproceedings",
+      "title": "L2- A Mini Game for Learning Indian Language Vocabulary.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "ICALT",
+      "booktitle": "ICALT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "233-235",
+      "authors": [
+        "https://dblp.org/pid/241/6275",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icalt49669.2020.00076"
+      ],
+      "url": "https://dblp.org/db/conf/icalt/icalt2020#conf/icalt/AgrahariC20a",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICALT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/icalt/AgrahariC20b",
+      "type": "inproceedings",
+      "title": "AST[AR] - Towards Using Augmented Reality and Abstract Syntax Trees for Teaching Data Structures To Novice Programmers.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "ICALT",
+      "booktitle": "ICALT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "311-315",
+      "authors": [
+        "https://dblp.org/pid/241/6275",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icalt49669.2020.00100"
+      ],
+      "url": "https://dblp.org/db/conf/icalt/icalt2020#conf/icalt/AgrahariC20b",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICALT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/icalt/Chimalakonda11",
+      "type": "inproceedings",
+      "title": "GAMBLE: Towards Ensuring Quality of Education Using Goal Driven Model Based Learning Environments: Automating a Family of eLearning Systems by Integrating Lean and Software Product Lines.",
+      "year": 2011,
+      "publication_year": 2011,
+      "event_year": 2011,
+      "venue": "ICALT",
+      "booktitle": "ICALT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "648-649",
+      "authors": [
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icalt.2011.203"
+      ],
+      "url": "https://dblp.org/db/conf/icalt/icalt2011#conf/icalt/Chimalakonda11",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICALT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2011
+        }
+      ]
+    },
+    {
+      "key": "conf/icalt/ChimalakondaN12",
+      "type": "inproceedings",
+      "title": "Software Engineering Aids to Accelerate Educational Technologies.",
+      "year": 2012,
+      "publication_year": 2012,
+      "event_year": 2012,
+      "venue": "ICALT",
+      "booktitle": "ICALT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "495-496",
+      "authors": [
+        "https://dblp.org/pid/08/11295",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icalt.2012.217"
+      ],
+      "url": "https://dblp.org/db/conf/icalt/icalt2012#conf/icalt/ChimalakondaN12",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICALT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2012
+        }
+      ]
+    },
+    {
+      "key": "conf/icalt/ChimalakondaN12a",
+      "type": "inproceedings",
+      "title": "Towards a Synthesis of Learning Methodologies, Learning Technologies and Software Product Lines.",
+      "year": 2012,
+      "publication_year": 2012,
+      "event_year": 2012,
+      "venue": "ICALT",
+      "booktitle": "ICALT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "732-733",
+      "authors": [
+        "https://dblp.org/pid/08/11295",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icalt.2012.204"
+      ],
+      "url": "https://dblp.org/db/conf/icalt/icalt2012#conf/icalt/ChimalakondaN12a",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICALT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2012
+        }
+      ]
+    },
+    {
+      "key": "conf/icalt/ChimalakondaN12b",
+      "type": "inproceedings",
+      "title": "A Software Engineering Perspective for Accelerating Educational Technologies.",
+      "year": 2012,
+      "publication_year": 2012,
+      "event_year": 2012,
+      "venue": "ICALT",
+      "booktitle": "ICALT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "754-755",
+      "authors": [
+        "https://dblp.org/pid/08/11295",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icalt.2012.214"
+      ],
+      "url": "https://dblp.org/db/conf/icalt/icalt2012#conf/icalt/ChimalakondaN12b",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICALT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2012
+        }
+      ]
+    },
+    {
+      "key": "conf/icalt/ChimalakondaN13",
+      "type": "inproceedings",
+      "title": "Designing Technology for 287 Million Learners.",
+      "year": 2013,
+      "publication_year": 2013,
+      "event_year": 2013,
+      "venue": "ICALT",
+      "booktitle": "ICALT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "197-198",
+      "authors": [
+        "https://dblp.org/pid/08/11295",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icalt.2013.60"
+      ],
+      "url": "https://dblp.org/db/conf/icalt/icalt2013#conf/icalt/ChimalakondaN13",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICALT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2013
+        }
+      ]
+    },
+    {
+      "key": "conf/icalt/ChimalakondaN13a",
+      "type": "inproceedings",
+      "title": "GURU: An Experimental Interactive Environment for Teachers/Learners.",
+      "year": 2013,
+      "publication_year": 2013,
+      "event_year": 2013,
+      "venue": "ICALT",
+      "booktitle": "ICALT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "248-249",
+      "authors": [
+        "https://dblp.org/pid/08/11295",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icalt.2013.76"
+      ],
+      "url": "https://dblp.org/db/conf/icalt/icalt2013#conf/icalt/ChimalakondaN13a",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICALT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2013
+        }
+      ]
+    },
+    {
+      "key": "conf/icalt/ChimalakondaN13b",
+      "type": "inproceedings",
+      "title": "IDont: An Ontology Based Educational Modeling Framework for Instructional Design.",
+      "year": 2013,
+      "publication_year": 2013,
+      "event_year": 2013,
+      "venue": "ICALT",
+      "booktitle": "ICALT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "253-255",
+      "authors": [
+        "https://dblp.org/pid/08/11295",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icalt.2013.78"
+      ],
+      "url": "https://dblp.org/db/conf/icalt/icalt2013#conf/icalt/ChimalakondaN13b",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICALT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2013
+        }
+      ]
+    },
+    {
+      "key": "conf/icalt/ChimalakondaN14",
+      "type": "inproceedings",
+      "title": "A Patterns-Based Approach for Modeling Instructional Design and TEL Systems.",
+      "year": 2014,
+      "publication_year": 2014,
+      "event_year": 2014,
+      "venue": "ICALT",
+      "booktitle": "ICALT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "54-56",
+      "authors": [
+        "https://dblp.org/pid/08/11295",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icalt.2014.26"
+      ],
+      "url": "https://dblp.org/db/conf/icalt/icalt2014#conf/icalt/ChimalakondaN14",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICALT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "conf/icalt/SharmaC18",
+      "type": "inproceedings",
+      "title": "Learning Recursion from Music and Music from Recursion.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "ICALT",
+      "booktitle": "ICALT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "257-261",
+      "authors": [
+        "https://dblp.org/pid/69/253",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icalt.2018.00066"
+      ],
+      "url": "https://dblp.org/db/conf/icalt/icalt2018#conf/icalt/SharmaC18",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICALT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/icalt/VenigallaC19",
+      "type": "inproceedings",
+      "title": "Towards Enhancing User Experience through a Web-Based Augmented Reality Museum.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "ICALT",
+      "booktitle": "ICALT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "357-358",
+      "authors": [
+        "https://dblp.org/pid/246/8309",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icalt.2019.00110"
+      ],
+      "url": "https://dblp.org/db/conf/icalt/icalt2019#conf/icalt/VenigallaC19",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICALT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/icalt/VenigallaLAC19",
+      "type": "inproceedings",
+      "title": "StackDoc - A Stack Overflow Plug-in for Novice Programmers that Integrates Q&A with API Examples.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "ICALT",
+      "booktitle": "ICALT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "247-251",
+      "authors": [
+        "https://dblp.org/pid/241/5957",
+        "https://dblp.org/pid/241/6275",
+        "https://dblp.org/pid/246/8309",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icalt.2019.00077"
+      ],
+      "url": "https://dblp.org/db/conf/icalt/icalt2019#conf/icalt/VenigallaLAC19",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICALT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/icarcv/AnkalugariAJJ24",
+      "type": "inproceedings",
+      "title": "Control of van de Vusse Reactor using Deep Reinforcement Learning.",
+      "year": 2024,
+      "publication_year": 2022,
+      "event_year": 2024,
+      "venue": "ICARCV",
+      "booktitle": "ICARCV",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1154-1159",
+      "authors": [
+        "https://dblp.org/pid/171/3116",
+        "https://dblp.org/pid/231/1291",
+        "https://dblp.org/pid/385/6528",
+        "https://dblp.org/pid/396/2044"
+      ],
+      "dois": [
+        "10.1109/icarcv63323.2024.10821642"
+      ],
+      "url": "https://dblp.org/db/conf/icarcv/icarcv2024#conf/icarcv/AnkalugariAJJ24",
+      "faculty": [
+        "Ajin Joseph 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICARCV",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/iccma/ACVLC23",
+      "type": "inproceedings",
+      "title": "Multi-Target Classification Using Deep Learning Models for Automotive Applications.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "ICCMA",
+      "booktitle": "ICCMA",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "31-36",
+      "authors": [
+        "https://dblp.org/pid/08/5277",
+        "https://dblp.org/pid/30/4639",
+        "https://dblp.org/pid/302/7458",
+        "https://dblp.org/pid/365/6666",
+        "https://dblp.org/pid/439/0425"
+      ],
+      "dois": [
+        "10.1109/iccma59762.2023.10375062"
+      ],
+      "url": "https://dblp.org/db/conf/iccma/iccma2023#conf/iccma/ACVLC23",
+      "faculty": [
+        "Chalavadi Vishnu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICCMA",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/iclr/ChungNJW19",
+      "type": "inproceedings",
+      "title": "Two-Timescale Networks for Nonlinear Value Function Approximation.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "ICLR (Poster)",
+      "booktitle": "ICLR (Poster)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/171/3116",
+        "https://dblp.org/pid/224/9384",
+        "https://dblp.org/pid/225/7749",
+        "https://dblp.org/pid/60/7057"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/iclr/iclr2019#conf/iclr/ChungNJW19",
+      "faculty": [
+        "Ajin Joseph 0001"
+      ],
+      "memberships": [
+        {
+          "venue": "ICLR (Poster)",
+          "year": 2019,
+          "area": "iclr",
+          "domain": "Machine learning & data mining",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a-star",
+          "venue": "ICLR",
+          "area": "iclr",
+          "domain": "Machine learning & data mining",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/iclr/NeumannLJP0W23",
+      "type": "inproceedings",
+      "title": "Greedy Actor-Critic: A New Conditional Cross-Entropy Method for Policy Improvement.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "ICLR",
+      "booktitle": "ICLR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/05/3110",
+        "https://dblp.org/pid/171/3116",
+        "https://dblp.org/pid/183/0925",
+        "https://dblp.org/pid/293/6943",
+        "https://dblp.org/pid/34/10641",
+        "https://dblp.org/pid/60/7057"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/iclr/iclr2023#conf/iclr/NeumannLJP0W23",
+      "faculty": [
+        "Ajin Joseph 0001"
+      ],
+      "memberships": [
+        {
+          "venue": "ICLR",
+          "year": 2023,
+          "area": "iclr",
+          "domain": "Machine learning & data mining",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a-star",
+          "venue": "ICLR",
+          "area": "iclr",
+          "domain": "Machine learning & data mining",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/icmla/SinghVM16",
+      "type": "inproceedings",
+      "title": "Visual Big Data Analytics for Traffic Monitoring in Smart City.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "ICMLA",
+      "booktitle": "ICMLA",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "886-891",
+      "authors": [
+        "https://dblp.org/pid/127/1101-1",
+        "https://dblp.org/pid/30/4639",
+        "https://dblp.org/pid/302/7458"
+      ],
+      "dois": [
+        "10.1109/icmla.2016.0159"
+      ],
+      "url": "https://dblp.org/db/conf/icmla/icmla2016#conf/icmla/SinghVM16",
+      "faculty": [
+        "Chalavadi Vishnu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICMLA",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/icpp/SrikanthSR24",
+      "type": "inproceedings",
+      "title": "GPU Algorithms for Fastest Path Problem in Temporal Graphs.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "ICPP",
+      "booktitle": "ICPP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "587-596",
+      "authors": [
+        "https://dblp.org/pid/02/5130",
+        "https://dblp.org/pid/119/4835",
+        "https://dblp.org/pid/376/1562"
+      ],
+      "dois": [
+        "10.1145/3673038.3673105"
+      ],
+      "url": "https://dblp.org/db/conf/icpp/icpp2024#conf/icpp/SrikanthSR24",
+      "faculty": [
+        "G. Ramakrishna"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICPP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/icpr/SuriY20",
+      "type": "inproceedings",
+      "title": "Pseudo Rehearsal using non photo-realistic images.",
+      "year": 2020,
+      "publication_year": 2021,
+      "event_year": 2020,
+      "venue": "ICPR",
+      "booktitle": "ICPR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "4797-4804",
+      "authors": [
+        "https://dblp.org/pid/03/7099",
+        "https://dblp.org/pid/263/9752"
+      ],
+      "dois": [
+        "10.1109/icpr48806.2021.9412827"
+      ],
+      "url": "https://dblp.org/db/conf/icpr/icpr2020#conf/icpr/SuriY20",
+      "faculty": [
+        "Kalidas Yeturu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICPR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/icsa/RaoC24",
+      "type": "inproceedings",
+      "title": "Towards Connecting Bugs and Architecture in Software Systems: A Perspective.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "ICSA-C",
+      "booktitle": "ICSA-C",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "100-104",
+      "authors": [
+        "https://dblp.org/pid/263/3213",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icsa-c63560.2024.00025"
+      ],
+      "url": "https://dblp.org/db/conf/icsa/icsa2024c#conf/icsa/RaoC24",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICSA-C",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/icse/ChimalakondaN12",
+      "type": "inproceedings",
+      "title": "What makes it hard to design instructional software? Towards a collaborative platform for stakeholders of instructional software.",
+      "year": 2012,
+      "publication_year": 2012,
+      "event_year": 2012,
+      "venue": "CHASE",
+      "booktitle": "CHASE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "15-19",
+      "authors": [
+        "https://dblp.org/pid/08/11295",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/chase.2012.6223013"
+      ],
+      "url": "https://dblp.org/db/conf/icse/chase2012#conf/icse/ChimalakondaN12",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "CHASE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2012
+        }
+      ]
+    },
+    {
+      "key": "conf/icse/ChimalakondaN14",
+      "type": "inproceedings",
+      "title": "On the nature of roles in software engineering.",
+      "year": 2014,
+      "publication_year": 2014,
+      "event_year": 2014,
+      "venue": "CHASE",
+      "booktitle": "CHASE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "91-94",
+      "authors": [
+        "https://dblp.org/pid/08/11295",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/2593702.2593721"
+      ],
+      "url": "https://dblp.org/db/conf/icse/chase2014#conf/icse/ChimalakondaN14",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "CHASE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "conf/icse/VenigallaC21",
+      "type": "inproceedings",
+      "title": "Understanding Emotions of Developer Community Towards Software Documentation.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "ICSE-SEIS",
+      "booktitle": "ICSE-SEIS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "87-91",
+      "authors": [
+        "https://dblp.org/pid/246/8309",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icse-seis52602.2021.00018"
+      ],
+      "url": "https://dblp.org/db/conf/icse/icse2021seis#conf/icse/VenigallaC21",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICSE-SEIS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/icsm/AliMC22",
+      "type": "inproceedings",
+      "title": "COBREX: A Tool for Extracting Business Rules from COBOL.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "ICSME",
+      "booktitle": "ICSME",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "464-468",
+      "authors": [
+        "https://dblp.org/pid/149/5222",
+        "https://dblp.org/pid/337/2786",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icsme55016.2022.00060"
+      ],
+      "url": "https://dblp.org/db/conf/icsm/icsme2022#conf/icsm/AliMC22",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICSME",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/icsm/BoyalakuntlaNCM22",
+      "type": "inproceedings",
+      "title": "RepoQuester: A Tool Towards Evaluating GitHub Projects.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "ICSME",
+      "booktitle": "ICSME",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "509-513",
+      "authors": [
+        "https://dblp.org/pid/193/1629",
+        "https://dblp.org/pid/27/2828",
+        "https://dblp.org/pid/297/4080",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icsme55016.2022.00069"
+      ],
+      "url": "https://dblp.org/db/conf/icsm/icsme2022#conf/icsm/BoyalakuntlaNCM22",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICSME",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/icsm/ChallaVSC25",
+      "type": "inproceedings",
+      "title": "COB2PY - A Non-AI, Rule-Based COBOL to Python Translator.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "ICSME",
+      "booktitle": "ICSME",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "950-954",
+      "authors": [
+        "https://dblp.org/pid/361/8407",
+        "https://dblp.org/pid/420/5505",
+        "https://dblp.org/pid/420/5948",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icsme64153.2025.00113"
+      ],
+      "url": "https://dblp.org/db/conf/icsm/icsme2025#conf/icsm/ChallaVSC25",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICSME",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/icsm/RaoC22",
+      "type": "inproceedings",
+      "title": "Apples, Oranges & Fruits - Understanding Similarity of Software Repositories Through The Lens of Dissimilar Artifacts.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "ICSME",
+      "booktitle": "ICSME",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "384-388",
+      "authors": [
+        "https://dblp.org/pid/263/3213",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icsme55016.2022.00044"
+      ],
+      "url": "https://dblp.org/db/conf/icsm/icsme2022#conf/icsm/RaoC22",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICSME",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/icsm/ShanbhagCSK22",
+      "type": "inproceedings",
+      "title": "eTagger - An Energy Pattern Tagging Tool for GitHub Issues in Android Projects.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "ICSME",
+      "booktitle": "ICSME",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "484-488",
+      "authors": [
+        "https://dblp.org/pid/09/6043",
+        "https://dblp.org/pid/322/1909",
+        "https://dblp.org/pid/69/3337",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icsme55016.2022.00064"
+      ],
+      "url": "https://dblp.org/db/conf/icsm/icsme2022#conf/icsm/ShanbhagCSK22",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICSME",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/icvgip/PalitCY25",
+      "type": "inproceedings",
+      "title": "Mask What Matters: Action-Specific Privacy via Object-Layer Transformation.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "ICVGIP",
+      "booktitle": "ICVGIP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3:1-3:9",
+      "authors": [
+        "https://dblp.org/pid/03/7099",
+        "https://dblp.org/pid/372/4547",
+        "https://dblp.org/pid/442/2277"
+      ],
+      "dois": [
+        "10.1145/3774521.3774524"
+      ],
+      "url": "https://dblp.org/db/conf/icvgip/icvgip2025#conf/icvgip/PalitCY25",
+      "faculty": [
+        "Kalidas Yeturu"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICVGIP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/icvgip/PalitY25",
+      "type": "inproceedings",
+      "title": "Pooling Diverse Voices: Logarithmic Binary Fusion for Server-Side Pseudo-Labeling in Federated Learning.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "ICVGIP",
+      "booktitle": "ICVGIP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "70:1-70:7",
+      "authors": [
+        "https://dblp.org/pid/03/7099",
+        "https://dblp.org/pid/372/4547"
+      ],
+      "dois": [
+        "10.1145/3774521.3774595"
+      ],
+      "url": "https://dblp.org/db/conf/icvgip/icvgip2025#conf/icvgip/PalitY25",
+      "faculty": [
+        "Kalidas Yeturu"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICVGIP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/ifaamas/KumarJ25",
+      "type": "inproceedings",
+      "title": "Emergence of Recursive Language through Bootstrapping and Iterated Learning.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "AAMAS",
+      "booktitle": "AAMAS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1235-1243",
+      "authors": [
+        "https://dblp.org/pid/171/3116",
+        "https://dblp.org/pid/21/1587"
+      ],
+      "dois": [
+        "10.5555/3709347.3743755"
+      ],
+      "url": "https://dblp.org/db/conf/ifaamas/aamas2025#conf/ifaamas/KumarJ25",
+      "faculty": [
+        "Ajin Joseph 0001"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAMAS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/ijcnn/DatlaCM21",
+      "type": "inproceedings",
+      "title": "Scene Classification in Remote Sensing Images using Dynamic Kernels.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "IJCNN",
+      "booktitle": "IJCNN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-8",
+      "authors": [
+        "https://dblp.org/pid/282/2603",
+        "https://dblp.org/pid/30/4639",
+        "https://dblp.org/pid/302/7458"
+      ],
+      "dois": [
+        "10.1109/ijcnn52387.2021.9533648"
+      ],
+      "url": "https://dblp.org/db/conf/ijcnn/ijcnn2021#conf/ijcnn/DatlaCM21",
+      "faculty": [
+        "Chalavadi Vishnu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IJCNN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/ijcnn/DivyaCMC23",
+      "type": "inproceedings",
+      "title": "FLWGAN: Federated Learning with Wasserstein Generative Adversarial Network for Brain Tumor Segmentation.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "IJCNN",
+      "booktitle": "IJCNN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-8",
+      "authors": [
+        "https://dblp.org/pid/30/4639",
+        "https://dblp.org/pid/302/7458",
+        "https://dblp.org/pid/343/1596",
+        "https://dblp.org/pid/55/1008-1"
+      ],
+      "dois": [
+        "10.1109/ijcnn54540.2023.10191202"
+      ],
+      "url": "https://dblp.org/db/conf/ijcnn/ijcnn2023#conf/ijcnn/DivyaCMC23",
+      "faculty": [
+        "Chalavadi Vishnu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IJCNN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/ijcnn/JosephB17",
+      "type": "inproceedings",
+      "title": "A model based search method for prediction in model-free Markov decision process.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "IJCNN",
+      "booktitle": "IJCNN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "170-177",
+      "authors": [
+        "https://dblp.org/pid/171/3116",
+        "https://dblp.org/pid/71/2542"
+      ],
+      "dois": [
+        "10.1109/ijcnn.2017.7965851"
+      ],
+      "url": "https://dblp.org/db/conf/ijcnn/ijcnn2017#conf/ijcnn/JosephB17",
+      "faculty": [
+        "Ajin Joseph 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IJCNN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/ijcnn/JosephB17a",
+      "type": "inproceedings",
+      "title": "Bounds for off-policy prediction in reinforcement learning.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "IJCNN",
+      "booktitle": "IJCNN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3991-3997",
+      "authors": [
+        "https://dblp.org/pid/171/3116",
+        "https://dblp.org/pid/71/2542"
+      ],
+      "dois": [
+        "10.1109/ijcnn.2017.7966359"
+      ],
+      "url": "https://dblp.org/db/conf/ijcnn/ijcnn2017#conf/ijcnn/JosephB17a",
+      "faculty": [
+        "Ajin Joseph 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IJCNN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/ijcnn/PrudvirajVM21",
+      "type": "inproceedings",
+      "title": "Attentive Contextual Network for Image Captioning.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "IJCNN",
+      "booktitle": "IJCNN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-8",
+      "authors": [
+        "https://dblp.org/pid/30/4639",
+        "https://dblp.org/pid/302/7458",
+        "https://dblp.org/pid/302/7985"
+      ],
+      "dois": [
+        "10.1109/ijcnn52387.2021.9533970"
+      ],
+      "url": "https://dblp.org/db/conf/ijcnn/ijcnn2021#conf/ijcnn/PrudvirajVM21",
+      "faculty": [
+        "Chalavadi Vishnu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IJCNN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/ijcnn/RambabuSDCM24",
+      "type": "inproceedings",
+      "title": "RSZero-CSAT: Zero-Shot Scene Classification in Remote Sensing Imagery using a Cross Semantic Attribute-guided Transformer.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "IJCNN",
+      "booktitle": "IJCNN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-8",
+      "authors": [
+        "https://dblp.org/pid/282/2603",
+        "https://dblp.org/pid/30/4639",
+        "https://dblp.org/pid/302/7458",
+        "https://dblp.org/pid/355/2277",
+        "https://dblp.org/pid/385/5919"
+      ],
+      "dois": [
+        "10.1109/ijcnn60899.2024.10650858"
+      ],
+      "url": "https://dblp.org/db/conf/ijcnn/ijcnn2024#conf/ijcnn/RambabuSDCM24",
+      "faculty": [
+        "Chalavadi Vishnu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IJCNN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/ijcnn/Vishnu0MB17",
+      "type": "inproceedings",
+      "title": "Detection of motorcyclists without helmet in videos using convolutional neural network.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "IJCNN",
+      "booktitle": "IJCNN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3036-3041",
+      "authors": [
+        "https://dblp.org/pid/127/1101-1",
+        "https://dblp.org/pid/233/3456",
+        "https://dblp.org/pid/30/4639",
+        "https://dblp.org/pid/302/7458"
+      ],
+      "dois": [
+        "10.1109/ijcnn.2017.7966233"
+      ],
+      "url": "https://dblp.org/db/conf/ijcnn/ijcnn2017#conf/ijcnn/Vishnu0MB17",
+      "faculty": [
+        "Chalavadi Vishnu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IJCNN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/ijcnn/YenduriCM22",
+      "type": "inproceedings",
+      "title": "STIP-GCN: Space-time interest points graph convolutional network for action recognition.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "IJCNN",
+      "booktitle": "IJCNN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-8",
+      "authors": [
+        "https://dblp.org/pid/213/0438",
+        "https://dblp.org/pid/30/4639",
+        "https://dblp.org/pid/302/7458"
+      ],
+      "dois": [
+        "10.1109/ijcnn55064.2022.9891959"
+      ],
+      "url": "https://dblp.org/db/conf/ijcnn/ijcnn2022#conf/ijcnn/YenduriCM22",
+      "faculty": [
+        "Chalavadi Vishnu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IJCNN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/indiaSE/AgarwalCKKS24",
+      "type": "inproceedings",
+      "title": "Tutorial Report on Legacy Software Modernization: A Journey From Non-AI to Generative AI Approaches.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "ISEC",
+      "booktitle": "ISEC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "19:1-19:3",
+      "authors": [
+        "https://dblp.org/pid/143/7446",
+        "https://dblp.org/pid/204/3759",
+        "https://dblp.org/pid/334/0534",
+        "https://dblp.org/pid/43/5188",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3641399.3641434"
+      ],
+      "url": "https://dblp.org/db/conf/indiaSE/isec2024#conf/indiaSE/AgarwalCKKS24",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ISEC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/indiaSE/AgrahariC21",
+      "type": "inproceedings",
+      "title": "What's Inside Unreal Engine? - A Curious Gaze!",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "ISEC",
+      "booktitle": "ISEC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "21:1-21:5",
+      "authors": [
+        "https://dblp.org/pid/241/6275",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3452383.3452404"
+      ],
+      "url": "https://dblp.org/db/conf/indiaSE/isec2021#conf/indiaSE/AgrahariC21",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ISEC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/indiaSE/AgrahariC22",
+      "type": "inproceedings",
+      "title": "A Catalogue of Game-Specific Anti-Patterns.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "ISEC",
+      "booktitle": "ISEC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "8:1-8:10",
+      "authors": [
+        "https://dblp.org/pid/241/6275",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3511430.3511436"
+      ],
+      "url": "https://dblp.org/db/conf/indiaSE/isec2022#conf/indiaSE/AgrahariC22",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ISEC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/indiaSE/ChimalakondaW20",
+      "type": "inproceedings",
+      "title": "A Report on Workshops co-located with ISEC 2020.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "ISEC",
+      "booktitle": "ISEC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "22:1-22:2",
+      "authors": [
+        "https://dblp.org/pid/65/3507",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3385032.3385056"
+      ],
+      "url": "https://dblp.org/db/conf/indiaSE/isec2020#conf/indiaSE/ChimalakondaW20",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ISEC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/indiaSE/DhasadeVC20",
+      "type": "inproceedings",
+      "title": "Towards Prioritizing GitHub Issues.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "ISEC",
+      "booktitle": "ISEC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "18:1-18:5",
+      "authors": [
+        "https://dblp.org/pid/246/8309",
+        "https://dblp.org/pid/261/6669",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3385032.3385052"
+      ],
+      "url": "https://dblp.org/db/conf/indiaSE/isec2020#conf/indiaSE/DhasadeVC20",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ISEC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/indiaSE/KumarGCV23",
+      "type": "inproceedings",
+      "title": "SOCluster - Towards Answering Unanswered Questions on Stack Overflow via Answered Questions.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "ISEC",
+      "booktitle": "ISEC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "20:1-20:5",
+      "authors": [
+        "https://dblp.org/pid/246/8309",
+        "https://dblp.org/pid/296/3672",
+        "https://dblp.org/pid/67/6188",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3578527.3578544"
+      ],
+      "url": "https://dblp.org/db/conf/indiaSE/isec2023#conf/indiaSE/KumarGCV23",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ISEC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/indiaSE/PrasadCC18",
+      "type": "inproceedings",
+      "title": "Towards a Domain-Specific Language for the Renarration of Web Pages.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "ISEC",
+      "booktitle": "ISEC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3:1-3:10",
+      "authors": [
+        "https://dblp.org/pid/141/8540",
+        "https://dblp.org/pid/44/7025",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3172871.3172873"
+      ],
+      "url": "https://dblp.org/db/conf/indiaSE/isec2018#conf/indiaSE/PrasadCC18",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ISEC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/iolts/0001JTPS17",
+      "type": "inproceedings",
+      "title": "Revisiting random access scan for effective enhancement of post-silicon observability.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "IOLTS",
+      "booktitle": "IOLTS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "132-137",
+      "authors": [
+        "https://dblp.org/pid/07/8271",
+        "https://dblp.org/pid/122/2136-1",
+        "https://dblp.org/pid/193/2035",
+        "https://dblp.org/pid/31/4795",
+        "https://dblp.org/pid/35/8110"
+      ],
+      "dois": [
+        "10.1109/iolts.2017.8046208"
+      ],
+      "url": "https://dblp.org/db/conf/iolts/iolts2017#conf/iolts/0001JTPS17",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IOLTS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/iolts/AhlawatATFS19",
+      "type": "inproceedings",
+      "title": "Securing Scan through Plain-text Restriction.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "IOLTS",
+      "booktitle": "IOLTS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "251-252",
+      "authors": [
+        "https://dblp.org/pid/177/1140",
+        "https://dblp.org/pid/250/0200",
+        "https://dblp.org/pid/31/4795",
+        "https://dblp.org/pid/35/8110",
+        "https://dblp.org/pid/56/1768-4"
+      ],
+      "dois": [
+        "10.1109/iolts.2019.8854411"
+      ],
+      "url": "https://dblp.org/db/conf/iolts/iolts2019#conf/iolts/AhlawatATFS19",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IOLTS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/iolts/AhlawatTMS16",
+      "type": "inproceedings",
+      "title": "A high performance scan flip-flop design for serial and mixed mode scan test.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "IOLTS",
+      "booktitle": "IOLTS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "233-238",
+      "authors": [
+        "https://dblp.org/pid/12/2988",
+        "https://dblp.org/pid/177/1140",
+        "https://dblp.org/pid/31/4795",
+        "https://dblp.org/pid/35/8110"
+      ],
+      "dois": [
+        "10.1109/iolts.2016.7604709"
+      ],
+      "url": "https://dblp.org/db/conf/iolts/iolts2016#conf/iolts/AhlawatTMS16",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IOLTS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/ipps/BestaKMKRHS20",
+      "type": "inproceedings",
+      "title": "Communication-Efficient Jaccard similarity for High-Performance Distributed Genome Comparisons.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "IPDPS",
+      "booktitle": "IPDPS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1122-1132",
+      "authors": [
+        "https://dblp.org/pid/136/7953",
+        "https://dblp.org/pid/16/3869",
+        "https://dblp.org/pid/235/6534",
+        "https://dblp.org/pid/235/6577",
+        "https://dblp.org/pid/248/6427",
+        "https://dblp.org/pid/33/3796",
+        "https://dblp.org/pid/59/8965"
+      ],
+      "dois": [
+        "10.1109/ipdps47924.2020.00118"
+      ],
+      "url": "https://dblp.org/db/conf/ipps/ipdps2020#conf/ipps/BestaKMKRHS20",
+      "faculty": [
+        "Raghavendra Kanakagiri"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "IPDPS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        },
+        {
+          "source": "ieee",
+          "venue": "IPDPS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/ipps/HaryanRKB22",
+      "type": "inproceedings",
+      "title": "Shared-Memory Parallel Algorithms for Fully Dynamic Maintenance of 2-Connected Components.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "IPDPS",
+      "booktitle": "IPDPS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1195-1205",
+      "authors": [
+        "https://dblp.org/pid/119/4835",
+        "https://dblp.org/pid/19/10955",
+        "https://dblp.org/pid/255/5060",
+        "https://dblp.org/pid/84/2688"
+      ],
+      "dois": [
+        "10.1109/ipdps53621.2022.00119"
+      ],
+      "url": "https://dblp.org/db/conf/ipps/ipdps2022#conf/ipps/HaryanRKB22",
+      "faculty": [
+        "G. Ramakrishna"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "IPDPS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        },
+        {
+          "source": "ieee",
+          "venue": "IPDPS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/ipps/JiangKRT26",
+      "type": "inproceedings",
+      "title": "WaterSplit: Coordinated On-Site and Off-Site Water Allocation For Sustainable Datacenter Cooling.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "IPDPS",
+      "booktitle": "IPDPS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1388-1402",
+      "authors": [
+        "https://dblp.org/pid/246/6853",
+        "https://dblp.org/pid/248/6427",
+        "https://dblp.org/pid/308/2080-2",
+        "https://dblp.org/pid/76/9083"
+      ],
+      "dois": [
+        "10.1109/ipdps65963.2026.00113"
+      ],
+      "url": "https://dblp.org/db/conf/ipps/ipps2026#conf/ipps/JiangKRT26",
+      "faculty": [
+        "Raghavendra Kanakagiri"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "IPDPS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        },
+        {
+          "source": "ieee",
+          "venue": "IPDPS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "conf/ipps/SahuARKB26",
+      "type": "inproceedings",
+      "title": "GPU Algorithms for Biconnected Components on Large Graphs.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "IPDPS",
+      "booktitle": "IPDPS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "59-72",
+      "authors": [
+        "https://dblp.org/pid/119/4835",
+        "https://dblp.org/pid/188/6981",
+        "https://dblp.org/pid/19/10955",
+        "https://dblp.org/pid/414/6865",
+        "https://dblp.org/pid/84/2688"
+      ],
+      "dois": [
+        "10.1109/ipdps65963.2026.00018"
+      ],
+      "url": "https://dblp.org/db/conf/ipps/ipps2026#conf/ipps/SahuARKB26",
+      "faculty": [
+        "G. Ramakrishna"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "IPDPS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        },
+        {
+          "source": "ieee",
+          "venue": "IPDPS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "conf/iscas/VaghaniATFS18",
+      "type": "inproceedings",
+      "title": "On Securing Scan Design Through Test Vector Encryption.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "ISCAS",
+      "booktitle": "ISCAS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/177/1140",
+        "https://dblp.org/pid/193/1995",
+        "https://dblp.org/pid/31/4795",
+        "https://dblp.org/pid/35/8110",
+        "https://dblp.org/pid/56/1768-4"
+      ],
+      "dois": [
+        "10.1109/iscas.2018.8351212"
+      ],
+      "url": "https://dblp.org/db/conf/iscas/iscas2018#conf/iscas/VaghaniATFS18",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ISCAS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/isqed/KalraT25",
+      "type": "inproceedings",
+      "title": "RL-Driven Fine-Grained Power Gating for Modern Processors Using Multi-Layer Perceptron Models.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "ISQED",
+      "booktitle": "ISQED",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/35/8110",
+        "https://dblp.org/pid/402/8951"
+      ],
+      "dois": [
+        "10.1109/isqed65160.2025.11014405"
+      ],
+      "url": "https://dblp.org/db/conf/isqed/isqed2025#conf/isqed/KalraT25",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ISQED",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/isvlsi/RiazKTA22",
+      "type": "inproceedings",
+      "title": "On Protecting IJTAG from Data Sniffing and Alteration Attacks.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "ISVLSI",
+      "booktitle": "ISVLSI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "146-151",
+      "authors": [
+        "https://dblp.org/pid/177/1140",
+        "https://dblp.org/pid/24/6847-1",
+        "https://dblp.org/pid/321/5778",
+        "https://dblp.org/pid/35/8110"
+      ],
+      "dois": [
+        "10.1109/isvlsi54635.2022.00038"
+      ],
+      "url": "https://dblp.org/db/conf/isvlsi/isvlsi2022#conf/isvlsi/RiazKTA22",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ISVLSI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/itsc/SinghVM20",
+      "type": "inproceedings",
+      "title": "Real-Time Detection of Motorcyclist without Helmet using Cascade of CNNs on Edge-device.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "ITSC",
+      "booktitle": "ITSC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-8",
+      "authors": [
+        "https://dblp.org/pid/127/1101-1",
+        "https://dblp.org/pid/30/4639",
+        "https://dblp.org/pid/302/7458"
+      ],
+      "dois": [
+        "10.1109/itsc45102.2020.9294747"
+      ],
+      "url": "https://dblp.org/db/conf/itsc/itsc2020#conf/itsc/SinghVM20",
+      "faculty": [
+        "Chalavadi Vishnu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ITSC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/iwpc/KumarC24",
+      "type": "inproceedings",
+      "title": "What Do Developers Feel About Fast-Growing Programming Languages? An Exploratory Study.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "ICPC",
+      "booktitle": "ICPC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "178-189",
+      "authors": [
+        "https://dblp.org/pid/376/0026",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3643916.3644422"
+      ],
+      "url": "https://dblp.org/db/conf/iwpc/icpc2024#conf/iwpc/KumarC24",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ICPC",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        },
+        {
+          "source": "acm",
+          "venue": "ICPC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/iwpc/KumarGC25",
+      "type": "inproceedings",
+      "title": "LLM2FedLLM - A Tool for Simulating Federated LLMs for Software Engineering Tasks.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "ICPC",
+      "booktitle": "ICPC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "414-418",
+      "authors": [
+        "https://dblp.org/pid/376/0026",
+        "https://dblp.org/pid/407/8322",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icpc66645.2025.00052"
+      ],
+      "url": "https://dblp.org/db/conf/iwpc/icpc2025#conf/iwpc/KumarGC25",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICPC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/iwpc/PatiPGC26",
+      "type": "inproceedings",
+      "title": "COBMaker - An Interactive Block-Based Programming Environment for COBOL.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "ICPC",
+      "booktitle": "ICPC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "468-472",
+      "authors": [
+        "https://dblp.org/pid/441/1943",
+        "https://dblp.org/pid/441/2000",
+        "https://dblp.org/pid/442/0651",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3794763.3794832"
+      ],
+      "url": "https://dblp.org/db/conf/iwpc/icpc2026#conf/iwpc/PatiPGC26",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICPC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "conf/iwpc/SPCC26",
+      "type": "inproceedings",
+      "title": "CPPJoules: An Energy Measurement Tool for C++.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "ICPC",
+      "booktitle": "ICPC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "473-477",
+      "authors": [
+        "https://dblp.org/pid/360/7581",
+        "https://dblp.org/pid/395/5880",
+        "https://dblp.org/pid/395/5914",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3794763.3794833"
+      ],
+      "url": "https://dblp.org/db/conf/iwpc/icpc2026#conf/iwpc/SPCC26",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICPC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "conf/iwpc/SawarkarAC26",
+      "type": "inproceedings",
+      "title": "CrossLink: A Tool for Cross-Language (Java-C/C++) Code Comprehension.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "ICPC",
+      "booktitle": "ICPC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "458-462",
+      "authors": [
+        "https://dblp.org/pid/442/0732",
+        "https://dblp.org/pid/442/0781",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3794763.3794830"
+      ],
+      "url": "https://dblp.org/db/conf/iwpc/icpc2026#conf/iwpc/SawarkarAC26",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICPC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "conf/iwpc/VenigallaAMC23",
+      "type": "inproceedings",
+      "title": "RCGraph - A Tool to Integrate Readme and Commits through Temporal Knowledge Graphs.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "ICPC",
+      "booktitle": "ICPC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "30-34",
+      "authors": [
+        "https://dblp.org/pid/149/5222",
+        "https://dblp.org/pid/246/8309",
+        "https://dblp.org/pid/337/2786",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/icpc58990.2023.00014"
+      ],
+      "url": "https://dblp.org/db/conf/iwpc/icpc2023#conf/iwpc/VenigallaAMC23",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICPC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/iwpc/VenigallaBC22",
+      "type": "inproceedings",
+      "title": "GitQ- towards using badges as visual cues for GitHub projects.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "ICPC",
+      "booktitle": "ICPC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "157-161",
+      "authors": [
+        "https://dblp.org/pid/246/8309",
+        "https://dblp.org/pid/297/4080",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3524610.3527876"
+      ],
+      "url": "https://dblp.org/db/conf/iwpc/icpc2022#conf/iwpc/VenigallaBC22",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICPC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/kbse/ChattarajC23",
+      "type": "inproceedings",
+      "title": "RJoules: An Energy Measurement Tool for R.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "ASE",
+      "booktitle": "ASE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2026-2029",
+      "authors": [
+        "https://dblp.org/pid/360/7581",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/ase56229.2023.00207"
+      ],
+      "url": "https://dblp.org/db/conf/kbse/ase2023#conf/kbse/ChattarajC23",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ASE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/kbse/DasMMTSCK23",
+      "type": "inproceedings",
+      "title": "COMEX: A Tool for Generating Customized Source Code Representations.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "ASE",
+      "booktitle": "ASE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2054-2057",
+      "authors": [
+        "https://dblp.org/pid/138/3209",
+        "https://dblp.org/pid/266/7727",
+        "https://dblp.org/pid/278/2636",
+        "https://dblp.org/pid/322/2248",
+        "https://dblp.org/pid/352/3442",
+        "https://dblp.org/pid/67/103-2",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/ase56229.2023.00010"
+      ],
+      "url": "https://dblp.org/db/conf/kbse/ase2023#conf/kbse/DasMMTSCK23",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ASE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/kbse/VagavoluSC21",
+      "type": "inproceedings",
+      "title": "A Mocktail of Source Code Representations.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "ASE",
+      "booktitle": "ASE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1296-1300",
+      "authors": [
+        "https://dblp.org/pid/263/6769",
+        "https://dblp.org/pid/295/8993",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/ase51524.2021.9678551"
+      ],
+      "url": "https://dblp.org/db/conf/kbse/ase2021#conf/kbse/VagavoluSC21",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ASE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/kdd/BestaGMBKGKAGDH22",
+      "type": "inproceedings",
+      "title": "Motif Prediction with Graph Neural Networks.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "KDD",
+      "booktitle": "KDD",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "35-45",
+      "authors": [
+        "https://dblp.org/pid/136/7953",
+        "https://dblp.org/pid/147/3417",
+        "https://dblp.org/pid/148/1273",
+        "https://dblp.org/pid/16/3869",
+        "https://dblp.org/pid/195/5539",
+        "https://dblp.org/pid/199/6118",
+        "https://dblp.org/pid/248/6427",
+        "https://dblp.org/pid/268/6612",
+        "https://dblp.org/pid/294/3527",
+        "https://dblp.org/pid/294/3936",
+        "https://dblp.org/pid/294/4056"
+      ],
+      "dois": [
+        "10.1145/3534678.3539343"
+      ],
+      "url": "https://dblp.org/db/conf/kdd/kdd2022#conf/kdd/BestaGMBKGKAGDH22",
+      "faculty": [
+        "Raghavendra Kanakagiri"
+      ],
+      "memberships": [
+        {
+          "venue": "KDD",
+          "year": 2022,
+          "area": "kdd",
+          "domain": "Machine learning & data mining",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a-star",
+          "venue": "KDD",
+          "area": "kdd",
+          "domain": "Machine learning & data mining",
+          "year": 2022
+        },
+        {
+          "source": "acm",
+          "venue": "KDD",
+          "area": "kdd",
+          "domain": "Machine learning & data mining",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/mfcs/ArvindDM017",
+      "type": "inproceedings",
+      "title": "Efficient Identity Testing and Polynomial Factorization in Nonassociative Free Rings.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "MFCS",
+      "booktitle": "MFCS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "38:1-38:13",
+      "authors": [
+        "https://dblp.org/pid/16/1565",
+        "https://dblp.org/pid/199/3931",
+        "https://dblp.org/pid/45/8284",
+        "https://dblp.org/pid/a/VikramanArvind"
+      ],
+      "dois": [
+        "10.4230/lipics.mfcs.2017.38"
+      ],
+      "url": "https://dblp.org/db/conf/mfcs/mfcs2017#conf/mfcs/ArvindDM017",
+      "faculty": [
+        "S. Raja 0001"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "MFCS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/micro/BestaKKABKJVGSG21",
+      "type": "inproceedings",
+      "title": "SISA: Set-Centric Instruction Set Architecture for Graph Mining on Processing-in-Memory Systems.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "MICRO",
+      "booktitle": "MICRO",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "282-297",
+      "authors": [
+        "https://dblp.org/pid/117/0573",
+        "https://dblp.org/pid/136/7953",
+        "https://dblp.org/pid/147/3417",
+        "https://dblp.org/pid/152/7714",
+        "https://dblp.org/pid/16/3869",
+        "https://dblp.org/pid/165/7302",
+        "https://dblp.org/pid/184/7583",
+        "https://dblp.org/pid/187/2708",
+        "https://dblp.org/pid/199/6118",
+        "https://dblp.org/pid/218/8801",
+        "https://dblp.org/pid/248/6427",
+        "https://dblp.org/pid/250/8887",
+        "https://dblp.org/pid/273/4242",
+        "https://dblp.org/pid/273/4315",
+        "https://dblp.org/pid/277/9218",
+        "https://dblp.org/pid/28/7411",
+        "https://dblp.org/pid/290/1981",
+        "https://dblp.org/pid/304/0703",
+        "https://dblp.org/pid/m/OnurMutlu"
+      ],
+      "dois": [
+        "10.1145/3466752.3480133"
+      ],
+      "url": "https://dblp.org/db/conf/micro/micro2021#conf/micro/BestaKKABKJVGSG21",
+      "faculty": [
+        "Raghavendra Kanakagiri"
+      ],
+      "memberships": [
+        {
+          "venue": "MICRO",
+          "year": 2021,
+          "area": "micro",
+          "domain": "Computer architecture",
+          "source": "csrankings"
+        },
+        {
+          "source": "acm",
+          "venue": "MICRO",
+          "area": "micro",
+          "domain": "Computer architecture",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/msr/JoshiC19",
+      "type": "inproceedings",
+      "title": "RapidRelease: a dataset of projects and issues on github with rapid releases.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "MSR",
+      "booktitle": "MSR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "587-591",
+      "authors": [
+        "https://dblp.org/pid/243/2549",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/msr.2019.00088"
+      ],
+      "url": "https://dblp.org/db/conf/msr/msr2019#conf/msr/JoshiC19",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "MSR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/msr/ShanbhagC23",
+      "type": "inproceedings",
+      "title": "An Exploratory Study on Energy Consumption of Dataframe Processing Libraries.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "MSR",
+      "booktitle": "MSR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "284-295",
+      "authors": [
+        "https://dblp.org/pid/322/1909",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/msr59073.2023.00048"
+      ],
+      "url": "https://dblp.org/db/conf/msr/msr2023#conf/msr/ShanbhagC23",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "MSR",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        },
+        {
+          "source": "ieee",
+          "venue": "MSR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/msr/VagavoluACV21",
+      "type": "inproceedings",
+      "title": "GE526: A Dataset of Open-Source Game Engines.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "MSR",
+      "booktitle": "MSR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "605-609",
+      "authors": [
+        "https://dblp.org/pid/241/6275",
+        "https://dblp.org/pid/246/8309",
+        "https://dblp.org/pid/263/6769",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/msr52588.2021.00083"
+      ],
+      "url": "https://dblp.org/db/conf/msr/msr2021#conf/msr/VagavoluACV21",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "MSR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/msr/VenigallaC23",
+      "type": "inproceedings",
+      "title": "DocMine: A Software Documentation-Related Dataset of 950 GitHub Repositories.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "MSR",
+      "booktitle": "MSR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "407-411",
+      "authors": [
+        "https://dblp.org/pid/246/8309",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/msr59073.2023.00062"
+      ],
+      "url": "https://dblp.org/db/conf/msr/msr2023#conf/msr/VenigallaC23",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "MSR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/mswim/BuchipalliMB23",
+      "type": "inproceedings",
+      "title": "How Fresh is the Data? An Optimal Learning-Based End-to-End Pull-Based Forwarding Framework for NDNoTs.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "MSWiM",
+      "booktitle": "MSWiM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "285-289",
+      "authors": [
+        "https://dblp.org/pid/306/6686",
+        "https://dblp.org/pid/359/4896",
+        "https://dblp.org/pid/48/1142"
+      ],
+      "dois": [
+        "10.1145/3616388.3617552"
+      ],
+      "url": "https://dblp.org/db/conf/mswim/mswim2023#conf/mswim/BuchipalliMB23",
+      "faculty": [
+        "V. Mahendran",
+        "Venkataramana Badarla"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "MSWiM",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/mswim/GuptaMB21",
+      "type": "inproceedings",
+      "title": "Optimal Searching of Prefetched DASH Segments in Fog Nodes: A Multi-Armed Bandit Approach.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "Q2SWinet",
+      "booktitle": "Q2SWinet",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "123-129",
+      "authors": [
+        "https://dblp.org/pid/306/6686",
+        "https://dblp.org/pid/47/3340",
+        "https://dblp.org/pid/48/1142"
+      ],
+      "dois": [
+        "10.1145/3479242.3487323"
+      ],
+      "url": "https://dblp.org/db/conf/mswim/q2swinet2021#conf/mswim/GuptaMB21",
+      "faculty": [
+        "V. Mahendran",
+        "Venkataramana Badarla"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "Q2SWinet",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/SamantBYVKL15",
+      "type": "inproceedings",
+      "title": "Latency and cost requirements of systems for teaching MAC protocols.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/190/5575",
+        "https://dblp.org/pid/205/6897",
+        "https://dblp.org/pid/48/1142",
+        "https://dblp.org/pid/51/6299",
+        "https://dblp.org/pid/66/8202",
+        "https://dblp.org/pid/73/7990"
+      ],
+      "dois": [
+        "10.1109/ncc.2015.7084820"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2015#conf/ncc/SamantBYVKL15",
+      "faculty": [
+        "Venkataramana Badarla"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/noms/KoleyKSM26",
+      "type": "inproceedings",
+      "title": "Optimal Content Fetching and Broadcast in a Sensing-as-a-Service System.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "NOMS",
+      "booktitle": "NOMS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-12",
+      "authors": [
+        "https://dblp.org/pid/127/7227",
+        "https://dblp.org/pid/302/9236",
+        "https://dblp.org/pid/306/6686",
+        "https://dblp.org/pid/375/7270"
+      ],
+      "dois": [
+        "10.1109/noms69089.2026.11668375"
+      ],
+      "url": "https://dblp.org/db/conf/noms/noms2026#conf/noms/KoleyKSM26",
+      "faculty": [
+        "V. Mahendran"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NOMS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "conf/pimrc/KukrejaM23",
+      "type": "inproceedings",
+      "title": "Contention Matters: Modeling and Analyzing the Performance of Federated Learning over WiFi.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "PIMRC",
+      "booktitle": "PIMRC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/306/6686",
+        "https://dblp.org/pid/360/4433"
+      ],
+      "dois": [
+        "10.1109/pimrc56721.2023.10293805"
+      ],
+      "url": "https://dblp.org/db/conf/pimrc/pimrc2023#conf/pimrc/KukrejaM23",
+      "faculty": [
+        "V. Mahendran"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "PIMRC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/ppopp/0002RKT25",
+      "type": "inproceedings",
+      "title": "WaterWise: Co-optimizing Carbon- and Water-Footprint Toward Environmentally Sustainable Cloud Computing.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "PPoPP",
+      "booktitle": "PPoPP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "297-311",
+      "authors": [
+        "https://dblp.org/pid/246/6853",
+        "https://dblp.org/pid/248/6427",
+        "https://dblp.org/pid/308/2080-2",
+        "https://dblp.org/pid/76/9083"
+      ],
+      "dois": [
+        "10.1145/3710848.3710891"
+      ],
+      "url": "https://dblp.org/db/conf/ppopp/ppopp2025#conf/ppopp/0002RKT25",
+      "faculty": [
+        "Raghavendra Kanakagiri"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "PPoPP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/promise/SarmahC22",
+      "type": "inproceedings",
+      "title": "API + code = better code summary? insights from an exploratory study.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "PROMISE",
+      "booktitle": "PROMISE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "92-101",
+      "authors": [
+        "https://dblp.org/pid/332/7115",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3558489.3559075"
+      ],
+      "url": "https://dblp.org/db/conf/promise/promise2022#conf/promise/SarmahC22",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "PROMISE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/sac/MisraRC20",
+      "type": "inproceedings",
+      "title": "Is there a correlation between code comments and issues?: an exploratory study.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "SAC",
+      "booktitle": "SAC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "110-117",
+      "authors": [
+        "https://dblp.org/pid/262/0589",
+        "https://dblp.org/pid/29/6724",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3341105.3374009"
+      ],
+      "url": "https://dblp.org/db/conf/sac/sac2020#conf/sac/MisraRC20",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "SAC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/saner/JanapatiKMC26",
+      "type": "inproceedings",
+      "title": "Static Analysis Assisted Knowledge Graph Based Automatic Functionality Discovery for Mainframe Applications.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "SANER",
+      "booktitle": "SANER",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "602-606",
+      "authors": [
+        "https://dblp.org/pid/397/3695",
+        "https://dblp.org/pid/426/3693",
+        "https://dblp.org/pid/67/103-2",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/saner67736.2026.00070"
+      ],
+      "url": "https://dblp.org/db/conf/saner/saner2026#conf/saner/JanapatiKMC26",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "SANER",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "conf/saner/TanguturiKMC26",
+      "type": "inproceedings",
+      "title": "AI-Assisted Semantic Modeling of Languages for Symbolic Execution Driven Unit Test Generation.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "SANER",
+      "booktitle": "SANER",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "98-102",
+      "authors": [
+        "https://dblp.org/pid/397/3933",
+        "https://dblp.org/pid/426/3693",
+        "https://dblp.org/pid/67/103-2",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/saner67736.2026.00020"
+      ],
+      "url": "https://dblp.org/db/conf/saner/saner2026#conf/saner/TanguturiKMC26",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "SANER",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "conf/sc/0002KRT25",
+      "type": "inproceedings",
+      "title": "ThirstyFLOPS: Water Footprint Modeling and Analysis Toward Sustainable HPC Systems.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "SC",
+      "booktitle": "SC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "855-869",
+      "authors": [
+        "https://dblp.org/pid/246/6853",
+        "https://dblp.org/pid/248/6427",
+        "https://dblp.org/pid/308/2080-2",
+        "https://dblp.org/pid/76/9083"
+      ],
+      "dois": [
+        "10.1145/3712285.3759804"
+      ],
+      "url": "https://dblp.org/db/conf/sc/sc2025#conf/sc/0002KRT25",
+      "faculty": [
+        "Raghavendra Kanakagiri"
+      ],
+      "memberships": [
+        {
+          "venue": "SC",
+          "year": 2025,
+          "area": "sc",
+          "domain": "High-performance computing",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a",
+          "venue": "SC",
+          "area": "sc",
+          "domain": "High-performance computing",
+          "year": 2025
+        },
+        {
+          "source": "acm",
+          "venue": "SC",
+          "area": "sc",
+          "domain": "High-performance computing",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/sc/BestaMLTIKAJPKGVMH22",
+      "type": "inproceedings",
+      "title": "ProbGraph: High-Performance and High-Accuracy Graph Mining with Probabilistic Set Representations.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "SC",
+      "booktitle": "SC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "43:1-43:17",
+      "authors": [
+        "https://dblp.org/pid/115/4583",
+        "https://dblp.org/pid/136/7953",
+        "https://dblp.org/pid/147/3417",
+        "https://dblp.org/pid/16/3869",
+        "https://dblp.org/pid/195/5539",
+        "https://dblp.org/pid/201/7835",
+        "https://dblp.org/pid/207/7521",
+        "https://dblp.org/pid/211/6738",
+        "https://dblp.org/pid/243/7280",
+        "https://dblp.org/pid/248/6427",
+        "https://dblp.org/pid/268/6612",
+        "https://dblp.org/pid/273/4242",
+        "https://dblp.org/pid/326/0620",
+        "https://dblp.org/pid/m/OnurMutlu"
+      ],
+      "dois": [
+        "10.1109/sc41404.2022.00048",
+        "10.5555/3571885.3571942"
+      ],
+      "url": "https://dblp.org/db/conf/sc/sc2022#conf/sc/BestaMLTIKAJPKGVMH22",
+      "faculty": [
+        "Raghavendra Kanakagiri"
+      ],
+      "memberships": [
+        {
+          "venue": "SC",
+          "year": 2022,
+          "area": "sc",
+          "domain": "High-performance computing",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a",
+          "venue": "SC",
+          "area": "sc",
+          "domain": "High-performance computing",
+          "year": 2022
+        },
+        {
+          "source": "ieee",
+          "venue": "SC",
+          "area": "sc",
+          "domain": "High-performance computing",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/sc/BestaRGLZCGSSCI23",
+      "type": "inproceedings",
+      "title": "High-Performance and Programmable Attentional Graph Neural Networks with Global Tensor Formulations.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "SC",
+      "booktitle": "SC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "66:1-66:16",
+      "authors": [
+        "https://dblp.org/pid/115/4583",
+        "https://dblp.org/pid/136/7953",
+        "https://dblp.org/pid/14/244",
+        "https://dblp.org/pid/147/3417",
+        "https://dblp.org/pid/16/3869",
+        "https://dblp.org/pid/199/6118",
+        "https://dblp.org/pid/234/8516",
+        "https://dblp.org/pid/243/7280",
+        "https://dblp.org/pid/248/6427",
+        "https://dblp.org/pid/249/5035",
+        "https://dblp.org/pid/260/8862",
+        "https://dblp.org/pid/273/4323",
+        "https://dblp.org/pid/326/0620",
+        "https://dblp.org/pid/329/6261",
+        "https://dblp.org/pid/342/9439",
+        "https://dblp.org/pid/359/5863",
+        "https://dblp.org/pid/359/5926",
+        "https://dblp.org/pid/51/11131"
+      ],
+      "dois": [
+        "10.1145/3581784.3607067"
+      ],
+      "url": "https://dblp.org/db/conf/sc/sc2023#conf/sc/BestaRGLZCGSSCI23",
+      "faculty": [
+        "Raghavendra Kanakagiri"
+      ],
+      "memberships": [
+        {
+          "venue": "SC",
+          "year": 2023,
+          "area": "sc",
+          "domain": "High-performance computing",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a",
+          "venue": "SC",
+          "area": "sc",
+          "domain": "High-performance computing",
+          "year": 2023
+        },
+        {
+          "source": "acm",
+          "venue": "SC",
+          "area": "sc",
+          "domain": "High-performance computing",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/secon/RathoreB14",
+      "type": "inproceedings",
+      "title": "Primary-secondary immune response adaptation for wireless sensor network.",
+      "year": 2014,
+      "publication_year": 2014,
+      "event_year": 2014,
+      "venue": "SECON",
+      "booktitle": "SECON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "164-166",
+      "authors": [
+        "https://dblp.org/pid/118/7641",
+        "https://dblp.org/pid/48/1142"
+      ],
+      "dois": [
+        "10.1109/sahcn.2014.6990344"
+      ],
+      "url": "https://dblp.org/db/conf/secon/secon2014#conf/secon/RathoreB14",
+      "faculty": [
+        "Venkataramana Badarla"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "SECON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "conf/sigmetrics/RoyK0T25",
+      "type": "inproceedings",
+      "title": "ForgetMeNot: Understanding and Modeling the Impact of Forever Chemicals Toward Sustainable Large-Scale Computing.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "SIGMETRICS (Abstracts)",
+      "booktitle": "SIGMETRICS (Abstracts)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "183-185",
+      "authors": [
+        "https://dblp.org/pid/246/6853",
+        "https://dblp.org/pid/248/6427",
+        "https://dblp.org/pid/308/2080-2",
+        "https://dblp.org/pid/76/9083"
+      ],
+      "dois": [
+        "10.1145/3726854.3727288"
+      ],
+      "url": "https://dblp.org/db/conf/sigmetrics/sigmetrics2025#conf/sigmetrics/RoyK0T25",
+      "faculty": [
+        "Raghavendra Kanakagiri"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "SIGMETRICS (Abstracts)",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/sigsoft/BoyalakuntlaCC022",
+      "type": "inproceedings",
+      "title": "eGEN: an energy-saving modeling language and code generator for location-sensing of mobile apps.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "ESEC/SIGSOFT FSE",
+      "booktitle": "ESEC/SIGSOFT FSE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1697-1700",
+      "authors": [
+        "https://dblp.org/pid/192/7494",
+        "https://dblp.org/pid/297/4080",
+        "https://dblp.org/pid/51/5979-1",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3540250.3558914"
+      ],
+      "url": "https://dblp.org/db/conf/sigsoft/fse2022#conf/sigsoft/BoyalakuntlaCC022",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ESEC/SIGSOFT FSE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/sigsoft/ChimalakondaV20",
+      "type": "inproceedings",
+      "title": "Software documentation and augmented reality: love or arranged marriage?",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "ESEC/SIGSOFT FSE",
+      "booktitle": "ESEC/SIGSOFT FSE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1529-1532",
+      "authors": [
+        "https://dblp.org/pid/246/8309",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3368089.3417044"
+      ],
+      "url": "https://dblp.org/db/conf/sigsoft/fse2020#conf/sigsoft/ChimalakondaV20",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ESEC/SIGSOFT FSE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/sigsoft/RaoVC21",
+      "type": "inproceedings",
+      "title": "AC²: towards understanding architectural changes in Python projects.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "ESEC/SIGSOFT FSE",
+      "booktitle": "ESEC/SIGSOFT FSE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1555-1559",
+      "authors": [
+        "https://dblp.org/pid/263/3213",
+        "https://dblp.org/pid/263/6769",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3468264.3473120"
+      ],
+      "url": "https://dblp.org/db/conf/sigsoft/fse2021#conf/sigsoft/RaoVC21",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ESEC/SIGSOFT FSE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/sigsoft/ShanbhagC22",
+      "type": "inproceedings",
+      "title": "Exploring the under-explored terrain of non-open source data for software engineering through the lens of federated learning.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "ESEC/SIGSOFT FSE",
+      "booktitle": "ESEC/SIGSOFT FSE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1610-1614",
+      "authors": [
+        "https://dblp.org/pid/322/1909",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3540250.3560883"
+      ],
+      "url": "https://dblp.org/db/conf/sigsoft/fse2022#conf/sigsoft/ShanbhagC22",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ESEC/SIGSOFT FSE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/sigsoft/ShanbhagCSK23",
+      "type": "inproceedings",
+      "title": "DENT: A Tool for Tagging Stack Overflow Posts with Deep Learning Energy Patterns.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "ESEC/SIGSOFT FSE",
+      "booktitle": "ESEC/SIGSOFT FSE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2157-2161",
+      "authors": [
+        "https://dblp.org/pid/09/6043",
+        "https://dblp.org/pid/322/1909",
+        "https://dblp.org/pid/69/3337",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3611643.3613092"
+      ],
+      "url": "https://dblp.org/db/conf/sigsoft/fse2023#conf/sigsoft/ShanbhagCSK23",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ESEC/SIGSOFT FSE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/sigsoft/VenigallaC21",
+      "type": "inproceedings",
+      "title": "StackEmo: towards enhancing user experience by augmenting stack overflow with emojis.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "ESEC/SIGSOFT FSE",
+      "booktitle": "ESEC/SIGSOFT FSE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1550-1554",
+      "authors": [
+        "https://dblp.org/pid/246/8309",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3468264.3473119"
+      ],
+      "url": "https://dblp.org/db/conf/sigsoft/fse2021#conf/sigsoft/VenigallaC21",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ESEC/SIGSOFT FSE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/spaa/KanakagiriS24",
+      "type": "inproceedings",
+      "title": "Minimum Cost Loop Nests for Contraction of a Sparse Tensor with a Tensor Network.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "SPAA",
+      "booktitle": "SPAA",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "169-181",
+      "authors": [
+        "https://dblp.org/pid/248/6427",
+        "https://dblp.org/pid/59/8965"
+      ],
+      "dois": [
+        "10.1145/3626183.3659985"
+      ],
+      "url": "https://dblp.org/db/conf/spaa/spaa2024#conf/spaa/KanakagiriS24",
+      "faculty": [
+        "Raghavendra Kanakagiri"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "SPAA",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/stoc/ArvindJMR17",
+      "type": "inproceedings",
+      "title": "Randomized polynomial time identity testing for noncommutative circuits.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "STOC",
+      "booktitle": "STOC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "831-841",
+      "authors": [
+        "https://dblp.org/pid/16/1565",
+        "https://dblp.org/pid/30/3166",
+        "https://dblp.org/pid/45/8284",
+        "https://dblp.org/pid/a/VikramanArvind"
+      ],
+      "dois": [
+        "10.1145/3055399.3055442"
+      ],
+      "url": "https://dblp.org/db/conf/stoc/stoc2017#conf/stoc/ArvindJMR17",
+      "faculty": [
+        "S. Raja 0001"
+      ],
+      "memberships": [
+        {
+          "venue": "STOC",
+          "year": 2017,
+          "area": "stoc",
+          "domain": "Algorithms & complexity",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a-star",
+          "venue": "STOC",
+          "area": "stoc",
+          "domain": "Algorithms & complexity",
+          "year": 2017
+        },
+        {
+          "source": "acm",
+          "venue": "STOC",
+          "area": "stoc",
+          "domain": "Algorithms & complexity",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/t4e/ChimalakondaN12",
+      "type": "inproceedings",
+      "title": "Towards a Model Driven eLearning Framework to Improve Quality of Teaching.",
+      "year": 2012,
+      "publication_year": 2012,
+      "event_year": 2012,
+      "venue": "T4E",
+      "booktitle": "T4E",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "138-143",
+      "authors": [
+        "https://dblp.org/pid/08/11295",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/t4e.2012.29"
+      ],
+      "url": "https://dblp.org/db/conf/t4e/t4e2012#conf/t4e/ChimalakondaN12",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "T4E",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2012
+        }
+      ]
+    },
+    {
+      "key": "conf/vdat/0001NPT16",
+      "type": "inproceedings",
+      "title": "Skip-scan: A methodology for test time reduction.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "VDAT",
+      "booktitle": "VDAT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/07/8271",
+        "https://dblp.org/pid/122/2136-1",
+        "https://dblp.org/pid/193/2000",
+        "https://dblp.org/pid/35/8110"
+      ],
+      "dois": [
+        "10.1109/isvdat.2016.8064869"
+      ],
+      "url": "https://dblp.org/db/conf/vdat/vdat2016#conf/vdat/0001NPT16",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VDAT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/vdat/AhlawatT16",
+      "type": "inproceedings",
+      "title": "On minimization of test power through modified scan flip-flop.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "VDAT",
+      "booktitle": "VDAT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/177/1140",
+        "https://dblp.org/pid/35/8110"
+      ],
+      "dois": [
+        "10.1109/isvdat.2016.8064878"
+      ],
+      "url": "https://dblp.org/db/conf/vdat/vdat2016#conf/vdat/AhlawatT16",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VDAT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/vdat/GulveHT16",
+      "type": "inproceedings",
+      "title": "On determination of instantaneous peak and cycle peak switching using ILP.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "VDAT",
+      "booktitle": "VDAT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/193/1993",
+        "https://dblp.org/pid/198/1995",
+        "https://dblp.org/pid/35/8110"
+      ],
+      "dois": [
+        "10.1109/isvdat.2016.8064881"
+      ],
+      "url": "https://dblp.org/db/conf/vdat/vdat2016#conf/vdat/GulveHT16",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VDAT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/vdat/Tudu16",
+      "type": "inproceedings",
+      "title": "JSCAN: A joint-scan DFT architecture to minimize test time, pattern volume, and power.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "VDAT",
+      "booktitle": "VDAT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/35/8110"
+      ],
+      "dois": [
+        "10.1109/isvdat.2016.8064866"
+      ],
+      "url": "https://dblp.org/db/conf/vdat/vdat2016#conf/vdat/Tudu16",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VDAT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/vdat/TuduA16",
+      "type": "inproceedings",
+      "title": "Guided shifting of test pattern to minimize test time in serial scan.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "VDAT",
+      "booktitle": "VDAT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/177/1140",
+        "https://dblp.org/pid/35/8110"
+      ],
+      "dois": [
+        "10.1109/isvdat.2016.8064851"
+      ],
+      "url": "https://dblp.org/db/conf/vdat/vdat2016#conf/vdat/TuduA16",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VDAT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/visualization/MathewsCJ21",
+      "type": "inproceedings",
+      "title": "AiR: An Augmented Reality Application for Visualizing Air Pollution.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "IEEE VIS (Short Papers)",
+      "booktitle": "IEEE VIS (Short Papers)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "146-150",
+      "authors": [
+        "https://dblp.org/pid/266/7727",
+        "https://dblp.org/pid/46/7215",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1109/vis49827.2021.9623287"
+      ],
+      "url": "https://dblp.org/db/conf/visualization/visualization2021#conf/visualization/MathewsCJ21",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE VIS (Short Papers)",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/vlsid/SVT24",
+      "type": "inproceedings",
+      "title": "Near-Threshold-at-Gate based Test for Stuck-on Fault in Scan-chain Testing.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "VLSID",
+      "booktitle": "VLSID",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "712-717",
+      "authors": [
+        "https://dblp.org/pid/306/4234",
+        "https://dblp.org/pid/345/0641",
+        "https://dblp.org/pid/35/8110"
+      ],
+      "dois": [
+        "10.1109/vlsid60093.2024.00126"
+      ],
+      "url": "https://dblp.org/db/conf/vlsid/vlsid2024#conf/vlsid/SVT24",
+      "faculty": [
+        "Jaynarayan T. Tudu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VLSID",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/vtc/JMB24",
+      "type": "inproceedings",
+      "title": "On or Move On? Optimal Mobile Data Collection in mmWave Sensor Networks.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "VTC Spring",
+      "booktitle": "VTC Spring",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-7",
+      "authors": [
+        "https://dblp.org/pid/306/6686",
+        "https://dblp.org/pid/353/1026",
+        "https://dblp.org/pid/48/1142"
+      ],
+      "dois": [
+        "10.1109/vtc2024-spring62846.2024.10683250"
+      ],
+      "url": "https://dblp.org/db/conf/vtc/vtc2024s#conf/vtc/JMB24",
+      "faculty": [
+        "V. Mahendran",
+        "Venkataramana Badarla"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VTC Spring",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/vtc/VinupriyaM25",
+      "type": "inproceedings",
+      "title": "Drive with CPaaS: An Incentive-Driven Offloaded Cooperative Perception as a Service Framework.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "VTC2025-Fall",
+      "booktitle": "VTC2025-Fall",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-7",
+      "authors": [
+        "https://dblp.org/pid/306/6686",
+        "https://dblp.org/pid/425/3547"
+      ],
+      "dois": [
+        "10.1109/vtc2025-fall65116.2025.11309901"
+      ],
+      "url": "https://dblp.org/db/conf/vtc/vtc2025f#conf/vtc/VinupriyaM25",
+      "faculty": [
+        "V. Mahendran"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VTC2025-Fall",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/wimob/JMB23",
+      "type": "inproceedings",
+      "title": "Optimal D2D Learning-Based Neighbor Selection in mmWave Networks using Gittins Indices.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "WiMob",
+      "booktitle": "WiMob",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "149-154",
+      "authors": [
+        "https://dblp.org/pid/306/6686",
+        "https://dblp.org/pid/353/1026",
+        "https://dblp.org/pid/48/1142"
+      ],
+      "dois": [
+        "10.1109/wimob58348.2023.10187885"
+      ],
+      "url": "https://dblp.org/db/conf/wimob/wimob2023#conf/wimob/JMB23",
+      "faculty": [
+        "V. Mahendran",
+        "Venkataramana Badarla"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "WiMob",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/wsc/JosephB16",
+      "type": "inproceedings",
+      "title": "A randomized algorithm for continuous optimization.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "WSC",
+      "booktitle": "WSC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "907-918",
+      "authors": [
+        "https://dblp.org/pid/171/3116",
+        "https://dblp.org/pid/71/2542"
+      ],
+      "dois": [
+        "10.1109/wsc.2016.7822152"
+      ],
+      "url": "https://dblp.org/db/conf/wsc/wsc2016#conf/wsc/JosephB16",
+      "faculty": [
+        "Ajin Joseph 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "WSC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "journals/pacmse/ChattarajC25",
+      "type": "article",
+      "title": "NLP Libraries, Energy Consumption and Runtime: An Empirical Study.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": null,
+      "venue": "Proc. ACM Softw. Eng.",
+      "booktitle": "",
+      "journal": "Proc. ACM Softw. Eng.",
+      "volume": "2",
+      "number": "FSE",
+      "pages": "2850-2873",
+      "authors": [
+        "https://dblp.org/pid/360/7581",
+        "https://dblp.org/pid/76/1783"
+      ],
+      "dois": [
+        "10.1145/3729396"
+      ],
+      "url": "https://dblp.org/db/journals/pacmse/pacmse2#journals/pacmse/ChattarajC25",
+      "faculty": [
+        "Sridhar Chimalakonda"
+      ],
+      "memberships": [
+        {
+          "venue": "Proc. ACM Softw. Eng.",
+          "year": 2025,
+          "area": "fse",
+          "domain": "Software engineering",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a-star",
+          "venue": "FSE",
+          "area": "fse",
+          "domain": "Software engineering",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "journals/pomacs/RoyKJT25",
+      "type": "article",
+      "title": "ForgetMeNot: Understanding and Modeling the Impact of Forever Chemicals Toward Sustainable Large-Scale Computing.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": null,
+      "venue": "Proc. ACM Meas. Anal. Comput. Syst.",
+      "booktitle": "",
+      "journal": "Proc. ACM Meas. Anal. Comput. Syst.",
+      "volume": "9",
+      "number": "2",
+      "pages": "1-26",
+      "authors": [
+        "https://dblp.org/pid/246/6853",
+        "https://dblp.org/pid/248/6427",
+        "https://dblp.org/pid/308/2080-2",
+        "https://dblp.org/pid/76/9083"
+      ],
+      "dois": [
+        "10.1145/3727116"
+      ],
+      "url": "https://dblp.org/db/journals/pomacs/pomacs9#journals/pomacs/RoyKJT25",
+      "faculty": [
+        "Raghavendra Kanakagiri"
+      ],
+      "memberships": [
+        {
+          "venue": "Proc. ACM Meas. Anal. Comput. Syst.",
+          "year": 2025,
+          "area": "sigmetrics",
+          "domain": "Measurement & performance analysis",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a-star",
+          "venue": "SIGMETRICS",
+          "area": "sigmetrics",
+          "domain": "Measurement & performance analysis",
+          "year": 2025
+        }
+      ]
+    }
+  ]
+}

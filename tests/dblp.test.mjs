@@ -2,7 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { findDblpFaculty, normalizeDblpId } from '../src/dblp.js';
-const { faculty } = JSON.parse(fs.readFileSync(new URL('../backend/data/processed/iiitd_dataset.json', import.meta.url)));
+// Every faculty member across all institutes, as the search box sees them.
+const { faculty } = JSON.parse(fs.readFileSync(new URL('../backend/data/processed/institutes.json', import.meta.url)));
 
 test('DBLP IDs and profile URLs resolve every loaded faculty identity', () => {
   for (const person of faculty) {

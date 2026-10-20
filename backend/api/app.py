@@ -1,4 +1,4 @@
-﻿"""Serve one validated artifact; PostgreSQL remains an optional legacy export."""
+﻿"""Serve validated per-institute artifacts; PostgreSQL remains an optional legacy export."""
 import json
 import sys
 from functools import lru_cache
@@ -9,26 +9,36 @@ from flask_cors import CORS
 
 BASE = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BASE / 'scripts'))
-from build_iiitd_dataset import summarize
+from build_institutes import INDEX, INSTITUTES, summarize
 
 app = Flask(__name__)
 CORS(app)
+LEGACY_SLUG = 'iiit-delhi'
 
 
-@lru_cache(maxsize=2)
-def read_dataset(path, modified):
+@lru_cache(maxsize=16)
+def read_json(path, modified):
     return json.loads(Path(path).read_text(encoding='utf-8'))
 
 
-def current_dataset():
-    path = BASE / 'data/processed/iiitd_dataset.json'
+def load(path, message):
     if not path.exists():
-        raise FileNotFoundError('IIITD dataset is not built. Run backend/scripts/build_iiitd_dataset.py.')
-    return read_dataset(str(path), path.stat().st_mtime_ns)
+        raise FileNotFoundError(message)
+    return read_json(str(path), path.stat().st_mtime_ns)
 
 
-def payload():
-    dataset = current_dataset()
+def current_index():
+    return load(INDEX, 'Institute index is not built. Run backend/scripts/build_institutes.py.')
+
+
+def current_dataset(slug):
+    if not any(entry['slug'] == slug for entry in current_index()['institutes']):
+        raise LookupError('Institute not found.')
+    return load(INSTITUTES / f'{slug}.json', 'Institute dataset is not built. Run backend/scripts/build_institutes.py.')
+
+
+def payload(slug):
+    dataset = current_dataset(slug)
     start, end = int(request.args.get('start_year', 2016)), int(request.args.get('end_year', 2026))
     if not 1970 <= start <= end <= 2269:
         raise ValueError('Choose an inclusive year range between 1970 and 2269.')
@@ -44,9 +54,31 @@ def payload():
     return summarize(dataset, start, end, sources, areas, optional == 'true')
 
 
+def faculty_payload(name, slug=None):
+    """All loaded paper records, independent of institute summary filters."""
+    member = next((f for f in current_index()['faculty'] if f['name'] == name and (slug is None or f['slug'] == slug)), None)
+    if member is None:
+        return jsonify(error='Faculty member not found.'), 404
+    dataset = current_dataset(member['slug'])
+    papers = {p['key']: p for p in dataset.get('publications', []) if name in p['faculty']}
+    return jsonify({
+        'name': name,
+        'institution': dataset['metadata']['institution'],
+        'slug': member['slug'],
+        'generated_at': dataset['metadata']['generated_at'],
+        'records_available': dataset['metadata']['data_source'] != 'csrankings-published-counts',
+        'publications': list(papers.values()),
+    })
+
+
 @app.errorhandler(ValueError)
 def invalid_query(error):
     return jsonify(error=str(error)), 400
+
+
+@app.errorhandler(LookupError)
+def not_found(error):
+    return jsonify(error=str(error)), 404
 
 
 @app.errorhandler(FileNotFoundError)
@@ -54,39 +86,51 @@ def unavailable(error):
     return jsonify(error=str(error)), 503
 
 
+@app.route('/institutes')
+def institutes():
+    return jsonify(current_index())
+
+
+@app.route('/institutes/<slug>')
+def institute_rankings(slug):
+    return jsonify(payload(slug)['faculty_rankings'])
+
+
+@app.route('/institutes/<slug>/domains')
+def institute_domains(slug):
+    return jsonify(payload(slug))
+
+
+@app.route('/institutes/<slug>/validation')
+def institute_validation(slug):
+    current_dataset(slug)
+    return jsonify(load(INSTITUTES / f'{slug}.validation.json', 'Validation report is not available.'))
+
+
+@app.route('/faculty/<path:name>')
+def faculty_profile(name):
+    return faculty_payload(name)
+
+
+# IIIT Delhi routes from the single-institute version of this API.
 @app.route('/iiitd')
 def iiitd():
-    return jsonify(payload()['faculty_rankings'])
+    return institute_rankings(LEGACY_SLUG)
 
 
 @app.route('/iiitd/domains')
 def iiitd_domains():
-    return jsonify(payload())
+    return institute_domains(LEGACY_SLUG)
 
 
 @app.route('/iiitd/validation')
 def validation():
-    path = BASE / 'data/processed/iiitd_validation.json'
-    if not path.exists():
-        raise FileNotFoundError('Validation report is not available.')
-    return jsonify(json.loads(path.read_text(encoding='utf-8')))
+    return institute_validation(LEGACY_SLUG)
 
 
 @app.route('/iiitd/faculty/<path:name>')
-def faculty_profile(name):
-    """All loaded paper records, independent of institute summary filters."""
-    dataset = current_dataset()
-    faculty = next((f for f in dataset['faculty'] if f['name'] == name), None)
-    if faculty is None:
-        return jsonify(error='Faculty member not found.'), 404
-    papers = {p['key']: p for p in dataset.get('publications', []) if name in p['faculty']}
-    return jsonify({
-        'name': name,
-        'institution': dataset['metadata']['institution'],
-        'generated_at': dataset['metadata']['generated_at'],
-        'records_available': dataset['metadata']['data_source'] != 'csrankings-published-counts',
-        'publications': list(papers.values()),
-    })
+def iiitd_faculty(name):
+    return faculty_payload(name, LEGACY_SLUG)
 
 
 if __name__ == '__main__':

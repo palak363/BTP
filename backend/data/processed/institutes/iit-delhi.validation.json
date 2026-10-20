@@ -1,0 +1,40 @@
+{
+  "institution": "IIT Delhi",
+  "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
+  "compared_cells": 530,
+  "expected_papers": 627,
+  "actual_papers": 630,
+  "matching": false,
+  "missing_cells": 0,
+  "extra_cells": 3,
+  "differences": [
+    {
+      "name": "Priyanka Golia",
+      "area": "kdd",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Sayan Ranu",
+      "area": "iclr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "iclr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    }
+  ],
+  "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten. Missing cells: the reference counts papers this build does not. Extra cells: this build counts papers the reference does not."
+}

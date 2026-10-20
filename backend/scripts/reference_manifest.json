@@ -5,6 +5,7 @@
     "sigcse-research-articles.csv": "661063fe09a1c83aaa23521ad0ff82910a4920535126b43c684628ea55a0ae80",
     "csrankings.csv": "b78ce8b7ccc8d967b5560228e88ca53b2aa0b273846d863ccbc62d4eb8add009",
     "dblp-aliases.csv": "6719bf0ea2a5822434eb046ad7860be14a310437d1a34b239bedd91b5884f99a",
-    "generated-author-info.csv": "b92284079773e59cf0ec1b782062a2c511ef2882ba1d6088dab5d436a530042a"
+    "generated-author-info.csv": "b92284079773e59cf0ec1b782062a2c511ef2882ba1d6088dab5d436a530042a",
+    "institutions.csv": "254ead69bb539611cdf05033d5c95064db23acabddeca762b581f8ca5a867a70"
   }
 }

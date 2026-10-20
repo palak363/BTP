@@ -1,0 +1,40 @@
+{
+  "institution": "IIT Ropar",
+  "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
+  "compared_cells": 13,
+  "expected_papers": 10,
+  "actual_papers": 13,
+  "matching": false,
+  "missing_cells": 0,
+  "extra_cells": 3,
+  "differences": [
+    {
+      "name": "Abhinav Dhall",
+      "area": "cvpr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Abhinav Dhall",
+      "area": "iclr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Puneet Goyal",
+      "area": "kdd",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    }
+  ],
+  "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten. Missing cells: the reference counts papers this build does not. Extra cells: this build counts papers the reference does not."
+}

@@ -1,6 +1,6 @@
 ﻿import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { availableAreas, areaNames, localSummary } from "../data";
+import { availableAreas, areaNames, instituteByName, localSummary } from "../data";
 import ProfessorLink from "../components/ProfessorLink";
 import AreaSelector from "../components/AreaSelector";
 import { sourceNames } from "../publications";
@@ -18,7 +18,7 @@ function Distribution({ title, items, field }) {
   </section>;
 }
 
-function InstituteProfile() {
+function InstituteProfile({ institute }) {
   const [filters, setFilters] = useState({ start: 2016, end: 2026, areas: availableAreas, sources: ["csrankings"], optional: false });
   const [draftStart, setDraftStart] = useState("2016");
   const [draftEnd, setDraftEnd] = useState("2026");
@@ -35,20 +35,19 @@ function InstituteProfile() {
     if (filters.areas.length !== availableAreas.length) {
       for (const area of filters.areas) params.append("area", area);
     }
-    const request = filters.areas.length ? fetch(`${import.meta.env.VITE_API_BASE_URL || "/api"}/iiitd/domains?${params}`, { signal: controller.signal })
+    const request = filters.areas.length ? fetch(`${import.meta.env.VITE_API_BASE_URL || "/api"}/institutes/${institute.slug}/domains?${params}`, { signal: controller.signal })
       .then(async response => {
         if (!response.ok) throw new Error((await response.json().catch(() => ({}))).error || "The data service is unavailable.");
         return response.json();
-      }) : Promise.resolve(localSummary(filters.start, filters.end, [], filters.optional, filters.sources));
+      }) : localSummary(institute.slug, filters.start, filters.end, [], filters.optional, filters.sources);
     request
       .then(data => { if (active) setState({ data, loading: false, error: "", local: !filters.areas.length }); })
-      .catch(error => {
-        if (!active) return;
-        const fallback = localSummary(filters.start, filters.end, filters.areas, filters.optional, filters.sources);
-        setState({ data: fallback, loading: false, error: fallback ? "" : error.message, local: Boolean(fallback) });
-      }).finally(() => clearTimeout(timeout));
+      .catch(error => localSummary(institute.slug, filters.start, filters.end, filters.areas, filters.optional, filters.sources)
+        .then(fallback => { if (active) setState({ data: fallback, loading: false, error: fallback ? "" : error.message, local: Boolean(fallback) }); })
+        .catch(() => { if (active) setState({ data: null, loading: false, error: error.message, local: false }); }))
+      .finally(() => clearTimeout(timeout));
     return () => { active = false; clearTimeout(timeout); controller.abort(); };
-  }, [filters, retry]);
+  }, [filters, retry, institute.slug]);
 
   const changeFilters = next => {
     setState(previous => ({ ...previous, loading: true }));
@@ -60,7 +59,7 @@ function InstituteProfile() {
   const published = data?.metadata.data_source === "csrankings-published-counts";
   return <div className="page">
     <Link className="back-link" to="/">← All institutes</Link>
-    <div className="institute-heading"><div><p className="eyebrow">Institution profile / New Delhi</p><h1>IIIT Delhi</h1><p>Indraprastha Institute of Information Technology Delhi</p></div></div>
+    <div className="institute-heading"><div><p className="eyebrow">Institution profile / India</p><h1>{institute.name}</h1>{institute.homepage && <p><a href={institute.homepage} target="_blank" rel="noreferrer">{institute.homepage.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")} ↗</a></p>}</div></div>
     <section className="panel filter-panel" aria-label="Publication filters">
       <div className="source-toggles">{sources.map(([id,label]) => <button key={id} aria-pressed={filters.sources.includes(id)}
         disabled={!data?.metadata.available_sources.includes(id)}
@@ -80,6 +79,7 @@ function InstituteProfile() {
       <div className="panel error" role="alert"><h2>Data could not be loaded</h2><p>{state.error}</p><button onClick={() => {setState({...state,loading:true});setRetry(retry+1);}}>Try again</button></div> :
       data && <>
         <div className="data-note"><span className="status-dot" /><span>{state.local ? (published ? "Bundled reference snapshot" : "Bundled DBLP snapshot") : published ? "Published CSRankings snapshot" : "DBLP bibliography dataset"} · {filters.start}–{filters.end} inclusive · {filters.optional ? "Including optional venues" : "Default CSRankings venues"}</span></div>
+        {data.metadata.unresolved_faculty?.length > 0 && <details className="notice unresolved-faculty"><summary>{data.metadata.unresolved_faculty.length} faculty in the CSRankings roster could not be matched to a single DBLP profile and are not counted.</summary><ul>{data.metadata.unresolved_faculty.map(person => <li key={person.name}><strong>{person.name}</strong> · {person.reason}</li>)}</ul></details>}
         {published && <div className="notice">CSRankings counts are available. CORE A/A*, IEEE, ACM and unique-paper totals need a complete DBLP refresh.</div>}
         <section className="stat-grid" aria-label="Research summary">
           <article><span>Faculty in roster</span><strong>{format(data.total_faculty)}</strong><small>Zero-count faculty included</small></article>
@@ -101,6 +101,7 @@ function InstituteProfile() {
 
 export default function InstitutePage() {
   const { name } = useParams();
-  if (name !== "IIIT Delhi") return <div className="page"><Link className="back-link" to="/">← All institutes</Link><section className="panel placeholder-page"><span className="badge neutral">Placeholder</span><h1>{name}</h1><p>This institute’s research profile is coming later. Explore IIIT Delhi for available data.</p><Link className="button primary" to="/institute/IIIT%20Delhi">Explore IIIT Delhi ↗</Link></section></div>;
-  return <InstituteProfile />;
+  const institute = instituteByName(name);
+  if (!institute) return <div className="page"><Link className="back-link" to="/">← All institutes</Link><section className="panel placeholder-page"><span className="badge neutral">Not found</span><h1>{name}</h1><p>This institute is not in the CSRankings roster for India.</p><Link className="button primary" to="/#institutes">Browse institutes</Link></section></div>;
+  return <InstituteProfile key={institute.slug} institute={institute} />;
 }

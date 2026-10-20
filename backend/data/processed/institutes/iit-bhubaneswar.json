@@ -1,0 +1,1299 @@
+{
+  "metadata": {
+    "schema_version": 3,
+    "institution": "IIT Bhubaneswar",
+    "slug": "iit-bhubaneswar",
+    "homepage": "https://secs.iitbbs.ac.in/",
+    "data_source": "dblp-sparql",
+    "generated_at": "2026-10-20T20:15:16.272349+00:00",
+    "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
+    "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
+    "available_sources": [
+      "csrankings",
+      "core-a-star",
+      "core-a",
+      "ieee",
+      "acm"
+    ],
+    "core_edition": "CORE2023",
+    "available_areas": [
+      "Artificial intelligence",
+      "Computer vision",
+      "Machine learning & data mining",
+      "Natural language processing",
+      "The Web & information retrieval",
+      "Computer architecture",
+      "Computer networks",
+      "Computer security",
+      "Databases",
+      "Design automation",
+      "Embedded & real-time systems",
+      "High-performance computing",
+      "Mobile computing",
+      "Measurement & performance analysis",
+      "Operating systems",
+      "Programming languages",
+      "Software engineering",
+      "Algorithms & complexity",
+      "Cryptography",
+      "Logic & verification",
+      "Computational biology",
+      "Computer graphics",
+      "Human-computer interaction",
+      "Robotics",
+      "Visualization",
+      "Economics & computation",
+      "Computer science education",
+      "Other CORE areas",
+      "Other IEEE/ACM areas"
+    ],
+    "area_names": {
+      "aaai": "Artificial intelligence",
+      "ijcai": "Artificial intelligence",
+      "cvpr": "Computer vision",
+      "iccv": "Computer vision",
+      "eccv": "Computer vision",
+      "icml": "Machine learning & data mining",
+      "nips": "Machine learning & data mining",
+      "kdd": "Machine learning & data mining",
+      "iclr": "Machine learning & data mining",
+      "acl": "Natural language processing",
+      "emnlp": "Natural language processing",
+      "naacl": "Natural language processing",
+      "www": "The Web & information retrieval",
+      "sigir": "The Web & information retrieval",
+      "asplos": "Computer architecture",
+      "isca": "Computer architecture",
+      "micro": "Computer architecture",
+      "hpca": "Computer architecture",
+      "sigcomm": "Computer networks",
+      "nsdi": "Computer networks",
+      "ccs": "Computer security",
+      "oakland": "Computer security",
+      "usenixsec": "Computer security",
+      "ndss": "Computer security",
+      "pets": "Computer security",
+      "sigmod": "Databases",
+      "vldb": "Databases",
+      "icde": "Databases",
+      "pods": "Databases",
+      "dac": "Design automation",
+      "iccad": "Design automation",
+      "emsoft": "Embedded & real-time systems",
+      "rtss": "Embedded & real-time systems",
+      "rtas": "Embedded & real-time systems",
+      "sc": "High-performance computing",
+      "hpdc": "High-performance computing",
+      "ics": "High-performance computing",
+      "mobicom": "Mobile computing",
+      "mobisys": "Mobile computing",
+      "sensys": "Mobile computing",
+      "imc": "Measurement & performance analysis",
+      "sigmetrics": "Measurement & performance analysis",
+      "sosp": "Operating systems",
+      "osdi": "Operating systems",
+      "eurosys": "Operating systems",
+      "fast": "Operating systems",
+      "usenixatc": "Operating systems",
+      "popl": "Programming languages",
+      "pldi": "Programming languages",
+      "oopsla": "Programming languages",
+      "icfp": "Programming languages",
+      "icse": "Software engineering",
+      "fse": "Software engineering",
+      "ase": "Software engineering",
+      "issta": "Software engineering",
+      "focs": "Algorithms & complexity",
+      "stoc": "Algorithms & complexity",
+      "soda": "Algorithms & complexity",
+      "crypto": "Cryptography",
+      "eurocrypt": "Cryptography",
+      "cav": "Logic & verification",
+      "lics": "Logic & verification",
+      "ismb": "Computational biology",
+      "recomb": "Computational biology",
+      "siggraph": "Computer graphics",
+      "siggraph-asia": "Computer graphics",
+      "eurographics": "Computer graphics",
+      "chiconf": "Human-computer interaction",
+      "uist": "Human-computer interaction",
+      "ubicomp": "Human-computer interaction",
+      "icra": "Robotics",
+      "iros": "Robotics",
+      "rss": "Robotics",
+      "vis": "Visualization",
+      "vr": "Visualization",
+      "ec": "Economics & computation",
+      "wine": "Economics & computation",
+      "sigcse": "Computer science education"
+    },
+    "optional_venues": [
+      "ase",
+      "eurographics",
+      "eurosys",
+      "fast",
+      "hpca",
+      "icde",
+      "icfp",
+      "issta",
+      "kdd",
+      "ndss",
+      "oopsla",
+      "pets",
+      "pods",
+      "usenixatc"
+    ],
+    "unresolved_faculty": [
+      {
+        "name": "Sudipta Saha",
+        "reason": "no DBLP person with this name"
+      }
+    ],
+    "counting": "Unique DBLP keys; faculty credit is 1 / all authors; all reference venues, including optional venues.",
+    "validation": {
+      "matching": true,
+      "compared_cells": 6,
+      "missing_cells": 0,
+      "extra_cells": 0
+    }
+  },
+  "faculty": [
+    {
+      "name": "Abhik Jana",
+      "dblp_url": "https://dblp.org/pid/200/8353"
+    },
+    {
+      "name": "Debi Prosad Dogra",
+      "dblp_url": "https://dblp.org/pid/97/7630"
+    }
+  ],
+  "publications": [
+    {
+      "key": "conf/acl/ChalkidisJHBAKA22",
+      "type": "inproceedings",
+      "title": "LexGLUE: A Benchmark Dataset for Legal Language Understanding in English.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "ACL (1)",
+      "booktitle": "ACL (1)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "4310-4330",
+      "authors": [
+        "https://dblp.org/pid/118/9116",
+        "https://dblp.org/pid/17/7168",
+        "https://dblp.org/pid/199/8161",
+        "https://dblp.org/pid/200/8353",
+        "https://dblp.org/pid/225/2465",
+        "https://dblp.org/pid/87/6723",
+        "https://dblp.org/pid/99/7168"
+      ],
+      "dois": [
+        "10.18653/v1/2022.acl-long.297"
+      ],
+      "url": "https://dblp.org/db/conf/acl/acl2022-1#conf/acl/ChalkidisJHBAKA22",
+      "faculty": [
+        "Abhik Jana"
+      ],
+      "memberships": [
+        {
+          "venue": "ACL (1)",
+          "year": 2022,
+          "area": "acl",
+          "domain": "Natural language processing",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a-star",
+          "venue": "ACL",
+          "area": "acl",
+          "domain": "Natural language processing",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/acl/ChaudhuriPRMGJ025",
+      "type": "inproceedings",
+      "title": "TripCraft: A Benchmark for Spatio-Temporally Fine Grained Travel Planning.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "ACL (1)",
+      "booktitle": "ACL (1)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "17035-17064",
+      "authors": [
+        "https://dblp.org/pid/133/4864-2",
+        "https://dblp.org/pid/181/2823",
+        "https://dblp.org/pid/200/8353",
+        "https://dblp.org/pid/354/7072",
+        "https://dblp.org/pid/400/7313",
+        "https://dblp.org/pid/400/7641",
+        "https://dblp.org/pid/400/8246"
+      ],
+      "dois": [
+        "10.18653/v1/2025.acl-long.834"
+      ],
+      "url": "https://dblp.org/db/conf/acl/acl2025-1#conf/acl/ChaudhuriPRMGJ025",
+      "faculty": [
+        "Abhik Jana"
+      ],
+      "memberships": [
+        {
+          "venue": "ACL (1)",
+          "year": 2025,
+          "area": "acl",
+          "domain": "Natural language processing",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a-star",
+          "venue": "ACL",
+          "area": "acl",
+          "domain": "Natural language processing",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/acl/JanaPPGBM19",
+      "type": "inproceedings",
+      "title": "On the Compositionality Prediction of Noun Phrases using Poincaré Embeddings.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "ACL (1)",
+      "booktitle": "ACL (1)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3263-3274",
+      "authors": [
+        "https://dblp.org/pid/147/7887",
+        "https://dblp.org/pid/20/6100",
+        "https://dblp.org/pid/200/8353",
+        "https://dblp.org/pid/60/9162",
+        "https://dblp.org/pid/77/2307-2",
+        "https://dblp.org/pid/m/AnimeshMukherjee"
+      ],
+      "dois": [
+        "10.18653/v1/p19-1316"
+      ],
+      "url": "https://dblp.org/db/conf/acl/acl2019-1#conf/acl/JanaPPGBM19",
+      "faculty": [
+        "Abhik Jana"
+      ],
+      "memberships": [
+        {
+          "venue": "ACL (1)",
+          "year": 2019,
+          "area": "acl",
+          "domain": "Natural language processing",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a-star",
+          "venue": "ACL",
+          "area": "acl",
+          "domain": "Natural language processing",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/acpr/0002STRD17",
+      "type": "inproceedings",
+      "title": "Gait Analysis Using Shadow Motion.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "ACPR",
+      "booktitle": "ACPR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "453-458",
+      "authors": [
+        "https://dblp.org/pid/02/3108-2",
+        "https://dblp.org/pid/181/4611",
+        "https://dblp.org/pid/232/2542",
+        "https://dblp.org/pid/82/5415",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1109/acpr.2017.32"
+      ],
+      "url": "https://dblp.org/db/conf/acpr/acpr2017#conf/acpr/0002STRD17",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ACPR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/acpr/AgarwalDSR15",
+      "type": "inproceedings",
+      "title": "Segmentation and recognition of text written in 3D using Leap motion interface.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "ACPR",
+      "booktitle": "ACPR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "539-543",
+      "authors": [
+        "https://dblp.org/pid/181/4469",
+        "https://dblp.org/pid/181/4611",
+        "https://dblp.org/pid/82/5415",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1109/acpr.2015.7486561"
+      ],
+      "url": "https://dblp.org/db/conf/acpr/acpr2015#conf/acpr/AgarwalDSR15",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ACPR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/avss/BeheraVKD21",
+      "type": "inproceedings",
+      "title": "PIDLNet: A Physics-Induced Deep Learning Network for Characterization of Crowd Videos.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "AVSS",
+      "booktitle": "AVSS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-8",
+      "authors": [
+        "https://dblp.org/pid/134/1666",
+        "https://dblp.org/pid/310/6810",
+        "https://dblp.org/pid/310/7408",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1109/avss52988.2021.9663817"
+      ],
+      "url": "https://dblp.org/db/conf/avss/avss2021#conf/avss/BeheraVKD21",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "AVSS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/bigmm/PatwardhanDVDD19",
+      "type": "inproceedings",
+      "title": "ViTag: Automatic Video Tagging Using Segmentation and Conceptual Inference.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "BigMM",
+      "booktitle": "BigMM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "271-276",
+      "authors": [
+        "https://dblp.org/pid/246/4639",
+        "https://dblp.org/pid/255/0157",
+        "https://dblp.org/pid/46/8779",
+        "https://dblp.org/pid/66/446",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1109/bigmm.2019.00-12"
+      ],
+      "url": "https://dblp.org/db/conf/bigmm/bigmm2019#conf/bigmm/PatwardhanDVDD19",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "BigMM",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/embc/DeyDRB16",
+      "type": "inproceedings",
+      "title": "Autonomous vision-guided approach for the analysis and grading of vertical suspension tests during Hammersmith Infant Neurological Examination (HINE).",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "EMBC",
+      "booktitle": "EMBC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "863-866",
+      "authors": [
+        "https://dblp.org/pid/11/2792",
+        "https://dblp.org/pid/77/5591",
+        "https://dblp.org/pid/82/5415",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1109/embc.2016.7590837"
+      ],
+      "url": "https://dblp.org/db/conf/embc/embc2016#conf/embc/DeyDRB16",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "EMBC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/embc/SikdarBDB15",
+      "type": "inproceedings",
+      "title": "Contactless vision-based pulse rate detection of Infants Under Neurological Examinations.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "EMBC",
+      "booktitle": "EMBC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "650-653",
+      "authors": [
+        "https://dblp.org/pid/147/5499",
+        "https://dblp.org/pid/171/9051",
+        "https://dblp.org/pid/77/5591",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1109/embc.2015.7318446"
+      ],
+      "url": "https://dblp.org/db/conf/embc/embc2015#conf/embc/SikdarBDB15",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "EMBC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/emnlp/MullickSJG25",
+      "type": "inproceedings",
+      "title": "Text Takes Over: A Study of Modality Bias in Multimodal Intent Detection.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "EMNLP",
+      "booktitle": "EMNLP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "24028-24058",
+      "authors": [
+        "https://dblp.org/pid/198/2040",
+        "https://dblp.org/pid/198/5454",
+        "https://dblp.org/pid/200/8353",
+        "https://dblp.org/pid/77/2307-2"
+      ],
+      "dois": [
+        "10.18653/v1/2025.emnlp-main.1226"
+      ],
+      "url": "https://dblp.org/db/conf/emnlp/emnlp2025#conf/emnlp/MullickSJG25",
+      "faculty": [
+        "Abhik Jana"
+      ],
+      "memberships": [
+        {
+          "venue": "EMNLP",
+          "year": 2025,
+          "area": "emnlp",
+          "domain": "Natural language processing",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a-star",
+          "venue": "EMNLP",
+          "area": "emnlp",
+          "domain": "Natural language processing",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/emnlp/SharmaSJTGG19",
+      "type": "inproceedings",
+      "title": "Incorporating Domain Knowledge into Medical NLI using Knowledge Graphs.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "EMNLP/IJCNLP (1)",
+      "booktitle": "EMNLP/IJCNLP (1)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "6091-6096",
+      "authors": [
+        "https://dblp.org/pid/191/6050",
+        "https://dblp.org/pid/200/8353",
+        "https://dblp.org/pid/242/4243",
+        "https://dblp.org/pid/248/7510",
+        "https://dblp.org/pid/52/6987",
+        "https://dblp.org/pid/77/2307-2"
+      ],
+      "dois": [
+        "10.18653/v1/d19-1631"
+      ],
+      "url": "https://dblp.org/db/conf/emnlp/emnlp2019-1#conf/emnlp/SharmaSJTGG19",
+      "faculty": [
+        "Abhik Jana"
+      ],
+      "memberships": [
+        {
+          "venue": "EMNLP/IJCNLP (1)",
+          "year": 2019,
+          "area": "emnlp",
+          "domain": "Natural language processing",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a-star",
+          "venue": "EMNLP",
+          "area": "emnlp",
+          "domain": "Natural language processing",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/icassp/VamsikrishnaDB16",
+      "type": "inproceedings",
+      "title": "Classification of head movement patterns to aid patients undergoing home-based cervical spine rehabilitation.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "ICASSP",
+      "booktitle": "ICASSP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "849-853",
+      "authors": [
+        "https://dblp.org/pid/179/0784",
+        "https://dblp.org/pid/77/5591",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1109/icassp.2016.7471795"
+      ],
+      "url": "https://dblp.org/db/conf/icassp/icassp2016#conf/icassp/VamsikrishnaDB16",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICASSP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/icpr/BeheraDDR18",
+      "type": "inproceedings",
+      "title": "Air Signature Recognition Using Deep Convolutional Neural Network-Based Sequential Model.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "ICPR",
+      "booktitle": "ICPR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3525-3530",
+      "authors": [
+        "https://dblp.org/pid/147/5499",
+        "https://dblp.org/pid/227/2561",
+        "https://dblp.org/pid/82/5415",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1109/icpr.2018.8546265"
+      ],
+      "url": "https://dblp.org/db/conf/icpr/icpr2018#conf/icpr/BeheraDDR18",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICPR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/icsipa/AhmedKDPLCK17",
+      "type": "inproceedings",
+      "title": "Video synopsis generation using spatio-temporal groups.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "ICSIPA",
+      "booktitle": "ICSIPA",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "512-517",
+      "authors": [
+        "https://dblp.org/pid/08/5491",
+        "https://dblp.org/pid/120/8562",
+        "https://dblp.org/pid/154/3197-2",
+        "https://dblp.org/pid/206/6224",
+        "https://dblp.org/pid/50/2990",
+        "https://dblp.org/pid/86/2571",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1109/icsipa.2017.8120666"
+      ],
+      "url": "https://dblp.org/db/conf/icsipa/icsipa2017#conf/icsipa/AhmedKDPLCK17",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICSIPA",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/jcdl/JanaMMG17",
+      "type": "inproceedings",
+      "title": "WikiM: Metapaths Based Wikification of Scientific Abstracts.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "JCDL",
+      "booktitle": "JCDL",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "21-30",
+      "authors": [
+        "https://dblp.org/pid/200/8310",
+        "https://dblp.org/pid/200/8353",
+        "https://dblp.org/pid/77/2307-2",
+        "https://dblp.org/pid/m/AnimeshMukherjee"
+      ],
+      "dois": [
+        "10.1109/jcdl.2017.7991556"
+      ],
+      "url": "https://dblp.org/db/conf/jcdl/jcdl2017#conf/jcdl/JanaMMG17",
+      "faculty": [
+        "Abhik Jana"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "JCDL",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/mm/NayakTXLD25",
+      "type": "inproceedings",
+      "title": "Can Person-Level Attributes Improve Group Re-Identification?",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "ACM Multimedia",
+      "booktitle": "ACM Multimedia",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3182-3191",
+      "authors": [
+        "https://dblp.org/pid/310/7408",
+        "https://dblp.org/pid/372/3118",
+        "https://dblp.org/pid/392/5443",
+        "https://dblp.org/pid/425/2409",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1145/3746027.3755004"
+      ],
+      "url": "https://dblp.org/db/conf/mm/mm2025#conf/mm/NayakTXLD25",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "ACMMM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        },
+        {
+          "source": "acm",
+          "venue": "ACM Multimedia",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/naacl/JanaG18",
+      "type": "inproceedings",
+      "title": "Can Network Embedding of Distributional Thesaurus Be Combined with Word Vectors for Better Representation?",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "NAACL-HLT",
+      "booktitle": "NAACL-HLT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "463-473",
+      "authors": [
+        "https://dblp.org/pid/200/8353",
+        "https://dblp.org/pid/77/2307-2"
+      ],
+      "dois": [
+        "10.18653/v1/n18-1043"
+      ],
+      "url": "https://dblp.org/db/conf/naacl/naacl2018-1#conf/naacl/JanaG18",
+      "faculty": [
+        "Abhik Jana"
+      ],
+      "memberships": [
+        {
+          "venue": "NAACL-HLT",
+          "year": 2018,
+          "area": "naacl",
+          "domain": "Natural language processing",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a",
+          "venue": "NAACL",
+          "area": "naacl",
+          "domain": "Natural language processing",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/ncvpripg/BhoiDR15",
+      "type": "inproceedings",
+      "title": "Handwritten text recognition in Odia script using Hidden Markov Model.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "NCVPRIPG",
+      "booktitle": "NCVPRIPG",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-3",
+      "authors": [
+        "https://dblp.org/pid/202/5448",
+        "https://dblp.org/pid/82/5415",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1109/ncvpripg.2015.7490014"
+      ],
+      "url": "https://dblp.org/db/conf/ncvpripg/ncvpripg2015#conf/ncvpripg/BhoiDR15",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCVPRIPG",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/sac/Jana0G19",
+      "type": "inproceedings",
+      "title": "Detecting reliable novel word senses: a network-centric approach.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "SAC",
+      "booktitle": "SAC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "976-983",
+      "authors": [
+        "https://dblp.org/pid/200/8353",
+        "https://dblp.org/pid/77/2307-2",
+        "https://dblp.org/pid/m/AnimeshMukherjee"
+      ],
+      "dois": [
+        "10.1145/3297280.3297376"
+      ],
+      "url": "https://dblp.org/db/conf/sac/sac2019#conf/sac/Jana0G19",
+      "faculty": [
+        "Abhik Jana"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "SAC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/sac/VenkateshJRS0B22",
+      "type": "inproceedings",
+      "title": "Using distributional thesaurus to enhance transformer-based contextualized representations for low resource languages.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "SAC",
+      "booktitle": "SAC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "845-852",
+      "authors": [
+        "https://dblp.org/pid/136/9244",
+        "https://dblp.org/pid/20/6100",
+        "https://dblp.org/pid/200/8353",
+        "https://dblp.org/pid/207/2261",
+        "https://dblp.org/pid/260/0138",
+        "https://dblp.org/pid/38/1104"
+      ],
+      "dois": [
+        "10.1145/3477314.3507077"
+      ],
+      "url": "https://dblp.org/db/conf/sac/sac2022#conf/sac/VenkateshJRS0B22",
+      "faculty": [
+        "Abhik Jana"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "SAC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/services/RayDBSBMMMSPMB11",
+      "type": "inproceedings",
+      "title": "A Web Enabled Health Information System for the Neonatal Intensive Care Unit (NICU).",
+      "year": 2011,
+      "publication_year": 2011,
+      "event_year": 2011,
+      "venue": "SERVICES",
+      "booktitle": "SERVICES",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "451-458",
+      "authors": [
+        "https://dblp.org/pid/06/10089",
+        "https://dblp.org/pid/137/5567",
+        "https://dblp.org/pid/21/10089",
+        "https://dblp.org/pid/21/3522",
+        "https://dblp.org/pid/226/2144",
+        "https://dblp.org/pid/30/1679",
+        "https://dblp.org/pid/35/3376",
+        "https://dblp.org/pid/39/7627",
+        "https://dblp.org/pid/59/487",
+        "https://dblp.org/pid/62/9641",
+        "https://dblp.org/pid/84/8973",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1109/services.2011.38"
+      ],
+      "url": "https://dblp.org/db/conf/services/services2011#conf/services/RayDBSBMMMSPMB11",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "SERVICES",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2011
+        }
+      ]
+    },
+    {
+      "key": "conf/spcom/RichaADD22",
+      "type": "inproceedings",
+      "title": "Patch Level Segmentation and Visualization of Capsule Network Inference for Breast Metastases Detection.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "SPCOM",
+      "booktitle": "SPCOM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/154/3197-2",
+        "https://dblp.org/pid/325/8670",
+        "https://dblp.org/pid/93/8011",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1109/spcom55316.2022.9840781"
+      ],
+      "url": "https://dblp.org/db/conf/spcom/spcom2022#conf/spcom/RichaADD22",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "SPCOM",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/tencon/TripathySDD19",
+      "type": "inproceedings",
+      "title": "Natural Gestures to Interact with 3D Virtual Objects using Deep Learning Framework.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1363-1368",
+      "authors": [
+        "https://dblp.org/pid/227/2561",
+        "https://dblp.org/pid/255/1454",
+        "https://dblp.org/pid/255/2048",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1109/tencon.2019.8929637"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2019#conf/tencon/TripathySDD19",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/wacv/KhanGTCJDK26",
+      "type": "inproceedings",
+      "title": "VAST-ReID: A Low-Light Benchmark Dataset for Person Re-Identification with Visual and Attribute-Rich Semantic Tracking.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "WACV",
+      "booktitle": "WACV",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "5833-5841",
+      "authors": [
+        "https://dblp.org/pid/120/8562",
+        "https://dblp.org/pid/165/5181",
+        "https://dblp.org/pid/192/1417",
+        "https://dblp.org/pid/27/4612",
+        "https://dblp.org/pid/310/7408",
+        "https://dblp.org/pid/408/6084",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1109/wacv61042.2026.00565"
+      ],
+      "url": "https://dblp.org/db/conf/wacv/wacv2026#conf/wacv/KhanGTCJDK26",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "WACV",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        },
+        {
+          "source": "ieee",
+          "venue": "WACV",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "conf/wacv/RampuriaNTJSPCJDK26",
+      "type": "inproceedings",
+      "title": "IMPACT: Interpretable Most Important Person Analysis and Classification using Transformer-based Models.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "WACV",
+      "booktitle": "WACV",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "8179-8187",
+      "authors": [
+        "https://dblp.org/pid/120/8562",
+        "https://dblp.org/pid/192/1417",
+        "https://dblp.org/pid/27/4612",
+        "https://dblp.org/pid/289/2807",
+        "https://dblp.org/pid/310/7408",
+        "https://dblp.org/pid/372/3118",
+        "https://dblp.org/pid/392/5118",
+        "https://dblp.org/pid/436/5421",
+        "https://dblp.org/pid/97/7630",
+        "https://dblp.org/pid/98/9446"
+      ],
+      "dois": [
+        "10.1109/wacv61042.2026.00789"
+      ],
+      "url": "https://dblp.org/db/conf/wacv/wacv2026#conf/wacv/RampuriaNTJSPCJDK26",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "WACV",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        },
+        {
+          "source": "ieee",
+          "venue": "WACV",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "conf/wacv/ThakareDCKK24",
+      "type": "inproceedings",
+      "title": "Let's Observe Them Over Time: An Improved Pedestrian Attribute Recognition Approach.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "WACV",
+      "booktitle": "WACV",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "697-706",
+      "authors": [
+        "https://dblp.org/pid/120/8562",
+        "https://dblp.org/pid/27/4612",
+        "https://dblp.org/pid/310/7408",
+        "https://dblp.org/pid/82/9877",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1109/wacv57701.2024.00076"
+      ],
+      "url": "https://dblp.org/db/conf/wacv/wacv2024#conf/wacv/ThakareDCKK24",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "WACV",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        },
+        {
+          "source": "ieee",
+          "venue": "WACV",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/wacv/ThakareLNDCJK25",
+      "type": "inproceedings",
+      "title": "CLIPping Imbalances: A Novel Evaluation Baseline and PEARL Dataset for Pedestrian Attribute Recognition.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "WACV",
+      "booktitle": "WACV",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "7102-7111",
+      "authors": [
+        "https://dblp.org/pid/120/8562",
+        "https://dblp.org/pid/192/1417",
+        "https://dblp.org/pid/27/4612",
+        "https://dblp.org/pid/310/7408",
+        "https://dblp.org/pid/372/3118",
+        "https://dblp.org/pid/392/5443",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1109/wacv61041.2025.00690"
+      ],
+      "url": "https://dblp.org/db/conf/wacv/wacv2025#conf/wacv/ThakareLNDCJK25",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "WACV",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        },
+        {
+          "source": "ieee",
+          "venue": "WACV",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/wacv/ThakareRDCK23",
+      "type": "inproceedings",
+      "title": "DyAnNet: A Scene Dynamicity Guided Self-Trained Video Anomaly Detection Network.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "WACV",
+      "booktitle": "WACV",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "5530-5539",
+      "authors": [
+        "https://dblp.org/pid/120/8562",
+        "https://dblp.org/pid/27/4612",
+        "https://dblp.org/pid/310/7408",
+        "https://dblp.org/pid/332/2106",
+        "https://dblp.org/pid/97/7630"
+      ],
+      "dois": [
+        "10.1109/wacv56688.2023.00550"
+      ],
+      "url": "https://dblp.org/db/conf/wacv/wacv2023#conf/wacv/ThakareRDCK23",
+      "faculty": [
+        "Debi Prosad Dogra"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "WACV",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        },
+        {
+          "source": "ieee",
+          "venue": "WACV",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    }
+  ]
+}

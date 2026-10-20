@@ -1,0 +1,85 @@
+{
+  "institution": "IISc Bangalore",
+  "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
+  "compared_cells": 534,
+  "expected_papers": 627,
+  "actual_papers": 640,
+  "matching": false,
+  "missing_cells": 0,
+  "extra_cells": 8,
+  "differences": [
+    {
+      "name": "Anirban Chakraborty 0001",
+      "area": "eccv",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Arindam Khan 0001",
+      "area": "iclr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Pushpak Jagtap",
+      "area": "icra",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Shishir Kolathaya",
+      "area": "icra",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Siddharth Barman",
+      "area": "iclr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Venkatesh Babu Radhakrishnan",
+      "area": "cvpr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 4,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.6916666666666667
+    },
+    {
+      "name": "Venkatesh Babu Radhakrishnan",
+      "area": "eccv",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 3,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.65
+    },
+    {
+      "name": "Venkatesh Babu Radhakrishnan",
+      "area": "iclr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    }
+  ],
+  "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten. Missing cells: the reference counts papers this build does not. Extra cells: this build counts papers the reference does not."
+}

@@ -1,7 +1,12 @@
 {
+  "institution": "IIIT Delhi",
   "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
   "compared_cells": 156,
+  "expected_papers": 182,
+  "actual_papers": 188,
   "matching": false,
+  "missing_cells": 0,
+  "extra_cells": 6,
   "differences": [
     {
       "name": "A. Venkata Subramanyam",
@@ -58,5 +63,5 @@
       "actual_adjusted": 0.2
     }
   ],
-  "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten."
+  "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten. Missing cells: the reference counts papers this build does not. Extra cells: this build counts papers the reference does not."
 }

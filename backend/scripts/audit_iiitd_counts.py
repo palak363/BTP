@@ -16,7 +16,7 @@ BASE = Path(__file__).resolve().parents[1]
 
 def audit(reference, start, end):
     from venue_rules import classify_csr
-    dataset = json.loads((BASE / 'data/processed/iiitd_dataset.json').read_text(encoding='utf-8'))
+    dataset = json.loads((BASE / 'data/processed/institutes/iiit-delhi.json').read_text(encoding='utf-8'))
     aliases = {r['alias']: r['name'] for r in read_csv(reference / 'dblp-aliases.csv')}
     expected_names = {canonical(r['name'], aliases) for r in read_csv(reference / 'csrankings.csv')
                       if r['affiliation'] == 'IIIT Delhi'}

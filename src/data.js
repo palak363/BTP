@@ -1,58 +1,36 @@
-﻿import snapshot from "../backend/data/processed/iiitd_dataset.json";
+﻿import index from "../backend/data/processed/institutes.json";
+import { localProfessor as professorFrom, localSummary as summarize } from "./summary";
 
-export const availableAreas = snapshot.metadata.available_areas;
-export const areaNames = snapshot.metadata.area_names;
-export const availableSources = snapshot.metadata.available_sources;
-export const facultyDirectory = snapshot.faculty;
+// Each institute's dataset is a separate static file, fetched only when needed.
+const files = import.meta.glob(["../backend/data/processed/institutes/*.json", "!**/*.validation*.json"], { query: "?url", import: "default" });
+const loaded = new Map();
 
-export function localProfessor(name) {
-  if (!snapshot.faculty.some(faculty => faculty.name === name)) return null;
-  return {
-    name, institution: snapshot.metadata.institution, generated_at: snapshot.metadata.generated_at,
-    records_available: snapshot.metadata.data_source !== "csrankings-published-counts",
-    publications: [...new Map((snapshot.publications || []).filter(paper => paper.faculty.includes(name))
-      .map(paper => [paper.key, paper])).values()],
-  };
+export const institutes = index.institutes;
+export const availableAreas = index.metadata.available_areas;
+export const areaNames = index.metadata.area_names;
+export const availableSources = index.metadata.available_sources;
+export const defaultWindow = index.metadata.default_window;
+export const facultyDirectory = index.faculty;
+export const instituteByName = name => institutes.find(institute => institute.name === name);
+export const facultyMember = name => facultyDirectory.find(person => person.name === name);
+
+export function loadInstitute(slug) {
+  if (!loaded.has(slug)) {
+    const file = files[`../backend/data/processed/institutes/${slug}.json`];
+    const request = file ? file().then(url => fetch(url)).then(response => {
+      if (!response.ok) throw new Error("The bundled institute data could not be loaded.");
+      return response.json();
+    }) : Promise.reject(new Error("No bundled data for this institute."));
+    loaded.set(slug, request.catch(error => { loaded.delete(slug); throw error; }));
+  }
+  return loaded.get(slug);
 }
 
-export function localSummary(start, end, area, includeOptional = false, sources = ["csrankings"]) {
-  const selectedAreas = Array.isArray(area) ? area : area ? [area] : null;
-  if (sources.some(source => !availableSources.includes(source))) return null;
-  const rows = new Map(snapshot.faculty.map(f => [f.name, { ...f, papers: 0, domains: {} }]));
-  const domains = {}, venues = {};
-  const published = snapshot.metadata.data_source === "csrankings-published-counts";
-  let unique = 0;
-  const addFaculty = (name, domain, count) => {
-    const row = rows.get(name);
-    row.papers += count;
-    row.domains[domain] = (row.domains[domain] || 0) + count;
-  };
-  const addDistribution = (domain, venue, count) => {
-    domains[domain] = (domains[domain] || 0) + count;
-    venues[venue] = (venues[venue] || 0) + count;
-  };
-  if (published) {
-    for (const cell of snapshot.counts) {
-      if (!includeOptional && snapshot.metadata.optional_venues.includes(cell.area)) continue;
-      const domain = snapshot.metadata.area_names[cell.area] || cell.area;
-      if (cell.year < start || cell.year > end || (selectedAreas && !selectedAreas.includes(domain))) continue;
-      addFaculty(cell.name, domain, cell.count);
-      addDistribution(domain, cell.area, cell.count);
-    }
-  } else {
-    for (const paper of snapshot.publications) {
-      const membership = paper.memberships.find(m => sources.includes(m.source) && m.year >= start && m.year <= end &&
-        (!selectedAreas || selectedAreas.includes(m.domain)) && (m.source !== "csrankings" || includeOptional || !snapshot.metadata.optional_venues.includes(m.area)));
-      if (!membership) continue;
-      unique += 1;
-      addDistribution(membership.domain, membership.venue, 1);
-      for (const name of paper.faculty) addFaculty(name, membership.domain, 1);
-    }
-  }
-  const faculty = [...rows.values()].map(row => ({ ...row, top_domain: Object.entries(row.domains).sort((a,b) => b[1]-a[1])[0]?.[0] || "No selected papers" }));
-  return { metadata: snapshot.metadata, total_faculty: faculty.length, total_papers: published ? null : unique,
-    faculty_paper_count: faculty.reduce((sum,f) => sum + f.papers, 0),
-    faculty_rankings: faculty,
-    top_areas: Object.entries(domains).map(([area,papers]) => ({area,papers})).sort((a,b) => b.papers-a.papers),
-    top_venues: Object.entries(venues).map(([venue,papers]) => ({venue,papers})).sort((a,b) => b.papers-a.papers) };
+export async function localSummary(slug, ...filters) {
+  return summarize(await loadInstitute(slug), ...filters);
+}
+
+export async function localProfessor(name) {
+  const member = facultyMember(name);
+  return member ? professorFrom(await loadInstitute(member.slug), name) : null;
 }

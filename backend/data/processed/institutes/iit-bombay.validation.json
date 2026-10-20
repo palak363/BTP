@@ -1,0 +1,292 @@
+{
+  "institution": "IIT Bombay",
+  "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
+  "compared_cells": 654,
+  "expected_papers": 724,
+  "actual_papers": 748,
+  "matching": false,
+  "missing_cells": 7,
+  "extra_cells": 24,
+  "differences": [
+    {
+      "name": "Abir De",
+      "area": "iclr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.34285714285714286
+    },
+    {
+      "name": "Aditya Desai",
+      "area": "iclr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.225
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "aaai",
+      "year": 2019,
+      "expected_papers": 1,
+      "actual_papers": 0,
+      "expected_adjusted": 0.33333,
+      "actual_adjusted": 0.0
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "ec",
+      "year": 2016,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "ec",
+      "year": 2017,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "focs",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "icml",
+      "year": 2014,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "icml",
+      "year": 2018,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "icml",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "icml",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "icra",
+      "year": 2021,
+      "expected_papers": 1,
+      "actual_papers": 0,
+      "expected_adjusted": 0.33333,
+      "actual_adjusted": 0.0
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "iros",
+      "year": 2021,
+      "expected_papers": 1,
+      "actual_papers": 0,
+      "expected_adjusted": 0.2,
+      "actual_adjusted": 0.0
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "iros",
+      "year": 2022,
+      "expected_papers": 1,
+      "actual_papers": 0,
+      "expected_adjusted": 0.2,
+      "actual_adjusted": 0.0
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "iros",
+      "year": 2023,
+      "expected_papers": 1,
+      "actual_papers": 0,
+      "expected_adjusted": 0.1,
+      "actual_adjusted": 0.0
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "nips",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "nips",
+      "year": 2022,
+      "expected_papers": 1,
+      "actual_papers": 2,
+      "expected_adjusted": 0.5,
+      "actual_adjusted": 0.5833333333333333
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "nips",
+      "year": 2023,
+      "expected_papers": 1,
+      "actual_papers": 0,
+      "expected_adjusted": 0.5,
+      "actual_adjusted": 0.0
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "nips",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "soda",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "soda",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Arpit Agarwal",
+      "area": "sosp",
+      "year": 2011,
+      "expected_papers": 1,
+      "actual_papers": 0,
+      "expected_adjusted": 0.037037,
+      "actual_adjusted": 0.0
+    },
+    {
+      "name": "Ashutosh Gupta 0001",
+      "area": "iclr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Biplab Banerjee",
+      "area": "cvpr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Biplab Banerjee",
+      "area": "eccv",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5833333333333333
+    },
+    {
+      "name": "Pratik Jawanpuria",
+      "area": "iclr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "S. Akshay 0001",
+      "area": "iclr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Soumen Chakrabarti",
+      "area": "iclr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.34285714285714286
+    },
+    {
+      "name": "Sujoy Bhore",
+      "area": "iclr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5333333333333333
+    },
+    {
+      "name": "Sujoy Bhore",
+      "area": "kdd",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Suraj Shetiya",
+      "area": "kdd",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.4
+    },
+    {
+      "name": "Suraj Shetiya",
+      "area": "vldb",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    }
+  ],
+  "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten. Missing cells: the reference counts papers this build does not. Extra cells: this build counts papers the reference does not."
+}

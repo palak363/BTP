@@ -1,6 +1,6 @@
 ﻿# India CS Research
 
-A React + Flask research explorer, currently built for the 33 IIIT Delhi faculty in a pinned CSRankings roster. National rankings and institute comparisons remain explicitly labelled placeholders.
+A React + Flask research explorer for every Indian institute in a pinned CSRankings roster. Each institute has its own DBLP-built dataset; the home page ranks institutes and the compare page shows them side by side.
 
 ## Run the app
 
@@ -11,7 +11,7 @@ npm.cmd install
 npm.cmd run dev
 ```
 
-Open http://localhost:5173. The UI includes the generated DBLP snapshot, so year, area, faculty search, sorting, and source selections also work without Flask. The interface labels this as a bundled snapshot.
+Open http://localhost:5173. The UI includes the generated DBLP snapshots, so year, area, faculty search, sorting, and source selections also work without Flask. Each institute's snapshot is a separate file that loads only when its page is opened. The interface labels this as a bundled snapshot.
 
 To use the API, in a second terminal:
 
@@ -22,23 +22,33 @@ python backend/api/app.py
 
 Vite proxies /api to http://127.0.0.1:5000. A deployed frontend can set VITE_API_BASE_URL to the API origin. PostgreSQL is no longer required to run the pilot: the API reads the same publication artifact that generates the rankings and domain summaries. Existing database contents are not changed.
 
-## Rebuild the IIITD dataset
+## Rebuild the datasets
 
 ```powershell
-# Download checksum-verified reference inputs and resolve exact faculty identities.
-python backend/scripts/prepare_sources.py
+# Download checksum-verified reference inputs.
+python backend/scripts/prepare_sources.py --download-only
 
-# Fetch complete DBLP bibliographies, classify venues, reconcile and publish outputs.
-python backend/scripts/build_iiitd_dataset.py
+# Resolve every Indian institute's CSRankings faculty to exact DBLP identities.
+python backend/scripts/institutes.py
 
-# Repeat reproducibly from the downloaded bibliographies.
-python backend/scripts/build_iiitd_dataset.py --offline
+# Fetch complete DBLP bibliographies, classify venues, reconcile and publish all institutes.
+python backend/scripts/build_institutes.py
+
+# Repeat reproducibly from the downloaded bibliographies, or rebuild selected institutes.
+python backend/scripts/build_institutes.py --offline
+python backend/scripts/build_institutes.py --offline --institute "IIT Bombay" --institute "IISc Bangalore"
 
 # Explicitly refresh every bibliography.
-python backend/scripts/build_iiitd_dataset.py --refresh
+python backend/scripts/build_institutes.py --refresh
 ```
 
-Paths are relative to the scripts, so these commands do not depend on your working directory. run_pipeline.py and extract_domains.py call the same builder. convert_to_pipeline.py calls the exact-identity resolver.
+Paths are relative to the scripts, so these commands do not depend on your working directory. build_iiitd_dataset.py, run_pipeline.py and extract_domains.py build IIIT Delhi only, with the same options. A first full build fetches about 1,100 bibliographies and takes roughly 20–60 minutes; later builds reuse the cache.
+
+## Institutes and faculty identities
+
+Indian institutes are those with country code `in` in the pinned CSRankings `institutions.csv`. Their faculty come from the pinned `csrankings.csv`, with DBLP aliases applied. institutes.py writes `backend/data/raw/india_faculty.csv` (resolved faculty) and `india_unresolved.csv`.
+
+Each name is resolved to exactly one DBLP person, in order: the DBLP primary name; otherwise a unique DBLP person with that alternate name; otherwise, when several DBLP people share the name, the one whose DBLP homepage equals the CSRankings homepage or whose DBLP affiliations name the institute. Anything still ambiguous or missing is never guessed: it is listed in `india_unresolved.csv` and on the institute page, and contributes no papers. Where CSRankings lists one person under an old and a numbered DBLP name (for example Y. Narahari and Y. Narahari 0001), both rows merge into one faculty member and the reference counts of both names are compared against that person.
 
 The default fetcher uses DBLP's public SPARQL service. The XML endpoint currently returns an HTML challenge in this environment; it remains available via --backend xml. Neither fetcher silently turns failures into zero counts. Raw responses are cached in backend/data/cache; caches and downloaded upstream reference files are excluded from git.
 
@@ -64,7 +74,7 @@ Faculty paper count counts a shared paper for each faculty author. Unique instit
 
 CSRankings rules, aliases, roster and comparison data are pinned to revision b2e76bcec658a429c26011530767528839d524df. The reference manifest records SHA-256 checksums. Each build compares every faculty/venue/year cell against that reference, including optional venues and historical years; adjusted credits allow only the reference CSV's five-significant-digit rounding.
 
-The normal build refuses to replace the dataset if reconciliation fails. It writes iiitd_validation_failed.json for investigation. --allow-reference-differences is an explicit escape hatch for reviewed differences after source updates. Raw paper counts are never overwritten to force agreement.
+Each institute's report separates missing cells (the reference counts papers this build does not) from extra cells (this build counts papers the reference does not, typically papers DBLP added after the snapshot). The normal build refuses to replace any dataset if an institute has missing cells and writes `institutes/<slug>.validation_failed.json` for investigation. --allow-reference-differences is an explicit escape hatch for reviewed differences after source updates. Raw paper counts are never overwritten to force agreement.
 
 ## CORE extension
 
@@ -72,7 +82,7 @@ Select CSRankings, CORE A*, CORE A, or their union. Overlapping papers count onc
 
 CORE ranks venues, not individual paper tracks. This implementation includes conference papers with at least six pages, or papers that already pass the venue-specific CSRankings full-paper rules. It excludes workshop variants and does not classify arbitrary journal articles as conference papers. Shorter legitimate conference papers can therefore be excluded under this stated policy. Additional CORE venues outside the CSRankings area map appear under Other CORE areas.
 
-The CORE coverage audit checks all 60 A* and 117 A entries in the pinned CORE2023 catalogue and recomputes all 33 faculty counts from cached bibliographies. Corrected aliases include ECML/PKDD, APPROX-RANDOM, ICSM, OOPSLA1/2, PoPETs and IEEE S&P. Semantic Web ISWC is resolved using its exact venue name plus the verified DBLP `conf/semweb/` series, keeping Wearable Computers and named satellite tracks separate. Full catalogue titles also resolve exactly. This does not establish complete coverage of every historical DBLP alias or refresh the catalogue to ICORE2026.
+The CORE coverage audit checks all 60 A* and 117 A entries in the pinned CORE2023 catalogue and recomputes all 33 IIIT Delhi faculty counts from cached bibliographies. Corrected aliases include ECML/PKDD, APPROX-RANDOM, ICSM, OOPSLA1/2, PoPETs and IEEE S&P. Semantic Web ISWC is resolved using its exact venue name plus the verified DBLP `conf/semweb/` series, keeping Wearable Computers and named satellite tracks separate. Full catalogue titles also resolve exactly. This does not establish complete coverage of every historical DBLP alias or refresh the catalogue to ICORE2026.
 
 Run `python backend/scripts/audit_core_counts.py` after rebuilding. It writes `iiitd_core_audit.json` (catalogue coverage, unmapped venues, exclusions and source/API checks) and `iiitd_core_faculty_counts.csv` (all faculty counts for 2016–2026). Optional `--baseline path/to/previous-dataset.json` records before/after changes. The audit uses cached records and the existing paper eligibility policy; it does not fetch new bibliographies.
 
@@ -82,19 +92,21 @@ The IEEE and ACM sources count main-conference papers of any length whose DBLP D
 
 ## Generated artifacts and API
 
-- backend/data/processed/iiitd_dataset.json: publication identifiers, metadata, faculty memberships, source memberships, and provenance.
-- iiitd_domains.json: default filtered institute summary.
-- iiitd_rankings.json: the same default faculty summary.
-- iiitd_validation.json: independent faculty/venue/year reconciliation.
+- backend/data/processed/institutes.json: every institute with faculty counts and 2016–2026 totals per source, plus the faculty directory.
+- backend/data/processed/institutes/<slug>.json: one institute's publication identifiers, metadata, faculty memberships, source memberships, unresolved faculty and provenance.
+- backend/data/processed/institutes/<slug>.validation.json: that institute's independent faculty/venue/year reconciliation.
 
-Endpoints:
+Endpoints (slug is the lower-case institute name with non-alphanumerics as hyphens, e.g. `iit-bhu-varanasi`):
 
 ```text
-GET /iiitd
-GET /iiitd/domains
-GET /iiitd/validation
-GET /iiitd/faculty/<URL-encoded faculty name>
+GET /institutes
+GET /institutes/<slug>
+GET /institutes/<slug>/domains
+GET /institutes/<slug>/validation
+GET /faculty/<URL-encoded faculty name>
 ```
+
+The earlier /iiitd, /iiitd/domains, /iiitd/validation and /iiitd/faculty/<name> routes remain as aliases for IIIT Delhi.
 
 Both summary endpoints accept start_year, end_year, sources (comma-separated csrankings,core-a-star,core-a,ieee,acm), repeated area parameters, and include_optional=true|false. Invalid ranges and unavailable selections return HTTP 400; an absent dataset returns HTTP 503.
 

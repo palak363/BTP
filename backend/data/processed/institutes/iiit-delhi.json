@@ -1,9 +1,11 @@
 {
   "metadata": {
-    "schema_version": 2,
+    "schema_version": 3,
     "institution": "IIIT Delhi",
+    "slug": "iiit-delhi",
+    "homepage": "https://cse.iiitd.ac.in/",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-10-20T19:40:51.486933+00:00",
+    "generated_at": "2026-10-20T20:15:06.745523+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -141,178 +143,147 @@
       "pods",
       "usenixatc"
     ],
+    "unresolved_faculty": [],
     "counting": "Unique DBLP keys; faculty credit is 1 / all authors; all reference venues, including optional venues.",
     "validation": {
       "matching": false,
-      "differing_cells": 6,
-      "compared_cells": 156
+      "compared_cells": 156,
+      "missing_cells": 0,
+      "extra_cells": 6
     }
   },
   "faculty": [
     {
       "name": "A. Venkata Subramanyam",
-      "dblp_url": "https://dblp.org/pid/232/6141",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/232/6141"
     },
     {
       "name": "Anubha Gupta",
-      "dblp_url": "https://dblp.org/pid/95/491",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/95/491"
     },
     {
       "name": "Arani Bhattacharya",
-      "dblp_url": "https://dblp.org/pid/139/0489",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/139/0489"
     },
     {
       "name": "Arun Balaji Buduru",
-      "dblp_url": "https://dblp.org/pid/128/4273",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/128/4273"
     },
     {
       "name": "Bapi Chatterjee",
-      "dblp_url": "https://dblp.org/pid/117/6988",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/117/6988"
     },
     {
       "name": "Debajyoti Bera",
-      "dblp_url": "https://dblp.org/pid/46/6276",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/46/6276"
     },
     {
       "name": "Debarka Sengupta",
-      "dblp_url": "https://dblp.org/pid/14/11132",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/14/11132"
     },
     {
       "name": "Gajendra P. S. Raghava",
-      "dblp_url": "https://dblp.org/pid/43/5459",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/43/5459"
     },
     {
       "name": "Ganesh Bagler",
-      "dblp_url": "https://dblp.org/pid/86/5221",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/86/5221"
     },
     {
       "name": "Gautam Shroff",
-      "dblp_url": "https://dblp.org/pid/54/3265",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/54/3265"
     },
     {
       "name": "Jainendra Shukla",
-      "dblp_url": "https://dblp.org/pid/117/9926",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/117/9926"
     },
     {
       "name": "Md. Shad Akhtar",
-      "dblp_url": "https://dblp.org/pid/184/8579",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/184/8579"
     },
     {
       "name": "Mukesh K. Mohania",
-      "dblp_url": "https://dblp.org/pid/85/6670",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/85/6670"
     },
     {
       "name": "Mukulika Maity",
-      "dblp_url": "https://dblp.org/pid/157/1298",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/157/1298"
     },
     {
       "name": "Nikhil Gupta 0008",
-      "dblp_url": "https://dblp.org/pid/49/6983-8",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/49/6983-8"
     },
     {
       "name": "Ojaswa Sharma",
-      "dblp_url": "https://dblp.org/pid/08/4556",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/08/4556"
     },
     {
       "name": "Pankaj Jalote",
-      "dblp_url": "https://dblp.org/pid/j/PankajJalote",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/j/PankajJalote"
     },
     {
       "name": "Piyus Kedia",
-      "dblp_url": "https://dblp.org/pid/201/4871",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/201/4871"
     },
     {
       "name": "Pushpendra Singh 0001",
-      "dblp_url": "https://dblp.org/pid/55/1719-1",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/55/1719-1"
     },
     {
       "name": "Raghava Mutharaju",
-      "dblp_url": "https://dblp.org/pid/63/7446",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/63/7446"
     },
     {
       "name": "Rajiv Raman 0001",
-      "dblp_url": "https://dblp.org/pid/42/6468",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/42/6468"
     },
     {
       "name": "Rajiv Ratn Shah",
-      "dblp_url": "https://dblp.org/pid/134/3502",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/134/3502"
     },
     {
       "name": "Ravi Anand",
-      "dblp_url": "https://dblp.org/pid/203/4259",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/203/4259"
     },
     {
       "name": "Rinku Shah",
-      "dblp_url": "https://dblp.org/pid/146/0131",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/146/0131"
     },
     {
       "name": "Saket Anand",
-      "dblp_url": "https://dblp.org/pid/11/4747",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/11/4747"
     },
     {
       "name": "Sambuddho Chakravarty",
-      "dblp_url": "https://dblp.org/pid/95/1983",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/95/1983"
     },
     {
       "name": "Sujay Deb",
-      "dblp_url": "https://dblp.org/pid/61/8572",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/61/8572"
     },
     {
       "name": "Supratim Shit",
-      "dblp_url": "https://dblp.org/pid/185/5317",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/185/5317"
     },
     {
       "name": "Syamantak Das",
-      "dblp_url": "https://dblp.org/pid/135/6297",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/135/6297"
     },
     {
       "name": "Tanmoy Kundu 0001",
-      "dblp_url": "https://dblp.org/pid/226/6193-1",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/226/6193-1"
     },
     {
       "name": "Vikram Goyal",
-      "dblp_url": "https://dblp.org/pid/70/6404",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/70/6404"
     },
     {
       "name": "Vinayak Abrol",
-      "dblp_url": "https://dblp.org/pid/136/4698",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/136/4698"
     },
     {
       "name": "Vivek Kumar 0001",
-      "dblp_url": "https://dblp.org/pid/82/2381-1",
-      "area": "Unknown"
+      "dblp_url": "https://dblp.org/pid/82/2381-1"
     }
   ],
   "publications": [

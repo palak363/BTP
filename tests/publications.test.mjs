@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { filterPapers, sortPapers, venueDistribution, venueName } from '../src/publications.js';
 
-const dataset = JSON.parse(fs.readFileSync(new URL('../backend/data/processed/iiitd_dataset.json', import.meta.url)));
+const dataset = JSON.parse(fs.readFileSync(new URL('../backend/data/processed/institutes/iiit-delhi.json', import.meta.url)));
 test('multiple venues and overlapping year periods combine without duplicate papers', () => {
   const papers = [
     { key: 'a', title: 'First', venue: 'ACL', year: 2016, memberships: [{ source: 'csrankings' }, { source: 'core-a-star' }] },

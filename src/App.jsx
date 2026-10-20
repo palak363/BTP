@@ -10,7 +10,7 @@ export default function App() {
     <a className="skip-link" href="#main">Skip to content</a>
     <header className="site-header">
       <Link to="/" className="brand"><span className="brand-mark">iR</span>India CS research</Link>
-      <nav aria-label="Main navigation"><NavLink to="/" end>Overview</NavLink><NavLink to="/institute/IIIT%20Delhi">IIIT Delhi</NavLink></nav>
+      <nav aria-label="Main navigation"><NavLink to="/" end>Overview</NavLink></nav>
       <DblpSearch />
     </header>
     <main id="main"><Routes>

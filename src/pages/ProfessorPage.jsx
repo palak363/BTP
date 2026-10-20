@@ -1,21 +1,24 @@
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import useProfessor from "../hooks/useProfessor";
+import { facultyMember } from "../data";
 import VenuePie from "../components/VenuePie";
 import { filterPapers, sortPapers, sourceNames, venueDistribution, venueName } from "../publications";
 import PublicationFilters from "../components/PublicationFilters";
 
 function Profile({ name }) {
   const { data, loading, local } = useProfessor(name);
+  const institution = data?.institution || facultyMember(name)?.institution;
+  const back = institution ? <Link className="back-link" to={`/institute/${encodeURIComponent(institution)}`}>← Back to {institution}</Link> : <Link className="back-link" to="/">← All institutes</Link>;
   const [search, setSearch] = useState("");
   const [order, setOrder] = useState("newest");
   const [filters, setFilters] = useState({ venues: [], sources: [], periods: [] });
-  if (!data) return <div className="page"><Link to="/institute/IIIT%20Delhi">← IIIT Delhi</Link><h1>{loading ? "Loading professor…" : "Professor not found"}</h1>{!loading && <p>This professor is not in the loaded IIIT Delhi dataset.</p>}</div>;
+  if (!data) return <div className="page">{back}<h1>{loading ? "Loading professor…" : "Professor not found"}</h1>{!loading && <p>This professor is not in the loaded institute datasets.</p>}</div>;
   const papers = filterPapers(data.publications, filters);
   const years = papers.map(paper => Number(paper.year)).filter(Boolean);
   const shown = sortPapers(filterPapers(papers, { search }), order);
   return <div className="page professor-page">
-    <Link className="back-link" to="/institute/IIIT%20Delhi">← Back to IIIT Delhi</Link>
+    {back}
     <div className="page-heading"><div><p className="eyebrow">FACULTY PUBLICATIONS · {data.institution}</p><h1>{name}</h1><p className="quiet">All loaded years and sources. Institute filters do not limit this bibliography.</p></div></div>
     <PublicationFilters venues={[...new Set(data.publications.map(venueName))].sort((a, b) => a.localeCompare(b))} filters={filters} onChange={setFilters} />
     <div className="stat-grid"><article className="accent-stat"><span>Selected papers</span><strong>{papers.length}</strong><small>Of {data.publications.length} loaded papers</small></article><article><span>Publication venues</span><strong>{venueDistribution(papers).length}</strong></article><article><span>Publication years</span><strong>{years.length ? `${Math.min(...years)}–${Math.max(...years)}` : "—"}</strong></article></div>

@@ -16,7 +16,7 @@ OUTPUT = BASE / 'data/processed'
 
 
 def audit(start=2016, end=2026, baseline=None):
-    dataset = json.loads((OUTPUT / 'iiitd_dataset.json').read_text(encoding='utf-8'))
+    dataset = json.loads((OUTPUT / 'institutes/iiit-delhi.json').read_text(encoding='utf-8'))
     catalogue = json.loads((BASE / 'data/raw/core_venues.json').read_text(encoding='utf-8'))
     rules = load_rules()
     raw = {}

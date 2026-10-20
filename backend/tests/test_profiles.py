@@ -12,7 +12,7 @@ from api.app import app
 
 class Profiles(unittest.TestCase):
     def test_every_loaded_faculty(self):
-        dataset = json.loads((BASE / 'data/processed/iiitd_dataset.json').read_text(encoding='utf-8'))
+        dataset = json.loads((BASE / 'data/processed/institutes/iiit-delhi.json').read_text(encoding='utf-8'))
         client = app.test_client()
         for faculty in dataset['faculty']:
             with self.subTest(name=faculty['name']):

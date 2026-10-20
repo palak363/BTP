@@ -1,0 +1,12 @@
+{
+  "institution": "IIT Dharwad",
+  "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
+  "compared_cells": 5,
+  "expected_papers": 5,
+  "actual_papers": 5,
+  "matching": true,
+  "missing_cells": 0,
+  "extra_cells": 0,
+  "differences": [],
+  "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten. Missing cells: the reference counts papers this build does not. Extra cells: this build counts papers the reference does not."
+}
