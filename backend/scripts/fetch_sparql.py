@@ -7,6 +7,8 @@ import time
 from urllib.parse import urlsplit
 import requests
 
+from publisher_venues import dois_from_links
+
 CACHE = Path(__file__).resolve().parents[1] / 'data/cache/sparql'
 SCHEMA = 'https://dblp.org/rdf/schema#'
 RDF_TYPE = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'
@@ -56,7 +58,8 @@ def parse_results(payload, pid_url, expected_name):
             'volume': value('publishedInJournalVolume'),
             'number': value('publishedInJournalVolumeIssue'),
             'pages': value('pagination'), 'authors': authors,
-            'dois': sorted(doi.removeprefix('https://doi.org/').lower() for doi in values.get(SCHEMA + 'doi', set())),
+            'dois': dois_from_links(values.get(SCHEMA + 'doi', set()),
+                                    values.get(SCHEMA + 'primaryDocumentPage', set()) | values.get(SCHEMA + 'documentPage', set())),
             'url': value('listedOnTocPage') + '#' + uri.removeprefix('https://dblp.org/rec/'),
         })
     return papers

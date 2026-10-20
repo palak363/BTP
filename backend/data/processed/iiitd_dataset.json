@@ -3,7 +3,7 @@
     "schema_version": 2,
     "institution": "IIIT Delhi",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-10-20T19:27:02.780798+00:00",
+    "generated_at": "2026-10-20T19:40:51.486933+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -14270,6 +14270,43 @@
       ]
     },
     {
+      "key": "conf/icac/BhideGJMR04",
+      "type": "inproceedings",
+      "title": "Policy Framework for Autonomic Data Managemen.",
+      "year": 2004,
+      "publication_year": 2004,
+      "event_year": 2004,
+      "venue": "ICAC",
+      "booktitle": "ICAC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "336-337",
+      "authors": [
+        "https://dblp.org/pid/31/1190",
+        "https://dblp.org/pid/31/5373",
+        "https://dblp.org/pid/40/4935",
+        "https://dblp.org/pid/85/6670",
+        "https://dblp.org/pid/g/AjayGupta4"
+      ],
+      "dois": [
+        "10.1109/icac.2004.44"
+      ],
+      "url": "https://dblp.org/db/conf/icac/icac2004#conf/icac/BhideGJMR04",
+      "faculty": [
+        "Mukesh K. Mohania"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICAC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2004
+        }
+      ]
+    },
+    {
       "key": "conf/icac/GuptaPM08",
       "type": "inproceedings",
       "title": "Automating ITSM Incident Management Process.",
@@ -15977,6 +16014,37 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/icdcn/Chatterjee17",
+      "type": "inproceedings",
+      "title": "Lock-free Linearizable 1-Dimensional Range Queries.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "ICDCN",
+      "booktitle": "ICDCN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "9",
+      "authors": [
+        "https://dblp.org/pid/117/6988"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/icdcn/icdcn2017#conf/icdcn/Chatterjee17",
+      "faculty": [
+        "Bapi Chatterjee"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICDCN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
         }
       ]
     },
@@ -20988,6 +21056,13 @@
           "area": "imc",
           "domain": "Measurement & performance analysis",
           "year": 2018
+        },
+        {
+          "source": "acm",
+          "venue": "Internet Measurement Conference",
+          "area": "imc",
+          "domain": "Measurement & performance analysis",
+          "year": 2018
         }
       ]
     },
@@ -21027,6 +21102,13 @@
         {
           "source": "core-a",
           "venue": "IMC",
+          "area": "imc",
+          "domain": "Measurement & performance analysis",
+          "year": 2018
+        },
+        {
+          "source": "acm",
+          "venue": "Internet Measurement Conference",
           "area": "imc",
           "domain": "Measurement & performance analysis",
           "year": 2018
@@ -22082,6 +22164,42 @@
       ]
     },
     {
+      "key": "conf/ises/BansalMGD17",
+      "type": "inproceedings",
+      "title": "Energy Efficient NoC Router for High Throughput Applications in Many-Core GPUs.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "iNIS",
+      "booktitle": "iNIS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "50-55",
+      "authors": [
+        "https://dblp.org/pid/151/4523",
+        "https://dblp.org/pid/151/4526",
+        "https://dblp.org/pid/261/3954",
+        "https://dblp.org/pid/61/8572"
+      ],
+      "dois": [
+        "10.1109/inis.2017.20"
+      ],
+      "url": "https://dblp.org/db/conf/ises/inis2017#conf/ises/BansalMGD17",
+      "faculty": [
+        "Sujay Deb"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "iNIS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
       "key": "conf/ises/GaurRD19",
       "type": "inproceedings",
       "title": "Efficient Hardware Verification Using Machine Learning Approach.",
@@ -22539,6 +22657,40 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/ises/SinghD15",
+      "type": "inproceedings",
+      "title": "Energy Efficient Analog-to-Information Converter for Biopotential Acquisition Systems.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "iNIS",
+      "booktitle": "iNIS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "141-145",
+      "authors": [
+        "https://dblp.org/pid/177/5901",
+        "https://dblp.org/pid/61/8572"
+      ],
+      "dois": [
+        "10.1109/inis.2015.48"
+      ],
+      "url": "https://dblp.org/db/conf/ises/inis2015#conf/ises/SinghD15",
+      "faculty": [
+        "Sujay Deb"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "iNIS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
         }
       ]
     },
@@ -24906,6 +25058,81 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/mipr/MahataSKZT18",
+      "type": "inproceedings",
+      "title": "Theme-Weighted Ranking of Keywords from Text Documents Using Phrase Embeddings.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "MIPR",
+      "booktitle": "MIPR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "184-189",
+      "authors": [
+        "https://dblp.org/pid/124/7097",
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/58/4898",
+        "https://dblp.org/pid/61/5980",
+        "https://dblp.org/pid/79/1490"
+      ],
+      "dois": [
+        "10.1109/mipr.2018.00041"
+      ],
+      "url": "https://dblp.org/db/conf/mipr/mipr2018#conf/mipr/MahataSKZT18",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "MIPR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/mipr/MeghawatYMYSZ18",
+      "type": "inproceedings",
+      "title": "A Multimodal Approach to Predict Social Media Popularity.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "MIPR",
+      "booktitle": "MIPR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "190-195",
+      "authors": [
+        "https://dblp.org/pid/124/3625",
+        "https://dblp.org/pid/124/7097",
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/209/4302",
+        "https://dblp.org/pid/222/5706",
+        "https://dblp.org/pid/79/1490"
+      ],
+      "dois": [
+        "10.1109/mipr.2018.00042"
+      ],
+      "url": "https://dblp.org/db/conf/mipr/mipr2018#conf/mipr/MeghawatYMYSZ18",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "MIPR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
         }
       ]
     },

@@ -5,6 +5,8 @@ from urllib.parse import urlsplit
 import xml.etree.ElementTree as ET
 import requests
 
+from publisher_venues import dois_from_links
+
 CACHE = Path(__file__).resolve().parents[1] / 'data' / 'cache' / 'dblp'
 
 
@@ -34,8 +36,7 @@ def parse_profile(content, expected_name=None):
             paper.update(key=key, type=entry.tag, authors=[
                 ''.join(a.itertext()).strip() for a in entry.findall('author')])
             paper['venue'] = paper['booktitle'] or paper['journal']
-            paper['dois'] = sorted({''.join(e.itertext()).strip().removeprefix('https://doi.org/').lower()
-                                    for e in entry.findall('ee') if ''.join(e.itertext()).startswith('https://doi.org/')})
+            paper['dois'] = dois_from_links((), [''.join(e.itertext()).strip() for e in entry.findall('ee')])
             paper['year'] = int(paper['year'])
             if not paper['authors']:
                 raise ValueError(f'Publication {key} has no authors')

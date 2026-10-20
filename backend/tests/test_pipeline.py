@@ -13,7 +13,7 @@ from fetch_dblp import parse_profile, fetch_papers
 from fetch_sparql import parse_results, SCHEMA, RDF_TYPE
 from venue_rules import load_rules, classify_csr
 from core_venues import classify_core
-from publisher_venues import classify_publisher
+from publisher_venues import classify_publisher, dois_from_links
 from build_iiitd_dataset import summarize
 from api.app import app
 
@@ -112,6 +112,12 @@ class PublisherTests(unittest.TestCase):
         csr = dict(source='csrankings', year=2024, area='aaai', domain='Artificial intelligence', venue='AAAI')
         result = classify_publisher(paper(venue='AAAI (2)', booktitle='AAAI (2)', dois=['10.1145/x']), csr)
         self.assertEqual((result['venue'], result['area'], result['year']), ('AAAI', 'aaai', 2024))
+
+    def test_doi_links_and_verified_legacy_acm_ids(self):
+        self.assertEqual(dois_from_links({'https://doi.org/10.1109/X.1'}, {'https://doi.ieeecomputersociety.org/10.1109/x.1',
+                         'https://dl.acm.org/doi/10.1145/Y.2', 'http://dl.acm.org/citation.cfm?id=3', 'https://ieeexplore.ieee.org/document/4'}),
+                         ['10.1109/x.1', '10.1145/y.2'])
+        self.assertEqual(classify_publisher(paper(key='conf/imc/YadavSGSC18', venue='IMC', booktitle='IMC'), None)['source'], 'acm')
 
     def test_workshops_satellites_and_journals_excluded(self):
         for venue in ['CVPR Workshops', 'ICDM (Workshops)', 'WWW (Companion Volume)', 'UbiComp Adjunct',
