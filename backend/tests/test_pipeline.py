@@ -13,6 +13,7 @@ from fetch_dblp import parse_profile, fetch_papers
 from fetch_sparql import parse_results, SCHEMA, RDF_TYPE
 from venue_rules import load_rules, classify_csr
 from core_venues import classify_core
+from publisher_venues import classify_publisher
 from build_iiitd_dataset import summarize
 from api.app import app
 
@@ -87,6 +88,39 @@ class SparqlTests(unittest.TestCase):
         payload['meta']['result-size-total'] += 1
         with self.assertRaises(ValueError):
             parse_results(payload, 'https://dblp.org/pid/test/alice', 'Alice')
+
+    def test_dois_are_normalized(self):
+        payload = self.payload(2024, 2024)
+        row = {'subject': {'value': 'https://dblp.org/rec/conf/test/paper'}, 'p': {'value': SCHEMA + 'doi'},
+               'o': {'value': 'https://doi.org/10.1109/ICASSP.2024.1'}}
+        payload['results']['bindings'].append(row)
+        payload['meta']['result-size-total'] += 1
+        result = parse_results(payload, 'https://dblp.org/pid/test/alice', 'Alice')[0]
+        self.assertEqual(result['dois'], ['10.1109/icassp.2024.1'])
+
+
+class PublisherTests(unittest.TestCase):
+    def test_doi_prefix_selects_publisher(self):
+        self.assertEqual(classify_publisher(paper(venue='ICASSP', booktitle='ICASSP', dois=['10.1109/x']), None)['source'], 'ieee')
+        self.assertEqual(classify_publisher(paper(venue='CHI', booktitle='CHI', dois=['10.1145/x']), None)['source'], 'acm')
+        self.assertIsNone(classify_publisher(paper(dois=['10.1007/x']), None))
+        self.assertIsNone(classify_publisher(paper(), None))
+
+    def test_any_length_main_conference_with_csr_area(self):
+        result = classify_publisher(paper(pages='1-4', dois=['10.1109/x']), None)
+        self.assertEqual((result['venue'], result['domain']), ('AAAI', 'Other IEEE/ACM areas'))
+        csr = dict(source='csrankings', year=2024, area='aaai', domain='Artificial intelligence', venue='AAAI')
+        result = classify_publisher(paper(venue='AAAI (2)', booktitle='AAAI (2)', dois=['10.1145/x']), csr)
+        self.assertEqual((result['venue'], result['area'], result['year']), ('AAAI', 'aaai', 2024))
+
+    def test_workshops_satellites_and_journals_excluded(self):
+        for venue in ['CVPR Workshops', 'ICDM (Workshops)', 'WWW (Companion Volume)', 'UbiComp Adjunct',
+                      'CHI Extended Abstracts', 'e-Energy (Posters)', 'LLM4CODE@ICSE']:
+            self.assertIsNone(classify_publisher(paper(venue=venue, booktitle=venue, dois=['10.1145/x']), None), venue)
+        workshop = paper(venue='CCGridW', booktitle='CCGridW', dois=['10.1109/x'],
+                         url='https://dblp.org/db/conf/ccgrid/ccgrid2023w#key')
+        self.assertIsNone(classify_publisher(workshop, None))
+        self.assertIsNone(classify_publisher(paper(type='article', dois=['10.1109/x']), None))
 
 
 @unittest.skipUnless((BASE / 'data/reference/csrankings.py').exists(), 'Download reference rules first')
@@ -183,12 +217,21 @@ class ApiTests(unittest.TestCase):
 
     def test_reconciled_reference_and_source_union(self):
         report = self.client.get('/iiitd/validation').get_json()
-        self.assertTrue(report['matching'])
-        self.assertEqual(report['differences'], [])
+        # Reviewed differences are limited to papers DBLP added after the pinned
+        # snapshot; no paper the reference counts may be missing or changed.
+        self.assertTrue(all(d['expected_papers'] == 0 and d['year'] == 2026 for d in report['differences']))
         totals = [self.client.get('/iiitd/domains?sources=' + source).get_json()['total_papers']
                   for source in ['csrankings', 'core-a-star', 'core-a', 'csrankings,core-a-star,core-a']]
         self.assertGreater(totals[-1], max(totals[:-1]))
         self.assertLess(totals[-1], sum(totals[:-1]))
+
+    def test_ieee_and_acm_sources(self):
+        totals = [self.client.get('/iiitd/domains?sources=' + source).get_json()['total_papers']
+                  for source in ['ieee', 'acm', 'ieee,acm']]
+        self.assertGreater(min(totals), 0)
+        self.assertEqual(totals[2], totals[0] + totals[1])
+        venues = {v['venue'] for v in self.client.get('/iiitd/domains?sources=ieee,acm&start_year=1970').get_json()['top_venues']}
+        self.assertFalse({v for v in venues if 'Workshop' in v or '@' in v})
 
 
 if __name__ == '__main__':

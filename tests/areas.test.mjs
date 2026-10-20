@@ -19,7 +19,7 @@ test('all areas preserve existing counts; no areas means no publications', () =>
 });
 test('multiple research areas count the matching paper union across sources and years', () => {
   const areas = ['Artificial intelligence', 'Natural language processing'];
-  for (const sources of [['csrankings'], ['csrankings', 'core-a-star', 'core-a']]) {
+  for (const sources of [['csrankings'], ['csrankings', 'core-a-star', 'core-a'], ['ieee', 'acm']]) {
     const result = localSummary(2016, 2026, areas, false, sources);
     const expected = snapshot.publications.filter(paper => paper.memberships.some(m =>
       sources.includes(m.source) && areas.includes(m.domain) && m.year >= 2016 && m.year <= 2026

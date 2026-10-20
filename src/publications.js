@@ -1,4 +1,4 @@
-export const sourceNames = { csrankings: "CSRankings", "core-a-star": "CORE A*", "core-a": "CORE A" };
+export const sourceNames = { csrankings: "CSRankings", "core-a-star": "CORE A*", "core-a": "CORE A", ieee: "IEEE", acm: "ACM" };
 export const venueName = paper => paper.venue || paper.booktitle || paper.journal || "Unknown venue";
 export function filterPapers(papers, { venues = [], sources = [], periods = [], search = "" } = {}) {
   const query = search.trim().toLowerCase();

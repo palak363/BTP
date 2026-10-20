@@ -9,6 +9,7 @@ from pathlib import Path
 
 from fetch_dblp import fetch_papers
 from prepare_sources import read_csv, canonical, verify_reference
+from publisher_venues import classify_publisher
 from venue_rules import REFERENCE, AREA_NAMES, AREA_GROUPS, OPTIONAL_VENUES, classify_csr, load_rules
 
 BASE = Path(__file__).resolve().parents[1]
@@ -68,7 +69,7 @@ def summarize(dataset, start_year, end_year, sources=('csrankings',), areas=None
 
 def summarize_reference(dataset, start_year, end_year, sources, areas, include_optional):
     if set(sources) != {'csrankings'}:
-        raise ValueError('CORE requires a complete DBLP bibliography build.')
+        raise ValueError('CORE, IEEE and ACM require a complete DBLP bibliography build.')
     faculties = {f['name']: dict(f, papers=0, score=0.0, domains=Counter(), venues=Counter())
                  for f in dataset['faculty']}
     domains, venues, adjusted_domains = Counter(), Counter(), Counter()
@@ -210,6 +211,9 @@ def build(offline=False, refresh=False, backend='sparql', allow_reference_differ
                 membership = classify_core(paper, csr, core, rules)
                 if membership:
                     memberships.append(membership)
+            membership = classify_publisher(paper, csr)
+            if membership:
+                memberships.append(membership)
             if memberships:
                 publications[paper['key']] = dict(paper, faculty=[member['name']], memberships=memberships)
     result = {
@@ -219,9 +223,9 @@ def build(offline=False, refresh=False, backend='sparql', allow_reference_differ
             'generated_at': datetime.now(timezone.utc).isoformat(),
             'reference_revision': (REFERENCE / 'revision.txt').read_text().strip(),
             'rules_sha256': hashlib.sha256((REFERENCE / 'csrankings.py').read_bytes()).hexdigest(),
-            'available_sources': ['csrankings'] + (['core-a-star', 'core-a'] if core else []),
+            'available_sources': ['csrankings'] + (['core-a-star', 'core-a'] if core else []) + ['ieee', 'acm'],
             'core_edition': core['edition'] if core else None,
-            'available_areas': list(AREA_GROUPS) + (['Other CORE areas'] if core else []),
+            'available_areas': list(AREA_GROUPS) + (['Other CORE areas'] if core else []) + ['Other IEEE/ACM areas'],
             'area_names': AREA_NAMES,
             'optional_venues': sorted(OPTIONAL_VENUES),
             'counting': 'Unique DBLP keys; faculty credit is 1 / all authors; all reference venues, including optional venues.',

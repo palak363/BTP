@@ -28,10 +28,10 @@ export default function HomePage() {
         <span className="graph-node node-three">Theory</span><span className="graph-node node-four">People</span>
       </div>
     </section>
-    <div className="section-heading"><div><p className="eyebrow">Explore the landscape</p><h2>One view. Three venue selections.</h2></div><span className="quiet">Publication-based research metrics</span></div>
+    <div className="section-heading"><div><p className="eyebrow">Explore the landscape</p><h2>One view. Five venue selections.</h2></div><span className="quiet">Publication-based research metrics</span></div>
     <section className="source-cards" aria-label="Ranking sources">
-      {[["CSRankings","Available baseline","Explore faculty publications that meet CSRankings venue and paper eligibility rules."],["CORE A*","Bibliography refresh needed","Expand the selection with A* conferences from the CORE2023 catalogue."],["CORE A","Bibliography refresh needed","Include A-ranked conferences, counting overlapping papers only once."]].map(([title,status,copy],index) =>
-        <article className="source-card" key={title}><span className="source-number">0{index+1}</span><span className="badge">{availableSources.includes(["csrankings","core-a-star","core-a"][index]) ? "Available" : status}</span><h3>{title}</h3><p>{copy}</p></article>)}
+      {[["CSRankings","Available baseline","Explore faculty publications that meet CSRankings venue and paper eligibility rules."],["CORE A*","Bibliography refresh needed","Expand the selection with A* conferences from the CORE2023 catalogue."],["CORE A","Bibliography refresh needed","Include A-ranked conferences, counting overlapping papers only once."],["IEEE","Bibliography refresh needed","Main-conference papers published by IEEE, identified by DOI. Workshops are excluded."],["ACM","Bibliography refresh needed","Main-conference papers published by ACM, identified by DOI. Workshops are excluded."]].map(([title,status,copy],index) =>
+        <article className="source-card" key={title}><span className="source-number">0{index+1}</span><span className="badge">{availableSources.includes(["csrankings","core-a-star","core-a","ieee","acm"][index]) ? "Available" : status}</span><h3>{title}</h3><p>{copy}</p></article>)}
     </section>
     <section className="panel">
       <div className="panel-heading"><div><h2>Institute overview</h2><p>Preview of the national view. These numbers are placeholders.</p></div><span className="badge neutral">Sample data</span></div>

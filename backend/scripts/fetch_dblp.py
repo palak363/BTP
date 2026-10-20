@@ -34,6 +34,8 @@ def parse_profile(content, expected_name=None):
             paper.update(key=key, type=entry.tag, authors=[
                 ''.join(a.itertext()).strip() for a in entry.findall('author')])
             paper['venue'] = paper['booktitle'] or paper['journal']
+            paper['dois'] = sorted({''.join(e.itertext()).strip().removeprefix('https://doi.org/').lower()
+                                    for e in entry.findall('ee') if ''.join(e.itertext()).startswith('https://doi.org/')})
             paper['year'] = int(paper['year'])
             if not paper['authors']:
                 raise ValueError(f'Publication {key} has no authors')

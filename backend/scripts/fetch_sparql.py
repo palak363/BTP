@@ -56,6 +56,7 @@ def parse_results(payload, pid_url, expected_name):
             'volume': value('publishedInJournalVolume'),
             'number': value('publishedInJournalVolumeIssue'),
             'pages': value('pagination'), 'authors': authors,
+            'dois': sorted(doi.removeprefix('https://doi.org/').lower() for doi in values.get(SCHEMA + 'doi', set())),
             'url': value('listedOnTocPage') + '#' + uri.removeprefix('https://dblp.org/rec/'),
         })
     return papers

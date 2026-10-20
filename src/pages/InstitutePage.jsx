@@ -3,9 +3,10 @@ import { Link, useParams } from "react-router-dom";
 import { availableAreas, areaNames, localSummary } from "../data";
 import ProfessorLink from "../components/ProfessorLink";
 import AreaSelector from "../components/AreaSelector";
+import { sourceNames } from "../publications";
 
 const format = value => new Intl.NumberFormat("en-IN", { maximumFractionDigits: 2 }).format(value);
-const sources = [["csrankings", "CSRankings"], ["core-a-star", "CORE A*"], ["core-a", "CORE A"]];
+const sources = Object.entries(sourceNames);
 
 function Distribution({ title, items, field }) {
   const maximum = items[0]?.papers || 1;
@@ -79,7 +80,7 @@ function InstituteProfile() {
       <div className="panel error" role="alert"><h2>Data could not be loaded</h2><p>{state.error}</p><button onClick={() => {setState({...state,loading:true});setRetry(retry+1);}}>Try again</button></div> :
       data && <>
         <div className="data-note"><span className="status-dot" /><span>{state.local ? (published ? "Bundled reference snapshot" : "Bundled DBLP snapshot") : published ? "Published CSRankings snapshot" : "DBLP bibliography dataset"} · {filters.start}–{filters.end} inclusive · {filters.optional ? "Including optional venues" : "Default CSRankings venues"}</span></div>
-        {published && <div className="notice">CSRankings counts are available. CORE A/A* and unique-paper totals need a complete DBLP refresh.</div>}
+        {published && <div className="notice">CSRankings counts are available. CORE A/A*, IEEE, ACM and unique-paper totals need a complete DBLP refresh.</div>}
         <section className="stat-grid" aria-label="Research summary">
           <article><span>Faculty in roster</span><strong>{format(data.total_faculty)}</strong><small>Zero-count faculty included</small></article>
           <article><span>Faculty paper count</span><strong>{format(data.faculty_paper_count)}</strong><small>A paper counts for each faculty author</small></article>

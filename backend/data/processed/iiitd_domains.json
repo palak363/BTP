@@ -3,13 +3,15 @@
     "schema_version": 2,
     "institution": "IIIT Delhi",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-10-08T22:53:53.572469+00:00",
+    "generated_at": "2026-10-20T19:27:02.780798+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
       "csrankings",
       "core-a-star",
-      "core-a"
+      "core-a",
+      "ieee",
+      "acm"
     ],
     "core_edition": "CORE2023",
     "available_areas": [
@@ -40,7 +42,8 @@
       "Visualization",
       "Economics & computation",
       "Computer science education",
-      "Other CORE areas"
+      "Other CORE areas",
+      "Other IEEE/ACM areas"
     ],
     "area_names": {
       "aaai": "Artificial intelligence",
@@ -140,9 +143,9 @@
     ],
     "counting": "Unique DBLP keys; faculty credit is 1 / all authors; all reference venues, including optional venues.",
     "validation": {
-      "matching": true,
-      "differing_cells": 0,
-      "compared_cells": 150
+      "matching": false,
+      "differing_cells": 6,
+      "compared_cells": 156
     }
   },
   "filters": {
@@ -155,18 +158,18 @@
     "include_optional": false
   },
   "total_faculty": 33,
-  "total_papers": 132,
-  "faculty_paper_count": 137,
-  "adjusted_count": 31.324231867547653,
-  "average_count": 1.614810354804521,
+  "total_papers": 138,
+  "faculty_paper_count": 143,
+  "adjusted_count": 33.22423186754766,
+  "average_count": 1.6534358970852574,
   "domain_distribution": {
     "Artificial intelligence": 30,
     "Natural language processing": 34,
     "Logic & verification": 1,
     "Human-computer interaction": 21,
-    "Computer vision": 5,
+    "Computer vision": 9,
     "Cryptography": 2,
-    "Machine learning & data mining": 16,
+    "Machine learning & data mining": 18,
     "Robotics": 6,
     "Measurement & performance analysis": 2,
     "Programming languages": 1,
@@ -192,7 +195,11 @@
     },
     {
       "area": "Machine learning & data mining",
-      "papers": 16
+      "papers": 18
+    },
+    {
+      "area": "Computer vision",
+      "papers": 9
     },
     {
       "area": "The Web & information retrieval",
@@ -201,10 +208,6 @@
     {
       "area": "Robotics",
       "papers": 6
-    },
-    {
-      "area": "Computer vision",
-      "papers": 5
     },
     {
       "area": "Algorithms & complexity",
@@ -273,16 +276,16 @@
       "papers": 7
     },
     {
+      "venue": "ICLR",
+      "papers": 6
+    },
+    {
       "venue": "EMNLP (1)",
       "papers": 5
     },
     {
       "venue": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
       "papers": 5
-    },
-    {
-      "venue": "ICLR",
-      "papers": 4
     },
     {
       "venue": "ICML",
@@ -309,6 +312,14 @@
       "papers": 2
     },
     {
+      "venue": "CVPR",
+      "papers": 2
+    },
+    {
+      "venue": "ECCV (25)",
+      "papers": 2
+    },
+    {
       "venue": "EUROCRYPT (4)",
       "papers": 2
     },
@@ -325,15 +336,15 @@
       "papers": 1
     },
     {
-      "venue": "CVPR",
-      "papers": 1
-    },
-    {
       "venue": "ECCV (16)",
       "papers": 1
     },
     {
       "venue": "ECCV (24)",
+      "papers": 1
+    },
+    {
+      "venue": "ECCV (76)",
       "papers": 1
     },
     {
@@ -378,16 +389,17 @@
       "name": "Rajiv Ratn Shah",
       "dblp_url": "https://dblp.org/pid/134/3502",
       "area": "Unknown",
-      "papers": 37,
-      "score": 7.110389610389612,
+      "papers": 39,
+      "score": 7.4770562770562785,
       "domains": {
         "Artificial intelligence": 15,
         "Natural language processing": 15,
         "Human-computer interaction": 1,
-        "Machine learning & data mining": 5,
+        "Computer vision": 1,
+        "Machine learning & data mining": 6,
         "The Web & information retrieval": 1
       },
-      "adjusted_count": 7.110389610389612,
+      "adjusted_count": 7.4770562770562785,
       "top_domain": "Artificial intelligence",
       "top_venues": [
         {
@@ -399,12 +411,12 @@
           "papers": 5
         },
         {
-          "venue": "NAACL-HLT",
+          "venue": "ICLR",
           "papers": 4
         },
         {
-          "venue": "ICLR",
-          "papers": 3
+          "venue": "NAACL-HLT",
+          "papers": 4
         },
         {
           "venue": "ACL (2)",
@@ -424,6 +436,10 @@
         },
         {
           "venue": "CHI",
+          "papers": 1
+        },
+        {
+          "venue": "ECCV (76)",
           "papers": 1
         },
         {
@@ -557,6 +573,49 @@
       ]
     },
     {
+      "name": "Saket Anand",
+      "dblp_url": "https://dblp.org/pid/11/4747",
+      "area": "Unknown",
+      "papers": 8,
+      "score": 2.0694444444444446,
+      "domains": {
+        "Artificial intelligence": 3,
+        "Computer vision": 5
+      },
+      "adjusted_count": 2.0694444444444446,
+      "top_domain": "Computer vision",
+      "top_venues": [
+        {
+          "venue": "AAAI",
+          "papers": 2
+        },
+        {
+          "venue": "CVPR",
+          "papers": 1
+        },
+        {
+          "venue": "ECCV (16)",
+          "papers": 1
+        },
+        {
+          "venue": "ECCV (24)",
+          "papers": 1
+        },
+        {
+          "venue": "ECCV (3)",
+          "papers": 1
+        },
+        {
+          "venue": "ECCV (11)",
+          "papers": 1
+        },
+        {
+          "venue": "IJCAI",
+          "papers": 1
+        }
+      ]
+    },
+    {
       "name": "Vinayak Abrol",
       "dblp_url": "https://dblp.org/pid/136/4698",
       "area": "Unknown",
@@ -585,62 +644,27 @@
       ]
     },
     {
-      "name": "Saket Anand",
-      "dblp_url": "https://dblp.org/pid/11/4747",
-      "area": "Unknown",
-      "papers": 7,
-      "score": 1.5694444444444444,
-      "domains": {
-        "Artificial intelligence": 3,
-        "Computer vision": 4
-      },
-      "adjusted_count": 1.5694444444444444,
-      "top_domain": "Computer vision",
-      "top_venues": [
-        {
-          "venue": "AAAI",
-          "papers": 2
-        },
-        {
-          "venue": "ECCV (16)",
-          "papers": 1
-        },
-        {
-          "venue": "ECCV (24)",
-          "papers": 1
-        },
-        {
-          "venue": "ECCV (3)",
-          "papers": 1
-        },
-        {
-          "venue": "ECCV (11)",
-          "papers": 1
-        },
-        {
-          "venue": "IJCAI",
-          "papers": 1
-        }
-      ]
-    },
-    {
       "name": "Syamantak Das",
       "dblp_url": "https://dblp.org/pid/135/6297",
       "area": "Unknown",
-      "papers": 5,
-      "score": 1.125,
+      "papers": 6,
+      "score": 1.325,
       "domains": {
-        "Machine learning & data mining": 1,
+        "Machine learning & data mining": 2,
         "Algorithms & complexity": 2,
         "The Web & information retrieval": 1,
         "Databases": 1
       },
-      "adjusted_count": 1.125,
-      "top_domain": "Algorithms & complexity",
+      "adjusted_count": 1.325,
+      "top_domain": "Machine learning & data mining",
       "top_venues": [
         {
           "venue": "SODA",
           "papers": 2
+        },
+        {
+          "venue": "ICLR",
+          "papers": 1
         },
         {
           "venue": "NeurIPS",
@@ -831,6 +855,24 @@
       ]
     },
     {
+      "name": "Ojaswa Sharma",
+      "dblp_url": "https://dblp.org/pid/08/4556",
+      "area": "Unknown",
+      "papers": 1,
+      "score": 0.5,
+      "domains": {
+        "Computer vision": 1
+      },
+      "adjusted_count": 0.5,
+      "top_domain": "Computer vision",
+      "top_venues": [
+        {
+          "venue": "ECCV (25)",
+          "papers": 1
+        }
+      ]
+    },
+    {
       "name": "Mukulika Maity",
       "dblp_url": "https://dblp.org/pid/157/1298",
       "area": "Unknown",
@@ -890,6 +932,24 @@
         {
           "venue": "EUROCRYPT (4)",
           "papers": 2
+        }
+      ]
+    },
+    {
+      "name": "A. Venkata Subramanyam",
+      "dblp_url": "https://dblp.org/pid/232/6141",
+      "area": "Unknown",
+      "papers": 1,
+      "score": 0.3333333333333333,
+      "domains": {
+        "Computer vision": 1
+      },
+      "adjusted_count": 0.3333333333333333,
+      "top_domain": "Computer vision",
+      "top_venues": [
+        {
+          "venue": "ECCV (25)",
+          "papers": 1
         }
       ]
     },
@@ -1020,17 +1080,6 @@
       ]
     },
     {
-      "name": "A. Venkata Subramanyam",
-      "dblp_url": "https://dblp.org/pid/232/6141",
-      "area": "Unknown",
-      "papers": 0,
-      "score": 0.0,
-      "domains": {},
-      "adjusted_count": 0.0,
-      "top_domain": "No selected papers",
-      "top_venues": []
-    },
-    {
       "name": "Debajyoti Bera",
       "dblp_url": "https://dblp.org/pid/46/6276",
       "area": "Unknown",
@@ -1055,17 +1104,6 @@
     {
       "name": "Ganesh Bagler",
       "dblp_url": "https://dblp.org/pid/86/5221",
-      "area": "Unknown",
-      "papers": 0,
-      "score": 0.0,
-      "domains": {},
-      "adjusted_count": 0.0,
-      "top_domain": "No selected papers",
-      "top_venues": []
-    },
-    {
-      "name": "Ojaswa Sharma",
-      "dblp_url": "https://dblp.org/pid/08/4556",
       "area": "Unknown",
       "papers": 0,
       "score": 0.0,

@@ -76,6 +76,10 @@ The CORE coverage audit checks all 60 A* and 117 A entries in the pinned CORE202
 
 Run `python backend/scripts/audit_core_counts.py` after rebuilding. It writes `iiitd_core_audit.json` (catalogue coverage, unmapped venues, exclusions and source/API checks) and `iiitd_core_faculty_counts.csv` (all faculty counts for 2016–2026). Optional `--baseline path/to/previous-dataset.json` records before/after changes. The audit uses cached records and the existing paper eligibility policy; it does not fetch new bibliographies.
 
+## IEEE and ACM extension
+
+The IEEE and ACM sources count main-conference papers of any length whose DBLP DOI has the publisher prefix 10.1109 (IEEE) or 10.1145 (ACM). Journal articles and satellite proceedings are excluded: workshops (including DBLP volumes such as CCGridW filed as `<conf><year>w`), companion and adjunct volumes, extended abstracts, posters, demos, doctoral symposia, and co-located events named `X@Y`. Papers in a CSRankings area keep that area; all others appear under Other IEEE/ACM areas. Overlapping papers in a union count once.
+
 ## Generated artifacts and API
 
 - backend/data/processed/iiitd_dataset.json: publication identifiers, metadata, faculty memberships, source memberships, and provenance.
@@ -92,7 +96,7 @@ GET /iiitd/validation
 GET /iiitd/faculty/<URL-encoded faculty name>
 ```
 
-Both summary endpoints accept start_year, end_year, sources (comma-separated csrankings,core-a-star,core-a), repeated area parameters, and include_optional=true|false. Invalid ranges and unavailable selections return HTTP 400; an absent dataset returns HTTP 503.
+Both summary endpoints accept start_year, end_year, sources (comma-separated csrankings,core-a-star,core-a,ieee,acm), repeated area parameters, and include_optional=true|false. Invalid ranges and unavailable selections return HTTP 400; an absent dataset returns HTTP 503.
 
 The faculty endpoint returns every loaded publication record for an exact faculty name, independently of institute filters, and returns HTTP 404 for an unknown name. Professor names open an internal bibliography with title/venue search, year and venue sorting, and a publication-venue pie chart. An all-years venue chart appears in the left margin on hover or keyboard focus in the institute table when there is enough space beside the name. On narrow screens, open the professor page to see the chart. Professor pages support multiple conference sources, individual venues, and inclusive year periods; the chart, totals, and bibliography follow these filters. Selections within each filter are combined as a union, and the different filters intersect. Overlapping periods do not duplicate papers. Reset filters restores all loaded records. Both views deduplicate DBLP keys and fall back to the bundled snapshot when the API is unavailable. The UI displays paper counts only.
 

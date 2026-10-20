@@ -25,7 +25,7 @@ export default function AreaSelector({ available, selected, onChange, areaNames 
       const areas = group.areas.filter(area => available.includes(area));
       if (!areas.length) return null;
       return <fieldset key={group.name} className={`area-group ${group.tone}`}><legend><Selection label={group.name} values={areas} selected={selected} onChange={onChange} /></legend>
-        {areas.map(area => <div className="area-row" key={area}><details><summary>{area}</summary><p>{Object.entries(areaNames).filter(([, name]) => name === area).map(([venue]) => venue.toUpperCase()).join(" · ") || "CORE venues outside the CSRankings area map."}</p></details><input type="checkbox" aria-label={area} checked={selected.includes(area)} onChange={event => onChange(event.target.checked ? [...selected, area] : selected.filter(value => value !== area))} /></div>)}
+        {areas.map(area => <div className="area-row" key={area}><details><summary>{area}</summary><p>{Object.entries(areaNames).filter(([, name]) => name === area).map(([venue]) => venue.toUpperCase()).join(" · ") || (area === "Other IEEE/ACM areas" ? "IEEE and ACM conferences outside the CSRankings area map." : "CORE venues outside the CSRankings area map.")}</p></details><input type="checkbox" aria-label={area} checked={selected.includes(area)} onChange={event => onChange(event.target.checked ? [...selected, area] : selected.filter(value => value !== area))} /></div>)}
       </fieldset>;
     })}</div><p className="area-selection-note">{selected.length} of {available.length} areas selected{!selected.length ? " · Select an area to show publications." : ""}</p>
     </div>
