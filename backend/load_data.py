@@ -1,23 +1,21 @@
-﻿"""Optional legacy PostgreSQL export; the API serves the publication artifact."""
+"""Import validated publication data into the API database atomically."""
+import argparse
 import json
 from pathlib import Path
-from sqlalchemy import Integer, inspect
-from db import SessionLocal, engine
-from models import FacultyRanking
+from sqlalchemy.exc import SQLAlchemyError
+from repository import import_dataset
 
 
 def main():
-    payload = json.loads((Path(__file__).parent / 'data/processed/iiitd_domains.json').read_text(encoding='utf-8'))
-    columns = inspect(engine).get_columns('faculty_rankings')
-    if any(c['name'] == 'score' and isinstance(c['type'], Integer) for c in columns):
-        raise RuntimeError('Legacy score column is integer. Migrate it to DOUBLE PRECISION before exporting fractional credit.')
-    with SessionLocal.begin() as session:
-        session.query(FacultyRanking).delete()
-        for item in payload['faculty_rankings']:
-            session.add(FacultyRanking(
-                name=item['name'], papers=item['papers'], score=item['score'],
-                domains=item['domains'], top_domain=item['top_domain'], top_venues=item['top_venues']))
-    print('Exported faculty summary to PostgreSQL. The API uses iiitd_dataset.json.')
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--dataset', type=Path, default=Path(__file__).parent / 'data/processed/iiitd_dataset.json')
+    args = parser.parse_args()
+    try:
+        dataset = json.loads(args.dataset.read_text(encoding='utf-8-sig'))
+        identifier = import_dataset(dataset)
+    except SQLAlchemyError:
+        raise SystemExit('Database import failed. Check DATABASE_URL and permissions. The active dataset was not replaced.') from None
+    print(f"Imported {len(dataset['faculty'])} faculty and {len(dataset['publications'])} papers. Active dataset: {identifier[:12]}.")
 
 
 if __name__ == '__main__':

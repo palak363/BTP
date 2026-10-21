@@ -1,7 +1,6 @@
-﻿"""Serve one validated artifact; PostgreSQL remains an optional legacy export."""
+"""Serve validated publications from the configured database."""
 import json
 import sys
-from functools import lru_cache
 from pathlib import Path
 
 from flask import Flask, jsonify, request
@@ -9,22 +8,22 @@ from flask_cors import CORS
 
 BASE = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BASE / 'scripts'))
+sys.path.insert(0, str(BASE))
 from build_iiitd_dataset import summarize
+from repository import read_dataset
+from sqlalchemy.exc import SQLAlchemyError
 
 app = Flask(__name__)
 CORS(app)
 
 
-@lru_cache(maxsize=2)
-def read_dataset(path, modified):
-    return json.loads(Path(path).read_text(encoding='utf-8'))
-
-
 def current_dataset():
-    path = BASE / 'data/processed/iiitd_dataset.json'
-    if not path.exists():
-        raise FileNotFoundError('IIITD dataset is not built. Run backend/scripts/build_iiitd_dataset.py.')
-    return read_dataset(str(path), path.stat().st_mtime_ns)
+    return read_dataset()
+
+
+@app.errorhandler(SQLAlchemyError)
+def database_unavailable(error):
+    return jsonify(error='Database unavailable or not initialized. Check DATABASE_URL and run python backend/load_data.py.'), 503
 
 
 def payload():
@@ -66,10 +65,9 @@ def iiitd_domains():
 
 @app.route('/iiitd/validation')
 def validation():
-    path = BASE / 'data/processed/iiitd_validation.json'
-    if not path.exists():
-        raise FileNotFoundError('Validation report is not available.')
-    return jsonify(json.loads(path.read_text(encoding='utf-8')))
+    metadata = current_dataset()['metadata']
+    return jsonify({**metadata['validation'], 'reference_revision': metadata['reference_revision'],
+                    'differences': []})
 
 
 @app.route('/iiitd/faculty/<path:name>')
