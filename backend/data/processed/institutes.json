@@ -136,7 +136,7 @@
       "pods",
       "usenixatc"
     ],
-    "generated_at": "2026-10-20T20:16:28.416518+00:00",
+    "generated_at": "2026-10-29T05:32:26.191727+00:00",
     "default_window": [
       2016,
       2026
@@ -153,32 +153,38 @@
         "csrankings": {
           "papers": 9,
           "faculty_papers": 9,
-          "adjusted": 2.3167
+          "adjusted": 2.3167,
+          "faculty": 4
         },
         "core-a-star": {
           "papers": 10,
           "faculty_papers": 10,
-          "adjusted": 2.9833
+          "adjusted": 2.9833,
+          "faculty": 4
         },
         "core-a": {
           "papers": 16,
           "faculty_papers": 16,
-          "adjusted": 4.925
+          "adjusted": 4.925,
+          "faculty": 7
         },
         "ieee": {
           "papers": 61,
           "faculty_papers": 61,
-          "adjusted": 16.9024
+          "adjusted": 16.9024,
+          "faculty": 7
         },
         "acm": {
           "papers": 52,
           "faculty_papers": 52,
-          "adjusted": 13.9028
+          "adjusted": 13.9028,
+          "faculty": 6
         },
         "all": {
           "papers": 127,
           "faculty_papers": 127,
-          "adjusted": 35.4885
+          "adjusted": 35.4885,
+          "faculty": 8
         }
       },
       "validation": {
@@ -199,32 +205,38 @@
         "csrankings": {
           "papers": 12,
           "faculty_papers": 15,
-          "adjusted": 3.2421
+          "adjusted": 3.2421,
+          "faculty": 9
         },
         "core-a-star": {
           "papers": 10,
           "faculty_papers": 11,
-          "adjusted": 2.5171
+          "adjusted": 2.5171,
+          "faculty": 6
         },
         "core-a": {
           "papers": 9,
           "faculty_papers": 12,
-          "adjusted": 2.6393
+          "adjusted": 2.6393,
+          "faculty": 9
         },
         "ieee": {
           "papers": 135,
           "faculty_papers": 199,
-          "adjusted": 53.1786
+          "adjusted": 53.1786,
+          "faculty": 23
         },
         "acm": {
           "papers": 29,
           "faculty_papers": 34,
-          "adjusted": 9.2571
+          "adjusted": 9.2571,
+          "faculty": 14
         },
         "all": {
           "papers": 173,
           "faculty_papers": 244,
-          "adjusted": 65.4119
+          "adjusted": 65.4119,
+          "faculty": 23
         }
       },
       "validation": {
@@ -245,32 +257,38 @@
         "csrankings": {
           "papers": 32,
           "faculty_papers": 41,
-          "adjusted": 7.6507
+          "adjusted": 7.6507,
+          "faculty": 17
         },
         "core-a-star": {
           "papers": 27,
           "faculty_papers": 29,
-          "adjusted": 5.5282
+          "adjusted": 5.5282,
+          "faculty": 12
         },
         "core-a": {
           "papers": 35,
           "faculty_papers": 42,
-          "adjusted": 9.8813
+          "adjusted": 9.8813,
+          "faculty": 16
         },
         "ieee": {
           "papers": 206,
           "faculty_papers": 251,
-          "adjusted": 72.9214
+          "adjusted": 72.9214,
+          "faculty": 29
         },
         "acm": {
           "papers": 83,
           "faculty_papers": 98,
-          "adjusted": 27.3794
+          "adjusted": 27.3794,
+          "faculty": 24
         },
         "all": {
           "papers": 326,
           "faculty_papers": 394,
-          "adjusted": 109.8428
+          "adjusted": 109.8428,
+          "faculty": 34
         }
       },
       "validation": {
@@ -291,32 +309,38 @@
         "csrankings": {
           "papers": 27,
           "faculty_papers": 27,
-          "adjusted": 7.2929
+          "adjusted": 7.2929,
+          "faculty": 9
         },
         "core-a-star": {
           "papers": 34,
           "faculty_papers": 34,
-          "adjusted": 9.4929
+          "adjusted": 9.4929,
+          "faculty": 9
         },
         "core-a": {
           "papers": 51,
           "faculty_papers": 52,
-          "adjusted": 15.3667
+          "adjusted": 15.3667,
+          "faculty": 11
         },
         "ieee": {
           "papers": 3,
           "faculty_papers": 3,
-          "adjusted": 0.8667
+          "adjusted": 0.8667,
+          "faculty": 3
         },
         "acm": {
           "papers": 14,
           "faculty_papers": 14,
-          "adjusted": 3.9
+          "adjusted": 3.9,
+          "faculty": 8
         },
         "all": {
           "papers": 88,
           "faculty_papers": 89,
-          "adjusted": 25.5595
+          "adjusted": 25.5595,
+          "faculty": 11
         }
       },
       "validation": {
@@ -337,32 +361,38 @@
         "csrankings": {
           "papers": 6,
           "faculty_papers": 6,
-          "adjusted": 1.85
+          "adjusted": 1.85,
+          "faculty": 3
         },
         "core-a-star": {
           "papers": 6,
           "faculty_papers": 6,
-          "adjusted": 1.85
+          "adjusted": 1.85,
+          "faculty": 3
         },
         "core-a": {
           "papers": 3,
           "faculty_papers": 3,
-          "adjusted": 1.3333
+          "adjusted": 1.3333,
+          "faculty": 3
         },
         "ieee": {
           "papers": 200,
           "faculty_papers": 201,
-          "adjusted": 77.8219
+          "adjusted": 77.8219,
+          "faculty": 22
         },
         "acm": {
           "papers": 48,
           "faculty_papers": 51,
-          "adjusted": 16.5563
+          "adjusted": 16.5563,
+          "faculty": 11
         },
         "all": {
           "papers": 253,
           "faculty_papers": 257,
-          "adjusted": 95.9782
+          "adjusted": 95.9782,
+          "faculty": 24
         }
       },
       "validation": {
@@ -383,32 +413,38 @@
         "csrankings": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "core-a-star": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "core-a": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "ieee": {
           "papers": 5,
           "faculty_papers": 5,
-          "adjusted": 1.8333
+          "adjusted": 1.8333,
+          "faculty": 4
         },
         "acm": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "all": {
           "papers": 5,
           "faculty_papers": 5,
-          "adjusted": 1.8333
+          "adjusted": 1.8333,
+          "faculty": 4
         }
       },
       "validation": {
@@ -429,32 +465,38 @@
         "csrankings": {
           "papers": 9,
           "faculty_papers": 10,
-          "adjusted": 4.5333
+          "adjusted": 4.5333,
+          "faculty": 4
         },
         "core-a-star": {
           "papers": 12,
           "faculty_papers": 12,
-          "adjusted": 5.7
+          "adjusted": 5.7,
+          "faculty": 4
         },
         "core-a": {
           "papers": 5,
           "faculty_papers": 5,
-          "adjusted": 1.3762
+          "adjusted": 1.3762,
+          "faculty": 3
         },
         "ieee": {
           "papers": 159,
           "faculty_papers": 191,
-          "adjusted": 60.781
+          "adjusted": 60.781,
+          "faculty": 17
         },
         "acm": {
           "papers": 81,
           "faculty_papers": 82,
-          "adjusted": 30.5619
+          "adjusted": 30.5619,
+          "faculty": 17
         },
         "all": {
           "papers": 251,
           "faculty_papers": 285,
-          "adjusted": 95.0524
+          "adjusted": 95.0524,
+          "faculty": 23
         }
       },
       "validation": {
@@ -475,32 +517,38 @@
         "csrankings": {
           "papers": 138,
           "faculty_papers": 143,
-          "adjusted": 33.2242
+          "adjusted": 33.2242,
+          "faculty": 26
         },
         "core-a-star": {
           "papers": 145,
           "faculty_papers": 148,
-          "adjusted": 33.8611
+          "adjusted": 33.8611,
+          "faculty": 23
         },
         "core-a": {
           "papers": 132,
           "faculty_papers": 151,
-          "adjusted": 38.6123
+          "adjusted": 38.6123,
+          "faculty": 28
         },
         "ieee": {
           "papers": 304,
           "faculty_papers": 316,
-          "adjusted": 87.3684
+          "adjusted": 87.3684,
+          "faculty": 26
         },
         "acm": {
           "papers": 178,
           "faculty_papers": 191,
-          "adjusted": 51.6455
+          "adjusted": 51.6455,
+          "faculty": 27
         },
         "all": {
           "papers": 652,
           "faculty_papers": 688,
-          "adjusted": 182.6063
+          "adjusted": 182.6063,
+          "faculty": 32
         }
       },
       "validation": {
@@ -521,32 +569,38 @@
         "csrankings": {
           "papers": 246,
           "faculty_papers": 275,
-          "adjusted": 66.4696
+          "adjusted": 66.4696,
+          "faculty": 24
         },
         "core-a-star": {
           "papers": 221,
           "faculty_papers": 245,
-          "adjusted": 62.3985
+          "adjusted": 62.3985,
+          "faculty": 24
         },
         "core-a": {
           "papers": 233,
           "faculty_papers": 254,
-          "adjusted": 66.1579
+          "adjusted": 66.1579,
+          "faculty": 27
         },
         "ieee": {
           "papers": 715,
           "faculty_papers": 776,
-          "adjusted": 213.448
+          "adjusted": 213.448,
+          "faculty": 45
         },
         "acm": {
           "papers": 256,
           "faculty_papers": 277,
-          "adjusted": 80.8909
+          "adjusted": 80.8909,
+          "faculty": 36
         },
         "all": {
           "papers": 1185,
           "faculty_papers": 1289,
-          "adjusted": 358.6498
+          "adjusted": 358.6498,
+          "faculty": 46
         }
       },
       "validation": {
@@ -567,32 +621,38 @@
         "csrankings": {
           "papers": 349,
           "faculty_papers": 381,
-          "adjusted": 106.0705
+          "adjusted": 106.0705,
+          "faculty": 34
         },
         "core-a-star": {
           "papers": 340,
           "faculty_papers": 369,
-          "adjusted": 105.511
+          "adjusted": 105.511,
+          "faculty": 31
         },
         "core-a": {
           "papers": 194,
           "faculty_papers": 209,
-          "adjusted": 62.5452
+          "adjusted": 62.5452,
+          "faculty": 38
         },
         "ieee": {
           "papers": 362,
           "faculty_papers": 389,
-          "adjusted": 113.8409
+          "adjusted": 113.8409,
+          "faculty": 39
         },
         "acm": {
           "papers": 142,
           "faculty_papers": 154,
-          "adjusted": 49.2531
+          "adjusted": 49.2531,
+          "faculty": 37
         },
         "all": {
           "papers": 860,
           "faculty_papers": 920,
-          "adjusted": 276.1571
+          "adjusted": 276.1571,
+          "faculty": 47
         }
       },
       "validation": {
@@ -613,32 +673,38 @@
         "csrankings": {
           "papers": 6,
           "faculty_papers": 6,
-          "adjusted": 2.6667
+          "adjusted": 2.6667,
+          "faculty": 2
         },
         "core-a-star": {
           "papers": 5,
           "faculty_papers": 5,
-          "adjusted": 2.1667
+          "adjusted": 2.1667,
+          "faculty": 1
         },
         "core-a": {
           "papers": 6,
           "faculty_papers": 7,
-          "adjusted": 2.15
+          "adjusted": 2.15,
+          "faculty": 6
         },
         "ieee": {
           "papers": 58,
           "faculty_papers": 82,
-          "adjusted": 23.9516
+          "adjusted": 23.9516,
+          "faculty": 8
         },
         "acm": {
           "papers": 29,
           "faculty_papers": 34,
-          "adjusted": 12.15
+          "adjusted": 12.15,
+          "faculty": 9
         },
         "all": {
           "papers": 93,
           "faculty_papers": 122,
-          "adjusted": 38.3016
+          "adjusted": 38.3016,
+          "faculty": 11
         }
       },
       "validation": {
@@ -659,32 +725,38 @@
         "csrankings": {
           "papers": 5,
           "faculty_papers": 5,
-          "adjusted": 2.25
+          "adjusted": 2.25,
+          "faculty": 3
         },
         "core-a-star": {
           "papers": 8,
           "faculty_papers": 9,
-          "adjusted": 3.1
+          "adjusted": 3.1,
+          "faculty": 4
         },
         "core-a": {
           "papers": 11,
           "faculty_papers": 11,
-          "adjusted": 3.45
+          "adjusted": 3.45,
+          "faculty": 5
         },
         "ieee": {
           "papers": 87,
           "faculty_papers": 96,
-          "adjusted": 29.5933
+          "adjusted": 29.5933,
+          "faculty": 11
         },
         "acm": {
           "papers": 29,
           "faculty_papers": 33,
-          "adjusted": 10.6167
+          "adjusted": 10.6167,
+          "faculty": 10
         },
         "all": {
           "papers": 124,
           "faculty_papers": 137,
-          "adjusted": 43.16
+          "adjusted": 43.16,
+          "faculty": 12
         }
       },
       "validation": {
@@ -705,32 +777,38 @@
         "csrankings": {
           "papers": 6,
           "faculty_papers": 6,
-          "adjusted": 1.369
+          "adjusted": 1.369,
+          "faculty": 1
         },
         "core-a-star": {
           "papers": 6,
           "faculty_papers": 6,
-          "adjusted": 1.069
+          "adjusted": 1.069,
+          "faculty": 2
         },
         "core-a": {
           "papers": 6,
           "faculty_papers": 6,
-          "adjusted": 1.2857
+          "adjusted": 1.2857,
+          "faculty": 2
         },
         "ieee": {
           "papers": 15,
           "faculty_papers": 15,
-          "adjusted": 3.1619
+          "adjusted": 3.1619,
+          "faculty": 2
         },
         "acm": {
           "papers": 3,
           "faculty_papers": 3,
-          "adjusted": 0.7
+          "adjusted": 0.7,
+          "faculty": 2
         },
         "all": {
           "papers": 24,
           "faculty_papers": 24,
-          "adjusted": 5.231
+          "adjusted": 5.231,
+          "faculty": 2
         }
       },
       "validation": {
@@ -751,32 +829,38 @@
         "csrankings": {
           "papers": 356,
           "faculty_papers": 414,
-          "adjusted": 109.1195
+          "adjusted": 109.1195,
+          "faculty": 43
         },
         "core-a-star": {
           "papers": 380,
           "faculty_papers": 435,
-          "adjusted": 114.5254
+          "adjusted": 114.5254,
+          "faculty": 40
         },
         "core-a": {
           "papers": 261,
           "faculty_papers": 296,
-          "adjusted": 80.4837
+          "adjusted": 80.4837,
+          "faculty": 47
         },
         "ieee": {
           "papers": 414,
           "faculty_papers": 444,
-          "adjusted": 129.0043
+          "adjusted": 129.0043,
+          "faculty": 48
         },
         "acm": {
           "papers": 214,
           "faculty_papers": 241,
-          "adjusted": 73.3782
+          "adjusted": 73.3782,
+          "faculty": 47
         },
         "all": {
           "papers": 1122,
           "faculty_papers": 1250,
-          "adjusted": 354.7766
+          "adjusted": 354.7766,
+          "faculty": 58
         }
       },
       "validation": {
@@ -797,32 +881,38 @@
         "csrankings": {
           "papers": 329,
           "faculty_papers": 366,
-          "adjusted": 96.1395
+          "adjusted": 96.1395,
+          "faculty": 40
         },
         "core-a-star": {
           "papers": 362,
           "faculty_papers": 401,
-          "adjusted": 108.0812
+          "adjusted": 108.0812,
+          "faculty": 39
         },
         "core-a": {
           "papers": 213,
           "faculty_papers": 235,
-          "adjusted": 61.2348
+          "adjusted": 61.2348,
+          "faculty": 36
         },
         "ieee": {
           "papers": 255,
           "faculty_papers": 272,
-          "adjusted": 79.602
+          "adjusted": 79.602,
+          "faculty": 43
         },
         "acm": {
           "papers": 217,
           "faculty_papers": 236,
-          "adjusted": 62.6801
+          "adjusted": 62.6801,
+          "faculty": 39
         },
         "all": {
           "papers": 867,
           "faculty_papers": 946,
-          "adjusted": 258.3189
+          "adjusted": 258.3189,
+          "faculty": 47
         }
       },
       "validation": {
@@ -843,32 +933,38 @@
         "csrankings": {
           "papers": 5,
           "faculty_papers": 5,
-          "adjusted": 1.8333
+          "adjusted": 1.8333,
+          "faculty": 2
         },
         "core-a-star": {
           "papers": 1,
           "faculty_papers": 1,
-          "adjusted": 0.5
+          "adjusted": 0.5,
+          "faculty": 1
         },
         "core-a": {
           "papers": 10,
           "faculty_papers": 11,
-          "adjusted": 3.3667
+          "adjusted": 3.3667,
+          "faculty": 5
         },
         "ieee": {
           "papers": 115,
           "faculty_papers": 117,
-          "adjusted": 31.2944
+          "adjusted": 31.2944,
+          "faculty": 12
         },
         "acm": {
           "papers": 19,
           "faculty_papers": 19,
-          "adjusted": 5.15
+          "adjusted": 5.15,
+          "faculty": 8
         },
         "all": {
           "papers": 138,
           "faculty_papers": 140,
-          "adjusted": 37.9444
+          "adjusted": 37.9444,
+          "faculty": 13
         }
       },
       "validation": {
@@ -889,32 +985,38 @@
         "csrankings": {
           "papers": 48,
           "faculty_papers": 48,
-          "adjusted": 13.8172
+          "adjusted": 13.8172,
+          "faculty": 12
         },
         "core-a-star": {
           "papers": 59,
           "faculty_papers": 59,
-          "adjusted": 17.0505
+          "adjusted": 17.0505,
+          "faculty": 13
         },
         "core-a": {
           "papers": 52,
           "faculty_papers": 54,
-          "adjusted": 16.2845
+          "adjusted": 16.2845,
+          "faculty": 13
         },
         "ieee": {
           "papers": 114,
           "faculty_papers": 116,
-          "adjusted": 39.6862
+          "adjusted": 39.6862,
+          "faculty": 9
         },
         "acm": {
           "papers": 84,
           "faculty_papers": 84,
-          "adjusted": 22.5829
+          "adjusted": 22.5829,
+          "faculty": 12
         },
         "all": {
           "papers": 265,
           "faculty_papers": 268,
-          "adjusted": 82.6132
+          "adjusted": 82.6132,
+          "faculty": 14
         }
       },
       "validation": {
@@ -935,32 +1037,38 @@
         "csrankings": {
           "papers": 11,
           "faculty_papers": 11,
-          "adjusted": 2.9333
+          "adjusted": 2.9333,
+          "faculty": 4
         },
         "core-a-star": {
           "papers": 5,
           "faculty_papers": 5,
-          "adjusted": 1.6167
+          "adjusted": 1.6167,
+          "faculty": 4
         },
         "core-a": {
           "papers": 13,
           "faculty_papers": 14,
-          "adjusted": 4.15
+          "adjusted": 4.15,
+          "faculty": 5
         },
         "ieee": {
           "papers": 38,
           "faculty_papers": 41,
-          "adjusted": 12.3929
+          "adjusted": 12.3929,
+          "faculty": 8
         },
         "acm": {
           "papers": 12,
           "faculty_papers": 12,
-          "adjusted": 3.7762
+          "adjusted": 3.7762,
+          "faculty": 5
         },
         "all": {
           "papers": 58,
           "faculty_papers": 62,
-          "adjusted": 19.2024
+          "adjusted": 19.2024,
+          "faculty": 9
         }
       },
       "validation": {
@@ -981,32 +1089,38 @@
         "csrankings": {
           "papers": 9,
           "faculty_papers": 9,
-          "adjusted": 3.2333
+          "adjusted": 3.2333,
+          "faculty": 6
         },
         "core-a-star": {
           "papers": 8,
           "faculty_papers": 10,
-          "adjusted": 2.7833
+          "adjusted": 2.7833,
+          "faculty": 5
         },
         "core-a": {
           "papers": 15,
           "faculty_papers": 16,
-          "adjusted": 5.6762
+          "adjusted": 5.6762,
+          "faculty": 9
         },
         "ieee": {
           "papers": 300,
           "faculty_papers": 325,
-          "adjusted": 105.5675
+          "adjusted": 105.5675,
+          "faculty": 23
         },
         "acm": {
           "papers": 77,
           "faculty_papers": 86,
-          "adjusted": 28.6929
+          "adjusted": 28.6929,
+          "faculty": 18
         },
         "all": {
           "papers": 391,
           "faculty_papers": 426,
-          "adjusted": 140.127
+          "adjusted": 140.127,
+          "faculty": 24
         }
       },
       "validation": {
@@ -1027,32 +1141,38 @@
         "csrankings": {
           "papers": 89,
           "faculty_papers": 91,
-          "adjusted": 23.8115
+          "adjusted": 23.8115,
+          "faculty": 10
         },
         "core-a-star": {
           "papers": 89,
           "faculty_papers": 92,
-          "adjusted": 24.4198
+          "adjusted": 24.4198,
+          "faculty": 10
         },
         "core-a": {
           "papers": 70,
           "faculty_papers": 72,
-          "adjusted": 20.4095
+          "adjusted": 20.4095,
+          "faculty": 15
         },
         "ieee": {
           "papers": 293,
           "faculty_papers": 350,
-          "adjusted": 97.4753
+          "adjusted": 97.4753,
+          "faculty": 17
         },
         "acm": {
           "papers": 96,
           "faculty_papers": 108,
-          "adjusted": 30.3107
+          "adjusted": 30.3107,
+          "faculty": 17
         },
         "all": {
           "papers": 472,
           "faculty_papers": 545,
-          "adjusted": 152.3353
+          "adjusted": 152.3353,
+          "faculty": 19
         }
       },
       "validation": {
@@ -1073,32 +1193,38 @@
         "csrankings": {
           "papers": 5,
           "faculty_papers": 5,
-          "adjusted": 0.9857
+          "adjusted": 0.9857,
+          "faculty": 3
         },
         "core-a-star": {
           "papers": 3,
           "faculty_papers": 3,
-          "adjusted": 0.4857
+          "adjusted": 0.4857,
+          "faculty": 1
         },
         "core-a": {
           "papers": 9,
           "faculty_papers": 9,
-          "adjusted": 2.1333
+          "adjusted": 2.1333,
+          "faculty": 4
         },
         "ieee": {
           "papers": 106,
           "faculty_papers": 108,
-          "adjusted": 38.3313
+          "adjusted": 38.3313,
+          "faculty": 10
         },
         "acm": {
           "papers": 8,
           "faculty_papers": 8,
-          "adjusted": 2.6667
+          "adjusted": 2.6667,
+          "faculty": 5
         },
         "all": {
           "papers": 124,
           "faculty_papers": 126,
-          "adjusted": 43.1171
+          "adjusted": 43.1171,
+          "faculty": 11
         }
       },
       "validation": {
@@ -1119,32 +1245,38 @@
         "csrankings": {
           "papers": 2,
           "faculty_papers": 2,
-          "adjusted": 0.5833
+          "adjusted": 0.5833,
+          "faculty": 2
         },
         "core-a-star": {
           "papers": 4,
           "faculty_papers": 4,
-          "adjusted": 1.0333
+          "adjusted": 1.0333,
+          "faculty": 4
         },
         "core-a": {
           "papers": 5,
           "faculty_papers": 5,
-          "adjusted": 1.075
+          "adjusted": 1.075,
+          "faculty": 4
         },
         "ieee": {
           "papers": 103,
           "faculty_papers": 106,
-          "adjusted": 30.1083
+          "adjusted": 30.1083,
+          "faculty": 12
         },
         "acm": {
           "papers": 22,
           "faculty_papers": 23,
-          "adjusted": 7.1833
+          "adjusted": 7.1833,
+          "faculty": 7
         },
         "all": {
           "papers": 131,
           "faculty_papers": 135,
-          "adjusted": 38.7833
+          "adjusted": 38.7833,
+          "faculty": 12
         }
       },
       "validation": {
@@ -1165,32 +1297,38 @@
         "csrankings": {
           "papers": 71,
           "faculty_papers": 101,
-          "adjusted": 25.1865
+          "adjusted": 25.1865,
+          "faculty": 10
         },
         "core-a-star": {
           "papers": 76,
           "faculty_papers": 106,
-          "adjusted": 26.4532
+          "adjusted": 26.4532,
+          "faculty": 10
         },
         "core-a": {
           "papers": 60,
           "faculty_papers": 72,
-          "adjusted": 19.9833
+          "adjusted": 19.9833,
+          "faculty": 15
         },
         "ieee": {
           "papers": 419,
           "faculty_papers": 534,
-          "adjusted": 155.5252
+          "adjusted": 155.5252,
+          "faculty": 16
         },
         "acm": {
           "papers": 67,
           "faculty_papers": 70,
-          "adjusted": 24.1595
+          "adjusted": 24.1595,
+          "faculty": 15
         },
         "all": {
           "papers": 567,
           "faculty_papers": 709,
-          "adjusted": 206.6117
+          "adjusted": 206.6117,
+          "faculty": 19
         }
       },
       "validation": {
@@ -1211,32 +1349,38 @@
         "csrankings": {
           "papers": 182,
           "faculty_papers": 187,
-          "adjusted": 58.7321
+          "adjusted": 58.7321,
+          "faculty": 28
         },
         "core-a-star": {
           "papers": 156,
           "faculty_papers": 160,
-          "adjusted": 48.5048
+          "adjusted": 48.5048,
+          "faculty": 24
         },
         "core-a": {
           "papers": 143,
           "faculty_papers": 149,
-          "adjusted": 47.7467
+          "adjusted": 47.7467,
+          "faculty": 32
         },
         "ieee": {
           "papers": 217,
           "faculty_papers": 225,
-          "adjusted": 72.4797
+          "adjusted": 72.4797,
+          "faculty": 29
         },
         "acm": {
           "papers": 147,
           "faculty_papers": 158,
-          "adjusted": 46.6058
+          "adjusted": 46.6058,
+          "faculty": 26
         },
         "all": {
           "papers": 575,
           "faculty_papers": 600,
-          "adjusted": 188.4517
+          "adjusted": 188.4517,
+          "faculty": 37
         }
       },
       "validation": {
@@ -1257,32 +1401,38 @@
         "csrankings": {
           "papers": 189,
           "faculty_papers": 247,
-          "adjusted": 62.2445
+          "adjusted": 62.2445,
+          "faculty": 31
         },
         "core-a-star": {
           "papers": 211,
           "faculty_papers": 278,
-          "adjusted": 71.3683
+          "adjusted": 71.3683,
+          "faculty": 33
         },
         "core-a": {
           "papers": 152,
           "faculty_papers": 197,
-          "adjusted": 49.1552
+          "adjusted": 49.1552,
+          "faculty": 33
         },
         "ieee": {
           "papers": 624,
           "faculty_papers": 745,
-          "adjusted": 212.181
+          "adjusted": 212.181,
+          "faculty": 47
         },
         "acm": {
           "papers": 342,
           "faculty_papers": 436,
-          "adjusted": 114.7932
+          "adjusted": 114.7932,
+          "faculty": 46
         },
         "all": {
           "papers": 1194,
           "faculty_papers": 1471,
-          "adjusted": 401.7541
+          "adjusted": 401.7541,
+          "faculty": 52
         }
       },
       "validation": {
@@ -1303,32 +1453,38 @@
         "csrankings": {
           "papers": 172,
           "faculty_papers": 184,
-          "adjusted": 52.4171
+          "adjusted": 52.4171,
+          "faculty": 27
         },
         "core-a-star": {
           "papers": 194,
           "faculty_papers": 204,
-          "adjusted": 58.6742
+          "adjusted": 58.6742,
+          "faculty": 27
         },
         "core-a": {
           "papers": 150,
           "faculty_papers": 161,
-          "adjusted": 48.1813
+          "adjusted": 48.1813,
+          "faculty": 32
         },
         "ieee": {
           "papers": 198,
           "faculty_papers": 207,
-          "adjusted": 65.9998
+          "adjusted": 65.9998,
+          "faculty": 26
         },
         "acm": {
           "papers": 114,
           "faculty_papers": 120,
-          "adjusted": 40.0961
+          "adjusted": 40.0961,
+          "faculty": 23
         },
         "all": {
           "papers": 577,
           "faculty_papers": 605,
-          "adjusted": 187.8023
+          "adjusted": 187.8023,
+          "faculty": 37
         }
       },
       "validation": {
@@ -1349,32 +1505,38 @@
         "csrankings": {
           "papers": 4,
           "faculty_papers": 4,
-          "adjusted": 1.3333
+          "adjusted": 1.3333,
+          "faculty": 2
         },
         "core-a-star": {
           "papers": 5,
           "faculty_papers": 5,
-          "adjusted": 1.6667
+          "adjusted": 1.6667,
+          "faculty": 2
         },
         "core-a": {
           "papers": 11,
           "faculty_papers": 11,
-          "adjusted": 3.4595
+          "adjusted": 3.4595,
+          "faculty": 4
         },
         "ieee": {
           "papers": 181,
           "faculty_papers": 190,
-          "adjusted": 61.1506
+          "adjusted": 61.1506,
+          "faculty": 13
         },
         "acm": {
           "papers": 32,
           "faculty_papers": 33,
-          "adjusted": 8.579
+          "adjusted": 8.579,
+          "faculty": 7
         },
         "all": {
           "papers": 222,
           "faculty_papers": 232,
-          "adjusted": 72.7129
+          "adjusted": 72.7129,
+          "faculty": 13
         }
       },
       "validation": {
@@ -1395,32 +1557,38 @@
         "csrankings": {
           "papers": 5,
           "faculty_papers": 5,
-          "adjusted": 1.4083
+          "adjusted": 1.4083,
+          "faculty": 4
         },
         "core-a-star": {
           "papers": 2,
           "faculty_papers": 2,
-          "adjusted": 0.75
+          "adjusted": 0.75,
+          "faculty": 2
         },
         "core-a": {
           "papers": 7,
           "faculty_papers": 7,
-          "adjusted": 2.3929
+          "adjusted": 2.3929,
+          "faculty": 5
         },
         "ieee": {
           "papers": 23,
           "faculty_papers": 23,
-          "adjusted": 6.4179
+          "adjusted": 6.4179,
+          "faculty": 5
         },
         "acm": {
           "papers": 8,
           "faculty_papers": 8,
-          "adjusted": 2.525
+          "adjusted": 2.525,
+          "faculty": 5
         },
         "all": {
           "papers": 40,
           "faculty_papers": 40,
-          "adjusted": 12.0857
+          "adjusted": 12.0857,
+          "faculty": 11
         }
       },
       "validation": {
@@ -1441,32 +1609,38 @@
         "csrankings": {
           "papers": 77,
           "faculty_papers": 80,
-          "adjusted": 20.104
+          "adjusted": 20.104,
+          "faculty": 5
         },
         "core-a-star": {
           "papers": 75,
           "faculty_papers": 79,
-          "adjusted": 19.9802
+          "adjusted": 19.9802,
+          "faculty": 5
         },
         "core-a": {
           "papers": 64,
           "faculty_papers": 69,
-          "adjusted": 16.4762
+          "adjusted": 16.4762,
+          "faculty": 7
         },
         "ieee": {
           "papers": 242,
           "faculty_papers": 282,
-          "adjusted": 84.5897
+          "adjusted": 84.5897,
+          "faculty": 13
         },
         "acm": {
           "papers": 66,
           "faculty_papers": 81,
-          "adjusted": 20.6929
+          "adjusted": 20.6929,
+          "faculty": 12
         },
         "all": {
           "papers": 424,
           "faculty_papers": 485,
-          "adjusted": 136.1532
+          "adjusted": 136.1532,
+          "faculty": 13
         }
       },
       "validation": {
@@ -1487,32 +1661,38 @@
         "csrankings": {
           "papers": 10,
           "faculty_papers": 10,
-          "adjusted": 2.0603
+          "adjusted": 2.0603,
+          "faculty": 3
         },
         "core-a-star": {
           "papers": 17,
           "faculty_papers": 17,
-          "adjusted": 4.0936
+          "adjusted": 4.0936,
+          "faculty": 5
         },
         "core-a": {
           "papers": 16,
           "faculty_papers": 16,
-          "adjusted": 3.9278
+          "adjusted": 3.9278,
+          "faculty": 6
         },
         "ieee": {
           "papers": 163,
           "faculty_papers": 170,
-          "adjusted": 51.1397
+          "adjusted": 51.1397,
+          "faculty": 9
         },
         "acm": {
           "papers": 33,
           "faculty_papers": 33,
-          "adjusted": 9.7226
+          "adjusted": 9.7226,
+          "faculty": 9
         },
         "all": {
           "papers": 215,
           "faculty_papers": 222,
-          "adjusted": 66.1567
+          "adjusted": 66.1567,
+          "faculty": 10
         }
       },
       "validation": {
@@ -1533,32 +1713,38 @@
         "csrankings": {
           "papers": 9,
           "faculty_papers": 9,
-          "adjusted": 2.325
+          "adjusted": 2.325,
+          "faculty": 2
         },
         "core-a-star": {
           "papers": 16,
           "faculty_papers": 16,
-          "adjusted": 3.5107
+          "adjusted": 3.5107,
+          "faculty": 4
         },
         "core-a": {
           "papers": 20,
           "faculty_papers": 21,
-          "adjusted": 5.7952
+          "adjusted": 5.7952,
+          "faculty": 8
         },
         "ieee": {
           "papers": 113,
           "faculty_papers": 120,
-          "adjusted": 36.0725
+          "adjusted": 36.0725,
+          "faculty": 11
         },
         "acm": {
           "papers": 65,
           "faculty_papers": 66,
-          "adjusted": 19.8381
+          "adjusted": 19.8381,
+          "faculty": 10
         },
         "all": {
           "papers": 193,
           "faculty_papers": 202,
-          "adjusted": 60.7939
+          "adjusted": 60.7939,
+          "faculty": 11
         }
       },
       "validation": {
@@ -1579,32 +1765,38 @@
         "csrankings": {
           "papers": 9,
           "faculty_papers": 9,
-          "adjusted": 1.8463
+          "adjusted": 1.8463,
+          "faculty": 4
         },
         "core-a-star": {
           "papers": 7,
           "faculty_papers": 7,
-          "adjusted": 2.0076
+          "adjusted": 2.0076,
+          "faculty": 4
         },
         "core-a": {
           "papers": 17,
           "faculty_papers": 17,
-          "adjusted": 5.3032
+          "adjusted": 5.3032,
+          "faculty": 5
         },
         "ieee": {
           "papers": 81,
           "faculty_papers": 84,
-          "adjusted": 29.2321
+          "adjusted": 29.2321,
+          "faculty": 9
         },
         "acm": {
           "papers": 42,
           "faculty_papers": 44,
-          "adjusted": 15.0658
+          "adjusted": 15.0658,
+          "faculty": 7
         },
         "all": {
           "papers": 130,
           "faculty_papers": 135,
-          "adjusted": 46.7146
+          "adjusted": 46.7146,
+          "faculty": 10
         }
       },
       "validation": {
@@ -1625,32 +1817,38 @@
         "csrankings": {
           "papers": 59,
           "faculty_papers": 59,
-          "adjusted": 13.6063
+          "adjusted": 13.6063,
+          "faculty": 5
         },
         "core-a-star": {
           "papers": 60,
           "faculty_papers": 60,
-          "adjusted": 13.8063
+          "adjusted": 13.8063,
+          "faculty": 5
         },
         "core-a": {
           "papers": 128,
           "faculty_papers": 130,
-          "adjusted": 33.823
+          "adjusted": 33.823,
+          "faculty": 6
         },
         "ieee": {
           "papers": 7,
           "faculty_papers": 7,
-          "adjusted": 1.8667
+          "adjusted": 1.8667,
+          "faculty": 4
         },
         "acm": {
           "papers": 16,
           "faculty_papers": 16,
-          "adjusted": 4.8167
+          "adjusted": 4.8167,
+          "faculty": 5
         },
         "all": {
           "papers": 190,
           "faculty_papers": 192,
-          "adjusted": 48.1294
+          "adjusted": 48.1294,
+          "faculty": 8
         }
       },
       "validation": {
@@ -1671,32 +1869,38 @@
         "csrankings": {
           "papers": 55,
           "faculty_papers": 56,
-          "adjusted": 16.8643
+          "adjusted": 16.8643,
+          "faculty": 15
         },
         "core-a-star": {
           "papers": 61,
           "faculty_papers": 62,
-          "adjusted": 18.5976
+          "adjusted": 18.5976,
+          "faculty": 16
         },
         "core-a": {
           "papers": 117,
           "faculty_papers": 120,
-          "adjusted": 32.4647
+          "adjusted": 32.4647,
+          "faculty": 18
         },
         "ieee": {
           "papers": 320,
           "faculty_papers": 330,
-          "adjusted": 99.0059
+          "adjusted": 99.0059,
+          "faculty": 29
         },
         "acm": {
           "papers": 92,
           "faculty_papers": 93,
-          "adjusted": 29.46
+          "adjusted": 29.46,
+          "faculty": 19
         },
         "all": {
           "papers": 547,
           "faculty_papers": 561,
-          "adjusted": 168.317
+          "adjusted": 168.317,
+          "faculty": 38
         }
       },
       "validation": {
@@ -1717,32 +1921,38 @@
         "csrankings": {
           "papers": 2,
           "faculty_papers": 2,
-          "adjusted": 0.5
+          "adjusted": 0.5,
+          "faculty": 2
         },
         "core-a-star": {
           "papers": 3,
           "faculty_papers": 3,
-          "adjusted": 0.8333
+          "adjusted": 0.8333,
+          "faculty": 2
         },
         "core-a": {
           "papers": 5,
           "faculty_papers": 5,
-          "adjusted": 1.1
+          "adjusted": 1.1,
+          "faculty": 3
         },
         "ieee": {
           "papers": 100,
           "faculty_papers": 112,
-          "adjusted": 32.3095
+          "adjusted": 32.3095,
+          "faculty": 18
         },
         "acm": {
           "papers": 33,
           "faculty_papers": 35,
-          "adjusted": 11.05
+          "adjusted": 11.05,
+          "faculty": 11
         },
         "all": {
           "papers": 138,
           "faculty_papers": 152,
-          "adjusted": 44.5929
+          "adjusted": 44.5929,
+          "faculty": 18
         }
       },
       "validation": {
@@ -1763,32 +1973,38 @@
         "csrankings": {
           "papers": 1,
           "faculty_papers": 1,
-          "adjusted": 0.25
+          "adjusted": 0.25,
+          "faculty": 1
         },
         "core-a-star": {
           "papers": 1,
           "faculty_papers": 1,
-          "adjusted": 0.25
+          "adjusted": 0.25,
+          "faculty": 1
         },
         "core-a": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "ieee": {
           "papers": 2,
           "faculty_papers": 2,
-          "adjusted": 0.5
+          "adjusted": 0.5,
+          "faculty": 2
         },
         "acm": {
           "papers": 2,
           "faculty_papers": 2,
-          "adjusted": 0.6667
+          "adjusted": 0.6667,
+          "faculty": 2
         },
         "all": {
           "papers": 5,
           "faculty_papers": 5,
-          "adjusted": 1.4167
+          "adjusted": 1.4167,
+          "faculty": 4
         }
       },
       "validation": {
@@ -1809,32 +2025,38 @@
         "csrankings": {
           "papers": 5,
           "faculty_papers": 5,
-          "adjusted": 1.3095
+          "adjusted": 1.3095,
+          "faculty": 1
         },
         "core-a-star": {
           "papers": 7,
           "faculty_papers": 7,
-          "adjusted": 1.8095
+          "adjusted": 1.8095,
+          "faculty": 1
         },
         "core-a": {
           "papers": 3,
           "faculty_papers": 3,
-          "adjusted": 0.75
+          "adjusted": 0.75,
+          "faculty": 2
         },
         "ieee": {
           "papers": 102,
           "faculty_papers": 108,
-          "adjusted": 30.4667
+          "adjusted": 30.4667,
+          "faculty": 26
         },
         "acm": {
           "papers": 11,
           "faculty_papers": 11,
-          "adjusted": 3.6429
+          "adjusted": 3.6429,
+          "faculty": 6
         },
         "all": {
           "papers": 118,
           "faculty_papers": 124,
-          "adjusted": 35.419
+          "adjusted": 35.419,
+          "faculty": 26
         }
       },
       "validation": {
@@ -1855,32 +2077,38 @@
         "csrankings": {
           "papers": 3,
           "faculty_papers": 3,
-          "adjusted": 0.3826
+          "adjusted": 0.3826,
+          "faculty": 1
         },
         "core-a-star": {
           "papers": 2,
           "faculty_papers": 2,
-          "adjusted": 0.2576
+          "adjusted": 0.2576,
+          "faculty": 1
         },
         "core-a": {
           "papers": 1,
           "faculty_papers": 1,
-          "adjusted": 0.125
+          "adjusted": 0.125,
+          "faculty": 1
         },
         "ieee": {
           "papers": 86,
           "faculty_papers": 103,
-          "adjusted": 33.8857
+          "adjusted": 33.8857,
+          "faculty": 50
         },
         "acm": {
           "papers": 9,
           "faculty_papers": 10,
-          "adjusted": 3.3333
+          "adjusted": 3.3333,
+          "faculty": 9
         },
         "all": {
           "papers": 98,
           "faculty_papers": 116,
-          "adjusted": 37.6016
+          "adjusted": 37.6016,
+          "faculty": 51
         }
       },
       "validation": {
@@ -1901,32 +2129,38 @@
         "csrankings": {
           "papers": 4,
           "faculty_papers": 5,
-          "adjusted": 1.1833
+          "adjusted": 1.1833,
+          "faculty": 4
         },
         "core-a-star": {
           "papers": 5,
           "faculty_papers": 6,
-          "adjusted": 1.4333
+          "adjusted": 1.4333,
+          "faculty": 4
         },
         "core-a": {
           "papers": 22,
           "faculty_papers": 22,
-          "adjusted": 6.6345
+          "adjusted": 6.6345,
+          "faculty": 4
         },
         "ieee": {
           "papers": 11,
           "faculty_papers": 12,
-          "adjusted": 3.6833
+          "adjusted": 3.6833,
+          "faculty": 4
         },
         "acm": {
           "papers": 4,
           "faculty_papers": 4,
-          "adjusted": 1.8333
+          "adjusted": 1.8333,
+          "faculty": 1
         },
         "all": {
           "papers": 41,
           "faculty_papers": 42,
-          "adjusted": 13.1845
+          "adjusted": 13.1845,
+          "faculty": 6
         }
       },
       "validation": {
@@ -1947,32 +2181,38 @@
         "csrankings": {
           "papers": 1,
           "faculty_papers": 1,
-          "adjusted": 0.5
+          "adjusted": 0.5,
+          "faculty": 1
         },
         "core-a-star": {
           "papers": 1,
           "faculty_papers": 1,
-          "adjusted": 0.5
+          "adjusted": 0.5,
+          "faculty": 1
         },
         "core-a": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "ieee": {
           "papers": 50,
           "faculty_papers": 58,
-          "adjusted": 24.7667
+          "adjusted": 24.7667,
+          "faculty": 14
         },
         "acm": {
           "papers": 7,
           "faculty_papers": 10,
-          "adjusted": 3.5333
+          "adjusted": 3.5333,
+          "faculty": 7
         },
         "all": {
           "papers": 58,
           "faculty_papers": 69,
-          "adjusted": 28.8
+          "adjusted": 28.8,
+          "faculty": 16
         }
       },
       "validation": {
@@ -1993,32 +2233,38 @@
         "csrankings": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "core-a-star": {
           "papers": 3,
           "faculty_papers": 3,
-          "adjusted": 0.5667
+          "adjusted": 0.5667,
+          "faculty": 2
         },
         "core-a": {
           "papers": 6,
           "faculty_papers": 8,
-          "adjusted": 2.5833
+          "adjusted": 2.5833,
+          "faculty": 4
         },
         "ieee": {
           "papers": 87,
           "faculty_papers": 106,
-          "adjusted": 32.9722
+          "adjusted": 32.9722,
+          "faculty": 17
         },
         "acm": {
           "papers": 23,
           "faculty_papers": 29,
-          "adjusted": 10.0833
+          "adjusted": 10.0833,
+          "faculty": 11
         },
         "all": {
           "papers": 115,
           "faculty_papers": 140,
-          "adjusted": 44.7889
+          "adjusted": 44.7889,
+          "faculty": 19
         }
       },
       "validation": {
@@ -2039,32 +2285,38 @@
         "csrankings": {
           "papers": 18,
           "faculty_papers": 18,
-          "adjusted": 5.5833
+          "adjusted": 5.5833,
+          "faculty": 5
         },
         "core-a-star": {
           "papers": 14,
           "faculty_papers": 14,
-          "adjusted": 4.1278
+          "adjusted": 4.1278,
+          "faculty": 5
         },
         "core-a": {
           "papers": 12,
           "faculty_papers": 12,
-          "adjusted": 3.65
+          "adjusted": 3.65,
+          "faculty": 5
         },
         "ieee": {
           "papers": 67,
           "faculty_papers": 68,
-          "adjusted": 19.6206
+          "adjusted": 19.6206,
+          "faculty": 11
         },
         "acm": {
           "papers": 28,
           "faculty_papers": 28,
-          "adjusted": 8.4107
+          "adjusted": 8.4107,
+          "faculty": 8
         },
         "all": {
           "papers": 103,
           "faculty_papers": 104,
-          "adjusted": 30.348
+          "adjusted": 30.348,
+          "faculty": 13
         }
       },
       "validation": {
@@ -2085,32 +2337,38 @@
         "csrankings": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "core-a-star": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "core-a": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "ieee": {
           "papers": 3,
           "faculty_papers": 3,
-          "adjusted": 0.9167
+          "adjusted": 0.9167,
+          "faculty": 2
         },
         "acm": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "all": {
           "papers": 3,
           "faculty_papers": 3,
-          "adjusted": 0.9167
+          "adjusted": 0.9167,
+          "faculty": 2
         }
       },
       "validation": {
@@ -2131,32 +2389,38 @@
         "csrankings": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "core-a-star": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "core-a": {
           "papers": 4,
           "faculty_papers": 4,
-          "adjusted": 1.4167
+          "adjusted": 1.4167,
+          "faculty": 2
         },
         "ieee": {
           "papers": 38,
           "faculty_papers": 38,
-          "adjusted": 14.1833
+          "adjusted": 14.1833,
+          "faculty": 8
         },
         "acm": {
           "papers": 14,
           "faculty_papers": 14,
-          "adjusted": 4.8167
+          "adjusted": 4.8167,
+          "faculty": 5
         },
         "all": {
           "papers": 55,
           "faculty_papers": 55,
-          "adjusted": 20.0833
+          "adjusted": 20.0833,
+          "faculty": 9
         }
       },
       "validation": {
@@ -2177,32 +2441,38 @@
         "csrankings": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "core-a-star": {
           "papers": 2,
           "faculty_papers": 2,
-          "adjusted": 0.5833
+          "adjusted": 0.5833,
+          "faculty": 1
         },
         "core-a": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "ieee": {
           "papers": 143,
           "faculty_papers": 146,
-          "adjusted": 51.3262
+          "adjusted": 51.3262,
+          "faculty": 6
         },
         "acm": {
           "papers": 12,
           "faculty_papers": 12,
-          "adjusted": 5.0
+          "adjusted": 5.0,
+          "faculty": 2
         },
         "all": {
           "papers": 155,
           "faculty_papers": 158,
-          "adjusted": 56.3262
+          "adjusted": 56.3262,
+          "faculty": 6
         }
       },
       "validation": {
@@ -2223,32 +2493,38 @@
         "csrankings": {
           "papers": 95,
           "faculty_papers": 113,
-          "adjusted": 32.4024
+          "adjusted": 32.4024,
+          "faculty": 14
         },
         "core-a-star": {
           "papers": 110,
           "faculty_papers": 128,
-          "adjusted": 38.8357
+          "adjusted": 38.8357,
+          "faculty": 14
         },
         "core-a": {
           "papers": 106,
           "faculty_papers": 115,
-          "adjusted": 41.6429
+          "adjusted": 41.6429,
+          "faculty": 14
         },
         "ieee": {
           "papers": 89,
           "faculty_papers": 97,
-          "adjusted": 31.1167
+          "adjusted": 31.1167,
+          "faculty": 12
         },
         "acm": {
           "papers": 37,
           "faculty_papers": 42,
-          "adjusted": 13.9929
+          "adjusted": 13.9929,
+          "faculty": 12
         },
         "all": {
           "papers": 284,
           "faculty_papers": 312,
-          "adjusted": 103.8452
+          "adjusted": 103.8452,
+          "faculty": 16
         }
       },
       "validation": {
@@ -2269,32 +2545,38 @@
         "csrankings": {
           "papers": 1,
           "faculty_papers": 1,
-          "adjusted": 0.3333
+          "adjusted": 0.3333,
+          "faculty": 1
         },
         "core-a-star": {
           "papers": 1,
           "faculty_papers": 1,
-          "adjusted": 0.2
+          "adjusted": 0.2,
+          "faculty": 1
         },
         "core-a": {
           "papers": 2,
           "faculty_papers": 2,
-          "adjusted": 0.6667
+          "adjusted": 0.6667,
+          "faculty": 1
         },
         "ieee": {
           "papers": 17,
           "faculty_papers": 18,
-          "adjusted": 6.3667
+          "adjusted": 6.3667,
+          "faculty": 6
         },
         "acm": {
           "papers": 9,
           "faculty_papers": 11,
-          "adjusted": 2.9262
+          "adjusted": 2.9262,
+          "faculty": 7
         },
         "all": {
           "papers": 28,
           "faculty_papers": 31,
-          "adjusted": 9.8262
+          "adjusted": 9.8262,
+          "faculty": 9
         }
       },
       "validation": {
@@ -2315,32 +2597,38 @@
         "csrankings": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "core-a-star": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "core-a": {
           "papers": 0,
           "faculty_papers": 0,
-          "adjusted": 0.0
+          "adjusted": 0.0,
+          "faculty": 0
         },
         "ieee": {
           "papers": 17,
           "faculty_papers": 17,
-          "adjusted": 6.45
+          "adjusted": 6.45,
+          "faculty": 8
         },
         "acm": {
           "papers": 10,
           "faculty_papers": 11,
-          "adjusted": 2.95
+          "adjusted": 2.95,
+          "faculty": 5
         },
         "all": {
           "papers": 27,
           "faculty_papers": 28,
-          "adjusted": 9.4
+          "adjusted": 9.4,
+          "faculty": 11
         }
       },
       "validation": {

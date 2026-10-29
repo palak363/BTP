@@ -65,6 +65,7 @@ class InstituteApiTests(unittest.TestCase):
                     self.assertEqual(payload['total_papers'], totals['papers'])
                     self.assertEqual(payload['faculty_paper_count'], totals['faculty_papers'])
                     self.assertEqual(payload['total_faculty'], entry['faculty'])
+                    self.assertEqual(sum(f['papers'] > 0 for f in payload['faculty_rankings']), totals['faculty'])
 
     def test_every_faculty_member_belongs_to_one_institute(self):
         names = [f['name'] for f in self.index['faculty']]

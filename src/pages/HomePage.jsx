@@ -42,15 +42,15 @@ export default function HomePage() {
       <div className="panel-heading institutes-heading"><div><h2>Institute overview</h2><p>Unique papers per institute, {defaultWindow[0]}–{defaultWindow[1]} inclusive. Each DBLP paper is counted once per institute.</p></div>
         <div className="table-controls"><label className="sr-only" htmlFor="institute-search">Search institutes</label><input id="institute-search" type="search" placeholder="Search institutes…" value={search} onChange={event => setSearch(event.target.value)} />
           <label className="sr-only" htmlFor="ranking-source">Count papers from</label><select id="ranking-source" value={source} onChange={event => setSource(event.target.value)}>{rankingSources.map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></div></div>
-      <div className="table-scroll"><table><thead><tr><th scope="col">#</th><th scope="col">Institute</th><th scope="col" className="numeric">Faculty</th><th scope="col" className="numeric">Unique papers</th><th scope="col">Explore</th></tr></thead>
+      <div className="table-scroll"><table><thead><tr><th scope="col">#</th><th scope="col">Institute</th><th scope="col" className="numeric" title="Faculty with at least one selected paper in these years, as on csrankings.org">Faculty</th><th scope="col" className="numeric">Unique papers</th><th scope="col">Explore</th></tr></thead>
         <tbody>{shown.map(institute => <tr key={institute.slug}>
           <td className="rank">{String(institute.rank).padStart(2, "0")}</td><td className="institute-name">{institute.name}</td>
-          <td className="numeric">{institute.faculty}{institute.unresolved > 0 && <span className="quiet" title={`${institute.unresolved} faculty could not be matched to a DBLP profile`}> +{institute.unresolved}</span>}</td>
+          <td className="numeric">{institute.totals[source].faculty}</td>
           <td className="numeric">{institute.totals[source].papers.toLocaleString("en-IN")}</td>
           <td><Link to={`/institute/${encodeURIComponent(institute.name)}`}>View profile ↗</Link></td>
         </tr>)}</tbody></table></div>
       {!shown.length && <p className="empty">No institutes match “{search}”.</p>}
-      <div className="table-footer">Showing {shown.length} of {institutes.length} institutes · Ranked by unique {rankingSources.find(([value]) => value === source)[1]} papers · “+N” marks faculty without a matched DBLP profile</div>
+      <div className="table-footer">Showing {shown.length} of {institutes.length} institutes · Ranked by unique {rankingSources.find(([value]) => value === source)[1]} papers · Faculty counts only those with at least one of these papers</div>
     </section>
     <section className="panel compare-panel">
       <div><p className="eyebrow">Side by side</p><h2>Compare institutes</h2><p>Paper counts for every source, faculty and authorship credit.</p></div>

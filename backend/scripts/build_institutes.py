@@ -249,8 +249,10 @@ def index_entry(dataset, report):
     totals = {}
     for key, sources in [(s, [s]) for s in dataset['metadata']['available_sources']] + [('all', dataset['metadata']['available_sources'])]:
         summary = summarize(dataset, start, end, sources)
+        # Active faculty: at least one selected paper, as csrankings.org's Faculty column.
         totals[key] = {'papers': summary['total_papers'], 'faculty_papers': summary['faculty_paper_count'],
-                       'adjusted': round(summary['adjusted_count'], 4)}
+                       'adjusted': round(summary['adjusted_count'], 4),
+                       'faculty': sum(f['papers'] > 0 for f in summary['faculty_rankings'])}
     meta = dataset['metadata']
     return {'name': meta['institution'], 'slug': meta['slug'], 'homepage': meta['homepage'],
             'faculty': len(dataset['faculty']), 'unresolved': len(meta['unresolved_faculty']),

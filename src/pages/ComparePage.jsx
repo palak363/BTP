@@ -4,12 +4,13 @@ import { sourceNames } from "../publications";
 
 const format = value => new Intl.NumberFormat("en-IN", { maximumFractionDigits: 1 }).format(value);
 const metrics = [
-  ["Faculty with a DBLP profile", institute => institute.faculty],
+  ["Faculty with ≥1 CSRankings paper", institute => institute.totals.csrankings.faculty],
+  ["Faculty with ≥1 paper, all sources", institute => institute.totals.all.faculty],
   ...availableSources.map(source => [`Unique ${sourceNames[source] || source} papers`, institute => institute.totals[source].papers]),
   ["Unique papers, all sources", institute => institute.totals.all.papers],
   ["Faculty paper count, all sources", institute => institute.totals.all.faculty_papers],
   ["Adjusted credit, CSRankings", institute => institute.totals.csrankings.adjusted],
-  ["CSRankings papers per faculty", institute => institute.faculty ? institute.totals.csrankings.papers / institute.faculty : 0],
+  ["CSRankings papers per active faculty", institute => institute.totals.csrankings.faculty ? institute.totals.csrankings.papers / institute.totals.csrankings.faculty : 0],
 ];
 
 export default function ComparePage() {
