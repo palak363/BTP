@@ -26,6 +26,10 @@ export function loadInstitute(slug) {
   return loaded.get(slug);
 }
 
+export async function loadAllInstitutes() {
+  return Promise.all(institutes.map(institute => loadInstitute(institute.slug)));
+}
+
 export async function localSummary(slug, ...filters) {
   return summarize(await loadInstitute(slug), ...filters);
 }

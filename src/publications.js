@@ -4,6 +4,12 @@ const transactionJournal = /^(?:ACM|IEEE)\s+Trans\./i;
 const acmIeeeJournalName = /^(?:ACM|IEEE|Proc\.\s*ACM|J\.\s*ACM)\b/i;
 const acmIeeeDoi = /^(?:10\.1145|10\.1109)\//i;
 
+export function isTransactionPaper(paper) {
+  if (paper.type !== "article") return false;
+  const venue = paper.journal || venueName(paper);
+  return transactionJournal.test(venue) || (paper.dois || []).some(doi => acmIeeeDoi.test(doi));
+}
+
 export function isVisiblePaper(paper) {
   if (paper.type !== "article") return true;
   const venue = paper.journal || venueName(paper);

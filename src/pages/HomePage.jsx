@@ -23,7 +23,8 @@ export default function HomePage() {
       <div><p className="eyebrow">A closer look at computer science</p>
         <h1>Discover research.<br /><span>Understand its impact.</span></h1>
         <p className="hero-copy">Explore the people, research areas, and publication venues shaping computer science in India.</p>
-        <a className="button primary" href="#institutes">Browse institutes ↓</a>
+        <div className="hero-actions"><a className="button primary" href="#institutes">Browse institutes ↓</a>
+        <Link className="button" to="/conferences">Search by conferences ↗</Link></div>
         <p className="quiet hero-footnote">{institutes.length} Indian institutes and {facultyDirectory.length.toLocaleString("en-IN")} faculty from the CSRankings roster. Built on transparent publication counts.</p>
       </div>
       <div className="hero-graphic" aria-hidden="true">
@@ -35,7 +36,7 @@ export default function HomePage() {
     </section>
     <div className="section-heading"><div><p className="eyebrow">Explore the landscape</p><h2>One view. Five venue selections.</h2></div><span className="quiet">Publication-based research metrics</span></div>
     <section className="source-cards" aria-label="Ranking sources">
-      {[["CSRankings","Available baseline","Explore faculty publications that meet CSRankings venue and paper eligibility rules."],["CORE A*","Bibliography refresh needed","Expand the selection with A* conferences from the CORE2023 catalogue."],["CORE A","Bibliography refresh needed","Include A-ranked conferences, counting overlapping papers only once."],["IEEE","Bibliography refresh needed","Main-conference papers published by IEEE, identified by DOI. Workshops are excluded."],["ACM","Bibliography refresh needed","Main-conference papers published by ACM, identified by DOI. Workshops are excluded."]].map(([title,status,copy],index) =>
+      {[["CSRankings","Available baseline","Explore faculty publications that meet CSRankings venue and paper eligibility rules."],["CORE A*","Bibliography refresh needed","Expand the selection with A* conferences from the CORE2023 catalogue."],["CORE A","Bibliography refresh needed","Include A-ranked conferences, counting overlapping papers only once."],["IEEE Transactions","Bibliography refresh needed","IEEE Transactions journal papers, identified by venue and DOI. Other IEEE journals are excluded."],["ACM Transactions","Bibliography refresh needed","ACM Transactions journal papers, identified by venue and DOI. Other ACM journals are excluded."]].map(([title,status,copy],index) =>
         <article className="source-card" key={title}><span className="source-number">0{index+1}</span><span className="badge">{availableSources.includes(["csrankings","core-a-star","core-a","ieee","acm"][index]) ? "Available" : status}</span><h3>{title}</h3><p>{copy}</p></article>)}
     </section>
     <section className="panel" id="institutes">

@@ -4,6 +4,7 @@ import InstitutePage from "./pages/InstitutePage";
 import ComparePage from "./pages/ComparePage";
 import ProfessorPage from "./pages/ProfessorPage";
 import DblpSearch from "./components/DblpSearch";
+import ConferencePage from "./pages/ConferencePage";
 
 export default function App() {
   return <BrowserRouter>
@@ -15,6 +16,7 @@ export default function App() {
     </header>
     <main id="main"><Routes>
       <Route path="/" element={<HomePage />} />
+      <Route path="/conferences" element={<ConferencePage />} />
       <Route path="/institute/:name" element={<InstitutePage />} />
       <Route path="/professor/:name" element={<ProfessorPage />} />
       <Route path="/compare/:uni1/:uni2" element={<ComparePage />} />
