@@ -1,8 +1,8 @@
-import { venueDistribution } from "../publications";
+import { filterPapers, venueDistribution } from "../publications";
 
 const colors = ["#126c53", "#369b83", "#75b89c", "#a6cc78", "#d7b456", "#bb8466", "#6589b4", "#9ba7a2"];
 export default function VenuePie({ papers, compact = false }) {
-  const distribution = venueDistribution(papers);
+  const distribution = venueDistribution(filterPapers(papers));
   const slices = distribution.length > 8
     ? [...distribution.slice(0, 7), { name: `Other (${distribution.length - 7} venues)`, count: distribution.slice(7).reduce((sum, item) => sum + item.count, 0) }]
     : distribution;

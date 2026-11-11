@@ -10,6 +10,7 @@ from flask_cors import CORS
 BASE = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BASE / 'scripts'))
 from build_institutes import INDEX, INSTITUTES, summarize
+from journal_policy import is_visible_paper
 
 app = Flask(__name__)
 CORS(app)
@@ -60,7 +61,8 @@ def faculty_payload(name, slug=None):
     if member is None:
         return jsonify(error='Faculty member not found.'), 404
     dataset = current_dataset(member['slug'])
-    papers = {p['key']: p for p in dataset.get('publications', []) if name in p['faculty']}
+    papers = {p['key']: p for p in dataset.get('publications', [])
+              if name in p['faculty'] and is_visible_paper(p)}
     return jsonify({
         'name': name,
         'institution': dataset['metadata']['institution'],

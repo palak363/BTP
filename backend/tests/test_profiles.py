@@ -8,6 +8,7 @@ from urllib.parse import quote
 BASE = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BASE))
 from api.app import app
+from journal_policy import is_visible_paper
 
 
 class Profiles(unittest.TestCase):
@@ -19,7 +20,7 @@ class Profiles(unittest.TestCase):
                 response = client.get('/iiitd/faculty/' + quote(faculty['name']) + '?start_year=2026&sources=csrankings')
                 self.assertEqual(response.status_code, 200)
                 actual = response.get_json()
-                expected = {p['key']: p for p in dataset['publications'] if faculty['name'] in p['faculty']}
+                expected = {p['key']: p for p in dataset['publications'] if faculty['name'] in p['faculty'] and is_visible_paper(p)}
                 self.assertEqual(actual['name'], faculty['name'])
                 self.assertEqual(len(actual['publications']), len(expected))
                 self.assertEqual({p['key']: p for p in actual['publications']}, expected)

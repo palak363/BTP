@@ -1,8 +1,18 @@
 export const sourceNames = { csrankings: "CSRankings", "core-a-star": "CORE A*", "core-a": "CORE A", ieee: "IEEE", acm: "ACM" };
 export const venueName = paper => paper.venue || paper.booktitle || paper.journal || "Unknown venue";
+const transactionJournal = /^(?:ACM|IEEE)\s+Trans\./i;
+const acmIeeeJournalName = /^(?:ACM|IEEE|Proc\.\s*ACM|J\.\s*ACM)\b/i;
+const acmIeeeDoi = /^(?:10\.1145|10\.1109)\//i;
+
+export function isVisiblePaper(paper) {
+  if (paper.type !== "article") return true;
+  const venue = paper.journal || venueName(paper);
+  const isAcmIeee = acmIeeeJournalName.test(venue) || (paper.dois || []).some(doi => acmIeeeDoi.test(doi));
+  return !isAcmIeee || transactionJournal.test(venue);
+}
 export function filterPapers(papers, { venues = [], sources = [], periods = [], search = "" } = {}) {
   const query = search.trim().toLowerCase();
-  return papers.filter(paper => (!venues.length || venues.includes(venueName(paper)))
+  return papers.filter(paper => isVisiblePaper(paper) && (!venues.length || venues.includes(venueName(paper)))
     && (!sources.length || paper.memberships.some(item => sources.includes(item.source)))
     && (!periods.length || periods.some(({ start, end }) => paper.year >= start && paper.year <= end))
     && `${paper.title} ${venueName(paper)}`.toLowerCase().includes(query));

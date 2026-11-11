@@ -13,6 +13,8 @@ npm.cmd run dev
 
 Open http://localhost:5173. The UI includes the generated DBLP snapshots, so year, area, faculty search, sorting, and source selections also work without Flask. Each institute's snapshot is a separate file that loads only when its page is opened. The interface labels this as a bundled snapshot.
 
+Faculty bibliographies show ACM and IEEE journal articles only when the venue is an ACM Transactions or IEEE Transactions title. ACM/IEEE conference papers are unaffected. The rule applies to both the bundled snapshot and API response; it does not change aggregate CSRankings or CORE counts.
+
 To use the API, in a second terminal:
 
 ```powershell

@@ -19,3 +19,22 @@ export function findDblpFaculty(faculty, query) {
   return faculty.filter(person => normalizeDblpId(person.dblp_url || '').includes(id))
     .sort((a, b) => Number(normalizeDblpId(b.dblp_url) === id) - Number(normalizeDblpId(a.dblp_url) === id) || a.name.localeCompare(b.name));
 }
+
+const normalizedName = value => value.normalize("NFKD").replace(/\p{Diacritic}/gu, "")
+  .toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+
+export function findFaculty(faculty, query) {
+  const dbplMatches = findDblpFaculty(faculty, query);
+  if (dbplMatches.length) return dbplMatches;
+  const terms = normalizedName(query).split(" ").filter(Boolean);
+  if (!terms.length) return [];
+  return faculty.filter(person => {
+    const name = normalizedName(person.name);
+    return terms.every(term => name.includes(term));
+  }).sort((a, b) => {
+    const left = normalizedName(a.name), right = normalizedName(b.name), whole = terms.join(" ");
+    return Number(right === whole) - Number(left === whole)
+      || Number(right.startsWith(whole)) - Number(left.startsWith(whole))
+      || a.name.localeCompare(b.name);
+  });
+}

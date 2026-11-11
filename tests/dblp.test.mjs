@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { findDblpFaculty, normalizeDblpId } from '../src/dblp.js';
+import { findDblpFaculty, findFaculty, normalizeDblpId } from '../src/dblp.js';
 // Every faculty member across all institutes, as the search box sees them.
 const { faculty } = JSON.parse(fs.readFileSync(new URL('../backend/data/processed/institutes.json', import.meta.url)));
 
@@ -19,4 +19,14 @@ test('partial searches and invalid inputs are handled without false URL matches'
   for (const input of ['', 'https://example.com/pid/232/6141', 'https://dblp.org.evil.test/pid/232/6141', 'https://dblp.org/rec/conf/example', 'javascript:alert(1)', '%', 'not a person id']) {
     assert.deepEqual(findDblpFaculty(faculty, input), []);
   }
+});
+
+test('professor names are searchable by full name, surname, and case-insensitive terms', () => {
+  const target = faculty.find(person => person.name === 'Md. Shad Akhtar');
+  assert.ok(target);
+  for (const query of ['Md. Shad Akhtar', 'shad akhtar', 'AKHTAR', 'md shad']) {
+    assert.equal(findFaculty(faculty, query)[0]?.name, target.name);
+  }
+  assert.equal(findFaculty(faculty, normalizeDblpId(target.dblp_url))[0]?.name, target.name);
+  assert.deepEqual(findFaculty(faculty, 'not a professor name'), []);
 });
