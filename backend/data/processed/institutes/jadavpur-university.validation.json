@@ -1,12 +1,922 @@
 {
   "institution": "Jadavpur University",
   "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
-  "compared_cells": 4,
+  "compared_cells": 105,
   "expected_papers": 4,
-  "actual_papers": 4,
-  "matching": true,
+  "actual_papers": 150,
+  "matching": false,
   "missing_cells": 0,
-  "extra_cells": 0,
-  "differences": [],
+  "extra_cells": 101,
+  "differences": [
+    {
+      "name": "Amitava Das 0001",
+      "area": "aaai",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.08333333333333333
+    },
+    {
+      "name": "Amitava Das 0001",
+      "area": "acl",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.125
+    },
+    {
+      "name": "Amitava Das 0001",
+      "area": "cvpr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Amitava Das 0001",
+      "area": "emnlp",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 3,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2638888888888889
+    },
+    {
+      "name": "Amitava Das 0001",
+      "area": "emnlp",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.06666666666666667
+    },
+    {
+      "name": "Amitava Das 0001",
+      "area": "icde",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Ankan Bhunia",
+      "area": "cvpr",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Ankan Bhunia",
+      "area": "cvpr",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Ankan Bhunia",
+      "area": "cvpr",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Ankan Bhunia",
+      "area": "cvpr",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Ankan Bhunia",
+      "area": "eccv",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Ankan Bhunia",
+      "area": "iccv",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Ankan Bhunia",
+      "area": "iccv",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.125
+    },
+    {
+      "name": "Ankan Bhunia",
+      "area": "nips",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Debesh Kumar Das",
+      "area": "iccad",
+      "year": 2000,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Goutam Paul 0001",
+      "area": "dac",
+      "year": 2013,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Goutam Paul 0001",
+      "area": "kdd",
+      "year": 2004,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Saikat Dutta 0002",
+      "area": "cvpr",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Somnath Banerjee 0001",
+      "area": "emnlp",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "aaai",
+      "year": 2015,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "aaai",
+      "year": 2018,
+      "expected_papers": 0,
+      "actual_papers": 3,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5833333333333333
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "aaai",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "aaai",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.1
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "aaai",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.30000000000000004
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "acl",
+      "year": 2017,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "acl",
+      "year": 2018,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "acl",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "acl",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "acl",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "acl",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 3,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.6000000000000001
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "acl",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "acl",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "acl",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 3,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3968253968253968
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "eccv",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "emnlp",
+      "year": 2015,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "emnlp",
+      "year": 2017,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "emnlp",
+      "year": 2018,
+      "expected_papers": 0,
+      "actual_papers": 3,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5333333333333333
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "emnlp",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "emnlp",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.29166666666666663
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "emnlp",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5833333333333333
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "emnlp",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 4,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.95
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "emnlp",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.1111111111111111
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "emnlp",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "emnlp",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.125
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "iclr",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "iclr",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2777777777777778
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "iclr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 4,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.503968253968254
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "naacl",
+      "year": 2018,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "naacl",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "naacl",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.125
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "naacl",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "naacl",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "naacl",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Soujanya Poria",
+      "area": "www",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Sudipto Mukherjee 0001",
+      "area": "aaai",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Sudipto Mukherjee 0001",
+      "area": "acl",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Sudipto Mukherjee 0001",
+      "area": "recomb",
+      "year": 2017,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "aaai",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.47619047619047616
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "aaai",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "aaai",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.41666666666666663
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "aaai",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "aaai",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "aaai",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "acl",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "acl",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 3,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.6166666666666667
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "acl",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "acl",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "acl",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 3,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.31857142857142856
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "emnlp",
+      "year": 2016,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "emnlp",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "emnlp",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 3,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.7
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "emnlp",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 6,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 1.4833333333333332
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "emnlp",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 4,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 1.1428571428571428
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "emnlp",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.125
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "icde",
+      "year": 2015,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "icde",
+      "year": 2016,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "icde",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "iclr",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "iclr",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "iclr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "ijcai",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "ijcai",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "ijcai",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.1
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "ijcai",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "ijcai",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "ijcai",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "kdd",
+      "year": 2014,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "kdd",
+      "year": 2015,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "kdd",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "kdd",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.1111111111111111
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "kdd",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.4
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "kdd",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5833333333333333
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "kdd",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "naacl",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "naacl",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "nips",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "nips",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "nips",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "www",
+      "year": 2018,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "www",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Tanmoy Chakraborty 0002",
+      "area": "www",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 3,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.8333333333333333
+    }
+  ],
   "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten. Missing cells: the reference counts papers this build does not. Extra cells: this build counts papers the reference does not."
 }

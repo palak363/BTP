@@ -1,12 +1,12 @@
 {
   "institution": "IIT Ropar",
   "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
-  "compared_cells": 13,
+  "compared_cells": 24,
   "expected_papers": 10,
-  "actual_papers": 13,
+  "actual_papers": 27,
   "matching": false,
   "missing_cells": 0,
-  "extra_cells": 3,
+  "extra_cells": 14,
   "differences": [
     {
       "name": "Abhinav Dhall",
@@ -27,6 +27,69 @@
       "actual_adjusted": 0.16666666666666666
     },
     {
+      "name": "M. Subrahmanyam 0001",
+      "area": "cvpr",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.45
+    },
+    {
+      "name": "M. Subrahmanyam 0001",
+      "area": "cvpr",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "M. Subrahmanyam 0001",
+      "area": "cvpr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "M. Subrahmanyam 0001",
+      "area": "eccv",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5333333333333333
+    },
+    {
+      "name": "M. Subrahmanyam 0001",
+      "area": "iccv",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Manish Kumar 0011",
+      "area": "aaai",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Pratibha Kumari 0001",
+      "area": "nips",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.018867924528301886
+    },
+    {
       "name": "Puneet Goyal",
       "area": "kdd",
       "year": 2026,
@@ -34,6 +97,42 @@
       "actual_papers": 1,
       "expected_adjusted": 0.0,
       "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Shreya Ghosh 0001",
+      "area": "cvpr",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.125
+    },
+    {
+      "name": "Shweta Jain 0002",
+      "area": "aaai",
+      "year": 2014,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Shweta Jain 0002",
+      "area": "aaai",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Shweta Jain 0002",
+      "area": "ijcai",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
     }
   ],
   "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten. Missing cells: the reference counts papers this build does not. Extra cells: this build counts papers the reference does not."

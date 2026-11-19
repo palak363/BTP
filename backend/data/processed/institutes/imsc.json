@@ -5,7 +5,7 @@
     "slug": "imsc",
     "homepage": "https://www.imsc.res.in",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-10-20T20:15:54.075297+00:00",
+    "generated_at": "2026-11-19T18:01:30.081246+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -155,35 +155,63 @@
   "faculty": [
     {
       "name": "C. R. Subramanian 0001",
-      "dblp_url": "https://dblp.org/pid/34/2653"
+      "dblp_url": "https://dblp.org/pid/34/2653",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Kamal Lodaya",
-      "dblp_url": "https://dblp.org/pid/l/KamalLodaya"
+      "dblp_url": "https://dblp.org/pid/l/KamalLodaya",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Meena Mahajan",
-      "dblp_url": "https://dblp.org/pid/72/1636"
+      "dblp_url": "https://dblp.org/pid/72/1636",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Om Prakash 0002",
+      "dblp_url": "https://dblp.org/pid/06/8718-2",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "R. Krithika 0001",
+      "dblp_url": "https://dblp.org/pid/67/10948",
+      "affiliation_status": "former"
     },
     {
       "name": "Ramaswamy Ramanujam",
-      "dblp_url": "https://dblp.org/pid/80/2956"
+      "dblp_url": "https://dblp.org/pid/80/2956",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Ramij Rahaman",
+      "dblp_url": "https://dblp.org/pid/49/10096",
+      "affiliation_status": "former"
     },
     {
       "name": "Saket Saurabh 0001",
-      "dblp_url": "https://dblp.org/pid/11/5491"
+      "dblp_url": "https://dblp.org/pid/11/5491",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Satyabrata Jana",
+      "dblp_url": "https://dblp.org/pid/179/2273",
+      "affiliation_status": "former"
     },
     {
       "name": "Venkatesh Raman 0001",
-      "dblp_url": "https://dblp.org/pid/25/2134"
+      "dblp_url": "https://dblp.org/pid/25/2134",
+      "affiliation_status": "current"
     },
     {
       "name": "Vikram Sharma 0001",
-      "dblp_url": "https://dblp.org/pid/29/5300"
+      "dblp_url": "https://dblp.org/pid/29/5300",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Vikraman Arvind",
-      "dblp_url": "https://dblp.org/pid/a/VikramanArvind"
+      "dblp_url": "https://dblp.org/pid/a/VikramanArvind",
+      "affiliation_status": "unknown"
     }
   ],
   "publications": [
@@ -1993,7 +2021,8 @@
       ],
       "url": "https://dblp.org/db/conf/esa/esa2026#conf/esa/AgrawalABJSSS26",
       "faculty": [
-        "Saket Saurabh 0001"
+        "Saket Saurabh 0001",
+        "Satyabrata Jana"
       ],
       "memberships": [
         {
@@ -2102,7 +2131,8 @@
       ],
       "url": "https://dblp.org/db/conf/esa/esa2024#conf/esa/BanikFG0J024",
       "faculty": [
-        "Saket Saurabh 0001"
+        "Saket Saurabh 0001",
+        "Satyabrata Jana"
       ],
       "memberships": [
         {
@@ -2174,6 +2204,7 @@
       ],
       "url": "https://dblp.org/db/conf/esa/esa2014#conf/esa/FioriniKNR14",
       "faculty": [
+        "R. Krithika 0001",
         "Venkatesh Raman 0001"
       ],
       "memberships": [
@@ -4478,6 +4509,43 @@
       ]
     },
     {
+      "key": "conf/icalp/LokshtanovR0SZ18",
+      "type": "inproceedings",
+      "title": "Brief Announcement: Treewidth Modulator: Emergency Exit for DFVS.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "ICALP",
+      "booktitle": "ICALP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "110:1-110:4",
+      "authors": [
+        "https://dblp.org/pid/04/9023",
+        "https://dblp.org/pid/11/5491",
+        "https://dblp.org/pid/119/4936",
+        "https://dblp.org/pid/133/1023",
+        "https://dblp.org/pid/78/67"
+      ],
+      "dois": [
+        "10.4230/lipics.icalp.2018.110"
+      ],
+      "url": "https://dblp.org/db/conf/icalp/icalp2018#conf/icalp/LokshtanovR0SZ18",
+      "faculty": [
+        "Saket Saurabh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ICALP",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
       "key": "conf/icalp/LokshtanovR0Z18",
       "type": "inproceedings",
       "title": "Reducing CMSO Model Checking to Highly Connected Graphs.",
@@ -5016,7 +5084,8 @@
       ],
       "url": "https://dblp.org/db/conf/innovations/innovations2026#conf/innovations/0002JKL0Z26",
       "faculty": [
-        "Saket Saurabh 0001"
+        "Saket Saurabh 0001",
+        "Satyabrata Jana"
       ],
       "memberships": [
         {
@@ -5967,7 +6036,7 @@
         "https://dblp.org/pid/10/718",
         "https://dblp.org/pid/11/5491",
         "https://dblp.org/pid/172/4993",
-        "https://dblp.org/pid/39/5366",
+        "https://dblp.org/pid/39/5366-2",
         "https://dblp.org/pid/75/11145"
       ],
       "dois": [
@@ -6370,7 +6439,8 @@
       ],
       "url": "https://dblp.org/db/conf/isaac/isaac2025#conf/isaac/Jana00U25",
       "faculty": [
-        "Saket Saurabh 0001"
+        "Saket Saurabh 0001",
+        "Satyabrata Jana"
       ],
       "memberships": [
         {
@@ -8022,6 +8092,7 @@
       ],
       "url": "https://dblp.org/db/conf/mfcs/mfcs2019#conf/mfcs/BessyBKSSTZ19",
       "faculty": [
+        "R. Krithika 0001",
         "Saket Saurabh 0001"
       ],
       "memberships": [
@@ -8392,7 +8463,8 @@
       ],
       "url": "https://dblp.org/db/conf/mfcs/mfcs2023#conf/mfcs/JanaLM0023",
       "faculty": [
-        "Saket Saurabh 0001"
+        "Saket Saurabh 0001",
+        "Satyabrata Jana"
       ],
       "memberships": [
         {
@@ -12218,7 +12290,8 @@
       ],
       "url": "https://dblp.org/db/conf/stacs/stacs2025#conf/stacs/BanikFG0J025",
       "faculty": [
-        "Saket Saurabh 0001"
+        "Saket Saurabh 0001",
+        "Satyabrata Jana"
       ],
       "memberships": [
         {
@@ -12713,6 +12786,42 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2013
+        }
+      ]
+    },
+    {
+      "key": "conf/stacs/HaakM0R21",
+      "type": "inproceedings",
+      "title": "Parameterised Counting in Logspace.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "STACS",
+      "booktitle": "STACS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "40:1-40:17",
+      "authors": [
+        "https://dblp.org/pid/06/8718-2",
+        "https://dblp.org/pid/177/9340",
+        "https://dblp.org/pid/38/5700",
+        "https://dblp.org/pid/51/6368"
+      ],
+      "dois": [
+        "10.4230/lipics.stacs.2021.40"
+      ],
+      "url": "https://dblp.org/db/conf/stacs/stacs2021#conf/stacs/HaakM0R21",
+      "faculty": [
+        "Om Prakash 0002"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "STACS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2021
         }
       ]
     },

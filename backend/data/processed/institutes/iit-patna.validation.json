@@ -1,12 +1,283 @@
 {
   "institution": "IIT Patna",
   "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
-  "compared_cells": 51,
+  "compared_cells": 81,
   "expected_papers": 85,
-  "actual_papers": 85,
-  "matching": true,
+  "actual_papers": 116,
+  "matching": false,
   "missing_cells": 0,
-  "extra_cells": 0,
-  "differences": [],
+  "extra_cells": 30,
+  "differences": [
+    {
+      "name": "Amulya Yadav",
+      "area": "aaai",
+      "year": 2014,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Amulya Yadav",
+      "area": "aaai",
+      "year": 2015,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.125
+    },
+    {
+      "name": "Amulya Yadav",
+      "area": "aaai",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Amulya Yadav",
+      "area": "aaai",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.375
+    },
+    {
+      "name": "Amulya Yadav",
+      "area": "aaai",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Amulya Yadav",
+      "area": "aaai",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.125
+    },
+    {
+      "name": "Amulya Yadav",
+      "area": "ijcai",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Amulya Yadav",
+      "area": "ijcai",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Amulya Yadav",
+      "area": "kdd",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Amulya Yadav",
+      "area": "kdd",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.1111111111111111
+    },
+    {
+      "name": "Amulya Yadav",
+      "area": "kdd",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Amulya Yadav",
+      "area": "naacl",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.125
+    },
+    {
+      "name": "Amulya Yadav",
+      "area": "nips",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Kamal Kumar Gupta",
+      "area": "acl",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Niraj Kumar 0004",
+      "area": "rtss",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Pracheta Sahoo",
+      "area": "aaai",
+      "year": 2018,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Raghvendra Kumar 0003",
+      "area": "acl",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Raghvendra Kumar 0003",
+      "area": "acl",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Raghvendra Kumar 0003",
+      "area": "emnlp",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.1111111111111111
+    },
+    {
+      "name": "Sandeep Kumar 0009",
+      "area": "emnlp",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Sandeep Kumar 0009",
+      "area": "emnlp",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Sandeep Kumar 0009",
+      "area": "emnlp",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Sarmistha Das 0001",
+      "area": "aaai",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Shweta Yadav 0001",
+      "area": "aaai",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Shweta Yadav 0001",
+      "area": "acl",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Shweta Yadav 0001",
+      "area": "acl",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Shweta Yadav 0001",
+      "area": "acl",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Shweta Yadav 0001",
+      "area": "www",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Shweta Yadav 0001",
+      "area": "www",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Shweta Yadav 0001",
+      "area": "www",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.125
+    }
+  ],
   "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten. Missing cells: the reference counts papers this build does not. Extra cells: this build counts papers the reference does not."
 }

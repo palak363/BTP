@@ -1,12 +1,12 @@
 {
   "institution": "IIT Jodhpur",
   "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
-  "compared_cells": 87,
+  "compared_cells": 98,
   "expected_papers": 106,
-  "actual_papers": 109,
+  "actual_papers": 120,
   "matching": false,
   "missing_cells": 0,
-  "extra_cells": 3,
+  "extra_cells": 14,
   "differences": [
     {
       "name": "Avinash Sharma 0001",
@@ -18,6 +18,15 @@
       "actual_adjusted": 0.16666666666666666
     },
     {
+      "name": "Debasis Das 0001",
+      "area": "eccv",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
       "name": "Mayank Vatsa",
       "area": "eccv",
       "year": 2026,
@@ -27,9 +36,99 @@
       "actual_adjusted": 0.25
     },
     {
+      "name": "Nisarg A. Shah",
+      "area": "cvpr",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
       "name": "Richa Singh 0001",
       "area": "eccv",
       "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Suman Kundu",
+      "area": "aaai",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Suman Kundu",
+      "area": "www",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Tanmay Inamdar 0002",
+      "area": "aaai",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Tanmay Inamdar 0002",
+      "area": "soda",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Tanmay Inamdar 0002",
+      "area": "stoc",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Yogesh Kumar 0004",
+      "area": "aaai",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Yogesh Kumar 0004",
+      "area": "aaai",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Yogesh Kumar 0004",
+      "area": "cvpr",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Yogesh Kumar 0004",
+      "area": "iccv",
+      "year": 2025,
       "expected_papers": 0,
       "actual_papers": 1,
       "expected_adjusted": 0.0,

@@ -5,7 +5,7 @@
     "slug": "national-inst-of-tech-warangal",
     "homepage": "https://wsdc.nitw.ac.in",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-10-20T20:16:10.751677+00:00",
+    "generated_at": "2026-11-19T18:01:46.950911+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -163,108 +163,194 @@
   },
   "faculty": [
     {
+      "name": "Anwesha Das 0003",
+      "dblp_url": "https://dblp.org/pid/402/2077",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Aruna Kumari Neelam",
+      "dblp_url": "https://dblp.org/pid/355/5575",
+      "affiliation_status": "former"
+    },
+    {
       "name": "B. B. Amberker",
-      "dblp_url": "https://dblp.org/pid/27/6530"
+      "dblp_url": "https://dblp.org/pid/27/6530",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Bala Prakasa Rao Killi",
-      "dblp_url": "https://dblp.org/pid/181/4855"
+      "dblp_url": "https://dblp.org/pid/181/4855",
+      "affiliation_status": "current"
     },
     {
       "name": "Chapram Sudhakar",
-      "dblp_url": "https://dblp.org/pid/122/1776"
+      "dblp_url": "https://dblp.org/pid/122/1776",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Durvasula V. L. N. Somayajulu",
-      "dblp_url": "https://dblp.org/pid/72/4050"
+      "dblp_url": "https://dblp.org/pid/72/4050",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Earnest Paul Ijjina",
-      "dblp_url": "https://dblp.org/pid/158/4523"
+      "dblp_url": "https://dblp.org/pid/158/4523",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Erukala Suresh Babu",
-      "dblp_url": "https://dblp.org/pid/169/2330"
+      "dblp_url": "https://dblp.org/pid/169/2330",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Ilaiah Kavati",
-      "dblp_url": "https://dblp.org/pid/140/1875"
+      "dblp_url": "https://dblp.org/pid/140/1875",
+      "affiliation_status": "unknown"
     },
     {
       "name": "K. Ramesh 0009",
-      "dblp_url": "https://dblp.org/pid/385/2085"
+      "dblp_url": "https://dblp.org/pid/385/2085",
+      "affiliation_status": "unknown"
     },
     {
       "name": "K. V. Kadambari",
-      "dblp_url": "https://dblp.org/pid/39/9915"
+      "dblp_url": "https://dblp.org/pid/39/9915",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Manjubala Bisi",
-      "dblp_url": "https://dblp.org/pid/184/3486"
+      "dblp_url": "https://dblp.org/pid/184/3486",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Mulagala Sandhya",
-      "dblp_url": "https://dblp.org/pid/164/9139"
+      "dblp_url": "https://dblp.org/pid/164/9139",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Mummaneni Kavicharan",
+      "dblp_url": "https://dblp.org/pid/138/1489",
+      "affiliation_status": "current"
     },
     {
       "name": "P. Radha Krishna 0001",
-      "dblp_url": "https://dblp.org/pid/10/4403"
+      "dblp_url": "https://dblp.org/pid/10/4403",
+      "affiliation_status": "unknown"
     },
     {
       "name": "P. Venkata Subba Reddy 0001",
-      "dblp_url": "https://dblp.org/pid/48/8262-1"
+      "dblp_url": "https://dblp.org/pid/48/8262-1",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Pavan Kumar 0004",
+      "dblp_url": "https://dblp.org/pid/30/989-4",
+      "affiliation_status": "former"
+    },
+    {
+      "name": "Phanindra K. Ganivada",
+      "dblp_url": "https://dblp.org/pid/261/8250",
+      "affiliation_status": "former"
+    },
+    {
+      "name": "Prashanth K. V. T. K. N.",
+      "dblp_url": "https://dblp.org/pid/331/0343",
+      "affiliation_status": "current"
     },
     {
       "name": "Priyanka Chawla",
-      "dblp_url": "https://dblp.org/pid/130/9342"
+      "dblp_url": "https://dblp.org/pid/130/9342",
+      "affiliation_status": "unknown"
     },
     {
       "name": "R. B. V. Subramanyam",
-      "dblp_url": "https://dblp.org/pid/41/5773"
+      "dblp_url": "https://dblp.org/pid/41/5773",
+      "affiliation_status": "unknown"
     },
     {
       "name": "R. Padmavathy",
-      "dblp_url": "https://dblp.org/pid/47/7688"
+      "dblp_url": "https://dblp.org/pid/47/7688",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Raju Bhukya",
-      "dblp_url": "https://dblp.org/pid/238/1407"
+      "dblp_url": "https://dblp.org/pid/238/1407",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Ramalingaswamy Cheruku",
-      "dblp_url": "https://dblp.org/pid/195/2693"
+      "dblp_url": "https://dblp.org/pid/195/2693",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Rashmi Ranjan Rout",
-      "dblp_url": "https://dblp.org/pid/70/8732"
+      "dblp_url": "https://dblp.org/pid/70/8732",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Ravi Kishore Kodali",
+      "dblp_url": "https://dblp.org/pid/132/0035",
+      "affiliation_status": "current"
     },
     {
       "name": "Ravichandra Sadam",
-      "dblp_url": "https://dblp.org/pid/261/0062"
+      "dblp_url": "https://dblp.org/pid/261/0062",
+      "affiliation_status": "current"
     },
     {
       "name": "Sangharatna Godboley",
-      "dblp_url": "https://dblp.org/pid/148/8632"
+      "dblp_url": "https://dblp.org/pid/148/8632",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Sanjaya Kumar Panda",
-      "dblp_url": "https://dblp.org/pid/125/1687"
+      "dblp_url": "https://dblp.org/pid/125/1687",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Shri Ramtej Kondamuri",
+      "dblp_url": "https://dblp.org/pid/213/9279",
+      "affiliation_status": "current"
     },
     {
       "name": "Sriram G. Sanjeevi",
-      "dblp_url": "https://dblp.org/pid/41/1616"
+      "dblp_url": "https://dblp.org/pid/41/1616",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Sujit Das",
-      "dblp_url": "https://dblp.org/pid/136/7728"
+      "dblp_url": "https://dblp.org/pid/136/7728",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Sumit Sharma 0008",
+      "dblp_url": "https://dblp.org/pid/280/6490",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Sushil Kumar 0005",
+      "dblp_url": "https://dblp.org/pid/46/2681-5",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Sweta 0003",
+      "dblp_url": "https://dblp.org/pid/361/9232-3",
+      "affiliation_status": "current"
     },
     {
       "name": "U. S. N. Raju",
-      "dblp_url": "https://dblp.org/pid/74/3036"
+      "dblp_url": "https://dblp.org/pid/74/3036",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "V. V. Mani",
+      "dblp_url": "https://dblp.org/pid/168/6872",
+      "affiliation_status": "current"
     },
     {
       "name": "Venkateswara Rao Kagita",
-      "dblp_url": "https://dblp.org/pid/137/3335"
+      "dblp_url": "https://dblp.org/pid/137/3335",
+      "affiliation_status": "unknown"
     }
   ],
   "publications": [
@@ -300,6 +386,42 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2008
+        }
+      ]
+    },
+    {
+      "key": "conf/IEEEants/AwasthiKBM21",
+      "type": "inproceedings",
+      "title": "Maximal Ratio Sparse Vector Coding for Short Packet Transmission.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "ANTS",
+      "booktitle": "ANTS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-4",
+      "authors": [
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/171/2442",
+        "https://dblp.org/pid/310/6973",
+        "https://dblp.org/pid/333/9182"
+      ],
+      "dois": [
+        "10.1109/ants52808.2021.9936988"
+      ],
+      "url": "https://dblp.org/db/conf/IEEEants/IEEEants2021#conf/IEEEants/AwasthiKBM21",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ANTS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
         }
       ]
     },
@@ -369,6 +491,74 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2012
+        }
+      ]
+    },
+    {
+      "key": "conf/IEEEants/VappangiM18",
+      "type": "inproceedings",
+      "title": "A Power efficient DST-based multicarrier and multiple access systems for VLC.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "ANTS",
+      "booktitle": "ANTS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/215/9470"
+      ],
+      "dois": [
+        "10.1109/ants.2018.8710100"
+      ],
+      "url": "https://dblp.org/db/conf/IEEEants/IEEEants2018#conf/IEEEants/VappangiM18",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ANTS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/IEEEants/VappangiM21",
+      "type": "inproceedings",
+      "title": "Synchronization in Power-Efficient DST-based ACO-OFDM-VLC Systems.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "ANTS",
+      "booktitle": "ANTS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/215/9470"
+      ],
+      "dois": [
+        "10.1109/ants52808.2021.9937030"
+      ],
+      "url": "https://dblp.org/db/conf/IEEEants/IEEEants2021#conf/IEEEants/VappangiM21",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ANTS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
         }
       ]
     },
@@ -509,6 +699,77 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2008
+        }
+      ]
+    },
+    {
+      "key": "conf/apcc/MiriyalaMM23",
+      "type": "inproceedings",
+      "title": "Demonstration of a Variably Biased Asymmetrically Clipped Optical OFDM for VLC Systems.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "APCC",
+      "booktitle": "APCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "7-11",
+      "authors": [
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/313/5500",
+        "https://dblp.org/pid/322/0672"
+      ],
+      "dois": [
+        "10.1109/apcc60132.2023.10460710"
+      ],
+      "url": "https://dblp.org/db/conf/apcc/apcc2023#conf/apcc/MiriyalaMM23",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "APCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/apcc/SMMM24",
+      "type": "inproceedings",
+      "title": "Extreme Learning Approach for Timing Synchronization of ACO-OFDM under Nonlinear Distortions.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "APCC",
+      "booktitle": "APCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "83-89",
+      "authors": [
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/313/5500",
+        "https://dblp.org/pid/322/0672",
+        "https://dblp.org/pid/385/2340"
+      ],
+      "dois": [
+        "10.1109/apcc62576.2024.10767981"
+      ],
+      "url": "https://dblp.org/db/conf/apcc/apcc2024#conf/apcc/SMMM24",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "APCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
         }
       ]
     },
@@ -1921,6 +2182,39 @@
       ]
     },
     {
+      "key": "conf/comsnets/Kodali14",
+      "type": "inproceedings",
+      "title": "Implementation of ECC with hidden Generator point in Wireless Sensor Networks.",
+      "year": 2014,
+      "publication_year": 2014,
+      "event_year": 2014,
+      "venue": "COMSNETS",
+      "booktitle": "COMSNETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-4",
+      "authors": [
+        "https://dblp.org/pid/132/0035"
+      ],
+      "dois": [
+        "10.1109/comsnets.2014.6734924"
+      ],
+      "url": "https://dblp.org/db/conf/comsnets/comsnets2014#conf/comsnets/Kodali14",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "COMSNETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2014
+        }
+      ]
+    },
+    {
       "key": "conf/comsnets/PurushothamaA11",
       "type": "inproceedings",
       "title": "Group key management scheme for simultaneous multiple groups with overlapped membership.",
@@ -2021,6 +2315,77 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "conf/cyberc/KodaliAP18",
+      "type": "inproceedings",
+      "title": "Smart Control System Solution for Smart Cities.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "CyberC",
+      "booktitle": "CyberC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/240/5825",
+        "https://dblp.org/pid/240/5838"
+      ],
+      "dois": [
+        "10.1109/cyberc.2018.00027"
+      ],
+      "url": "https://dblp.org/db/conf/cyberc/cyberc2018#conf/cyberc/KodaliAP18",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "CyberC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/cyberc/KodaliBND18",
+      "type": "inproceedings",
+      "title": "An IoT Based Smart Parking System Using LoRa.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "CyberC",
+      "booktitle": "CyberC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/240/5444",
+        "https://dblp.org/pid/240/5516",
+        "https://dblp.org/pid/240/5610"
+      ],
+      "dois": [
+        "10.1109/cyberc.2018.00039"
+      ],
+      "url": "https://dblp.org/db/conf/cyberc/cyberc2018#conf/cyberc/KodaliBND18",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "CyberC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
         }
       ]
     },
@@ -2770,6 +3135,41 @@
       ]
     },
     {
+      "key": "conf/icacci/BandariMD16",
+      "type": "inproceedings",
+      "title": "GFDM/OQAM implementation under Rician fading channel.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "256-260",
+      "authors": [
+        "https://dblp.org/pid/03/9519",
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/171/2442"
+      ],
+      "dois": [
+        "10.1109/icacci.2016.7732056"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2016#conf/icacci/BandariMD16",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
       "key": "conf/icacci/EdlaDCSY17",
       "type": "inproceedings",
       "title": "A novel green stable evolutionary routing algorithm for energy efficiency in WSNS.",
@@ -2803,6 +3203,40 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/icacci/GorantlaM15",
+      "type": "inproceedings",
+      "title": "Synchronization in IEEE 802.15.4 Zigbee transceiver using Matlab Simulink.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "144-148",
+      "authors": [
+        "https://dblp.org/pid/168/6820",
+        "https://dblp.org/pid/168/6872"
+      ],
+      "dois": [
+        "10.1109/icacci.2015.7275599"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2015#conf/icacci/GorantlaM15",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
         }
       ]
     },
@@ -2914,6 +3348,417 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/icacci/KavicharanMR13",
+      "type": "inproceedings",
+      "title": "An efficient delay estimation model for high speed VLSI interconnects.",
+      "year": 2013,
+      "publication_year": 2013,
+      "event_year": 2013,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1358-1362",
+      "authors": [
+        "https://dblp.org/pid/09/8666",
+        "https://dblp.org/pid/138/1489",
+        "https://dblp.org/pid/138/1544"
+      ],
+      "dois": [
+        "10.1109/icacci.2013.6637375"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2013#conf/icacci/KavicharanMR13",
+      "faculty": [
+        "Mummaneni Kavicharan"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2013
+        }
+      ]
+    },
+    {
+      "key": "conf/icacci/Kodali13",
+      "type": "inproceedings",
+      "title": "Experimental analysis of an event tracking energy-efficient WSN.",
+      "year": 2013,
+      "publication_year": 2013,
+      "event_year": 2013,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1293-1298",
+      "authors": [
+        "https://dblp.org/pid/132/0035"
+      ],
+      "dois": [
+        "10.1109/icacci.2013.6637364"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2013#conf/icacci/Kodali13",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2013
+        }
+      ]
+    },
+    {
+      "key": "conf/icacci/Kodali15",
+      "type": "inproceedings",
+      "title": "Energy efficient routing in multi-level LEACH for WSNs.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "959-965",
+      "authors": [
+        "https://dblp.org/pid/132/0035"
+      ],
+      "dois": [
+        "10.1109/icacci.2015.7275735"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2015#conf/icacci/Kodali15",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/icacci/Kodali17",
+      "type": "inproceedings",
+      "title": "Radio data infrastructure for remote monitoring system using lora technology.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "467-472",
+      "authors": [
+        "https://dblp.org/pid/132/0035"
+      ],
+      "dois": [
+        "10.1109/icacci.2017.8125884"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2017#conf/icacci/Kodali17",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/icacci/KodaliABB15",
+      "type": "inproceedings",
+      "title": "Energy efficient m- level LEACH protocol.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "973-979",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/168/6660",
+        "https://dblp.org/pid/168/6909"
+      ],
+      "dois": [
+        "10.1109/icacci.2015.7275737"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2015#conf/icacci/KodaliABB15",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/icacci/KodaliB14",
+      "type": "inproceedings",
+      "title": "FPGA implementation of energy efficient multiplication over GF(2m) for ECC.",
+      "year": 2014,
+      "publication_year": 2014,
+      "event_year": 2014,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1815-1821",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407"
+      ],
+      "dois": [
+        "10.1109/icacci.2014.6968425"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2014#conf/icacci/KodaliB14",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "conf/icacci/KodaliB14a",
+      "type": "inproceedings",
+      "title": "Irrigation with grid architecture sensor network.",
+      "year": 2014,
+      "publication_year": 2014,
+      "event_year": 2014,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2110-2116",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407"
+      ],
+      "dois": [
+        "10.1109/icacci.2014.6968449"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2014#conf/icacci/KodaliB14a",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "conf/icacci/KodaliBSA15",
+      "type": "inproceedings",
+      "title": "FPGA implementation of multiplication algorithms for ECC.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "549-554",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/168/6972",
+        "https://dblp.org/pid/168/7025"
+      ],
+      "dois": [
+        "10.1109/icacci.2015.7275666"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2015#conf/icacci/KodaliBSA15",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/icacci/KodaliM17",
+      "type": "inproceedings",
+      "title": "Low cost implementation of smart home automation.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "461-466",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/213/0363"
+      ],
+      "dois": [
+        "10.1109/icacci.2017.8125883"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2017#conf/icacci/KodaliM17",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/icacci/KodaliMH17",
+      "type": "inproceedings",
+      "title": "Flow based environmental monitoring for smart cities.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "455-460",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/212/9936",
+        "https://dblp.org/pid/213/0079"
+      ],
+      "dois": [
+        "10.1109/icacci.2017.8125882"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2017#conf/icacci/KodaliMH17",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/icacci/KodaliS13",
+      "type": "inproceedings",
+      "title": "Test bed for wireless sensor networks using XMesh networking protocol.",
+      "year": 2013,
+      "publication_year": 2013,
+      "event_year": 2013,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1506-1511",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/138/1348"
+      ],
+      "dois": [
+        "10.1109/icacci.2013.6637403"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2013#conf/icacci/KodaliS13",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2013
+        }
+      ]
+    },
+    {
+      "key": "conf/icacci/KondojuM16",
+      "type": "inproceedings",
+      "title": "Multi user interference characterization of multiband OFDM UWB system in the presence of log-normal fading channels.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "466-471",
+      "authors": [
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/182/6910"
+      ],
+      "dois": [
+        "10.1109/icacci.2016.7732089"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2016#conf/icacci/KondojuM16",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
         }
       ]
     },
@@ -3261,6 +4106,40 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/icc/ManiB10",
+      "type": "inproceedings",
+      "title": "Direction of Arrival Estimation and Beamforming of Multiple Coherent UWB Signals.",
+      "year": 2010,
+      "publication_year": 2010,
+      "event_year": 2010,
+      "venue": "ICC",
+      "booktitle": "ICC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/83/4862"
+      ],
+      "dois": [
+        "10.1109/icc.2010.5502034"
+      ],
+      "url": "https://dblp.org/db/conf/icc/icc2010#conf/icc/ManiB10",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2010
         }
       ]
     },
@@ -3831,6 +4710,40 @@
       ]
     },
     {
+      "key": "conf/icccnt/KodaliK23",
+      "type": "inproceedings",
+      "title": "Water Quality Prediction using AWS.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "ICCCNT",
+      "booktitle": "ICCCNT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/361/8579"
+      ],
+      "dois": [
+        "10.1109/icccnt56998.2023.10307563"
+      ],
+      "url": "https://dblp.org/db/conf/icccnt/icccnt2023#conf/icccnt/KodaliK23",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICCCNT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
       "key": "conf/icccnt/KumarRI21",
       "type": "inproceedings",
       "title": "Deep Learning based Brake Light Detection for Two Wheelers.",
@@ -4221,6 +5134,40 @@
       ]
     },
     {
+      "key": "conf/icccnt/RamtejA18",
+      "type": "inproceedings",
+      "title": "PAPR Reduction in LTE Uplink Communications by Airy Companding Transform.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "ICCCNT",
+      "booktitle": "ICCCNT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/166/2697",
+        "https://dblp.org/pid/213/9279"
+      ],
+      "dois": [
+        "10.1109/icccnt.2018.8494087"
+      ],
+      "url": "https://dblp.org/db/conf/icccnt/icccnt2018#conf/icccnt/RamtejA18",
+      "faculty": [
+        "Shri Ramtej Kondamuri"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICCCNT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
       "key": "conf/icccnt/RathodBKB21",
       "type": "inproceedings",
       "title": "Learning Automata based Feature Selection for Duplex Output Software Effort Estimation Model.",
@@ -4420,7 +5367,8 @@
       ],
       "url": "https://dblp.org/db/conf/icccs/icccs2020#conf/icccs/SharmaSBPK20",
       "faculty": [
-        "R. Padmavathy"
+        "R. Padmavathy",
+        "Sumit Sharma 0008"
       ],
       "memberships": [
         {
@@ -4974,7 +5922,8 @@
       ],
       "url": "https://dblp.org/db/conf/icspcs/icspcs2024#conf/icspcs/RajeshS024",
       "faculty": [
-        "Ravichandra Sadam"
+        "Ravichandra Sadam",
+        "Sushil Kumar 0005"
       ],
       "memberships": [
         {
@@ -5013,6 +5962,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "ICST",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        },
+        {
           "source": "ieee",
           "venue": "ICST",
           "area": "publisher-other",
@@ -5047,6 +6003,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "ICST",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        },
+        {
           "source": "ieee",
           "venue": "ICST",
           "area": "publisher-other",
@@ -5080,6 +6043,13 @@
         "Sangharatna Godboley"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ICST",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        },
         {
           "source": "ieee",
           "venue": "ICST",
@@ -5118,6 +6088,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "ICST",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        },
+        {
           "source": "ieee",
           "venue": "ICST",
           "area": "publisher-other",
@@ -5154,6 +6131,13 @@
         "Sangharatna Godboley"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ICST",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        },
         {
           "source": "ieee",
           "venue": "ICST",
@@ -5192,6 +6176,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "ICST",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        },
+        {
           "source": "ieee",
           "venue": "ICST",
           "area": "publisher-other",
@@ -5229,11 +6220,87 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "ICST",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        },
+        {
           "source": "ieee",
           "venue": "ICST",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "conf/ict/BandariMD16",
+      "type": "inproceedings",
+      "title": "OQAM implementation of GFDM.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "ICT",
+      "booktitle": "ICT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/03/9519",
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/171/2442"
+      ],
+      "dois": [
+        "10.1109/ict.2016.7500463"
+      ],
+      "url": "https://dblp.org/db/conf/ict/ict2016#conf/ict/BandariMD16",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/ict/KondojuM16",
+      "type": "inproceedings",
+      "title": "Outage and average BER analysis of multiband OFDM UWB system with MRC/EGC receiver in log-normal fading channels.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "ICT",
+      "booktitle": "ICT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/182/6910"
+      ],
+      "dois": [
+        "10.1109/ict.2016.7500400"
+      ],
+      "url": "https://dblp.org/db/conf/ict/ict2016#conf/ict/KondojuM16",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
         }
       ]
     },
@@ -5269,6 +6336,41 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/ictc/BandariMD17",
+      "type": "inproceedings",
+      "title": "Convolutional codes for MGFDM system.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "ICTC",
+      "booktitle": "ICTC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "545-550",
+      "authors": [
+        "https://dblp.org/pid/03/9519",
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/171/2442"
+      ],
+      "dois": [
+        "10.1109/ictc.2017.8191037"
+      ],
+      "url": "https://dblp.org/db/conf/ictc/ictc2017#conf/ictc/BandariMD17",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICTC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
         }
       ]
     },
@@ -5434,6 +6536,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "ICWS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2007
+        },
+        {
           "source": "ieee",
           "venue": "ICWS",
           "area": "publisher-other",
@@ -5473,6 +6582,42 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2008
+        }
+      ]
+    },
+    {
+      "key": "conf/idsta/KumarJKN22",
+      "type": "inproceedings",
+      "title": "Improved YOLOv3-tiny Object Detector with Dilated CNN for Drone-Captured Images.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "IDSTA",
+      "booktitle": "IDSTA",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "89-94",
+      "authors": [
+        "https://dblp.org/pid/13/3352",
+        "https://dblp.org/pid/226/1381",
+        "https://dblp.org/pid/30/989-4",
+        "https://dblp.org/pid/332/5532"
+      ],
+      "dois": [
+        "10.1109/idsta55301.2022.9923041"
+      ],
+      "url": "https://dblp.org/db/conf/idsta/idsta2022#conf/idsta/KumarJKN22",
+      "faculty": [
+        "Pavan Kumar 0004"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IDSTA",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
         }
       ]
     },
@@ -5842,6 +6987,77 @@
       ]
     },
     {
+      "key": "conf/ithings/BoppanaARK19",
+      "type": "inproceedings",
+      "title": "Assistive Sign Language Converter for Deaf and Dumb.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "iThings/GreenCom/CPSCom/SmartData",
+      "booktitle": "iThings/GreenCom/CPSCom/SmartData",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "302-307",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/251/4982",
+        "https://dblp.org/pid/251/5131"
+      ],
+      "dois": [
+        "10.1109/ithings/greencom/cpscom/smartdata.2019.00071"
+      ],
+      "url": "https://dblp.org/db/conf/ithings/ithings2019#conf/ithings/BoppanaARK19",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "iThings/GreenCom/CPSCom/SmartData",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/ithings/BoppanaJK19",
+      "type": "inproceedings",
+      "title": "Smart Stick for Elderly.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "iThings/GreenCom/CPSCom/SmartData",
+      "booktitle": "iThings/GreenCom/CPSCom/SmartData",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "259-266",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/88/3696-3"
+      ],
+      "dois": [
+        "10.1109/ithings/greencom/cpscom/smartdata.2019.00064"
+      ],
+      "url": "https://dblp.org/db/conf/ithings/ithings2019#conf/ithings/BoppanaJK19",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "iThings/GreenCom/CPSCom/SmartData",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
       "key": "conf/itng/AparnaA08",
       "type": "inproceedings",
       "title": "Authenticated Secure Group Communication using Broadcast Encryption Key Computation.",
@@ -6022,11 +7238,156 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "KDD",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2011
+        },
+        {
           "source": "acm",
           "venue": "KDD",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2011
+        }
+      ]
+    },
+    {
+      "key": "conf/kst/KodaliB25",
+      "type": "inproceedings",
+      "title": "Forecasting Hydroelectric Production in Nepal Using Knime Analytics.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "KST",
+      "booktitle": "KST",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "193-197",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/406/4669"
+      ],
+      "dois": [
+        "10.1109/kst65016.2025.11003355"
+      ],
+      "url": "https://dblp.org/db/conf/kst/kst2025#conf/kst/KodaliB25",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "KST",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/kst/KodaliC25",
+      "type": "inproceedings",
+      "title": "A Machine Learning Analysis to Evaluate Agricultural Trends in Nepal.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "KST",
+      "booktitle": "KST",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "181-186",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/406/3877"
+      ],
+      "dois": [
+        "10.1109/kst65016.2025.11003348"
+      ],
+      "url": "https://dblp.org/db/conf/kst/kst2025#conf/kst/KodaliC25",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "KST",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/kst/KodaliUB24",
+      "type": "inproceedings",
+      "title": "A Quantization Approach for the Reduced Size of Large Language Models.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "KST",
+      "booktitle": "KST",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "144-148",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/374/0400"
+      ],
+      "dois": [
+        "10.1109/kst61284.2024.10499664"
+      ],
+      "url": "https://dblp.org/db/conf/kst/kst2024#conf/kst/KodaliUB24",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "KST",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/kst/MohanrajTK25",
+      "type": "inproceedings",
+      "title": "Air Quality Prediction Using Machine Learning.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "KST",
+      "booktitle": "KST",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/406/4250",
+        "https://dblp.org/pid/406/4388"
+      ],
+      "dois": [
+        "10.1109/kst65016.2025.11003310"
+      ],
+      "url": "https://dblp.org/db/conf/kst/kst2025#conf/kst/MohanrajTK25",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "KST",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
         }
       ]
     },
@@ -6099,6 +7460,110 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2013
+        }
+      ]
+    },
+    {
+      "key": "conf/menacomm/KishoreTM19",
+      "type": "inproceedings",
+      "title": "Demonstration of energy based timing synchronization for VLC systems using SDR.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "MENACOMM",
+      "booktitle": "MENACOMM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/240/5043",
+        "https://dblp.org/pid/258/6779"
+      ],
+      "dois": [
+        "10.1109/menacomm46666.2019.8988576"
+      ],
+      "url": "https://dblp.org/db/conf/menacomm/menacomm2019#conf/menacomm/KishoreTM19",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "MENACOMM",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/KishoreKM20",
+      "type": "inproceedings",
+      "title": "Performance Analysis of PAM-DMT Under Double sided Signal Clipping in IM/DD Based Systems.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/240/5043",
+        "https://dblp.org/pid/263/4047"
+      ],
+      "dois": [
+        "10.1109/ncc48643.2020.9056086"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2020#conf/ncc/KishoreKM20",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/RamtejA17",
+      "type": "inproceedings",
+      "title": "New error function companding technique to minimize PAPR in LTE uplink communications.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/166/2697",
+        "https://dblp.org/pid/213/9279"
+      ],
+      "dois": [
+        "10.1109/ncc.2017.8077085"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2017#conf/ncc/RamtejA17",
+      "faculty": [
+        "Shri Ramtej Kondamuri"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
         }
       ]
     },
@@ -6242,6 +7707,42 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2008
+        }
+      ]
+    },
+    {
+      "key": "conf/pimrc/MallaiahMMM24",
+      "type": "inproceedings",
+      "title": "OTFS System-based on WFrFFT with Optimal Design Complexity.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "PIMRC",
+      "booktitle": "PIMRC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/313/5500",
+        "https://dblp.org/pid/322/0672",
+        "https://dblp.org/pid/52/739"
+      ],
+      "dois": [
+        "10.1109/pimrc59610.2024.10817420"
+      ],
+      "url": "https://dblp.org/db/conf/pimrc/pimrc2024#conf/pimrc/MallaiahMMM24",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "PIMRC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
         }
       ]
     },
@@ -6679,6 +8180,112 @@
       ]
     },
     {
+      "key": "conf/tencon/BoppanaBK24",
+      "type": "inproceedings",
+      "title": "An Open-Source RAG Architecture for LLMs.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "43-46",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/400/0182"
+      ],
+      "dois": [
+        "10.1109/tencon61640.2024.10903064"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2024#conf/tencon/BoppanaBK24",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/tencon/BoppanaLVK19",
+      "type": "inproceedings",
+      "title": "Mongoose OS based Air Quality Monitoring System.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1247-1252",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/255/1500",
+        "https://dblp.org/pid/255/1799"
+      ],
+      "dois": [
+        "10.1109/tencon.2019.8929489"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2019#conf/tencon/BoppanaLVK19",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/tencon/BoppanaRK19",
+      "type": "inproceedings",
+      "title": "RFID based Vehicle Emission Monitoring and Notification System.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1264-1269",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/255/1483"
+      ],
+      "dois": [
+        "10.1109/tencon.2019.8929488"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2019#conf/tencon/BoppanaRK19",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
       "key": "conf/tencon/CherukuNGCSB19",
       "type": "inproceedings",
       "title": "A Bi-Level Cascaded Ensemble Framework for Effective Disease Diagnosis.",
@@ -6822,6 +8429,431 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/tencon/KodaliAB24",
+      "type": "inproceedings",
+      "title": "LSTM Based Forecasting of Power Consumption.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "874-878",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/400/1008"
+      ],
+      "dois": [
+        "10.1109/tencon61640.2024.10902780"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2024#conf/tencon/KodaliAB24",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/tencon/KodaliBB24",
+      "type": "inproceedings",
+      "title": "Mental Health Evaluation Through Text Analysis.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "165-169",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/400/2222"
+      ],
+      "dois": [
+        "10.1109/tencon61640.2024.10902931"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2024#conf/tencon/KodaliBB24",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/tencon/KodaliKVB25",
+      "type": "inproceedings",
+      "title": "A Context-Aware PDF Query Chatbot.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1008-1012",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/400/1419",
+        "https://dblp.org/pid/443/4279"
+      ],
+      "dois": [
+        "10.1109/tencon66050.2025.11375059"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2025#conf/tencon/KodaliKVB25",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/tencon/KodaliMRB24",
+      "type": "inproceedings",
+      "title": "Machine Learning in Laboratory Diagnosis.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1445-1449",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/400/0676",
+        "https://dblp.org/pid/400/3034"
+      ],
+      "dois": [
+        "10.1109/tencon61640.2024.10902716"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2024#conf/tencon/KodaliMRB24",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/tencon/KodaliPB23",
+      "type": "inproceedings",
+      "title": "Attendance System using Amazon Rekognition.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "65-70",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/362/1869"
+      ],
+      "dois": [
+        "10.1109/tencon58879.2023.10322521"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2023#conf/tencon/KodaliPB23",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/tencon/KodaliRKB19",
+      "type": "inproceedings",
+      "title": "IoT based security system.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1253-1257",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/255/1503",
+        "https://dblp.org/pid/255/1849"
+      ],
+      "dois": [
+        "10.1109/tencon.2019.8929420"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2019#conf/tencon/KodaliRKB19",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/tencon/KodaliSB23",
+      "type": "inproceedings",
+      "title": "Automated Plagiarism Detection in Moodle.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "176-181",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/362/1147"
+      ],
+      "dois": [
+        "10.1109/tencon58879.2023.10322418"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2023#conf/tencon/KodaliSB23",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/tencon/KodaliUB24",
+      "type": "inproceedings",
+      "title": "A Novel Approach to Generative AI Translation.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "698-702",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/374/0400"
+      ],
+      "dois": [
+        "10.1109/tencon61640.2024.10902899"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2024#conf/tencon/KodaliUB24",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/tencon/KodaliVKB25",
+      "type": "inproceedings",
+      "title": "A Multilingual Intelligent Document Processing System.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1200-1204",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/400/1419",
+        "https://dblp.org/pid/443/4279"
+      ],
+      "dois": [
+        "10.1109/tencon66050.2025.11375106"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2025#conf/tencon/KodaliVKB25",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/tencon/KodaliYSD18",
+      "type": "inproceedings",
+      "title": "Implementation of Home Automation Using CoAP.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1214-1218",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/240/5444",
+        "https://dblp.org/pid/240/5516",
+        "https://dblp.org/pid/245/7286"
+      ],
+      "dois": [
+        "10.1109/tencon.2018.8650135"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2018#conf/tencon/KodaliYSD18",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/tencon/KodaliYY18",
+      "type": "inproceedings",
+      "title": "Blockchain Based Energy Trading.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1778-1783",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/240/5444",
+        "https://dblp.org/pid/245/6943"
+      ],
+      "dois": [
+        "10.1109/tencon.2018.8650447"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2018#conf/tencon/KodaliYY18",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/tencon/KodaliYY18a",
+      "type": "inproceedings",
+      "title": "IoT Based Wearable Device for Workers in Industrial Scenarios.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1893-1898",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/240/5444",
+        "https://dblp.org/pid/245/6943"
+      ],
+      "dois": [
+        "10.1109/tencon.2018.8650187"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2018#conf/tencon/KodaliYY18a",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
         }
       ]
     },
@@ -7151,6 +9183,42 @@
       ]
     },
     {
+      "key": "conf/tencon/SriramKBS24",
+      "type": "inproceedings",
+      "title": "EcoCoin: A Mobile App for Sustainable Actions.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "19-22",
+      "authors": [
+        "https://dblp.org/pid/132/0035",
+        "https://dblp.org/pid/154/8407",
+        "https://dblp.org/pid/400/2602",
+        "https://dblp.org/pid/400/3172"
+      ],
+      "dois": [
+        "10.1109/tencon61640.2024.10902972"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2024#conf/tencon/SriramKBS24",
+      "faculty": [
+        "Ravi Kishore Kodali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
       "key": "conf/uksim/SubramanyamS12",
       "type": "inproceedings",
       "title": "Partition-Based Approach for Fast Mining of Transitional Patterns.",
@@ -7250,6 +9318,41 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/wcnc/BandariMD16",
+      "type": "inproceedings",
+      "title": "Multi-taper implementation of GFDM.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "WCNC",
+      "booktitle": "WCNC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/03/9519",
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/171/2442"
+      ],
+      "dois": [
+        "10.1109/wcnc.2016.7564952"
+      ],
+      "url": "https://dblp.org/db/conf/wcnc/wcnc2016#conf/wcnc/BandariMD16",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "WCNC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
         }
       ]
     },
@@ -7354,6 +9457,210 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2010
+        }
+      ]
+    },
+    {
+      "key": "conf/wpmc/MiriyalaM21",
+      "type": "inproceedings",
+      "title": "Peak Sample Detection based PAPR Reduction Algorithm in Optical-OFDM for VLC Systems.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "WPMC",
+      "booktitle": "WPMC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/313/5500"
+      ],
+      "dois": [
+        "10.1109/wpmc52694.2021.9700470"
+      ],
+      "url": "https://dblp.org/db/conf/wpmc/wpmc2021#conf/wpmc/MiriyalaM21",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "WPMC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/wpmc/ValluriM18",
+      "type": "inproceedings",
+      "title": "Receiver design for UW-GFDM systems.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "WPMC",
+      "booktitle": "WPMC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "588-593",
+      "authors": [
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/241/0747"
+      ],
+      "dois": [
+        "10.1109/wpmc.2018.8713149"
+      ],
+      "url": "https://dblp.org/db/conf/wpmc/wpmc2018#conf/wpmc/ValluriM18",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "WPMC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/wpmc/VappangiM17",
+      "type": "inproceedings",
+      "title": "Performance analysis of fast optical OFDM for VLC.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "WPMC",
+      "booktitle": "WPMC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "206-211",
+      "authors": [
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/215/9470"
+      ],
+      "dois": [
+        "10.1109/wpmc.2017.8301809"
+      ],
+      "url": "https://dblp.org/db/conf/wpmc/wpmc2017#conf/wpmc/VappangiM17",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "WPMC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/wpmc/VappangiM18",
+      "type": "inproceedings",
+      "title": "A Low PAPR DST-based optical OFDM (OOFDM) for Visible Light Communication.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "WPMC",
+      "booktitle": "WPMC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "200-205",
+      "authors": [
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/215/9470"
+      ],
+      "dois": [
+        "10.1109/wpmc.2018.8713142"
+      ],
+      "url": "https://dblp.org/db/conf/wpmc/wpmc2018#conf/wpmc/VappangiM18",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "WPMC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/wpmc/VappangiM18a",
+      "type": "inproceedings",
+      "title": "Interference Analysis in DCT-Based Multiple Access System for VLC.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "WPMC",
+      "booktitle": "WPMC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "550-555",
+      "authors": [
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/215/9470"
+      ],
+      "dois": [
+        "10.1109/wpmc.2018.8713031"
+      ],
+      "url": "https://dblp.org/db/conf/wpmc/wpmc2018#conf/wpmc/VappangiM18a",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "WPMC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/wsa/ManiB08",
+      "type": "inproceedings",
+      "title": "Smart antenna design for beamforming of UWB signals in Gaussian noise.",
+      "year": 2008,
+      "publication_year": 2008,
+      "event_year": 2008,
+      "venue": "WSA",
+      "booktitle": "WSA",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "311-316",
+      "authors": [
+        "https://dblp.org/pid/168/6872",
+        "https://dblp.org/pid/83/4862"
+      ],
+      "dois": [
+        "10.1109/wsa.2008.4475575"
+      ],
+      "url": "https://dblp.org/db/conf/wsa/wsa2008#conf/wsa/ManiB08",
+      "faculty": [
+        "V. V. Mani"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "WSA",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2008
         }
       ]
     }

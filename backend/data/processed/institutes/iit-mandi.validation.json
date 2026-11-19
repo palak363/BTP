@@ -1,12 +1,40 @@
 {
   "institution": "IIT Mandi",
   "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
-  "compared_cells": 9,
+  "compared_cells": 12,
   "expected_papers": 9,
-  "actual_papers": 9,
-  "matching": true,
+  "actual_papers": 12,
+  "matching": false,
   "missing_cells": 0,
-  "extra_cells": 0,
-  "differences": [],
+  "extra_cells": 3,
+  "differences": [
+    {
+      "name": "Aditya Anand 0002",
+      "area": "oopsla",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Aditya Anand 0002",
+      "area": "pldi",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.125
+    },
+    {
+      "name": "Amit Shukla 0002",
+      "area": "icra",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    }
+  ],
   "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten. Missing cells: the reference counts papers this build does not. Extra cells: this build counts papers the reference does not."
 }

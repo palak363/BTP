@@ -1,12 +1,31 @@
 {
   "institution": "IIT Tirupati",
   "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
-  "compared_cells": 10,
+  "compared_cells": 12,
   "expected_papers": 10,
-  "actual_papers": 10,
-  "matching": true,
+  "actual_papers": 12,
+  "matching": false,
   "missing_cells": 0,
-  "extra_cells": 0,
-  "differences": [],
+  "extra_cells": 2,
+  "differences": [
+    {
+      "name": "Rama Krishna Sai S. Gorthi",
+      "area": "cvpr",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Yujendra Mitikiri",
+      "area": "icra",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    }
+  ],
   "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten. Missing cells: the reference counts papers this build does not. Extra cells: this build counts papers the reference does not."
 }

@@ -5,7 +5,7 @@
     "slug": "niser",
     "homepage": "https://www.niser.ac.in",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-10-20T20:16:06.971421+00:00",
+    "generated_at": "2026-11-19T18:01:42.784054+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -160,27 +160,48 @@
   "faculty": [
     {
       "name": "Anamay Tengse",
-      "dblp_url": "https://dblp.org/pid/206/6186"
+      "dblp_url": "https://dblp.org/pid/206/6186",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Anup Bhattacharya",
-      "dblp_url": "https://dblp.org/pid/129/2787"
+      "dblp_url": "https://dblp.org/pid/129/2787",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Aritra Banik",
-      "dblp_url": "https://dblp.org/pid/59/3927"
+      "dblp_url": "https://dblp.org/pid/59/3927",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Deepak Kumar 0015",
+      "dblp_url": "https://dblp.org/pid/66/3984-15",
+      "affiliation_status": "former"
+    },
+    {
+      "name": "Dibyendu Roy 0001",
+      "dblp_url": "https://dblp.org/pid/141/0844",
+      "affiliation_status": "former"
     },
     {
       "name": "Manoj Mishra",
-      "dblp_url": "https://dblp.org/pid/05/9669"
+      "dblp_url": "https://dblp.org/pid/05/9669",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Pankaj Kumar 0012",
+      "dblp_url": "https://dblp.org/pid/44/4194-12",
+      "affiliation_status": "current"
     },
     {
       "name": "Prerona Chatterjee",
-      "dblp_url": "https://dblp.org/pid/232/3374"
+      "dblp_url": "https://dblp.org/pid/232/3374",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Subhankar Mishra",
-      "dblp_url": "https://dblp.org/pid/147/8391"
+      "dblp_url": "https://dblp.org/pid/147/8391",
+      "affiliation_status": "unknown"
     }
   ],
   "publications": [
@@ -245,7 +266,7 @@
         "https://dblp.org/pid/129/2787",
         "https://dblp.org/pid/172/4993",
         "https://dblp.org/pid/243/3259",
-        "https://dblp.org/pid/39/5366",
+        "https://dblp.org/pid/39/5366-2",
         "https://dblp.org/pid/89/3488-1"
       ],
       "dois": [
@@ -323,6 +344,7 @@
       ],
       "url": "https://dblp.org/db/conf/bigcomp/bigcomp2021#conf/bigcomp/KumarKM21",
       "faculty": [
+        "Deepak Kumar 0015",
         "Subhankar Mishra"
       ],
       "memberships": [
@@ -787,6 +809,45 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2012
+        }
+      ]
+    },
+    {
+      "key": "conf/eacl/KumarLZCESR23",
+      "type": "inproceedings",
+      "title": "Parameter-efficient Modularised Bias Mitigation via AdapterFusion.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "EACL",
+      "booktitle": "EACL",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2730-2743",
+      "authors": [
+        "https://dblp.org/pid/150/5089",
+        "https://dblp.org/pid/232/1820",
+        "https://dblp.org/pid/287/9927",
+        "https://dblp.org/pid/42/8700",
+        "https://dblp.org/pid/66/3984-15",
+        "https://dblp.org/pid/77/271",
+        "https://dblp.org/pid/85/2738"
+      ],
+      "dois": [
+        "10.18653/v1/2023.eacl-main.201"
+      ],
+      "url": "https://dblp.org/db/conf/eacl/eacl2023#conf/eacl/KumarLZCESR23",
+      "faculty": [
+        "Deepak Kumar 0015"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "EACL",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
         }
       ]
     },
@@ -1488,7 +1549,7 @@
         "https://dblp.org/pid/10/718",
         "https://dblp.org/pid/129/2787",
         "https://dblp.org/pid/172/4993",
-        "https://dblp.org/pid/39/5366"
+        "https://dblp.org/pid/39/5366-2"
       ],
       "dois": [
         "10.4230/lipics.isaac.2019.19"
@@ -1869,6 +1930,42 @@
       ]
     },
     {
+      "key": "conf/pkdd/MelchiorreMKS24",
+      "type": "inproceedings",
+      "title": "Modular Debiasing of Latent User Representations in Prototype-Based Recommender Systems.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "ECML/PKDD (1)",
+      "booktitle": "ECML/PKDD (1)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "56-72",
+      "authors": [
+        "https://dblp.org/pid/270/2273",
+        "https://dblp.org/pid/334/1246",
+        "https://dblp.org/pid/66/3984-15",
+        "https://dblp.org/pid/77/271"
+      ],
+      "dois": [
+        "10.1007/978-3-031-70341-6_4"
+      ],
+      "url": "https://dblp.org/db/conf/pkdd/pkdd2024-1#conf/pkdd/MelchiorreMKS24",
+      "faculty": [
+        "Deepak Kumar 0015"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ECML PKDD",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
       "key": "conf/soda/0001ST19",
       "type": "inproceedings",
       "title": "Near-optimal Bootstrapping of Hitting Sets for Algebraic Circuits.",
@@ -2001,7 +2098,7 @@
         "https://dblp.org/pid/10/718",
         "https://dblp.org/pid/129/2787",
         "https://dblp.org/pid/172/4993",
-        "https://dblp.org/pid/39/5366"
+        "https://dblp.org/pid/39/5366-2"
       ],
       "dois": [
         "10.4230/lipics.stacs.2022.10"

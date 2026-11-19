@@ -5,7 +5,7 @@
     "slug": "iit-bhu-varanasi",
     "homepage": "https://www.iitbhu.ac.in/dept/cse",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-10-20T20:15:13.559709+00:00",
+    "generated_at": "2026-11-19T18:00:45.551658+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -154,56 +154,114 @@
   },
   "faculty": [
     {
+      "name": "Abhishek Kumar 0026",
+      "dblp_url": "https://dblp.org/pid/67/6188-26",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Ajay Kumar 0017",
+      "dblp_url": "https://dblp.org/pid/85/4670-17",
+      "affiliation_status": "current"
+    },
+    {
       "name": "Amrita Chaturvedi",
-      "dblp_url": "https://dblp.org/pid/136/8375"
+      "dblp_url": "https://dblp.org/pid/136/8375",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Anil Kumar Singh",
-      "dblp_url": "https://dblp.org/pid/35/1354-1"
+      "dblp_url": "https://dblp.org/pid/35/1354-1",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Anil Kumar Tripathi",
-      "dblp_url": "https://dblp.org/pid/79/5825"
+      "dblp_url": "https://dblp.org/pid/79/5825",
+      "affiliation_status": "unknown"
     },
     {
       "name": "C. Ravindranath Chowdary",
-      "dblp_url": "https://dblp.org/pid/72/4664"
+      "dblp_url": "https://dblp.org/pid/72/4664",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Divya Sharma 0009",
+      "dblp_url": "https://dblp.org/pid/03/8325-9",
+      "affiliation_status": "current"
     },
     {
       "name": "Hari Prabhat Gupta",
-      "dblp_url": "https://dblp.org/pid/126/2508"
+      "dblp_url": "https://dblp.org/pid/126/2508",
+      "affiliation_status": "unknown"
     },
     {
       "name": "K. Lakshmanan 0001",
-      "dblp_url": "https://dblp.org/pid/80/449"
+      "dblp_url": "https://dblp.org/pid/80/449",
+      "affiliation_status": "current"
     },
     {
       "name": "Kaushal K. Shukla",
-      "dblp_url": "https://dblp.org/pid/56/10402"
+      "dblp_url": "https://dblp.org/pid/56/10402",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "P. K. Mishra 0002",
+      "dblp_url": "https://dblp.org/pid/04/2087-2",
+      "affiliation_status": "former"
+    },
+    {
+      "name": "Pankaj Kumar Singh 0007",
+      "dblp_url": "https://dblp.org/pid/378/6382",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Prem C. Pandey 0002",
+      "dblp_url": "https://dblp.org/pid/01/9248-2",
+      "affiliation_status": "current"
     },
     {
       "name": "R. B. Mishra",
-      "dblp_url": "https://dblp.org/pid/86/1305"
+      "dblp_url": "https://dblp.org/pid/86/1305",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Rajeev Sangal",
-      "dblp_url": "https://dblp.org/pid/31/5370"
+      "dblp_url": "https://dblp.org/pid/31/5370",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Ruchir Gupta",
-      "dblp_url": "https://dblp.org/pid/59/9057"
+      "dblp_url": "https://dblp.org/pid/59/9057",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "S. Lavanya 0001",
+      "dblp_url": "https://dblp.org/pid/237/9992",
+      "affiliation_status": "current"
     },
     {
       "name": "Sanjay Kumar Singh",
-      "dblp_url": "https://dblp.org/pid/11/4030-1"
+      "dblp_url": "https://dblp.org/pid/11/4030-1",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Sukomal Pal",
-      "dblp_url": "https://dblp.org/pid/06/3884"
+      "dblp_url": "https://dblp.org/pid/06/3884",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Sushil Kumar Singh 0002",
+      "dblp_url": "https://dblp.org/pid/245/7233-2",
+      "affiliation_status": "current"
     },
     {
       "name": "Tanima Dutta",
-      "dblp_url": "https://dblp.org/pid/124/3022"
+      "dblp_url": "https://dblp.org/pid/124/3022",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Vineet Kumar 0003",
+      "dblp_url": "https://dblp.org/pid/88/5106-3",
+      "affiliation_status": "former"
     }
   ],
   "publications": [
@@ -358,6 +416,39 @@
       ]
     },
     {
+      "key": "conf/aaai/GorlaGS07",
+      "type": "inproceedings",
+      "title": "Two Approaches for Building an Unsupervised Dependency Parser and Their Other Applications.",
+      "year": 2007,
+      "publication_year": 2007,
+      "event_year": 2007,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1860-1861",
+      "authors": [
+        "https://dblp.org/pid/03/3019",
+        "https://dblp.org/pid/31/5370",
+        "https://dblp.org/pid/76/4470"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/aaai/aaai2007#conf/aaai/GorlaGS07",
+      "faculty": [
+        "Rajeev Sangal"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2007
+        }
+      ]
+    },
+    {
       "key": "conf/aaai/JainD24",
       "type": "inproceedings",
       "title": "Stronger and Transferable Node Injection Attacks.",
@@ -478,6 +569,41 @@
           "area": "aaai",
           "domain": "Artificial intelligence",
           "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/acl/BharatiCS00",
+      "type": "inproceedings",
+      "title": "Panel: Computational Linguistics in India: An Overview.",
+      "year": 2000,
+      "publication_year": 2000,
+      "event_year": 2000,
+      "venue": "ACL",
+      "booktitle": "ACL",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-2",
+      "authors": [
+        "https://dblp.org/pid/31/5370",
+        "https://dblp.org/pid/55/5377",
+        "https://dblp.org/pid/84/5323"
+      ],
+      "dois": [
+        "10.3115/1075218.1075295"
+      ],
+      "url": "https://dblp.org/db/conf/acl/acl2000#conf/acl/BharatiCS00",
+      "faculty": [
+        "Rajeev Sangal"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "ACL",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2000
         }
       ]
     },
@@ -1390,6 +1516,40 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/ecir/ChowdaryK09",
+      "type": "inproceedings",
+      "title": "ESUM: An Efficient System for Query-Specific Multi-document Summarization.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "ECIR",
+      "booktitle": "ECIR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "724-728",
+      "authors": [
+        "https://dblp.org/pid/119/1402",
+        "https://dblp.org/pid/72/4664"
+      ],
+      "dois": [
+        "10.1007/978-3-642-00958-7_74"
+      ],
+      "url": "https://dblp.org/db/conf/ecir/ecir2009#conf/ecir/ChowdaryK09",
+      "faculty": [
+        "C. Ravindranath Chowdary"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ECIR",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2009
         }
       ]
     },
@@ -2605,6 +2765,42 @@
       ]
     },
     {
+      "key": "conf/icdcn/KumarKPK24",
+      "type": "inproceedings",
+      "title": "NVM-Enhanced MLI Placement for Revenue Maximization in UAV-Fog Assisted MEC with Stable Matching.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "ICDCN",
+      "booktitle": "ICDCN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "365-370",
+      "authors": [
+        "https://dblp.org/pid/162/7464",
+        "https://dblp.org/pid/168/6810",
+        "https://dblp.org/pid/45/3365-2",
+        "https://dblp.org/pid/67/6188-26"
+      ],
+      "dois": [
+        "10.1145/3631461.3631475"
+      ],
+      "url": "https://dblp.org/db/conf/icdcn/icdcn2024#conf/icdcn/KumarKPK24",
+      "faculty": [
+        "Abhishek Kumar 0026"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICDCN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
       "key": "conf/icdcn/KumariG21",
       "type": "inproceedings",
       "title": "Resource Allocation Techniques for extending the performance of Long-Range Network.",
@@ -2639,6 +2835,44 @@
       ]
     },
     {
+      "key": "conf/icdcn/SinghMPKK024",
+      "type": "inproceedings",
+      "title": "Splitfed-based Patient Severity Prediction and Utility Maximization in Industrial Healthcare 4.0.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "ICDCN",
+      "booktitle": "ICDCN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "388-393",
+      "authors": [
+        "https://dblp.org/pid/162/7464",
+        "https://dblp.org/pid/168/6810",
+        "https://dblp.org/pid/325/4608",
+        "https://dblp.org/pid/67/6188-26",
+        "https://dblp.org/pid/81/3758-3",
+        "https://dblp.org/pid/d/SajalKDas"
+      ],
+      "dois": [
+        "10.1145/3631461.3631953"
+      ],
+      "url": "https://dblp.org/db/conf/icdcn/icdcn2024#conf/icdcn/SinghMPKK024",
+      "faculty": [
+        "Abhishek Kumar 0026"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICDCN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
       "key": "conf/icde/GuptaS16",
       "type": "inproceedings",
       "title": "Reputation aggregation in peer-to-peer network using differential gossip algorithm.",
@@ -2663,6 +2897,13 @@
         "Ruchir Gupta"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "ICDE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2016
+        },
         {
           "source": "ieee",
           "venue": "ICDE",
@@ -3344,6 +3585,63 @@
       ]
     },
     {
+      "key": "conf/interspeech/0001ASMGKFVMMWN23",
+      "type": "inproceedings",
+      "title": "Technology Pipeline for Large Scale Cross-Lingual Dubbing of Lecture Videos into Multiple Indian Languages.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3683-3684",
+      "authors": [
+        "https://dblp.org/pid/134/5522",
+        "https://dblp.org/pid/141/0591",
+        "https://dblp.org/pid/145/4604-1",
+        "https://dblp.org/pid/149/2772",
+        "https://dblp.org/pid/154/8255",
+        "https://dblp.org/pid/185/5548",
+        "https://dblp.org/pid/199/1979-1",
+        "https://dblp.org/pid/205/6862",
+        "https://dblp.org/pid/259/8559",
+        "https://dblp.org/pid/274/2884",
+        "https://dblp.org/pid/31/5370",
+        "https://dblp.org/pid/314/8036",
+        "https://dblp.org/pid/330/4617",
+        "https://dblp.org/pid/332/1274",
+        "https://dblp.org/pid/332/1653",
+        "https://dblp.org/pid/332/1742",
+        "https://dblp.org/pid/332/1833",
+        "https://dblp.org/pid/332/1960",
+        "https://dblp.org/pid/332/1993",
+        "https://dblp.org/pid/332/2172",
+        "https://dblp.org/pid/332/2269",
+        "https://dblp.org/pid/332/2312",
+        "https://dblp.org/pid/36/10405",
+        "https://dblp.org/pid/36/5441",
+        "https://dblp.org/pid/38/5502",
+        "https://dblp.org/pid/58/217",
+        "https://dblp.org/pid/p/PushpakBhattacharyya"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2023#conf/interspeech/0001ASMGKFVMMWN23",
+      "faculty": [
+        "Rajeev Sangal"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
       "key": "conf/ipps/VidyarthiTSDY04",
       "type": "inproceedings",
       "title": "Cluster-Based Multiple Task Allocation in Distributed Computing System.",
@@ -3371,6 +3669,13 @@
         "Anil Kumar Tripathi"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "IPDPS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2004
+        },
         {
           "source": "ieee",
           "venue": "IPDPS",
@@ -3600,6 +3905,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "ACMMM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2013
+        },
+        {
           "source": "acm",
           "venue": "ACM Multimedia",
           "area": "publisher-other",
@@ -3637,6 +3949,13 @@
         "Tanima Dutta"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "ACMMM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2016
+        },
         {
           "source": "acm",
           "venue": "ACM Multimedia",
@@ -3686,6 +4005,41 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/naacl/GaddeJHSS10",
+      "type": "inproceedings",
+      "title": "Improving Data Driven Dependency Parsing using Clausal Information.",
+      "year": 2010,
+      "publication_year": 2010,
+      "event_year": 2010,
+      "venue": "HLT-NAACL",
+      "booktitle": "HLT-NAACL",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "657-660",
+      "authors": [
+        "https://dblp.org/pid/08/556",
+        "https://dblp.org/pid/12/9014",
+        "https://dblp.org/pid/31/5370",
+        "https://dblp.org/pid/58/217",
+        "https://dblp.org/pid/98/8451"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/naacl/naacl2010#conf/naacl/GaddeJHSS10",
+      "faculty": [
+        "Rajeev Sangal"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "NAACL",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2010
         }
       ]
     },
@@ -4103,6 +4457,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "RecSys",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        },
+        {
           "source": "acm",
           "venue": "RecSys",
           "area": "publisher-other",
@@ -4317,6 +4678,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "SENSYS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        },
+        {
           "source": "acm",
           "venue": "SenSys",
           "area": "publisher-other",
@@ -4352,6 +4720,13 @@
         "Tanima Dutta"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "SENSYS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        },
         {
           "source": "acm",
           "venue": "SenSys",
@@ -4421,6 +4796,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "SENSYS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        },
+        {
           "source": "acm",
           "venue": "SenSys",
           "area": "publisher-other",
@@ -4459,6 +4841,13 @@
         "Hari Prabhat Gupta"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "SENSYS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2015
+        },
         {
           "source": "acm",
           "venue": "SenSys",
@@ -4530,6 +4919,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "SIGIR",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        },
+        {
           "source": "acm",
           "venue": "SIGIR",
           "area": "publisher-other",
@@ -4570,6 +4966,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "SIGIR",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2008
+        },
+        {
           "source": "acm",
           "venue": "SIGIR",
           "area": "publisher-other",
@@ -4605,6 +5008,13 @@
         "Anil Kumar Singh"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "SIGIR",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2009
+        },
         {
           "source": "acm",
           "venue": "SIGIR",
@@ -4752,6 +5162,42 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2013
+        }
+      ]
+    },
+    {
+      "key": "conf/spcom/SoiSSK22",
+      "type": "inproceedings",
+      "title": "C-Band Iris Coupled Cavity Bandpass Filter.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "SPCOM",
+      "booktitle": "SPCOM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/245/7233-2",
+        "https://dblp.org/pid/325/8958",
+        "https://dblp.org/pid/55/3227",
+        "https://dblp.org/pid/99/6952"
+      ],
+      "dois": [
+        "10.1109/spcom55316.2022.9840777"
+      ],
+      "url": "https://dblp.org/db/conf/spcom/spcom2022#conf/spcom/SoiSSK22",
+      "faculty": [
+        "Sushil Kumar Singh 0002"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "SPCOM",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
         }
       ]
     },

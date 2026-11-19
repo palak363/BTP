@@ -13,6 +13,7 @@ export const defaultWindow = index.metadata.default_window;
 export const facultyDirectory = index.faculty;
 export const instituteByName = name => institutes.find(institute => institute.name === name);
 export const facultyMember = name => facultyDirectory.find(person => person.name === name);
+export const facultyMembers = name => facultyDirectory.filter(person => person.name === name);
 
 export function loadInstitute(slug) {
   if (!loaded.has(slug)) {
@@ -35,6 +36,15 @@ export async function localSummary(slug, ...filters) {
 }
 
 export async function localProfessor(name) {
-  const member = facultyMember(name);
-  return member ? professorFrom(await loadInstitute(member.slug), name) : null;
+  const members = facultyMembers(name);
+  if (!members.length) return null;
+  const profiles = await Promise.all(members.map(member => loadInstitute(member.slug).then(snapshot => professorFrom(snapshot, name))));
+  const first = profiles[0];
+  const publications = [...new Map(profiles.flatMap(profile => profile?.publications || []).map(paper => [paper.key, paper])).values()];
+  return first ? {
+    ...first,
+    institutions: profiles.map(profile => ({ name: profile.institution, slug: profile.slug,
+      affiliation_status: profile.affiliation_status || "unknown" })),
+    publications,
+  } : null;
 }

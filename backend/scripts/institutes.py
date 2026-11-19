@@ -28,7 +28,7 @@ AFFILIATION_HINTS = {
     'IIIT Delhi': ['iiit delhi', 'indraprastha institute of information technology', 'iiit d'],
     'IIIT Hyderabad': ['iiit hyderabad', 'international institute of information technology hyderabad', 'iiit h'],
     'IISc Bangalore': ['indian institute of science bangalore', 'indian institute of science bengaluru', 'iisc'],
-    'IMSc': ['institute of mathematical sciences'],
+    'IMSc': ['the institute of mathematical sciences', 'institute of mathematical sciences chennai', 'imsc'],
     'ISI Kolkata': ['indian statistical institute'],
     'Jadavpur University': ['jadavpur university'],
     'Jaypee Univ. of Info. Tech.': ['jaypee university of information technology'],
@@ -105,6 +105,38 @@ def candidates(names, predicate):
     return found
 
 
+def affiliated_people(institutes):
+    """Return DBLP people whose recorded affiliation matches an Indian institute."""
+    phrases = sorted({phrase for institution in institutes for phrase in hints(institution)})
+    pattern = '|'.join(re.escape(phrase) for phrase in phrases)
+    rows = sparql(
+        'PREFIX d: <https://dblp.org/rdf/schema#> '
+        'PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> '
+        'SELECT DISTINCT ?person ?name ?affiliation ?primaryAffiliation WHERE { '
+        '?person a d:Person ; rdfs:label ?name ; d:affiliation ?affiliation . '
+        'OPTIONAL { ?person d:primaryAffiliation ?primaryAffiliation } '
+        f'FILTER regex(LCASE(STR(?affiliation)), {json.dumps(pattern)}) }}'
+    )
+    found = {}
+    for row in rows:
+        person = row['person']['value']
+        entry = found.setdefault(person, {'name': row['name']['value'], 'affiliations': set(), 'primary_affiliations': set()})
+        entry['affiliations'].add(row['affiliation']['value'])
+        if 'primaryAffiliation' in row:
+            entry['primary_affiliations'].add(row['primaryAffiliation']['value'])
+    return found
+
+
+def affiliation_institutes(affiliations, institutes):
+    """Match affiliations to one institute, preferring deterministic ordering."""
+    matches = {
+        institution for institution in institutes
+        if any(f' {phrase} ' in normalize(affiliation)
+               for affiliation in affiliations for phrase in hints(institution))
+    }
+    return sorted(matches)
+
+
 def choose(name, entry, matches, require_evidence=False):
     """Return (pid_url, method) or (None, reason).
 
@@ -134,11 +166,9 @@ def merge_duplicates(resolved):
     """CSRankings sometimes lists one person under an old and a numbered DBLP name."""
     by_person = {}
     for row in resolved:
-        by_person.setdefault(row['dblp_url'], []).append(row)
+        by_person.setdefault((row['institution'], row['dblp_url']), []).append(row)
     merged = []
     for rows in by_person.values():
-        if len({r['institution'] for r in rows}) != 1:
-            raise ValueError(f'One DBLP person in several institutes: {rows}')
         # Prefer the name DBLP itself uses, then the longest (most specific) name.
         rows.sort(key=lambda r: (r['resolution'] != 'exact name', -len(r['name']), r['name']))
         merged.append(dict(rows[0], aliases='|'.join(r['name'] for r in rows[1:])))
@@ -172,8 +202,24 @@ def resolve():
             resolved.append({'institution': row['institution'], 'name': row['name'], 'dblp_url': same[0], 'resolution': 'duplicate listing'})
     for row in unresolved:
         row['candidates'] = ' '.join(p.removeprefix('https://dblp.org/pid/') for p in row['candidates'])
+    discovered = affiliated_people(institutes)
+    existing = {(row['institution'], row['dblp_url']) for row in resolved}
+    statuses = {}
+    for pid, person in discovered.items():
+        matching = affiliation_institutes(person['affiliations'], institutes)
+        for institution in matching:
+            primary = affiliation_institutes(person['primary_affiliations'], institutes)
+            status = 'current' if institution in primary else 'former'
+            statuses[(institution, pid)] = status
+            if (institution, pid) in existing:
+                continue
+            resolved.append({'institution': institution, 'name': person['name'], 'dblp_url': pid,
+                             'resolution': 'DBLP affiliation', 'aliases': '', 'affiliation_status': status})
+            existing.add((institution, pid))
+    for row in resolved:
+        row['affiliation_status'] = statuses.get((row['institution'], row['dblp_url']), 'unknown')
     resolved = merge_duplicates(resolved)
-    for path, rows, fields in ((ROSTER, resolved, ['institution', 'name', 'dblp_url', 'resolution', 'aliases']),
+    for path, rows, fields in ((ROSTER, resolved, ['institution', 'name', 'dblp_url', 'resolution', 'aliases', 'affiliation_status']),
                                (UNRESOLVED, unresolved, ['institution', 'name', 'reason', 'candidates'])):
         temporary = path.with_suffix('.tmp')
         with temporary.open('w', encoding='utf-8', newline='') as stream:

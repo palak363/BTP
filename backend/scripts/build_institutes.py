@@ -28,17 +28,19 @@ def dataset_path(name):
 def summarize(dataset, start_year, end_year, sources=('csrankings',), areas=None, include_optional=False):
     if dataset['metadata'].get('data_source') == 'csrankings-published-counts':
         return summarize_reference(dataset, start_year, end_year, sources, areas, include_optional)
+    active_names = {f['name'] for f in dataset['faculty']
+                    if f.get('affiliation_status', 'unknown') != 'former'}
     selected = []
     for paper in dataset['publications']:
         memberships = [m for m in paper['memberships']
                        if m['source'] in sources and start_year <= m['year'] <= end_year
                        and (m['source'] != 'csrankings' or include_optional or m['area'] not in OPTIONAL_VENUES)
                        and (not areas or m['domain'] in areas)]
-        if memberships:
+        if memberships and any(name in active_names for name in paper['faculty']):
             # CSRankings conference-year corrections take precedence in a union.
             selected.append((paper, memberships[0]))
     faculties = {f['name']: dict(f, papers=0, score=0.0, domains=Counter(), venues=Counter())
-                 for f in dataset['faculty']}
+                 for f in dataset['faculty'] if f['name'] in active_names}
     domains, venues = Counter(), Counter()
     adjusted_domains = Counter()
     for paper, membership in selected:
@@ -47,6 +49,8 @@ def summarize(dataset, start_year, end_year, sources=('csrankings',), areas=None
         venues[venue] += 1
         credit = 1 / len(paper['authors'])
         for name in paper['faculty']:
+            if name not in active_names:
+                continue
             faculty = faculties[name]
             faculty['papers'] += 1
             faculty['score'] += credit
@@ -79,14 +83,18 @@ def summarize(dataset, start_year, end_year, sources=('csrankings',), areas=None
 def summarize_reference(dataset, start_year, end_year, sources, areas, include_optional):
     if set(sources) != {'csrankings'}:
         raise ValueError('CORE, IEEE and ACM require a complete DBLP bibliography build.')
+    active_names = {f['name'] for f in dataset['faculty']
+                    if f.get('affiliation_status', 'unknown') != 'former'}
     faculties = {f['name']: dict(f, papers=0, score=0.0, domains=Counter(), venues=Counter())
-                 for f in dataset['faculty']}
+                 for f in dataset['faculty'] if f['name'] in active_names}
     domains, venues, adjusted_domains = Counter(), Counter(), Counter()
     for cell in dataset['counts']:
         if not include_optional and cell['area'] in OPTIONAL_VENUES:
             continue
         domain = AREA_NAMES.get(cell['area'], cell['area'])
         if not start_year <= cell['year'] <= end_year or (areas and domain not in areas):
+            continue
+        if cell['name'] not in active_names:
             continue
         faculty = faculties[cell['name']]
         faculty['papers'] += cell['count']
@@ -156,7 +164,8 @@ def build_reference(roster):
         'counting': 'Published CSRankings faculty counts, including optional venues. Raw totals count faculty authorships; unique paper counts are unavailable.',
         'validation': {'mode': 'published-reference', 'independently_recomputed': False},
         'limitations': ['Live DBLP refresh is required for CORE A/A*, IEEE, ACM counts and unique publication totals.']},
-        'faculty': [{'name': m['name'], 'dblp_url': m['dblp_url']} for m in roster['faculty']],
+        'faculty': [{'name': m['name'], 'dblp_url': m['dblp_url'],
+                     'affiliation_status': m.get('affiliation_status', 'unknown')} for m in roster['faculty']],
         'counts': counts, 'publications': []}
     write_json(dataset_path(roster['name']), dataset)
     print(f"Published reference baseline for {roster['name']}: {len(names)} faculty; {len(counts)} area/year cells.")
@@ -239,13 +248,15 @@ def build_institute(roster, rules, core, fetch, refresh=False, offline=False, ba
             'unresolved_faculty': [{'name': u['name'], 'reason': u['reason']} for u in roster['unresolved']],
             'counting': 'Unique DBLP keys; faculty credit is 1 / all authors; all reference venues, including optional venues.',
         },
-        'faculty': [{'name': m['name'], 'dblp_url': m['dblp_url']} for m in roster['faculty']],
+        'faculty': [{'name': m['name'], 'dblp_url': m['dblp_url'],
+                     'affiliation_status': m.get('affiliation_status', 'unknown')} for m in roster['faculty']],
         'publications': sorted(publications.values(), key=lambda p: p['key']),
     }
 
 
 def index_entry(dataset, report):
     start, end = DEFAULT_WINDOW
+    active_faculty = [f for f in dataset['faculty'] if f.get('affiliation_status', 'unknown') != 'former']
     totals = {}
     for key, sources in [(s, [s]) for s in dataset['metadata']['available_sources']] + [('all', dataset['metadata']['available_sources'])]:
         summary = summarize(dataset, start, end, sources)
@@ -255,14 +266,15 @@ def index_entry(dataset, report):
                        'faculty': sum(f['papers'] > 0 for f in summary['faculty_rankings'])}
     meta = dataset['metadata']
     return {'name': meta['institution'], 'slug': meta['slug'], 'homepage': meta['homepage'],
-            'faculty': len(dataset['faculty']), 'unresolved': len(meta['unresolved_faculty']),
+            'faculty': len(active_faculty), 'unresolved': len(meta['unresolved_faculty']),
             'totals': totals, 'validation': {k: report[k] for k in ('compared_cells', 'missing_cells', 'extra_cells', 'expected_papers', 'actual_papers')}}
 
 
 def write_index(entries, rosters, metadata):
     index = {'metadata': dict(metadata, generated_at=datetime.now(timezone.utc).isoformat(), default_window=list(DEFAULT_WINDOW)),
              'institutes': sorted(entries.values(), key=lambda e: e['name']),
-             'faculty': sorted(({'name': m['name'], 'institution': r['name'], 'slug': r['slug'], 'dblp_url': m['dblp_url']}
+             'faculty': sorted(({'name': m['name'], 'institution': r['name'], 'slug': r['slug'], 'dblp_url': m['dblp_url'],
+                                 'affiliation_status': m.get('affiliation_status', 'unknown')}
                                 for r in rosters.values() if r['name'] in entries for m in r['faculty']), key=lambda f: f['name'])}
     write_json(INDEX, index)
 

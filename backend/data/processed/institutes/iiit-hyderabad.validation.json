@@ -1,13 +1,382 @@
 {
   "institution": "IIIT Hyderabad",
   "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
-  "compared_cells": 284,
+  "compared_cells": 371,
   "expected_papers": 384,
-  "actual_papers": 400,
+  "actual_papers": 496,
   "matching": false,
   "missing_cells": 0,
-  "extra_cells": 9,
+  "extra_cells": 96,
   "differences": [
+    {
+      "name": "Aditya Arun 0001",
+      "area": "cvpr",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Aditya Arun 0001",
+      "area": "eccv",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Aditya Arun 0001",
+      "area": "eccv",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Anand Mishra 0001",
+      "area": "aaai",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Anand Mishra 0001",
+      "area": "aaai",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3666666666666667
+    },
+    {
+      "name": "Anand Mishra 0001",
+      "area": "aaai",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Anand Mishra 0001",
+      "area": "aaai",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.6428571428571428
+    },
+    {
+      "name": "Anand Mishra 0001",
+      "area": "cvpr",
+      "year": 2012,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Anand Mishra 0001",
+      "area": "cvpr",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Anand Mishra 0001",
+      "area": "eccv",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Anand Mishra 0001",
+      "area": "emnlp",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Anand Mishra 0001",
+      "area": "emnlp",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Anand Mishra 0001",
+      "area": "emnlp",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Anand Mishra 0001",
+      "area": "iccv",
+      "year": 2013,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Anand Mishra 0001",
+      "area": "iccv",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Anand Mishra 0001",
+      "area": "iccv",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Anand Mishra 0001",
+      "area": "iccv",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Anand Mishra 0001",
+      "area": "ijcai",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Anmol Goel",
+      "area": "acl",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2625
+    },
+    {
+      "name": "Anmol Goel",
+      "area": "emnlp",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Anmol Goel",
+      "area": "emnlp",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Anmol Goel",
+      "area": "iclr",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Arjun R. Akula",
+      "area": "aaai",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Arjun R. Akula",
+      "area": "acl",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Arjun R. Akula",
+      "area": "cvpr",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.08333333333333333
+    },
+    {
+      "name": "Arjun R. Akula",
+      "area": "emnlp",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3666666666666667
+    },
+    {
+      "name": "Arjun R. Akula",
+      "area": "emnlp",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.24285714285714285
+    },
+    {
+      "name": "Arjun R. Akula",
+      "area": "iccv",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Arjun R. Akula",
+      "area": "iclr",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.1111111111111111
+    },
+    {
+      "name": "Arjun R. Akula",
+      "area": "nips",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Arjun R. Akula",
+      "area": "nips",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.1111111111111111
+    },
+    {
+      "name": "Avinash Sharma 0001",
+      "area": "cvpr",
+      "year": 2011,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Avinash Sharma 0001",
+      "area": "cvpr",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Avinash Sharma 0001",
+      "area": "eccv",
+      "year": 2008,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Avinash Sharma 0001",
+      "area": "eccv",
+      "year": 2010,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Avinash Sharma 0001",
+      "area": "eccv",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Avinash Sharma 0001",
+      "area": "iccv",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Avinash Sharma 0001",
+      "area": "iclr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Avinash Sharma 0001",
+      "area": "icra",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Avinash Sharma 0001",
+      "area": "iros",
+      "year": 2017,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Avinash Sharma 0001",
+      "area": "iros",
+      "year": 2018,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
     {
       "name": "C. V. Jawahar",
       "area": "cvpr",
@@ -19,12 +388,66 @@
     },
     {
       "name": "C. V. Jawahar",
+      "area": "eccv",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "C. V. Jawahar",
       "area": "icra",
       "year": 2026,
       "expected_papers": 0,
       "actual_papers": 3,
       "expected_adjusted": 0.0,
       "actual_adjusted": 0.9166666666666665
+    },
+    {
+      "name": "Chandan Kumar 0003",
+      "area": "chiconf",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Chandan Kumar 0003",
+      "area": "chiconf",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Dhananjaya Gowda",
+      "area": "emnlp",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Dipti Misra Sharma",
+      "area": "emnlp",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Harikumar Kandath 0001",
+      "area": "icra",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
     },
     {
       "name": "K. Madhava Krishna",
@@ -36,6 +459,42 @@
       "actual_adjusted": 0.6678571428571429
     },
     {
+      "name": "Karthik Vaidhyanathan",
+      "area": "emnlp",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Kushal Dave 0001",
+      "area": "kdd",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Kushal Dave 0001",
+      "area": "www",
+      "year": 2013,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Kushal Dave 0001",
+      "area": "www",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
       "name": "Makarand Tapaswi",
       "area": "eccv",
       "year": 2026,
@@ -45,8 +504,71 @@
       "actual_adjusted": 0.2
     },
     {
+      "name": "Naman Kumar 0003",
+      "area": "icra",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.1111111111111111
+    },
+    {
+      "name": "Phani-Teja Singamaneni",
+      "area": "icra",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Phani-Teja Singamaneni",
+      "area": "icra",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.34285714285714286
+    },
+    {
+      "name": "Phani-Teja Singamaneni",
+      "area": "iros",
+      "year": 2015,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Phani-Teja Singamaneni",
+      "area": "iros",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Phani-Teja Singamaneni",
+      "area": "iros",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
       "name": "Ponnurangam Kumaraguru",
       "area": "eccv",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Ponnurangam Kumaraguru",
+      "area": "emnlp",
       "year": 2026,
       "expected_papers": 0,
       "actual_papers": 1,
@@ -61,6 +583,15 @@
       "actual_papers": 1,
       "expected_adjusted": 0.0,
       "actual_adjusted": 0.25
+    },
+    {
+      "name": "Rahul Mehta 0008",
+      "area": "sigir",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
     },
     {
       "name": "Ravi Kiran Sarvadevabhatla",
@@ -79,6 +610,258 @@
       "actual_papers": 2,
       "expected_adjusted": 0.0,
       "actual_adjusted": 0.30952380952380953
+    },
+    {
+      "name": "Sanjay Rawat 0001",
+      "area": "ndss",
+      "year": 2017,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Sanjay Rawat 0001",
+      "area": "oakland",
+      "year": 2016,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.1
+    },
+    {
+      "name": "Shashank Gupta 0001",
+      "area": "sigir",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Shashwat Singh 0001",
+      "area": "icml",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Suryansh Kumar 0001",
+      "area": "cvpr",
+      "year": 2018,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Suryansh Kumar 0001",
+      "area": "cvpr",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 1.0
+    },
+    {
+      "name": "Suryansh Kumar 0001",
+      "area": "cvpr",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Suryansh Kumar 0001",
+      "area": "cvpr",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.4
+    },
+    {
+      "name": "Suryansh Kumar 0001",
+      "area": "cvpr",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5333333333333333
+    },
+    {
+      "name": "Suryansh Kumar 0001",
+      "area": "eccv",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.6428571428571428
+    },
+    {
+      "name": "Suryansh Kumar 0001",
+      "area": "iccv",
+      "year": 2017,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Suryansh Kumar 0001",
+      "area": "iclr",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Suryansh Kumar 0001",
+      "area": "icml",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Suryansh Kumar 0001",
+      "area": "icra",
+      "year": 2014,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Suryansh Kumar 0001",
+      "area": "icra",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Suryansh Kumar 0001",
+      "area": "ijcai",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Suryansh Kumar 0001",
+      "area": "rss",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Syed Ashar Javed",
+      "area": "cvpr",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Syed Ashar Javed",
+      "area": "icra",
+      "year": 2018,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Syed Ashar Javed",
+      "area": "ijcai",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Syed Ashar Javed",
+      "area": "nips",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Tarun Gupta 0002",
+      "area": "aaai",
+      "year": 2018,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Tarun Gupta 0002",
+      "area": "aaai",
+      "year": 2019,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Tarun Gupta 0002",
+      "area": "iclr",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Tarun Gupta 0002",
+      "area": "icml",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Tarun Gupta 0002",
+      "area": "iros",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.125
+    },
+    {
+      "name": "Varun Gupta 0007",
+      "area": "cvpr",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Varun Gupta 0007",
+      "area": "icra",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
     },
     {
       "name": "Vineet Gandhi",

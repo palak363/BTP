@@ -5,7 +5,7 @@
     "slug": "south-asian-university",
     "homepage": "https://sau.int",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-10-20T20:16:17.836796+00:00",
+    "generated_at": "2026-11-19T18:01:53.416987+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -146,36 +146,77 @@
     "unresolved_faculty": [],
     "counting": "Unique DBLP keys; faculty credit is 1 / all authors; all reference venues, including optional venues.",
     "validation": {
-      "matching": true,
-      "compared_cells": 1,
+      "matching": false,
+      "compared_cells": 2,
       "missing_cells": 0,
-      "extra_cells": 0
+      "extra_cells": 1
     }
   },
   "faculty": [
     {
       "name": "Amit Banerjee",
-      "dblp_url": "https://dblp.org/pid/67/1836"
+      "dblp_url": "https://dblp.org/pid/67/1836",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Ashraf Uddin 0001",
+      "dblp_url": "https://dblp.org/pid/97/907-1",
+      "affiliation_status": "former"
+    },
+    {
+      "name": "B. Ashwini 0002",
+      "dblp_url": "https://dblp.org/pid/185/7918-2",
+      "affiliation_status": "current"
     },
     {
       "name": "Bijoy Chand Chatterjee",
-      "dblp_url": "https://dblp.org/pid/167/2104"
+      "dblp_url": "https://dblp.org/pid/167/2104",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Kritika 0003",
+      "dblp_url": "https://dblp.org/pid/358/8767",
+      "affiliation_status": "current"
     },
     {
       "name": "Muhammad Abulaish",
-      "dblp_url": "https://dblp.org/pid/42/904"
+      "dblp_url": "https://dblp.org/pid/42/904",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Pranab K. Muhuri",
-      "dblp_url": "https://dblp.org/pid/82/6881"
+      "dblp_url": "https://dblp.org/pid/82/6881",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "R. K. Mohanty 0003",
+      "dblp_url": "https://dblp.org/pid/272/9637",
+      "affiliation_status": "current"
     },
     {
       "name": "Reshma Rastogi",
-      "dblp_url": "https://dblp.org/pid/21/460"
+      "dblp_url": "https://dblp.org/pid/21/460",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Sandeep Kumar 0010",
+      "dblp_url": "https://dblp.org/pid/06/5441-10",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Sanjay Kumar 0005",
+      "dblp_url": "https://dblp.org/pid/65/4930-5",
+      "affiliation_status": "former"
     },
     {
       "name": "Shachi Sharma",
-      "dblp_url": "https://dblp.org/pid/80/930"
+      "dblp_url": "https://dblp.org/pid/80/930",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Vivek Kumar Singh 0001",
+      "dblp_url": "https://dblp.org/pid/00/6451-1",
+      "affiliation_status": "former"
     }
   ],
   "publications": [
@@ -642,6 +683,42 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "conf/acii/AshwiniSJS25",
+      "type": "inproceedings",
+      "title": "Towards Context-Aware Multimodal AI for Assessment of Autism in Children.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "ACII",
+      "booktitle": "ACII",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-10",
+      "authors": [
+        "https://dblp.org/pid/117/9926",
+        "https://dblp.org/pid/185/7918-2",
+        "https://dblp.org/pid/449/8407",
+        "https://dblp.org/pid/449/8999"
+      ],
+      "dois": [
+        "10.1109/acii67994.2025.11771748"
+      ],
+      "url": "https://dblp.org/db/conf/acii/acii2025#conf/acii/AshwiniSJS25",
+      "faculty": [
+        "B. Ashwini 0002"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ACII",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
         }
       ]
     },
@@ -1307,6 +1384,43 @@
       ]
     },
     {
+      "key": "conf/cec/ChowduryNRSM26",
+      "type": "inproceedings",
+      "title": "TC-MFEA: Task Clone-Based Multifactorial Evolutionary Algorithm for Constrained Reliability Redundancy Allocation Problem.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "CEC",
+      "booktitle": "CEC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/136/7745",
+        "https://dblp.org/pid/136/7815",
+        "https://dblp.org/pid/190/2539",
+        "https://dblp.org/pid/310/3744",
+        "https://dblp.org/pid/82/6881"
+      ],
+      "dois": [
+        "10.1109/cec69861.2026.11727190"
+      ],
+      "url": "https://dblp.org/db/conf/cec/cec2026#conf/cec/ChowduryNRSM26",
+      "faculty": [
+        "Pranab K. Muhuri"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "CEC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
       "key": "conf/cec/NathAML17",
       "type": "inproceedings",
       "title": "BLEAQ based solution for bilevel reliability-allocation problem.",
@@ -1449,6 +1563,57 @@
       ]
     },
     {
+      "key": "conf/chi/AshwiniGSAS24",
+      "type": "inproceedings",
+      "title": "\"It looks useful, works just fine, but will it replace me ?\" Understanding Special Educators' Perception of Social Robots for Autism Care in India.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "CHI",
+      "booktitle": "CHI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "401:1-401:23",
+      "authors": [
+        "https://dblp.org/pid/117/9926",
+        "https://dblp.org/pid/176/4250",
+        "https://dblp.org/pid/185/7918-2",
+        "https://dblp.org/pid/374/9359",
+        "https://dblp.org/pid/73/7535"
+      ],
+      "dois": [
+        "10.1145/3613904.3642836"
+      ],
+      "url": "https://dblp.org/db/conf/chi/chi2024#conf/chi/AshwiniGSAS24",
+      "faculty": [
+        "B. Ashwini 0002"
+      ],
+      "memberships": [
+        {
+          "venue": "CHI",
+          "year": 2024,
+          "area": "chiconf",
+          "domain": "Human-computer interaction",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a-star",
+          "venue": "CHI",
+          "area": "chiconf",
+          "domain": "Human-computer interaction",
+          "year": 2024
+        },
+        {
+          "source": "acm",
+          "venue": "CHI",
+          "area": "chiconf",
+          "domain": "Human-computer interaction",
+          "year": 2024
+        }
+      ]
+    },
+    {
       "key": "conf/ciot/SufyanCB22",
       "type": "inproceedings",
       "title": "Energy and Delay Aware Computation Offloading Scheme in MCC Environment.",
@@ -1480,6 +1645,41 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/cisim/SinghMA10",
+      "type": "inproceedings",
+      "title": "Mining the Blogosphere from a socio-political perspective.",
+      "year": 2010,
+      "publication_year": 2010,
+      "event_year": 2010,
+      "venue": "CISIM",
+      "booktitle": "CISIM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "365-370",
+      "authors": [
+        "https://dblp.org/pid/00/6451-1",
+        "https://dblp.org/pid/124/7097",
+        "https://dblp.org/pid/167/0042"
+      ],
+      "dois": [
+        "10.1109/cisim.2010.5643634"
+      ],
+      "url": "https://dblp.org/db/conf/cisim/cisim2010#conf/cisim/SinghMA10",
+      "faculty": [
+        "Vivek Kumar Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "CISIM",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2010
         }
       ]
     },
@@ -2587,7 +2787,8 @@
       ],
       "url": "https://dblp.org/db/conf/fuzzIEEE/fuzzIEEE2016#conf/fuzzIEEE/KumarSML16",
       "faculty": [
-        "Pranab K. Muhuri"
+        "Pranab K. Muhuri",
+        "Sandeep Kumar 0010"
       ],
       "memberships": [
         {
@@ -2623,7 +2824,8 @@
       ],
       "url": "https://dblp.org/db/conf/fuzzIEEE/fuzzIEEE2019#conf/fuzzIEEE/KumarSML19",
       "faculty": [
-        "Pranab K. Muhuri"
+        "Pranab K. Muhuri",
+        "Sandeep Kumar 0010"
       ],
       "memberships": [
         {
@@ -3469,6 +3671,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "GECCO",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2008
+        },
+        {
           "source": "acm",
           "venue": "GECCO",
           "area": "publisher-other",
@@ -3833,6 +4042,147 @@
       ]
     },
     {
+      "key": "conf/ic3/KhuranaRS13",
+      "type": "inproceedings",
+      "title": "A text analytics-based approach to compute coverage, readability and comprehensibility of eBooks.",
+      "year": 2013,
+      "publication_year": 2013,
+      "event_year": 2013,
+      "venue": "IC3",
+      "booktitle": "IC3",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "256-261",
+      "authors": [
+        "https://dblp.org/pid/00/6451-1",
+        "https://dblp.org/pid/138/0213",
+        "https://dblp.org/pid/52/4217"
+      ],
+      "dois": [
+        "10.1109/ic3.2013.6612200"
+      ],
+      "url": "https://dblp.org/db/conf/ic3/ic3-2013#conf/ic3/KhuranaRS13",
+      "faculty": [
+        "Vivek Kumar Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IC3",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2013
+        }
+      ]
+    },
+    {
+      "key": "conf/ic3/SinghalBU015",
+      "type": "inproceedings",
+      "title": "A Scientometric analysis of computer science research in India.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "IC3",
+      "booktitle": "IC3",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "177-182",
+      "authors": [
+        "https://dblp.org/pid/00/6451-1",
+        "https://dblp.org/pid/168/4187",
+        "https://dblp.org/pid/17/10072",
+        "https://dblp.org/pid/97/907-1"
+      ],
+      "dois": [
+        "10.1109/ic3.2015.7346675"
+      ],
+      "url": "https://dblp.org/db/conf/ic3/ic3-2015#conf/ic3/SinghalBU015",
+      "faculty": [
+        "Ashraf Uddin 0001",
+        "Vivek Kumar Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IC3",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/ic3/ThakurS14",
+      "type": "inproceedings",
+      "title": "A lexicon pool augmented Naive Bayes Classifier for Nepali Text.",
+      "year": 2014,
+      "publication_year": 2014,
+      "event_year": 2014,
+      "venue": "IC3",
+      "booktitle": "IC3",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "542-546",
+      "authors": [
+        "https://dblp.org/pid/00/6451-1",
+        "https://dblp.org/pid/235/7109"
+      ],
+      "dois": [
+        "10.1109/ic3.2014.6897231"
+      ],
+      "url": "https://dblp.org/db/conf/ic3/ic3-2014#conf/ic3/ThakurS14",
+      "faculty": [
+        "Vivek Kumar Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IC3",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "conf/icacci/WailaSS13",
+      "type": "inproceedings",
+      "title": "Blog text analysis using topic modeling, named entity recognition and sentiment classifier combine.",
+      "year": 2013,
+      "publication_year": 2013,
+      "event_year": 2013,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1166-1171",
+      "authors": [
+        "https://dblp.org/pid/00/6451-1",
+        "https://dblp.org/pid/138/1377",
+        "https://dblp.org/pid/66/7481"
+      ],
+      "dois": [
+        "10.1109/icacci.2013.6637342"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2013#conf/icacci/WailaSS13",
+      "faculty": [
+        "Vivek Kumar Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2013
+        }
+      ]
+    },
+    {
       "key": "conf/icapr/KhemchandaniGC15",
       "type": "inproceedings",
       "title": "Twin Support Vector Machine based Regression.",
@@ -3864,6 +4214,41 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/icassp/AshwiniNS23",
+      "type": "inproceedings",
+      "title": "SPASHT: Semantic and Pragmatic Speech Features for Automatic Assessment of Autism.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "ICASSP",
+      "booktitle": "ICASSP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/117/9926",
+        "https://dblp.org/pid/185/7918-2",
+        "https://dblp.org/pid/300/7529"
+      ],
+      "dois": [
+        "10.1109/icassp49357.2023.10095135"
+      ],
+      "url": "https://dblp.org/db/conf/icassp/icassp2023#conf/icassp/AshwiniNS23",
+      "faculty": [
+        "B. Ashwini 0002"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICASSP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
         }
       ]
     },
@@ -4044,6 +4429,40 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/icca2/BiswasU24",
+      "type": "inproceedings",
+      "title": "Enhancing Research Collaboration: A Text-Based Framework Using NLP for Optimal Partner Selection.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "ICCA",
+      "booktitle": "ICCA",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "39-46",
+      "authors": [
+        "https://dblp.org/pid/302/2228",
+        "https://dblp.org/pid/97/907-1"
+      ],
+      "dois": [
+        "10.1145/3723178.3723184"
+      ],
+      "url": "https://dblp.org/db/conf/icca2/icca2024#conf/icca2/BiswasU24",
+      "faculty": [
+        "Ashraf Uddin 0001"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICCA",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
         }
       ]
     },
@@ -5611,6 +6030,74 @@
       ]
     },
     {
+      "key": "conf/ijcnn/BalasubramanianM26",
+      "type": "inproceedings",
+      "title": "GTCD: Gravity-Tension based Overlapping Community Detection.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "IJCNN",
+      "booktitle": "IJCNN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/443/9422",
+        "https://dblp.org/pid/82/6881"
+      ],
+      "dois": [
+        "10.1109/ijcnn69854.2026.11728869"
+      ],
+      "url": "https://dblp.org/db/conf/ijcnn/ijcnn2026#conf/ijcnn/BalasubramanianM26",
+      "faculty": [
+        "Pranab K. Muhuri"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IJCNN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "conf/ijcnn/BalasubramanianM26a",
+      "type": "inproceedings",
+      "title": "GravSpec: Spectral-Gravitational flow on Density Manifolds for Deterministic Overlapping Community Detection.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "IJCNN",
+      "booktitle": "IJCNN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/443/9422",
+        "https://dblp.org/pid/82/6881"
+      ],
+      "dois": [
+        "10.1109/ijcnn69854.2026.11728461"
+      ],
+      "url": "https://dblp.org/db/conf/ijcnn/ijcnn2026#conf/ijcnn/BalasubramanianM26a",
+      "faculty": [
+        "Pranab K. Muhuri"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IJCNN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
       "key": "conf/ijcnn/JayadevaKC06",
       "type": "inproceedings",
       "title": "Regularized Least Squares Fuzzy Support Vector Regression for Time Series Forecasting.",
@@ -5703,7 +6190,8 @@
       ],
       "url": "https://dblp.org/db/conf/ijcnn/ijcnn2020#conf/ijcnn/KumarSM20",
       "faculty": [
-        "Pranab K. Muhuri"
+        "Pranab K. Muhuri",
+        "Sandeep Kumar 0010"
       ],
       "memberships": [
         {
@@ -5774,7 +6262,8 @@
       ],
       "url": "https://dblp.org/db/conf/ijcnn/ijcnn2018#conf/ijcnn/ShuklaKJML18",
       "faculty": [
-        "Pranab K. Muhuri"
+        "Pranab K. Muhuri",
+        "Sandeep Kumar 0010"
       ],
       "memberships": [
         {
@@ -5967,6 +6456,13 @@
         "Amit Banerjee"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "IPDPS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2004
+        },
         {
           "source": "ieee",
           "venue": "IPDPS",
@@ -6327,6 +6823,40 @@
       ]
     },
     {
+      "key": "conf/iwci/KhuranaM16",
+      "type": "inproceedings",
+      "title": "A new spline in compression technique of order four in space and order two in time for the solution of 1D wave equation in polar coordinates.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "IWCI",
+      "booktitle": "IWCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "256-258",
+      "authors": [
+        "https://dblp.org/pid/272/9637",
+        "https://dblp.org/pid/272/9752"
+      ],
+      "dois": [
+        "10.1109/iwci.2016.7860376"
+      ],
+      "url": "https://dblp.org/db/conf/iwci/iwci2016#conf/iwci/KhuranaM16",
+      "faculty": [
+        "R. K. Mohanty 0003"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IWCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
       "key": "conf/iwcmc/RafiqueA12",
       "type": "inproceedings",
       "title": "Graph-based learning model for detection of SMS spam on smart phones.",
@@ -6648,6 +7178,114 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/ro-man/AshwiniNBS21",
+      "type": "inproceedings",
+      "title": "Responsiveness towards robot-assisted interactions among pre-primary children of Indian ethnicity.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "RO-MAN",
+      "booktitle": "RO-MAN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "619-625",
+      "authors": [
+        "https://dblp.org/pid/117/9926",
+        "https://dblp.org/pid/185/7918-2",
+        "https://dblp.org/pid/300/7191",
+        "https://dblp.org/pid/300/7529"
+      ],
+      "dois": [
+        "10.1109/ro-man50785.2021.9515520"
+      ],
+      "url": "https://dblp.org/db/conf/ro-man/ro-man2021#conf/ro-man/AshwiniNBS21",
+      "faculty": [
+        "B. Ashwini 0002"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "RO-MAN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/saci/SinghG09",
+      "type": "inproceedings",
+      "title": "From artificial to collective intelligence: Perspectives and implications.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "SACI",
+      "booktitle": "SACI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "545-550",
+      "authors": [
+        "https://dblp.org/pid/00/6451-1",
+        "https://dblp.org/pid/89/4700"
+      ],
+      "dois": [
+        "10.1109/saci.2009.5136308"
+      ],
+      "url": "https://dblp.org/db/conf/saci/saci2009#conf/saci/SinghG09",
+      "faculty": [
+        "Vivek Kumar Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "SACI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/saci/SinghWSPU13",
+      "type": "inproceedings",
+      "title": "Computational analysis of thematic blog data for sociological inference mining.",
+      "year": 2013,
+      "publication_year": 2013,
+      "event_year": 2013,
+      "venue": "SACI",
+      "booktitle": "SACI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "293-298",
+      "authors": [
+        "https://dblp.org/pid/00/6451-1",
+        "https://dblp.org/pid/138/1377",
+        "https://dblp.org/pid/138/3081",
+        "https://dblp.org/pid/143/1617",
+        "https://dblp.org/pid/97/907-1"
+      ],
+      "dois": [
+        "10.1109/saci.2013.6608985"
+      ],
+      "url": "https://dblp.org/db/conf/saci/saci2013#conf/saci/SinghWSPU13",
+      "faculty": [
+        "Ashraf Uddin 0001",
+        "Vivek Kumar Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "SACI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2013
         }
       ]
     },
@@ -7090,7 +7728,8 @@
       ],
       "url": "https://dblp.org/db/conf/ssci/ssci2018#conf/ssci/ShuklaKMM18",
       "faculty": [
-        "Pranab K. Muhuri"
+        "Pranab K. Muhuri",
+        "Sandeep Kumar 0010"
       ],
       "memberships": [
         {
@@ -7170,6 +7809,41 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2012
+        }
+      ]
+    },
+    {
+      "key": "conf/uksim/SinghSP13",
+      "type": "inproceedings",
+      "title": "Emergence, Self-Organization and Collective Intelligence - Modeling the Dynamics of Complex Collectives in Social and Organizational Settings.",
+      "year": 2013,
+      "publication_year": 2013,
+      "event_year": 2013,
+      "venue": "UKSim",
+      "booktitle": "UKSim",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "182-189",
+      "authors": [
+        "https://dblp.org/pid/00/6451-1",
+        "https://dblp.org/pid/117/4744",
+        "https://dblp.org/pid/130/8584"
+      ],
+      "dois": [
+        "10.1109/uksim.2013.77"
+      ],
+      "url": "https://dblp.org/db/conf/uksim/uksim2013#conf/uksim/SinghSP13",
+      "faculty": [
+        "Vivek Kumar Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "UKSim",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2013
         }
       ]
     },
@@ -7724,6 +8398,41 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/websci/MahataT015",
+      "type": "inproceedings",
+      "title": "From Chirps to Whistles: Discovering Event-specific Informative Content from Twitter.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "WebSci",
+      "booktitle": "WebSci",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "17:1-17:10",
+      "authors": [
+        "https://dblp.org/pid/00/6451-1",
+        "https://dblp.org/pid/124/7097",
+        "https://dblp.org/pid/61/5980"
+      ],
+      "dois": [
+        "10.1145/2786451.2786476"
+      ],
+      "url": "https://dblp.org/db/conf/websci/websci2015#conf/websci/MahataT015",
+      "faculty": [
+        "Vivek Kumar Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "WebSci",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
         }
       ]
     },

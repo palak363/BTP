@@ -1,8 +1,11 @@
 // Counting over one institute dataset; shared by the UI fallback and tests.
 export function localProfessor(snapshot, name) {
-  if (!snapshot.faculty.some(faculty => faculty.name === name)) return null;
+  const member = snapshot.faculty.find(faculty => faculty.name === name);
+  if (!member) return null;
   return {
-    name, institution: snapshot.metadata.institution, slug: snapshot.metadata.slug, generated_at: snapshot.metadata.generated_at,
+    name, institution: snapshot.metadata.institution, slug: snapshot.metadata.slug,
+    affiliation_status: member.affiliation_status || "unknown",
+    generated_at: snapshot.metadata.generated_at,
     records_available: snapshot.metadata.data_source !== "csrankings-published-counts",
     publications: [...new Map((snapshot.publications || []).filter(paper => paper.faculty.includes(name))
       .map(paper => [paper.key, paper])).values()],
@@ -13,7 +16,9 @@ export function localSummary(snapshot, start, end, area, includeOptional = false
   const availableSources = snapshot.metadata.available_sources;
   const selectedAreas = Array.isArray(area) ? area : area ? [area] : null;
   if (sources.some(source => !availableSources.includes(source))) return null;
-  const rows = new Map(snapshot.faculty.map(f => [f.name, { ...f, papers: 0, domains: {} }]));
+  const activeFaculty = snapshot.faculty.filter(f => f.affiliation_status !== "former");
+  const activeNames = new Set(activeFaculty.map(f => f.name));
+  const rows = new Map(activeFaculty.map(f => [f.name, { ...f, papers: 0, domains: {} }]));
   const domains = {}, venues = {};
   const published = snapshot.metadata.data_source === "csrankings-published-counts";
   let unique = 0;
@@ -31,6 +36,7 @@ export function localSummary(snapshot, start, end, area, includeOptional = false
       if (!includeOptional && snapshot.metadata.optional_venues.includes(cell.area)) continue;
       const domain = snapshot.metadata.area_names[cell.area] || cell.area;
       if (cell.year < start || cell.year > end || (selectedAreas && !selectedAreas.includes(domain))) continue;
+      if (!activeNames.has(cell.name)) continue;
       addFaculty(cell.name, domain, cell.count);
       addDistribution(domain, cell.area, cell.count);
     }
@@ -41,7 +47,10 @@ export function localSummary(snapshot, start, end, area, includeOptional = false
       if (!membership) continue;
       unique += 1;
       addDistribution(membership.domain, membership.venue, 1);
-      for (const name of paper.faculty) addFaculty(name, membership.domain, 1);
+      if (!paper.faculty.some(name => activeNames.has(name))) continue;
+      for (const name of paper.faculty) {
+        if (activeNames.has(name)) addFaculty(name, membership.domain, 1);
+      }
     }
   }
   const faculty = [...rows.values()].map(row => ({ ...row, top_domain: Object.entries(row.domains).sort((a,b) => b[1]-a[1])[0]?.[0] || "No selected papers" }));

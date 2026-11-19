@@ -4,17 +4,18 @@ import fs from 'node:fs';
 import { filterPapers, isVisiblePaper, sortPapers, venueDistribution, venueName } from '../src/publications.js';
 
 const dataset = JSON.parse(fs.readFileSync(new URL('../backend/data/processed/institutes/iiit-delhi.json', import.meta.url)));
-test('only ACM and IEEE Transactions journal articles are visible', () => {
+test('ranked papers and ACM or IEEE Transactions journal articles are visible', () => {
   const records = [
     { key: 'conference', type: 'inproceedings', venue: 'ACM Conference', dois: ['10.1145/1'], memberships: [] },
     { key: 'acm-transaction', type: 'article', venue: 'ACM Trans. Graph.', dois: ['10.1145/2'], memberships: [] },
     { key: 'ieee-transaction', type: 'article', venue: 'IEEE Trans. Vis. Comput. Graph.', dois: ['10.1109/3'], memberships: [] },
     { key: 'acm-proceedings', type: 'article', venue: 'Proc. ACM Program. Lang.', dois: ['10.1145/4'], memberships: [] },
+    { key: 'ranked-acm-proceedings', type: 'article', venue: 'Proc. ACM Program. Lang.', dois: ['10.1145/7'], memberships: [{ source: 'csrankings' }] },
     { key: 'ieee-journal', type: 'article', venue: 'IEEE Access', dois: ['10.1109/5'], memberships: [] },
     { key: 'other-journal', type: 'article', venue: 'J. Mach. Learn. Res.', dois: ['10.5555/6'], memberships: [] },
   ];
-  assert.deepEqual(records.filter(isVisiblePaper).map(record => record.key), ['conference', 'acm-transaction', 'ieee-transaction', 'other-journal']);
-  assert.deepEqual(filterPapers(records).map(record => record.key), ['conference', 'acm-transaction', 'ieee-transaction', 'other-journal']);
+  assert.deepEqual(records.filter(isVisiblePaper).map(record => record.key), ['conference', 'acm-transaction', 'ieee-transaction', 'ranked-acm-proceedings', 'other-journal']);
+  assert.deepEqual(filterPapers(records).map(record => record.key), ['conference', 'acm-transaction', 'ieee-transaction', 'ranked-acm-proceedings', 'other-journal']);
 });
 test('multiple venues and overlapping year periods combine without duplicate papers', () => {
   const papers = [

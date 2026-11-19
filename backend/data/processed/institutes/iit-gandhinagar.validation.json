@@ -1,12 +1,12 @@
 {
   "institution": "IIT Gandhinagar",
   "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
-  "compared_cells": 80,
+  "compared_cells": 89,
   "expected_papers": 85,
-  "actual_papers": 88,
+  "actual_papers": 97,
   "matching": false,
   "missing_cells": 0,
-  "extra_cells": 2,
+  "extra_cells": 11,
   "differences": [
     {
       "name": "Anirban Dasgupta 0001",
@@ -18,6 +18,42 @@
       "actual_adjusted": 0.34285714285714286
     },
     {
+      "name": "Ashish Tiwari 0005",
+      "area": "cvpr",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Ashish Tiwari 0005",
+      "area": "eccv",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Ashish Tiwari 0005",
+      "area": "eccv",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Ashish Tiwari 0005",
+      "area": "eurographics",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
       "name": "Nipun Batra 0001",
       "area": "kdd",
       "year": 2026,
@@ -25,6 +61,51 @@
       "actual_papers": 1,
       "expected_adjusted": 0.0,
       "actual_adjusted": 0.2
+    },
+    {
+      "name": "Sachin Yadav 0002",
+      "area": "kdd",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.1111111111111111
+    },
+    {
+      "name": "Sachin Yadav 0002",
+      "area": "kdd",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.1111111111111111
+    },
+    {
+      "name": "Sachin Yadav 0002",
+      "area": "kdd",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.1111111111111111
+    },
+    {
+      "name": "Shruti Singh 0001",
+      "area": "emnlp",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Shruti Singh 0001",
+      "area": "emnlp",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.07142857142857142
     }
   ],
   "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten. Missing cells: the reference counts papers this build does not. Extra cells: this build counts papers the reference does not."

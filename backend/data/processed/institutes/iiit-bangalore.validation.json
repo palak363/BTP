@@ -1,12 +1,256 @@
 {
   "institution": "IIIT Bangalore",
   "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
-  "compared_cells": 16,
+  "compared_cells": 43,
   "expected_papers": 16,
-  "actual_papers": 16,
-  "matching": true,
+  "actual_papers": 45,
+  "matching": false,
   "missing_cells": 0,
-  "extra_cells": 0,
-  "differences": [],
+  "extra_cells": 27,
+  "differences": [
+    {
+      "name": "Aditya Hegde 0003",
+      "area": "ccs",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.16666666666666666
+    },
+    {
+      "name": "Aditya Hegde 0003",
+      "area": "crypto",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Aditya Hegde 0003",
+      "area": "crypto",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Aditya Hegde 0003",
+      "area": "eurocrypt",
+      "year": 2022,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Aditya Hegde 0003",
+      "area": "eurocrypt",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 3,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.7833333333333333
+    },
+    {
+      "name": "Aditya Hegde 0003",
+      "area": "eurocrypt",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Aditya Hegde 0003",
+      "area": "ijcai",
+      "year": 2020,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Aditya Hegde 0003",
+      "area": "pets",
+      "year": 2021,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "hpca",
+      "year": 2002,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.1111111111111111
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "hpca",
+      "year": 2006,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.07692307692307693
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "ics",
+      "year": 2000,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "ics",
+      "year": 2001,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "ics",
+      "year": 2005,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.047619047619047616
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "kdd",
+      "year": 2003,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.125
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "oopsla",
+      "year": 1999,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "oopsla",
+      "year": 2000,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "oopsla",
+      "year": 2002,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "pldi",
+      "year": 1996,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "popl",
+      "year": 1996,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "popl",
+      "year": 2002,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "sc",
+      "year": 1995,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.125
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "sc",
+      "year": 1999,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "sc",
+      "year": 2002,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.008695652173913044
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "sc",
+      "year": 2004,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.125
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "sc",
+      "year": 2006,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.05555555555555555
+    },
+    {
+      "name": "Manish Gupta 0002",
+      "area": "sigmetrics",
+      "year": 2001,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
+    {
+      "name": "Srinivas Vivek 0001",
+      "area": "ccs",
+      "year": 2015,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    }
+  ],
   "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten. Missing cells: the reference counts papers this build does not. Extra cells: this build counts papers the reference does not."
 }

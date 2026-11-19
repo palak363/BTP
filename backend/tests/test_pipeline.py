@@ -171,6 +171,14 @@ class CountingTests(unittest.TestCase):
         self.assertEqual(result['top_areas'][0]['papers'], 1)
         self.assertEqual(result['faculty_rankings'][-1]['papers'], 0)
 
+    def test_former_affiliations_are_excluded_from_institute_summary(self):
+        value = dataset()
+        value['faculty'][1]['affiliation_status'] = 'former'
+        result = summarize(value, 2023, 2023)
+        self.assertEqual(result['total_faculty'], 2)
+        self.assertEqual(result['faculty_paper_count'], 1)
+        self.assertEqual({row['name'] for row in result['faculty_rankings']}, {'Alice', 'Zero'})
+
     def test_year_area_filters_and_empty_results(self):
         self.assertEqual(summarize(dataset(), 2024, 2024)['total_papers'], 0)
         self.assertEqual(summarize(dataset(), 2023, 2023, areas=['Databases'])['total_papers'], 0)

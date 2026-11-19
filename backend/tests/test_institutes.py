@@ -8,7 +8,7 @@ from urllib.parse import quote
 BASE = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BASE / 'scripts'))
 sys.path.insert(0, str(BASE))
-from institutes import choose, hints, merge_duplicates, slug
+from institutes import affiliation_institutes, choose, hints, merge_duplicates, slug
 from build_institutes import INDEX, INSTITUTES
 from api.app import app
 
@@ -41,12 +41,17 @@ class ResolutionTests(unittest.TestCase):
         self.assertNotIn('indian institute of technology delhi', hints('IIT Bombay'))
         self.assertEqual(slug('IIT (BHU) Varanasi'), 'iit-bhu-varanasi')
 
+    def test_imsc_hint_does_not_match_courant_institute(self):
+        institutes = {'IMSc': 'https://www.imsc.res.in'}
+        self.assertEqual(affiliation_institutes(
+            {'New York University, Courant Institute of Mathematical Sciences, USA'}, institutes), [])
+
     def test_duplicate_reference_names_merge_into_dblp_name(self):
         rows = [{'institution': 'IISc Bangalore', 'name': 'Y. Narahari', 'dblp_url': 'p', 'resolution': 'single match'},
                 {'institution': 'IISc Bangalore', 'name': 'Y. Narahari 0001', 'dblp_url': 'p', 'resolution': 'exact name'}]
         self.assertEqual(merge_duplicates(rows), [dict(rows[1], aliases='Y. Narahari')])
-        with self.assertRaises(ValueError):
-            merge_duplicates([rows[0], dict(rows[1], institution='IIT Delhi')])
+        cross_institute = merge_duplicates([rows[0], dict(rows[1], institution='IIT Delhi')])
+        self.assertEqual(len(cross_institute), 2)
 
 
 @unittest.skipUnless(INDEX.exists(), 'Build institutes first')
@@ -68,9 +73,9 @@ class InstituteApiTests(unittest.TestCase):
                     self.assertEqual(sum(f['papers'] > 0 for f in payload['faculty_rankings']), totals['faculty'])
 
     def test_every_faculty_member_belongs_to_one_institute(self):
-        names = [f['name'] for f in self.index['faculty']]
-        self.assertEqual(len(names), len(set(names)))
-        self.assertEqual(len(names), sum(e['faculty'] for e in self.index['institutes']))
+        members = [(f['name'], f['slug']) for f in self.index['faculty']]
+        self.assertEqual(len(members), len(set(members)))
+        self.assertEqual(len(members), sum(e['faculty'] for e in self.index['institutes']))
         for entry in self.index['institutes']:
             dataset = json.loads((INSTITUTES / f"{entry['slug']}.json").read_text(encoding='utf-8'))
             self.assertEqual({f['name'] for f in dataset['faculty']},

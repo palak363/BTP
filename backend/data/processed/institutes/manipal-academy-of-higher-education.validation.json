@@ -1,12 +1,58 @@
 {
   "institution": "Manipal Academy of Higher Education",
   "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
-  "compared_cells": 4,
+  "compared_cells": 9,
   "expected_papers": 4,
-  "actual_papers": 4,
-  "matching": true,
+  "actual_papers": 10,
+  "matching": false,
   "missing_cells": 0,
-  "extra_cells": 0,
-  "differences": [],
+  "extra_cells": 5,
+  "differences": [
+    {
+      "name": "Gaurav Srivastava 0012",
+      "area": "aaai",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Gaurav Srivastava 0012",
+      "area": "acl",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.2
+    },
+    {
+      "name": "Gaurav Srivastava 0012",
+      "area": "cvpr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.0625
+    },
+    {
+      "name": "Gaurav Srivastava 0012",
+      "area": "emnlp",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 2,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5833333333333333
+    },
+    {
+      "name": "Gaurav Srivastava 0012",
+      "area": "iclr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.125
+    }
+  ],
   "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten. Missing cells: the reference counts papers this build does not. Extra cells: this build counts papers the reference does not."
 }

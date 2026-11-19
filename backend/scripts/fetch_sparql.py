@@ -5,6 +5,7 @@ from pathlib import Path
 import re
 import time
 from urllib.parse import urlsplit
+import warnings
 import requests
 
 from publisher_venues import dois_from_links
@@ -41,8 +42,11 @@ def parse_results(payload, pid_url, expected_name):
         authors = sorted(values.get(SCHEMA + 'authoredBy', set()))
         if not authors or pid_url not in authors:
             raise ValueError(f'Missing author identities: {uri}')
-        if int(value('numberOfCreators', str(len(authors)))) != len(authors):
-            raise ValueError(f'Creator count mismatch: {uri}')
+        creator_count = int(value('numberOfCreators', str(len(authors))))
+        if creator_count != len(authors):
+            warnings.warn(f'Creator count mismatch for {uri}: metadata says {creator_count}, '
+                          f'authoredBy contains {len(authors)}; using authoredBy identities.',
+                          RuntimeWarning)
         publication_year = value('yearOfPublication')
         event_year = value('yearOfEvent')
         # DBLP's conference year is distinct from the publication year supplied

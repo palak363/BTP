@@ -16,7 +16,10 @@ def is_acm_or_ieee_journal(paper):
 
 
 def is_visible_paper(paper):
-    """Allow ACM/IEEE journal articles only when published in a Transactions series."""
+    """Allow ranked papers and ACM/IEEE journal articles in Transactions series."""
+    if any(item.get('source') in {'csrankings', 'core-a-star', 'core-a'}
+           for item in paper.get('memberships', [])):
+        return True
     if not is_acm_or_ieee_journal(paper):
         return True
     venue = paper.get('journal') or paper.get('venue') or ''

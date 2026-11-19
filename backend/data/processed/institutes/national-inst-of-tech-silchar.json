@@ -5,7 +5,7 @@
     "slug": "national-inst-of-tech-silchar",
     "homepage": "https://cs.nits.ac.in",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-10-20T20:16:08.796605+00:00",
+    "generated_at": "2026-11-19T18:01:45.371328+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -159,76 +159,174 @@
   },
   "faculty": [
     {
+      "name": "Abhishek Kumar Singh 0001",
+      "dblp_url": "https://dblp.org/pid/139/0855-1",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Adnan Ali 0004",
+      "dblp_url": "https://dblp.org/pid/78/8624-4",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Alok Singh 0007",
+      "dblp_url": "https://dblp.org/pid/01/1744-7",
+      "affiliation_status": "former"
+    },
+    {
+      "name": "Amit Kumar Trivedi",
+      "dblp_url": "https://dblp.org/pid/148/8635",
+      "affiliation_status": "current"
+    },
+    {
       "name": "Anish Kumar Saha",
-      "dblp_url": "https://dblp.org/pid/255/1462"
+      "dblp_url": "https://dblp.org/pid/255/1462",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Anish Monsley K.",
+      "dblp_url": "https://dblp.org/pid/312/0144",
+      "affiliation_status": "current"
     },
     {
       "name": "Anupam Biswas",
-      "dblp_url": "https://dblp.org/pid/138/1477"
+      "dblp_url": "https://dblp.org/pid/138/1477",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Arif Ahmed 0001",
+      "dblp_url": "https://dblp.org/pid/154/3197-1",
+      "affiliation_status": "former"
+    },
+    {
+      "name": "Arnab Nandi 0003",
+      "dblp_url": "https://dblp.org/pid/350/4097",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Arnab Roy 0011",
+      "dblp_url": "https://dblp.org/pid/286/9743",
+      "affiliation_status": "current"
     },
     {
       "name": "Badal Soni",
-      "dblp_url": "https://dblp.org/pid/183/9503"
+      "dblp_url": "https://dblp.org/pid/183/9503",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Biswajit Purkayastha",
-      "dblp_url": "https://dblp.org/pid/74/1071"
+      "dblp_url": "https://dblp.org/pid/74/1071",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Biswanath Dey",
-      "dblp_url": "https://dblp.org/pid/16/6388"
+      "dblp_url": "https://dblp.org/pid/16/6388",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Chintha Sri Pothu Raju",
+      "dblp_url": "https://dblp.org/pid/346/3912",
+      "affiliation_status": "current"
     },
     {
       "name": "Dalton Meitei Thounaojam",
-      "dblp_url": "https://dblp.org/pid/148/8535"
+      "dblp_url": "https://dblp.org/pid/148/8535",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Fazal Ahmed Talukdar",
+      "dblp_url": "https://dblp.org/pid/161/2833",
+      "affiliation_status": "current"
     },
     {
       "name": "K. SuganyaDevi",
-      "dblp_url": "https://dblp.org/pid/118/8834"
+      "dblp_url": "https://dblp.org/pid/118/8834",
+      "affiliation_status": "current"
     },
     {
       "name": "Malaya Dutta Borah",
-      "dblp_url": "https://dblp.org/pid/283/7486"
+      "dblp_url": "https://dblp.org/pid/283/7486",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Moumita Roy 0003",
+      "dblp_url": "https://dblp.org/pid/95/9811-3",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Nabanita Das 0007",
+      "dblp_url": "https://dblp.org/pid/434/4155",
+      "affiliation_status": "current"
     },
     {
       "name": "Naresh Babu Muppalaneni",
-      "dblp_url": "https://dblp.org/pid/213/7540"
+      "dblp_url": "https://dblp.org/pid/213/7540",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Neha Kumari 0012",
+      "dblp_url": "https://dblp.org/pid/373/6941",
+      "affiliation_status": "current"
     },
     {
       "name": "Partha Pakray",
-      "dblp_url": "https://dblp.org/pid/27/7928"
+      "dblp_url": "https://dblp.org/pid/27/7928",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Pinki Roy",
-      "dblp_url": "https://dblp.org/pid/176/3348"
+      "dblp_url": "https://dblp.org/pid/176/3348",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Priyanka Singh 0004",
+      "dblp_url": "https://dblp.org/pid/84/9555-4",
+      "affiliation_status": "former"
+    },
+    {
+      "name": "Rajeev Kumar 0002",
+      "dblp_url": "https://dblp.org/pid/75/4223-2",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Ravi Kishore Devarapalli",
+      "dblp_url": "https://dblp.org/pid/336/7725",
+      "affiliation_status": "former"
     },
     {
       "name": "Ripon Patgiri",
-      "dblp_url": "https://dblp.org/pid/174/1784"
+      "dblp_url": "https://dblp.org/pid/174/1784",
+      "affiliation_status": "current"
     },
     {
       "name": "Samir Borgohain",
-      "dblp_url": "https://dblp.org/pid/02/3379"
+      "dblp_url": "https://dblp.org/pid/02/3379",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Saroj K. Biswas 0001",
-      "dblp_url": "https://dblp.org/pid/128/7611"
+      "dblp_url": "https://dblp.org/pid/128/7611",
+      "affiliation_status": "current"
     },
     {
       "name": "Shyamapada Mukherjee",
-      "dblp_url": "https://dblp.org/pid/139/0493"
+      "dblp_url": "https://dblp.org/pid/139/0493",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Shyamosree Pal",
-      "dblp_url": "https://dblp.org/pid/82/8106"
+      "dblp_url": "https://dblp.org/pid/82/8106",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Thoudam Doren Singh",
-      "dblp_url": "https://dblp.org/pid/115/5882"
+      "dblp_url": "https://dblp.org/pid/115/5882",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Ujwala Baruah",
-      "dblp_url": "https://dblp.org/pid/30/4809"
+      "dblp_url": "https://dblp.org/pid/30/4809",
+      "affiliation_status": "unknown"
     }
   ],
   "publications": [
@@ -549,6 +647,40 @@
       ]
     },
     {
+      "key": "conf/cloudcom/AhmedP19",
+      "type": "inproceedings",
+      "title": "Docker Image Sharing in Distributed Fog Infrastructures.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "CloudCom",
+      "booktitle": "CloudCom",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "135-142",
+      "authors": [
+        "https://dblp.org/pid/154/3197-1",
+        "https://dblp.org/pid/63/6649"
+      ],
+      "dois": [
+        "10.1109/cloudcom.2019.00030"
+      ],
+      "url": "https://dblp.org/db/conf/cloudcom/cloudcom2019#conf/cloudcom/AhmedP19",
+      "faculty": [
+        "Arif Ahmed 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "CloudCom",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
       "key": "conf/codit/SM23",
       "type": "inproceedings",
       "title": "Automated Multimodal Brain Tumor Classification Using a YOLOv7 Approach.",
@@ -579,6 +711,41 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/conielecomp/RahmanBT10",
+      "type": "inproceedings",
+      "title": "A novel ROM architecture for reducing bubble and metastability errors in high speed flash ADCs.",
+      "year": 2010,
+      "publication_year": 2010,
+      "event_year": 2010,
+      "venue": "CONIELECOMP",
+      "booktitle": "CONIELECOMP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "15-19",
+      "authors": [
+        "https://dblp.org/pid/158/5910",
+        "https://dblp.org/pid/161/2833",
+        "https://dblp.org/pid/161/2842"
+      ],
+      "dois": [
+        "10.1109/conielecomp.2010.5440805"
+      ],
+      "url": "https://dblp.org/db/conf/conielecomp/conielecomp2010#conf/conielecomp/RahmanBT10",
+      "faculty": [
+        "Fazal Ahmed Talukdar"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "CONIELECOMP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2010
         }
       ]
     },
@@ -686,6 +853,40 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2012
+        }
+      ]
+    },
+    {
+      "key": "conf/edge/AhmedP18",
+      "type": "inproceedings",
+      "title": "Docker Container Deployment in Fog Computing Infrastructures.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "EDGE",
+      "booktitle": "EDGE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-8",
+      "authors": [
+        "https://dblp.org/pid/154/3197-1",
+        "https://dblp.org/pid/63/6649"
+      ],
+      "dois": [
+        "10.1109/edge.2018.00008"
+      ],
+      "url": "https://dblp.org/db/conf/edge/edge2018#conf/edge/AhmedP18",
+      "faculty": [
+        "Arif Ahmed 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "EDGE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
         }
       ]
     },
@@ -1458,7 +1659,8 @@
       ],
       "url": "https://dblp.org/db/conf/icccsp/icccsp2021#conf/icccsp/DevarapalliB21",
       "faculty": [
-        "Anupam Biswas"
+        "Anupam Biswas",
+        "Ravi Kishore Devarapalli"
       ],
       "memberships": [
         {
@@ -1683,6 +1885,43 @@
       ]
     },
     {
+      "key": "conf/iciis/DasNGMB25a",
+      "type": "inproceedings",
+      "title": "A Low Noise Low Power Neural Amplifier with Modified Folded-Cascode OTA to Detect Local Field Potential.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "ICIIS",
+      "booktitle": "ICIIS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "234-242",
+      "authors": [
+        "https://dblp.org/pid/158/5910",
+        "https://dblp.org/pid/193/9284",
+        "https://dblp.org/pid/222/3812",
+        "https://dblp.org/pid/278/1514",
+        "https://dblp.org/pid/434/4155"
+      ],
+      "dois": [
+        "10.1109/iciis69028.2026.11450915"
+      ],
+      "url": "https://dblp.org/db/conf/iciis/iciis2025#conf/iciis/DasNGMB25a",
+      "faculty": [
+        "Nabanita Das 0007"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICIIS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
       "key": "conf/icip/PalB09",
       "type": "inproceedings",
       "title": "Estimation of discrete curvature based on chain-code pairing and digital straightness.",
@@ -1817,6 +2056,42 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/iecon/DasLTN23",
+      "type": "inproceedings",
+      "title": "Design of Deep-UV Nanowire LED with Al2O3 Quantum Dots and Step-Graded n-Type AlInGaN Electron Blocking Layer for High Quantum Efficiency.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "IECON",
+      "booktitle": "IECON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/161/2833",
+        "https://dblp.org/pid/185/5940",
+        "https://dblp.org/pid/216/2922",
+        "https://dblp.org/pid/226/4096"
+      ],
+      "dois": [
+        "10.1109/iecon51785.2023.10312022"
+      ],
+      "url": "https://dblp.org/db/conf/iecon/iecon2023#conf/iecon/DasLTN23",
+      "faculty": [
+        "Fazal Ahmed Talukdar"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IECON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
         }
       ]
     },
@@ -2277,6 +2552,114 @@
       ]
     },
     {
+      "key": "conf/mobilecloud/0001MCP20",
+      "type": "inproceedings",
+      "title": "Docker Container Deployment in Distributed Fog Infrastructures with Checkpoint/Restart.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "MobileCloud",
+      "booktitle": "MobileCloud",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "55-62",
+      "authors": [
+        "https://dblp.org/pid/154/3197-1",
+        "https://dblp.org/pid/213/7530",
+        "https://dblp.org/pid/63/6649",
+        "https://dblp.org/pid/c/GeneCooperman"
+      ],
+      "dois": [
+        "10.1109/mobilecloud48802.2020.00016"
+      ],
+      "url": "https://dblp.org/db/conf/mobilecloud/mobilecloud2020#conf/mobilecloud/0001MCP20",
+      "faculty": [
+        "Arif Ahmed 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "MobileCloud",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/DebCSTL20",
+      "type": "inproceedings",
+      "title": "Frontal Facial Expression Recognition using Parallel CNN Model.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/161/2833",
+        "https://dblp.org/pid/263/3964",
+        "https://dblp.org/pid/263/4208",
+        "https://dblp.org/pid/77/2959",
+        "https://dblp.org/pid/82/6388"
+      ],
+      "dois": [
+        "10.1109/ncc48643.2020.9056011"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2020#conf/ncc/DebCSTL20",
+      "faculty": [
+        "Fazal Ahmed Talukdar"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/KirupakaranYL22",
+      "type": "inproceedings",
+      "title": "Resolving the ambiguity in recognizing case-sensitive characters gesticulated in mid-air through post-decision support modules.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/266/0153",
+        "https://dblp.org/pid/312/0144",
+        "https://dblp.org/pid/77/2959"
+      ],
+      "dois": [
+        "10.1109/ncc55593.2022.9806782"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2022#conf/ncc/KirupakaranYL22",
+      "faculty": [
+        "Anish Monsley K."
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
       "key": "conf/retis/BorahJGD11",
       "type": "inproceedings",
       "title": "Application of knowledge based decision technique to predict student enrollment decision.",
@@ -2407,7 +2790,8 @@
       ],
       "url": "https://dblp.org/db/conf/tencon/tencon2024#conf/tencon/0011PSS24",
       "faculty": [
-        "Anish Kumar Saha"
+        "Anish Kumar Saha",
+        "Arnab Roy 0011"
       ],
       "memberships": [
         {
@@ -2561,6 +2945,43 @@
       ]
     },
     {
+      "key": "conf/tencon/KumarSPDR25",
+      "type": "inproceedings",
+      "title": "Breast Cancer Detection: A Comprehensive Review of Multimodal ML Datasets.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "793-797",
+      "authors": [
+        "https://dblp.org/pid/212/1604",
+        "https://dblp.org/pid/248/6652",
+        "https://dblp.org/pid/248/6702",
+        "https://dblp.org/pid/333/5842",
+        "https://dblp.org/pid/84/9555-4"
+      ],
+      "dois": [
+        "10.1109/tencon66050.2025.11375051"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2025#conf/tencon/KumarSPDR25",
+      "faculty": [
+        "Priyanka Singh 0004"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
       "key": "conf/tencon/PachuauSLS23",
       "type": "inproceedings",
       "title": "Solving Dense Subgraph Problems Using Genetic Algorithm.",
@@ -2593,6 +3014,81 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/tencon/SinghKPDR25",
+      "type": "inproceedings",
+      "title": "Medical Datasets for Machine Learning in Brain Tumor Diagnosis and Segmentation: A Review.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "813-817",
+      "authors": [
+        "https://dblp.org/pid/212/1604",
+        "https://dblp.org/pid/248/6652",
+        "https://dblp.org/pid/248/6702",
+        "https://dblp.org/pid/333/5842",
+        "https://dblp.org/pid/84/9555-4"
+      ],
+      "dois": [
+        "10.1109/tencon66050.2025.11375004"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2025#conf/tencon/SinghKPDR25",
+      "faculty": [
+        "Priyanka Singh 0004"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/tencon/YadavKBALB21",
+      "type": "inproceedings",
+      "title": "Recognition of isolated characters across different input interfaces using 2D DCNN.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "TENCON",
+      "booktitle": "TENCON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "504-509",
+      "authors": [
+        "https://dblp.org/pid/04/4787",
+        "https://dblp.org/pid/266/0153",
+        "https://dblp.org/pid/312/0144",
+        "https://dblp.org/pid/314/1485",
+        "https://dblp.org/pid/314/1921",
+        "https://dblp.org/pid/77/2959"
+      ],
+      "dois": [
+        "10.1109/tencon54134.2021.9707451"
+      ],
+      "url": "https://dblp.org/db/conf/tencon/tencon2021#conf/tencon/YadavKBALB21",
+      "faculty": [
+        "Anish Monsley K."
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "TENCON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
         }
       ]
     },

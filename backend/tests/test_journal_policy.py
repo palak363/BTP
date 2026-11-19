@@ -18,6 +18,12 @@ class JournalPolicyTests(unittest.TestCase):
         self.assertTrue(is_visible_paper({'type': 'inproceedings', 'venue': 'ACM Conference', 'dois': ['10.1145/1']}))
         self.assertTrue(is_visible_paper({'type': 'article', 'venue': 'J. Mach. Learn. Res.', 'dois': ['10.5555/1']}))
 
+    def test_ranked_acm_journal_is_visible(self):
+        paper = {'type': 'article', 'venue': 'Proc. ACM Program. Lang.',
+                 'journal': 'Proc. ACM Program. Lang.', 'dois': ['10.1145/1'],
+                 'memberships': [{'source': 'csrankings'}]}
+        self.assertTrue(is_visible_paper(paper))
+
     def test_every_iiitd_api_bibliography_obeys_the_policy(self):
         base = Path(__file__).resolve().parents[1]
         dataset = json.loads((base / 'data/processed/institutes/iiit-delhi.json').read_text(encoding='utf-8-sig'))

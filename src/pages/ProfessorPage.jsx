@@ -8,7 +8,8 @@ import PublicationFilters from "../components/PublicationFilters";
 
 function Profile({ name }) {
   const { data, loading, local } = useProfessor(name);
-  const institution = data?.institution || facultyMember(name)?.institution;
+  const institutions = data?.institutions || (facultyMember(name) ? [{ name: facultyMember(name).institution, slug: facultyMember(name).slug }] : []);
+  const institution = data?.institution || institutions[0]?.name;
   const back = institution ? <Link className="back-link" to={`/institute/${encodeURIComponent(institution)}`}>← Back to {institution}</Link> : <Link className="back-link" to="/">← All institutes</Link>;
   const [search, setSearch] = useState("");
   const [order, setOrder] = useState("newest");
@@ -18,9 +19,11 @@ function Profile({ name }) {
   const papers = filterPapers(visiblePapers, filters);
   const years = papers.map(paper => Number(paper.year)).filter(Boolean);
   const shown = sortPapers(filterPapers(papers, { search }), order);
+  const affiliationLabel = item => item.affiliation_status === "current" || item.affiliation_status === "former"
+    ? `${item.name} (${item.affiliation_status})` : item.name;
   return <div className="page professor-page">
     {back}
-    <div className="page-heading"><div><p className="eyebrow">FACULTY PUBLICATIONS · {data.institution}</p><h1>{name}</h1><p className="quiet">All loaded years and sources. Institute filters do not limit this bibliography.</p></div></div>
+    <div className="page-heading"><div><p className="eyebrow">FACULTY PUBLICATIONS · {institutions.map(affiliationLabel).join(" · ")}</p><h1>{name}</h1><p className="quiet">All loaded years and sources. Institute filters do not limit this bibliography.</p></div></div>
     <PublicationFilters venues={[...new Set(data.publications.map(venueName))].sort((a, b) => a.localeCompare(b))} filters={filters} onChange={setFilters} />
     <div className="stat-grid"><article className="accent-stat"><span>Selected papers</span><strong>{papers.length}</strong><small>Of {visiblePapers.length} eligible papers</small></article><article><span>Publication venues</span><strong>{venueDistribution(papers).length}</strong></article><article><span>Publication years</span><strong>{years.length ? `${Math.min(...years)}–${Math.max(...years)}` : "—"}</strong></article></div>
     <section className="panel profile-chart"><div className="panel-heading"><h2>Publication venues</h2><span className="quiet">Selected filters · One paper counted once</span></div><VenuePie papers={papers} /></section>

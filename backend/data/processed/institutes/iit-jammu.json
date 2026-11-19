@@ -5,7 +5,7 @@
     "slug": "iit-jammu",
     "homepage": "https://www.iitjammu.ac.in/computer_science_engineering",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-10-20T20:15:32.283453+00:00",
+    "generated_at": "2026-11-19T18:01:06.059083+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -154,60 +154,99 @@
   },
   "faculty": [
     {
+      "name": "Ajay Singh 0001",
+      "dblp_url": "https://dblp.org/pid/91/3010-1",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Akash Kumar 0008",
+      "dblp_url": "https://dblp.org/pid/315/4310",
+      "affiliation_status": "current"
+    },
+    {
       "name": "Aroof Aimen",
-      "dblp_url": "https://dblp.org/pid/276/8815"
+      "dblp_url": "https://dblp.org/pid/276/8815",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Gaurav Kumar 0001",
+      "dblp_url": "https://dblp.org/pid/24/6847-1",
+      "affiliation_status": "current"
     },
     {
       "name": "Gaurav Varshney",
-      "dblp_url": "https://dblp.org/pid/73/4883"
+      "dblp_url": "https://dblp.org/pid/73/4883",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Harkeerat Kaur",
-      "dblp_url": "https://dblp.org/pid/49/5360"
+      "dblp_url": "https://dblp.org/pid/49/5360",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Himanshu Singh 0006",
+      "dblp_url": "https://dblp.org/pid/81/3758-6",
+      "affiliation_status": "current"
     },
     {
       "name": "Manoj Singh Gaur",
-      "dblp_url": "https://dblp.org/pid/80/7311"
+      "dblp_url": "https://dblp.org/pid/80/7311",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Mrinmoy Bhattacharjee",
-      "dblp_url": "https://dblp.org/pid/230/4567"
+      "dblp_url": "https://dblp.org/pid/230/4567",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Nitin Kumar 0007",
+      "dblp_url": "https://dblp.org/pid/35/2565-7",
+      "affiliation_status": "current"
     },
     {
       "name": "Prabhat Munshi",
-      "dblp_url": "https://dblp.org/pid/16/1048"
+      "dblp_url": "https://dblp.org/pid/16/1048",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Samaresh Bera",
-      "dblp_url": "https://dblp.org/pid/71/8917"
+      "dblp_url": "https://dblp.org/pid/71/8917",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Sayantan Mukherjee",
-      "dblp_url": "https://dblp.org/pid/150/8065"
+      "dblp_url": "https://dblp.org/pid/150/8065",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Shaifu Gupta",
-      "dblp_url": "https://dblp.org/pid/213/9336"
+      "dblp_url": "https://dblp.org/pid/213/9336",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Subhasis Bhattacharjee",
-      "dblp_url": "https://dblp.org/pid/95/4618"
+      "dblp_url": "https://dblp.org/pid/95/4618",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Suman Banerjee 0002",
-      "dblp_url": "https://dblp.org/pid/345/5455-2"
+      "dblp_url": "https://dblp.org/pid/345/5455-2",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Sumit K. Pandey",
-      "dblp_url": "https://dblp.org/pid/224/8753"
+      "dblp_url": "https://dblp.org/pid/224/8753",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Vinit Jakhetiya",
-      "dblp_url": "https://dblp.org/pid/27/9850"
+      "dblp_url": "https://dblp.org/pid/27/9850",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Yamuna Prasad",
-      "dblp_url": "https://dblp.org/pid/50/8181"
+      "dblp_url": "https://dblp.org/pid/50/8181",
+      "affiliation_status": "current"
     }
   ],
   "publications": [
@@ -316,6 +355,40 @@
       ]
     },
     {
+      "key": "conf/IEEEants/SharmaS21",
+      "type": "inproceedings",
+      "title": "On the Optimal Threshold and Error Performance at Fusion Center for Diffusion-Based Molecular Communication System.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "ANTS",
+      "booktitle": "ANTS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/181/2824",
+        "https://dblp.org/pid/91/3010-1"
+      ],
+      "dois": [
+        "10.1109/ants52808.2021.9937016"
+      ],
+      "url": "https://dblp.org/db/conf/IEEEants/IEEEants2021#conf/IEEEants/SharmaS21",
+      "faculty": [
+        "Ajay Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ANTS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
       "key": "conf/IEEEants/SinghBB25",
       "type": "inproceedings",
       "title": "MEC-based Smart Surveillance in 5G/6G Networks: Intrusion Detection and Loitering Monitoring.",
@@ -347,6 +420,221 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/IEEEants/ThakurS19",
+      "type": "inproceedings",
+      "title": "Secrecy performance Analysis for Underlay Cognitive Radio Network with Optimal Antenna Selection and Generalized Receiver Selection.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "ANTS",
+      "booktitle": "ANTS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/238/2814",
+        "https://dblp.org/pid/91/3010-1"
+      ],
+      "dois": [
+        "10.1109/ants47819.2019.9118069"
+      ],
+      "url": "https://dblp.org/db/conf/IEEEants/IEEEants2019#conf/IEEEants/ThakurS19",
+      "faculty": [
+        "Ajay Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ANTS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/aaai/AliB0P23",
+      "type": "inproceedings",
+      "title": "Efficient Algorithms for Regret Minimization in Billboard Advertisement (Student Abstract).",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "16148-16149",
+      "authors": [
+        "https://dblp.org/pid/324/5073",
+        "https://dblp.org/pid/345/5455-2",
+        "https://dblp.org/pid/352/9250",
+        "https://dblp.org/pid/50/8181"
+      ],
+      "dois": [
+        "10.1609/aaai.v37i13.26934"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2023#conf/aaai/AliB0P23",
+      "faculty": [
+        "Suman Banerjee 0002",
+        "Yamuna Prasad"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/aaai/PrasadB15",
+      "type": "inproceedings",
+      "title": "Gene Selection in Microarray Datasets Using Progressively Refined PSO Scheme.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "4288-4289",
+      "authors": [
+        "https://dblp.org/pid/50/8181",
+        "https://dblp.org/pid/91/887"
+      ],
+      "dois": [
+        "10.1609/aaai.v29i1.9283"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2015#conf/aaai/PrasadB15",
+      "faculty": [
+        "Yamuna Prasad"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/aaai/SadbhawnaJSSM22",
+      "type": "inproceedings",
+      "title": "Do We Need a New Large-Scale Quality Assessment Database for Generative Inpainting Based 3D View Synthesis? (Student Abstract).",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "13039-13040",
+      "authors": [
+        "https://dblp.org/pid/14/6448",
+        "https://dblp.org/pid/27/9850",
+        "https://dblp.org/pid/282/7142",
+        "https://dblp.org/pid/282/7322",
+        "https://dblp.org/pid/324/1325"
+      ],
+      "dois": [
+        "10.1609/aaai.v36i11.21656"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2022#conf/aaai/SadbhawnaJSSM22",
+      "faculty": [
+        "Vinit Jakhetiya"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/aaai/SinghPSJ22",
+      "type": "inproceedings",
+      "title": "C3D and Localization Model for Locating and Recognizing the Actions from Untrimmed Videos (Student Abstract).",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "13051-13052",
+      "authors": [
+        "https://dblp.org/pid/14/6448",
+        "https://dblp.org/pid/27/9850",
+        "https://dblp.org/pid/324/1269",
+        "https://dblp.org/pid/81/3758-6"
+      ],
+      "dois": [
+        "10.1609/aaai.v36i11.21662"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2022#conf/aaai/SinghPSJ22",
+      "faculty": [
+        "Himanshu Singh 0006",
+        "Vinit Jakhetiya"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/aaai/SumanNSJ23",
+      "type": "inproceedings",
+      "title": "Two-Streams: Dark and Light Networks with Graph Convolution for Action Recognition from Dark Videos (Student Abstract).",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "16340-16341",
+      "authors": [
+        "https://dblp.org/pid/14/6448",
+        "https://dblp.org/pid/27/9850",
+        "https://dblp.org/pid/335/7513",
+        "https://dblp.org/pid/352/8863"
+      ],
+      "dois": [
+        "10.1609/aaai.v37i13.27030"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2023#conf/aaai/SumanNSJ23",
+      "faculty": [
+        "Vinit Jakhetiya"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
         }
       ]
     },
@@ -784,6 +1072,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "AsiaCCS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        },
+        {
           "source": "acm",
           "venue": "AsiaCCS",
           "area": "publisher-other",
@@ -886,6 +1181,7 @@
       ],
       "url": "https://dblp.org/db/conf/ats/ats2022#conf/ats/KumarRPA22",
       "faculty": [
+        "Gaurav Kumar 0001",
         "Yamuna Prasad"
       ],
       "memberships": [
@@ -922,6 +1218,7 @@
       ],
       "url": "https://dblp.org/db/conf/ats/ats2023#conf/ats/KumarRPA23",
       "faculty": [
+        "Gaurav Kumar 0001",
         "Yamuna Prasad"
       ],
       "memberships": [
@@ -959,6 +1256,7 @@
       ],
       "url": "https://dblp.org/db/conf/avss/avss2025#conf/avss/SinghDSJV25",
       "faculty": [
+        "Himanshu Singh 0006",
         "Vinit Jakhetiya"
       ],
       "memberships": [
@@ -1288,6 +1586,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "AsiaCCS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2017
+        },
+        {
           "source": "acm",
           "venue": "AsiaCCS",
           "area": "publisher-other",
@@ -1325,6 +1630,13 @@
         "Manoj Singh Gaur"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "AsiaCCS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2017
+        },
         {
           "source": "acm",
           "venue": "AsiaCCS",
@@ -2164,6 +2476,40 @@
       ]
     },
     {
+      "key": "conf/eecs/SharmaS18",
+      "type": "inproceedings",
+      "title": "On the Optimal Threshold for Diffusion Based Molecular Communication System.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "EECS",
+      "booktitle": "EECS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "366-370",
+      "authors": [
+        "https://dblp.org/pid/181/2824",
+        "https://dblp.org/pid/91/3010-1"
+      ],
+      "dois": [
+        "10.1109/eecs.2018.00074"
+      ],
+      "url": "https://dblp.org/db/conf/eecs/eecs2018#conf/eecs/SharmaS18",
+      "faculty": [
+        "Ajay Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "EECS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
       "key": "conf/ets/SinghKBPA26",
       "type": "inproceedings",
       "title": "On Evaluating the Security of TRNG-driven SRAM Scrambling Architecture.",
@@ -2188,6 +2534,7 @@
       ],
       "url": "https://dblp.org/db/conf/ets/ets2026#conf/ets/SinghKBPA26",
       "faculty": [
+        "Gaurav Kumar 0001",
         "Yamuna Prasad"
       ],
       "memberships": [
@@ -2418,6 +2765,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "GECCO",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2008
+        },
+        {
           "source": "acm",
           "venue": "GECCO",
           "area": "publisher-other",
@@ -2533,6 +2887,42 @@
       ]
     },
     {
+      "key": "conf/globecom/GhoshBSP16",
+      "type": "inproceedings",
+      "title": "Achieving Secure Communication in CRN with Malicious Energy Harvester Using Game Theory.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "GLOBECOM",
+      "booktitle": "GLOBECOM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-7",
+      "authors": [
+        "https://dblp.org/pid/06/900-2",
+        "https://dblp.org/pid/54/436",
+        "https://dblp.org/pid/58/7077",
+        "https://dblp.org/pid/91/3010-1"
+      ],
+      "dois": [
+        "10.1109/glocom.2016.7841565"
+      ],
+      "url": "https://dblp.org/db/conf/globecom/globecom2016#conf/globecom/GhoshBSP16",
+      "faculty": [
+        "Ajay Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "GLOBECOM",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
       "key": "conf/globecom/SahaMB18",
       "type": "inproceedings",
       "title": "QoS-Aware Adaptive Flow-Rule Aggregation in Software-Defined IoT.",
@@ -2629,6 +3019,7 @@
       ],
       "url": "https://dblp.org/db/conf/glvlsi/glvlsi2022#conf/glvlsi/KumarRPA22",
       "faculty": [
+        "Gaurav Kumar 0001",
         "Yamuna Prasad"
       ],
       "memberships": [
@@ -3333,6 +3724,40 @@
       ]
     },
     {
+      "key": "conf/icccnt/SharmaS19b",
+      "type": "inproceedings",
+      "title": "On the Distribution of Molecules for Diffusion Based Molecular Communication System.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "ICCCNT",
+      "booktitle": "ICCCNT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/181/2824",
+        "https://dblp.org/pid/91/3010-1"
+      ],
+      "dois": [
+        "10.1109/icccnt45670.2019.8944756"
+      ],
+      "url": "https://dblp.org/db/conf/icccnt/icccnt2019#conf/icccnt/SharmaS19b",
+      "faculty": [
+        "Ajay Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICCCNT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
       "key": "conf/icccnt/SharmaTKG18",
       "type": "inproceedings",
       "title": "Embedded Assistive Stick for Visually Impaired Persons.",
@@ -3508,6 +3933,40 @@
       ]
     },
     {
+      "key": "conf/iccst/ThakurS19",
+      "type": "inproceedings",
+      "title": "Ergodic Secrecy Capacity in Nakagami-m Fading Channels.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "ICCST",
+      "booktitle": "ICCST",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-3",
+      "authors": [
+        "https://dblp.org/pid/238/2814",
+        "https://dblp.org/pid/91/3010-1"
+      ],
+      "dois": [
+        "10.1109/ccst.2019.8888440"
+      ],
+      "url": "https://dblp.org/db/conf/iccst/iccst2019#conf/iccst/ThakurS19",
+      "faculty": [
+        "Ajay Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICCST",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
       "key": "conf/iccta/BhattacharjeeD07",
       "type": "inproceedings",
       "title": "Distributed Data Gathering Scheduling in Multihop Wireless Sensor Networks for Improved Lifetime.",
@@ -3609,6 +4068,42 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/iciis/ThakurTSS18",
+      "type": "inproceedings",
+      "title": "On the Performance of GSC/MRC based Cognitive Radio Networks with Multiple Primary Users.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "ICIIS",
+      "booktitle": "ICIIS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "251-257",
+      "authors": [
+        "https://dblp.org/pid/238/2814",
+        "https://dblp.org/pid/299/0395",
+        "https://dblp.org/pid/299/0666",
+        "https://dblp.org/pid/91/3010-1"
+      ],
+      "dois": [
+        "10.1109/iciinfs.2018.8721405"
+      ],
+      "url": "https://dblp.org/db/conf/iciis/iciis2018#conf/iciis/ThakurTSS18",
+      "faculty": [
+        "Ajay Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICIIS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
         }
       ]
     },
@@ -4165,6 +4660,75 @@
       ]
     },
     {
+      "key": "conf/icoin/KumarTS23",
+      "type": "inproceedings",
+      "title": "Secrecy Performance of Energy Harvesting Based D2D Communications in Spectrum-Sharing Networks.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "ICOIN",
+      "booktitle": "ICOIN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "410-414",
+      "authors": [
+        "https://dblp.org/pid/238/2814",
+        "https://dblp.org/pid/340/7724",
+        "https://dblp.org/pid/91/3010-1"
+      ],
+      "dois": [
+        "10.1109/icoin56518.2023.10048975"
+      ],
+      "url": "https://dblp.org/db/conf/icoin/icoin2023#conf/icoin/KumarTS23",
+      "faculty": [
+        "Ajay Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICOIN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/icoin/RaoS23",
+      "type": "inproceedings",
+      "title": "Security of Energy Harvesting Based D2D Communications in Cognitive Cellular Network.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "ICOIN",
+      "booktitle": "ICOIN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "415-419",
+      "authors": [
+        "https://dblp.org/pid/340/8318",
+        "https://dblp.org/pid/91/3010-1"
+      ],
+      "dois": [
+        "10.1109/icoin56518.2023.10048923"
+      ],
+      "url": "https://dblp.org/db/conf/icoin/icoin2023#conf/icoin/RaoS23",
+      "faculty": [
+        "Ajay Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICOIN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
       "key": "conf/icoin/SayeedB26",
       "type": "inproceedings",
       "title": "Optimal Resource Allocation in 5G RAN with Co-Existing eMBB and uRLLC Applications.",
@@ -4363,6 +4927,7 @@
       ],
       "url": "https://dblp.org/db/conf/icvgip/icvgip2025#conf/icvgip/KumarSSCJV25",
       "faculty": [
+        "Himanshu Singh 0006",
         "Vinit Jakhetiya"
       ],
       "memberships": [
@@ -4522,6 +5087,43 @@
       ]
     },
     {
+      "key": "conf/ijcnn/ShuklaSKKE26",
+      "type": "inproceedings",
+      "title": "RidgeFusion: Frequency-Split Conditioning for Diffusion-Based Contactless Fingerprint Rendering.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "IJCNN",
+      "booktitle": "IJCNN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-8",
+      "authors": [
+        "https://dblp.org/pid/04/1505",
+        "https://dblp.org/pid/242/4688",
+        "https://dblp.org/pid/448/8522",
+        "https://dblp.org/pid/448/8686",
+        "https://dblp.org/pid/49/5360"
+      ],
+      "dois": [
+        "10.1109/ijcnn69854.2026.11728789"
+      ],
+      "url": "https://dblp.org/db/conf/ijcnn/ijcnn2026#conf/ijcnn/ShuklaSKKE26",
+      "faculty": [
+        "Harkeerat Kaur"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IJCNN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
       "key": "conf/ijcnn/SidheekhAMK21",
       "type": "inproceedings",
       "title": "On Duality Gap as a Measure for Monitoring GAN Training.",
@@ -4558,6 +5160,79 @@
       ]
     },
     {
+      "key": "conf/interspeech/BaghelBPG21",
+      "type": "inproceedings",
+      "title": "Automatic Detection of Shouted Speech Segments in Indian News Debates.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "Interspeech",
+      "booktitle": "Interspeech",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "4179-4183",
+      "authors": [
+        "https://dblp.org/pid/230/4567",
+        "https://dblp.org/pid/243/0233",
+        "https://dblp.org/pid/29/4092",
+        "https://dblp.org/pid/32/5647"
+      ],
+      "dois": [
+        "10.21437/interspeech.2021-1592"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2021#conf/interspeech/BaghelBPG21",
+      "faculty": [
+        "Mrinmoy Bhattacharjee"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/MumtazJJNG22",
+      "type": "inproceedings",
+      "title": "Transformer-based quality assessment model for generalized user-generated multimedia audio content.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "674-678",
+      "authors": [
+        "https://dblp.org/pid/122/2654",
+        "https://dblp.org/pid/132/8947",
+        "https://dblp.org/pid/27/9850",
+        "https://dblp.org/pid/282/7322",
+        "https://dblp.org/pid/330/9064"
+      ],
+      "dois": [
+        "10.21437/interspeech.2022-10386"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2022#conf/interspeech/MumtazJJNG22",
+      "faculty": [
+        "Vinit Jakhetiya"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
       "key": "conf/iolts/KumarRKPA24",
       "type": "inproceedings",
       "title": "On Evaluating Test Response Obfuscation and Encryption Countermeasures.",
@@ -4582,6 +5257,7 @@
       ],
       "url": "https://dblp.org/db/conf/iolts/iolts2024#conf/iolts/KumarRKPA24",
       "faculty": [
+        "Gaurav Kumar 0001",
         "Yamuna Prasad"
       ],
       "memberships": [
@@ -4618,6 +5294,7 @@
       ],
       "url": "https://dblp.org/db/conf/iolts/iolts2022#conf/iolts/KumarRPA22",
       "faculty": [
+        "Gaurav Kumar 0001",
         "Yamuna Prasad"
       ],
       "memberships": [
@@ -4654,6 +5331,7 @@
       ],
       "url": "https://dblp.org/db/conf/iolts/iolts2023#conf/iolts/KumarRPA23",
       "faculty": [
+        "Gaurav Kumar 0001",
         "Yamuna Prasad"
       ],
       "memberships": [
@@ -4836,6 +5514,7 @@
       ],
       "url": "https://dblp.org/db/conf/iscas/iscas2025#conf/iscas/GurveKKAP25",
       "faculty": [
+        "Gaurav Kumar 0001",
         "Yamuna Prasad"
       ],
       "memberships": [
@@ -4957,6 +5636,43 @@
       ]
     },
     {
+      "key": "conf/iscas/KumarKKCA26",
+      "type": "inproceedings",
+      "title": "On Evaluating the Security of Complete Access Protocol of IJTAG Architecture.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "ISCAS",
+      "booktitle": "ISCAS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2687-2691",
+      "authors": [
+        "https://dblp.org/pid/177/1140",
+        "https://dblp.org/pid/24/6847-1",
+        "https://dblp.org/pid/258/5697",
+        "https://dblp.org/pid/78/4454",
+        "https://dblp.org/pid/85/5210"
+      ],
+      "dois": [
+        "10.1109/iscas66217.2026.11562977"
+      ],
+      "url": "https://dblp.org/db/conf/iscas/iscas2026#conf/iscas/KumarKKCA26",
+      "faculty": [
+        "Gaurav Kumar 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ISCAS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
       "key": "conf/iscas/RiazKPA25",
       "type": "inproceedings",
       "title": "On Securing SSN Architecture using Test Vector Encryption.",
@@ -5017,6 +5733,7 @@
       ],
       "url": "https://dblp.org/db/conf/iscas/iscas2025#conf/iscas/RiazKPAS25",
       "faculty": [
+        "Gaurav Kumar 0001",
         "Yamuna Prasad"
       ],
       "memberships": [
@@ -5203,6 +5920,7 @@
       ],
       "url": "https://dblp.org/db/conf/isocc/isocc2024#conf/isocc/GurveKBPA24",
       "faculty": [
+        "Gaurav Kumar 0001",
         "Yamuna Prasad"
       ],
       "memberships": [
@@ -5250,6 +5968,42 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2008
+        }
+      ]
+    },
+    {
+      "key": "conf/isvlsi/RiazKTA22",
+      "type": "inproceedings",
+      "title": "On Protecting IJTAG from Data Sniffing and Alteration Attacks.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "ISVLSI",
+      "booktitle": "ISVLSI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "146-151",
+      "authors": [
+        "https://dblp.org/pid/177/1140",
+        "https://dblp.org/pid/24/6847-1",
+        "https://dblp.org/pid/321/5778",
+        "https://dblp.org/pid/35/8110"
+      ],
+      "dois": [
+        "10.1109/isvlsi54635.2022.00038"
+      ],
+      "url": "https://dblp.org/db/conf/isvlsi/isvlsi2022#conf/isvlsi/RiazKTA22",
+      "faculty": [
+        "Gaurav Kumar 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ISVLSI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
         }
       ]
     },
@@ -5498,6 +6252,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "MOBICOM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        },
+        {
           "source": "acm",
           "venue": "MobiCom",
           "area": "publisher-other",
@@ -5643,6 +6404,40 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/KousarS24",
+      "type": "inproceedings",
+      "title": "Secrecy Performance of SWIPT Cognitive Radio Networks with Eavesdropper's Decoding Capability.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/372/8046",
+        "https://dblp.org/pid/91/3010-1"
+      ],
+      "dois": [
+        "10.1109/ncc60321.2024.10486035"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2024#conf/ncc/KousarS24",
+      "faculty": [
+        "Ajay Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
         }
       ]
     },
@@ -5832,6 +6627,41 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2011
+        }
+      ]
+    },
+    {
+      "key": "conf/pimrc/SinghBM13",
+      "type": "inproceedings",
+      "title": "Performance analysis of multiple sample based improved energy detector in collaborative CR networks.",
+      "year": 2013,
+      "publication_year": 2013,
+      "event_year": 2013,
+      "venue": "PIMRC",
+      "booktitle": "PIMRC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2728-2732",
+      "authors": [
+        "https://dblp.org/pid/54/436",
+        "https://dblp.org/pid/67/6954",
+        "https://dblp.org/pid/91/3010-1"
+      ],
+      "dois": [
+        "10.1109/pimrc.2013.6666610"
+      ],
+      "url": "https://dblp.org/db/conf/pimrc/pimrc2013#conf/pimrc/SinghBM13",
+      "faculty": [
+        "Ajay Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "PIMRC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2013
         }
       ]
     },
@@ -6146,9 +6976,17 @@
       ],
       "url": "https://dblp.org/db/conf/sensys/sensys2025#conf/sensys/GuptaKGAV25",
       "faculty": [
+        "Gaurav Kumar 0001",
         "Gaurav Varshney"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "SENSYS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        },
         {
           "source": "acm",
           "venue": "SenSys",
@@ -7317,6 +8155,43 @@
       ]
     },
     {
+      "key": "conf/socc/GhoshKLAS25",
+      "type": "inproceedings",
+      "title": "On Enhancing the Security Against Memory Disclosure Attacks.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "SOCC",
+      "booktitle": "SOCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/133/9924",
+        "https://dblp.org/pid/167/2740",
+        "https://dblp.org/pid/177/1140",
+        "https://dblp.org/pid/24/6847-1",
+        "https://dblp.org/pid/31/4795"
+      ],
+      "dois": [
+        "10.1109/socc66126.2025.11235448"
+      ],
+      "url": "https://dblp.org/db/conf/socc/socc2025#conf/socc/GhoshKLAS25",
+      "faculty": [
+        "Gaurav Kumar 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "SOCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
       "key": "conf/sose/GuptaOAPS23",
       "type": "inproceedings",
       "title": "TSPD: A Robust Online Time Series Two-Stage Peak Detection Algorithm.",
@@ -8108,6 +8983,7 @@
       ],
       "url": "https://dblp.org/db/conf/vlsi/vlsisoc2022#conf/vlsi/KumarRPA22",
       "faculty": [
+        "Gaurav Kumar 0001",
         "Yamuna Prasad"
       ],
       "memberships": [
@@ -8181,6 +9057,7 @@
       ],
       "url": "https://dblp.org/db/conf/vlsi/vlsisoc2023#conf/vlsi/RiazKKPA23",
       "faculty": [
+        "Gaurav Kumar 0001",
         "Yamuna Prasad"
       ],
       "memberships": [
@@ -8406,6 +9283,177 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/vtc/KousarS24",
+      "type": "inproceedings",
+      "title": "On the Secrecy of SWIPT Systems: An Amount of Confusion Loss Perspective.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "VTC Spring",
+      "booktitle": "VTC Spring",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/372/8046",
+        "https://dblp.org/pid/91/3010-1"
+      ],
+      "dois": [
+        "10.1109/vtc2024-spring62846.2024.10683155"
+      ],
+      "url": "https://dblp.org/db/conf/vtc/vtc2024s#conf/vtc/KousarS24",
+      "faculty": [
+        "Ajay Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VTC Spring",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/vtc/RaoS24",
+      "type": "inproceedings",
+      "title": "Security of RIS-Aided Energy Harvesting Based D2D Communications in Cognitive Cellular Network.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "VTC Spring",
+      "booktitle": "VTC Spring",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/340/8318",
+        "https://dblp.org/pid/91/3010-1"
+      ],
+      "dois": [
+        "10.1109/vtc2024-spring62846.2024.10683052"
+      ],
+      "url": "https://dblp.org/db/conf/vtc/vtc2024s#conf/vtc/RaoS24",
+      "faculty": [
+        "Ajay Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VTC Spring",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/vtc/SinghBM11",
+      "type": "inproceedings",
+      "title": "Optimization of Cooperative Spectrum Sensing with an Improved Energy Detector over Imperfect Reporting Channels.",
+      "year": 2011,
+      "publication_year": 2011,
+      "event_year": 2011,
+      "venue": "VTC Fall",
+      "booktitle": "VTC Fall",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/54/436",
+        "https://dblp.org/pid/67/6954",
+        "https://dblp.org/pid/91/3010-1"
+      ],
+      "dois": [
+        "10.1109/vetecf.2011.6092887"
+      ],
+      "url": "https://dblp.org/db/conf/vtc/vtc2011f#conf/vtc/SinghBM11",
+      "faculty": [
+        "Ajay Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VTC Fall",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2011
+        }
+      ]
+    },
+    {
+      "key": "conf/vtc/SinghK24",
+      "type": "inproceedings",
+      "title": "D2D Communications with Energy Harvesting: An Optimal Secrecy Throughput Perspective.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "VTC Spring",
+      "booktitle": "VTC Spring",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/340/7724",
+        "https://dblp.org/pid/91/3010-1"
+      ],
+      "dois": [
+        "10.1109/vtc2024-spring62846.2024.10683450"
+      ],
+      "url": "https://dblp.org/db/conf/vtc/vtc2024s#conf/vtc/SinghK24",
+      "faculty": [
+        "Ajay Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VTC Spring",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/vtc/ThakurS19",
+      "type": "inproceedings",
+      "title": "Secrecy Performance of Cognitive Radio Networks Using Arbitrary Transmit Antenna Selection and Threshold- Based MRC.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "VTC Fall",
+      "booktitle": "VTC Fall",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/238/2814",
+        "https://dblp.org/pid/91/3010-1"
+      ],
+      "dois": [
+        "10.1109/vtcfall.2019.8891102"
+      ],
+      "url": "https://dblp.org/db/conf/vtc/vtc2019f#conf/vtc/ThakurS19",
+      "faculty": [
+        "Ajay Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VTC Fall",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
         }
       ]
     },

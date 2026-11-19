@@ -5,7 +5,7 @@
     "slug": "iit-dharwad",
     "homepage": "https://cse.iitdh.ac.in/",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-10-20T20:15:22.538581+00:00",
+    "generated_at": "2026-11-19T18:00:56.599744+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -155,59 +155,93 @@
   "faculty": [
     {
       "name": "Achyut Mani Tripathi",
-      "dblp_url": "https://dblp.org/pid/173/8904"
+      "dblp_url": "https://dblp.org/pid/173/8904",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Anand Konjengbam",
-      "dblp_url": "https://dblp.org/pid/196/6087"
+      "dblp_url": "https://dblp.org/pid/196/6087",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "B. N. Bharath 0001",
+      "dblp_url": "https://dblp.org/pid/162/0207",
+      "affiliation_status": "current"
     },
     {
       "name": "Gayathri Ananthanarayanan",
-      "dblp_url": "https://dblp.org/pid/142/0165"
+      "dblp_url": "https://dblp.org/pid/142/0165",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Kedar Khandeparkar",
-      "dblp_url": "https://dblp.org/pid/146/7832"
+      "dblp_url": "https://dblp.org/pid/146/7832",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Koteswararao Kondepu",
-      "dblp_url": "https://dblp.org/pid/81/3117"
+      "dblp_url": "https://dblp.org/pid/81/3117",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Nikhil Hegde",
-      "dblp_url": "https://dblp.org/pid/174/4866"
+      "dblp_url": "https://dblp.org/pid/174/4866",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Prabuchandran K. J.",
-      "dblp_url": "https://dblp.org/pid/140/5406"
+      "dblp_url": "https://dblp.org/pid/140/5406",
+      "affiliation_status": "unknown"
     },
     {
       "name": "R. B. Sandeep",
-      "dblp_url": "https://dblp.org/pid/37/9923"
+      "dblp_url": "https://dblp.org/pid/37/9923",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Rajshekar Kalayappan",
-      "dblp_url": "https://dblp.org/pid/134/7234"
+      "dblp_url": "https://dblp.org/pid/134/7234",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Ramchandra Phawade",
-      "dblp_url": "https://dblp.org/pid/73/9959"
+      "dblp_url": "https://dblp.org/pid/73/9959",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Sagnik Sen 0001",
+      "dblp_url": "https://dblp.org/pid/117/6032-1",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Satish Naik Banavath",
+      "dblp_url": "https://dblp.org/pid/233/1719",
+      "affiliation_status": "current"
     },
     {
       "name": "Siba Narayan Swain",
-      "dblp_url": "https://dblp.org/pid/172/4440"
+      "dblp_url": "https://dblp.org/pid/172/4440",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Srishti Srivastava 0001",
+      "dblp_url": "https://dblp.org/pid/54/9083-1",
+      "affiliation_status": "former"
     },
     {
       "name": "Tamal Das",
-      "dblp_url": "https://dblp.org/pid/68/6940"
+      "dblp_url": "https://dblp.org/pid/68/6940",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Vandana Bharti",
-      "dblp_url": "https://dblp.org/pid/296/9405"
+      "dblp_url": "https://dblp.org/pid/296/9405",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Vijeth J. Kotagi",
-      "dblp_url": "https://dblp.org/pid/172/4519"
+      "dblp_url": "https://dblp.org/pid/172/4519",
+      "affiliation_status": "unknown"
     }
   ],
   "publications": [
@@ -663,6 +697,41 @@
       ]
     },
     {
+      "key": "conf/acssc/MKB23",
+      "type": "inproceedings",
+      "title": "FedAvg for Minimizing Polyak-Łojasiewicz Objectives: The Interpolation Regime.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "ACSSC",
+      "booktitle": "ACSSC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "607-613",
+      "authors": [
+        "https://dblp.org/pid/158/4888",
+        "https://dblp.org/pid/162/0207",
+        "https://dblp.org/pid/299/1758"
+      ],
+      "dois": [
+        "10.1109/ieeeconf59524.2023.10476970"
+      ],
+      "url": "https://dblp.org/db/conf/acssc/acssc2023#conf/acssc/MKB23",
+      "faculty": [
+        "B. N. Bharath 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ACSSC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
       "key": "conf/aspdac/HarshithaHRCK24",
       "type": "inproceedings",
       "title": "On Decomposing Complex Test Cases for Efficient Post-silicon Validation.",
@@ -731,6 +800,141 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "conf/atal/DhamalJN15",
+      "type": "inproceedings",
+      "title": "A Multi-phase Approach for Improving Information Diffusion in Social Networks.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "AAMAS",
+      "booktitle": "AAMAS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1787-1788",
+      "authors": [
+        "https://dblp.org/pid/00/10825",
+        "https://dblp.org/pid/140/5406",
+        "https://dblp.org/pid/n/YNarahari"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/atal/aamas2015#conf/atal/DhamalJN15",
+      "faculty": [
+        "Prabuchandran K. J."
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAMAS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/atal/DiddigiRJB19",
+      "type": "inproceedings",
+      "title": "Actor-Critic Algorithms for Constrained Multi-agent Reinforcement Learning.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "AAMAS",
+      "booktitle": "AAMAS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1931-1933",
+      "authors": [
+        "https://dblp.org/pid/140/5406",
+        "https://dblp.org/pid/205/2915",
+        "https://dblp.org/pid/209/9860",
+        "https://dblp.org/pid/71/2542"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/atal/aamas2019#conf/atal/DiddigiRJB19",
+      "faculty": [
+        "Prabuchandran K. J."
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAMAS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/atal/JBT16",
+      "type": "inproceedings",
+      "title": "Reinforcement Learning Algorithms for Regret Minimization in Structured Markov Decision Processes: (Extended Abstract).",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "AAMAS",
+      "booktitle": "AAMAS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1289-1290",
+      "authors": [
+        "https://dblp.org/pid/140/5406",
+        "https://dblp.org/pid/53/2762",
+        "https://dblp.org/pid/73/11046"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/atal/aamas2016#conf/atal/JBT16",
+      "faculty": [
+        "Prabuchandran K. J."
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAMAS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/atal/PadmanabhanBJSN17",
+      "type": "inproceedings",
+      "title": "A Dominant Strategy Truthful, Deterministic Multi-Armed Bandit Mechanism with Logarithmic Regret.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "AAMAS",
+      "booktitle": "AAMAS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1667-1669",
+      "authors": [
+        "https://dblp.org/pid/140/5406",
+        "https://dblp.org/pid/62/6000",
+        "https://dblp.org/pid/66/6214",
+        "https://dblp.org/pid/85/10824",
+        "https://dblp.org/pid/n/YNarahari"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/atal/aamas2017#conf/atal/PadmanabhanBJSN17",
+      "faculty": [
+        "Prabuchandran K. J."
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAMAS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2017
         }
       ]
     },
@@ -1575,6 +1779,41 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/dsrt/PiccioniKM26",
+      "type": "inproceedings",
+      "title": "SANDRAN: A Modular System-Level Simulator for Real-Time Evaluation of 6G Radio Access Networks.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "DS-RT",
+      "booktitle": "DS-RT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-8",
+      "authors": [
+        "https://dblp.org/pid/154/0644",
+        "https://dblp.org/pid/378/6480",
+        "https://dblp.org/pid/81/3117"
+      ],
+      "dois": [
+        "10.1109/ds-rt71368.2026.11726827"
+      ],
+      "url": "https://dblp.org/db/conf/dsrt/dsrt2026#conf/dsrt/PiccioniKM26",
+      "faculty": [
+        "Koteswararao Kondepu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "DS-RT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
         }
       ]
     },
@@ -2492,6 +2731,42 @@
       ]
     },
     {
+      "key": "conf/globecom/BharathNGP17",
+      "type": "inproceedings",
+      "title": "Learning-Based Content Caching with Time-Varying Popularity Profiles.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "GLOBECOM",
+      "booktitle": "GLOBECOM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/05/6552",
+        "https://dblp.org/pid/162/0207",
+        "https://dblp.org/pid/176/5714",
+        "https://dblp.org/pid/p/HVincentPoor"
+      ],
+      "dois": [
+        "10.1109/glocom.2017.8254162"
+      ],
+      "url": "https://dblp.org/db/conf/globecom/globecom2017#conf/globecom/BharathNGP17",
+      "faculty": [
+        "B. N. Bharath 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "GLOBECOM",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
       "key": "conf/globecom/DasG18",
       "type": "inproceedings",
       "title": "Resilient Controller Placement in Hybrid SDN/Legacy Networks.",
@@ -2601,6 +2876,41 @@
       ]
     },
     {
+      "key": "conf/globecom/KhanduriBM14",
+      "type": "inproceedings",
+      "title": "Coverage analysis and training optimization for uplink cellular networks with practical channel estimation.",
+      "year": 2014,
+      "publication_year": 2014,
+      "event_year": 2014,
+      "venue": "GLOBECOM",
+      "booktitle": "GLOBECOM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "205-210",
+      "authors": [
+        "https://dblp.org/pid/158/4888",
+        "https://dblp.org/pid/162/0207",
+        "https://dblp.org/pid/96/4430"
+      ],
+      "dois": [
+        "10.1109/glocom.2014.7036808"
+      ],
+      "url": "https://dblp.org/db/conf/globecom/globecom2014#conf/globecom/KhanduriBM14",
+      "faculty": [
+        "B. N. Bharath 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "GLOBECOM",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2014
+        }
+      ]
+    },
+    {
       "key": "conf/globecom/KondepuVC15",
       "type": "inproceedings",
       "title": "Balancing the Impact of ONU Tuning Overhead in Reconfigurable TWDM-PONs: An FPGA-Based Evaluation.",
@@ -2624,6 +2934,40 @@
       "url": "https://dblp.org/db/conf/globecom/globecom2015#conf/globecom/KondepuVC15",
       "faculty": [
         "Koteswararao Kondepu"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "GLOBECOM",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/globecom/NagarajaN15",
+      "type": "inproceedings",
+      "title": "Caching with Unknown Popularity Profiles in Small Cell Networks.",
+      "year": 2015,
+      "publication_year": 2014,
+      "event_year": 2015,
+      "venue": "GLOBECOM",
+      "booktitle": "GLOBECOM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/162/0207",
+        "https://dblp.org/pid/176/5714"
+      ],
+      "dois": [
+        "10.1109/glocom.2014.7417458"
+      ],
+      "url": "https://dblp.org/db/conf/globecom/globecom2015#conf/globecom/NagarajaN15",
+      "faculty": [
+        "B. N. Bharath 0001"
       ],
       "memberships": [
         {
@@ -2786,6 +3130,211 @@
       ]
     },
     {
+      "key": "conf/icassp/BharathM09",
+      "type": "inproceedings",
+      "title": "Reverse channel training for reciprocal MIMO systems with spatial multiplexing.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "ICASSP",
+      "booktitle": "ICASSP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2673-2676",
+      "authors": [
+        "https://dblp.org/pid/162/0207",
+        "https://dblp.org/pid/96/4430"
+      ],
+      "dois": [
+        "10.1109/icassp.2009.4960173"
+      ],
+      "url": "https://dblp.org/db/conf/icassp/icassp2009#conf/icassp/BharathM09",
+      "faculty": [
+        "B. N. Bharath 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICASSP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/icassp/BharathM10",
+      "type": "inproceedings",
+      "title": "On the improvement of diversity-multiplexing gain tradeoff in a training based TDD-simo system.",
+      "year": 2010,
+      "publication_year": 2010,
+      "event_year": 2010,
+      "venue": "ICASSP",
+      "booktitle": "ICASSP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3366-3369",
+      "authors": [
+        "https://dblp.org/pid/162/0207",
+        "https://dblp.org/pid/96/4430"
+      ],
+      "dois": [
+        "10.1109/icassp.2010.5495999"
+      ],
+      "url": "https://dblp.org/db/conf/icassp/icassp2010#conf/icassp/BharathM10",
+      "faculty": [
+        "B. N. Bharath 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICASSP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2010
+        }
+      ]
+    },
+    {
+      "key": "conf/icassp/KesanapalliB21",
+      "type": "inproceedings",
+      "title": "Federated Algorithm with Bayesian Approach: Omni-Fedge.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "ICASSP",
+      "booktitle": "ICASSP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3075-3079",
+      "authors": [
+        "https://dblp.org/pid/162/0207",
+        "https://dblp.org/pid/296/4529"
+      ],
+      "dois": [
+        "10.1109/icassp39728.2021.9413571"
+      ],
+      "url": "https://dblp.org/db/conf/icassp/icassp2021#conf/icassp/KesanapalliB21",
+      "faculty": [
+        "B. N. Bharath 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICASSP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/icassp/Nayak025",
+      "type": "inproceedings",
+      "title": "Improved Bounds For Online Convex Optimization.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "ICASSP",
+      "booktitle": "ICASSP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/162/0207",
+        "https://dblp.org/pid/409/8483"
+      ],
+      "dois": [
+        "10.1109/icassp49660.2025.10887754"
+      ],
+      "url": "https://dblp.org/db/conf/icassp/icassp2025#conf/icassp/Nayak025",
+      "faculty": [
+        "B. N. Bharath 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICASSP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/icassp/PB23",
+      "type": "inproceedings",
+      "title": "Online Caching with Fetching cost for Arbitrary Demand Pattern: a Drift-Plus-Penalty Approach.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "ICASSP",
+      "booktitle": "ICASSP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/162/0207",
+        "https://dblp.org/pid/324/9472"
+      ],
+      "dois": [
+        "10.1109/icassp49357.2023.10097152"
+      ],
+      "url": "https://dblp.org/db/conf/icassp/icassp2023#conf/icassp/PB23",
+      "faculty": [
+        "B. N. Bharath 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICASSP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/icassp/PrasadBM11",
+      "type": "inproceedings",
+      "title": "Joint data detection and dominant singular mode estimation in time varying reciprocal MIMO systems.",
+      "year": 2011,
+      "publication_year": 2011,
+      "event_year": 2011,
+      "venue": "ICASSP",
+      "booktitle": "ICASSP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3240-3243",
+      "authors": [
+        "https://dblp.org/pid/162/0207",
+        "https://dblp.org/pid/17/6671",
+        "https://dblp.org/pid/96/4430"
+      ],
+      "dois": [
+        "10.1109/icassp.2011.5946712"
+      ],
+      "url": "https://dblp.org/db/conf/icassp/icassp2011#conf/icassp/PrasadBM11",
+      "faculty": [
+        "B. N. Bharath 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICASSP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2011
+        }
+      ]
+    },
+    {
       "key": "conf/icassp/RajkhowaCTSP25",
       "type": "inproceedings",
       "title": "Semi-Supervised Knowledge Distillation Framework towards Lightweight Large Language Model for Spoken Language Translation.",
@@ -2811,6 +3360,40 @@
       "url": "https://dblp.org/db/conf/icassp/icassp2025#conf/icassp/RajkhowaCTSP25",
       "faculty": [
         "Achyut Mani Tripathi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICASSP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/icassp/Sah025",
+      "type": "inproceedings",
+      "title": "Online Learning With Non-convex Losses: New Condition To Achieve Small Dynamic Regret.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "ICASSP",
+      "booktitle": "ICASSP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/162/0207",
+        "https://dblp.org/pid/355/6555"
+      ],
+      "dois": [
+        "10.1109/icassp49660.2025.10889663"
+      ],
+      "url": "https://dblp.org/db/conf/icassp/icassp2025#conf/icassp/Sah025",
+      "faculty": [
+        "B. N. Bharath 0001"
       ],
       "memberships": [
         {
@@ -3847,6 +4430,186 @@
       ]
     },
     {
+      "key": "conf/iecon/AjmalRB21",
+      "type": "inproceedings",
+      "title": "Enhancement of DC MCB Performance using Power Semiconductor Devices.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "IECON",
+      "booktitle": "IECON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/233/1719",
+        "https://dblp.org/pid/303/3239",
+        "https://dblp.org/pid/303/3414"
+      ],
+      "dois": [
+        "10.1109/iecon48115.2021.9589385"
+      ],
+      "url": "https://dblp.org/db/conf/iecon/iecon2021#conf/iecon/AjmalRB21",
+      "faculty": [
+        "Satish Naik Banavath"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IECON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/iecon/RaghavendraBS21",
+      "type": "inproceedings",
+      "title": "H-bridge Based Bidirectional Z-Source DC Circuit Breaker with Improved Device Stress and Automatic Reclosing Capability.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "IECON",
+      "booktitle": "IECON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/233/1719",
+        "https://dblp.org/pid/244/7117",
+        "https://dblp.org/pid/303/3239"
+      ],
+      "dois": [
+        "10.1109/iecon48115.2021.9589108"
+      ],
+      "url": "https://dblp.org/db/conf/iecon/iecon2021#conf/iecon/RaghavendraBS21",
+      "faculty": [
+        "Satish Naik Banavath"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IECON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/iecon/RayBR18",
+      "type": "inproceedings",
+      "title": "Coupled Inductor Based Hybrid DC Circuit Breaker Topologies for DC Grid Application.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "IECON",
+      "booktitle": "IECON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1116-1121",
+      "authors": [
+        "https://dblp.org/pid/124/8563",
+        "https://dblp.org/pid/233/1632",
+        "https://dblp.org/pid/233/1719"
+      ],
+      "dois": [
+        "10.1109/iecon.2018.8591745"
+      ],
+      "url": "https://dblp.org/db/conf/iecon/iecon2018#conf/iecon/RayBR18",
+      "faculty": [
+        "Satish Naik Banavath"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IECON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/iecon/ShirodkarBMCS25",
+      "type": "inproceedings",
+      "title": "An Active Redundancy Module and Overlapped Switching Scheme for incorporating Fault Tolerance and ZVS in Isolated DC-DC Converters.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "IECON",
+      "booktitle": "IECON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/134/4708",
+        "https://dblp.org/pid/166/8957",
+        "https://dblp.org/pid/233/1719",
+        "https://dblp.org/pid/271/7621",
+        "https://dblp.org/pid/434/5070"
+      ],
+      "dois": [
+        "10.1109/iecon58223.2025.11221120"
+      ],
+      "url": "https://dblp.org/db/conf/iecon/iecon2025#conf/iecon/ShirodkarBMCS25",
+      "faculty": [
+        "Satish Naik Banavath"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IECON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/iecon/VulfovichOMBMK25",
+      "type": "inproceedings",
+      "title": "Attaining Arbitrary Load Independent Voltage Gain and Minimizing Inverter VA Rating in S(C)-S(C) Compensated Wireless Power Transfer Links.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "IECON",
+      "booktitle": "IECON",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/195/1719",
+        "https://dblp.org/pid/233/1719",
+        "https://dblp.org/pid/271/7621",
+        "https://dblp.org/pid/295/3316",
+        "https://dblp.org/pid/298/4164",
+        "https://dblp.org/pid/63/7374"
+      ],
+      "dois": [
+        "10.1109/iecon58223.2025.11221275"
+      ],
+      "url": "https://dblp.org/db/conf/iecon/iecon2025#conf/iecon/VulfovichOMBMK25",
+      "faculty": [
+        "Satish Naik Banavath"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IECON",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
       "key": "conf/ieeesec/SainiSPSA23",
       "type": "inproceedings",
       "title": "Bang for the Buck: Evaluating the Cost-Effectiveness of Heterogeneous Edge Platforms for Neural Network Workloads.",
@@ -4334,6 +5097,114 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/BeheraRTRK23",
+      "type": "inproceedings",
+      "title": "Towards Multi-Lingual Audio Question Answering.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "356-360",
+      "authors": [
+        "https://dblp.org/pid/173/6698",
+        "https://dblp.org/pid/173/8904",
+        "https://dblp.org/pid/258/8329",
+        "https://dblp.org/pid/377/8523",
+        "https://dblp.org/pid/377/8728"
+      ],
+      "dois": [
+        "10.21437/interspeech.2023-1816"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2023#conf/interspeech/BeheraRTRK23",
+      "faculty": [
+        "Achyut Mani Tripathi"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/RajkhowaCNTP24",
+      "type": "inproceedings",
+      "title": "TM-PATHVQA: 90000+ Textless Multilingual Questions for Medical Visual Question Answering.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/173/8904",
+        "https://dblp.org/pid/32/5647",
+        "https://dblp.org/pid/331/4613",
+        "https://dblp.org/pid/362/4187",
+        "https://dblp.org/pid/383/8250"
+      ],
+      "dois": [
+        "10.21437/interspeech.2024-1036"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2024#conf/interspeech/RajkhowaCNTP24",
+      "faculty": [
+        "Achyut Mani Tripathi"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/TripathiP22",
+      "type": "inproceedings",
+      "title": "Temporal Self Attention-Based Residual Network for Environmental Sound Classification.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1516-1520",
+      "authors": [
+        "https://dblp.org/pid/173/8904",
+        "https://dblp.org/pid/322/8158"
+      ],
+      "dois": [
+        "10.21437/interspeech.2022-488"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2022#conf/interspeech/TripathiP22",
+      "faculty": [
+        "Achyut Mani Tripathi"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
         }
       ]
     },
@@ -4828,11 +5699,53 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "MOBIHOC",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
+        },
+        {
           "source": "acm",
           "venue": "MobiHoc",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/MaharaMB22",
+      "type": "inproceedings",
+      "title": "Multi-Task Federated Edge Learning (MTFeeL) With SignSGD.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "379-384",
+      "authors": [
+        "https://dblp.org/pid/162/0207",
+        "https://dblp.org/pid/299/1758",
+        "https://dblp.org/pid/299/1853"
+      ],
+      "dois": [
+        "10.1109/ncc55593.2022.9806778"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2022#conf/ncc/MaharaMB22",
+      "faculty": [
+        "B. N. Bharath 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
         }
       ]
     },
@@ -6308,6 +7221,43 @@
       ]
     },
     {
+      "key": "conf/vtc/DoshiBGBR21",
+      "type": "inproceedings",
+      "title": "Learning Distributed Coded Caching Strategy in a Cellular Network.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "VTC Spring",
+      "booktitle": "VTC Spring",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/127/0115-1",
+        "https://dblp.org/pid/162/0207",
+        "https://dblp.org/pid/295/2808",
+        "https://dblp.org/pid/69/6831",
+        "https://dblp.org/pid/98/6271"
+      ],
+      "dois": [
+        "10.1109/vtc2021-spring51267.2021.9449047"
+      ],
+      "url": "https://dblp.org/db/conf/vtc/vtc2021s#conf/vtc/DoshiBGBR21",
+      "faculty": [
+        "B. N. Bharath 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VTC Spring",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
       "key": "conf/vtc/KondepuKT08",
       "type": "inproceedings",
       "title": "Partially Overlapping Super Location Area (POSLA): An Efficient Scheme for Location Management in PCS Networks.",
@@ -6339,6 +7289,41 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2008
+        }
+      ]
+    },
+    {
+      "key": "conf/vtc/KrishnenduBB21",
+      "type": "inproceedings",
+      "title": "Joint Edge Content Cache Placement and Recommendation: Bayesian Approach.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "VTC Spring",
+      "booktitle": "VTC Spring",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/162/0207",
+        "https://dblp.org/pid/393/9013",
+        "https://dblp.org/pid/98/6271"
+      ],
+      "dois": [
+        "10.1109/vtc2021-spring51267.2021.9448631"
+      ],
+      "url": "https://dblp.org/db/conf/vtc/vtc2021s#conf/vtc/KrishnenduBB21",
+      "faculty": [
+        "B. N. Bharath 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VTC Spring",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
         }
       ]
     },

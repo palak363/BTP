@@ -1,13 +1,31 @@
 {
   "institution": "DAIICT",
   "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
-  "compared_cells": 6,
+  "compared_cells": 8,
   "expected_papers": 4,
-  "actual_papers": 6,
+  "actual_papers": 8,
   "matching": false,
   "missing_cells": 0,
-  "extra_cells": 2,
+  "extra_cells": 4,
   "differences": [
+    {
+      "name": "Biswajit Mishra",
+      "area": "emnlp",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.016666666666666666
+    },
+    {
+      "name": "Pankaj Kumar 0001",
+      "area": "eccv",
+      "year": 2004,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.25
+    },
     {
       "name": "Saurabh Tiwari",
       "area": "fse",

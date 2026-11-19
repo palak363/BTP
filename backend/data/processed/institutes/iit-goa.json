@@ -5,7 +5,7 @@
     "slug": "iit-goa",
     "homepage": "https://iitgoa.ac.in/computer-science-about/",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-10-20T20:15:25.577383+00:00",
+    "generated_at": "2026-11-19T18:00:59.200516+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -155,39 +155,58 @@
   "faculty": [
     {
       "name": "A. V. Sreejith",
-      "dblp_url": "https://dblp.org/pid/89/8556"
+      "dblp_url": "https://dblp.org/pid/89/8556",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Amaldev Manuel",
-      "dblp_url": "https://dblp.org/pid/38/7255"
+      "dblp_url": "https://dblp.org/pid/38/7255",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Arpita Korwar",
-      "dblp_url": "https://dblp.org/pid/52/10454"
+      "dblp_url": "https://dblp.org/pid/52/10454",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "C. S. Rahul 0001",
+      "dblp_url": "https://dblp.org/pid/136/5838",
+      "affiliation_status": "current"
     },
     {
       "name": "Clint P. George",
-      "dblp_url": "https://dblp.org/pid/00/9490"
+      "dblp_url": "https://dblp.org/pid/00/9490",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Divya Padmanabhan",
-      "dblp_url": "https://dblp.org/pid/62/6000"
+      "dblp_url": "https://dblp.org/pid/62/6000",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Neha V. Karanjkar",
-      "dblp_url": "https://dblp.org/pid/87/9120"
+      "dblp_url": "https://dblp.org/pid/87/9120",
+      "affiliation_status": "current"
     },
     {
       "name": "Satyanath Bhat",
-      "dblp_url": "https://dblp.org/pid/85/10824"
+      "dblp_url": "https://dblp.org/pid/85/10824",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Sharad Sinha",
-      "dblp_url": "https://dblp.org/pid/24/9978"
+      "dblp_url": "https://dblp.org/pid/24/9978",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Sudakshina Dutta",
-      "dblp_url": "https://dblp.org/pid/43/11032"
+      "dblp_url": "https://dblp.org/pid/43/11032",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Tushar Lone",
+      "dblp_url": "https://dblp.org/pid/352/9968",
+      "affiliation_status": "current"
     }
   ],
   "publications": [
@@ -299,6 +318,40 @@
       ]
     },
     {
+      "key": "conf/atal/BhatJGN15",
+      "type": "inproceedings",
+      "title": "An Optimal Bidimensional Multi-Armed Bandit Auction for Multi-unit Procurement.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "AAMAS",
+      "booktitle": "AAMAS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1789-1790",
+      "authors": [
+        "https://dblp.org/pid/08/776",
+        "https://dblp.org/pid/74/2823-2",
+        "https://dblp.org/pid/85/10824",
+        "https://dblp.org/pid/n/YNarahari"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/atal/aamas2015#conf/atal/BhatJGN15",
+      "faculty": [
+        "Satyanath Bhat"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAMAS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
       "key": "conf/atal/BhatNGZND14",
       "type": "inproceedings",
       "title": "A mechanism to optimally balance cost and quality of labeling tasks outsourced to strategic agents.",
@@ -335,6 +388,41 @@
       ]
     },
     {
+      "key": "conf/atal/BhatPJN16",
+      "type": "inproceedings",
+      "title": "A Truthful Mechanism with Biparameter Learning for Online Crowdsourcing: (Extended Abstract).",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "AAMAS",
+      "booktitle": "AAMAS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1385-1386",
+      "authors": [
+        "https://dblp.org/pid/62/6000",
+        "https://dblp.org/pid/74/2823-2",
+        "https://dblp.org/pid/85/10824",
+        "https://dblp.org/pid/n/YNarahari"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/atal/aamas2016#conf/atal/BhatPJN16",
+      "faculty": [
+        "Divya Padmanabhan",
+        "Satyanath Bhat"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAMAS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
       "key": "conf/atal/JainGBGN16",
       "type": "inproceedings",
       "title": "A Deterministic MAB Mechanism for Crowdsourcing with Logarithmic Regret and Immediate Payments.",
@@ -366,6 +454,73 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/atal/Padmanabhan17",
+      "type": "inproceedings",
+      "title": "Theoretical Models for Learning from Multiple, Heterogenous and Strategic Agents.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "AAMAS",
+      "booktitle": "AAMAS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1847-1848",
+      "authors": [
+        "https://dblp.org/pid/62/6000"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/atal/aamas2017#conf/atal/Padmanabhan17",
+      "faculty": [
+        "Divya Padmanabhan"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAMAS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/atal/PadmanabhanBJSN17",
+      "type": "inproceedings",
+      "title": "A Dominant Strategy Truthful, Deterministic Multi-Armed Bandit Mechanism with Logarithmic Regret.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "AAMAS",
+      "booktitle": "AAMAS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1667-1669",
+      "authors": [
+        "https://dblp.org/pid/140/5406",
+        "https://dblp.org/pid/62/6000",
+        "https://dblp.org/pid/66/6214",
+        "https://dblp.org/pid/85/10824",
+        "https://dblp.org/pid/n/YNarahari"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/atal/aamas2017#conf/atal/PadmanabhanBJSN17",
+      "faculty": [
+        "Divya Padmanabhan",
+        "Satyanath Bhat"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAMAS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2017
         }
       ]
     },
@@ -528,6 +683,41 @@
       ]
     },
     {
+      "key": "conf/esa/GanianOR19",
+      "type": "inproceedings",
+      "title": "Group Activity Selection with Few Agent Types.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "ESA",
+      "booktitle": "ESA",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "48:1-48:16",
+      "authors": [
+        "https://dblp.org/pid/136/5838",
+        "https://dblp.org/pid/80/7529",
+        "https://dblp.org/pid/88/3220"
+      ],
+      "dois": [
+        "10.4230/lipics.esa.2019.48"
+      ],
+      "url": "https://dblp.org/db/conf/esa/esa2019#conf/esa/GanianOR19",
+      "faculty": [
+        "C. S. Rahul 0001"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ESA",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
       "key": "conf/fccm/0007SZ19",
       "type": "inproceedings",
       "title": "Towards Efficient and Scalable Acceleration of Online Decision Tree Learning on FPGA.",
@@ -650,7 +840,7 @@
       "pages": "257",
       "authors": [
         "https://dblp.org/pid/10/4661-12",
-        "https://dblp.org/pid/129/4732",
+        "https://dblp.org/pid/129/4732-1",
         "https://dblp.org/pid/143/2011",
         "https://dblp.org/pid/187/8283",
         "https://dblp.org/pid/24/9978",
@@ -1181,6 +1371,41 @@
       ]
     },
     {
+      "key": "conf/icalp/Komarath0R22",
+      "type": "inproceedings",
+      "title": "Monotone Arithmetic Complexity of Graph Homomorphism Polynomials.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "ICALP",
+      "booktitle": "ICALP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "83:1-83:20",
+      "authors": [
+        "https://dblp.org/pid/124/2629",
+        "https://dblp.org/pid/136/5838",
+        "https://dblp.org/pid/184/8458-1"
+      ],
+      "dois": [
+        "10.4230/lipics.icalp.2022.83"
+      ],
+      "url": "https://dblp.org/db/conf/icalp/icalp2022#conf/icalp/Komarath0R22",
+      "faculty": [
+        "C. S. Rahul 0001"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ICALP",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
       "key": "conf/iccad/FengSZL17",
       "type": "inproceedings",
       "title": "A hybrid approach to cache management in heterogeneous CPU-FPGA platforms.",
@@ -1602,6 +1827,13 @@
         "Sudakshina Dutta"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ICST",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        },
         {
           "source": "ieee",
           "venue": "ICST",
@@ -2494,6 +2726,43 @@
       ]
     },
     {
+      "key": "conf/mfcs/GanianNORR16",
+      "type": "inproceedings",
+      "title": "On the Complexity Landscape of Connected f-Factor Problems.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "MFCS",
+      "booktitle": "MFCS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "41:1-41:14",
+      "authors": [
+        "https://dblp.org/pid/04/9023",
+        "https://dblp.org/pid/136/5838",
+        "https://dblp.org/pid/80/7529",
+        "https://dblp.org/pid/88/3220",
+        "https://dblp.org/pid/n/NSNarayanaswamy"
+      ],
+      "dois": [
+        "10.4230/lipics.mfcs.2016.41"
+      ],
+      "url": "https://dblp.org/db/conf/mfcs/mfcs2016#conf/mfcs/GanianNORR16",
+      "faculty": [
+        "C. S. Rahul 0001"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "MFCS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
       "key": "conf/mfcs/GurjarKMST12",
       "type": "inproceedings",
       "title": "Planarizing Gadgets for Perfect Matching Do Not Exist.",
@@ -2671,6 +2940,39 @@
           "area": "nips",
           "domain": "Machine learning & data mining",
           "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/pads/Lone24",
+      "type": "inproceedings",
+      "title": "Development of an open-source library for supply chain modeling and optimization.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "SIGSIM-PADS",
+      "booktitle": "SIGSIM-PADS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "73-74",
+      "authors": [
+        "https://dblp.org/pid/352/9968"
+      ],
+      "dois": [
+        "10.1145/3615979.3662155"
+      ],
+      "url": "https://dblp.org/db/conf/pads/pads2024#conf/pads/Lone24",
+      "faculty": [
+        "Tushar Lone"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "SIGSIM-PADS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
         }
       ]
     },

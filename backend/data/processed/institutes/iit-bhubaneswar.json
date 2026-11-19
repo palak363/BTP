@@ -5,7 +5,7 @@
     "slug": "iit-bhubaneswar",
     "homepage": "https://secs.iitbbs.ac.in/",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-10-20T20:15:16.272349+00:00",
+    "generated_at": "2026-11-19T18:00:49.556873+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -160,14 +160,100 @@
   "faculty": [
     {
       "name": "Abhik Jana",
-      "dblp_url": "https://dblp.org/pid/200/8353"
+      "dblp_url": "https://dblp.org/pid/200/8353",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Ayush Anand 0001",
+      "dblp_url": "https://dblp.org/pid/332/3805-1",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Chandra Shekhar 0007",
+      "dblp_url": "https://dblp.org/pid/286/2829",
+      "affiliation_status": "current"
     },
     {
       "name": "Debi Prosad Dogra",
-      "dblp_url": "https://dblp.org/pid/97/7630"
+      "dblp_url": "https://dblp.org/pid/97/7630",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Ganapati Panda",
+      "dblp_url": "https://dblp.org/pid/30/1996",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "P. R. Sahu 0001",
+      "dblp_url": "https://dblp.org/pid/59/7046",
+      "affiliation_status": "former"
+    },
+    {
+      "name": "Rohit Kumar 0004",
+      "dblp_url": "https://dblp.org/pid/19/139-4",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "S. R. Samantaray 0001",
+      "dblp_url": "https://dblp.org/pid/94/4702",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Sayan Mukherjee 0013",
+      "dblp_url": "https://dblp.org/pid/436/6652",
+      "affiliation_status": "current"
+    },
+    {
+      "name": "Shweta Jain 0008",
+      "dblp_url": "https://dblp.org/pid/437/9470",
+      "affiliation_status": "former"
+    },
+    {
+      "name": "Souvik Ghosh 0002",
+      "dblp_url": "https://dblp.org/pid/68/6958-2",
+      "affiliation_status": "former"
+    },
+    {
+      "name": "Thakare Kamalakar Vijay",
+      "dblp_url": "https://dblp.org/pid/310/7408",
+      "affiliation_status": "current"
     }
   ],
   "publications": [
+    {
+      "key": "conf/IEEEants/ShekharS20",
+      "type": "inproceedings",
+      "title": "Fine-grained Frequencies to Combat Cross Technology Interference in IoT: A Measurement Study.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "IEEE ANTS",
+      "booktitle": "IEEE ANTS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/286/2829",
+        "https://dblp.org/pid/81/6959"
+      ],
+      "dois": [
+        "10.1109/ants50601.2020.9342764"
+      ],
+      "url": "https://dblp.org/db/conf/IEEEants/IEEEants2020#conf/IEEEants/ShekharS20",
+      "faculty": [
+        "Chandra Shekhar 0007"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE ANTS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
     {
       "key": "conf/acl/ChalkidisJHBAKA22",
       "type": "inproceedings",
@@ -379,6 +465,43 @@
       ]
     },
     {
+      "key": "conf/artcom/PradhanPMPM09",
+      "type": "inproceedings",
+      "title": "Robust Distributed Optimization in Wireless Sensor Network.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "ARTCom",
+      "booktitle": "ARTCom",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "249-253",
+      "authors": [
+        "https://dblp.org/pid/13/7687",
+        "https://dblp.org/pid/14/7689",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/39/6234",
+        "https://dblp.org/pid/78/703"
+      ],
+      "dois": [
+        "10.1109/artcom.2009.40"
+      ],
+      "url": "https://dblp.org/db/conf/artcom/artcom2009#conf/artcom/PradhanPMPM09",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ARTCom",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
       "key": "conf/avss/BeheraVKD21",
       "type": "inproceedings",
       "title": "PIDLNet: A Physics-Induced Deep Learning Network for Characterization of Crowd Videos.",
@@ -402,7 +525,8 @@
       ],
       "url": "https://dblp.org/db/conf/avss/avss2021#conf/avss/BeheraVKD21",
       "faculty": [
-        "Debi Prosad Dogra"
+        "Debi Prosad Dogra",
+        "Thakare Kamalakar Vijay"
       ],
       "memberships": [
         {
@@ -448,6 +572,673 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/cec/AcharyaPL07",
+      "type": "inproceedings",
+      "title": "Constrained genetic algorithm based independent component analysis.",
+      "year": 2007,
+      "publication_year": 2007,
+      "event_year": 2007,
+      "venue": "IEEE Congress on Evolutionary Computation",
+      "booktitle": "IEEE Congress on Evolutionary Computation",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2443-2449",
+      "authors": [
+        "https://dblp.org/pid/144/8140",
+        "https://dblp.org/pid/168/6935",
+        "https://dblp.org/pid/30/1996"
+      ],
+      "dois": [
+        "10.1109/cec.2007.4424777"
+      ],
+      "url": "https://dblp.org/db/conf/cec/cec2007#conf/cec/AcharyaPL07",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Congress on Evolutionary Computation",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2007
+        }
+      ]
+    },
+    {
+      "key": "conf/cec/MajhiP07",
+      "type": "inproceedings",
+      "title": "Bacterial foraging based identification of nonlinear dynamic system.",
+      "year": 2007,
+      "publication_year": 2007,
+      "event_year": 2007,
+      "venue": "IEEE Congress on Evolutionary Computation",
+      "booktitle": "IEEE Congress on Evolutionary Computation",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1636-1641",
+      "authors": [
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/39/6234"
+      ],
+      "dois": [
+        "10.1109/cec.2007.4424669"
+      ],
+      "url": "https://dblp.org/db/conf/cec/cec2007#conf/cec/MajhiP07",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Congress on Evolutionary Computation",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2007
+        }
+      ]
+    },
+    {
+      "key": "conf/cec/MajhiPC08",
+      "type": "inproceedings",
+      "title": "Efficient scheme of pole-zero system identification using Particle Swarm Optimization technique.",
+      "year": 2008,
+      "publication_year": 2008,
+      "event_year": 2008,
+      "venue": "IEEE Congress on Evolutionary Computation",
+      "booktitle": "IEEE Congress on Evolutionary Computation",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "446-451",
+      "authors": [
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/39/6234",
+        "https://dblp.org/pid/40/746"
+      ],
+      "dois": [
+        "10.1109/cec.2008.4630836"
+      ],
+      "url": "https://dblp.org/db/conf/cec/cec2008#conf/cec/MajhiPC08",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Congress on Evolutionary Computation",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2008
+        }
+      ]
+    },
+    {
+      "key": "conf/cec/MajhiPM09",
+      "type": "inproceedings",
+      "title": "Distributed identification of nonlinear processes using incremental and diffusion type PSO algorithms.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "IEEE Congress on Evolutionary Computation",
+      "booktitle": "IEEE Congress on Evolutionary Computation",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2076-2082",
+      "authors": [
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/39/6234",
+        "https://dblp.org/pid/78/703"
+      ],
+      "dois": [
+        "10.1109/cec.2009.4983197"
+      ],
+      "url": "https://dblp.org/db/conf/cec/cec2009#conf/cec/MajhiPM09",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Congress on Evolutionary Computation",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/cec/MajhiPSDD07",
+      "type": "inproceedings",
+      "title": "Stock market prediction of S&P 500 and DJIA using Bacterial Foraging Optimization Technique.",
+      "year": 2007,
+      "publication_year": 2007,
+      "event_year": 2007,
+      "venue": "IEEE Congress on Evolutionary Computation",
+      "booktitle": "IEEE Congress on Evolutionary Computation",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2569-2575",
+      "authors": [
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/52/8632",
+        "https://dblp.org/pid/74/287",
+        "https://dblp.org/pid/80/5673",
+        "https://dblp.org/pid/86/3289"
+      ],
+      "dois": [
+        "10.1109/cec.2007.4424794"
+      ],
+      "url": "https://dblp.org/db/conf/cec/cec2007#conf/cec/MajhiPSDD07",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Congress on Evolutionary Computation",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2007
+        }
+      ]
+    },
+    {
+      "key": "conf/cec/MajhiPSPC08",
+      "type": "inproceedings",
+      "title": "Prediction of S&P 500 and DJIA stock indices using Particle Swarm Optimization technique.",
+      "year": 2008,
+      "publication_year": 2008,
+      "event_year": 2008,
+      "venue": "IEEE Congress on Evolutionary Computation",
+      "booktitle": "IEEE Congress on Evolutionary Computation",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1276-1282",
+      "authors": [
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/40/746",
+        "https://dblp.org/pid/74/287",
+        "https://dblp.org/pid/80/5673",
+        "https://dblp.org/pid/83/4334"
+      ],
+      "dois": [
+        "10.1109/cec.2008.4630960"
+      ],
+      "url": "https://dblp.org/db/conf/cec/cec2008#conf/cec/MajhiPSPC08",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Congress on Evolutionary Computation",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2008
+        }
+      ]
+    },
+    {
+      "key": "conf/cec/MisraBDP07",
+      "type": "inproceedings",
+      "title": "Simplified Polynomial Neural Network for classification task in data mining.",
+      "year": 2007,
+      "publication_year": 2007,
+      "event_year": 2007,
+      "venue": "IEEE Congress on Evolutionary Computation",
+      "booktitle": "IEEE Congress on Evolutionary Computation",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "721-728",
+      "authors": [
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/52/8632",
+        "https://dblp.org/pid/82/8829",
+        "https://dblp.org/pid/86/1726"
+      ],
+      "dois": [
+        "10.1109/cec.2007.4424542"
+      ],
+      "url": "https://dblp.org/db/conf/cec/cec2007#conf/cec/MisraBDP07",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Congress on Evolutionary Computation",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2007
+        }
+      ]
+    },
+    {
+      "key": "conf/cec/MisraDDP08",
+      "type": "inproceedings",
+      "title": "Reduced polynomial neural swarm net for classification task in data mining.",
+      "year": 2008,
+      "publication_year": 2008,
+      "event_year": 2008,
+      "venue": "IEEE Congress on Evolutionary Computation",
+      "booktitle": "IEEE Congress on Evolutionary Computation",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2298-2306",
+      "authors": [
+        "https://dblp.org/pid/01/4699",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/52/8632",
+        "https://dblp.org/pid/86/1726"
+      ],
+      "dois": [
+        "10.1109/cec.2008.4631104"
+      ],
+      "url": "https://dblp.org/db/conf/cec/cec2008#conf/cec/MisraDDP08",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Congress on Evolutionary Computation",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2008
+        }
+      ]
+    },
+    {
+      "key": "conf/cec/NandaPM09",
+      "type": "inproceedings",
+      "title": "Development of immunized pso algorithm and its application to hammerstein model identification.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "IEEE Congress on Evolutionary Computation",
+      "booktitle": "IEEE Congress on Evolutionary Computation",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3080-3086",
+      "authors": [
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/39/6234",
+        "https://dblp.org/pid/92/8046"
+      ],
+      "dois": [
+        "10.1109/cec.2009.4983333"
+      ],
+      "url": "https://dblp.org/db/conf/cec/cec2009#conf/cec/NandaPM09",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Congress on Evolutionary Computation",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/cec/PandaMMS07",
+      "type": "inproceedings",
+      "title": "Identification of nonlinear systems using particle swarm optimization technique.",
+      "year": 2007,
+      "publication_year": 2007,
+      "event_year": 2007,
+      "venue": "IEEE Congress on Evolutionary Computation",
+      "booktitle": "IEEE Congress on Evolutionary Computation",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3253-3257",
+      "authors": [
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/39/6234",
+        "https://dblp.org/pid/61/3917",
+        "https://dblp.org/pid/74/287"
+      ],
+      "dois": [
+        "10.1109/cec.2007.4424889"
+      ],
+      "url": "https://dblp.org/db/conf/cec/cec2007#conf/cec/PandaMMS07",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Congress on Evolutionary Computation",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2007
+        }
+      ]
+    },
+    {
+      "key": "conf/cit/NandaPMT08",
+      "type": "inproceedings",
+      "title": "Development of a New Optimization Algorithm Based on Artificial Immune System and Its Application.",
+      "year": 2008,
+      "publication_year": 2008,
+      "event_year": 2008,
+      "venue": "ICIT",
+      "booktitle": "ICIT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "45-48",
+      "authors": [
+        "https://dblp.org/pid/154/0886",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/39/6234",
+        "https://dblp.org/pid/92/8046"
+      ],
+      "dois": [
+        "10.1109/icit.2008.20"
+      ],
+      "url": "https://dblp.org/db/conf/cit/cit2008#conf/cit/NandaPMT08",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICIT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2008
+        }
+      ]
+    },
+    {
+      "key": "conf/comsnets/0004M21",
+      "type": "inproceedings",
+      "title": "A Vehicle-Aided Data Collection Scheme for Wireless Rechargeable Sensor Networks.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "COMSNETS",
+      "booktitle": "COMSNETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "216-219",
+      "authors": [
+        "https://dblp.org/pid/126/2521",
+        "https://dblp.org/pid/19/139-4"
+      ],
+      "dois": [
+        "10.1109/comsnets51098.2021.9352829"
+      ],
+      "url": "https://dblp.org/db/conf/comsnets/comsnets2021#conf/comsnets/0004M21",
+      "faculty": [
+        "Rohit Kumar 0004"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "COMSNETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/comsnets/KumarM20",
+      "type": "inproceedings",
+      "title": "Charge Scheduling in Wireless Rechargeable Sensor Networks Using Mobile Charging Vehicles.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "COMSNETS",
+      "booktitle": "COMSNETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "375-382",
+      "authors": [
+        "https://dblp.org/pid/126/2521",
+        "https://dblp.org/pid/19/139-4"
+      ],
+      "dois": [
+        "10.1109/comsnets48256.2020.9027418"
+      ],
+      "url": "https://dblp.org/db/conf/comsnets/comsnets2020#conf/comsnets/KumarM20",
+      "faculty": [
+        "Rohit Kumar 0004"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "COMSNETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/comsnets/KumarM26",
+      "type": "inproceedings",
+      "title": "An Approximation Algorithm for Minimizing the Number of Distance Constrained Mobile Sinks for Data Collection from Static and Mobile Sensors.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "COMSNETS",
+      "booktitle": "COMSNETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-9",
+      "authors": [
+        "https://dblp.org/pid/126/2521",
+        "https://dblp.org/pid/19/139-4"
+      ],
+      "dois": [
+        "10.1109/comsnets67989.2026.11418194"
+      ],
+      "url": "https://dblp.org/db/conf/comsnets/comsnets2026#conf/comsnets/KumarM26",
+      "faculty": [
+        "Rohit Kumar 0004"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "COMSNETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "conf/comsnets/ShekharDSS23",
+      "type": "inproceedings",
+      "title": "A Lightweight IoT-Based Framework for Vehicular Ad Hoc Network (VANET).",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "COMSNETS",
+      "booktitle": "COMSNETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "19-24",
+      "authors": [
+        "https://dblp.org/pid/283/3237",
+        "https://dblp.org/pid/286/2829",
+        "https://dblp.org/pid/324/3738",
+        "https://dblp.org/pid/81/6959"
+      ],
+      "dois": [
+        "10.1109/comsnets56262.2023.10041282"
+      ],
+      "url": "https://dblp.org/db/conf/comsnets/comsnets2023#conf/comsnets/ShekharDSS23",
+      "faculty": [
+        "Chandra Shekhar 0007"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "COMSNETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/comsnets/ShekharS22",
+      "type": "inproceedings",
+      "title": "Classification of Adversities in Urban Deployment of Internet-of-Things.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "COMSNETS",
+      "booktitle": "COMSNETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "208-212",
+      "authors": [
+        "https://dblp.org/pid/286/2829",
+        "https://dblp.org/pid/81/6959"
+      ],
+      "dois": [
+        "10.1109/comsnets53615.2022.9668570"
+      ],
+      "url": "https://dblp.org/db/conf/comsnets/comsnets2022#conf/comsnets/ShekharS22",
+      "faculty": [
+        "Chandra Shekhar 0007"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "COMSNETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/comsnets/ShekharS22a",
+      "type": "inproceedings",
+      "title": "IoT-Assisted Low-Cost Traffic Volume Measurement and Control.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "COMSNETS",
+      "booktitle": "COMSNETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "806-811",
+      "authors": [
+        "https://dblp.org/pid/286/2829",
+        "https://dblp.org/pid/81/6959"
+      ],
+      "dois": [
+        "10.1109/comsnets53615.2022.9668354"
+      ],
+      "url": "https://dblp.org/db/conf/comsnets/comsnets2022#conf/comsnets/ShekharS22a",
+      "faculty": [
+        "Chandra Shekhar 0007"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "COMSNETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/comsnets/ShekharSC21",
+      "type": "inproceedings",
+      "title": "Mitigating Adversities in Urban IoT-setup: A Sensor Assisted Approach.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "COMSNETS",
+      "booktitle": "COMSNETS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "413-420",
+      "authors": [
+        "https://dblp.org/pid/28/6329",
+        "https://dblp.org/pid/286/2829",
+        "https://dblp.org/pid/81/6959"
+      ],
+      "dois": [
+        "10.1109/comsnets51098.2021.9352840"
+      ],
+      "url": "https://dblp.org/db/conf/comsnets/comsnets2021#conf/comsnets/ShekharSC21",
+      "faculty": [
+        "Chandra Shekhar 0007"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "COMSNETS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/dcoss/ShekharS22",
+      "type": "inproceedings",
+      "title": "An IoT-based Framework for Low-Cost and Light-Weight Vehicle Detection.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "DCOSS",
+      "booktitle": "DCOSS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "69-71",
+      "authors": [
+        "https://dblp.org/pid/286/2829",
+        "https://dblp.org/pid/81/6959"
+      ],
+      "dois": [
+        "10.1109/dcoss54816.2022.00023"
+      ],
+      "url": "https://dblp.org/db/conf/dcoss/dcoss2022#conf/dcoss/ShekharS22",
+      "faculty": [
+        "Chandra Shekhar 0007"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "DCOSS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
         }
       ]
     },
@@ -612,6 +1403,356 @@
       ]
     },
     {
+      "key": "conf/fuzzIEEE/SaMP07",
+      "type": "inproceedings",
+      "title": "Improved Adaptive Impulsive Noise Suppression.",
+      "year": 2007,
+      "publication_year": 2007,
+      "event_year": 2007,
+      "venue": "FUZZ-IEEE",
+      "booktitle": "FUZZ-IEEE",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-4",
+      "authors": [
+        "https://dblp.org/pid/09/1560",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/53/2452"
+      ],
+      "dois": [
+        "10.1109/fuzzy.2007.4295380"
+      ],
+      "url": "https://dblp.org/db/conf/fuzzIEEE/fuzzIEEE2007#conf/fuzzIEEE/SaMP07",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "FUZZ-IEEE",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2007
+        }
+      ]
+    },
+    {
+      "key": "conf/gensips/SahuP09",
+      "type": "inproceedings",
+      "title": "A new approach for identification of hot spots in proteins using S-Transform filtering.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "GENSiPS",
+      "booktitle": "GENSiPS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-4",
+      "authors": [
+        "https://dblp.org/pid/21/8891",
+        "https://dblp.org/pid/30/1996"
+      ],
+      "dois": [
+        "10.1109/gensips.2009.5174374"
+      ],
+      "url": "https://dblp.org/db/conf/gensips/gensips2009#conf/gensips/SahuP09",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "GENSiPS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/icacci/KukdeMP14",
+      "type": "inproceedings",
+      "title": "Development of a novel narrowband active noise controller in presence of sensor error.",
+      "year": 2014,
+      "publication_year": 2014,
+      "event_year": 2014,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2735-2739",
+      "authors": [
+        "https://dblp.org/pid/132/2811",
+        "https://dblp.org/pid/154/8745",
+        "https://dblp.org/pid/30/1996"
+      ],
+      "dois": [
+        "10.1109/icacci.2014.6968255"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2014#conf/icacci/KukdeMP14",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "conf/icapr/DashPP15",
+      "type": "inproceedings",
+      "title": "Gestalt configural superiority effect: A complexity paradigm for handwritten numeral recognition.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "ICAPR",
+      "booktitle": "ICAPR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/167/0293",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/80/4084"
+      ],
+      "dois": [
+        "10.1109/icapr.2015.7050692"
+      ],
+      "url": "https://dblp.org/db/conf/icapr/icapr2015#conf/icapr/DashPP15",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICAPR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/icapr/DashPP15a",
+      "type": "inproceedings",
+      "title": "On extraction of features for handwritten Odia numeral recognition in transformed domain.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "ICAPR",
+      "booktitle": "ICAPR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/167/0293",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/80/4084"
+      ],
+      "dois": [
+        "10.1109/icapr.2015.7050694"
+      ],
+      "url": "https://dblp.org/db/conf/icapr/icapr2015#conf/icapr/DashPP15a",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICAPR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/icassp/DasPN06",
+      "type": "inproceedings",
+      "title": "Development of Frequency Domain Block Filtered-s LMS (FBFSLMS) Algorithm for Active Noise Control System.",
+      "year": 2006,
+      "publication_year": 2006,
+      "event_year": 2006,
+      "venue": "ICASSP (5)",
+      "booktitle": "ICASSP (5)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "289-292",
+      "authors": [
+        "https://dblp.org/pid/144/2986",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/86/3289"
+      ],
+      "dois": [
+        "10.1109/icassp.2006.1661269"
+      ],
+      "url": "https://dblp.org/db/conf/icassp/icassp2006#conf/icassp/DasPN06",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICASSP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2006
+        }
+      ]
+    },
+    {
+      "key": "conf/icassp/PandaCG87",
+      "type": "inproceedings",
+      "title": "Assessment of finite precision limitations in LMS and BLMS adaptive algorithms.",
+      "year": 1987,
+      "publication_year": 1987,
+      "event_year": 1987,
+      "venue": "ICASSP",
+      "booktitle": "ICASSP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "137-140",
+      "authors": [
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/35/1547",
+        "https://dblp.org/pid/c/ColinCowan"
+      ],
+      "dois": [
+        "10.1109/icassp.1987.1169703"
+      ],
+      "url": "https://dblp.org/db/conf/icassp/icassp1987#conf/icassp/PandaCG87",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICASSP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 1987
+        }
+      ]
+    },
+    {
+      "key": "conf/icassp/PandaMCG86",
+      "type": "inproceedings",
+      "title": "On the rectangular transform approach for BLMS adaptive filtering.",
+      "year": 1986,
+      "publication_year": 1986,
+      "event_year": 1986,
+      "venue": "ICASSP",
+      "booktitle": "ICASSP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2955-2958",
+      "authors": [
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/35/1547",
+        "https://dblp.org/pid/78/703",
+        "https://dblp.org/pid/c/ColinCowan"
+      ],
+      "dois": [
+        "10.1109/icassp.1986.1168744"
+      ],
+      "url": "https://dblp.org/db/conf/icassp/icassp1986#conf/icassp/PandaMCG86",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICASSP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 1986
+        }
+      ]
+    },
+    {
+      "key": "conf/icassp/PandaPC81",
+      "type": "inproceedings",
+      "title": "Fixed-point error analysis of Winograd basic DFT algorithms considering correlation between noise sources.",
+      "year": 1981,
+      "publication_year": 1981,
+      "event_year": 1981,
+      "venue": "ICASSP",
+      "booktitle": "ICASSP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1184-1188",
+      "authors": [
+        "https://dblp.org/pid/147/9834",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/71/2795"
+      ],
+      "dois": [
+        "10.1109/icassp.1981.1171122"
+      ],
+      "url": "https://dblp.org/db/conf/icassp/icassp1981#conf/icassp/PandaPC81",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICASSP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 1981
+        }
+      ]
+    },
+    {
+      "key": "conf/icassp/PandaPC82",
+      "type": "inproceedings",
+      "title": "Fixed-point error analysis of rectangular transform.",
+      "year": 1982,
+      "publication_year": 1982,
+      "event_year": 1982,
+      "venue": "ICASSP",
+      "booktitle": "ICASSP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "69-72",
+      "authors": [
+        "https://dblp.org/pid/147/9834",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/71/2795"
+      ],
+      "dois": [
+        "10.1109/icassp.1982.1171391"
+      ],
+      "url": "https://dblp.org/db/conf/icassp/icassp1982#conf/icassp/PandaPC82",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICASSP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 1982
+        }
+      ]
+    },
+    {
       "key": "conf/icassp/VamsikrishnaDB16",
       "type": "inproceedings",
       "title": "Classification of head movement patterns to aid patients undergoing home-based cervical spine rehabilitation.",
@@ -643,6 +1784,319 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/icc/SubadarRS10",
+      "type": "inproceedings",
+      "title": "Performance of an L-SC Receiver over kappa-mu and eta-mu Fading Channels.",
+      "year": 2010,
+      "publication_year": 2010,
+      "event_year": 2010,
+      "venue": "ICC",
+      "booktitle": "ICC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/47/10062",
+        "https://dblp.org/pid/59/7046",
+        "https://dblp.org/pid/65/9486"
+      ],
+      "dois": [
+        "10.1109/icc.2010.5502444"
+      ],
+      "url": "https://dblp.org/db/conf/icc/icc2010#conf/icc/SubadarRS10",
+      "faculty": [
+        "P. R. Sahu 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2010
+        }
+      ]
+    },
+    {
+      "key": "conf/icccs/PanigrahiHPMM11",
+      "type": "inproceedings",
+      "title": "Maximum likelihood DOA estimation in distributed wireless sensor network using adaptive particle swarm optimization.",
+      "year": 2011,
+      "publication_year": 2011,
+      "event_year": 2011,
+      "venue": "ICCCS",
+      "booktitle": "ICCCS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "134-137",
+      "authors": [
+        "https://dblp.org/pid/14/7689",
+        "https://dblp.org/pid/15/9555",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/39/6234",
+        "https://dblp.org/pid/78/703"
+      ],
+      "dois": [
+        "10.1145/1947940.1947969"
+      ],
+      "url": "https://dblp.org/db/conf/icccs/icccs2011#conf/icccs/PanigrahiHPMM11",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICCCS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2011
+        }
+      ]
+    },
+    {
+      "key": "conf/icdcn/0004M23",
+      "type": "inproceedings",
+      "title": "An Approximation Algorithm for Path Planning of Vehicles for Data Collection in Wireless Rechargeable Sensor Networks.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "ICDCN",
+      "booktitle": "ICDCN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "207-216",
+      "authors": [
+        "https://dblp.org/pid/126/2521",
+        "https://dblp.org/pid/19/139-4"
+      ],
+      "dois": [
+        "10.1145/3571306.3571405"
+      ],
+      "url": "https://dblp.org/db/conf/icdcn/icdcn2023#conf/icdcn/0004M23",
+      "faculty": [
+        "Rohit Kumar 0004"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICDCN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/icdcn/0004M25",
+      "type": "inproceedings",
+      "title": "On-demand Multi-Node Partial Charging Scheme using Multiple Wireless Charging Vehicles in WRSN.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "ICDCN",
+      "booktitle": "ICDCN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "21-30",
+      "authors": [
+        "https://dblp.org/pid/126/2521",
+        "https://dblp.org/pid/19/139-4"
+      ],
+      "dois": [
+        "10.1145/3700838.3700848"
+      ],
+      "url": "https://dblp.org/db/conf/icdcn/icdcn2025#conf/icdcn/0004M25",
+      "faculty": [
+        "Rohit Kumar 0004"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICDCN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/icdim/MajhiP06",
+      "type": "inproceedings",
+      "title": "Recovery of Digital Information Using Bacterial Foraging Optimization Based Nonlinear Channel Equalizers.",
+      "year": 2006,
+      "publication_year": 2006,
+      "event_year": 2006,
+      "venue": "ICDIM",
+      "booktitle": "ICDIM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "367-372",
+      "authors": [
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/39/6234"
+      ],
+      "dois": [
+        "10.1109/icdim.2007.369224"
+      ],
+      "url": "https://dblp.org/db/conf/icdim/icdim2006#conf/icdim/MajhiP06",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICDIM",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2006
+        }
+      ]
+    },
+    {
+      "key": "conf/icdsp/PandaPP14",
+      "type": "inproceedings",
+      "title": "Hausdorff symmetry operator towards retinal blood vessel segmentation.",
+      "year": 2014,
+      "publication_year": 2014,
+      "event_year": 2014,
+      "venue": "DSP",
+      "booktitle": "DSP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "611-616",
+      "authors": [
+        "https://dblp.org/pid/160/0615",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/80/4084"
+      ],
+      "dois": [
+        "10.1109/icdsp.2014.6900737"
+      ],
+      "url": "https://dblp.org/db/conf/icdsp/icdsp2014#conf/icdsp/PandaPP14",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "DSP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "conf/icetet/AcharyaPP08",
+      "type": "inproceedings",
+      "title": "Image Encryption by Novel Cryptosystem Using Matrix Transformation.",
+      "year": 2008,
+      "publication_year": 2008,
+      "event_year": 2008,
+      "venue": "ICETET",
+      "booktitle": "ICETET",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "77-81",
+      "authors": [
+        "https://dblp.org/pid/01/6308",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/43/8837"
+      ],
+      "dois": [
+        "10.1109/icetet.2008.110"
+      ],
+      "url": "https://dblp.org/db/conf/icetet/icetet2008#conf/icetet/AcharyaPP08",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICETET",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2008
+        }
+      ]
+    },
+    {
+      "key": "conf/iciis/NandaPM08",
+      "type": "inproceedings",
+      "title": "Development of Novel Digital Equalizers for Noisy Nonlinear Channel using Artificial Immune System.",
+      "year": 2008,
+      "publication_year": 2008,
+      "event_year": 2008,
+      "venue": "ICIIS",
+      "booktitle": "ICIIS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/39/6234",
+        "https://dblp.org/pid/92/8046"
+      ],
+      "dois": [
+        "10.1109/iciinfs.2008.4798337"
+      ],
+      "url": "https://dblp.org/db/conf/iciis/iciis2008#conf/iciis/NandaPM08",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICIIS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2008
+        }
+      ]
+    },
+    {
+      "key": "conf/icnn/PandaC97",
+      "type": "inproceedings",
+      "title": "Broadband noise cancellation using a functional link ANN based nonlinear filter.",
+      "year": 1997,
+      "publication_year": 1997,
+      "event_year": 1997,
+      "venue": "ICNN",
+      "booktitle": "ICNN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2061-2066",
+      "authors": [
+        "https://dblp.org/pid/247/0453",
+        "https://dblp.org/pid/30/1996"
+      ],
+      "dois": [
+        "10.1109/icnn.1997.614219"
+      ],
+      "url": "https://dblp.org/db/conf/icnn/icnn1997#conf/icnn/PandaC97",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICNN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 1997
         }
       ]
     },
@@ -722,6 +2176,255 @@
       ]
     },
     {
+      "key": "conf/icspcs/GeorgePK13",
+      "type": "inproceedings",
+      "title": "On the development of a partial update multichannel nonlinear active noise control system.",
+      "year": 2013,
+      "publication_year": 2013,
+      "event_year": 2013,
+      "venue": "ICSPCS",
+      "booktitle": "ICSPCS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-4",
+      "authors": [
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/42/10406",
+        "https://dblp.org/pid/82/7475"
+      ],
+      "dois": [
+        "10.1109/icspcs.2013.6723937"
+      ],
+      "url": "https://dblp.org/db/conf/icspcs/icspcs2013#conf/icspcs/GeorgePK13",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICSPCS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2013
+        }
+      ]
+    },
+    {
+      "key": "conf/iicaiet/BrahmaSP22",
+      "type": "inproceedings",
+      "title": "Efficient Spectrum Allocation in Cognitive Radio using Yellow Saddle Goatfish Algorithm.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "IICAIET",
+      "booktitle": "IICAIET",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/209/7909",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/333/4669"
+      ],
+      "dois": [
+        "10.1109/iicaiet55139.2022.9936873"
+      ],
+      "url": "https://dblp.org/db/conf/iicaiet/iicaiet2022#conf/iicaiet/BrahmaSP22",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IICAIET",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/isbi/PandaPRPP17",
+      "type": "inproceedings",
+      "title": "Recurrent neural network based retinal nerve fiber layer defect detection in early glaucoma.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "ISBI",
+      "booktitle": "ISBI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "692-695",
+      "authors": [
+        "https://dblp.org/pid/160/0615",
+        "https://dblp.org/pid/201/7592",
+        "https://dblp.org/pid/201/7689",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/80/4084"
+      ],
+      "dois": [
+        "10.1109/isbi.2017.7950614"
+      ],
+      "url": "https://dblp.org/db/conf/isbi/isbi2017#conf/isbi/PandaPRPP17",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ISBI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/ised/BabuSKSS11",
+      "type": "inproceedings",
+      "title": "Design and Implementation of Low Power Smart PV Energy System for Portable Applications Using Synchronous Buck Converter.",
+      "year": 2011,
+      "publication_year": 2011,
+      "event_year": 2011,
+      "venue": "ISED",
+      "booktitle": "ISED",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "260-266",
+      "authors": [
+        "https://dblp.org/pid/115/4793",
+        "https://dblp.org/pid/115/4800",
+        "https://dblp.org/pid/233/8198",
+        "https://dblp.org/pid/233/8273",
+        "https://dblp.org/pid/94/4702"
+      ],
+      "dois": [
+        "10.1109/ised.2011.56"
+      ],
+      "url": "https://dblp.org/db/conf/ised/ised2011#conf/ised/BabuSKSS11",
+      "faculty": [
+        "S. R. Samantaray 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ISED",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2011
+        }
+      ]
+    },
+    {
+      "key": "conf/isgt/SamantarayJK12",
+      "type": "inproceedings",
+      "title": "Differential energy based microgrid protection against fault conditions.",
+      "year": 2012,
+      "publication_year": 2012,
+      "event_year": 2012,
+      "venue": "ISGT",
+      "booktitle": "ISGT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-7",
+      "authors": [
+        "https://dblp.org/pid/28/7483",
+        "https://dblp.org/pid/94/4702",
+        "https://dblp.org/pid/99/1002"
+      ],
+      "dois": [
+        "10.1109/isgt.2012.6175532"
+      ],
+      "url": "https://dblp.org/db/conf/isgt/isgt2012#conf/isgt/SamantarayJK12",
+      "faculty": [
+        "S. R. Samantaray 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ISGT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2012
+        }
+      ]
+    },
+    {
+      "key": "conf/isspit/VasundharaPP15",
+      "type": "inproceedings",
+      "title": "A VSS sparseness controlled algorithm for feedback suppression in hearing aids.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "ISSPIT",
+      "booktitle": "ISSPIT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "151-156",
+      "authors": [
+        "https://dblp.org/pid/141/6150",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/80/4084"
+      ],
+      "dois": [
+        "10.1109/isspit.2015.7394318"
+      ],
+      "url": "https://dblp.org/db/conf/isspit/isspit2015#conf/isspit/VasundharaPP15",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ISSPIT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/isspit/VasundharaPP15a",
+      "type": "inproceedings",
+      "title": "A low complexity delayless frequency domain feedback canceller for hearing aids.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "ISSPIT",
+      "booktitle": "ISSPIT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "157-162",
+      "authors": [
+        "https://dblp.org/pid/141/6150",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/80/4084"
+      ],
+      "dois": [
+        "10.1109/isspit.2015.7394319"
+      ],
+      "url": "https://dblp.org/db/conf/isspit/isspit2015#conf/isspit/VasundharaPP15a",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ISSPIT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
       "key": "conf/jcdl/JanaMMG17",
       "type": "inproceedings",
       "title": "WikiM: Metapaths Based Wikification of Scientific Abstracts.",
@@ -758,6 +2461,41 @@
       ]
     },
     {
+      "key": "conf/mass/Debadarshini0S20",
+      "type": "inproceedings",
+      "title": "Fine-grained Frequencies for Simultaneous Intra-Group One-to-All Dissemination.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "MASS",
+      "booktitle": "MASS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "473-481",
+      "authors": [
+        "https://dblp.org/pid/283/3237",
+        "https://dblp.org/pid/286/2829",
+        "https://dblp.org/pid/81/6959"
+      ],
+      "dois": [
+        "10.1109/mass50613.2020.00064"
+      ],
+      "url": "https://dblp.org/db/conf/mass/mass2020#conf/mass/Debadarshini0S20",
+      "faculty": [
+        "Chandra Shekhar 0007"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "MASS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
       "key": "conf/mm/NayakTXLD25",
       "type": "inproceedings",
       "title": "Can Person-Level Attributes Improve Group Re-Identification?",
@@ -782,7 +2520,8 @@
       ],
       "url": "https://dblp.org/db/conf/mm/mm2025#conf/mm/NayakTXLD25",
       "faculty": [
-        "Debi Prosad Dogra"
+        "Debi Prosad Dogra",
+        "Thakare Kamalakar Vijay"
       ],
       "memberships": [
         {
@@ -843,6 +2582,673 @@
       ]
     },
     {
+      "key": "conf/nabic/BaghelPSRM09",
+      "type": "inproceedings",
+      "title": "An Efficient Multi-objective Pulse Radar Compression Technique using RBF and NSGA-II.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "NaBIC",
+      "booktitle": "NaBIC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1291-1296",
+      "authors": [
+        "https://dblp.org/pid/19/9322",
+        "https://dblp.org/pid/197/1384",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/39/6234",
+        "https://dblp.org/pid/43/9322"
+      ],
+      "dois": [
+        "10.1109/nabic.2009.5393761"
+      ],
+      "url": "https://dblp.org/db/conf/nabic/nabic2009#conf/nabic/BaghelPSRM09",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NaBIC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/nabic/MajhiMPR09",
+      "type": "inproceedings",
+      "title": "Efficient Sales Forecasting using PSO based Adaptive ARMA Model.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "NaBIC",
+      "booktitle": "NaBIC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1333-1337",
+      "authors": [
+        "https://dblp.org/pid/16/9323",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/30/9323",
+        "https://dblp.org/pid/80/5673"
+      ],
+      "dois": [
+        "10.1109/nabic.2009.5393738"
+      ],
+      "url": "https://dblp.org/db/conf/nabic/nabic2009#conf/nabic/MajhiMPR09",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NaBIC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/nabic/MajhiPM09",
+      "type": "inproceedings",
+      "title": "Robust Prediction of Stock Indices using PSO based Adaptive Linear Combiner.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "NaBIC",
+      "booktitle": "NaBIC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "312-317",
+      "authors": [
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/39/6234",
+        "https://dblp.org/pid/80/5673"
+      ],
+      "dois": [
+        "10.1109/nabic.2009.5393728"
+      ],
+      "url": "https://dblp.org/db/conf/nabic/nabic2009#conf/nabic/MajhiPM09",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NaBIC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/nabic/MajhiPMPM09",
+      "type": "inproceedings",
+      "title": "Forecasting of Retail Sales Data using Differential Evolution.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "NaBIC",
+      "booktitle": "NaBIC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1343-1348",
+      "authors": [
+        "https://dblp.org/pid/14/9324",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/34/9321",
+        "https://dblp.org/pid/39/6234",
+        "https://dblp.org/pid/80/5673"
+      ],
+      "dois": [
+        "10.1109/nabic.2009.5393740"
+      ],
+      "url": "https://dblp.org/db/conf/nabic/nabic2009#conf/nabic/MajhiPMPM09",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NaBIC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/nabic/MishraMPP09",
+      "type": "inproceedings",
+      "title": "Comparative Performance Evaluation of Multiobjective Optimization Algorithms for Portfolio Management.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "NaBIC",
+      "booktitle": "NaBIC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1338-1342",
+      "authors": [
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/74/9321",
+        "https://dblp.org/pid/83/4334",
+        "https://dblp.org/pid/89/3858"
+      ],
+      "dois": [
+        "10.1109/nabic.2009.5393739"
+      ],
+      "url": "https://dblp.org/db/conf/nabic/nabic2009#conf/nabic/MishraMPP09",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NaBIC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/nabic/MishraPM09",
+      "type": "inproceedings",
+      "title": "Multi-objective Particle Swarm Optimization Approach to Portfolio Optimization.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "NaBIC",
+      "booktitle": "NaBIC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1612-1615",
+      "authors": [
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/74/9321",
+        "https://dblp.org/pid/89/3858"
+      ],
+      "dois": [
+        "10.1109/nabic.2009.5393659"
+      ],
+      "url": "https://dblp.org/db/conf/nabic/nabic2009#conf/nabic/MishraPM09",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NaBIC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/nabic/NandaBP09",
+      "type": "inproceedings",
+      "title": "Development of a Nonlinear Model of Unijunction Transistor using Artificial Immune System.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "NaBIC",
+      "booktitle": "NaBIC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "725-730",
+      "authors": [
+        "https://dblp.org/pid/29/9321",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/92/8046"
+      ],
+      "dois": [
+        "10.1109/nabic.2009.5393485"
+      ],
+      "url": "https://dblp.org/db/conf/nabic/nabic2009#conf/nabic/NandaBP09",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NaBIC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/nabic/SahooPP09",
+      "type": "inproceedings",
+      "title": "Efficient Design of Pulse Compression Codes using Multiobjective Genetic Algorithm.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "NaBIC",
+      "booktitle": "NaBIC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "324-329",
+      "authors": [
+        "https://dblp.org/pid/13/7687",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/51/7-1"
+      ],
+      "dois": [
+        "10.1109/nabic.2009.5393731"
+      ],
+      "url": "https://dblp.org/db/conf/nabic/nabic2009#conf/nabic/SahooPP09",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NaBIC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/nabic/SahuPN09",
+      "type": "inproceedings",
+      "title": "Improved Protein Structural Class Prediction using Genetic Algorithm and Artificial Immune System.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "NaBIC",
+      "booktitle": "NaBIC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "731-735",
+      "authors": [
+        "https://dblp.org/pid/21/8891",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/92/8046"
+      ],
+      "dois": [
+        "10.1109/nabic.2009.5393488"
+      ],
+      "url": "https://dblp.org/db/conf/nabic/nabic2009#conf/nabic/SahuPN09",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NaBIC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/BhagatS26",
+      "type": "inproceedings",
+      "title": "Joint Estimation and Compensation for Receiver IQ Imbalance in IRS-Assisted OTFS System.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "138-143",
+      "authors": [
+        "https://dblp.org/pid/390/8083",
+        "https://dblp.org/pid/59/7046"
+      ],
+      "dois": [
+        "10.1109/ncc68160.2026.11478906"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2026#conf/ncc/BhagatS26",
+      "faculty": [
+        "P. R. Sahu 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/NeelamS19",
+      "type": "inproceedings",
+      "title": "Error performance of QAM GFDM waveform with CFO under AWGN and TWDP fading channel.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/154/8660",
+        "https://dblp.org/pid/59/7046"
+      ],
+      "dois": [
+        "10.1109/ncc.2019.8732207"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2019#conf/ncc/NeelamS19",
+      "faculty": [
+        "P. R. Sahu 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/NeelamS20",
+      "type": "inproceedings",
+      "title": "Error performance of OTFS in the presence of IQI and PA Nonlinearity.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/154/8660",
+        "https://dblp.org/pid/59/7046"
+      ],
+      "dois": [
+        "10.1109/ncc48643.2020.9056040"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2020#conf/ncc/NeelamS20",
+      "faculty": [
+        "P. R. Sahu 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/NeelamS23",
+      "type": "inproceedings",
+      "title": "Joint Compensation of TX/RX IQ Imbalance and Channel parameters for OTFS Systems under Timing Offset.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/154/8660",
+        "https://dblp.org/pid/59/7046"
+      ],
+      "dois": [
+        "10.1109/ncc56989.2023.10067967"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2023#conf/ncc/NeelamS23",
+      "faculty": [
+        "P. R. Sahu 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/NeelamS24",
+      "type": "inproceedings",
+      "title": "Detection Techniques for SISO/MIMO-OTSM Systems with Hardware Impairments Under High Mobility Scenarios.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/154/8660",
+        "https://dblp.org/pid/59/7046"
+      ],
+      "dois": [
+        "10.1109/ncc60321.2024.10485695"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2024#conf/ncc/NeelamS24",
+      "faculty": [
+        "P. R. Sahu 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/PadhanSSS22",
+      "type": "inproceedings",
+      "title": "Analysis of Smart Grid Wide Area Network for Three Hop Mixed PLC/RF/FSO Channel.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "431-436",
+      "authors": [
+        "https://dblp.org/pid/239/3240",
+        "https://dblp.org/pid/252/9949",
+        "https://dblp.org/pid/59/7046",
+        "https://dblp.org/pid/94/4702"
+      ],
+      "dois": [
+        "10.1109/ncc55593.2022.9806792"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2022#conf/ncc/PadhanSSS22",
+      "faculty": [
+        "P. R. Sahu 0001",
+        "S. R. Samantaray 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/PathakS14",
+      "type": "inproceedings",
+      "title": "BER performance of switched diversity receivers over к-μ and η-μ fading channels.",
+      "year": 2014,
+      "publication_year": 2014,
+      "event_year": 2014,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/177/9357",
+        "https://dblp.org/pid/59/7046"
+      ],
+      "dois": [
+        "10.1109/ncc.2014.6811244"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2014#conf/ncc/PathakS14",
+      "faculty": [
+        "P. R. Sahu 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/Sahu0M20",
+      "type": "inproceedings",
+      "title": "ABEP of SSK with SWIPT at Relay and Generalised Selection Combining at the Destination over Rayleigh Fading.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/239/3240",
+        "https://dblp.org/pid/343/5803",
+        "https://dblp.org/pid/59/7046"
+      ],
+      "dois": [
+        "10.1109/ncc48643.2020.9056036"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2020#conf/ncc/Sahu0M20",
+      "faculty": [
+        "P. R. Sahu 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/SahuPDS23",
+      "type": "inproceedings",
+      "title": "Performance Analysis of Smart Grid Network with Energy Harvesting over Mixed RF/PLC Channel.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/239/3240",
+        "https://dblp.org/pid/252/9949",
+        "https://dblp.org/pid/285/6611",
+        "https://dblp.org/pid/59/7046"
+      ],
+      "dois": [
+        "10.1109/ncc56989.2023.10067970"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2023#conf/ncc/SahuPDS23",
+      "faculty": [
+        "P. R. Sahu 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/SahuS19",
+      "type": "inproceedings",
+      "title": "SSK Performance with SWIPT based Dual-Hop AF Relay over Rayleigh Fading.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/239/3240",
+        "https://dblp.org/pid/59/7046"
+      ],
+      "dois": [
+        "10.1109/ncc.2019.8732187"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2019#conf/ncc/SahuS19",
+      "faculty": [
+        "P. R. Sahu 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
       "key": "conf/ncvpripg/BhoiDR15",
       "type": "inproceedings",
       "title": "Handwritten text recognition in Odia script using Hidden Markov Model.",
@@ -874,6 +3280,112 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/ncvpripg/DashPP15",
+      "type": "inproceedings",
+      "title": "Synthetic handwritten Odia numeral database: From shallow hundreds to comprehensive thousands.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "NCVPRIPG",
+      "booktitle": "NCVPRIPG",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-4",
+      "authors": [
+        "https://dblp.org/pid/167/0293",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/80/4084"
+      ],
+      "dois": [
+        "10.1109/ncvpripg.2015.7490025"
+      ],
+      "url": "https://dblp.org/db/conf/ncvpripg/ncvpripg2015#conf/ncvpripg/DashPP15",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCVPRIPG",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/ncvpripg/PandaPP15",
+      "type": "inproceedings",
+      "title": "Global vessel symmetry for optic disc detection in retinal images.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "NCVPRIPG",
+      "booktitle": "NCVPRIPG",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-4",
+      "authors": [
+        "https://dblp.org/pid/160/0615",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/80/4084"
+      ],
+      "dois": [
+        "10.1109/ncvpripg.2015.7490044"
+      ],
+      "url": "https://dblp.org/db/conf/ncvpripg/ncvpripg2015#conf/ncvpripg/PandaPP15",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCVPRIPG",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/rait/RoutNAP12",
+      "type": "inproceedings",
+      "title": "Design of LC VCO for optimal figure of merit performance using CMODE.",
+      "year": 2012,
+      "publication_year": 2012,
+      "event_year": 2012,
+      "venue": "RAIT",
+      "booktitle": "RAIT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "761-764",
+      "authors": [
+        "https://dblp.org/pid/144/8118",
+        "https://dblp.org/pid/144/8140",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/53/5233"
+      ],
+      "dois": [
+        "10.1109/rait.2012.6194550"
+      ],
+      "url": "https://dblp.org/db/conf/rait/rait2012#conf/rait/RoutNAP12",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "RAIT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2012
         }
       ]
     },
@@ -995,6 +3507,41 @@
       ]
     },
     {
+      "key": "conf/smartgridcomm/DebadarshiniSS22",
+      "type": "inproceedings",
+      "title": "Decentralized Load Management in HAN: An IoT-Assisted Approach.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "SmartGridComm",
+      "booktitle": "SmartGridComm",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "148-153",
+      "authors": [
+        "https://dblp.org/pid/283/3237",
+        "https://dblp.org/pid/81/6959",
+        "https://dblp.org/pid/94/4702"
+      ],
+      "dois": [
+        "10.1109/smartgridcomm52983.2022.9960995"
+      ],
+      "url": "https://dblp.org/db/conf/smartgridcomm/smartgridcomm2022#conf/smartgridcomm/DebadarshiniSS22",
+      "faculty": [
+        "S. R. Samantaray 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "SmartGridComm",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
       "key": "conf/spcom/RichaADD22",
       "type": "inproceedings",
       "title": "Patch Level Segmentation and Visualization of Capsule Network Inference for Breast Metastases Detection.",
@@ -1027,6 +3574,41 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/spcom/VasundharaPP18",
+      "type": "inproceedings",
+      "title": "Proportionate subband filtering technique with $l_{1}$-norm for feedback cancellation in hearing aids.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "SPCOM",
+      "booktitle": "SPCOM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "26-30",
+      "authors": [
+        "https://dblp.org/pid/141/6150",
+        "https://dblp.org/pid/30/1996",
+        "https://dblp.org/pid/80/4084"
+      ],
+      "dois": [
+        "10.1109/spcom.2018.8724472"
+      ],
+      "url": "https://dblp.org/db/conf/spcom/spcom2018#conf/spcom/VasundharaPP18",
+      "faculty": [
+        "Ganapati Panda"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "SPCOM",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
         }
       ]
     },
@@ -1067,6 +3649,247 @@
       ]
     },
     {
+      "key": "conf/vtc/BhagatNS24",
+      "type": "inproceedings",
+      "title": "BER Analysis of IRS Aided OTFS Modulation in Presence of IQ Imbalance at the Receiver.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "VTC Spring",
+      "booktitle": "VTC Spring",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/154/8660",
+        "https://dblp.org/pid/390/8083",
+        "https://dblp.org/pid/59/7046"
+      ],
+      "dois": [
+        "10.1109/vtc2024-spring62846.2024.10683672"
+      ],
+      "url": "https://dblp.org/db/conf/vtc/vtc2024s#conf/vtc/BhagatNS24",
+      "faculty": [
+        "P. R. Sahu 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VTC Spring",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/vtc/BhagatNS25",
+      "type": "inproceedings",
+      "title": "Estimation and Compensation of IQ Imbalance at the Receiver of IRS-Assisted SISO OTSM System Under Perfect Phase Optimization.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "VTC2025-Spring",
+      "booktitle": "VTC2025-Spring",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/154/8660",
+        "https://dblp.org/pid/417/9802",
+        "https://dblp.org/pid/59/7046"
+      ],
+      "dois": [
+        "10.1109/vtc2025-spring65109.2025.11174331"
+      ],
+      "url": "https://dblp.org/db/conf/vtc/vtc2025s#conf/vtc/BhagatNS25",
+      "faculty": [
+        "P. R. Sahu 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VTC2025-Spring",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/vtc/DixitS14",
+      "type": "inproceedings",
+      "title": "Performance of Multihop Communication Systems with Regenerative Relays in eta-mu Fading Channels.",
+      "year": 2014,
+      "publication_year": 2014,
+      "event_year": 2014,
+      "venue": "VTC Spring",
+      "booktitle": "VTC Spring",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/59/7046",
+        "https://dblp.org/pid/93/11223"
+      ],
+      "dois": [
+        "10.1109/vtcspring.2014.7023052"
+      ],
+      "url": "https://dblp.org/db/conf/vtc/vtc2014s#conf/vtc/DixitS14",
+      "faculty": [
+        "P. R. Sahu 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VTC Spring",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "conf/vtc/DixitS17",
+      "type": "inproceedings",
+      "title": "Outage Probability of Cooperative Relay Networks in eta-µ, kappa-µ and Mixed Fading Channels.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "VTC Fall",
+      "booktitle": "VTC Fall",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/59/7046",
+        "https://dblp.org/pid/93/11223"
+      ],
+      "dois": [
+        "10.1109/vtcfall.2017.8288003"
+      ],
+      "url": "https://dblp.org/db/conf/vtc/vtc2017f#conf/vtc/DixitS17",
+      "faculty": [
+        "P. R. Sahu 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VTC Fall",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/vtc/SahuS19",
+      "type": "inproceedings",
+      "title": "Performance of Dual-Hop DF Relay with SSK Modulation and SWIPT over Rayleigh Fading.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "VTC Spring",
+      "booktitle": "VTC Spring",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/239/3240",
+        "https://dblp.org/pid/59/7046"
+      ],
+      "dois": [
+        "10.1109/vtcspring.2019.8746648"
+      ],
+      "url": "https://dblp.org/db/conf/vtc/vtc2019s#conf/vtc/SahuS19",
+      "faculty": [
+        "P. R. Sahu 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VTC Spring",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/vtc/ShekharKS24",
+      "type": "inproceedings",
+      "title": "Real Time Vehicle Identification: An IoT-Assisted Approach.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "VTC Spring",
+      "booktitle": "VTC Spring",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/286/2829",
+        "https://dblp.org/pid/310/6810",
+        "https://dblp.org/pid/81/6959"
+      ],
+      "dois": [
+        "10.1109/vtc2024-spring62846.2024.10683071"
+      ],
+      "url": "https://dblp.org/db/conf/vtc/vtc2024s#conf/vtc/ShekharKS24",
+      "faculty": [
+        "Chandra Shekhar 0007"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VTC Spring",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/vtc/ShekharS24",
+      "type": "inproceedings",
+      "title": "LOCUS: Efficient Urban Transportation Using Localized Vehicular Coordination.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "VTC Spring",
+      "booktitle": "VTC Spring",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/286/2829",
+        "https://dblp.org/pid/81/6959"
+      ],
+      "dois": [
+        "10.1109/vtc2024-spring62846.2024.10683078"
+      ],
+      "url": "https://dblp.org/db/conf/vtc/vtc2024s#conf/vtc/ShekharS24",
+      "faculty": [
+        "Chandra Shekhar 0007"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VTC Spring",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
       "key": "conf/wacv/KhanGTCJDK26",
       "type": "inproceedings",
       "title": "VAST-ReID: A Low-Light Benchmark Dataset for Person Re-Identification with Visual and Attribute-Rich Semantic Tracking.",
@@ -1093,7 +3916,8 @@
       ],
       "url": "https://dblp.org/db/conf/wacv/wacv2026#conf/wacv/KhanGTCJDK26",
       "faculty": [
-        "Debi Prosad Dogra"
+        "Debi Prosad Dogra",
+        "Thakare Kamalakar Vijay"
       ],
       "memberships": [
         {
@@ -1142,7 +3966,8 @@
       ],
       "url": "https://dblp.org/db/conf/wacv/wacv2026#conf/wacv/RampuriaNTJSPCJDK26",
       "faculty": [
-        "Debi Prosad Dogra"
+        "Debi Prosad Dogra",
+        "Thakare Kamalakar Vijay"
       ],
       "memberships": [
         {
@@ -1186,7 +4011,8 @@
       ],
       "url": "https://dblp.org/db/conf/wacv/wacv2024#conf/wacv/ThakareDCKK24",
       "faculty": [
-        "Debi Prosad Dogra"
+        "Debi Prosad Dogra",
+        "Thakare Kamalakar Vijay"
       ],
       "memberships": [
         {
@@ -1232,7 +4058,8 @@
       ],
       "url": "https://dblp.org/db/conf/wacv/wacv2025#conf/wacv/ThakareLNDCJK25",
       "faculty": [
-        "Debi Prosad Dogra"
+        "Debi Prosad Dogra",
+        "Thakare Kamalakar Vijay"
       ],
       "memberships": [
         {
@@ -1276,7 +4103,8 @@
       ],
       "url": "https://dblp.org/db/conf/wacv/wacv2023#conf/wacv/ThakareRDCK23",
       "faculty": [
-        "Debi Prosad Dogra"
+        "Debi Prosad Dogra",
+        "Thakare Kamalakar Vijay"
       ],
       "memberships": [
         {

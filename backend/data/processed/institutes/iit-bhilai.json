@@ -5,7 +5,7 @@
     "slug": "iit-bhilai",
     "homepage": "https://www.iitbhilai.ac.in/index.php?pid=dept_cse",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-10-20T20:15:14.968062+00:00",
+    "generated_at": "2026-11-19T18:00:48.202069+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -155,59 +155,73 @@
   "faculty": [
     {
       "name": "Amit Kumar Dhar",
-      "dblp_url": "https://dblp.org/pid/48/11471"
+      "dblp_url": "https://dblp.org/pid/48/11471",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Anand M. Baswade",
-      "dblp_url": "https://dblp.org/pid/177/7886"
+      "dblp_url": "https://dblp.org/pid/177/7886",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Barun Gorain",
-      "dblp_url": "https://dblp.org/pid/122/3006"
+      "dblp_url": "https://dblp.org/pid/122/3006",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Dhiman Saha",
-      "dblp_url": "https://dblp.org/pid/32/6561"
+      "dblp_url": "https://dblp.org/pid/32/6561",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Gagan Raj Gupta 0001",
-      "dblp_url": "https://dblp.org/pid/20/860-1"
+      "dblp_url": "https://dblp.org/pid/20/860-1",
+      "affiliation_status": "current"
     },
     {
       "name": "I. Vinod Reddy",
-      "dblp_url": "https://dblp.org/pid/158/8471"
+      "dblp_url": "https://dblp.org/pid/158/8471",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Rajesh Kumar Mundotiya",
-      "dblp_url": "https://dblp.org/pid/208/4429"
+      "dblp_url": "https://dblp.org/pid/208/4429",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Rishi Ranjan Singh",
-      "dblp_url": "https://dblp.org/pid/129/1674"
+      "dblp_url": "https://dblp.org/pid/129/1674",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Santosh Biswas",
-      "dblp_url": "https://dblp.org/pid/70/2285"
+      "dblp_url": "https://dblp.org/pid/70/2285",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Soumajit Pramanik",
-      "dblp_url": "https://dblp.org/pid/61/11469"
+      "dblp_url": "https://dblp.org/pid/61/11469",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Souradyuti Paul",
-      "dblp_url": "https://dblp.org/pid/40/6271"
+      "dblp_url": "https://dblp.org/pid/40/6271",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Subhajit Sidhanta",
-      "dblp_url": "https://dblp.org/pid/117/7682"
+      "dblp_url": "https://dblp.org/pid/117/7682",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Subidh Ali",
-      "dblp_url": "https://dblp.org/pid/80/9687"
+      "dblp_url": "https://dblp.org/pid/80/9687",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Vishwesh Jatala",
-      "dblp_url": "https://dblp.org/pid/160/8460"
+      "dblp_url": "https://dblp.org/pid/160/8460",
+      "affiliation_status": "unknown"
     }
   ],
   "publications": [
@@ -4042,6 +4056,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "ICDCS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        },
+        {
           "source": "ieee",
           "venue": "ICDCS",
           "area": "publisher-other",
@@ -4255,6 +4276,40 @@
       ]
     },
     {
+      "key": "conf/icwsm/BhowmickPPM20",
+      "type": "inproceedings",
+      "title": "On the Splitting Dynamics of Meetup Social Groups.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "ICWSM",
+      "booktitle": "ICWSM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "929-933",
+      "authors": [
+        "https://dblp.org/pid/202/5995",
+        "https://dblp.org/pid/49/4803",
+        "https://dblp.org/pid/61/11469",
+        "https://dblp.org/pid/89/4514"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/icwsm/icwsm2020#conf/icwsm/BhowmickPPM20",
+      "faculty": [
+        "Soumajit Pramanik"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ICWSM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
       "key": "conf/icwsm/BhowmickPPM21",
       "type": "inproceedings",
       "title": "On the Role of Micro-categories to Characterize Event Popularity in Meetup.",
@@ -4285,6 +4340,40 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/icwsm/PramanikGPM16",
+      "type": "inproceedings",
+      "title": "Predicting Group Success in Meetup.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "ICWSM",
+      "booktitle": "ICWSM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "663-666",
+      "authors": [
+        "https://dblp.org/pid/180/1570",
+        "https://dblp.org/pid/49/4803",
+        "https://dblp.org/pid/61/11469",
+        "https://dblp.org/pid/89/4514"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/icwsm/icwsm2016#conf/icwsm/PramanikGPM16",
+      "faculty": [
+        "Soumajit Pramanik"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ICWSM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2016
         }
       ]
     },
@@ -4360,6 +4449,40 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/ijcnn/PadhiA26",
+      "type": "inproceedings",
+      "title": "Generalized Adversarial Overwriting Attack on Deep Learning-Based Watermarking Under Restricted Black-Box Access.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "IJCNN",
+      "booktitle": "IJCNN",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/361/0162",
+        "https://dblp.org/pid/80/9687"
+      ],
+      "dois": [
+        "10.1109/ijcnn69854.2026.11728882"
+      ],
+      "url": "https://dblp.org/db/conf/ijcnn/ijcnn2026#conf/ijcnn/PadhiA26",
+      "faculty": [
+        "Subidh Ali"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IJCNN",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
         }
       ]
     },
@@ -5291,6 +5414,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "MOBICOM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2018
+        },
+        {
           "source": "acm",
           "venue": "MobiCom",
           "area": "publisher-other",
@@ -5604,6 +5734,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "SENSYS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        },
+        {
           "source": "acm",
           "venue": "SenSys",
           "area": "publisher-other",
@@ -5772,6 +5909,13 @@
         "Gagan Raj Gupta 0001"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "SIGMETRICS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2008
+        },
         {
           "source": "acm",
           "venue": "SIGMETRICS",

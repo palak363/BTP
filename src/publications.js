@@ -12,6 +12,9 @@ export function isTransactionPaper(paper) {
 
 export function isVisiblePaper(paper) {
   if (paper.type !== "article") return true;
+  const isRankedVenue = (paper.memberships || []).some(({ source }) =>
+    source === "csrankings" || source === "core-a-star" || source === "core-a");
+  if (isRankedVenue) return true;
   const venue = paper.journal || venueName(paper);
   const isAcmIeee = acmIeeeJournalName.test(venue) || (paper.dois || []).some(doi => acmIeeeDoi.test(doi));
   return !isAcmIeee || transactionJournal.test(venue);

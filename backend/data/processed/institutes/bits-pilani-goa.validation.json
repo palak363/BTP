@@ -1,12 +1,12 @@
 {
   "institution": "BITS Pilani-Goa",
   "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
-  "compared_cells": 45,
+  "compared_cells": 46,
   "expected_papers": 50,
-  "actual_papers": 51,
+  "actual_papers": 52,
   "matching": false,
   "missing_cells": 0,
-  "extra_cells": 1,
+  "extra_cells": 2,
   "differences": [
     {
       "name": "Amitava Das 0001",
@@ -16,6 +16,15 @@
       "actual_papers": 1,
       "expected_adjusted": 0.0,
       "actual_adjusted": 0.14285714285714285
+    },
+    {
+      "name": "Surjya Ghosh",
+      "area": "ubicomp",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.1111111111111111
     }
   ],
   "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten. Missing cells: the reference counts papers this build does not. Extra cells: this build counts papers the reference does not."

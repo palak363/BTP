@@ -57,18 +57,29 @@ def payload(slug):
 
 def faculty_payload(name, slug=None):
     """All loaded paper records, independent of institute summary filters."""
-    member = next((f for f in current_index()['faculty'] if f['name'] == name and (slug is None or f['slug'] == slug)), None)
-    if member is None:
+    members = [f for f in current_index()['faculty']
+               if f['name'] == name and (slug is None or f['slug'] == slug)]
+    if not members:
         return jsonify(error='Faculty member not found.'), 404
-    dataset = current_dataset(member['slug'])
-    papers = {p['key']: p for p in dataset.get('publications', [])
-              if name in p['faculty'] and is_visible_paper(p)}
+    datasets = [current_dataset(member['slug']) for member in members]
+    papers = {}
+    for dataset in datasets:
+        for paper in dataset.get('publications', []):
+            if name in paper['faculty'] and is_visible_paper(paper):
+                papers[paper['key']] = paper
+    institutions = [{'name': dataset['metadata']['institution'], 'slug': dataset['metadata']['slug']}
+                    for dataset in datasets]
+    for institution, dataset in zip(institutions, datasets):
+        member = next(f for f in dataset['faculty'] if f['name'] == name)
+        institution['affiliation_status'] = member.get('affiliation_status', 'unknown')
     return jsonify({
         'name': name,
-        'institution': dataset['metadata']['institution'],
-        'slug': member['slug'],
-        'generated_at': dataset['metadata']['generated_at'],
-        'records_available': dataset['metadata']['data_source'] != 'csrankings-published-counts',
+        'institution': institutions[0]['name'],
+        'institutions': institutions,
+        'slug': institutions[0]['slug'],
+        'generated_at': max(dataset['metadata']['generated_at'] for dataset in datasets),
+        'records_available': any(dataset['metadata']['data_source'] != 'csrankings-published-counts'
+                                 for dataset in datasets),
         'publications': list(papers.values()),
     })
 

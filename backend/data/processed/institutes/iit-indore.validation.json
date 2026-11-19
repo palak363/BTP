@@ -1,12 +1,12 @@
 {
   "institution": "IIT Indore",
   "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
-  "compared_cells": 6,
+  "compared_cells": 11,
   "expected_papers": 6,
-  "actual_papers": 5,
+  "actual_papers": 10,
   "matching": false,
   "missing_cells": 1,
-  "extra_cells": 0,
+  "extra_cells": 5,
   "differences": [
     {
       "name": "Abhishek Srivastava",
@@ -16,6 +16,51 @@
       "actual_papers": 0,
       "expected_adjusted": 0.125,
       "actual_adjusted": 0.0
+    },
+    {
+      "name": "Tanima Dutta",
+      "area": "aaai",
+      "year": 2023,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
+    },
+    {
+      "name": "Tanima Dutta",
+      "area": "aaai",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Tanima Dutta",
+      "area": "aaai",
+      "year": 2025,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Tanima Dutta",
+      "area": "cvpr",
+      "year": 2024,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.5
+    },
+    {
+      "name": "Tanima Dutta",
+      "area": "cvpr",
+      "year": 2026,
+      "expected_papers": 0,
+      "actual_papers": 1,
+      "expected_adjusted": 0.0,
+      "actual_adjusted": 0.3333333333333333
     }
   ],
   "note": "Live DBLP and the pinned CSRankings publication snapshot may differ; no counts are overwritten. Missing cells: the reference counts papers this build does not. Extra cells: this build counts papers the reference does not."

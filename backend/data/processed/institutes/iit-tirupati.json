@@ -5,7 +5,7 @@
     "slug": "iit-tirupati",
     "homepage": "https://cse.iittp.ac.in/",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-10-20T20:15:52.399999+00:00",
+    "generated_at": "2026-11-19T18:01:28.493952+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -146,52 +146,82 @@
     "unresolved_faculty": [],
     "counting": "Unique DBLP keys; faculty credit is 1 / all authors; all reference venues, including optional venues.",
     "validation": {
-      "matching": true,
-      "compared_cells": 10,
+      "matching": false,
+      "compared_cells": 12,
       "missing_cells": 0,
-      "extra_cells": 0
+      "extra_cells": 2
     }
   },
   "faculty": [
     {
       "name": "Ajin Joseph 0001",
-      "dblp_url": "https://dblp.org/pid/171/3116"
+      "dblp_url": "https://dblp.org/pid/171/3116",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Chalavadi Vishnu",
-      "dblp_url": "https://dblp.org/pid/302/7458"
+      "dblp_url": "https://dblp.org/pid/302/7458",
+      "affiliation_status": "current"
     },
     {
       "name": "G. Ramakrishna",
-      "dblp_url": "https://dblp.org/pid/119/4835"
+      "dblp_url": "https://dblp.org/pid/119/4835",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Jaynarayan T. Tudu",
-      "dblp_url": "https://dblp.org/pid/35/8110"
+      "dblp_url": "https://dblp.org/pid/35/8110",
+      "affiliation_status": "unknown"
     },
     {
       "name": "Kalidas Yeturu",
-      "dblp_url": "https://dblp.org/pid/03/7099"
+      "dblp_url": "https://dblp.org/pid/03/7099",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Prakash Iyer",
+      "dblp_url": "https://dblp.org/pid/32/11491",
+      "affiliation_status": "current"
     },
     {
       "name": "Raghavendra Kanakagiri",
-      "dblp_url": "https://dblp.org/pid/248/6427"
+      "dblp_url": "https://dblp.org/pid/248/6427",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Rama Krishna Sai S. Gorthi",
+      "dblp_url": "https://dblp.org/pid/45/7595",
+      "affiliation_status": "current"
     },
     {
       "name": "S. Raja 0001",
-      "dblp_url": "https://dblp.org/pid/45/8284"
+      "dblp_url": "https://dblp.org/pid/45/8284",
+      "affiliation_status": "current"
     },
     {
       "name": "Sridhar Chimalakonda",
-      "dblp_url": "https://dblp.org/pid/76/1783"
+      "dblp_url": "https://dblp.org/pid/76/1783",
+      "affiliation_status": "unknown"
     },
     {
       "name": "V. Mahendran",
-      "dblp_url": "https://dblp.org/pid/306/6686"
+      "dblp_url": "https://dblp.org/pid/306/6686",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Venkata Lakshmana Sasaank Janapati",
+      "dblp_url": "https://dblp.org/pid/397/3695",
+      "affiliation_status": "current"
     },
     {
       "name": "Venkataramana Badarla",
-      "dblp_url": "https://dblp.org/pid/48/1142"
+      "dblp_url": "https://dblp.org/pid/48/1142",
+      "affiliation_status": "unknown"
+    },
+    {
+      "name": "Yujendra Mitikiri",
+      "dblp_url": "https://dblp.org/pid/71/2649",
+      "affiliation_status": "current"
     }
   ],
   "publications": [
@@ -581,6 +611,38 @@
       ]
     },
     {
+      "key": "conf/bmvc/SS24",
+      "type": "inproceedings",
+      "title": "NSSR-DIL: Null-Shot Image Super-Resolution Using Deep Identity Learning.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "BMVC",
+      "booktitle": "BMVC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/344/5179",
+        "https://dblp.org/pid/45/7595"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/bmvc/bmvc2024#conf/bmvc/SS24",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "BMVC",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
       "key": "conf/broadnets/BadarlaBM05",
       "type": "inproceedings",
       "title": "Learning-TCP: A novel learning automata based reliable transport protocol for ad hoc wireless networks.",
@@ -638,6 +700,40 @@
       "url": "https://dblp.org/db/conf/cdc/cdc2019#conf/cdc/JosephB19",
       "faculty": [
         "Ajin Joseph 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "CDC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/cdc/MitikiriM19",
+      "type": "inproceedings",
+      "title": "Acceleration compensation for gravity sense using an accelerometer in an aerodynamically stable UAV.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "CDC",
+      "booktitle": "CDC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1177-1182",
+      "authors": [
+        "https://dblp.org/pid/05/4164",
+        "https://dblp.org/pid/71/2649"
+      ],
+      "dois": [
+        "10.1109/cdc40024.2019.9030160"
+      ],
+      "url": "https://dblp.org/db/conf/cdc/cdc2019#conf/cdc/MitikiriM19",
+      "faculty": [
+        "Yujendra Mitikiri"
       ],
       "memberships": [
         {
@@ -984,7 +1080,7 @@
       "pages": "320-327",
       "authors": [
         "https://dblp.org/pid/48/1142",
-        "https://dblp.org/pid/95/3449"
+        "https://dblp.org/pid/95/3449-9"
       ],
       "dois": [
         "10.1109/comsnets.2019.8711359"
@@ -1106,6 +1202,57 @@
       ]
     },
     {
+      "key": "conf/cvpr/PrabhakarSABG21",
+      "type": "inproceedings",
+      "title": "Labeled From Unlabeled: Exploiting Unlabeled Data for Few-Shot Deep HDR Deghosting.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "CVPR",
+      "booktitle": "CVPR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "4875-4885",
+      "authors": [
+        "https://dblp.org/pid/180/2946",
+        "https://dblp.org/pid/20/6289",
+        "https://dblp.org/pid/274/5024",
+        "https://dblp.org/pid/278/3579",
+        "https://dblp.org/pid/45/7595"
+      ],
+      "dois": [
+        "10.1109/cvpr46437.2021.00484"
+      ],
+      "url": "https://dblp.org/db/conf/cvpr/cvpr2021#conf/cvpr/PrabhakarSABG21",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "venue": "CVPR",
+          "year": 2021,
+          "area": "cvpr",
+          "domain": "Computer vision",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a-star",
+          "venue": "CVPR",
+          "area": "cvpr",
+          "domain": "Computer vision",
+          "year": 2021
+        },
+        {
+          "source": "ieee",
+          "venue": "CVPR",
+          "area": "cvpr",
+          "domain": "Computer vision",
+          "year": 2021
+        }
+      ]
+    },
+    {
       "key": "conf/ddecs/ShuklaJSTTIFS26",
       "type": "inproceedings",
       "title": "A SAT-Hard Compound Logic Locking Scheme with Empirical Resistance to Known Structural Attacks.",
@@ -1176,6 +1323,42 @@
         {
           "source": "ieee",
           "venue": "DFT",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/dsaa/SarkarP0S19",
+      "type": "inproceedings",
+      "title": "Towards Automated Breast Mass Classification using Deep Learning Framework.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "DSAA",
+      "booktitle": "DSAA",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "453-462",
+      "authors": [
+        "https://dblp.org/pid/219/9779",
+        "https://dblp.org/pid/257/8603",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/65/6758-2"
+      ],
+      "dois": [
+        "10.1109/dsaa.2019.00060"
+      ],
+      "url": "https://dblp.org/db/conf/dsaa/dsaa2019#conf/dsaa/SarkarP0S19",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "DSAA",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2019
@@ -1729,6 +1912,41 @@
       ]
     },
     {
+      "key": "conf/globecom/IyengarIS05",
+      "type": "inproceedings",
+      "title": "Analysis of 802.16 based last mile wireless networks.",
+      "year": 2005,
+      "publication_year": 2005,
+      "event_year": 2005,
+      "venue": "GLOBECOM",
+      "booktitle": "GLOBECOM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "5",
+      "authors": [
+        "https://dblp.org/pid/32/11491",
+        "https://dblp.org/pid/41/1215",
+        "https://dblp.org/pid/s/BiplabSikdar"
+      ],
+      "dois": [
+        "10.1109/glocom.2005.1578332"
+      ],
+      "url": "https://dblp.org/db/conf/globecom/globecom2005#conf/globecom/IyengarIS05",
+      "faculty": [
+        "Prakash Iyer"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "GLOBECOM",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2005
+        }
+      ]
+    },
+    {
       "key": "conf/glvlsi/TuduLSF10",
       "type": "inproceedings",
       "title": "Graph theoretic approach for scan cell reordering to minimize peak shift power.",
@@ -1797,6 +2015,114 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/hotchips/EwertIV13",
+      "type": "inproceedings",
+      "title": "Hotchips 2013: Clovertrail+ Smartphone SoC platform.",
+      "year": 2013,
+      "publication_year": 2013,
+      "event_year": 2013,
+      "venue": "Hot Chips Symposium",
+      "booktitle": "Hot Chips Symposium",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-22",
+      "authors": [
+        "https://dblp.org/pid/139/9320",
+        "https://dblp.org/pid/208/8231",
+        "https://dblp.org/pid/32/11491"
+      ],
+      "dois": [
+        "10.1109/hotchips.2013.7478301"
+      ],
+      "url": "https://dblp.org/db/conf/hotchips/hotchips2013#conf/hotchips/EwertIV13",
+      "faculty": [
+        "Prakash Iyer"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "Hot Chips Symposium",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2013
+        }
+      ]
+    },
+    {
+      "key": "conf/icacci/KumarSSM16",
+      "type": "inproceedings",
+      "title": "Application of transfer learning in RGB-D object recognition.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "580-584",
+      "authors": [
+        "https://dblp.org/pid/190/3827",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/65/6758-2",
+        "https://dblp.org/pid/67/6188"
+      ],
+      "dois": [
+        "10.1109/icacci.2016.7732108"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2016#conf/icacci/KumarSSM16",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/icacci/SukumarWSSM15",
+      "type": "inproceedings",
+      "title": "Phase unwrapping with Kalman filter based denoising in digital holographic interferometry.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "ICACCI",
+      "booktitle": "ICACCI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2256-2260",
+      "authors": [
+        "https://dblp.org/pid/13/8309",
+        "https://dblp.org/pid/168/6704",
+        "https://dblp.org/pid/168/6786",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/65/6758-2"
+      ],
+      "dois": [
+        "10.1109/icacci.2015.7275953"
+      ],
+      "url": "https://dblp.org/db/conf/icacci/icacci2015#conf/icacci/SukumarWSSM15",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICACCI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
         }
       ]
     },
@@ -2278,6 +2604,113 @@
       ]
     },
     {
+      "key": "conf/icapr/CGM15",
+      "type": "inproceedings",
+      "title": "Compressive Sensing framework for simultaneous compression and despeckling of SAR images.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "ICAPR",
+      "booktitle": "ICAPR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/167/0326",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/65/6758-2"
+      ],
+      "dois": [
+        "10.1109/icapr.2015.7050700"
+      ],
+      "url": "https://dblp.org/db/conf/icapr/icapr2015#conf/icapr/CGM15",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICAPR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/icapr/KalmadyKGSS17",
+      "type": "inproceedings",
+      "title": "Improved Transfer Learning through Shallow Network Embedding for Classification of Leukemia Cells.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "ICAPR",
+      "booktitle": "ICAPR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/162/6155",
+        "https://dblp.org/pid/233/1344",
+        "https://dblp.org/pid/233/1377",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/91/539-3"
+      ],
+      "dois": [
+        "10.1109/icapr.2017.8593186"
+      ],
+      "url": "https://dblp.org/db/conf/icapr/icapr2017#conf/icapr/KalmadyKGSS17",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICAPR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/icapr/Sarkar0M17",
+      "type": "inproceedings",
+      "title": "Improving Isolated Bangla Compound Character Recognition Through Feature-map Alignment.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "ICAPR",
+      "booktitle": "ICAPR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/219/9779",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/65/6758-2"
+      ],
+      "dois": [
+        "10.1109/icapr.2017.8593008"
+      ],
+      "url": "https://dblp.org/db/conf/icapr/icapr2017#conf/icapr/Sarkar0M17",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICAPR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
       "key": "conf/icarcv/AnkalugariAJJ24",
       "type": "inproceedings",
       "title": "Control of van de Vusse Reactor using Deep Reinforcement Learning.",
@@ -2347,6 +2780,349 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/iccvw/KristanMLFPKCDZ21",
+      "type": "inproceedings",
+      "title": "The Ninth Visual Object Tracking VOT2021 Challenge Results.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "ICCVW",
+      "booktitle": "ICCVW",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2711-2738",
+      "authors": [
+        "https://dblp.org/pid/00/78",
+        "https://dblp.org/pid/05/10727",
+        "https://dblp.org/pid/05/8618",
+        "https://dblp.org/pid/10/5849",
+        "https://dblp.org/pid/122/3790",
+        "https://dblp.org/pid/126/2962",
+        "https://dblp.org/pid/129/0954-1",
+        "https://dblp.org/pid/129/0969-4",
+        "https://dblp.org/pid/13/5168-1",
+        "https://dblp.org/pid/133/1706",
+        "https://dblp.org/pid/135/5123-3",
+        "https://dblp.org/pid/138/5963-1",
+        "https://dblp.org/pid/138/6456",
+        "https://dblp.org/pid/14/6210",
+        "https://dblp.org/pid/15/11195-5",
+        "https://dblp.org/pid/151/8836",
+        "https://dblp.org/pid/151/8848",
+        "https://dblp.org/pid/151/8902",
+        "https://dblp.org/pid/153/8037",
+        "https://dblp.org/pid/156/3020",
+        "https://dblp.org/pid/157/3602",
+        "https://dblp.org/pid/158/5786",
+        "https://dblp.org/pid/16/5766",
+        "https://dblp.org/pid/160/3616",
+        "https://dblp.org/pid/160/3679",
+        "https://dblp.org/pid/163/0032-7",
+        "https://dblp.org/pid/165/9621",
+        "https://dblp.org/pid/166/6430",
+        "https://dblp.org/pid/169/4627",
+        "https://dblp.org/pid/185/0985",
+        "https://dblp.org/pid/19/6669",
+        "https://dblp.org/pid/19/8654",
+        "https://dblp.org/pid/190/7682",
+        "https://dblp.org/pid/199/2494",
+        "https://dblp.org/pid/202/7040",
+        "https://dblp.org/pid/203/1795",
+        "https://dblp.org/pid/208/1312",
+        "https://dblp.org/pid/209/8650",
+        "https://dblp.org/pid/211/7992",
+        "https://dblp.org/pid/214/0119",
+        "https://dblp.org/pid/214/8978",
+        "https://dblp.org/pid/225/3263",
+        "https://dblp.org/pid/227/2772",
+        "https://dblp.org/pid/227/7195",
+        "https://dblp.org/pid/236/3195",
+        "https://dblp.org/pid/237/8882",
+        "https://dblp.org/pid/24/1518-32",
+        "https://dblp.org/pid/24/8616",
+        "https://dblp.org/pid/244/2529",
+        "https://dblp.org/pid/246/9797",
+        "https://dblp.org/pid/247/8937",
+        "https://dblp.org/pid/25/1637-1",
+        "https://dblp.org/pid/25/1650",
+        "https://dblp.org/pid/25/3038-5",
+        "https://dblp.org/pid/250/4445",
+        "https://dblp.org/pid/254/4535",
+        "https://dblp.org/pid/255/2385",
+        "https://dblp.org/pid/260/2774",
+        "https://dblp.org/pid/260/2990",
+        "https://dblp.org/pid/260/3125",
+        "https://dblp.org/pid/276/0222",
+        "https://dblp.org/pid/277/5901",
+        "https://dblp.org/pid/28/38",
+        "https://dblp.org/pid/28/7442",
+        "https://dblp.org/pid/280/3348",
+        "https://dblp.org/pid/284/2537",
+        "https://dblp.org/pid/284/2562",
+        "https://dblp.org/pid/290/9342",
+        "https://dblp.org/pid/307/8430",
+        "https://dblp.org/pid/307/8603",
+        "https://dblp.org/pid/307/9144",
+        "https://dblp.org/pid/33/2495",
+        "https://dblp.org/pid/33/4528-36",
+        "https://dblp.org/pid/348/7584-1",
+        "https://dblp.org/pid/35/11103",
+        "https://dblp.org/pid/35/2836",
+        "https://dblp.org/pid/38/5435",
+        "https://dblp.org/pid/40/3934-4",
+        "https://dblp.org/pid/41/1228",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/47/5125",
+        "https://dblp.org/pid/48/195-1",
+        "https://dblp.org/pid/51/1316",
+        "https://dblp.org/pid/51/2242",
+        "https://dblp.org/pid/52/5716-71",
+        "https://dblp.org/pid/54/230",
+        "https://dblp.org/pid/56/10105",
+        "https://dblp.org/pid/58/2670-5",
+        "https://dblp.org/pid/58/4582-20",
+        "https://dblp.org/pid/58/5423-3",
+        "https://dblp.org/pid/58/6692",
+        "https://dblp.org/pid/61/5017",
+        "https://dblp.org/pid/62/3401-1",
+        "https://dblp.org/pid/62/5110-6",
+        "https://dblp.org/pid/64/6896",
+        "https://dblp.org/pid/66/3387-37",
+        "https://dblp.org/pid/68/6610-2",
+        "https://dblp.org/pid/69/6460",
+        "https://dblp.org/pid/70/6628-3",
+        "https://dblp.org/pid/72/10584",
+        "https://dblp.org/pid/75/1281",
+        "https://dblp.org/pid/76/1190",
+        "https://dblp.org/pid/78/1123",
+        "https://dblp.org/pid/78/9040",
+        "https://dblp.org/pid/79/1648",
+        "https://dblp.org/pid/79/5367",
+        "https://dblp.org/pid/79/7377",
+        "https://dblp.org/pid/80/4685",
+        "https://dblp.org/pid/81/4000",
+        "https://dblp.org/pid/82/6511",
+        "https://dblp.org/pid/84/2694-32",
+        "https://dblp.org/pid/84/8017-1",
+        "https://dblp.org/pid/85/1218",
+        "https://dblp.org/pid/86/5681",
+        "https://dblp.org/pid/86/8843",
+        "https://dblp.org/pid/88/4316",
+        "https://dblp.org/pid/92/786-4",
+        "https://dblp.org/pid/93/2479",
+        "https://dblp.org/pid/93/3389",
+        "https://dblp.org/pid/93/8104",
+        "https://dblp.org/pid/95/6251",
+        "https://dblp.org/pid/96/3551",
+        "https://dblp.org/pid/96/6053",
+        "https://dblp.org/pid/96/6702-1",
+        "https://dblp.org/pid/98/6613",
+        "https://dblp.org/pid/99/2516",
+        "https://dblp.org/pid/99/3602",
+        "https://dblp.org/pid/k/JoniKristianKamarainen",
+        "https://dblp.org/pid/k/JosefKittler",
+        "https://dblp.org/pid/l/AlesLeonardis",
+        "https://dblp.org/pid/m/JiriMatas",
+        "https://dblp.org/pid/t/PhilipHSTorr"
+      ],
+      "dois": [
+        "10.1109/iccvw54120.2021.00305"
+      ],
+      "url": "https://dblp.org/db/conf/iccvw/iccvw2021#conf/iccvw/KristanMLFPKCDZ21",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICCVW",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/icdar/VoruguntiGP19",
+      "type": "inproceedings",
+      "title": "Online Signature Verification by Few-Shot Separable Convolution Based Deep Learning.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "ICDAR",
+      "booktitle": "ICDAR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1125-1130",
+      "authors": [
+        "https://dblp.org/pid/125/1710",
+        "https://dblp.org/pid/228/6703",
+        "https://dblp.org/pid/45/7595"
+      ],
+      "dois": [
+        "10.1109/icdar.2019.00182"
+      ],
+      "url": "https://dblp.org/db/conf/icdar/icdar2019#conf/icdar/VoruguntiGP19",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ICDAR",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
+        },
+        {
+          "source": "ieee",
+          "venue": "ICDAR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/icip/DasariG20",
+      "type": "inproceedings",
+      "title": "IOU - Siamtrack: IOU Guided Siamese Network For Visual Object Tracking.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "ICIP",
+      "booktitle": "ICIP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2061-2065",
+      "authors": [
+        "https://dblp.org/pid/277/5901",
+        "https://dblp.org/pid/45/7595"
+      ],
+      "dois": [
+        "10.1109/icip40778.2020.9191188"
+      ],
+      "url": "https://dblp.org/db/conf/icip/icip2020#conf/icip/DasariG20",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICIP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/icip/JamakayalaG21",
+      "type": "inproceedings",
+      "title": "Feature Fusion Ensemble Architecture With Active Learning For Microscopic Blood Smear Analysis.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "ICIP",
+      "booktitle": "ICIP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3767-3771",
+      "authors": [
+        "https://dblp.org/pid/312/7925",
+        "https://dblp.org/pid/45/7595"
+      ],
+      "dois": [
+        "10.1109/icip42928.2021.9506535"
+      ],
+      "url": "https://dblp.org/db/conf/icip/icip2021#conf/icip/JamakayalaG21",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICIP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/icip/SubrahmanyamRA07",
+      "type": "inproceedings",
+      "title": "Unscented Kalman Filter for Image Estimation in Film-Grain Noise.",
+      "year": 2007,
+      "publication_year": 2007,
+      "event_year": 2007,
+      "venue": "ICIP (4)",
+      "booktitle": "ICIP (4)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "IV:17-20",
+      "authors": [
+        "https://dblp.org/pid/04/2364",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/73/3473"
+      ],
+      "dois": [
+        "10.1109/icip.2007.4379942"
+      ],
+      "url": "https://dblp.org/db/conf/icip/icip2007#conf/icip/SubrahmanyamRA07",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICIP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2007
+        }
+      ]
+    },
+    {
+      "key": "conf/icip/VengalaG20",
+      "type": "inproceedings",
+      "title": "A Deep Learning Framework for 3D Surface Profiling of the Objects Using Digital Holographic Interferometry.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "ICIP",
+      "booktitle": "ICIP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2656-2660",
+      "authors": [
+        "https://dblp.org/pid/273/8300",
+        "https://dblp.org/pid/45/7595"
+      ],
+      "dois": [
+        "10.1109/icip40778.2020.9190669"
+      ],
+      "url": "https://dblp.org/db/conf/icip/icip2020#conf/icip/VengalaG20",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICIP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
         }
       ]
     },
@@ -2505,6 +3281,78 @@
       ]
     },
     {
+      "key": "conf/icpr/SPMG22",
+      "type": "inproceedings",
+      "title": "Adv-Cut Paste: Semantic adversarial class specific data augmentation technique for object detection.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "ICPR",
+      "booktitle": "ICPR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3632-3638",
+      "authors": [
+        "https://dblp.org/pid/162/0085",
+        "https://dblp.org/pid/334/6540",
+        "https://dblp.org/pid/344/4532",
+        "https://dblp.org/pid/45/7595"
+      ],
+      "dois": [
+        "10.1109/icpr56361.2022.9956409"
+      ],
+      "url": "https://dblp.org/db/conf/icpr/icpr2022#conf/icpr/SPMG22",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICPR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/icpr/SubrahmanyamRAR08",
+      "type": "inproceedings",
+      "title": "Edge-preserving unscented Kalman filter for speckle reduction.",
+      "year": 2008,
+      "publication_year": 2008,
+      "event_year": 2008,
+      "venue": "ICPR",
+      "booktitle": "ICPR",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-4",
+      "authors": [
+        "https://dblp.org/pid/04/2364",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/73/3473",
+        "https://dblp.org/pid/78/2835"
+      ],
+      "dois": [
+        "10.1109/icpr.2008.4761408"
+      ],
+      "url": "https://dblp.org/db/conf/icpr/icpr2008#conf/icpr/SubrahmanyamRAR08",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ICPR",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2008
+        }
+      ]
+    },
+    {
       "key": "conf/icpr/SuriY20",
       "type": "inproceedings",
       "title": "Pseudo Rehearsal using non photo-realistic images.",
@@ -2535,6 +3383,54 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/icra/MitikiriM19",
+      "type": "inproceedings",
+      "title": "Compensation of measurement noise and bias in geometric attitude estimation.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "ICRA",
+      "booktitle": "ICRA",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "8130-8135",
+      "authors": [
+        "https://dblp.org/pid/05/4164",
+        "https://dblp.org/pid/71/2649"
+      ],
+      "dois": [
+        "10.1109/icra.2019.8793504"
+      ],
+      "url": "https://dblp.org/db/conf/icra/icra2019#conf/icra/MitikiriM19",
+      "faculty": [
+        "Yujendra Mitikiri"
+      ],
+      "memberships": [
+        {
+          "venue": "ICRA",
+          "year": 2019,
+          "area": "icra",
+          "domain": "Robotics",
+          "source": "csrankings"
+        },
+        {
+          "source": "core-a-star",
+          "venue": "ICRA",
+          "area": "icra",
+          "domain": "Robotics",
+          "year": 2019
+        },
+        {
+          "source": "ieee",
+          "venue": "ICRA",
+          "area": "icra",
+          "domain": "Robotics",
+          "year": 2019
         }
       ]
     },
@@ -2701,6 +3597,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "ICSME",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        },
+        {
           "source": "ieee",
           "venue": "ICSME",
           "area": "publisher-other",
@@ -2736,6 +3639,13 @@
         "Sridhar Chimalakonda"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ICSME",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        },
         {
           "source": "ieee",
           "venue": "ICSME",
@@ -2773,6 +3683,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "ICSME",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        },
+        {
           "source": "ieee",
           "venue": "ICSME",
           "area": "publisher-other",
@@ -2806,6 +3723,13 @@
         "Sridhar Chimalakonda"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ICSME",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        },
         {
           "source": "ieee",
           "venue": "ICSME",
@@ -2843,11 +3767,231 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "ICSME",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        },
+        {
           "source": "ieee",
           "venue": "ICSME",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/icvgip/ArunTRG18",
+      "type": "inproceedings",
+      "title": "Variable Patch Dictionaries for efficient Compressed Sensing based MRI Reconstruction.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "ICVGIP",
+      "booktitle": "ICVGIP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "17:1-17:9",
+      "authors": [
+        "https://dblp.org/pid/08/11296",
+        "https://dblp.org/pid/243/0196",
+        "https://dblp.org/pid/243/0226",
+        "https://dblp.org/pid/45/7595"
+      ],
+      "dois": [
+        "10.1145/3293353.3293370"
+      ],
+      "url": "https://dblp.org/db/conf/icvgip/icvgip2018#conf/icvgip/ArunTRG18",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICVGIP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/icvgip/GopakumarSS14",
+      "type": "inproceedings",
+      "title": "Morphology based Classification of Leukemia Cell lines: K562 and MOLT in a Microfluidics based Imaging Flow Cytometer.",
+      "year": 2014,
+      "publication_year": 2014,
+      "event_year": 2014,
+      "venue": "ICVGIP",
+      "booktitle": "ICVGIP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "34:1-34:7",
+      "authors": [
+        "https://dblp.org/pid/162/6155",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/91/539-2"
+      ],
+      "dois": [
+        "10.1145/2683483.2683517"
+      ],
+      "url": "https://dblp.org/db/conf/icvgip/icvgip2014#conf/icvgip/GopakumarSS14",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICVGIP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "conf/icvgip/GopakumarSSS16",
+      "type": "inproceedings",
+      "title": "Automatic detection of Malaria infected RBCs from a focus stack of bright field microscope slide images.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "ICVGIP",
+      "booktitle": "ICVGIP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "16:1-16:7",
+      "authors": [
+        "https://dblp.org/pid/162/6155",
+        "https://dblp.org/pid/192/2705",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/91/539-2"
+      ],
+      "dois": [
+        "10.1145/3009977.3010024"
+      ],
+      "url": "https://dblp.org/db/conf/icvgip/icvgip2016#conf/icvgip/GopakumarSSS16",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICVGIP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/icvgip/KakanuruRMG16",
+      "type": "inproceedings",
+      "title": "Complementary tracker's fusion for robust visual tracking.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "ICVGIP",
+      "booktitle": "ICVGIP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "51:1-51:8",
+      "authors": [
+        "https://dblp.org/pid/188/7542",
+        "https://dblp.org/pid/188/7777",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/65/6758-2"
+      ],
+      "dois": [
+        "10.1145/3009977.3010006"
+      ],
+      "url": "https://dblp.org/db/conf/icvgip/icvgip2016#conf/icvgip/KakanuruRMG16",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICVGIP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/icvgip/KandiMS16",
+      "type": "inproceedings",
+      "title": "A differential excitation based rotational invariance for convolutional neural networks.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": 2016,
+      "venue": "ICVGIP",
+      "booktitle": "ICVGIP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "70:1-70:8",
+      "authors": [
+        "https://dblp.org/pid/192/2512",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/65/6758-2"
+      ],
+      "dois": [
+        "10.1145/3009977.3009978"
+      ],
+      "url": "https://dblp.org/db/conf/icvgip/icvgip2016#conf/icvgip/KandiMS16",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICVGIP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "conf/icvgip/NageliGJ21",
+      "type": "inproceedings",
+      "title": "SiamRPN++D: improved SiamRPN++ using cascaded detector sensing.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "ICVGIP",
+      "booktitle": "ICVGIP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "39:1-39:9",
+      "authors": [
+        "https://dblp.org/pid/308/8446",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/55/10965"
+      ],
+      "dois": [
+        "10.1145/3490035.3490298"
+      ],
+      "url": "https://dblp.org/db/conf/icvgip/icvgip2021#conf/icvgip/NageliGJ21",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICVGIP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
         }
       ]
     },
@@ -2921,6 +4065,111 @@
       ]
     },
     {
+      "key": "conf/icvgip/Raju0S18",
+      "type": "inproceedings",
+      "title": "Bag of Visual Words based Correlation Filter Tracker (BoVW-CFT).",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "ICVGIP",
+      "booktitle": "ICVGIP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "74:1-74:9",
+      "authors": [
+        "https://dblp.org/pid/233/9987",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/65/6758-2"
+      ],
+      "dois": [
+        "10.1145/3293353.3293428"
+      ],
+      "url": "https://dblp.org/db/conf/icvgip/icvgip2018#conf/icvgip/Raju0S18",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICVGIP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/icvgip/SpoorthiGG18",
+      "type": "inproceedings",
+      "title": "A Deep Learning-based Model for Phase Unwrapping.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "ICVGIP",
+      "booktitle": "ICVGIP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "19:1-19:8",
+      "authors": [
+        "https://dblp.org/pid/188/2208",
+        "https://dblp.org/pid/232/6142",
+        "https://dblp.org/pid/45/7595"
+      ],
+      "dois": [
+        "10.1145/3293353.3293372"
+      ],
+      "url": "https://dblp.org/db/conf/icvgip/icvgip2018#conf/icvgip/SpoorthiGG18",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICVGIP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/icvgip/SwethaMS18",
+      "type": "inproceedings",
+      "title": "Scale and Rotation Corrected CNNs (SRC-CNNs) for Scale and Rotation Invariant Character Recognition: SRC-CNN for Scale and Rotation Invariant Character Recognition.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "ICVGIP",
+      "booktitle": "ICVGIP",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "20:1-20:8",
+      "authors": [
+        "https://dblp.org/pid/243/8592",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/65/6758-2"
+      ],
+      "dois": [
+        "10.1145/3293353.3293373"
+      ],
+      "url": "https://dblp.org/db/conf/icvgip/icvgip2018#conf/icvgip/SwethaMS18",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ICVGIP",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
       "key": "conf/ifaamas/KumarJ25",
       "type": "inproceedings",
       "title": "Emergence of Recursive Language through Bootstrapping and Iterated Learning.",
@@ -2951,6 +4200,41 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/igarss/GorthiBM11",
+      "type": "inproceedings",
+      "title": "Analysis of SST images by weighted Ensemble Transform Kalman Filter.",
+      "year": 2011,
+      "publication_year": 2011,
+      "event_year": 2011,
+      "venue": "IGARSS",
+      "booktitle": "IGARSS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "4172-4175",
+      "authors": [
+        "https://dblp.org/pid/11/10342",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/90/2632"
+      ],
+      "dois": [
+        "10.1109/igarss.2011.6050049"
+      ],
+      "url": "https://dblp.org/db/conf/igarss/igarss2011#conf/igarss/GorthiBM11",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IGARSS",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2011
         }
       ]
     },
@@ -3482,6 +4766,41 @@
       ]
     },
     {
+      "key": "conf/interspeech/NareddulaGG21",
+      "type": "inproceedings",
+      "title": "Fusion-Net: Time-Frequency Information Fusion Y-Network for Speech Enhancement.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "Interspeech",
+      "booktitle": "Interspeech",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3360-3364",
+      "authors": [
+        "https://dblp.org/pid/188/2208",
+        "https://dblp.org/pid/315/6566",
+        "https://dblp.org/pid/45/7595"
+      ],
+      "dois": [
+        "10.21437/interspeech.2021-1184"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2021#conf/interspeech/NareddulaGG21",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
       "key": "conf/iolts/0001JTPS17",
       "type": "inproceedings",
       "title": "Revisiting random access scan for effective enhancement of post-silicon observability.",
@@ -3768,6 +5087,41 @@
       ]
     },
     {
+      "key": "conf/isbi/VengalaGG24",
+      "type": "inproceedings",
+      "title": "Simultaneous Phase Denoising And Unwrapping Of Mr Images Using A New Deep Learning Method.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "ISBI",
+      "booktitle": "ISBI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/188/2208",
+        "https://dblp.org/pid/273/8300",
+        "https://dblp.org/pid/45/7595"
+      ],
+      "dois": [
+        "10.1109/isbi56570.2024.10635882"
+      ],
+      "url": "https://dblp.org/db/conf/isbi/isbi2024#conf/isbi/VengalaGG24",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "ISBI",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
       "key": "conf/iscas/VaghaniATFS18",
       "type": "inproceedings",
       "title": "On Securing Scan Design Through Test Vector Encryption.",
@@ -3977,6 +5331,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "ICPC",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        },
+        {
           "source": "ieee",
           "venue": "ICPC",
           "area": "publisher-other",
@@ -4012,6 +5373,13 @@
         "Sridhar Chimalakonda"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ICPC",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        },
         {
           "source": "acm",
           "venue": "ICPC",
@@ -4049,6 +5417,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "ICPC",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        },
+        {
           "source": "acm",
           "venue": "ICPC",
           "area": "publisher-other",
@@ -4083,6 +5458,13 @@
         "Sridhar Chimalakonda"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ICPC",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        },
         {
           "source": "acm",
           "venue": "ICPC",
@@ -4120,6 +5502,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "ICPC",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        },
+        {
           "source": "ieee",
           "venue": "ICPC",
           "area": "publisher-other",
@@ -4155,6 +5544,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "ICPC",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        },
+        {
           "source": "acm",
           "venue": "ICPC",
           "area": "publisher-other",
@@ -4188,6 +5584,13 @@
         "Sridhar Chimalakonda"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "ASE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        },
         {
           "source": "ieee",
           "venue": "ASE",
@@ -4228,6 +5631,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "ASE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        },
+        {
           "source": "ieee",
           "venue": "ASE",
           "area": "publisher-other",
@@ -4262,6 +5672,13 @@
         "Sridhar Chimalakonda"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "ASE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2021
+        },
         {
           "source": "ieee",
           "venue": "ASE",
@@ -4448,6 +5865,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "MSR",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
+        },
+        {
           "source": "ieee",
           "venue": "MSR",
           "area": "publisher-other",
@@ -4525,6 +5949,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "MSR",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2021
+        },
+        {
           "source": "ieee",
           "venue": "MSR",
           "area": "publisher-other",
@@ -4558,6 +5989,13 @@
         "Sridhar Chimalakonda"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "MSR",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        },
         {
           "source": "ieee",
           "venue": "MSR",
@@ -4594,6 +6032,13 @@
         "Venkataramana Badarla"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "MSWIM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        },
         {
           "source": "acm",
           "venue": "MSWiM",
@@ -4671,6 +6116,76 @@
         {
           "source": "ieee",
           "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/ncc/VenugopalMS17",
+      "type": "inproceedings",
+      "title": "Computationally efficient deep tracker: Guided MDNet.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "NCC",
+      "booktitle": "NCC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "authors": [
+        "https://dblp.org/pid/204/9669",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/65/6758-2"
+      ],
+      "dois": [
+        "10.1109/ncc.2017.8077044"
+      ],
+      "url": "https://dblp.org/db/conf/ncc/ncc2017#conf/ncc/VenugopalMS17",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCC",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/ncvpripg/ShahS015",
+      "type": "inproceedings",
+      "title": "Integrated algorithm for different tracking challenges.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "NCVPRIPG",
+      "booktitle": "NCVPRIPG",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-4",
+      "authors": [
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/65/6758-2",
+        "https://dblp.org/pid/82/11268"
+      ],
+      "dois": [
+        "10.1109/ncvpripg.2015.7490048"
+      ],
+      "url": "https://dblp.org/db/conf/ncvpripg/ncvpripg2015#conf/ncvpripg/ShahS015",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "NCVPRIPG",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2015
@@ -4876,9 +6391,17 @@
       ],
       "url": "https://dblp.org/db/conf/saner/saner2026#conf/saner/JanapatiKMC26",
       "faculty": [
-        "Sridhar Chimalakonda"
+        "Sridhar Chimalakonda",
+        "Venkata Lakshmana Sasaank Janapati"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "SANER",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        },
         {
           "source": "ieee",
           "venue": "SANER",
@@ -4915,6 +6438,13 @@
         "Sridhar Chimalakonda"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "SANER",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        },
         {
           "source": "ieee",
           "venue": "SANER",
@@ -5197,6 +6727,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "FSE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        },
+        {
           "source": "acm",
           "venue": "ESEC/SIGSOFT FSE",
           "area": "publisher-other",
@@ -5230,6 +6767,13 @@
         "Sridhar Chimalakonda"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "FSE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        },
         {
           "source": "acm",
           "venue": "ESEC/SIGSOFT FSE",
@@ -5266,6 +6810,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "FSE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2021
+        },
+        {
           "source": "acm",
           "venue": "ESEC/SIGSOFT FSE",
           "area": "publisher-other",
@@ -5299,6 +6850,13 @@
         "Sridhar Chimalakonda"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "FSE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        },
         {
           "source": "acm",
           "venue": "ESEC/SIGSOFT FSE",
@@ -5336,6 +6894,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "FSE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        },
+        {
           "source": "acm",
           "venue": "ESEC/SIGSOFT FSE",
           "area": "publisher-other",
@@ -5369,6 +6934,13 @@
         "Sridhar Chimalakonda"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "FSE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2021
+        },
         {
           "source": "acm",
           "venue": "ESEC/SIGSOFT FSE",
@@ -5409,6 +6981,41 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/spcom/SenthilNS20",
+      "type": "inproceedings",
+      "title": "Handwritten Hindi Word Generation to enable Few Instance Learning of Hindi Documents.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "SPCOM",
+      "booktitle": "SPCOM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "authors": [
+        "https://dblp.org/pid/274/3451",
+        "https://dblp.org/pid/274/5024",
+        "https://dblp.org/pid/45/7595"
+      ],
+      "dois": [
+        "10.1109/spcom50965.2020.9179634"
+      ],
+      "url": "https://dblp.org/db/conf/spcom/spcom2020#conf/spcom/SenthilNS20",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "SPCOM",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
         }
       ]
     },
@@ -5739,6 +7346,40 @@
       ]
     },
     {
+      "key": "conf/vlsid/TulabandhulaM09",
+      "type": "inproceedings",
+      "title": "A 20MS/s 5.6 mW 6b Asynchronous ADC in 0.6µm CMOS.",
+      "year": 2009,
+      "publication_year": 2009,
+      "event_year": 2009,
+      "venue": "VLSI Design",
+      "booktitle": "VLSI Design",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "111-116",
+      "authors": [
+        "https://dblp.org/pid/53/2762",
+        "https://dblp.org/pid/71/2649"
+      ],
+      "dois": [
+        "10.1109/vlsi.design.2009.56"
+      ],
+      "url": "https://dblp.org/db/conf/vlsid/vlsid2009#conf/vlsid/TulabandhulaM09",
+      "faculty": [
+        "Yujendra Mitikiri"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "VLSI Design",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2009
+        }
+      ]
+    },
+    {
       "key": "conf/vtc/JMB24",
       "type": "inproceedings",
       "title": "On or Move On? Optimal Mobile Data Collection in mmWave Sensor Networks.",
@@ -5805,6 +7446,94 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/wacv/RoutSMG18",
+      "type": "inproceedings",
+      "title": "Rotation Adaptive Visual Object Tracking with Motion Consistency.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "WACV",
+      "booktitle": "WACV",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1047-1055",
+      "authors": [
+        "https://dblp.org/pid/206/6445",
+        "https://dblp.org/pid/45/7595",
+        "https://dblp.org/pid/65/6758-2",
+        "https://dblp.org/pid/86/6208"
+      ],
+      "dois": [
+        "10.1109/wacv.2018.00120"
+      ],
+      "url": "https://dblp.org/db/conf/wacv/wacv2018#conf/wacv/RoutSMG18",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "WACV",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2018
+        },
+        {
+          "source": "ieee",
+          "venue": "WACV",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/wacv/SivapuramPPPHG26",
+      "type": "inproceedings",
+      "title": "RealDroneVision: Dataset and Architecture Advancements for Small-Object Drone Detection.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "WACV",
+      "booktitle": "WACV",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "6687-6695",
+      "authors": [
+        "https://dblp.org/pid/174/3868",
+        "https://dblp.org/pid/292/4429",
+        "https://dblp.org/pid/344/4532",
+        "https://dblp.org/pid/373/2385",
+        "https://dblp.org/pid/436/5431",
+        "https://dblp.org/pid/45/7595"
+      ],
+      "dois": [
+        "10.1109/wacv61042.2026.00646"
+      ],
+      "url": "https://dblp.org/db/conf/wacv/wacv2026#conf/wacv/SivapuramPPPHG26",
+      "faculty": [
+        "Rama Krishna Sai S. Gorthi"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "WACV",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        },
+        {
+          "source": "ieee",
+          "venue": "WACV",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
         }
       ]
     },
