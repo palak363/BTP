@@ -9,8 +9,6 @@ const metrics = [
   ...availableSources.map(source => [`Unique ${sourceNames[source] || source} papers`, institute => institute.totals[source].papers]),
   ["Unique papers, all sources", institute => institute.totals.all.papers],
   ["Faculty paper count, all sources", institute => institute.totals.all.faculty_papers],
-  ["Adjusted credit, CSRankings", institute => institute.totals.csrankings.adjusted],
-  ["CSRankings papers per active faculty", institute => institute.totals.csrankings.faculty ? institute.totals.csrankings.papers / institute.totals.csrankings.faculty : 0],
 ];
 
 export default function ComparePage() {
@@ -23,6 +21,6 @@ export default function ComparePage() {
         <thead><tr><th scope="col">Metric</th>{[first, second].map(institute => <th scope="col" className="numeric" key={institute.slug}><Link to={`/institute/${encodeURIComponent(institute.name)}`}>{institute.name}</Link></th>)}</tr></thead>
         <tbody>{metrics.map(([label, value]) => <tr key={label}><th scope="row">{label}</th>{[first, second].map(institute => <td className="numeric" key={institute.slug}>{format(value(institute))}</td>)}</tr>)}</tbody>
       </table></div>
-      <div className="table-footer">Unique papers count each DBLP paper once per institute. Faculty paper count credits each faculty author. Adjusted credit sums 1/N per faculty author on N-author papers.</div></section>}
+      <div className="table-footer">Unique papers count each DBLP paper once per institute.</div></section>}
   </div>;
 }

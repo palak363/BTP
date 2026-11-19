@@ -79,7 +79,6 @@ function InstituteProfile({ institute }) {
       <div className="panel error" role="alert"><h2>Data could not be loaded</h2><p>{state.error}</p><button onClick={() => {setState({...state,loading:true});setRetry(retry+1);}}>Try again</button></div> :
       data && <>
         <div className="data-note"><span className="status-dot" /><span>{state.local ? (published ? "Bundled reference snapshot" : "Bundled DBLP snapshot") : published ? "Published CSRankings snapshot" : "DBLP bibliography dataset"} · {filters.start}–{filters.end} inclusive · {filters.optional ? "Including optional venues" : "Default CSRankings venues"}</span></div>
-        {data.metadata.unresolved_faculty?.length > 0 && <details className="notice unresolved-faculty"><summary>{data.metadata.unresolved_faculty.length} faculty in the CSRankings roster could not be matched to a single DBLP profile and are not counted.</summary><ul>{data.metadata.unresolved_faculty.map(person => <li key={person.name}><strong>{person.name}</strong> · {person.reason}</li>)}</ul></details>}
         {published && <div className="notice">CSRankings counts are available. CORE A/A*, IEEE, ACM and unique-paper totals need a complete DBLP refresh.</div>}
         <section className="stat-grid" aria-label="Research summary">
           <article><span>Faculty in roster</span><strong>{format(data.total_faculty)}</strong><small>Zero-count faculty included</small></article>

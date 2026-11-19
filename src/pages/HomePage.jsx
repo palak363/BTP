@@ -25,7 +25,7 @@ export default function HomePage() {
         <p className="hero-copy">Explore the people, research areas, and publication venues shaping computer science in India.</p>
         <div className="hero-actions"><a className="button primary" href="#institutes">Browse institutes ↓</a>
         <Link className="button" to="/conferences">Search by conferences ↗</Link></div>
-        <p className="quiet hero-footnote">{institutes.length} Indian institutes and {facultyDirectory.length.toLocaleString("en-IN")} faculty from the CSRankings roster. Built on transparent publication counts.</p>
+        <p className="quiet hero-footnote">{institutes.length} Indian institutes and {facultyDirectory.length.toLocaleString("en-IN")} faculty across Indian institutes. Built on transparent publication counts.</p>
       </div>
       <div className="hero-graphic" aria-hidden="true">
         <div className="orbit orbit-one" /><div className="orbit orbit-two" />

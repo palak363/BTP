@@ -1,12 +1,15 @@
 import { useId, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { facultyDirectory } from "../data";
 import { findFaculty, normalizeDblpId } from "../dblp";
 
 export default function DblpSearch() {
-  const [query, setQuery] = useState("");
+  const [search, setSearch] = useState({ route: "", value: "" });
   const navigate = useNavigate();
+  const location = useLocation();
   const id = useId();
+  const query = search.route === location.key ? search.value : "";
+  const setQuery = value => setSearch({ route: location.key, value });
   const matches = findFaculty(facultyDirectory.filter(person => person.affiliation_status !== "former"), query);
   const open = person => { setQuery(""); navigate(`/professor/${encodeURIComponent(person.name)}`); };
   return <section className="dblp-search" aria-label="Find professor by DBLP ID">

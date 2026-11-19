@@ -98,7 +98,12 @@ export default function ConferencePage() {
         </label>)}
         {catalog && !visibleVenues.length && <p className="empty">No conferences match this field or search.</p>}
       </div>
-      <p className="conference-selection">{selected.length ? `${selected.length} selected: ${selected.join(", ")}` : "Choose one or more venues to see participating faculty."}</p>
+      {selected.length ? <div className="conference-selection" aria-label="Selected conferences">
+        <span>{selected.length} selected:</span>
+        <div className="conference-chips">{selected.map(name => <button type="button" className="conference-chip" key={name} onClick={() => toggleVenue(name)} aria-label={`Remove ${name}`}>
+          <span>{name}</span><span aria-hidden="true">×</span>
+        </button>)}</div>
+      </div> : <p className="conference-selection">Choose one or more venues to see participating faculty.</p>}
     </section>
     <section className="panel">
       <div className="panel-heading"><div><h2>Faculty with selected papers</h2><p>{selected.length ? `${selectedPapers.size} unique papers across the selected venues` : "No venues selected"}</p></div></div>
