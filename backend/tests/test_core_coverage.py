@@ -34,7 +34,7 @@ class CoreCoverage(unittest.TestCase):
             self.assertIsNone(resolve_core_entry({'venue': venue, 'key': 'conf/semweb/test'}, None, self.catalogue))
 
     @unittest.skipUnless((BASE / 'data/reference/csrankings.py').exists(), 'Reference required')
-    def test_journal_proceedings_require_validated_issues_and_short_papers_stay_excluded(self):
+    def test_journal_proceedings_require_validated_issues_and_include_short_conference_papers(self):
         rules = load_rules()
         paper = dict(key='journals/pacmpl/test', venue='Proc. ACM Program. Lang.', year=2022,
                      pages='786-810', type='article', number='OOPSLA2', volume='6', title='Example', url='')
@@ -42,4 +42,4 @@ class CoreCoverage(unittest.TestCase):
         self.assertEqual(classify_core(paper, csr, self.catalogue, rules)['source'], 'core-a')
         self.assertIsNone(classify_core(paper, None, self.catalogue, rules))
         paper.update(venue='ECML/PKDD (2)', pages='1-5', type='inproceedings')
-        self.assertIsNone(classify_core(paper, None, self.catalogue, rules))
+        self.assertEqual(classify_core(paper, None, self.catalogue, rules)['source'], 'core-a')

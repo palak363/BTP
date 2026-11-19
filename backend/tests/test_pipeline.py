@@ -158,7 +158,7 @@ class EligibilityTests(unittest.TestCase):
         csr = classify_csr(candidate, self.rules)
         self.assertEqual(classify_core(candidate, csr, catalogue, self.rules)['source'], 'core-a-star')
         self.assertIsNone(classify_core(paper(venue='AAAI Workshops'), None, catalogue, self.rules))
-        self.assertIsNone(classify_core(paper(pages='1-3'), None, catalogue, self.rules))
+        self.assertEqual(classify_core(paper(pages='1-3'), None, catalogue, self.rules)['source'], 'core-a-star')
         self.assertIsNone(classify_core(paper(type='article'), None, catalogue, self.rules))
 
 

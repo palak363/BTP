@@ -136,7 +136,7 @@
       "pods",
       "usenixatc"
     ],
-    "generated_at": "2026-10-29T05:32:26.191727+00:00",
+    "generated_at": "2026-11-19T06:43:12.536760+00:00",
     "default_window": [
       2016,
       2026
@@ -515,22 +515,22 @@
       "unresolved": 0,
       "totals": {
         "csrankings": {
-          "papers": 138,
-          "faculty_papers": 143,
-          "adjusted": 33.2242,
-          "faculty": 26
+          "papers": 132,
+          "faculty_papers": 137,
+          "adjusted": 31.3242,
+          "faculty": 24
         },
         "core-a-star": {
-          "papers": 145,
-          "faculty_papers": 148,
-          "adjusted": 33.8611,
-          "faculty": 23
+          "papers": 170,
+          "faculty_papers": 174,
+          "adjusted": 40.7611,
+          "faculty": 24
         },
         "core-a": {
-          "papers": 132,
-          "faculty_papers": 151,
-          "adjusted": 38.6123,
-          "faculty": 28
+          "papers": 185,
+          "faculty_papers": 205,
+          "adjusted": 51.6036,
+          "faculty": 29
         },
         "ieee": {
           "papers": 304,
@@ -545,18 +545,18 @@
           "faculty": 27
         },
         "all": {
-          "papers": 652,
-          "faculty_papers": 688,
-          "adjusted": 182.6063,
+          "papers": 711,
+          "faculty_papers": 747,
+          "adjusted": 196.581,
           "faculty": 32
         }
       },
       "validation": {
-        "compared_cells": 156,
+        "compared_cells": 150,
         "missing_cells": 0,
-        "extra_cells": 6,
+        "extra_cells": 0,
         "expected_papers": 182,
-        "actual_papers": 188
+        "actual_papers": 182
       }
     },
     {

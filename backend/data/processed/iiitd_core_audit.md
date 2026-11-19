@@ -4,7 +4,7 @@ Scope: 2016-2026 inclusive; 33 faculty; pinned CORE2023 catalogue; cached DBLP b
 
 The catalogue contains 60 A* and 117 A venues. All 177 exact catalogue titles resolve. This is catalogue coverage, not a guarantee that every historical DBLP spelling is mapped.
 
-Reviewed 1,913 unique cached publication records. Fixed 17 CORE memberships across all years, adding 11 previously omitted records to the loaded dataset (329 -> 340). The current non-CSRankings six-page policy remains in force; 105 raw records resolve to A*/A venues but fail paper eligibility. Unmapped names and non-main tracks are recorded in iiitd_core_audit.json.
+Reviewed 1,913 unique cached publication records. CORE classification now includes short conference papers; 439 records resolve to A*/A venues and pass the conference-paper policy. Unmapped names and non-main tracks are recorded in iiitd_core_audit.json.
 
 Cached reclassification, exported publications and API counts match for every faculty. The separate CSRankings audit matches all 150 faculty/venue/year reference cells.
 

@@ -86,9 +86,9 @@ def classify_core(paper, csr, catalogue, rules):
     entry = resolve_core_entry(paper, csr, catalogue)
     if not entry or entry['rank'] not in {'A*', 'A'}:
         return None
-    # CORE ranks venues, not paper tracks. Our extension counts full papers;
-    # journal proceedings must already pass the CSRankings issue-level checks.
-    if not csr and (paper['type'] != 'inproceedings' or rules.pagecount(paper.get('pages', '')) < 6):
+    # CORE ranks venues, not paper tracks. Journal proceedings must already
+    # pass the CSRankings issue-level checks.
+    if not csr and paper['type'] != 'inproceedings':
         return None
     return {'source': 'core-a-star' if entry['rank'] == 'A*' else 'core-a',
             'venue': entry['acronym'], 'area': csr['area'] if csr else 'core-other',

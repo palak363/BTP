@@ -113,7 +113,7 @@ def audit(start=2016, end=2026, baseline=None):
               'faculty_counts': rows, 'differences': differences, 'membership_differences': membership_differences,
               'raw_classification': dict(reasons), 'coverage': coverage, 'corrected_memberships': changes,
               'limitations': ['Exact-title coverage does not prove every historical DBLP alias is mapped.',
-                              'CORE extension retains the six-page minimum for non-CSRankings conference papers.',
+                              'CORE extension includes short conference papers from ranked venues.',
                               'Journal proceedings require CSRankings issue eligibility; Journal Published is not an A/A* rank.',
                               'Unmapped venues and non-main tracks are listed separately for review.'],
               'unmapped_venues': [{'venue': venue, 'papers': len(keys), 'keys': sorted(keys)} for venue, keys in sorted(unresolved.items())]}

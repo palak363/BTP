@@ -5,7 +5,7 @@
     "slug": "iiit-delhi",
     "homepage": "https://cse.iiitd.ac.in/",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-10-20T20:15:06.745523+00:00",
+    "generated_at": "2026-11-19T06:43:11.593814+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -146,10 +146,10 @@
     "unresolved_faculty": [],
     "counting": "Unique DBLP keys; faculty credit is 1 / all authors; all reference venues, including optional venues.",
     "validation": {
-      "matching": false,
-      "compared_cells": 156,
+      "matching": true,
+      "compared_cells": 150,
       "missing_cells": 0,
-      "extra_cells": 6
+      "extra_cells": 0
     }
   },
   "faculty": [
@@ -803,6 +803,44 @@
       ]
     },
     {
+      "key": "conf/aaai/AnandGMMSS20",
+      "type": "inproceedings",
+      "title": "An Iterative Approach for Identifying Complaint Based Tweets in Social Media Platforms (Student Abstract).",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "13749-13750",
+      "authors": [
+        "https://dblp.org/pid/124/7097",
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/148/3798",
+        "https://dblp.org/pid/222/5147",
+        "https://dblp.org/pid/255/0193",
+        "https://dblp.org/pid/257/3119"
+      ],
+      "dois": [
+        "10.1609/aaai.v34i10.7146"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2020#conf/aaai/AnandGMMSS20",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
       "key": "conf/aaai/AnandPKNNJS25",
       "type": "inproceedings",
       "title": "Multilingual Mathematical Reasoning: Advancing Open-Source LLMs in Hindi and English.",
@@ -896,6 +934,80 @@
       ]
     },
     {
+      "key": "conf/aaai/BhavanSSS20",
+      "type": "inproceedings",
+      "title": "Analysis of Parliamentary Debate Transcripts Using Community-Based Graphical Approaches (Student Abstract).",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "13753-13754",
+      "authors": [
+        "https://dblp.org/pid/04/3916-4",
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/222/5147",
+        "https://dblp.org/pid/235/1761"
+      ],
+      "dois": [
+        "10.1609/aaai.v34i10.7148"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2020#conf/aaai/BhavanSSS20",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/aaai/ChauhanALSBS26",
+      "type": "inproceedings",
+      "title": "IMPACT: Integrated Multimodal Pipeline for Rapid Accident Causality Tracking (Student Abstract).",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "41159-41161",
+      "authors": [
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/176/1373",
+        "https://dblp.org/pid/242/1566",
+        "https://dblp.org/pid/352/2483",
+        "https://dblp.org/pid/426/5617",
+        "https://dblp.org/pid/45/1559"
+      ],
+      "dois": [
+        "10.1609/aaai.v40i48.42198"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2026#conf/aaai/ChauhanALSBS26",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
       "key": "conf/aaai/ChopraSMS20",
       "type": "inproceedings",
       "title": "Hindi-English Hate Speech Detection: Author Profiling, Debiasing, and Practical Perspectives.",
@@ -981,6 +1093,43 @@
       ]
     },
     {
+      "key": "conf/aaai/GoenkaPSMS20",
+      "type": "inproceedings",
+      "title": "ESAS: Towards Practical and Explainable Short Answer Scoring (Student Abstract).",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "13797-13798",
+      "authors": [
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/148/3798",
+        "https://dblp.org/pid/222/5147",
+        "https://dblp.org/pid/266/2857",
+        "https://dblp.org/pid/266/2866"
+      ],
+      "dois": [
+        "10.1609/aaai.v34i10.7170"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2020#conf/aaai/GoenkaPSMS20",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
       "key": "conf/aaai/GudmalwarBSWS25",
       "type": "inproceedings",
       "title": "EmoReg: Directional Latent Vector Modeling for Emotional Intensity Regularization in Diffusion-based Voice Conversion.",
@@ -1025,6 +1174,44 @@
       ]
     },
     {
+      "key": "conf/aaai/GuptaBBUKS22",
+      "type": "inproceedings",
+      "title": "Contrastive Personalization Approach to Suspect Identification (Student Abstract).",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "12961-12962",
+      "authors": [
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/203/3453",
+        "https://dblp.org/pid/236/5142",
+        "https://dblp.org/pid/236/5196",
+        "https://dblp.org/pid/321/3858",
+        "https://dblp.org/pid/97/5147"
+      ],
+      "dois": [
+        "10.1609/aaai.v36i11.21617"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2022#conf/aaai/GuptaBBUKS22",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
       "key": "conf/aaai/JainMKS24",
       "type": "inproceedings",
       "title": "Revisiting Document-Level Relation Extraction with Context-Guided Link Prediction.",
@@ -1064,6 +1251,80 @@
           "area": "aaai",
           "domain": "Artificial intelligence",
           "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/aaai/JindalGSS20",
+      "type": "inproceedings",
+      "title": "Leveraging BERT with Mixup for Sentence Classification (Student Abstract).",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "13829-13830",
+      "authors": [
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/222/5147",
+        "https://dblp.org/pid/266/2830",
+        "https://dblp.org/pid/90/3833"
+      ],
+      "dois": [
+        "10.1609/aaai.v34i10.7186"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2020#conf/aaai/JindalGSS20",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/aaai/KapoorKRSKZ19",
+      "type": "inproceedings",
+      "title": "Mind Your Language: Abuse and Offense Detection for Code-Switched Languages.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "9951-9952",
+      "authors": [
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/200/2387",
+        "https://dblp.org/pid/227/2856",
+        "https://dblp.org/pid/239/5601",
+        "https://dblp.org/pid/79/1490",
+        "https://dblp.org/pid/97/5147"
+      ],
+      "dois": [
+        "10.1609/aaai.v33i01.33019951"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2019#conf/aaai/KapoorKRSKZ19",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
         }
       ]
     },
@@ -1339,6 +1600,41 @@
       ]
     },
     {
+      "key": "conf/aaai/MannAS26",
+      "type": "inproceedings",
+      "title": "BRI-MH: Behavioral Risk Index for Mental Health - An Interpretable Multimodal LLM-Augmented Framework (Student Abstract).",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "41310-41312",
+      "authors": [
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/352/2483",
+        "https://dblp.org/pid/429/6208"
+      ],
+      "dois": [
+        "10.1609/aaai.v40i48.42252"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2026#conf/aaai/MannAS26",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
       "key": "conf/aaai/MassartA22",
       "type": "inproceedings",
       "title": "Coordinate Descent on the Orthogonal Group for Recurrent Neural Network Training.",
@@ -1376,6 +1672,41 @@
           "area": "aaai",
           "domain": "Artificial intelligence",
           "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/aaai/MathurSS20",
+      "type": "inproceedings",
+      "title": "Suicide Risk Assessment via Temporal Psycholinguistic Modeling (Student Abstract).",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "13873-13874",
+      "authors": [
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/148/3798",
+        "https://dblp.org/pid/222/5147"
+      ],
+      "dois": [
+        "10.1609/aaai.v34i10.7209"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2020#conf/aaai/MathurSS20",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
         }
       ]
     },
@@ -1424,6 +1755,81 @@
       ]
     },
     {
+      "key": "conf/aaai/PaneriTMVS19",
+      "type": "inproceedings",
+      "title": "Regularizing Fully Convolutional Networks for Time Series Classification by Decorrelating Filters.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "10003-10004",
+      "authors": [
+        "https://dblp.org/pid/16/4559",
+        "https://dblp.org/pid/175/5441",
+        "https://dblp.org/pid/185/0511",
+        "https://dblp.org/pid/42/811",
+        "https://dblp.org/pid/54/3265"
+      ],
+      "dois": [
+        "10.1609/aaai.v33i01.330110003"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2019#conf/aaai/PaneriTMVS19",
+      "faculty": [
+        "Gautam Shroff"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/aaai/SalikAKSJZ19",
+      "type": "inproceedings",
+      "title": "Lipper: Speaker Independent Speech Synthesis Using Multi-View Lipreading.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "10023-10024",
+      "authors": [
+        "https://dblp.org/pid/119/6382",
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/239/5601",
+        "https://dblp.org/pid/244/2587",
+        "https://dblp.org/pid/26/5626",
+        "https://dblp.org/pid/79/1490"
+      ],
+      "dois": [
+        "10.1609/aaai.v33i01.330110023"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2019#conf/aaai/SalikAKSJZ19",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
       "key": "conf/aaai/SaniKA26",
       "type": "inproceedings",
       "title": "Active Learning for Animal Re-Identification with Ambiguity-Aware Sampling.",
@@ -1461,6 +1867,44 @@
           "venue": "AAAI",
           "area": "aaai",
           "domain": "Artificial intelligence",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "conf/aaai/SatyadevKASWP26",
+      "type": "inproceedings",
+      "title": "When Equal Isn't Fair: Mitigating Over-Normalization in Large Language Models (Student Abstract).",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": 2026,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "41384-41386",
+      "authors": [
+        "https://dblp.org/pid/07/9078",
+        "https://dblp.org/pid/116/4606",
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/352/2483",
+        "https://dblp.org/pid/372/0368",
+        "https://dblp.org/pid/429/6807"
+      ],
+      "dois": [
+        "10.1609/aaai.v40i48.42279"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2026#conf/aaai/SatyadevKASWP26",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
           "year": 2026
         }
       ]
@@ -1523,7 +1967,7 @@
       "number": "",
       "pages": "9763-9771",
       "authors": [
-        "https://dblp.org/pid/146/2381-3",
+        "https://dblp.org/pid/146/2381",
         "https://dblp.org/pid/184/8579",
         "https://dblp.org/pid/19/1947",
         "https://dblp.org/pid/197/5870",
@@ -1551,6 +1995,42 @@
           "area": "aaai",
           "domain": "Artificial intelligence",
           "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/aaai/SinghMBM21",
+      "type": "inproceedings",
+      "title": "Neuro-Symbolic Techniques for Description Logic Reasoning (Student Abstract).",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "15891-15892",
+      "authors": [
+        "https://dblp.org/pid/168/9506",
+        "https://dblp.org/pid/217/5394",
+        "https://dblp.org/pid/52/7536",
+        "https://dblp.org/pid/63/7446"
+      ],
+      "dois": [
+        "10.1609/aaai.v35i18.17942"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2021#conf/aaai/SinghMBM21",
+      "faculty": [
+        "Raghava Mutharaju"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2021
         }
       ]
     },
@@ -1604,6 +2084,44 @@
       ]
     },
     {
+      "key": "conf/aaai/SinghalKSS0K20",
+      "type": "inproceedings",
+      "title": "SpotFake+: A Multimodal Framework for Fake News Detection via Transfer Learning (Student Abstract).",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "13915-13916",
+      "authors": [
+        "https://dblp.org/pid/04/3916-4",
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/218/0755",
+        "https://dblp.org/pid/266/2823",
+        "https://dblp.org/pid/65/2136-2",
+        "https://dblp.org/pid/97/5147"
+      ],
+      "dois": [
+        "10.1609/aaai.v34i10.7230"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2020#conf/aaai/SinghalKSS0K20",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
       "key": "conf/aaai/SinghalS25",
       "type": "inproceedings",
       "title": "ConceptSearch: Towards Efficient Program Search Using LLMs for Abstraction and Reasoning Corpus (ARC).",
@@ -1640,6 +2158,40 @@
           "venue": "AAAI",
           "area": "aaai",
           "domain": "Artificial intelligence",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/aaai/SinghalS25a",
+      "type": "inproceedings",
+      "title": "ConceptSearch: Towards Efficient Program Search Using LLMs for Abstraction and Reasoning Corpus (ARC) (Student Abstract).",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "29493-29494",
+      "authors": [
+        "https://dblp.org/pid/392/5627",
+        "https://dblp.org/pid/54/3265"
+      ],
+      "dois": [
+        "10.1609/aaai.v39i28.35300"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2025#conf/aaai/SinghalS25a",
+      "faculty": [
+        "Gautam Shroff"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
           "year": 2025
         }
       ]
@@ -1733,6 +2285,81 @@
       ]
     },
     {
+      "key": "conf/aaai/SonwaneSV0D22",
+      "type": "inproceedings",
+      "title": "Solving Visual Analogies Using Neural Algorithmic Reasoning (Student Abstract).",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "13055-13056",
+      "authors": [
+        "https://dblp.org/pid/131/6724",
+        "https://dblp.org/pid/16/4559",
+        "https://dblp.org/pid/304/5322",
+        "https://dblp.org/pid/54/3265",
+        "https://dblp.org/pid/75/6930-1"
+      ],
+      "dois": [
+        "10.1609/aaai.v36i11.21664"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2022#conf/aaai/SonwaneSV0D22",
+      "faculty": [
+        "Gautam Shroff"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/aaai/SwaminathanGZMG20",
+      "type": "inproceedings",
+      "title": "Keyphrase Generation for Scientific Articles Using GANs (Student Abstract).",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "13931-13932",
+      "authors": [
+        "https://dblp.org/pid/124/7097",
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/246/4990",
+        "https://dblp.org/pid/249/5487",
+        "https://dblp.org/pid/249/5749",
+        "https://dblp.org/pid/25/8840-3"
+      ],
+      "dois": [
+        "10.1609/aaai.v34i10.7238"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2020#conf/aaai/SwaminathanGZMG20",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
       "key": "conf/aaai/TomarAA26",
       "type": "inproceedings",
       "title": "NADIR: Differential Attention Flow for Non-Autoregressive Transliteration in Indic Languages.",
@@ -1771,6 +2398,40 @@
           "area": "aaai",
           "domain": "Artificial intelligence",
           "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "conf/aaai/YadavS23",
+      "type": "inproceedings",
+      "title": "Mask-Net: Learning Context Aware Invariant Features Using Adversarial Forgetting (Student Abstract).",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "AAAI",
+      "booktitle": "AAAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "16374-16375",
+      "authors": [
+        "https://dblp.org/pid/02/7350",
+        "https://dblp.org/pid/134/3502"
+      ],
+      "dois": [
+        "10.1609/aaai.v37i13.27047"
+      ],
+      "url": "https://dblp.org/db/conf/aaai/aaai2023#conf/aaai/YadavS23",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
         }
       ]
     },
@@ -2355,7 +3016,7 @@
       "number": "",
       "pages": "5272-5290",
       "authors": [
-        "https://dblp.org/pid/146/2381-3",
+        "https://dblp.org/pid/146/2381",
         "https://dblp.org/pid/184/8579",
         "https://dblp.org/pid/219/1546",
         "https://dblp.org/pid/331/4189",
@@ -2459,6 +3120,81 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2013
+        }
+      ]
+    },
+    {
+      "key": "conf/aied/ChhabraBVMD22",
+      "type": "inproceedings",
+      "title": "Obj2Sub: Unsupervised Conversion of Objective to Subjective Questions.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "AIED (2)",
+      "booktitle": "AIED (2)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "467-470",
+      "authors": [
+        "https://dblp.org/pid/274/2996",
+        "https://dblp.org/pid/321/1062",
+        "https://dblp.org/pid/322/9234",
+        "https://dblp.org/pid/322/9388",
+        "https://dblp.org/pid/85/6670"
+      ],
+      "dois": [
+        "10.1007/978-3-031-11647-6_94"
+      ],
+      "url": "https://dblp.org/db/conf/aied/aied2022-2#conf/aied/ChhabraBVMD22",
+      "faculty": [
+        "Mukesh K. Mohania"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "AIED",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/aied/GoelSVSDM22",
+      "type": "inproceedings",
+      "title": "K-12BERT: BERT for K-12 Education.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "AIED (2)",
+      "booktitle": "AIED (2)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "595-598",
+      "authors": [
+        "https://dblp.org/pid/181/2824",
+        "https://dblp.org/pid/274/2996",
+        "https://dblp.org/pid/276/3127",
+        "https://dblp.org/pid/299/4745",
+        "https://dblp.org/pid/321/1062",
+        "https://dblp.org/pid/85/6670"
+      ],
+      "dois": [
+        "10.1007/978-3-031-11647-6_123"
+      ],
+      "url": "https://dblp.org/db/conf/aied/aied2022-2#conf/aied/GoelSVSDM22",
+      "faculty": [
+        "Mukesh K. Mohania"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "AIED",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
         }
       ]
     },
@@ -3341,12 +4077,12 @@
         "https://dblp.org/pid/128/4273",
         "https://dblp.org/pid/173/6698",
         "https://dblp.org/pid/255/1828",
-        "https://dblp.org/pid/258/8329",
         "https://dblp.org/pid/345/2880",
         "https://dblp.org/pid/351/3566",
         "https://dblp.org/pid/372/5639",
         "https://dblp.org/pid/380/0100",
-        "https://dblp.org/pid/418/3180"
+        "https://dblp.org/pid/418/3180",
+        "https://dblp.org/pid/429/5493"
       ],
       "dois": [
         "10.1109/apsipaasc65261.2025.11249169"
@@ -3774,6 +4510,74 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/atal/SharmaB18",
+      "type": "inproceedings",
+      "title": "Foresee: Attentive Future Projections of Chaotic Road Environments.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "AAMAS",
+      "booktitle": "AAMAS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2073-2075",
+      "authors": [
+        "https://dblp.org/pid/128/4273",
+        "https://dblp.org/pid/85/2938"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/atal/aamas2018#conf/atal/SharmaB18",
+      "faculty": [
+        "Arun Balaji Buduru"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAMAS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/atal/VermaSKASS19",
+      "type": "inproceedings",
+      "title": "A Reinforcement Learning Framework for Container Selection and Ship Load Sequencing in Ports.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "AAMAS",
+      "booktitle": "AAMAS",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2250-2252",
+      "authors": [
+        "https://dblp.org/pid/144/2689",
+        "https://dblp.org/pid/157/0501",
+        "https://dblp.org/pid/183/1028",
+        "https://dblp.org/pid/54/3265",
+        "https://dblp.org/pid/75/6930-1",
+        "https://dblp.org/pid/97/5792"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/atal/aamas2019#conf/atal/VermaSKASS19",
+      "faculty": [
+        "Gautam Shroff"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "AAMAS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
         }
       ]
     },
@@ -4975,6 +5779,106 @@
       ]
     },
     {
+      "key": "conf/bmvc/JainFA17",
+      "type": "inproceedings",
+      "title": "A Parallel Architecture for High Frame Rate Stereo using Semi-Global Matching.",
+      "year": 2017,
+      "publication_year": 2017,
+      "event_year": 2017,
+      "venue": "BMVC",
+      "booktitle": "BMVC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/07/2195",
+        "https://dblp.org/pid/11/4747",
+        "https://dblp.org/pid/55/4824-3"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/bmvc/bmvc2017#conf/bmvc/JainFA17",
+      "faculty": [
+        "Saket Anand"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "BMVC",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "key": "conf/bmvc/MishraS24",
+      "type": "inproceedings",
+      "title": "Layout Free Scene Graph to Image Generation.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "BMVC",
+      "booktitle": "BMVC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/232/6141",
+        "https://dblp.org/pid/367/4688"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/bmvc/bmvc2024#conf/bmvc/MishraS24",
+      "faculty": [
+        "A. Venkata Subramanyam"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "BMVC",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/bmvc/ShuklaBUAT19",
+      "type": "inproceedings",
+      "title": "PrOSe: Product of Orthogonal Spheres Parameterization for Disentangled Representation Learning.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "BMVC",
+      "booktitle": "BMVC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/11/4747",
+        "https://dblp.org/pid/139/1008",
+        "https://dblp.org/pid/236/5142",
+        "https://dblp.org/pid/236/5196",
+        "https://dblp.org/pid/80/1682"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/bmvc/bmvc2019#conf/bmvc/ShuklaBUAT19",
+      "faculty": [
+        "Saket Anand"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "BMVC",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
       "key": "conf/c3s2e/GoyalSP15",
       "type": "inproceedings",
       "title": "Efficient Skyline Itemsets Mining.",
@@ -6105,6 +7009,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "CIKM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2005
+        },
+        {
           "source": "acm",
           "venue": "CIKM",
           "area": "publisher-other",
@@ -6271,6 +7182,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "CIKM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2010
+        },
+        {
           "source": "acm",
           "venue": "CIKM",
           "area": "publisher-other",
@@ -6307,6 +7225,13 @@
         "Gautam Shroff"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "CIKM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2021
+        },
         {
           "source": "acm",
           "venue": "CIKM",
@@ -6516,6 +7441,13 @@
         "Mukesh K. Mohania"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "CIKM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2010
+        },
         {
           "source": "acm",
           "venue": "CIKM",
@@ -6858,6 +7790,13 @@
         "Mukesh K. Mohania"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "CIKM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2017
+        },
         {
           "source": "acm",
           "venue": "CIKM",
@@ -9462,45 +10401,6 @@
       ]
     },
     {
-      "key": "conf/cvpr/SaniA26",
-      "type": "inproceedings",
-      "title": "Hier-COS: Making Deep Features Hierarchy-aware via Composition of Orthogonal Subspaces.",
-      "year": 2026,
-      "publication_year": 2026,
-      "event_year": 2026,
-      "venue": "CVPR",
-      "booktitle": "CVPR",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "11263-11272",
-      "authors": [
-        "https://dblp.org/pid/11/4747",
-        "https://dblp.org/pid/320/0200"
-      ],
-      "dois": [],
-      "url": "https://dblp.org/db/conf/cvpr/cvpr2026#conf/cvpr/SaniA26",
-      "faculty": [
-        "Saket Anand"
-      ],
-      "memberships": [
-        {
-          "venue": "CVPR",
-          "year": 2026,
-          "area": "cvpr",
-          "domain": "Computer vision",
-          "source": "csrankings"
-        },
-        {
-          "source": "core-a-star",
-          "venue": "CVPR",
-          "area": "cvpr",
-          "domain": "Computer vision",
-          "year": 2026
-        }
-      ]
-    },
-    {
       "key": "conf/cvpr/SharmaZAB10",
       "type": "inproceedings",
       "title": "Multi-domain, higher order level set scheme for 3D image segmentation on the GPU.",
@@ -10530,7 +11430,7 @@
       "number": "",
       "pages": "2141-2155",
       "authors": [
-        "https://dblp.org/pid/146/2381-3",
+        "https://dblp.org/pid/146/2381",
         "https://dblp.org/pid/184/8579",
         "https://dblp.org/pid/19/1947",
         "https://dblp.org/pid/261/0205",
@@ -10674,6 +11574,43 @@
       ]
     },
     {
+      "key": "conf/ecai/ZhouQLHM12",
+      "type": "inproceedings",
+      "title": "Reasoning with Fuzzy-EL+ Ontologies Using MapReduce.",
+      "year": 2012,
+      "publication_year": 2012,
+      "event_year": 2012,
+      "venue": "ECAI",
+      "booktitle": "ECAI",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "933-934",
+      "authors": [
+        "https://dblp.org/pid/118/2633",
+        "https://dblp.org/pid/52/5716-21",
+        "https://dblp.org/pid/63/7446",
+        "https://dblp.org/pid/71/5935",
+        "https://dblp.org/pid/h/PascalHitzler"
+      ],
+      "dois": [
+        "10.3233/978-1-61499-098-7-933"
+      ],
+      "url": "https://dblp.org/db/conf/ecai/ecai2012#conf/ecai/ZhouQLHM12",
+      "faculty": [
+        "Raghava Mutharaju"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ECAI",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2012
+        }
+      ]
+    },
+    {
       "key": "conf/eccv/Agarwal0AA20",
       "type": "inproceedings",
       "title": "Contextual Diversity for Active Learning.",
@@ -10759,50 +11696,6 @@
       ]
     },
     {
-      "key": "conf/eccv/ISSDS26",
-      "type": "inproceedings",
-      "title": "Zero-Shot Image Personalization from Personas.",
-      "year": 2026,
-      "publication_year": 2026,
-      "event_year": 2026,
-      "venue": "ECCV (76)",
-      "booktitle": "ECCV (76)",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "351-368",
-      "authors": [
-        "https://dblp.org/pid/134/3502",
-        "https://dblp.org/pid/239/5601",
-        "https://dblp.org/pid/302/3894",
-        "https://dblp.org/pid/356/3166",
-        "https://dblp.org/pid/88/6921"
-      ],
-      "dois": [
-        "10.1007/978-3-032-37038-9_20"
-      ],
-      "url": "https://dblp.org/db/conf/eccv/eccv2026-76#conf/eccv/ISSDS26",
-      "faculty": [
-        "Rajiv Ratn Shah"
-      ],
-      "memberships": [
-        {
-          "venue": "ECCV (76)",
-          "year": 2026,
-          "area": "eccv",
-          "domain": "Computer vision",
-          "source": "csrankings"
-        },
-        {
-          "source": "core-a-star",
-          "venue": "ECCV",
-          "area": "eccv",
-          "domain": "Computer vision",
-          "year": 2026
-        }
-      ]
-    },
-    {
       "key": "conf/eccv/JhaASV18",
       "type": "inproceedings",
       "title": "Disentangling Factors of Variation with Cycle-Consistent Variational Auto-encoders.",
@@ -10842,89 +11735,6 @@
           "area": "eccv",
           "domain": "Computer vision",
           "year": 2018
-        }
-      ]
-    },
-    {
-      "key": "conf/eccv/MathurS26",
-      "type": "inproceedings",
-      "title": "Gaussian Volumetric Representation for Efficient Shear-Warp Visualization.",
-      "year": 2026,
-      "publication_year": 2026,
-      "event_year": 2026,
-      "venue": "ECCV (25)",
-      "booktitle": "ECCV (25)",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "640-657",
-      "authors": [
-        "https://dblp.org/pid/08/4556",
-        "https://dblp.org/pid/395/8279"
-      ],
-      "dois": [
-        "10.1007/978-3-032-37461-5_35"
-      ],
-      "url": "https://dblp.org/db/conf/eccv/eccv2026-25#conf/eccv/MathurS26",
-      "faculty": [
-        "Ojaswa Sharma"
-      ],
-      "memberships": [
-        {
-          "venue": "ECCV (25)",
-          "year": 2026,
-          "area": "eccv",
-          "domain": "Computer vision",
-          "source": "csrankings"
-        },
-        {
-          "source": "core-a-star",
-          "venue": "ECCV",
-          "area": "eccv",
-          "domain": "Computer vision",
-          "year": 2026
-        }
-      ]
-    },
-    {
-      "key": "conf/eccv/MishraKS26",
-      "type": "inproceedings",
-      "title": "RefDiT: Local Attribute Guidance in Reference-Based Image Generation.",
-      "year": 2026,
-      "publication_year": 2026,
-      "event_year": 2026,
-      "venue": "ECCV (25)",
-      "booktitle": "ECCV (25)",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "366-382",
-      "authors": [
-        "https://dblp.org/pid/161/6110",
-        "https://dblp.org/pid/232/6141",
-        "https://dblp.org/pid/367/4688"
-      ],
-      "dois": [
-        "10.1007/978-3-032-37461-5_20"
-      ],
-      "url": "https://dblp.org/db/conf/eccv/eccv2026-25#conf/eccv/MishraKS26",
-      "faculty": [
-        "A. Venkata Subramanyam"
-      ],
-      "memberships": [
-        {
-          "venue": "ECCV (25)",
-          "year": 2026,
-          "area": "eccv",
-          "domain": "Computer vision",
-          "source": "csrankings"
-        },
-        {
-          "source": "core-a-star",
-          "venue": "ECCV",
-          "area": "eccv",
-          "domain": "Computer vision",
-          "year": 2026
         }
       ]
     },
@@ -11321,6 +12131,41 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2009
+        }
+      ]
+    },
+    {
+      "key": "conf/edbt/VoKM18",
+      "type": "inproceedings",
+      "title": "Research Directions in Blockchain Data Management and Analytics.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "EDBT",
+      "booktitle": "EDBT",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "445-448",
+      "authors": [
+        "https://dblp.org/pid/32/8510",
+        "https://dblp.org/pid/65/4168",
+        "https://dblp.org/pid/85/6670"
+      ],
+      "dois": [
+        "10.5441/002/edbt.2018.43"
+      ],
+      "url": "https://dblp.org/db/conf/edbt/edbt2018#conf/edbt/VoKM18",
+      "faculty": [
+        "Mukesh K. Mohania"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "EDBT",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2018
         }
       ]
     },
@@ -12126,29 +12971,32 @@
       ]
     },
     {
-      "key": "conf/er/AijazMK26",
+      "key": "conf/er/SakamuriMPCMB03",
       "type": "inproceedings",
-      "title": "ApplE: A Modular Ontology of Applied Ethics and Event Context for Ethical Decision Modeling.",
-      "year": 2026,
-      "publication_year": 2027,
-      "event_year": 2026,
+      "title": "AXIS: A XML Schema Integration System.",
+      "year": 2003,
+      "publication_year": 2003,
+      "event_year": 2003,
       "venue": "ER",
       "booktitle": "ER",
       "journal": "",
       "volume": "",
       "number": "",
-      "pages": "128-144",
+      "pages": "576-578",
       "authors": [
-        "https://dblp.org/pid/364/0943",
-        "https://dblp.org/pid/364/2532",
-        "https://dblp.org/pid/63/7446"
+        "https://dblp.org/pid/14/331",
+        "https://dblp.org/pid/15/5754",
+        "https://dblp.org/pid/46/3527",
+        "https://dblp.org/pid/85/6670",
+        "https://dblp.org/pid/b/SSBhowmick",
+        "https://dblp.org/pid/m/SanjayKumarMadria"
       ],
       "dois": [
-        "10.1007/978-3-032-40795-5_8"
+        "10.1007/978-3-540-39648-2_48"
       ],
-      "url": "https://dblp.org/db/conf/er/er2026#conf/er/AijazMK26",
+      "url": "https://dblp.org/db/conf/er/er2003#conf/er/SakamuriMPCMB03",
       "faculty": [
-        "Raghava Mutharaju"
+        "Mukesh K. Mohania"
       ],
       "memberships": [
         {
@@ -12156,7 +13004,7 @@
           "venue": "ER",
           "area": "core-other",
           "domain": "Other CORE areas",
-          "year": 2026
+          "year": 2003
         }
       ]
     },
@@ -16414,6 +17262,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "ICDCS",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        },
+        {
           "source": "ieee",
           "venue": "ICDCS",
           "area": "publisher-other",
@@ -16538,6 +17393,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "ICDE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2008
+        },
+        {
           "source": "ieee",
           "venue": "ICDE",
           "area": "publisher-other",
@@ -16573,6 +17435,13 @@
         "Mukesh K. Mohania"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "ICDE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2003
+        },
         {
           "source": "ieee",
           "venue": "ICDE",
@@ -16763,6 +17632,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "ICDE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2010
+        },
+        {
           "source": "ieee",
           "venue": "ICDE",
           "area": "publisher-other",
@@ -16949,6 +17825,13 @@
         "Mukesh K. Mohania"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "ICDE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2009
+        },
         {
           "source": "ieee",
           "venue": "ICDE",
@@ -17736,49 +18619,6 @@
       ]
     },
     {
-      "key": "conf/iclr/BhattacharyyaBS26",
-      "type": "inproceedings",
-      "title": "Social Agents: Collective Intelligence Improves LLM Predictions.",
-      "year": 2026,
-      "publication_year": 2026,
-      "event_year": 2026,
-      "venue": "ICLR",
-      "booktitle": "ICLR",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "",
-      "authors": [
-        "https://dblp.org/pid/134/3502",
-        "https://dblp.org/pid/239/5601",
-        "https://dblp.org/pid/316/5715",
-        "https://dblp.org/pid/392/9232",
-        "https://dblp.org/pid/65/2802",
-        "https://dblp.org/pid/79/1076"
-      ],
-      "dois": [],
-      "url": "https://dblp.org/db/conf/iclr/iclr2026#conf/iclr/BhattacharyyaBS26",
-      "faculty": [
-        "Rajiv Ratn Shah"
-      ],
-      "memberships": [
-        {
-          "venue": "ICLR",
-          "year": 2026,
-          "area": "iclr",
-          "domain": "Machine learning & data mining",
-          "source": "csrankings"
-        },
-        {
-          "source": "core-a-star",
-          "venue": "ICLR",
-          "area": "iclr",
-          "domain": "Machine learning & data mining",
-          "year": 2026
-        }
-      ]
-    },
-    {
       "key": "conf/iclr/KhandelwalAB00B24",
       "type": "inproceedings",
       "title": "Large Content And Behavior Models To Understand, Simulate, And Optimize Content And Behavior.",
@@ -17908,48 +18748,6 @@
           "area": "iclr",
           "domain": "Machine learning & data mining",
           "year": 2024
-        }
-      ]
-    },
-    {
-      "key": "conf/iclr/SethGBRD26",
-      "type": "inproceedings",
-      "title": "Efficient algorithms for Incremental Metric Bipartite Matching.",
-      "year": 2026,
-      "publication_year": 2026,
-      "event_year": 2026,
-      "venue": "ICLR",
-      "booktitle": "ICLR",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "",
-      "authors": [
-        "https://dblp.org/pid/135/6297",
-        "https://dblp.org/pid/149/2582",
-        "https://dblp.org/pid/157/6058",
-        "https://dblp.org/pid/234/9736",
-        "https://dblp.org/pid/446/4721"
-      ],
-      "dois": [],
-      "url": "https://dblp.org/db/conf/iclr/iclr2026#conf/iclr/SethGBRD26",
-      "faculty": [
-        "Syamantak Das"
-      ],
-      "memberships": [
-        {
-          "venue": "ICLR",
-          "year": 2026,
-          "area": "iclr",
-          "domain": "Machine learning & data mining",
-          "source": "csrankings"
-        },
-        {
-          "source": "core-a-star",
-          "venue": "ICLR",
-          "area": "iclr",
-          "domain": "Machine learning & data mining",
-          "year": 2026
         }
       ]
     },
@@ -18862,6 +19660,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "ICSE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2000
+        },
+        {
           "source": "acm",
           "venue": "ICSE",
           "area": "publisher-other",
@@ -19763,6 +20568,40 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/icwsm/AgarwalVSS12",
+      "type": "inproceedings",
+      "title": "Catching the Long-Tail: Extracting Local News Events from Twitter.",
+      "year": 2012,
+      "publication_year": 2012,
+      "event_year": 2012,
+      "venue": "ICWSM",
+      "booktitle": "ICWSM",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/22/11518",
+        "https://dblp.org/pid/54/3265",
+        "https://dblp.org/pid/68/6666",
+        "https://dblp.org/pid/97/5792"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/icwsm/icwsm2012#conf/icwsm/AgarwalVSS12",
+      "faculty": [
+        "Gautam Shroff"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ICWSM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2012
         }
       ]
     },
@@ -20735,7 +21574,7 @@
       "pages": "5597-5606",
       "authors": [
         "https://dblp.org/pid/126/2083",
-        "https://dblp.org/pid/146/2381-3",
+        "https://dblp.org/pid/146/2381",
         "https://dblp.org/pid/184/8579",
         "https://dblp.org/pid/19/1947",
         "https://dblp.org/pid/248/8104",
@@ -21388,6 +22227,1512 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/AbrolSS13",
+      "type": "inproceedings",
+      "title": "Speech enhancement using compressed sensing.",
+      "year": 2013,
+      "publication_year": 2013,
+      "event_year": 2013,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3274-3278",
+      "authors": [
+        "https://dblp.org/pid/136/4535",
+        "https://dblp.org/pid/136/4698",
+        "https://dblp.org/pid/65/5924"
+      ],
+      "dois": [
+        "10.21437/interspeech.2013-725"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2013#conf/interspeech/AbrolSS13",
+      "faculty": [
+        "Vinayak Abrol"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2013
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/BiswasNA21",
+      "type": "inproceedings",
+      "title": "Transfer Learning for Speech Intelligibility Improvement in Noisy Environments.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "Interspeech",
+      "booktitle": "Interspeech",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "176-180",
+      "authors": [
+        "https://dblp.org/pid/122/2654",
+        "https://dblp.org/pid/136/4698",
+        "https://dblp.org/pid/303/5742"
+      ],
+      "dois": [
+        "10.21437/interspeech.2021-150"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2021#conf/interspeech/BiswasNA21",
+      "faculty": [
+        "Vinayak Abrol"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/BiyaniSGWS25",
+      "type": "inproceedings",
+      "title": "REWIND: Speech Time Reversal for Enhancing Speaker Representations in Diffusion-based Voice Conversion.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/136/3651",
+        "https://dblp.org/pid/184/0627",
+        "https://dblp.org/pid/251/2798",
+        "https://dblp.org/pid/395/7784"
+      ],
+      "dois": [
+        "10.21437/interspeech.2025-1434"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2025#conf/interspeech/BiyaniSGWS25",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/ChaudharyA24",
+      "type": "inproceedings",
+      "title": "QGAN: Low Footprint Quaternion Neural Vocoder for Speech Synthesis.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/136/4698",
+        "https://dblp.org/pid/357/2349"
+      ],
+      "dois": [
+        "10.21437/interspeech.2024-2014"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2024#conf/interspeech/ChaudharyA24",
+      "faculty": [
+        "Vinayak Abrol"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/ChaudharySAP24",
+      "type": "inproceedings",
+      "title": "Efficient CNNs with Quaternion Transformations and Pruning for Audio Tagging.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/136/4698",
+        "https://dblp.org/pid/202/5608",
+        "https://dblp.org/pid/357/2349",
+        "https://dblp.org/pid/84/1168"
+      ],
+      "dois": [
+        "10.21437/interspeech.2024-1331"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2024#conf/interspeech/ChaudharySAP24",
+      "faculty": [
+        "Vinayak Abrol"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/ChaudhuriMBPB24",
+      "type": "inproceedings",
+      "title": "ASGIR: audio spectrogram transformer guided classification and information retrieval for birds.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/128/4273",
+        "https://dblp.org/pid/345/2880",
+        "https://dblp.org/pid/366/7244",
+        "https://dblp.org/pid/383/8517",
+        "https://dblp.org/pid/383/8721"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2024#conf/interspeech/ChaudhuriMBPB24",
+      "faculty": [
+        "Arun Balaji Buduru"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/GhoshKKSU22",
+      "type": "inproceedings",
+      "title": "Span Classification with Structured Information for Disfluency Detection in Spoken Utterances.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3998-4002",
+      "authors": [
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/173/5626",
+        "https://dblp.org/pid/239/5601",
+        "https://dblp.org/pid/36/5441",
+        "https://dblp.org/pid/66/7465"
+      ],
+      "dois": [
+        "10.21437/interspeech.2022-11242"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2022#conf/interspeech/GhoshKKSU22",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/GhoshLSSU22",
+      "type": "inproceedings",
+      "title": "DeToxy: A Large-Scale Multimodal Dataset for Toxicity Classification in Spoken Utterances.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "5185-5189",
+      "authors": [
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/173/5626",
+        "https://dblp.org/pid/174/9003",
+        "https://dblp.org/pid/304/3124",
+        "https://dblp.org/pid/36/5441"
+      ],
+      "dois": [
+        "10.21437/interspeech.2022-10752"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2022#conf/interspeech/GhoshLSSU22",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/GoelHG24",
+      "type": "inproceedings",
+      "title": "Exploring Multilingual Unseen Speaker Emotion Recognition: Leveraging Co-Attention Cues in Multitask Learning.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/161/3392",
+        "https://dblp.org/pid/352/3747",
+        "https://dblp.org/pid/95/491"
+      ],
+      "dois": [
+        "10.21437/interspeech.2024-1820"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2024#conf/interspeech/GoelHG24",
+      "faculty": [
+        "Anubha Gupta"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/GudmalwarSAWS24",
+      "type": "inproceedings",
+      "title": "VECL-TTS: Voice identity and Emotional style controllable Cross-Lingual Text-to-Speech.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/136/3651",
+        "https://dblp.org/pid/184/0627",
+        "https://dblp.org/pid/372/0685",
+        "https://dblp.org/pid/395/7740"
+      ],
+      "dois": [
+        "10.21437/interspeech.2024-1672"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2024#conf/interspeech/GudmalwarSAWS24",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/JainPB024",
+      "type": "inproceedings",
+      "title": "The reasonable effectiveness of speaker embeddings for violence detection.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/128/4273",
+        "https://dblp.org/pid/16/7691-2",
+        "https://dblp.org/pid/169/3355",
+        "https://dblp.org/pid/345/2880"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2024#conf/interspeech/JainPB024",
+      "faculty": [
+        "Arun Balaji Buduru"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/JindalRDCJSS20",
+      "type": "inproceedings",
+      "title": "SpeechMix - Augmenting Deep Sound Recognition Using Hidden Space Interpolations.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "861-865",
+      "authors": [
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/222/5147",
+        "https://dblp.org/pid/242/7482",
+        "https://dblp.org/pid/245/8589",
+        "https://dblp.org/pid/277/3516",
+        "https://dblp.org/pid/67/1861",
+        "https://dblp.org/pid/90/3833"
+      ],
+      "dois": [
+        "10.21437/interspeech.2020-3147"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2020#conf/interspeech/JindalRDCJSS20",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/KoshalPJB024",
+      "type": "inproceedings",
+      "title": "PERSONA: an application for emotion recognition, gender recognition and age estimation.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/128/4273",
+        "https://dblp.org/pid/16/7691-2",
+        "https://dblp.org/pid/169/3355",
+        "https://dblp.org/pid/345/2880",
+        "https://dblp.org/pid/381/4496"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2024#conf/interspeech/KoshalPJB024",
+      "faculty": [
+        "Arun Balaji Buduru"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/KumarA25",
+      "type": "inproceedings",
+      "title": "ArticulateX: End-to-End Monolingual Speech Translation in Articulator Space.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/136/4698",
+        "https://dblp.org/pid/15/7599"
+      ],
+      "dois": [
+        "10.21437/interspeech.2025-1305"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2025#conf/interspeech/KumarA25",
+      "faculty": [
+        "Vinayak Abrol"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/MuckenhirnAMM19",
+      "type": "inproceedings",
+      "title": "Understanding and Visualizing Raw Waveform-Based CNNs.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2345-2349",
+      "authors": [
+        "https://dblp.org/pid/136/4698",
+        "https://dblp.org/pid/190/0083",
+        "https://dblp.org/pid/31/5046",
+        "https://dblp.org/pid/76/3728"
+      ],
+      "dois": [
+        "10.21437/interspeech.2019-2341"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2019#conf/interspeech/MuckenhirnAMM19",
+      "faculty": [
+        "Vinayak Abrol"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/MundraSCPB24",
+      "type": "inproceedings",
+      "title": "VoxMed: one-step respiratory disease classifier using digital stethoscope sounds.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/128/4273",
+        "https://dblp.org/pid/165/9245",
+        "https://dblp.org/pid/345/2880",
+        "https://dblp.org/pid/366/7244",
+        "https://dblp.org/pid/383/8517"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2024#conf/interspeech/MundraSCPB24",
+      "faculty": [
+        "Arun Balaji Buduru"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/PhukanAGBPB025",
+      "type": "inproceedings",
+      "title": "PARROT: Synergizing Mamba and Attention-based SSL Pre-Trained Models via Parallel Branch Hadamard Optimal Transport for Speech Emotion Recognition.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/128/4273",
+        "https://dblp.org/pid/16/7691-2",
+        "https://dblp.org/pid/258/8329",
+        "https://dblp.org/pid/345/2880",
+        "https://dblp.org/pid/351/3566",
+        "https://dblp.org/pid/366/0485",
+        "https://dblp.org/pid/372/5639"
+      ],
+      "dois": [
+        "10.21437/interspeech.2025-2233"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2025#conf/interspeech/PhukanAGBPB025",
+      "faculty": [
+        "Arun Balaji Buduru"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/PhukanAGBSJMPRB25",
+      "type": "inproceedings",
+      "title": "SNIFR : Boosting Fine-Grained Child Harmful Content Detection Through Audio-Visual Alignment with Cascaded Cross-Transformer.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/128/4273",
+        "https://dblp.org/pid/16/7691-2",
+        "https://dblp.org/pid/169/3355",
+        "https://dblp.org/pid/173/6698",
+        "https://dblp.org/pid/258/8329",
+        "https://dblp.org/pid/345/2880",
+        "https://dblp.org/pid/351/3566",
+        "https://dblp.org/pid/366/0485",
+        "https://dblp.org/pid/372/5639",
+        "https://dblp.org/pid/380/0100",
+        "https://dblp.org/pid/410/7433"
+      ],
+      "dois": [
+        "10.21437/interspeech.2025-2251"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2025#conf/interspeech/PhukanAGBSJMPRB25",
+      "faculty": [
+        "Arun Balaji Buduru"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/PhukanB023",
+      "type": "inproceedings",
+      "title": "Transforming the Embeddings: A Lightweight Technique for Speech Emotion Recognition Tasks.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1903-1907",
+      "authors": [
+        "https://dblp.org/pid/128/4273",
+        "https://dblp.org/pid/16/7691-2",
+        "https://dblp.org/pid/345/2880"
+      ],
+      "dois": [
+        "10.21437/interspeech.2023-2561"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2023#conf/interspeech/PhukanB023",
+      "faculty": [
+        "Arun Balaji Buduru"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/PhukanGABMRB025",
+      "type": "inproceedings",
+      "title": "Towards Source Attribution of Singing Voice Deepfake with Multimodal Foundation Models.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/128/4273",
+        "https://dblp.org/pid/16/7691-2",
+        "https://dblp.org/pid/173/6698",
+        "https://dblp.org/pid/258/8329",
+        "https://dblp.org/pid/345/2880",
+        "https://dblp.org/pid/351/3566",
+        "https://dblp.org/pid/372/5639",
+        "https://dblp.org/pid/380/0100"
+      ],
+      "dois": [
+        "10.21437/interspeech.2025-2171"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2025#conf/interspeech/PhukanGABMRB025",
+      "faculty": [
+        "Arun Balaji Buduru"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/PhukanGABMRB025a",
+      "type": "inproceedings",
+      "title": "Towards Fusion of Neural Audio Codec-based Representations with Spectral for Heart Murmur Classification via Bandit-based Cross-Attention Mechanism.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/128/4273",
+        "https://dblp.org/pid/16/7691-2",
+        "https://dblp.org/pid/258/8329",
+        "https://dblp.org/pid/345/2880",
+        "https://dblp.org/pid/351/3566",
+        "https://dblp.org/pid/372/5639",
+        "https://dblp.org/pid/380/0100",
+        "https://dblp.org/pid/94/6491"
+      ],
+      "dois": [
+        "10.21437/interspeech.2025-2206"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2025#conf/interspeech/PhukanGABMRB025a",
+      "faculty": [
+        "Arun Balaji Buduru"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/PhukanGABRB025",
+      "type": "inproceedings",
+      "title": "HYFuse: Aligning Heterogeneous Speech Pre-Trained Representations in Hyperbolic Space for Speech Emotion Recognition.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/128/4273",
+        "https://dblp.org/pid/16/7691-2",
+        "https://dblp.org/pid/173/6698",
+        "https://dblp.org/pid/258/8329",
+        "https://dblp.org/pid/345/2880",
+        "https://dblp.org/pid/351/3566",
+        "https://dblp.org/pid/372/5639"
+      ],
+      "dois": [
+        "10.21437/interspeech.2025-2191"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2025#conf/interspeech/PhukanGABRB025",
+      "faculty": [
+        "Arun Balaji Buduru"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/PhukanGABRB025a",
+      "type": "inproceedings",
+      "title": "Investigating the Reasonable Effectiveness of Speaker Pre-Trained Models and their Synergistic Power for SingMOS Prediction.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/128/4273",
+        "https://dblp.org/pid/16/7691-2",
+        "https://dblp.org/pid/173/6698",
+        "https://dblp.org/pid/258/8329",
+        "https://dblp.org/pid/345/2880",
+        "https://dblp.org/pid/351/3566",
+        "https://dblp.org/pid/372/5639"
+      ],
+      "dois": [
+        "10.21437/interspeech.2025-2227"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2025#conf/interspeech/PhukanGABRB025a",
+      "faculty": [
+        "Arun Balaji Buduru"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/PhukanGASBRSB025",
+      "type": "inproceedings",
+      "title": "Towards Machine Unlearning for Paralinguistic Speech Processing.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/128/4273",
+        "https://dblp.org/pid/16/7691-2",
+        "https://dblp.org/pid/171/1758",
+        "https://dblp.org/pid/249/4543",
+        "https://dblp.org/pid/252/4943",
+        "https://dblp.org/pid/258/8329",
+        "https://dblp.org/pid/345/2880",
+        "https://dblp.org/pid/351/3566",
+        "https://dblp.org/pid/372/5639"
+      ],
+      "dois": [
+        "10.21437/interspeech.2025-2326"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2025#conf/interspeech/PhukanGASBRSB025",
+      "faculty": [
+        "Arun Balaji Buduru"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/PhukanJSSB024",
+      "type": "inproceedings",
+      "title": "ComFeAT: combination of neural and spectral features for improved depression detection.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/128/4273",
+        "https://dblp.org/pid/16/7691-2",
+        "https://dblp.org/pid/169/3355",
+        "https://dblp.org/pid/171/1758",
+        "https://dblp.org/pid/249/4543",
+        "https://dblp.org/pid/345/2880"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2024#conf/interspeech/PhukanJSSB024",
+      "faculty": [
+        "Arun Balaji Buduru"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/PhukanKB024",
+      "type": "inproceedings",
+      "title": "Are Paralinguistic Representations all that is needed for Speech Emotion Recognition?",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/128/4273",
+        "https://dblp.org/pid/16/7691-2",
+        "https://dblp.org/pid/330/2432",
+        "https://dblp.org/pid/345/2880"
+      ],
+      "dois": [
+        "10.21437/interspeech.2024-2233"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2024#conf/interspeech/PhukanKB024",
+      "faculty": [
+        "Arun Balaji Buduru"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/PhukanMBNB024",
+      "type": "inproceedings",
+      "title": "Towards Multilingual Audio-Visual Question Answering.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/128/4273",
+        "https://dblp.org/pid/16/7691-2",
+        "https://dblp.org/pid/258/8329",
+        "https://dblp.org/pid/345/2880",
+        "https://dblp.org/pid/379/6421",
+        "https://dblp.org/pid/380/0100"
+      ],
+      "dois": [
+        "10.21437/interspeech.2024-1993"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2024#conf/interspeech/PhukanMBNB024",
+      "faculty": [
+        "Arun Balaji Buduru"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/SahipjohnGSWS24",
+      "type": "inproceedings",
+      "title": "DubWise: Video-Guided Speech Duration Control in Multimodal LLM-based Text-to-Speech for Dubbing.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/136/3651",
+        "https://dblp.org/pid/184/0627",
+        "https://dblp.org/pid/351/1307",
+        "https://dblp.org/pid/395/7740"
+      ],
+      "dois": [
+        "10.21437/interspeech.2024-1700"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2024#conf/interspeech/SahipjohnGSWS24",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/SawhneyAKMJS20",
+      "type": "inproceedings",
+      "title": "Risk Forecasting from Earnings Calls Acoustics and Network Correlations.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2307-2311",
+      "authors": [
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/148/3798",
+        "https://dblp.org/pid/222/5147",
+        "https://dblp.org/pid/248/4669",
+        "https://dblp.org/pid/276/3177",
+        "https://dblp.org/pid/277/2169"
+      ],
+      "dois": [
+        "10.21437/interspeech.2020-2649"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2020#conf/interspeech/SawhneyAKMJS20",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/SharmaADS15",
+      "type": "inproceedings",
+      "title": "Sparse coding based features for speech units classification.",
+      "year": 2015,
+      "publication_year": 2015,
+      "event_year": 2015,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "712-715",
+      "authors": [
+        "https://dblp.org/pid/136/4535",
+        "https://dblp.org/pid/136/4698",
+        "https://dblp.org/pid/152/1278",
+        "https://dblp.org/pid/65/5924"
+      ],
+      "dois": [
+        "10.21437/interspeech.2015-246"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2015#conf/interspeech/SharmaADS15",
+      "faculty": [
+        "Vinayak Abrol"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2015
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/SharmaAT18",
+      "type": "inproceedings",
+      "title": "ASe: Acoustic Scene Embedding Using Deep Archetypal Analysis and GMM.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3299-3303",
+      "authors": [
+        "https://dblp.org/pid/136/4535",
+        "https://dblp.org/pid/136/4698",
+        "https://dblp.org/pid/176/2591"
+      ],
+      "dois": [
+        "10.21437/interspeech.2018-1481"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2018#conf/interspeech/SharmaAT18",
+      "faculty": [
+        "Vinayak Abrol"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/SharmaPSB024",
+      "type": "inproceedings",
+      "title": "AVR: synergizing foundation models for audio-visual humor detection.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/128/4273",
+        "https://dblp.org/pid/16/7691-2",
+        "https://dblp.org/pid/198/9720",
+        "https://dblp.org/pid/307/1368",
+        "https://dblp.org/pid/345/2880"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2024#conf/interspeech/SharmaPSB024",
+      "faculty": [
+        "Arun Balaji Buduru"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/ShrivastavaSKSS19",
+      "type": "inproceedings",
+      "title": "MobiVSR : Efficient and Light-Weight Neural Network for Visual Speech Recognition on Mobile Devices.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2753-2757",
+      "authors": [
+        "https://dblp.org/pid/122/2200",
+        "https://dblp.org/pid/124/7097",
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/222/1772",
+        "https://dblp.org/pid/239/5601",
+        "https://dblp.org/pid/241/5140",
+        "https://dblp.org/pid/69/2756",
+        "https://dblp.org/pid/79/1490"
+      ],
+      "dois": [
+        "10.21437/interspeech.2019-3273"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2019#conf/interspeech/ShrivastavaSKSS19",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/ThakranA23",
+      "type": "inproceedings",
+      "title": "Investigating Acoustic Cues for Multilingual Abuse Detection.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": 2023,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3642-3646",
+      "authors": [
+        "https://dblp.org/pid/136/4698",
+        "https://dblp.org/pid/377/8979"
+      ],
+      "dois": [
+        "10.21437/interspeech.2023-1311"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2023#conf/interspeech/ThakranA23",
+      "faculty": [
+        "Vinayak Abrol"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/ThakurASR18",
+      "type": "inproceedings",
+      "title": "Deep Convex Representations: Feature Representations for Bioacoustics Classification.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": 2018,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2127-2131",
+      "authors": [
+        "https://dblp.org/pid/11/10499",
+        "https://dblp.org/pid/136/4535",
+        "https://dblp.org/pid/136/4698",
+        "https://dblp.org/pid/176/2591"
+      ],
+      "dois": [
+        "10.21437/interspeech.2018-1705"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2018#conf/interspeech/ThakurASR18",
+      "faculty": [
+        "Vinayak Abrol"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/UniyalA25",
+      "type": "inproceedings",
+      "title": "From Pretraining to Performance: Benchmarking Self-Supervised Speech Models for Interspeech-25 SER Challenge.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": 2025,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/136/4698",
+        "https://dblp.org/pid/386/3409"
+      ],
+      "dois": [
+        "10.21437/interspeech.2025-1283"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2025#conf/interspeech/UniyalA25",
+      "faculty": [
+        "Vinayak Abrol"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/UtherUASA07",
+      "type": "inproceedings",
+      "title": "Mobile adaptive CALL (MAC): a lightweight speech-based intervention for mobile language learners.",
+      "year": 2007,
+      "publication_year": 2007,
+      "event_year": 2007,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "2329-2332",
+      "authors": [
+        "https://dblp.org/pid/05/222",
+        "https://dblp.org/pid/11/8255",
+        "https://dblp.org/pid/42/9249",
+        "https://dblp.org/pid/55/1719-1",
+        "https://dblp.org/pid/76/6036"
+      ],
+      "dois": [
+        "10.21437/interspeech.2007-631"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2007#conf/interspeech/UtherUASA07",
+      "faculty": [
+        "Pushpendra Singh 0001"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2007
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/UttamKSASMS19",
+      "type": "inproceedings",
+      "title": "Hush-Hush Speak: Speech Reconstruction Using Silent Videos.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": 2019,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "136-140",
+      "authors": [
+        "https://dblp.org/pid/124/7097",
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/234/8634",
+        "https://dblp.org/pid/239/5601",
+        "https://dblp.org/pid/255/0267",
+        "https://dblp.org/pid/263/5030",
+        "https://dblp.org/pid/69/2756"
+      ],
+      "dois": [
+        "10.21437/interspeech.2019-3269"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2019#conf/interspeech/UttamKSASMS19",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/YadavG0S20",
+      "type": "inproceedings",
+      "title": "End-to-End Named Entity Recognition from English Speech.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": 2020,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "4268-4272",
+      "authors": [
+        "https://dblp.org/pid/02/7350",
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/173/5626",
+        "https://dblp.org/pid/99/111-1"
+      ],
+      "dois": [
+        "10.21437/interspeech.2020-2482"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2020#conf/interspeech/YadavG0S20",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/YadavGRBS22",
+      "type": "inproceedings",
+      "title": "Intent classification using pre-trained language agnostic embeddings for low resource languages.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": 2022,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "3473-3477",
+      "authors": [
+        "https://dblp.org/pid/02/7350",
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/167/4348",
+        "https://dblp.org/pid/98/8230",
+        "https://dblp.org/pid/b/AlanWBlack"
+      ],
+      "dois": [
+        "10.21437/interspeech.2022-10873"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2022#conf/interspeech/YadavGRBS22",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "conf/interspeech/YadavSS24",
+      "type": "inproceedings",
+      "title": "MS-HuBERT: Mitigating Pre-training and Inference Mismatch in Masked Language Modelling methods for learning Speech Representations.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": 2024,
+      "venue": "INTERSPEECH",
+      "booktitle": "INTERSPEECH",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "authors": [
+        "https://dblp.org/pid/02/7350",
+        "https://dblp.org/pid/134/3502",
+        "https://dblp.org/pid/27/7642"
+      ],
+      "dois": [
+        "10.21437/interspeech.2024-1978"
+      ],
+      "url": "https://dblp.org/db/conf/interspeech/interspeech2024#conf/interspeech/YadavSS24",
+      "faculty": [
+        "Rajiv Ratn Shah"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "Interspeech",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
         }
       ]
     },
@@ -25452,6 +27797,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "ACMMM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2016
+        },
+        {
           "source": "acm",
           "venue": "ACM Multimedia",
           "area": "publisher-other",
@@ -25490,6 +27842,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "ACMMM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2015
+        },
+        {
           "source": "acm",
           "venue": "ACM Multimedia",
           "area": "publisher-other",
@@ -25526,6 +27885,13 @@
         "Rajiv Ratn Shah"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "ACMMM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2014
+        },
         {
           "source": "acm",
           "venue": "ACM Multimedia",
@@ -25605,6 +27971,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "ACMMM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2020
+        },
+        {
           "source": "acm",
           "venue": "ACM Multimedia",
           "area": "publisher-other",
@@ -25638,6 +28011,13 @@
         "Vinayak Abrol"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "ACMMM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        },
         {
           "source": "acm",
           "venue": "ACM Multimedia",
@@ -26369,6 +28749,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "MOBICOM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        },
+        {
           "source": "acm",
           "venue": "MobiCom",
           "area": "publisher-other",
@@ -26406,6 +28793,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "MOBICOM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2018
+        },
+        {
           "source": "acm",
           "venue": "MobiCom",
           "area": "publisher-other",
@@ -26440,6 +28834,13 @@
         "Anubha Gupta"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "MOBICOM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2018
+        },
         {
           "source": "acm",
           "venue": "MobiCom",
@@ -26478,6 +28879,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "MOBICOM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2018
+        },
+        {
           "source": "acm",
           "venue": "MobiCom",
           "area": "publisher-other",
@@ -26514,6 +28922,13 @@
         "Mukulika Maity"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "MOBICOM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2015
+        },
         {
           "source": "acm",
           "venue": "MobiCom",
@@ -28070,6 +30485,44 @@
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "conf/pkdd/AlamTCWAM19",
+      "type": "inproceedings",
+      "title": "Towards a Predictive Patent Analytics and Evaluation Platform.",
+      "year": 2019,
+      "publication_year": 2020,
+      "event_year": 2019,
+      "venue": "ECML/PKDD (3)",
+      "booktitle": "ECML/PKDD (3)",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "773-776",
+      "authors": [
+        "https://dblp.org/pid/170/1116",
+        "https://dblp.org/pid/206/1430",
+        "https://dblp.org/pid/21/2241",
+        "https://dblp.org/pid/251/8675",
+        "https://dblp.org/pid/55/7942",
+        "https://dblp.org/pid/85/6670"
+      ],
+      "dois": [
+        "10.1007/978-3-030-46133-1_49"
+      ],
+      "url": "https://dblp.org/db/conf/pkdd/pkdd2019-3#conf/pkdd/AlamTCWAM19",
+      "faculty": [
+        "Mukesh K. Mohania"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "ECML PKDD",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
         }
       ]
     },
@@ -29691,6 +32144,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "SIGCOMM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        },
+        {
           "source": "acm",
           "venue": "SIGCOMM",
           "area": "publisher-other",
@@ -29726,6 +32186,13 @@
         "Pankaj Jalote"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "SIGCSE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        },
         {
           "source": "acm",
           "venue": "SIGCSE",
@@ -29763,6 +32230,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "SIGCSE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2026
+        },
+        {
           "source": "acm",
           "venue": "SIGCSE",
           "area": "publisher-other",
@@ -29797,6 +32271,13 @@
         "Pankaj Jalote"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "SIGCSE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        },
         {
           "source": "acm",
           "venue": "SIGCSE",
@@ -29869,6 +32350,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "SIGIR",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
+        },
+        {
           "source": "acm",
           "venue": "SIGIR",
           "area": "publisher-other",
@@ -29906,6 +32394,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a-star",
+          "venue": "SIGIR",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2024
+        },
+        {
           "source": "acm",
           "venue": "SIGIR",
           "area": "publisher-other",
@@ -29942,6 +32437,13 @@
         "Rajiv Ratn Shah"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "SIGIR",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2021
+        },
         {
           "source": "acm",
           "venue": "SIGIR",
@@ -30063,6 +32565,13 @@
         "Gautam Shroff"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "FSE",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2008
+        },
         {
           "source": "acm",
           "venue": "SIGSOFT FSE",
@@ -32107,6 +34616,39 @@
       ]
     },
     {
+      "key": "conf/vldb/NambiarGM07",
+      "type": "inproceedings",
+      "title": "CallAssist: Helping Call Center Agents in Preference Elicitation.",
+      "year": 2007,
+      "publication_year": 2007,
+      "event_year": 2007,
+      "venue": "VLDB",
+      "booktitle": "VLDB",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "1338-1341",
+      "authors": [
+        "https://dblp.org/pid/330/0760",
+        "https://dblp.org/pid/48/1886",
+        "https://dblp.org/pid/85/6670"
+      ],
+      "dois": [],
+      "url": "https://dblp.org/db/conf/vldb/vldb2007#conf/vldb/NambiarGM07",
+      "faculty": [
+        "Mukesh K. Mohania"
+      ],
+      "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "VLDB",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2007
+        }
+      ]
+    },
+    {
       "key": "conf/vlsid/BaranwalSSRD15",
       "type": "inproceedings",
       "title": "Reliability Enhancement of SoCs Based on Dynamic Memory Access Profiling in Conjunction with PVT Monitoring.",
@@ -32654,6 +35196,13 @@
         "Ojaswa Sharma"
       ],
       "memberships": [
+        {
+          "source": "core-a",
+          "venue": "VRST",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2019
+        },
         {
           "source": "acm",
           "venue": "VRST",
@@ -33516,6 +36065,41 @@
       ]
     },
     {
+      "key": "conf/wdag/ChatterjeePS21",
+      "type": "inproceedings",
+      "title": "Brief Announcement: Non-Blocking Dynamic Unbounded Graphs with Worst-Case Amortized Bounds.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": 2021,
+      "venue": "DISC",
+      "booktitle": "DISC",
+      "journal": "",
+      "volume": "",
+      "number": "",
+      "pages": "52:1-52:4",
+      "authors": [
+        "https://dblp.org/pid/117/6988",
+        "https://dblp.org/pid/41/5564",
+        "https://dblp.org/pid/56/9553"
+      ],
+      "dois": [
+        "10.4230/lipics.disc.2021.52"
+      ],
+      "url": "https://dblp.org/db/conf/wdag/disc2021#conf/wdag/ChatterjeePS21",
+      "faculty": [
+        "Bapi Chatterjee"
+      ],
+      "memberships": [
+        {
+          "source": "core-a",
+          "venue": "DISC",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
       "key": "conf/webi/BullotGM03",
       "type": "inproceedings",
       "title": "A Data-Mining Approach for Optimizing Performance of an Incremental Crawler.",
@@ -34120,6 +36704,13 @@
       ],
       "memberships": [
         {
+          "source": "core-a",
+          "venue": "WSDM",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2023
+        },
+        {
           "source": "acm",
           "venue": "WSDM",
           "area": "publisher-other",
@@ -34492,6 +37083,13 @@
         "Anubha Gupta"
       ],
       "memberships": [
+        {
+          "source": "core-a-star",
+          "venue": "WWW",
+          "area": "core-other",
+          "domain": "Other CORE areas",
+          "year": 2009
+        },
         {
           "source": "acm",
           "venue": "WWW",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T22:54:56.825063+00:00",
+  "generated_at": "2026-11-19T06:43:51.132532+00:00",
   "edition": "CORE2023",
   "scope": "Cached DBLP bibliographies; not a live DBLP refresh or a ranking-edition upgrade.",
   "year_range": [
@@ -14,61 +14,51 @@
   },
   "unique_papers_by_selection": {
     "csrankings": 132,
-    "core_a_star": 139,
-    "core_a": 131,
-    "core_union": 270,
-    "all_sources_union": 275
+    "core_a_star": 170,
+    "core_a": 185,
+    "core_union": 355,
+    "all_sources_union": 360
   },
   "faculty_counts": [
     {
       "name": "A. Venkata Subramanyam",
       "csrankings": 0,
       "core_a_star": 1,
-      "core_a": 4,
-      "core_union": 5,
-      "all_sources_union": 5,
-      "core_union_before": 5,
-      "core_union_change": 0
+      "core_a": 5,
+      "core_union": 6,
+      "all_sources_union": 6
     },
     {
       "name": "Anubha Gupta",
       "csrankings": 3,
-      "core_a_star": 3,
-      "core_a": 1,
-      "core_union": 4,
-      "all_sources_union": 4,
-      "core_union_before": 4,
-      "core_union_change": 0
+      "core_a_star": 4,
+      "core_a": 2,
+      "core_union": 6,
+      "all_sources_union": 6
     },
     {
       "name": "Arani Bhattacharya",
       "csrankings": 4,
-      "core_a_star": 6,
+      "core_a_star": 7,
       "core_a": 7,
-      "core_union": 13,
-      "all_sources_union": 14,
-      "core_union_before": 13,
-      "core_union_change": 0
+      "core_union": 14,
+      "all_sources_union": 15
     },
     {
       "name": "Arun Balaji Buduru",
       "csrankings": 1,
-      "core_a_star": 1,
-      "core_a": 2,
-      "core_union": 3,
-      "all_sources_union": 3,
-      "core_union_before": 3,
-      "core_union_change": 0
+      "core_a_star": 2,
+      "core_a": 18,
+      "core_union": 20,
+      "all_sources_union": 20
     },
     {
       "name": "Bapi Chatterjee",
       "csrankings": 3,
       "core_a_star": 4,
-      "core_a": 1,
-      "core_union": 5,
-      "all_sources_union": 5,
-      "core_union_before": 5,
-      "core_union_change": 0
+      "core_a": 2,
+      "core_union": 6,
+      "all_sources_union": 6
     },
     {
       "name": "Debajyoti Bera",
@@ -76,9 +66,7 @@
       "core_a_star": 1,
       "core_a": 2,
       "core_union": 3,
-      "all_sources_union": 3,
-      "core_union_before": 3,
-      "core_union_change": 0
+      "all_sources_union": 3
     },
     {
       "name": "Debarka Sengupta",
@@ -86,9 +74,7 @@
       "core_a_star": 0,
       "core_a": 0,
       "core_union": 0,
-      "all_sources_union": 1,
-      "core_union_before": 0,
-      "core_union_change": 0
+      "all_sources_union": 1
     },
     {
       "name": "Gajendra P. S. Raghava",
@@ -96,9 +82,7 @@
       "core_a_star": 0,
       "core_a": 0,
       "core_union": 0,
-      "all_sources_union": 0,
-      "core_union_before": 0,
-      "core_union_change": 0
+      "all_sources_union": 0
     },
     {
       "name": "Ganesh Bagler",
@@ -106,19 +90,15 @@
       "core_a_star": 0,
       "core_a": 0,
       "core_union": 0,
-      "all_sources_union": 0,
-      "core_union_before": 0,
-      "core_union_change": 0
+      "all_sources_union": 0
     },
     {
       "name": "Gautam Shroff",
       "csrankings": 2,
-      "core_a_star": 4,
-      "core_a": 9,
-      "core_union": 13,
-      "all_sources_union": 13,
-      "core_union_before": 12,
-      "core_union_change": 1
+      "core_a_star": 11,
+      "core_a": 10,
+      "core_union": 21,
+      "all_sources_union": 21
     },
     {
       "name": "Jainendra Shukla",
@@ -126,9 +106,7 @@
       "core_a_star": 2,
       "core_a": 2,
       "core_union": 4,
-      "all_sources_union": 6,
-      "core_union_before": 4,
-      "core_union_change": 0
+      "all_sources_union": 6
     },
     {
       "name": "Md. Shad Akhtar",
@@ -136,29 +114,23 @@
       "core_a_star": 23,
       "core_a": 10,
       "core_union": 33,
-      "all_sources_union": 33,
-      "core_union_before": 33,
-      "core_union_change": 0
+      "all_sources_union": 33
     },
     {
       "name": "Mukesh K. Mohania",
       "csrankings": 1,
       "core_a_star": 0,
-      "core_a": 8,
-      "core_union": 8,
-      "all_sources_union": 8,
-      "core_union_before": 6,
-      "core_union_change": 2
+      "core_a": 15,
+      "core_union": 15,
+      "all_sources_union": 15
     },
     {
       "name": "Mukulika Maity",
       "csrankings": 2,
-      "core_a_star": 1,
+      "core_a_star": 2,
       "core_a": 6,
-      "core_union": 7,
-      "all_sources_union": 8,
-      "core_union_before": 5,
-      "core_union_change": 2
+      "core_union": 8,
+      "all_sources_union": 9
     },
     {
       "name": "Nikhil Gupta 0008",
@@ -166,29 +138,23 @@
       "core_a_star": 1,
       "core_a": 3,
       "core_union": 4,
-      "all_sources_union": 4,
-      "core_union_before": 4,
-      "core_union_change": 0
+      "all_sources_union": 4
     },
     {
       "name": "Ojaswa Sharma",
       "csrankings": 0,
       "core_a_star": 1,
-      "core_a": 3,
-      "core_union": 4,
-      "all_sources_union": 4,
-      "core_union_before": 4,
-      "core_union_change": 0
+      "core_a": 4,
+      "core_union": 5,
+      "all_sources_union": 5
     },
     {
       "name": "Pankaj Jalote",
       "csrankings": 0,
       "core_a_star": 0,
-      "core_a": 1,
-      "core_union": 1,
-      "all_sources_union": 1,
-      "core_union_before": 1,
-      "core_union_change": 0
+      "core_a": 4,
+      "core_union": 4,
+      "all_sources_union": 4
     },
     {
       "name": "Piyus Kedia",
@@ -196,9 +162,7 @@
       "core_a_star": 1,
       "core_a": 5,
       "core_union": 6,
-      "all_sources_union": 6,
-      "core_union_before": 4,
-      "core_union_change": 2
+      "all_sources_union": 6
     },
     {
       "name": "Pushpendra Singh 0001",
@@ -206,19 +170,15 @@
       "core_a_star": 17,
       "core_a": 3,
       "core_union": 20,
-      "all_sources_union": 21,
-      "core_union_before": 20,
-      "core_union_change": 0
+      "all_sources_union": 21
     },
     {
       "name": "Raghava Mutharaju",
       "csrankings": 2,
-      "core_a_star": 2,
+      "core_a_star": 3,
       "core_a": 5,
-      "core_union": 7,
-      "all_sources_union": 7,
-      "core_union_before": 5,
-      "core_union_change": 2
+      "core_union": 8,
+      "all_sources_union": 8
     },
     {
       "name": "Rajiv Raman 0001",
@@ -226,19 +186,15 @@
       "core_a_star": 0,
       "core_a": 8,
       "core_union": 8,
-      "all_sources_union": 8,
-      "core_union_before": 8,
-      "core_union_change": 0
+      "all_sources_union": 8
     },
     {
       "name": "Rajiv Ratn Shah",
       "csrankings": 37,
-      "core_a_star": 41,
-      "core_a": 27,
-      "core_union": 68,
-      "all_sources_union": 68,
-      "core_union_before": 68,
-      "core_union_change": 0
+      "core_a_star": 58,
+      "core_a": 39,
+      "core_union": 97,
+      "all_sources_union": 97
     },
     {
       "name": "Ravi Anand",
@@ -246,29 +202,23 @@
       "core_a_star": 2,
       "core_a": 1,
       "core_union": 3,
-      "all_sources_union": 3,
-      "core_union_before": 3,
-      "core_union_change": 0
+      "all_sources_union": 3
     },
     {
       "name": "Rinku Shah",
       "csrankings": 0,
-      "core_a_star": 0,
+      "core_a_star": 1,
       "core_a": 1,
-      "core_union": 1,
-      "all_sources_union": 1,
-      "core_union_before": 1,
-      "core_union_change": 0
+      "core_union": 2,
+      "all_sources_union": 2
     },
     {
       "name": "Saket Anand",
       "csrankings": 7,
-      "core_a_star": 8,
-      "core_a": 10,
-      "core_union": 18,
-      "all_sources_union": 18,
-      "core_union_before": 17,
-      "core_union_change": 1
+      "core_a_star": 9,
+      "core_a": 12,
+      "core_union": 21,
+      "all_sources_union": 21
     },
     {
       "name": "Sambuddho Chakravarty",
@@ -276,9 +226,7 @@
       "core_a_star": 0,
       "core_a": 10,
       "core_union": 10,
-      "all_sources_union": 10,
-      "core_union_before": 6,
-      "core_union_change": 4
+      "all_sources_union": 10
     },
     {
       "name": "Sujay Deb",
@@ -286,9 +234,7 @@
       "core_a_star": 0,
       "core_a": 0,
       "core_union": 0,
-      "all_sources_union": 0,
-      "core_union_before": 0,
-      "core_union_change": 0
+      "all_sources_union": 0
     },
     {
       "name": "Supratim Shit",
@@ -296,9 +242,7 @@
       "core_a_star": 3,
       "core_a": 1,
       "core_union": 4,
-      "all_sources_union": 4,
-      "core_union_before": 4,
-      "core_union_change": 0
+      "all_sources_union": 4
     },
     {
       "name": "Syamantak Das",
@@ -306,9 +250,7 @@
       "core_a_star": 6,
       "core_a": 7,
       "core_union": 13,
-      "all_sources_union": 13,
-      "core_union_before": 11,
-      "core_union_change": 2
+      "all_sources_union": 13
     },
     {
       "name": "Tanmoy Kundu 0001",
@@ -316,29 +258,23 @@
       "core_a_star": 3,
       "core_a": 3,
       "core_union": 6,
-      "all_sources_union": 6,
-      "core_union_before": 6,
-      "core_union_change": 0
+      "all_sources_union": 6
     },
     {
       "name": "Vikram Goyal",
       "csrankings": 4,
       "core_a_star": 6,
-      "core_a": 9,
-      "core_union": 15,
-      "all_sources_union": 15,
-      "core_union_before": 12,
-      "core_union_change": 3
+      "core_a": 10,
+      "core_union": 16,
+      "all_sources_union": 16
     },
     {
       "name": "Vinayak Abrol",
       "csrankings": 4,
-      "core_a_star": 5,
-      "core_a": 0,
-      "core_union": 5,
-      "all_sources_union": 5,
-      "core_union_before": 5,
-      "core_union_change": 0
+      "core_a_star": 6,
+      "core_a": 9,
+      "core_union": 15,
+      "all_sources_union": 15
     },
     {
       "name": "Vivek Kumar 0001",
@@ -346,18 +282,15 @@
       "core_a_star": 0,
       "core_a": 1,
       "core_union": 1,
-      "all_sources_union": 1,
-      "core_union_before": 1,
-      "core_union_change": 0
+      "all_sources_union": 1
     }
   ],
   "differences": [],
   "membership_differences": [],
   "raw_classification": {
     "unmapped_venue_or_non_main_track": 1127,
-    "ranked_venue_excluded_by_paper_policy": 105,
-    "venue_not_core_a_or_a_star": 347,
-    "included_core": 334
+    "included_core": 439,
+    "venue_not_core_a_or_a_star": 347
   },
   "coverage": [
     {
@@ -366,7 +299,7 @@
       "acronym": "SIGCOMM",
       "rank": "A*",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 0
+      "loaded_unique_papers": 1
     },
     {
       "id": "12",
@@ -430,7 +363,7 @@
       "acronym": "CIKM",
       "rank": "A",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 16
+      "loaded_unique_papers": 21
     },
     {
       "id": "26",
@@ -446,7 +379,7 @@
       "acronym": "MOBICOM",
       "rank": "A*",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 0
+      "loaded_unique_papers": 5
     },
     {
       "id": "28",
@@ -462,7 +395,7 @@
       "acronym": "SIGIR",
       "rank": "A*",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 0
+      "loaded_unique_papers": 3
     },
     {
       "id": "30",
@@ -478,7 +411,7 @@
       "acronym": "FSE",
       "rank": "A*",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 0
+      "loaded_unique_papers": 1
     },
     {
       "id": "31",
@@ -486,7 +419,7 @@
       "acronym": "WSDM",
       "rank": "A",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 3
+      "loaded_unique_papers": 4
     },
     {
       "id": "32",
@@ -510,7 +443,7 @@
       "acronym": "ACMMM",
       "rank": "A*",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 9
+      "loaded_unique_papers": 14
     },
     {
       "id": "38",
@@ -550,7 +483,7 @@
       "acronym": "SIGCSE",
       "rank": "A",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 0
+      "loaded_unique_papers": 3
     },
     {
       "id": "56",
@@ -598,7 +531,7 @@
       "acronym": "VRST",
       "rank": "A",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 1
+      "loaded_unique_papers": 2
     },
     {
       "id": "82",
@@ -710,7 +643,7 @@
       "acronym": "BMVC",
       "rank": "A",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 0
+      "loaded_unique_papers": 3
     },
     {
       "id": "331",
@@ -798,7 +731,7 @@
       "acronym": "ECAI",
       "rank": "A",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 1
+      "loaded_unique_papers": 2
     },
     {
       "id": "479",
@@ -822,7 +755,7 @@
       "acronym": "ECML PKDD",
       "rank": "A",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 6
+      "loaded_unique_papers": 7
     },
     {
       "id": "488",
@@ -878,7 +811,7 @@
       "acronym": "EDBT",
       "rank": "A",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 3
+      "loaded_unique_papers": 4
     },
     {
       "id": "533",
@@ -1230,7 +1163,7 @@
       "acronym": "AIED",
       "rank": "A",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 2
+      "loaded_unique_papers": 4
     },
     {
       "id": "918",
@@ -1254,7 +1187,7 @@
       "acronym": "ER",
       "rank": "A",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 3
+      "loaded_unique_papers": 4
     },
     {
       "id": "973",
@@ -1270,7 +1203,7 @@
       "acronym": "ICDE",
       "rank": "A*",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 9
+      "loaded_unique_papers": 13
     },
     {
       "id": "989",
@@ -1286,7 +1219,7 @@
       "acronym": "ICDCS",
       "rank": "A",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 8
+      "loaded_unique_papers": 9
     },
     {
       "id": "1022",
@@ -1390,7 +1323,7 @@
       "acronym": "ICSE",
       "rank": "A*",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 1
+      "loaded_unique_papers": 2
     },
     {
       "id": "1221",
@@ -1438,7 +1371,7 @@
       "acronym": "VLDB",
       "rank": "A*",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 5
+      "loaded_unique_papers": 6
     },
     {
       "id": "2169",
@@ -1446,7 +1379,7 @@
       "acronym": "ICWSM",
       "rank": "A",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 9
+      "loaded_unique_papers": 10
     },
     {
       "id": "1313",
@@ -1470,7 +1403,7 @@
       "acronym": "AAMAS",
       "rank": "A*",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 0
+      "loaded_unique_papers": 2
     },
     {
       "id": "1338",
@@ -1510,7 +1443,7 @@
       "acronym": "DISC",
       "rank": "A",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 0
+      "loaded_unique_papers": 1
     },
     {
       "id": "1376",
@@ -1598,7 +1531,7 @@
       "acronym": "WWW",
       "rank": "A*",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 7
+      "loaded_unique_papers": 8
     },
     {
       "id": "1551",
@@ -1614,7 +1547,7 @@
       "acronym": "Interspeech",
       "rank": "A",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 0
+      "loaded_unique_papers": 41
     },
     {
       "id": "1598",
@@ -1646,7 +1579,7 @@
       "acronym": "AAAI",
       "rank": "A*",
       "exact_title_resolves": true,
-      "loaded_unique_papers": 26
+      "loaded_unique_papers": 44
     },
     {
       "id": "1648",
@@ -1777,304 +1710,10 @@
       "loaded_unique_papers": 0
     }
   ],
-  "corrected_memberships": [
-    {
-      "key": "conf/approx/ChalermsookDELV18",
-      "title": "Survivable Network Design for Group Connectivity in Low-Treewidth Graphs.",
-      "year": 2018,
-      "faculty": [
-        "Syamantak Das"
-      ],
-      "memberships_added": [
-        {
-          "source": "core-a",
-          "venue": "APPROX/RANDOM",
-          "area": "core-other",
-          "domain": "Other CORE areas",
-          "year": 2018
-        }
-      ]
-    },
-    {
-      "key": "conf/approx/DasJK20",
-      "title": "A Constant Factor Approximation for Capacitated Min-Max Tree Cover.",
-      "year": 2020,
-      "faculty": [
-        "Syamantak Das"
-      ],
-      "memberships_added": [
-        {
-          "source": "core-a",
-          "venue": "APPROX/RANDOM",
-          "area": "core-other",
-          "domain": "Other CORE areas",
-          "year": 2020
-        }
-      ]
-    },
-    {
-      "key": "conf/icsm/KiranHJ97",
-      "title": "Effect of Object Orientation on Maintainability of Software.",
-      "year": 1997,
-      "faculty": [
-        "Pankaj Jalote"
-      ],
-      "memberships_added": [
-        {
-          "source": "core-a",
-          "venue": "ICSME",
-          "area": "core-other",
-          "domain": "Other CORE areas",
-          "year": 1997
-        }
-      ]
-    },
-    {
-      "key": "conf/pkdd/CheemaA17",
-      "title": "Automatic Detection and Recognition of Individuals in Patterned Species.",
-      "year": 2017,
-      "faculty": [
-        "Saket Anand"
-      ],
-      "memberships_added": [
-        {
-          "source": "core-a",
-          "venue": "ECML PKDD",
-          "area": "core-other",
-          "domain": "Other CORE areas",
-          "year": 2017
-        }
-      ]
-    },
-    {
-      "key": "conf/pkdd/GoelVG23",
-      "title": "MWPRanker: An Expression Similarity Based Math Word Problem Retriever.",
-      "year": 2023,
-      "faculty": [
-        "Vikram Goyal"
-      ],
-      "memberships_added": [
-        {
-          "source": "core-a",
-          "venue": "ECML PKDD",
-          "area": "core-other",
-          "domain": "Other CORE areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/pkdd/GuptaVMG22",
-      "title": "'John Ate 5 Apples' != 'John Ate Some Apples': Self-supervised Paraphrase Quality Detection for Algebraic Word Problems.",
-      "year": 2022,
-      "faculty": [
-        "Mukesh K. Mohania",
-        "Vikram Goyal"
-      ],
-      "memberships_added": [
-        {
-          "source": "core-a",
-          "venue": "ECML PKDD",
-          "area": "core-other",
-          "domain": "Other CORE areas",
-          "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "conf/pkdd/JainSM23",
-      "title": "ReOnto: A Neuro-Symbolic Approach for Biomedical Relation Extraction.",
-      "year": 2023,
-      "faculty": [
-        "Raghava Mutharaju"
-      ],
-      "memberships_added": [
-        {
-          "source": "core-a",
-          "venue": "ECML PKDD",
-          "area": "core-other",
-          "domain": "Other CORE areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/pkdd/TVMNVS19",
-      "title": "Meta-Learning for Black-Box Optimization.",
-      "year": 2019,
-      "faculty": [
-        "Gautam Shroff"
-      ],
-      "memberships_added": [
-        {
-          "source": "core-a",
-          "venue": "ECML PKDD",
-          "area": "core-other",
-          "domain": "Other CORE areas",
-          "year": 2019
-        }
-      ]
-    },
-    {
-      "key": "conf/pkdd/VMG21",
-      "title": "TagRec: Automated Tagging of Questions with Hierarchical Learning Taxonomy.",
-      "year": 2021,
-      "faculty": [
-        "Mukesh K. Mohania",
-        "Vikram Goyal"
-      ],
-      "memberships_added": [
-        {
-          "source": "core-a",
-          "venue": "ECML PKDD",
-          "area": "core-other",
-          "domain": "Other CORE areas",
-          "year": 2021
-        }
-      ]
-    },
-    {
-      "key": "conf/semweb/Mutharaju12",
-      "title": "Very Large Scale OWL Reasoning through Distributed Computation.",
-      "year": 2012,
-      "faculty": [
-        "Raghava Mutharaju"
-      ],
-      "memberships_added": [
-        {
-          "source": "core-a",
-          "venue": "ISWC",
-          "area": "core-other",
-          "domain": "Other CORE areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
-      "key": "conf/semweb/SinghBM20",
-      "title": "OWL2Bench: A Benchmark for OWL 2 Reasoners.",
-      "year": 2020,
-      "faculty": [
-        "Raghava Mutharaju"
-      ],
-      "memberships_added": [
-        {
-          "source": "core-a",
-          "venue": "ISWC",
-          "area": "core-other",
-          "domain": "Other CORE areas",
-          "year": 2020
-        }
-      ]
-    },
-    {
-      "key": "journals/pacmpl/ChitreKP22",
-      "title": "The road not taken: exploring alias analysis based optimizations missed by the compiler.",
-      "year": 2022,
-      "faculty": [
-        "Piyus Kedia"
-      ],
-      "memberships_added": [
-        {
-          "source": "core-a",
-          "venue": "OOPSLA",
-          "area": "oopsla",
-          "domain": "Programming languages",
-          "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "journals/pacmpl/ChitreKP23",
-      "title": "Rapid: Region-Based Pointer Disambiguation.",
-      "year": 2023,
-      "faculty": [
-        "Piyus Kedia"
-      ],
-      "memberships_added": [
-        {
-          "source": "core-a",
-          "venue": "OOPSLA",
-          "area": "oopsla",
-          "domain": "Programming languages",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "journals/popets/GosainMC21",
-      "title": "Too Close for Comfort: Morasses of (Anti-) Censorship in the Era of CDNs.",
-      "year": 2021,
-      "faculty": [
-        "Sambuddho Chakravarty"
-      ],
-      "memberships_added": [
-        {
-          "source": "core-a",
-          "venue": "PETS",
-          "area": "pets",
-          "domain": "Computer security",
-          "year": 2021
-        }
-      ]
-    },
-    {
-      "key": "journals/popets/SharmaCHMC20",
-      "title": "The Road Not Taken: Re-thinking the Feasibility of Voice Calling Over Tor.",
-      "year": 2020,
-      "faculty": [
-        "Mukulika Maity",
-        "Sambuddho Chakravarty"
-      ],
-      "memberships_added": [
-        {
-          "source": "core-a",
-          "venue": "PETS",
-          "area": "pets",
-          "domain": "Computer security",
-          "year": 2020
-        }
-      ]
-    },
-    {
-      "key": "journals/popets/SharmaGSKDNAC20",
-      "title": "SiegeBreaker: An SDN Based Practical Decoy Routing System.",
-      "year": 2020,
-      "faculty": [
-        "Sambuddho Chakravarty"
-      ],
-      "memberships_added": [
-        {
-          "source": "core-a",
-          "venue": "PETS",
-          "area": "pets",
-          "domain": "Computer security",
-          "year": 2020
-        }
-      ]
-    },
-    {
-      "key": "journals/popets/SharmaSSMC23",
-      "title": "Dolphin: A Cellular Voice Based Internet Shutdown Resistance System.",
-      "year": 2023,
-      "faculty": [
-        "Mukulika Maity",
-        "Sambuddho Chakravarty"
-      ],
-      "memberships_added": [
-        {
-          "source": "core-a",
-          "venue": "PETS",
-          "area": "pets",
-          "domain": "Computer security",
-          "year": 2023
-        }
-      ]
-    }
-  ],
+  "corrected_memberships": [],
   "limitations": [
     "Exact-title coverage does not prove every historical DBLP alias is mapped.",
-    "CORE extension retains the six-page minimum for non-CSRankings conference papers.",
+    "CORE extension includes short conference papers from ranked venues.",
     "Journal proceedings require CSRankings issue eligibility; Journal Published is not an A/A* rank.",
     "Unmapped venues and non-main tracks are listed separately for review."
   ],

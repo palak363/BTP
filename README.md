@@ -82,7 +82,7 @@ Each institute's report separates missing cells (the reference counts papers thi
 
 Select CSRankings, CORE A*, CORE A, or their union. Overlapping papers count once. CORE uses the **CORE2023** catalogue, exact case-insensitive acronym matching, explicit DBLP aliases, and identified exceptions for ambiguous acronyms such as software-engineering FSE. Ambiguous unmapped acronyms are excluded.
 
-CORE ranks venues, not individual paper tracks. This implementation includes conference papers with at least six pages, or papers that already pass the venue-specific CSRankings full-paper rules. It excludes workshop variants and does not classify arbitrary journal articles as conference papers. Shorter legitimate conference papers can therefore be excluded under this stated policy. Additional CORE venues outside the CSRankings area map appear under Other CORE areas.
+CORE ranks venues, not individual paper tracks. This implementation includes all DBLP conference papers from ranked venues, while excluding workshop variants and arbitrary journal articles. Additional CORE venues outside the CSRankings area map appear under Other CORE areas.
 
 The CORE coverage audit checks all 60 A* and 117 A entries in the pinned CORE2023 catalogue and recomputes all 33 IIIT Delhi faculty counts from cached bibliographies. Corrected aliases include ECML/PKDD, APPROX-RANDOM, ICSM, OOPSLA1/2, PoPETs and IEEE S&P. Semantic Web ISWC is resolved using its exact venue name plus the verified DBLP `conf/semweb/` series, keeping Wearable Computers and named satellite tracks separate. Full catalogue titles also resolve exactly. This does not establish complete coverage of every historical DBLP alias or refresh the catalogue to ICORE2026.
 
