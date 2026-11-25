@@ -5,7 +5,7 @@
     "slug": "srm-inst-of-science-and-tech",
     "homepage": "https://www.srmist.edu.in/department/department-of-computational-intelligence/",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-11-19T18:01:50.668190+00:00",
+    "generated_at": "2026-11-25T13:32:21.526774+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -426,75 +426,6 @@
   ],
   "publications": [
     {
-      "key": "conf/a2cwic/NambiarVN10",
-      "type": "inproceedings",
-      "title": "Wireless intrusion detection based on different clustering approaches.",
-      "year": 2010,
-      "publication_year": 2010,
-      "event_year": 2010,
-      "venue": "A2CWiC",
-      "booktitle": "A2CWiC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "42:1-42:7",
-      "authors": [
-        "https://dblp.org/pid/01/9767",
-        "https://dblp.org/pid/32/9767",
-        "https://dblp.org/pid/41/9767"
-      ],
-      "dois": [
-        "10.1145/1858378.1858420"
-      ],
-      "url": "https://dblp.org/db/conf/a2cwic/a2cwic2010#conf/a2cwic/NambiarVN10",
-      "faculty": [
-        "Athira Nambiar"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "A2CWiC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2010
-        }
-      ]
-    },
-    {
-      "key": "conf/cciot/SudhakarS21",
-      "type": "inproceedings",
-      "title": "A Survey and Future Studies of Virtual Machine Placement Approaches in Cloud Computing Environment.",
-      "year": 2021,
-      "publication_year": 2021,
-      "event_year": 2021,
-      "venue": "CCIOT",
-      "booktitle": "CCIOT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "15-21",
-      "authors": [
-        "https://dblp.org/pid/246/9149",
-        "https://dblp.org/pid/259/5646"
-      ],
-      "dois": [
-        "10.1145/3493287.3493290"
-      ],
-      "url": "https://dblp.org/db/conf/cciot/cciot2021#conf/cciot/SudhakarS21",
-      "faculty": [
-        "Saravanan Murugan"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "CCIOT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2021
-        }
-      ]
-    },
-    {
       "key": "conf/ecai/MandalikaVN25",
       "type": "inproceedings",
       "title": "Replay to Remember (R2R): An Efficient Uncertainty-Driven Unsupervised Continual Learning Framework Using Generative Replay.",
@@ -526,620 +457,6 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2025
-        }
-      ]
-    },
-    {
-      "key": "conf/fgr/NambiarBNF17",
-      "type": "inproceedings",
-      "title": "Context-Aware Person Re-Identification in the Wild Via Fusion of Gait and Anthropometric Features.",
-      "year": 2017,
-      "publication_year": 2017,
-      "event_year": 2017,
-      "venue": "FG",
-      "booktitle": "FG",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "973-980",
-      "authors": [
-        "https://dblp.org/pid/25/5812",
-        "https://dblp.org/pid/32/9767",
-        "https://dblp.org/pid/53/5306",
-        "https://dblp.org/pid/f/AnaLNFred"
-      ],
-      "dois": [
-        "10.1109/fg.2017.121"
-      ],
-      "url": "https://dblp.org/db/conf/fgr/fg2017#conf/fgr/NambiarBNF17",
-      "faculty": [
-        "Athira Nambiar"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "FG",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2017
-        }
-      ]
-    },
-    {
-      "key": "conf/fire/KumaresanBSTNMC21",
-      "type": "inproceedings",
-      "title": "Findings of Shared Task on Offensive Language Identification in Tamil and Malayalam.",
-      "year": 2021,
-      "publication_year": 2021,
-      "event_year": 2021,
-      "venue": "FIRE",
-      "booktitle": "FIRE",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "16-18",
-      "authors": [
-        "https://dblp.org/pid/139/1063",
-        "https://dblp.org/pid/186/7709",
-        "https://dblp.org/pid/241/0168",
-        "https://dblp.org/pid/276/7240",
-        "https://dblp.org/pid/294/8326",
-        "https://dblp.org/pid/299/1780",
-        "https://dblp.org/pid/30/11258",
-        "https://dblp.org/pid/80/7108"
-      ],
-      "dois": [
-        "10.1145/3503162.3503179"
-      ],
-      "url": "https://dblp.org/db/conf/fire/fire2021#conf/fire/KumaresanBSTNMC21",
-      "faculty": [
-        "C. N. Subalalitha 0001"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "FIRE",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2021
-        }
-      ]
-    },
-    {
-      "key": "conf/fire/NDKBPRKPNC23",
-      "type": "inproceedings",
-      "title": "Findings of Shared task on Sarcasm Identification in Code-Mixed Dravidian Languages.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "FIRE",
-      "booktitle": "FIRE",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "22-24",
-      "authors": [
-        "https://dblp.org/pid/188/6270",
-        "https://dblp.org/pid/241/0168",
-        "https://dblp.org/pid/277/0625",
-        "https://dblp.org/pid/294/8326",
-        "https://dblp.org/pid/294/8847",
-        "https://dblp.org/pid/30/11258",
-        "https://dblp.org/pid/325/4114",
-        "https://dblp.org/pid/355/6162",
-        "https://dblp.org/pid/355/6437",
-        "https://dblp.org/pid/365/0630"
-      ],
-      "dois": [
-        "10.1145/3632754.3633077"
-      ],
-      "url": "https://dblp.org/db/conf/fire/fire2023#conf/fire/NDKBPRKPNC23",
-      "faculty": [
-        "C. N. Subalalitha 0001"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "FIRE",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/fire/Navaneethakrishnan22",
-      "type": "inproceedings",
-      "title": "Findings of shared task on Sentiment Analysis and Homophobia Detection of YouTube Comments in Code-Mixed Dravidian Languages.",
-      "year": 2022,
-      "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "FIRE",
-      "booktitle": "FIRE",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "18-21",
-      "authors": [
-        "https://dblp.org/pid/176/3054",
-        "https://dblp.org/pid/194/0972",
-        "https://dblp.org/pid/241/0168",
-        "https://dblp.org/pid/294/8326",
-        "https://dblp.org/pid/294/8847",
-        "https://dblp.org/pid/30/11258",
-        "https://dblp.org/pid/337/8915",
-        "https://dblp.org/pid/51/9115"
-      ],
-      "dois": [
-        "10.1145/3574318.3574347"
-      ],
-      "url": "https://dblp.org/db/conf/fire/fire2022#conf/fire/Navaneethakrishnan22",
-      "faculty": [
-        "C. N. Subalalitha 0001"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "FIRE",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/DeepaK12",
-      "type": "inproceedings",
-      "title": "PAPR reduction for OFDM systems using clipping and square rooting techniques.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "740-744",
-      "authors": [
-        "https://dblp.org/pid/338/5054",
-        "https://dblp.org/pid/45/199-1"
-      ],
-      "dois": [
-        "10.1145/2345396.2345517"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2012#conf/icacci/DeepaK12",
-      "faculty": [
-        "Thangavel Deepa"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/HameedSGP12",
-      "type": "inproceedings",
-      "title": "A deconverter framework for Malayalam.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "847-856",
-      "authors": [
-        "https://dblp.org/pid/121/3332",
-        "https://dblp.org/pid/30/11258",
-        "https://dblp.org/pid/82/2044",
-        "https://dblp.org/pid/95/956"
-      ],
-      "dois": [
-        "10.1145/2345396.2345534"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2012#conf/icacci/HameedSGP12",
-      "faculty": [
-        "C. N. Subalalitha 0001"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
-      "key": "conf/icb/PrakashSNB23",
-      "type": "inproceedings",
-      "title": "Adapt-FuseNet: Context-aware Multimodal Adaptive Fusion of Face and Gait Features using Attention Techniques for Human Identification.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "IJCB",
-      "booktitle": "IJCB",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-10",
-      "authors": [
-        "https://dblp.org/pid/288/5414",
-        "https://dblp.org/pid/32/9767",
-        "https://dblp.org/pid/344/2023",
-        "https://dblp.org/pid/53/5306"
-      ],
-      "dois": [
-        "10.1109/ijcb57857.2023.10448765"
-      ],
-      "url": "https://dblp.org/db/conf/icb/ijcb2023#conf/icb/PrakashSNB23",
-      "faculty": [
-        "Athira Nambiar"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IJCB",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/icccnt/BaldotaSM21",
-      "type": "inproceedings",
-      "title": "Deep Transfer Learning for Pancreatic Cancer Detection.",
-      "year": 2021,
-      "publication_year": 2021,
-      "event_year": 2021,
-      "venue": "ICCCNT",
-      "booktitle": "ICCCNT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-7",
-      "authors": [
-        "https://dblp.org/pid/307/0744",
-        "https://dblp.org/pid/307/1863",
-        "https://dblp.org/pid/55/8836"
-      ],
-      "dois": [
-        "10.1109/icccnt51525.2021.9580000"
-      ],
-      "url": "https://dblp.org/db/conf/icccnt/icccnt2021#conf/icccnt/BaldotaSM21",
-      "faculty": [
-        "C. Malathy 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCCNT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2021
-        }
-      ]
-    },
-    {
-      "key": "conf/icccnt/DasGN23",
-      "type": "inproceedings",
-      "title": "Optimizing Apache Kafka Deployments - Configuration customization is all you need.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "ICCCNT",
-      "booktitle": "ICCCNT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-9",
-      "authors": [
-        "https://dblp.org/pid/30/11258",
-        "https://dblp.org/pid/361/7610",
-        "https://dblp.org/pid/361/8497"
-      ],
-      "dois": [
-        "10.1109/icccnt56998.2023.10307242"
-      ],
-      "url": "https://dblp.org/db/conf/icccnt/icccnt2023#conf/icccnt/DasGN23",
-      "faculty": [
-        "C. N. Subalalitha 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCCNT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/icccnt/ElaveiniNTC23",
-      "type": "inproceedings",
-      "title": "Design of a Dynamic Propeller Holographic Display For Educational Purpose.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "ICCCNT",
-      "booktitle": "ICCCNT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-5",
-      "authors": [
-        "https://dblp.org/pid/328/5625",
-        "https://dblp.org/pid/361/8431",
-        "https://dblp.org/pid/361/8440",
-        "https://dblp.org/pid/361/9733"
-      ],
-      "dois": [
-        "10.1109/icccnt56998.2023.10306852"
-      ],
-      "url": "https://dblp.org/db/conf/icccnt/icccnt2023#conf/icccnt/ElaveiniNTC23",
-      "faculty": [
-        "M. Aarthi Elaveini"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCCNT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/icccnt/GuptaS23",
-      "type": "inproceedings",
-      "title": "A Survey of Event Detection Techniques in Intelligent IoT System.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "ICCCNT",
-      "booktitle": "ICCCNT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
-      "authors": [
-        "https://dblp.org/pid/07/693-2",
-        "https://dblp.org/pid/23/4520"
-      ],
-      "dois": [
-        "10.1109/icccnt56998.2023.10307841"
-      ],
-      "url": "https://dblp.org/db/conf/icccnt/icccnt2023#conf/icccnt/GuptaS23",
-      "faculty": [
-        "Rohit Sharma 0002"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCCNT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/icccnt/ModiKG23",
-      "type": "inproceedings",
-      "title": "Hyperglycemia Prediction Using Machine Learning.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "ICCCNT",
-      "booktitle": "ICCCNT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-8",
-      "authors": [
-        "https://dblp.org/pid/361/8248",
-        "https://dblp.org/pid/72/9559",
-        "https://dblp.org/pid/91/10807"
-      ],
-      "dois": [
-        "10.1109/icccnt56998.2023.10306993"
-      ],
-      "url": "https://dblp.org/db/conf/icccnt/icccnt2023#conf/icccnt/ModiKG23",
-      "faculty": [
-        "Aditya Modi 0003"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCCNT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/icccnt/PanchalV19",
-      "type": "inproceedings",
-      "title": "Identification of Potential Future Credit Card Defaulters from Non Defaulters using Self Organizing Maps.",
-      "year": 2019,
-      "publication_year": 2019,
-      "event_year": 2019,
-      "venue": "ICCCNT",
-      "booktitle": "ICCCNT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-5",
-      "authors": [
-        "https://dblp.org/pid/255/8598",
-        "https://dblp.org/pid/55/6089"
-      ],
-      "dois": [
-        "10.1109/icccnt45670.2019.8944605"
-      ],
-      "url": "https://dblp.org/db/conf/icccnt/icccnt2019#conf/icccnt/PanchalV19",
-      "faculty": [
-        "Ujjawal K. Panchal"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCCNT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2019
-        }
-      ]
-    },
-    {
-      "key": "conf/icccnt/RajeshirkeN23",
-      "type": "inproceedings",
-      "title": "Human Detection in crowd using One-stage and Two-stage object detection models.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "ICCCNT",
-      "booktitle": "ICCCNT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-5",
-      "authors": [
-        "https://dblp.org/pid/30/11258",
-        "https://dblp.org/pid/361/9424"
-      ],
-      "dois": [
-        "10.1109/icccnt56998.2023.10307765"
-      ],
-      "url": "https://dblp.org/db/conf/icccnt/icccnt2023#conf/icccnt/RajeshirkeN23",
-      "faculty": [
-        "C. N. Subalalitha 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCCNT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/icccnt/RaniS23",
-      "type": "inproceedings",
-      "title": "IMFOCA-IOV: Intelligent Moth Flame Optimization based Clustering Algorithm for Internet of Vehicle.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "ICCCNT",
-      "booktitle": "ICCCNT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
-      "authors": [
-        "https://dblp.org/pid/07/693-2",
-        "https://dblp.org/pid/330/5030"
-      ],
-      "dois": [
-        "10.1109/icccnt56998.2023.10307646"
-      ],
-      "url": "https://dblp.org/db/conf/icccnt/icccnt2023#conf/icccnt/RaniS23",
-      "faculty": [
-        "Rohit Sharma 0002"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCCNT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/iccma/Muthuramalingam19",
-      "type": "inproceedings",
-      "title": "Flushing Pressure Automation for Efficient Machining in EDM Process.",
-      "year": 2019,
-      "publication_year": 2019,
-      "event_year": 2019,
-      "venue": "ICCMA",
-      "booktitle": "ICCMA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "232-236",
-      "authors": [
-        "https://dblp.org/pid/13/11307",
-        "https://dblp.org/pid/140/6478-1",
-        "https://dblp.org/pid/240/6674-2",
-        "https://dblp.org/pid/254/2592",
-        "https://dblp.org/pid/263/6009"
-      ],
-      "dois": [
-        "10.1109/iccma46720.2019.8988592"
-      ],
-      "url": "https://dblp.org/db/conf/iccma/iccma2019#conf/iccma/Muthuramalingam19",
-      "faculty": [
-        "T. Muthuramalingam 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCMA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2019
-        }
-      ]
-    },
-    {
-      "key": "conf/iccma/SaravanakumarSS19",
-      "type": "inproceedings",
-      "title": "Design Optimization of Pneumatically Actuated Three Jaw Gripper Using Genetic Algorithm.",
-      "year": 2019,
-      "publication_year": 2019,
-      "event_year": 2019,
-      "venue": "ICCMA",
-      "booktitle": "ICCMA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "322-326",
-      "authors": [
-        "https://dblp.org/pid/140/6478-1",
-        "https://dblp.org/pid/240/6674-2",
-        "https://dblp.org/pid/26/11134",
-        "https://dblp.org/pid/263/6023"
-      ],
-      "dois": [
-        "10.1109/iccma46720.2019.8988736"
-      ],
-      "url": "https://dblp.org/db/conf/iccma/iccma2019#conf/iccma/SaravanakumarSS19",
-      "faculty": [
-        "T. Muthuramalingam 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCMA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2019
         }
       ]
     },
@@ -1182,422 +499,427 @@
           "area": "iccv",
           "domain": "Computer vision",
           "year": 2019
-        },
-        {
-          "source": "ieee",
-          "venue": "ICCV",
-          "area": "iccv",
-          "domain": "Computer vision",
-          "year": 2019
         }
       ]
     },
     {
-      "key": "conf/icimmi/GARAS23",
-      "type": "inproceedings",
-      "title": "Quantum Teleportation and EntanglementBased Quantum Blind Signature Protocol for Quantum Secure Communication in Security Service Bases.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "ICIMMI",
-      "booktitle": "ICIMMI",
-      "journal": "",
-      "volume": "",
+      "key": "journals/taes/AnandAS26",
+      "type": "article",
+      "title": "High Step-Up Switched-Capacitor ANPC Inverter for Weight-Optimized High-Frequency AC Power Systems in More-Electric Aircraft.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": null,
+      "venue": "IEEE Trans. Aerosp. Electron. Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Aerosp. Electron. Syst.",
+      "volume": "62",
       "number": "",
-      "pages": "56:1-56:10",
+      "pages": "5962-5973",
       "authors": [
-        "https://dblp.org/pid/241/0015",
-        "https://dblp.org/pid/245/0411",
-        "https://dblp.org/pid/375/2081",
-        "https://dblp.org/pid/375/2331",
-        "https://dblp.org/pid/413/3345"
-      ],
-      "dois": [
-        "10.1145/3647444.3647882"
-      ],
-      "url": "https://dblp.org/db/conf/icimmi/icimmi2023#conf/icimmi/GARAS23",
-      "faculty": [
-        "Annamalai Suresh"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICIMMI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/icimmi/JA23",
-      "type": "inproceedings",
-      "title": "Cloud based Effective Environmental Monitoring of Temperature, Humidity and Air Quality using IoT Sensors.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "ICIMMI",
-      "booktitle": "ICIMMI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "13:1-13:6",
-      "authors": [
-        "https://dblp.org/pid/241/0015",
-        "https://dblp.org/pid/375/2314"
-      ],
-      "dois": [
-        "10.1145/3647444.3647839"
-      ],
-      "url": "https://dblp.org/db/conf/icimmi/icimmi2023#conf/icimmi/JA23",
-      "faculty": [
-        "Annamalai Suresh"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICIMMI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/icimmi/MA22",
-      "type": "inproceedings",
-      "title": "Android and Web Application to Assist Bachelors on Improving Their Living.",
-      "year": 2022,
-      "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "ICIMMI",
-      "booktitle": "ICIMMI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "15:1-15:6",
-      "authors": [
-        "https://dblp.org/pid/241/0015",
-        "https://dblp.org/pid/375/3288"
-      ],
-      "dois": [
-        "10.1145/3590837.3590852"
-      ],
-      "url": "https://dblp.org/db/conf/icimmi/icimmi2022#conf/icimmi/MA22",
-      "faculty": [
-        "Annamalai Suresh"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICIMMI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "conf/icimmi/MS22",
-      "type": "inproceedings",
-      "title": "A Blockchain-Based, Distributed, Self Hosted And End To End Encrypted Cloud Storage System.",
-      "year": 2022,
-      "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "ICIMMI",
-      "booktitle": "ICIMMI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "85:1-85:7",
-      "authors": [
-        "https://dblp.org/pid/246/9149",
-        "https://dblp.org/pid/375/3196"
-      ],
-      "dois": [
-        "10.1145/3590837.3590922"
-      ],
-      "url": "https://dblp.org/db/conf/icimmi/icimmi2022#conf/icimmi/MS22",
-      "faculty": [
-        "Saravanan Murugan"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICIMMI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "conf/icimmi/ManthenaPA23",
-      "type": "inproceedings",
-      "title": "Unified Voyage: Enhancing collaborative group travel planning and coordination.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "ICIMMI",
-      "booktitle": "ICIMMI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "46:1-46:8",
-      "authors": [
-        "https://dblp.org/pid/241/0015",
-        "https://dblp.org/pid/375/2262",
-        "https://dblp.org/pid/375/2601"
-      ],
-      "dois": [
-        "10.1145/3647444.3647872"
-      ],
-      "url": "https://dblp.org/db/conf/icimmi/icimmi2023#conf/icimmi/ManthenaPA23",
-      "faculty": [
-        "Annamalai Suresh"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICIMMI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/icimmi/PanditaTA23",
-      "type": "inproceedings",
-      "title": "Contextual transcription and Summarization of audio using AI.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "ICIMMI",
-      "booktitle": "ICIMMI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "45:1-45:9",
-      "authors": [
-        "https://dblp.org/pid/241/0015",
-        "https://dblp.org/pid/375/2203",
-        "https://dblp.org/pid/375/2553"
-      ],
-      "dois": [
-        "10.1145/3647444.3647871"
-      ],
-      "url": "https://dblp.org/db/conf/icimmi/icimmi2023#conf/icimmi/PanditaTA23",
-      "faculty": [
-        "Annamalai Suresh"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICIMMI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/icimmi/RA22",
-      "type": "inproceedings",
-      "title": "Image Processing Model-Based Kidney Diseases Detection System Using CNN.",
-      "year": 2022,
-      "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "ICIMMI",
-      "booktitle": "ICIMMI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "33:1-33:4",
-      "authors": [
-        "https://dblp.org/pid/241/0015",
-        "https://dblp.org/pid/375/3099"
-      ],
-      "dois": [
-        "10.1145/3590837.3590870"
-      ],
-      "url": "https://dblp.org/db/conf/icimmi/icimmi2022#conf/icimmi/RA22",
-      "faculty": [
-        "Annamalai Suresh"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICIMMI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "conf/icimmi/ReddyA22",
-      "type": "inproceedings",
-      "title": "A Cloud-Edge Collaboration Framework for Cognitive Service.",
-      "year": 2022,
-      "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "ICIMMI",
-      "booktitle": "ICIMMI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "87:1-87:7",
-      "authors": [
-        "https://dblp.org/pid/241/0015",
-        "https://dblp.org/pid/375/2990"
-      ],
-      "dois": [
-        "10.1145/3590837.3590924"
-      ],
-      "url": "https://dblp.org/db/conf/icimmi/icimmi2022#conf/icimmi/ReddyA22",
-      "faculty": [
-        "Annamalai Suresh"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICIMMI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "conf/icimmi/SelvarajA22",
-      "type": "inproceedings",
-      "title": "Towards Reliable Medical Transactions for Blockchain based Healthcare Systems using Hybrid Consensus Method.",
-      "year": 2022,
-      "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "ICIMMI",
-      "booktitle": "ICIMMI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "30:1-30:8",
-      "authors": [
-        "https://dblp.org/pid/241/0015",
-        "https://dblp.org/pid/375/2081"
-      ],
-      "dois": [
-        "10.1145/3590837.3590867"
-      ],
-      "url": "https://dblp.org/db/conf/icimmi/icimmi2022#conf/icimmi/SelvarajA22",
-      "faculty": [
-        "Annamalai Suresh"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICIMMI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "conf/icimmi/VA22",
-      "type": "inproceedings",
-      "title": "Machine Learning Technique for Energy, Performance and Cost-Effective Resource Management in Multi-Access Edge Computing.",
-      "year": 2022,
-      "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "ICIMMI",
-      "booktitle": "ICIMMI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "113:1-113:7",
-      "authors": [
-        "https://dblp.org/pid/241/0015",
-        "https://dblp.org/pid/375/3404"
-      ],
-      "dois": [
-        "10.1145/3590837.3590950"
-      ],
-      "url": "https://dblp.org/db/conf/icimmi/icimmi2022#conf/icimmi/VA22",
-      "faculty": [
-        "Annamalai Suresh"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICIMMI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "conf/iecon/AzeemTKMB18",
-      "type": "inproceedings",
-      "title": "Performance of Five Phase PUC Inverter Fed Five Phase Induction Motor Drive Under Different Triangular Carrier PWM Schemes.",
-      "year": 2018,
-      "publication_year": 2018,
-      "event_year": 2018,
-      "venue": "IECON",
-      "booktitle": "IECON",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "5837-5842",
-      "authors": [
-        "https://dblp.org/pid/215/0621",
-        "https://dblp.org/pid/215/0990",
-        "https://dblp.org/pid/231/8301",
-        "https://dblp.org/pid/233/2800",
-        "https://dblp.org/pid/233/2965"
-      ],
-      "dois": [
-        "10.1109/iecon.2018.8591159"
-      ],
-      "url": "https://dblp.org/db/conf/iecon/iecon2018#conf/iecon/AzeemTKMB18",
-      "faculty": [
-        "C. Bharatiraja"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IECON",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2018
-        }
-      ]
-    },
-    {
-      "key": "conf/iecon/SathikTYVB19",
-      "type": "inproceedings",
-      "title": "A New 5-Level ANPC Switched Capacitor Inverter Topology for Photovoltaic Applications.",
-      "year": 2019,
-      "publication_year": 2019,
-      "event_year": 2019,
-      "venue": "IECON",
-      "booktitle": "IECON",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "3487-3492",
-      "authors": [
-        "https://dblp.org/pid/11/6223",
-        "https://dblp.org/pid/231/3596",
+        "https://dblp.org/pid/138/0111",
         "https://dblp.org/pid/231/3612",
-        "https://dblp.org/pid/233/7334",
+        "https://dblp.org/pid/69/775"
+      ],
+      "dois": [
+        "10.1109/taes.2026.3660232"
+      ],
+      "url": "https://dblp.org/db/journals/taes/taes62#journals/taes/AnandAS26",
+      "faculty": [
+        "Mohamed Ali Jagabar Sathik"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Aerosp. Electron. Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "journals/talip/SonthiSN23",
+      "type": "article",
+      "title": "An Intelligent Telugu Handwritten Character Recognition Using Multi-Objective Mayfly Optimization with Deep Learning-Based DenseNet Model.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": null,
+      "venue": "ACM Trans. Asian Low Resour. Lang. Inf. Process.",
+      "booktitle": "",
+      "journal": "ACM Trans. Asian Low Resour. Lang. Inf. Process.",
+      "volume": "22",
+      "number": "3",
+      "pages": "67:1-67:16",
+      "authors": [
+        "https://dblp.org/pid/346/6719",
+        "https://dblp.org/pid/346/7207",
+        "https://dblp.org/pid/99/9119"
+      ],
+      "dois": [
+        "10.1145/3520439"
+      ],
+      "url": "https://dblp.org/db/journals/talip/talip22#journals/talip/SonthiSN23",
+      "faculty": [
+        "N. Krishnaraj 0001"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Asian Low Resour. Lang. Inf. Process.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "journals/tbbis/SPNB24",
+      "type": "article",
+      "title": "Exploring Fusion Techniques and Explainable AI on Adapt-FuseNet: Context-Adaptive Fusion of Face and Gait for Person Identification.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Biom. Behav. Identity Sci.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Biom. Behav. Identity Sci.",
+      "volume": "6",
+      "number": "4",
+      "pages": "515-527",
+      "authors": [
+        "https://dblp.org/pid/288/5414",
+        "https://dblp.org/pid/32/9767",
+        "https://dblp.org/pid/344/2023",
+        "https://dblp.org/pid/53/5306"
+      ],
+      "dois": [
+        "10.1109/tbiom.2024.3405081"
+      ],
+      "url": "https://dblp.org/db/journals/tbbis/tbbis6#journals/tbbis/SPNB24",
+      "faculty": [
+        "Athira Nambiar"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Biom. Behav. Identity Sci.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tcas/SathikBSB20",
+      "type": "article",
+      "title": "An Improved Seven-Level PUC Inverter Topology With Voltage Boosting.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": null,
+      "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "booktitle": "",
+      "journal": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "volume": "67-II",
+      "number": "1",
+      "pages": "127-131",
+      "authors": [
+        "https://dblp.org/pid/214/6288",
+        "https://dblp.org/pid/231/3612",
+        "https://dblp.org/pid/256/0824",
         "https://dblp.org/pid/87/1024"
       ],
       "dois": [
-        "10.1109/iecon.2019.8926832"
+        "10.1109/tcsii.2019.2902908"
       ],
-      "url": "https://dblp.org/db/conf/iecon/iecon2019#conf/iecon/SathikTYVB19",
+      "url": "https://dblp.org/db/journals/tcas/tcasII67#journals/tcas/SathikBSB20",
+      "faculty": [
+        "Mohamed Ali Jagabar Sathik"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "journals/tcas/SathikSAB20",
+      "type": "article",
+      "title": "Cross Connected Compact Switched-Capacitor Multilevel Inverter (C3-SCMLI) Topology With Reduced Switch Count.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": null,
+      "venue": "IEEE Trans. Circuits Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Circuits Syst.",
+      "volume": "67-II",
+      "number": "12",
+      "pages": "3287-3291",
+      "authors": [
+        "https://dblp.org/pid/143/2990",
+        "https://dblp.org/pid/214/6288",
+        "https://dblp.org/pid/231/3612",
+        "https://dblp.org/pid/87/1024"
+      ],
+      "dois": [
+        "10.1109/tcsii.2020.2988155"
+      ],
+      "url": "https://dblp.org/db/journals/tcas/tcasII67#journals/tcas/SathikSAB20",
+      "faculty": [
+        "Mohamed Ali Jagabar Sathik"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Circuits Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "journals/tcas/SathikSB20",
+      "type": "article",
+      "title": "High Gain Active Neutral Point Clamped Seven-Level Self-Voltage Balancing Inverter.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": null,
+      "venue": "IEEE Trans. Circuits Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Circuits Syst.",
+      "volume": "67-II",
+      "number": "11",
+      "pages": "2567-2571",
+      "authors": [
+        "https://dblp.org/pid/214/6288",
+        "https://dblp.org/pid/231/3612",
+        "https://dblp.org/pid/87/1024"
+      ],
+      "dois": [
+        "10.1109/tcsii.2019.2955318"
+      ],
+      "url": "https://dblp.org/db/journals/tcas/tcasII67#journals/tcas/SathikSB20",
+      "faculty": [
+        "Mohamed Ali Jagabar Sathik"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Circuits Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "journals/tcas/SiddiqueAMMSA20",
+      "type": "article",
+      "title": "Reduced Switch Count Based Single Source 7L Boost Inverter Topology.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": null,
+      "venue": "IEEE Trans. Circuits Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Circuits Syst.",
+      "volume": "67-II",
+      "number": "12",
+      "pages": "3252-3256",
+      "authors": [
+        "https://dblp.org/pid/14/11307",
+        "https://dblp.org/pid/143/2990",
+        "https://dblp.org/pid/214/6288",
+        "https://dblp.org/pid/231/3612",
+        "https://dblp.org/pid/237/1451",
+        "https://dblp.org/pid/280/0293"
+      ],
+      "dois": [
+        "10.1109/tcsii.2020.2988090"
+      ],
+      "url": "https://dblp.org/db/journals/tcas/tcasII67#journals/tcas/SiddiqueAMMSA20",
+      "faculty": [
+        "Mohamed Ali Jagabar Sathik"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Circuits Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "journals/tcas/SiddiqueMSAB20",
+      "type": "article",
+      "title": "A New Switched Capacitor 7L Inverter With Triple Voltage Gain and Low Voltage Stress.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": null,
+      "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "booktitle": "",
+      "journal": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "volume": "67-II",
+      "number": "7",
+      "pages": "1294-1298",
+      "authors": [
+        "https://dblp.org/pid/14/11307",
+        "https://dblp.org/pid/231/3612",
+        "https://dblp.org/pid/237/1407",
+        "https://dblp.org/pid/237/1451",
+        "https://dblp.org/pid/87/1024"
+      ],
+      "dois": [
+        "10.1109/tcsii.2019.2932480"
+      ],
+      "url": "https://dblp.org/db/journals/tcas/tcasII67#journals/tcas/SiddiqueMSAB20",
+      "faculty": [
+        "Mohamed Ali Jagabar Sathik"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "journals/tcasI/PanduranganARAM26",
+      "type": "article",
+      "title": "Dynamic Voltage Boosting Seven-Level Dual Ground Inverter Topology With Low Voltage Stress on Components.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": null,
+      "venue": "IEEE Trans. Circuits Syst. I Regul. Pap.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Circuits Syst. I Regul. Pap.",
+      "volume": "73",
+      "number": "5",
+      "pages": "3701-3711",
+      "authors": [
+        "https://dblp.org/pid/14/11307",
+        "https://dblp.org/pid/210/0309",
+        "https://dblp.org/pid/231/3612",
+        "https://dblp.org/pid/248/8020",
+        "https://dblp.org/pid/364/2411"
+      ],
+      "dois": [
+        "10.1109/tcsi.2025.3641608"
+      ],
+      "url": "https://dblp.org/db/journals/tcasI/tcasI73#journals/tcasI/PanduranganARAM26",
+      "faculty": [
+        "Mohamed Ali Jagabar Sathik"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Circuits Syst. I Regul. Pap.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "journals/tcasII/AnandSA23",
+      "type": "article",
+      "title": "Dual Boost Five-Level Switched-Capacitor Inverter With Common Ground.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": null,
+      "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "booktitle": "",
+      "journal": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "volume": "70",
+      "number": "2",
+      "pages": "556-560",
+      "authors": [
+        "https://dblp.org/pid/138/0111",
+        "https://dblp.org/pid/231/3612",
+        "https://dblp.org/pid/69/775"
+      ],
+      "dois": [
+        "10.1109/tcsii.2022.3169009"
+      ],
+      "url": "https://dblp.org/db/journals/tcasII/tcasII70#journals/tcasII/AnandSA23",
+      "faculty": [
+        "Mohamed Ali Jagabar Sathik"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "journals/tcasII/Sathik24",
+      "type": "article",
+      "title": "A Nine Level ANPC Boost Type Inverter Topology With Reduced Component Stress.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "booktitle": "",
+      "journal": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "volume": "71",
+      "number": "1",
+      "pages": "380-384",
+      "authors": [
+        "https://dblp.org/pid/231/3612"
+      ],
+      "dois": [
+        "10.1109/tcsii.2023.3305230"
+      ],
+      "url": "https://dblp.org/db/journals/tcasII/tcasII71#journals/tcasII/Sathik24",
+      "faculty": [
+        "Mohamed Ali Jagabar Sathik"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tcasII/SathikPHVMA24",
+      "type": "article",
+      "title": "Improved Dual Boost Mid-Point Clamped Five-Level Inverter Topology.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "booktitle": "",
+      "journal": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "volume": "71",
+      "number": "6",
+      "pages": "3221-3225",
+      "authors": [
+        "https://dblp.org/pid/14/11307",
+        "https://dblp.org/pid/212/7124",
+        "https://dblp.org/pid/23/6003",
+        "https://dblp.org/pid/231/3596",
+        "https://dblp.org/pid/231/3612",
+        "https://dblp.org/pid/364/2411"
+      ],
+      "dois": [
+        "10.1109/tcsii.2024.3356171"
+      ],
+      "url": "https://dblp.org/db/journals/tcasII/tcasII71#journals/tcasII/SathikPHVMA24",
       "faculty": [
         "K. Vijayakumar 0001",
         "Mohamed Ali Jagabar Sathik"
@@ -1605,152 +927,843 @@
       "memberships": [
         {
           "source": "ieee",
-          "venue": "IECON",
+          "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2019
+          "year": 2024
         }
       ]
     },
     {
-      "key": "conf/ihci/SuganthiBSS12",
-      "type": "inproceedings",
-      "title": "Semantic based orthographic with prepositional phrase for English-Tamil translation.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "IHCI",
-      "booktitle": "IHCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
+      "key": "journals/tcasII/SathikSSAM21",
+      "type": "article",
+      "title": "Compact Seven-Level Boost Type Inverter Topology.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": null,
+      "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "booktitle": "",
+      "journal": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "volume": "68",
+      "number": "4",
+      "pages": "1358-1362",
       "authors": [
-        "https://dblp.org/pid/128/3124",
-        "https://dblp.org/pid/26/7056",
-        "https://dblp.org/pid/35/11044",
-        "https://dblp.org/pid/63/5445-6"
+        "https://dblp.org/pid/14/11307",
+        "https://dblp.org/pid/143/2990",
+        "https://dblp.org/pid/214/6288",
+        "https://dblp.org/pid/231/3612",
+        "https://dblp.org/pid/237/1451"
       ],
       "dois": [
-        "10.1109/ihci.2012.6481845"
+        "10.1109/tcsii.2020.3039387"
       ],
-      "url": "https://dblp.org/db/conf/ihci/ihci2012#conf/ihci/SuganthiBSS12",
+      "url": "https://dblp.org/db/journals/tcasII/tcasII68#journals/tcasII/SathikSSAM21",
       "faculty": [
-        "M. Saravanan 0006"
+        "Mohamed Ali Jagabar Sathik"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "IHCI",
+          "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2012
+          "year": 2021
         }
       ]
     },
     {
-      "key": "conf/isgta/LaddhaKKS22",
-      "type": "inproceedings",
-      "title": "Power Optimization in DC Micro-grid with Monetary Perspective.",
-      "year": 2022,
-      "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "ISGT Asia",
-      "booktitle": "ISGT Asia",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "685-689",
+      "key": "journals/tce/AgrawalKRSSYAA24",
+      "type": "article",
+      "title": "TFL-IHOA: Three-Layer Federated Learning-Based Intelligent Hybrid Optimization Algorithm for Internet of Vehicle.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Consumer Electron.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Consumer Electron.",
+      "volume": "70",
+      "number": "3",
+      "pages": "5818-5828",
       "authors": [
-        "https://dblp.org/pid/231/3596",
-        "https://dblp.org/pid/233/7826",
-        "https://dblp.org/pid/338/4528",
-        "https://dblp.org/pid/40/9454"
+        "https://dblp.org/pid/07/693-2",
+        "https://dblp.org/pid/231/6596",
+        "https://dblp.org/pid/239/6337",
+        "https://dblp.org/pid/257/2505",
+        "https://dblp.org/pid/290/3156",
+        "https://dblp.org/pid/330/5030",
+        "https://dblp.org/pid/373/1879",
+        "https://dblp.org/pid/393/9608"
       ],
       "dois": [
-        "10.1109/isgtasia54193.2022.10003570"
+        "10.1109/tce.2023.3344129"
       ],
-      "url": "https://dblp.org/db/conf/isgta/isgta2022#conf/isgta/LaddhaKKS22",
+      "url": "https://dblp.org/db/journals/tce/tce70#journals/tce/AgrawalKRSSYAA24",
+      "faculty": [
+        "Rohit Sharma 0002"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Consumer Electron.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tce/AlferaidiYAAAASAA25",
+      "type": "article",
+      "title": "A Novel Hybrid, BERT and Deep Learning Model Network Intrusion Detection System for Healthcare Electronics.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": null,
+      "venue": "IEEE Trans. Consumer Electron.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Consumer Electron.",
+      "volume": "71",
+      "number": "1",
+      "pages": "1322-1331",
+      "authors": [
+        "https://dblp.org/pid/07/693-2",
+        "https://dblp.org/pid/141/0095",
+        "https://dblp.org/pid/231/6596",
+        "https://dblp.org/pid/237/9709",
+        "https://dblp.org/pid/284/7012",
+        "https://dblp.org/pid/290/3156",
+        "https://dblp.org/pid/316/4929",
+        "https://dblp.org/pid/336/0603",
+        "https://dblp.org/pid/341/0102"
+      ],
+      "dois": [
+        "10.1109/tce.2024.3412199"
+      ],
+      "url": "https://dblp.org/db/journals/tce/tce71#journals/tce/AlferaidiYAAAASAA25",
+      "faculty": [
+        "Rohit Sharma 0002"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Consumer Electron.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "journals/tce/AnbazhaganMK24",
+      "type": "article",
+      "title": "Smart Battery Management System for Mobile Consumer Electronics Based on Federal Split Learning Model.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Consumer Electron.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Consumer Electron.",
+      "volume": "70",
+      "number": "3",
+      "pages": "5878-5886",
+      "authors": [
+        "https://dblp.org/pid/244/0198-1",
+        "https://dblp.org/pid/359/5402",
+        "https://dblp.org/pid/k/TaiHoonKim"
+      ],
+      "dois": [
+        "10.1109/tce.2024.3415757"
+      ],
+      "url": "https://dblp.org/db/journals/tce/tce70#journals/tce/AnbazhaganMK24",
+      "faculty": [
+        "M. Maragatharajan 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Consumer Electron.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tce/ChandraPASAG25",
+      "type": "article",
+      "title": "Occlusion-Aware Secure Device-to-Device Communication in Social Internet of Things Networks.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": null,
+      "venue": "IEEE Trans. Consumer Electron.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Consumer Electron.",
+      "volume": "71",
+      "number": "2",
+      "pages": "5119-5126",
+      "authors": [
+        "https://dblp.org/pid/07/693-2",
+        "https://dblp.org/pid/163/1839",
+        "https://dblp.org/pid/206/9617",
+        "https://dblp.org/pid/217/3299",
+        "https://dblp.org/pid/297/6275",
+        "https://dblp.org/pid/412/2017"
+      ],
+      "dois": [
+        "10.1109/tce.2025.3570796"
+      ],
+      "url": "https://dblp.org/db/journals/tce/tce71#journals/tce/ChandraPASAG25",
+      "faculty": [
+        "Rohit Sharma 0002"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Consumer Electron.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "journals/tce/ChandraPASGY25",
+      "type": "article",
+      "title": "Alleviating the Siphon Effect on Age of Information in D2D-Enabled Social IoT Networks.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": null,
+      "venue": "IEEE Trans. Consumer Electron.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Consumer Electron.",
+      "volume": "71",
+      "number": "4",
+      "pages": "12181-12188",
+      "authors": [
+        "https://dblp.org/pid/07/693-2",
+        "https://dblp.org/pid/163/1839",
+        "https://dblp.org/pid/206/9617",
+        "https://dblp.org/pid/217/3299",
+        "https://dblp.org/pid/290/3156",
+        "https://dblp.org/pid/297/6275"
+      ],
+      "dois": [
+        "10.1109/tce.2025.3602504"
+      ],
+      "url": "https://dblp.org/db/journals/tce/tce71#journals/tce/ChandraPASGY25",
+      "faculty": [
+        "Rohit Sharma 0002"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Consumer Electron.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "journals/tce/DhananjayaSMA25",
+      "type": "article",
+      "title": "New Single-Input Dual-Output Converter for DC Nanogrid Application.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": null,
+      "venue": "IEEE Trans. Consumer Electron.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Consumer Electron.",
+      "volume": "71",
+      "number": "2",
+      "pages": "3294-3303",
+      "authors": [
+        "https://dblp.org/pid/14/11307",
+        "https://dblp.org/pid/231/3612",
+        "https://dblp.org/pid/248/8020",
+        "https://dblp.org/pid/314/4485"
+      ],
+      "dois": [
+        "10.1109/tce.2025.3545578"
+      ],
+      "url": "https://dblp.org/db/journals/tce/tce71#journals/tce/DhananjayaSMA25",
+      "faculty": [
+        "Mohamed Ali Jagabar Sathik"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Consumer Electron.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "journals/tce/DhanarajMSKPSP26",
+      "type": "article",
+      "title": "A Hybrid Edge Cloud Predictive Framework for Smart Home Energy Management in Consumer Electronics Using Distilled-Tree and Gradient Boosting Models.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": null,
+      "venue": "IEEE Trans. Consumer Electron.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Consumer Electron.",
+      "volume": "72",
+      "number": "1",
+      "pages": "1607-1614",
+      "authors": [
+        "https://dblp.org/pid/124/9909",
+        "https://dblp.org/pid/244/0198-1",
+        "https://dblp.org/pid/275/1303",
+        "https://dblp.org/pid/426/2025",
+        "https://dblp.org/pid/426/8444",
+        "https://dblp.org/pid/427/0224",
+        "https://dblp.org/pid/94/10025"
+      ],
+      "dois": [
+        "10.1109/tce.2025.3644387"
+      ],
+      "url": "https://dblp.org/db/journals/tce/tce72#journals/tce/DhanarajMSKPSP26",
+      "faculty": [
+        "M. Maragatharajan 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Consumer Electron.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "journals/tce/MishraRTKMSDG25",
+      "type": "article",
+      "title": "An IoT-Enabled Cyber-Physical System for Early Detection of Obsessive-Compulsive Disorder Using Neurosymbolic AI and Hybrid RBF-Competitive Neural Networks.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": null,
+      "venue": "IEEE Trans. Consumer Electron.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Consumer Electron.",
+      "volume": "71",
+      "number": "4",
+      "pages": "12029-12036",
+      "authors": [
+        "https://dblp.org/pid/07/693-2",
+        "https://dblp.org/pid/180/6064",
+        "https://dblp.org/pid/241/7476",
+        "https://dblp.org/pid/264/3730",
+        "https://dblp.org/pid/335/2031",
+        "https://dblp.org/pid/422/2003",
+        "https://dblp.org/pid/61/9862",
+        "https://dblp.org/pid/65/2751-2"
+      ],
+      "dois": [
+        "10.1109/tce.2025.3625068"
+      ],
+      "url": "https://dblp.org/db/journals/tce/tce71#journals/tce/MishraRTKMSDG25",
+      "faculty": [
+        "Rohit Sharma 0002"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Consumer Electron.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "journals/tce/RaniSRVSAK24",
+      "type": "article",
+      "title": "Federated Learning-Based Misbehavior Detection for the 5G-Enabled Internet of Vehicles.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Consumer Electron.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Consumer Electron.",
+      "volume": "70",
+      "number": "2",
+      "pages": "4656-4664",
+      "authors": [
+        "https://dblp.org/pid/07/693-2",
+        "https://dblp.org/pid/231/6596",
+        "https://dblp.org/pid/31/4484-1",
+        "https://dblp.org/pid/329/3215",
+        "https://dblp.org/pid/330/5030",
+        "https://dblp.org/pid/348/3515",
+        "https://dblp.org/pid/358/8756"
+      ],
+      "dois": [
+        "10.1109/tce.2023.3328020"
+      ],
+      "url": "https://dblp.org/db/journals/tce/tce70#journals/tce/RaniSRVSAK24",
+      "faculty": [
+        "Rohit Sharma 0002"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Consumer Electron.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tce/SinghRRAAAPS24",
+      "type": "article",
+      "title": "Blockchain-Based Lightweight Authentication Protocol for Next-Generation Trustworthy Internet of Vehicles Communication.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Consumer Electron.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Consumer Electron.",
+      "volume": "70",
+      "number": "2",
+      "pages": "4898-4907",
+      "authors": [
+        "https://dblp.org/pid/07/693-2",
+        "https://dblp.org/pid/231/6596",
+        "https://dblp.org/pid/310/5069",
+        "https://dblp.org/pid/311/1080",
+        "https://dblp.org/pid/330/5030",
+        "https://dblp.org/pid/358/8756",
+        "https://dblp.org/pid/373/1879",
+        "https://dblp.org/pid/379/0498"
+      ],
+      "dois": [
+        "10.1109/tce.2024.3351221"
+      ],
+      "url": "https://dblp.org/db/journals/tce/tce70#journals/tce/SinghRRAAAPS24",
+      "faculty": [
+        "Rohit Sharma 0002"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Consumer Electron.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tce/SinghRRASKA24",
+      "type": "article",
+      "title": "Smart Traffic Monitoring Through Real-Time Moving Vehicle Detection Using Deep Learning via Aerial Images for Consumer Application.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Consumer Electron.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Consumer Electron.",
+      "volume": "70",
+      "number": "4",
+      "pages": "7302-7309",
+      "authors": [
+        "https://dblp.org/pid/07/693-2",
+        "https://dblp.org/pid/197/6112",
+        "https://dblp.org/pid/250/0059",
+        "https://dblp.org/pid/310/5069",
+        "https://dblp.org/pid/330/5030",
+        "https://dblp.org/pid/341/0102",
+        "https://dblp.org/pid/393/9608"
+      ],
+      "dois": [
+        "10.1109/tce.2024.3445728"
+      ],
+      "url": "https://dblp.org/db/journals/tce/tce70#journals/tce/SinghRRASKA24",
+      "faculty": [
+        "Rohit Sharma 0002"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Consumer Electron.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tce/YadavGGPSYA24",
+      "type": "article",
+      "title": "Video Object Detection From Compressed Formats for Modern Lightweight Consumer Electronics.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Consumer Electron.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Consumer Electron.",
+      "volume": "70",
+      "number": "1",
+      "pages": "4507-4514",
+      "authors": [
+        "https://dblp.org/pid/07/693-2",
+        "https://dblp.org/pid/196/7545",
+        "https://dblp.org/pid/231/6596",
+        "https://dblp.org/pid/246/8531",
+        "https://dblp.org/pid/290/3156",
+        "https://dblp.org/pid/328/0193",
+        "https://dblp.org/pid/84/11387"
+      ],
+      "dois": [
+        "10.1109/tce.2023.3325480"
+      ],
+      "url": "https://dblp.org/db/journals/tce/tce70#journals/tce/YadavGGPSYA24",
+      "faculty": [
+        "Rohit Sharma 0002"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Consumer Electron.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tem/DebBCSMA24",
+      "type": "article",
+      "title": "A Decision-Making Model With Intuitionistic Fuzzy Information for Selection of Enterprise Resource Planning Systems.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Engineering Management",
+      "booktitle": "",
+      "journal": "IEEE Trans. Engineering Management",
+      "volume": "71",
+      "number": "",
+      "pages": "4820-4834",
+      "authors": [
+        "https://dblp.org/pid/170/5810",
+        "https://dblp.org/pid/225/8671",
+        "https://dblp.org/pid/236/4314",
+        "https://dblp.org/pid/270/4988",
+        "https://dblp.org/pid/358/5660",
+        "https://dblp.org/pid/64/4639-1"
+      ],
+      "dois": [
+        "10.1109/tem.2022.3215608"
+      ],
+      "url": "https://dblp.org/db/journals/tem/tem71#journals/tem/DebBCSMA24",
+      "faculty": [
+        "Abhijit Saha 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Engineering Management",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tem/SahaSDSYD24",
+      "type": "article",
+      "title": "Evaluation of Propulsion Technologies for Sustainable Road Freight Distribution Using a Dual Probabilistic Linguistic Group Decision-Making Approach.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Engineering Management",
+      "booktitle": "",
+      "journal": "IEEE Trans. Engineering Management",
+      "volume": "71",
+      "number": "",
+      "pages": "7227-7241",
+      "authors": [
+        "https://dblp.org/pid/136/0546",
+        "https://dblp.org/pid/175/8536",
+        "https://dblp.org/pid/210/9255",
+        "https://dblp.org/pid/37/11339-1",
+        "https://dblp.org/pid/64/4639-1",
+        "https://dblp.org/pid/y/RonaldRYager"
+      ],
+      "dois": [
+        "10.1109/tem.2023.3253300"
+      ],
+      "url": "https://dblp.org/db/journals/tem/tem71#journals/tem/SahaSDSYD24",
+      "faculty": [
+        "Abhijit Saha 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Engineering Management",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tfs/SahaSSDA23",
+      "type": "article",
+      "title": "A Dual Hesitant Fuzzy Sets-Based Methodology for Advantage Prioritization of Zero-Emission Last-Mile Delivery Solutions for Sustainable City Logistics.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": null,
+      "venue": "IEEE Trans. Fuzzy Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Fuzzy Syst.",
+      "volume": "31",
+      "number": "2",
+      "pages": "407-420",
+      "authors": [
+        "https://dblp.org/pid/175/8536",
+        "https://dblp.org/pid/210/9255",
+        "https://dblp.org/pid/268/1093",
+        "https://dblp.org/pid/37/11339-1",
+        "https://dblp.org/pid/64/4639-1"
+      ],
+      "dois": [
+        "10.1109/tfuzz.2022.3164053"
+      ],
+      "url": "https://dblp.org/db/journals/tfs/tfs31#journals/tfs/SahaSSDA23",
+      "faculty": [
+        "Abhijit Saha 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Fuzzy Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "journals/tie/ShanmugamR24",
+      "type": "article",
+      "title": "Receiver Side-Controlled Load-Independent S-LCC/SP-Compensated Multi-Leg Inverter Powered Dynamic Charging System.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Ind. Electron.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Ind. Electron.",
+      "volume": "71",
+      "number": "12",
+      "pages": "15694-15703",
+      "authors": [
+        "https://dblp.org/pid/310/1360",
+        "https://dblp.org/pid/336/9116"
+      ],
+      "dois": [
+        "10.1109/tie.2024.3398672"
+      ],
+      "url": "https://dblp.org/db/journals/tie/tie71#journals/tie/ShanmugamR24",
+      "faculty": [
+        "R. Narayanamoorthi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Ind. Electron.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tie/TianCHSLCM26",
+      "type": "article",
+      "title": "Novel Three-Phase Efficient Power Supply for Hydrogen Production Using Active Voltage Injection Method.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": null,
+      "venue": "IEEE Trans. Ind. Electron.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Ind. Electron.",
+      "volume": "73",
+      "number": "1",
+      "pages": "29-40",
+      "authors": [
+        "https://dblp.org/pid/14/11307",
+        "https://dblp.org/pid/204/5400",
+        "https://dblp.org/pid/231/3612",
+        "https://dblp.org/pid/312/0644",
+        "https://dblp.org/pid/67/6589",
+        "https://dblp.org/pid/81/8544",
+        "https://dblp.org/pid/82/1911-7"
+      ],
+      "dois": [
+        "10.1109/tie.2025.3589459"
+      ],
+      "url": "https://dblp.org/db/journals/tie/tie73#journals/tie/TianCHSLCM26",
+      "faculty": [
+        "Mohamed Ali Jagabar Sathik"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Ind. Electron.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "journals/tim/NatarajanKS23",
+      "type": "article",
+      "title": "A Machine Learning Approach to Passive Human Motion Detection Using WiFi Measurements From Commodity IoT Devices.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": null,
+      "venue": "IEEE Trans. Instrum. Meas.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Instrum. Meas.",
+      "volume": "72",
+      "number": "",
+      "pages": "1-10",
+      "authors": [
+        "https://dblp.org/pid/187/9904",
+        "https://dblp.org/pid/231/3596",
+        "https://dblp.org/pid/347/5090"
+      ],
+      "dois": [
+        "10.1109/tim.2023.3272374"
+      ],
+      "url": "https://dblp.org/db/journals/tim/tim72#journals/tim/NatarajanKS23",
       "faculty": [
         "K. Vijayakumar 0001"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "ISGT Asia",
+          "venue": "IEEE Trans. Instrum. Meas.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2022
+          "year": 2023
         }
       ]
     },
     {
-      "key": "conf/mmsec/NambiarCS12",
-      "type": "inproceedings",
-      "title": "Frontal gait recognition combining 2D and 3D data.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "MM&Sec",
-      "booktitle": "MM&Sec",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "145-150",
+      "key": "journals/tist/VargheseGN26",
+      "type": "article",
+      "title": "On Developing Explainable AI Evaluation Metrics for Image Classification Using Borda Count and Multiple Correlation Techniques.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": null,
+      "venue": "ACM Trans. Intell. Syst. Technol.",
+      "booktitle": "",
+      "journal": "ACM Trans. Intell. Syst. Technol.",
+      "volume": "17",
+      "number": "1",
+      "pages": "20:1-20:32",
       "authors": [
         "https://dblp.org/pid/32/9767",
-        "https://dblp.org/pid/80/1829",
-        "https://dblp.org/pid/88/3657"
+        "https://dblp.org/pid/431/1505",
+        "https://dblp.org/pid/431/2026"
       ],
       "dois": [
-        "10.1145/2361407.2361432"
+        "10.1145/3779054"
       ],
-      "url": "https://dblp.org/db/conf/mmsec/mmsec2012#conf/mmsec/NambiarCS12",
+      "url": "https://dblp.org/db/journals/tist/tist17#journals/tist/VargheseGN26",
       "faculty": [
         "Athira Nambiar"
       ],
       "memberships": [
         {
           "source": "acm",
-          "venue": "MM&Sec",
+          "venue": "ACM Trans. Intell. Syst. Technol.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2012
+          "year": 2026
         }
       ]
     },
     {
-      "key": "conf/mmsp/NambiarTM12",
-      "type": "inproceedings",
-      "title": "Secure image databases through distributed source coding of SIFT descriptors.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "MMSP",
-      "booktitle": "MMSP",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "130-135",
+      "key": "journals/tits/MouGDLGS23",
+      "type": "article",
+      "title": "A Machine Learning Approach for Energy-Efficient Intelligent Transportation Scheduling Problem in a Real-World Dynamic Circumstances.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": null,
+      "venue": "IEEE Trans. Intell. Transp. Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Intell. Transp. Syst.",
+      "volume": "24",
+      "number": "12",
+      "pages": "15527-15539",
       "authors": [
-        "https://dblp.org/pid/10/166",
-        "https://dblp.org/pid/32/9767",
-        "https://dblp.org/pid/81/5607"
+        "https://dblp.org/pid/04/7673-1",
+        "https://dblp.org/pid/07/693-2",
+        "https://dblp.org/pid/144/3211",
+        "https://dblp.org/pid/16/4150",
+        "https://dblp.org/pid/172/8502",
+        "https://dblp.org/pid/47/7811"
       ],
       "dois": [
-        "10.1109/mmsp.2012.6343428"
+        "10.1109/tits.2022.3183215"
       ],
-      "url": "https://dblp.org/db/conf/mmsp/mmsp2012#conf/mmsp/NambiarTM12",
+      "url": "https://dblp.org/db/journals/tits/tits24#journals/tits/MouGDLGS23",
       "faculty": [
-        "Athira Nambiar"
+        "Rohit Sharma 0002"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "MMSP",
+          "venue": "IEEE Trans. Intell. Transp. Syst.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2012
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "journals/tnse/SharmaRSSYH23",
+      "type": "article",
+      "title": "An Efficient Hybrid Deep Learning Model for Denial of Service Detection in Cyber Physical Systems.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": null,
+      "venue": "IEEE Trans. Netw. Sci. Eng.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Netw. Sci. Eng.",
+      "volume": "10",
+      "number": "5",
+      "pages": "2419-2428",
+      "authors": [
+        "https://dblp.org/pid/07/693-2",
+        "https://dblp.org/pid/139/6543",
+        "https://dblp.org/pid/171/5993",
+        "https://dblp.org/pid/28/1708-23",
+        "https://dblp.org/pid/78/10960",
+        "https://dblp.org/pid/84/4762"
+      ],
+      "dois": [
+        "10.1109/tnse.2023.3273301"
+      ],
+      "url": "https://dblp.org/db/journals/tnse/tnse10#journals/tnse/SharmaRSSYH23",
+      "faculty": [
+        "Rohit Sharma 0002"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Netw. Sci. Eng.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
         }
       ]
     }

@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import useProfessor from "../hooks/useProfessor";
-import { facultyMember } from "../data";
+import { facultyMember, optionalVenues } from "../data";
 import VenuePie from "../components/VenuePie";
-import { filterPapers, isVisiblePaper, sortPapers, sourceNames, venueDistribution, venueName } from "../publications";
+import { filterPapers, sortPapers, sourceNames, venueDistribution, venueName } from "../publications";
 import PublicationFilters from "../components/PublicationFilters";
 
 function Profile({ name }) {
@@ -13,10 +13,11 @@ function Profile({ name }) {
   const back = institution ? <Link className="back-link" to={`/institute/${encodeURIComponent(institution)}`}>← Back to {institution}</Link> : <Link className="back-link" to="/">← All institutes</Link>;
   const [search, setSearch] = useState("");
   const [order, setOrder] = useState("newest");
-  const [filters, setFilters] = useState({ venues: [], sources: [], periods: [] });
+  const [filters, setFilters] = useState({ venues: [], sources: [], periods: [], includeOptional: false });
   if (!data) return <div className="page">{back}<h1>{loading ? "Loading professor…" : "Professor not found"}</h1>{!loading && <p>This professor is not in the loaded institute datasets.</p>}</div>;
-  const visiblePapers = data.publications.filter(isVisiblePaper);
-  const papers = filterPapers(visiblePapers, filters);
+  const filterOptions = { ...filters, optionalVenues };
+  const visiblePapers = filterPapers(data.publications, { includeOptional: filters.includeOptional, optionalVenues });
+  const papers = filterPapers(data.publications, filterOptions);
   const years = papers.map(paper => Number(paper.year)).filter(Boolean);
   const shown = sortPapers(filterPapers(papers, { search }), order);
   const affiliationLabel = item => item.affiliation_status === "current" || item.affiliation_status === "former"

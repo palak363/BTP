@@ -5,7 +5,7 @@
     "slug": "iacs",
     "homepage": "http://iacs.res.in/School-of-Mathematical-Computational-Sciences",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-11-19T18:00:33.634533+00:00",
+    "generated_at": "2026-11-25T13:31:04.449752+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -161,37 +161,72 @@
   ],
   "publications": [
     {
-      "key": "conf/indiaSE/0002G024",
-      "type": "inproceedings",
+      "key": "journals/tcad/KunduGR26",
+      "type": "article",
       "title": "Data-Driven Falsification of Cyber-Physical Systems.",
-      "year": 2024,
-      "publication_year": 2024,
-      "event_year": 2024,
-      "venue": "ISEC",
-      "booktitle": "ISEC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "10:1-10:5",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": null,
+      "venue": "IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.",
+      "volume": "45",
+      "number": "4",
+      "pages": "1989-2002",
       "authors": [
         "https://dblp.org/pid/315/0836-2",
         "https://dblp.org/pid/33/9703",
         "https://dblp.org/pid/368/9955"
       ],
       "dois": [
-        "10.1145/3641399.3641401"
+        "10.1109/tcad.2025.3608632"
       ],
-      "url": "https://dblp.org/db/conf/indiaSE/isec2024#conf/indiaSE/0002G024",
+      "url": "https://dblp.org/db/journals/tcad/tcad45#journals/tcad/KunduGR26",
+      "faculty": [
+        "Atanu Kundu 0002"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "journals/tecs/KunduDR23",
+      "type": "article",
+      "title": "SAT-Reach: A Bounded Model Checker for Affine Hybrid Systems.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": null,
+      "venue": "ACM Trans. Embed. Comput. Syst.",
+      "booktitle": "",
+      "journal": "ACM Trans. Embed. Comput. Syst.",
+      "volume": "22",
+      "number": "2",
+      "pages": "26:1-26:36",
+      "authors": [
+        "https://dblp.org/pid/315/0836-2",
+        "https://dblp.org/pid/33/9703",
+        "https://dblp.org/pid/341/1139"
+      ],
+      "dois": [
+        "10.1145/3567425"
+      ],
+      "url": "https://dblp.org/db/journals/tecs/tecs22#journals/tecs/KunduDR23",
       "faculty": [
         "Atanu Kundu 0002"
       ],
       "memberships": [
         {
           "source": "acm",
-          "venue": "ISEC",
+          "venue": "ACM Trans. Embed. Comput. Syst.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2024
+          "year": 2023
         }
       ]
     }

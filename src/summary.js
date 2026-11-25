@@ -1,3 +1,5 @@
+import { normalizeVenueName } from "./publications.js";
+
 // Counting over one institute dataset; shared by the UI fallback and tests.
 export function localProfessor(snapshot, name) {
   const member = snapshot.faculty.find(faculty => faculty.name === name);
@@ -29,6 +31,7 @@ export function localSummary(snapshot, start, end, area, includeOptional = false
   };
   const addDistribution = (domain, venue, count) => {
     domains[domain] = (domains[domain] || 0) + count;
+    venue = normalizeVenueName(venue);
     venues[venue] = (venues[venue] || 0) + count;
   };
   if (published) {
@@ -38,7 +41,7 @@ export function localSummary(snapshot, start, end, area, includeOptional = false
       if (cell.year < start || cell.year > end || (selectedAreas && !selectedAreas.includes(domain))) continue;
       if (!activeNames.has(cell.name)) continue;
       addFaculty(cell.name, domain, cell.count);
-      addDistribution(domain, cell.area, cell.count);
+        addDistribution(domain, cell.area, cell.count);
     }
   } else {
     for (const paper of snapshot.publications) {

@@ -5,12 +5,14 @@ from datetime import datetime, timezone
 import hashlib
 import json
 import math
+import re
 from pathlib import Path
 
 from fetch_dblp import fetch_papers
 from institutes import load_rosters, slug
 from prepare_sources import read_csv, canonical, verify_reference
 from publisher_venues import classify_publisher
+from journal_policy import is_transaction_journal
 from venue_rules import REFERENCE, AREA_NAMES, AREA_GROUPS, OPTIONAL_VENUES, classify_csr, load_rules
 
 BASE = Path(__file__).resolve().parents[1]
@@ -19,6 +21,9 @@ INSTITUTES = OUTPUT / 'institutes'
 INDEX = OUTPUT / 'institutes.json'
 SOURCES = ['csrankings', 'core-a-star', 'core-a', 'ieee', 'acm']
 DEFAULT_WINDOW = (2016, 2026)
+
+def normalize_venue_name(value):
+    return re.sub(r'\s+\(\d+\)$', '', value or '').strip()
 
 
 def dataset_path(name):
@@ -44,7 +49,7 @@ def summarize(dataset, start_year, end_year, sources=('csrankings',), areas=None
     domains, venues = Counter(), Counter()
     adjusted_domains = Counter()
     for paper, membership in selected:
-        domain, venue = membership['domain'], membership['venue']
+        domain, venue = membership['domain'], normalize_venue_name(membership['venue'])
         domains[domain] += 1
         venues[venue] += 1
         credit = 1 / len(paper['authors'])
@@ -100,9 +105,10 @@ def summarize_reference(dataset, start_year, end_year, sources, areas, include_o
         faculty['papers'] += cell['count']
         faculty['score'] += cell['adjustedcount']
         faculty['domains'][domain] += cell['count']
-        faculty['venues'][cell['area']] += cell['count']
+        venue = normalize_venue_name(cell['area'])
+        faculty['venues'][venue] += cell['count']
         domains[domain] += cell['count']
-        venues[cell['area']] += cell['count']
+        venues[venue] += cell['count']
         adjusted_domains[domain] += cell['adjustedcount']
     rows = []
     for faculty in faculties.values():
@@ -231,7 +237,7 @@ def build_institute(roster, rules, core, fetch, refresh=False, offline=False, ba
             membership = classify_publisher(paper, csr)
             if membership:
                 memberships.append(membership)
-            if memberships:
+            if memberships or is_transaction_journal(paper):
                 publications[paper['key']] = dict(paper, faculty=[member['name']], memberships=memberships)
     return {
         'metadata': {

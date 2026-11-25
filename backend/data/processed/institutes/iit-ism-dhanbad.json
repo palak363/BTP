@@ -5,7 +5,7 @@
     "slug": "iit-ism-dhanbad",
     "homepage": "https://cse.iitism.ac.in/",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-11-19T18:00:46.859547+00:00",
+    "generated_at": "2026-11-25T13:31:32.092197+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -231,729 +231,104 @@
   ],
   "publications": [
     {
-      "key": "conf/aipr/VermaS13",
-      "type": "inproceedings",
-      "title": "Generation of future image frames using optical flow.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "AIPR",
-      "booktitle": "AIPR",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-7",
+      "key": "journals/tcasII/KhanKAF21",
+      "type": "article",
+      "title": "Partial-LUT Designs for Low-Complexity Realization of DA-Based BLMS Adaptive Filter.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": null,
+      "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "booktitle": "",
+      "journal": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "volume": "68",
+      "number": "4",
+      "pages": "1188-1192",
       "authors": [
-        "https://dblp.org/pid/124/3768-3",
-        "https://dblp.org/pid/36/5299"
+        "https://dblp.org/pid/128/8521",
+        "https://dblp.org/pid/198/2061",
+        "https://dblp.org/pid/288/9822",
+        "https://dblp.org/pid/75/6514-6"
       ],
       "dois": [
-        "10.1109/aipr.2013.6749339"
+        "10.1109/tcsii.2020.3035693"
       ],
-      "url": "https://dblp.org/db/conf/aipr/aipr2013#conf/aipr/VermaS13",
+      "url": "https://dblp.org/db/journals/tcasII/tcasII68#journals/tcasII/KhanKAF21",
       "faculty": [
-        "Shikha Singh 0003"
+        "Jitendra Kumar 0006"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "AIPR",
+          "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2013
+          "year": 2021
         }
       ]
     },
     {
-      "key": "conf/cse/TrivediD13",
-      "type": "inproceedings",
-      "title": "An Enhanced Genetic Programming Approach for Detecting Unsolicited Emails.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "CSE",
-      "booktitle": "CSE",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1153-1160",
+      "key": "journals/tcasII/SagarRK23",
+      "type": "article",
+      "title": "Resistorless Floating/Grounded Memristor Emulator Model With Electronic Tunability.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": null,
+      "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "booktitle": "",
+      "journal": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "volume": "70",
+      "number": "7",
+      "pages": "2340-2344",
       "authors": [
-        "https://dblp.org/pid/137/7308",
-        "https://dblp.org/pid/86/10044"
+        "https://dblp.org/pid/237/0427",
+        "https://dblp.org/pid/241/4809",
+        "https://dblp.org/pid/57/2381-1"
       ],
       "dois": [
-        "10.1109/cse.2013.171"
+        "10.1109/tcsii.2023.3242301"
       ],
-      "url": "https://dblp.org/db/conf/cse/cse2013#conf/cse/TrivediD13",
+      "url": "https://dblp.org/db/journals/tcasII/tcasII70#journals/tcasII/SagarRK23",
       "faculty": [
-        "Shrawan Kumar Trivedi"
+        "Surendra Sagar"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "CSE",
+          "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2013
+          "year": 2023
         }
       ]
     },
     {
-      "key": "conf/icacci/AzharuddinKJ13",
-      "type": "inproceedings",
-      "title": "A distributed fault-tolerant clustering algorithm for wireless sensor networks.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "997-1002",
-      "authors": [
-        "https://dblp.org/pid/138/1172",
-        "https://dblp.org/pid/48/11140",
-        "https://dblp.org/pid/88/5100"
-      ],
-      "dois": [
-        "10.1109/icacci.2013.6637312"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2013#conf/icacci/AzharuddinKJ13",
-      "faculty": [
-        "Pratyay Kuila"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/GuptaKJ16a",
-      "type": "inproceedings",
-      "title": "Energy efficient multipath routing for wireless sensor networks: A genetic algorithm approach.",
-      "year": 2016,
-      "publication_year": 2016,
-      "event_year": 2016,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1735-1740",
-      "authors": [
-        "https://dblp.org/pid/125/1717-2",
-        "https://dblp.org/pid/48/11140",
-        "https://dblp.org/pid/88/5100"
-      ],
-      "dois": [
-        "10.1109/icacci.2016.7732298"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2016#conf/icacci/GuptaKJ16a",
-      "faculty": [
-        "Pratyay Kuila"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/SinghKJ14",
-      "type": "inproceedings",
-      "title": "A distributed energy efficient and energy balanced routing algorithm for wireless sensor networks.",
-      "year": 2014,
-      "publication_year": 2014,
-      "event_year": 2014,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1657-1663",
-      "authors": [
-        "https://dblp.org/pid/154/8468",
-        "https://dblp.org/pid/48/11140",
-        "https://dblp.org/pid/88/5100"
-      ],
-      "dois": [
-        "10.1109/icacci.2014.6968288"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2014#conf/icacci/SinghKJ14",
-      "faculty": [
-        "Pratyay Kuila"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2014
-        }
-      ]
-    },
-    {
-      "key": "conf/icait/RanjanG13",
-      "type": "inproceedings",
-      "title": "Four element rectangular dielectric resonator antenna for 5.0 GHz WLAN and WiMAX band application.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "ICAIT",
-      "booktitle": "ICAIT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "192-194",
-      "authors": [
-        "https://dblp.org/pid/135/7252",
-        "https://dblp.org/pid/84/10402"
-      ],
-      "dois": [
-        "10.1109/icait.2013.6621546"
-      ],
-      "url": "https://dblp.org/db/conf/icait/icait2013#conf/icait/RanjanG13",
-      "faculty": [
-        "Ravi Kumar Gangwar"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICAIT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/icait/SinghGK13",
-      "type": "inproceedings",
-      "title": "Bandwidth enhancement of L-probe proximity-fed annular ring microstrip slot antenna.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "ICAIT",
-      "booktitle": "ICAIT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "195-197",
-      "authors": [
-        "https://dblp.org/pid/00/10651",
-        "https://dblp.org/pid/55/1561",
-        "https://dblp.org/pid/84/10402"
-      ],
-      "dois": [
-        "10.1109/icait.2013.6621547"
-      ],
-      "url": "https://dblp.org/db/conf/icait/icait2013#conf/icait/SinghGK13",
-      "faculty": [
-        "Ravi Kumar Gangwar"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICAIT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/icccnt/BandyopadhyayKG24",
-      "type": "inproceedings",
-      "title": "Particle Swarm Optimization for Latency-aware Multi-user Task Offloading in Resource-constrained Fog-cloud Framework.",
-      "year": 2024,
-      "publication_year": 2024,
-      "event_year": 2024,
-      "venue": "ICCCNT",
-      "booktitle": "ICCCNT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-7",
-      "authors": [
-        "https://dblp.org/pid/375/6978",
-        "https://dblp.org/pid/45/11139",
-        "https://dblp.org/pid/48/11140"
-      ],
-      "dois": [
-        "10.1109/icccnt61001.2024.10724815"
-      ],
-      "url": "https://dblp.org/db/conf/icccnt/icccnt2024#conf/icccnt/BandyopadhyayKG24",
-      "faculty": [
-        "Pratyay Kuila"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCCNT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2024
-        }
-      ]
-    },
-    {
-      "key": "conf/icccnt/BanerjeeKN24",
-      "type": "inproceedings",
-      "title": "Blockchain-Assisted Trust Management in Vehicular Ad-Hoc Network.",
-      "year": 2024,
-      "publication_year": 2024,
-      "event_year": 2024,
-      "venue": "ICCCNT",
-      "booktitle": "ICCCNT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-7",
-      "authors": [
-        "https://dblp.org/pid/229/3216",
-        "https://dblp.org/pid/345/5455-6",
-        "https://dblp.org/pid/48/11140"
-      ],
-      "dois": [
-        "10.1109/icccnt61001.2024.10724619"
-      ],
-      "url": "https://dblp.org/db/conf/icccnt/icccnt2024#conf/icccnt/BanerjeeKN24",
-      "faculty": [
-        "Pratyay Kuila"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCCNT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2024
-        }
-      ]
-    },
-    {
-      "key": "conf/icccnt/BeyKN24",
-      "type": "inproceedings",
-      "title": "Quantum-Inspired Differential Evolution Based Efficient IoT Service Placement in Edge Networks.",
-      "year": 2024,
-      "publication_year": 2024,
-      "event_year": 2024,
-      "venue": "ICCCNT",
-      "booktitle": "ICCCNT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-7",
-      "authors": [
-        "https://dblp.org/pid/229/3216",
-        "https://dblp.org/pid/361/5570",
-        "https://dblp.org/pid/48/11140"
-      ],
-      "dois": [
-        "10.1109/icccnt61001.2024.10726158"
-      ],
-      "url": "https://dblp.org/db/conf/icccnt/icccnt2024#conf/icccnt/BeyKN24",
-      "faculty": [
-        "Pratyay Kuila"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCCNT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2024
-        }
-      ]
-    },
-    {
-      "key": "conf/icccnt/BhuiRK20",
-      "type": "inproceedings",
-      "title": "Feature Selection from Microarray Data based on Deep Learning Approach.",
-      "year": 2020,
-      "publication_year": 2020,
-      "event_year": 2020,
-      "venue": "ICCCNT",
-      "booktitle": "ICCCNT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-5",
-      "authors": [
-        "https://dblp.org/pid/276/8425",
-        "https://dblp.org/pid/276/8488",
-        "https://dblp.org/pid/48/11140"
-      ],
-      "dois": [
-        "10.1109/icccnt49239.2020.9225353"
-      ],
-      "url": "https://dblp.org/db/conf/icccnt/icccnt2020#conf/icccnt/BhuiRK20",
-      "faculty": [
-        "Pratyay Kuila"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCCNT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2020
-        }
-      ]
-    },
-    {
-      "key": "conf/icccnt/BiswasKR18",
-      "type": "inproceedings",
-      "title": "A Novel Energy Efficient Scheduling for High Performance Computing Systems.",
-      "year": 2018,
-      "publication_year": 2018,
-      "event_year": 2018,
-      "venue": "ICCCNT",
-      "booktitle": "ICCCNT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
-      "authors": [
-        "https://dblp.org/pid/174/1077",
-        "https://dblp.org/pid/19/8425",
-        "https://dblp.org/pid/48/11140"
-      ],
-      "dois": [
-        "10.1109/icccnt.2018.8494120"
-      ],
-      "url": "https://dblp.org/db/conf/icccnt/icccnt2018#conf/icccnt/BiswasKR18",
-      "faculty": [
-        "Pratyay Kuila"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCCNT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2018
-        }
-      ]
-    },
-    {
-      "key": "conf/icccnt/RamBK20",
-      "type": "inproceedings",
-      "title": "Gene Selection from High Dimensionality of Data Based on Quantum Inspired Genetic Algorithm.",
-      "year": 2020,
-      "publication_year": 2020,
-      "event_year": 2020,
-      "venue": "ICCCNT",
-      "booktitle": "ICCCNT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-5",
-      "authors": [
-        "https://dblp.org/pid/276/8425",
-        "https://dblp.org/pid/276/8488",
-        "https://dblp.org/pid/48/11140"
-      ],
-      "dois": [
-        "10.1109/icccnt49239.2020.9225512"
-      ],
-      "url": "https://dblp.org/db/conf/icccnt/icccnt2020#conf/icccnt/RamBK20",
-      "faculty": [
-        "Pratyay Kuila"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCCNT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2020
-        }
-      ]
-    },
-    {
-      "key": "conf/icccnt/SauravBKG24",
-      "type": "inproceedings",
-      "title": "DQN-based Multi-user Multi-task Offloading in Mobile Edge Computing.",
-      "year": 2024,
-      "publication_year": 2024,
-      "event_year": 2024,
-      "venue": "ICCCNT",
-      "booktitle": "ICCCNT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
-      "authors": [
-        "https://dblp.org/pid/375/6978",
-        "https://dblp.org/pid/409/2832",
-        "https://dblp.org/pid/45/11139",
-        "https://dblp.org/pid/48/11140"
-      ],
-      "dois": [
-        "10.1109/icccnt61001.2024.10725504"
-      ],
-      "url": "https://dblp.org/db/conf/icccnt/icccnt2024#conf/icccnt/SauravBKG24",
-      "faculty": [
-        "Pratyay Kuila"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCCNT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2024
-        }
-      ]
-    },
-    {
-      "key": "conf/icccs/GuptaG19",
-      "type": "inproceedings",
-      "title": "Dual Segment Dielectric Resonator Antenna for Microwave Applications.",
-      "year": 2019,
-      "publication_year": 2019,
-      "event_year": 2019,
-      "venue": "ICCCS",
-      "booktitle": "ICCCS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-4",
-      "authors": [
-        "https://dblp.org/pid/49/3409",
-        "https://dblp.org/pid/84/10402"
-      ],
-      "dois": [
-        "10.1109/cccs.2019.8888141"
-      ],
-      "url": "https://dblp.org/db/conf/icccs/icccs2019#conf/icccs/GuptaG19",
-      "faculty": [
-        "Ravi Kumar Gangwar"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCCS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2019
-        }
-      ]
-    },
-    {
-      "key": "conf/ice-itmc/PawarM020",
-      "type": "inproceedings",
-      "title": "Assessment of Success Factors for Cloud adoption in Semiconductor Industry using Hybrid DEMATEL-ANP.",
-      "year": 2020,
-      "publication_year": 2020,
-      "event_year": 2020,
-      "venue": "ICE/ITMC",
-      "booktitle": "ICE/ITMC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-7",
-      "authors": [
-        "https://dblp.org/pid/124/3768-3",
-        "https://dblp.org/pid/157/3039",
-        "https://dblp.org/pid/m/SCMisra"
-      ],
-      "dois": [
-        "10.1109/ice/itmc49519.2020.9198332"
-      ],
-      "url": "https://dblp.org/db/conf/ice-itmc/ice-itmc2020#conf/ice-itmc/PawarM020",
-      "faculty": [
-        "Shikha Singh 0003"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICE/ITMC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2020
-        }
-      ]
-    },
-    {
-      "key": "conf/iciis/DasSG16",
-      "type": "inproceedings",
-      "title": "A high isolation cylindrical dielectric resonator antenna for MIMO application.",
-      "year": 2016,
-      "publication_year": 2016,
-      "event_year": 2016,
-      "venue": "ICIIS",
-      "booktitle": "ICIIS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "118-122",
-      "authors": [
-        "https://dblp.org/pid/04/4635",
-        "https://dblp.org/pid/194/2287",
-        "https://dblp.org/pid/84/10402"
-      ],
-      "dois": [
-        "10.1109/iciinfs.2016.8262918"
-      ],
-      "url": "https://dblp.org/db/conf/iciis/iciis2016#conf/iciis/DasSG16",
-      "faculty": [
-        "Ravi Kumar Gangwar"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICIIS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "key": "conf/iciis/KumariG16",
-      "type": "inproceedings",
-      "title": "Conformal strip fed circularly polarized cylindrical dielectric resonator antenna with modified wilkinson power divider.",
-      "year": 2016,
-      "publication_year": 2016,
-      "event_year": 2016,
-      "venue": "ICIIS",
-      "booktitle": "ICIIS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "345-348",
-      "authors": [
-        "https://dblp.org/pid/173/8155",
-        "https://dblp.org/pid/84/10402"
-      ],
-      "dois": [
-        "10.1109/iciinfs.2016.8262963"
-      ],
-      "url": "https://dblp.org/db/conf/iciis/iciis2016#conf/iciis/KumariG16",
-      "faculty": [
-        "Ravi Kumar Gangwar"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICIIS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "key": "conf/iciis/SharmaDG16",
-      "type": "inproceedings",
-      "title": "Tri-band cylindrical dielectric resonator antenna with novel microstrip line feed for WiMAX/WLAN applications.",
-      "year": 2016,
-      "publication_year": 2016,
-      "event_year": 2016,
-      "venue": "ICIIS",
-      "booktitle": "ICIIS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "123-127",
-      "authors": [
-        "https://dblp.org/pid/04/4635",
-        "https://dblp.org/pid/194/2287",
-        "https://dblp.org/pid/84/10402"
-      ],
-      "dois": [
-        "10.1109/iciinfs.2016.8262919"
-      ],
-      "url": "https://dblp.org/db/conf/iciis/iciis2016#conf/iciis/SharmaDG16",
-      "faculty": [
-        "Ravi Kumar Gangwar"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICIIS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "key": "conf/ictcs2/TrivediD16",
-      "type": "inproceedings",
-      "title": "A Comparative Study of Various Supervised Feature Selection Methods for Spam Classification.",
-      "year": 2016,
-      "publication_year": null,
-      "event_year": 2016,
-      "venue": "ICTCS",
-      "booktitle": "ICTCS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "64:1-64:6",
-      "authors": [
-        "https://dblp.org/pid/137/7308",
-        "https://dblp.org/pid/86/10044"
-      ],
-      "dois": [
-        "10.1145/2905055.2905122"
-      ],
-      "url": "https://dblp.org/db/conf/ictcs2/ictcs2016#conf/ictcs2/TrivediD16",
-      "faculty": [
-        "Shrawan Kumar Trivedi"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICTCS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "key": "conf/isit/JhaPS22",
-      "type": "inproceedings",
-      "title": "Stabilizer codes and Symbol-Pair Metric are Related.",
+      "key": "journals/tcasII/SahuG22",
+      "type": "article",
+      "title": "Dual-Port Compact MIMO-DRAs: Exploiting Metallic Sheets to Increase Inter-Port Isolation at 28-GHz 5G-Band.",
       "year": 2022,
       "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "ISIT",
-      "booktitle": "ISIT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "2969-2973",
+      "event_year": null,
+      "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "booktitle": "",
+      "journal": "IEEE Trans. Circuits Syst. II Express Briefs",
+      "volume": "69",
+      "number": "12",
+      "pages": "4814-4818",
       "authors": [
-        "https://dblp.org/pid/326/0207",
-        "https://dblp.org/pid/57/11469-2",
-        "https://dblp.org/pid/u/ParampalliUdaya"
+        "https://dblp.org/pid/194/2200",
+        "https://dblp.org/pid/84/10402"
       ],
       "dois": [
-        "10.1109/isit50566.2022.9834877"
+        "10.1109/tcsii.2022.3188027"
       ],
-      "url": "https://dblp.org/db/conf/isit/isit2022#conf/isit/JhaPS22",
+      "url": "https://dblp.org/db/journals/tcasII/tcasII69#journals/tcasII/SahuG22",
       "faculty": [
-        "Abhay Kumar Singh 0002"
+        "Ravi Kumar Gangwar"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "ISIT",
+          "venue": "IEEE Trans. Circuits Syst. II Express Briefs",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2022
@@ -961,70 +336,35 @@
       ]
     },
     {
-      "key": "conf/iwsda/BosePS25",
-      "type": "inproceedings",
-      "title": "On Some Classes of $p$-Ary Linear Codes with Most p+1-Weights Derived from Weil Sums.",
-      "year": 2025,
-      "publication_year": 2025,
-      "event_year": 2025,
-      "venue": "IWSDA",
-      "booktitle": "IWSDA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-5",
-      "authors": [
-        "https://dblp.org/pid/405/5635",
-        "https://dblp.org/pid/57/11469-2",
-        "https://dblp.org/pid/u/ParampalliUdaya"
-      ],
-      "dois": [
-        "10.1109/iwsda67899.2025.11457427"
-      ],
-      "url": "https://dblp.org/db/conf/iwsda/iwsda2025#conf/iwsda/BosePS25",
-      "faculty": [
-        "Abhay Kumar Singh 0002"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IWSDA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2025
-        }
-      ]
-    },
-    {
-      "key": "conf/ncc/SumanCRG26",
-      "type": "inproceedings",
-      "title": "Design and Experimental Validation of a Wideband Antipodal Vivaldi Antenna Array for Drone/UAV Neutralization Systems.",
+      "key": "journals/tce/GangwarSGG26",
+      "type": "article",
+      "title": "A Novel Compact Printed Inverted-F Antenna Integrated Into Biker Helmets for Consumer Internet of Vehicles.",
       "year": 2026,
       "publication_year": 2026,
-      "event_year": 2026,
-      "venue": "NCC",
-      "booktitle": "NCC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "733-738",
+      "event_year": null,
+      "venue": "IEEE Trans. Consumer Electron.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Consumer Electron.",
+      "volume": "72",
+      "number": "2",
+      "pages": "2647-2657",
       "authors": [
+        "https://dblp.org/pid/306/4632",
         "https://dblp.org/pid/434/0513",
-        "https://dblp.org/pid/434/1260",
-        "https://dblp.org/pid/434/1568",
+        "https://dblp.org/pid/438/5860",
         "https://dblp.org/pid/84/10402"
       ],
       "dois": [
-        "10.1109/ncc68160.2026.11479167"
+        "10.1109/tce.2026.3674922"
       ],
-      "url": "https://dblp.org/db/conf/ncc/ncc2026#conf/ncc/SumanCRG26",
+      "url": "https://dblp.org/db/journals/tce/tce72#journals/tce/GangwarSGG26",
       "faculty": [
         "Ravi Kumar Gangwar"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "NCC",
+          "venue": "IEEE Trans. Consumer Electron.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2026
@@ -1032,103 +372,426 @@
       ]
     },
     {
-      "key": "conf/racs/TrivediD13",
-      "type": "inproceedings",
-      "title": "Effect of feature selection methods on machine learning classifiers for detecting email spams.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "RACS",
-      "booktitle": "RACS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "35-40",
+      "key": "journals/tce/SahuG26",
+      "type": "article",
+      "title": "Zeroth-Mode Metasurface-Based Miniaturized Antenna With Tri-Band and Tri-Polarization Characteristics for WBAN Applications.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": null,
+      "venue": "IEEE Trans. Consumer Electron.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Consumer Electron.",
+      "volume": "72",
+      "number": "2",
+      "pages": "3297-3305",
       "authors": [
-        "https://dblp.org/pid/137/7308",
-        "https://dblp.org/pid/86/10044"
+        "https://dblp.org/pid/438/5533",
+        "https://dblp.org/pid/84/10402"
       ],
       "dois": [
-        "10.1145/2513228.2513313"
+        "10.1109/tce.2026.3667336"
       ],
-      "url": "https://dblp.org/db/conf/racs/racs2013#conf/racs/TrivediD13",
+      "url": "https://dblp.org/db/journals/tce/tce72#journals/tce/SahuG26",
       "faculty": [
-        "Shrawan Kumar Trivedi"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "RACS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/racs/TrivediD14",
-      "type": "inproceedings",
-      "title": "A study of ensemble based evolutionary classifiers for detecting unsolicited emails.",
-      "year": 2014,
-      "publication_year": 2014,
-      "event_year": 2014,
-      "venue": "RACS",
-      "booktitle": "RACS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "46-51",
-      "authors": [
-        "https://dblp.org/pid/137/7308",
-        "https://dblp.org/pid/86/10044"
-      ],
-      "dois": [
-        "10.1145/2663761.2664233"
-      ],
-      "url": "https://dblp.org/db/conf/racs/racs2014#conf/racs/TrivediD14",
-      "faculty": [
-        "Shrawan Kumar Trivedi"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "RACS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2014
-        }
-      ]
-    },
-    {
-      "key": "conf/rait/RajCPR18",
-      "type": "inproceedings",
-      "title": "Multiple output current controlled current conveyer transconductance amplifier (MO-CCCCDTA) using BiCMOS for analog signal processing.",
-      "year": 2018,
-      "publication_year": 2018,
-      "event_year": 2018,
-      "venue": "RAIT",
-      "booktitle": "RAIT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-5",
-      "authors": [
-        "https://dblp.org/pid/237/0231",
-        "https://dblp.org/pid/237/0255",
-        "https://dblp.org/pid/237/0427",
-        "https://dblp.org/pid/237/0488"
-      ],
-      "dois": [
-        "10.1109/rait.2018.8388989"
-      ],
-      "url": "https://dblp.org/db/conf/rait/rait2018#conf/rait/RajCPR18",
-      "faculty": [
-        "Satish Chandra 0008"
+        "Ravi Kumar Gangwar"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "RAIT",
+          "venue": "IEEE Trans. Consumer Electron.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "journals/tem/0003M023",
+      "type": "article",
+      "title": "Institutionalization of Product Lifecycle Management in Manufacturing Firms.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": null,
+      "venue": "IEEE Trans. Engineering Management",
+      "booktitle": "",
+      "journal": "IEEE Trans. Engineering Management",
+      "volume": "70",
+      "number": "10",
+      "pages": "3465-3480",
+      "authors": [
+        "https://dblp.org/pid/124/3768-3",
+        "https://dblp.org/pid/73/6026-3",
+        "https://dblp.org/pid/m/SCMisra"
+      ],
+      "dois": [
+        "10.1109/tem.2021.3097040"
+      ],
+      "url": "https://dblp.org/db/journals/tem/tem70#journals/tem/0003M023",
+      "faculty": [
+        "Shikha Singh 0003"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Engineering Management",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "journals/tem/SinghM21",
+      "type": "article",
+      "title": "Exploring the Challenges for Adopting the Cloud PLM in Manufacturing Organizations.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": null,
+      "venue": "IEEE Trans. Engineering Management",
+      "booktitle": "",
+      "journal": "IEEE Trans. Engineering Management",
+      "volume": "68",
+      "number": "3",
+      "pages": "752-766",
+      "authors": [
+        "https://dblp.org/pid/124/3768-3",
+        "https://dblp.org/pid/m/SCMisra"
+      ],
+      "dois": [
+        "10.1109/tem.2019.2908454"
+      ],
+      "url": "https://dblp.org/db/journals/tem/tem68#journals/tem/SinghM21",
+      "faculty": [
+        "Shikha Singh 0003"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Engineering Management",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "journals/tem/SinghMK21",
+      "type": "article",
+      "title": "Critical Barriers to PLM Institutionalization in Manufacturing Organizations.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": null,
+      "venue": "IEEE Trans. Engineering Management",
+      "booktitle": "",
+      "journal": "IEEE Trans. Engineering Management",
+      "volume": "68",
+      "number": "5",
+      "pages": "1436-1448",
+      "authors": [
+        "https://dblp.org/pid/124/3768-3",
+        "https://dblp.org/pid/73/6026-3",
+        "https://dblp.org/pid/m/SCMisra"
+      ],
+      "dois": [
+        "10.1109/tem.2019.2911574"
+      ],
+      "url": "https://dblp.org/db/journals/tem/tem68#journals/tem/SinghMK21",
+      "faculty": [
+        "Shikha Singh 0003"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Engineering Management",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "journals/tem/TrivediPSKY24",
+      "type": "article",
+      "title": "Exploring Factors Affecting Users' Behavioral Intention to Adopt Digital Technologies: The Mediating Effect of Social Influence.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Engineering Management",
+      "booktitle": "",
+      "journal": "IEEE Trans. Engineering Management",
+      "volume": "71",
+      "number": "",
+      "pages": "13814-13826",
+      "authors": [
+        "https://dblp.org/pid/137/7308",
+        "https://dblp.org/pid/16/6266-6",
+        "https://dblp.org/pid/20/761",
+        "https://dblp.org/pid/82/6392",
+        "https://dblp.org/pid/85/4670"
+      ],
+      "dois": [
+        "10.1109/tem.2022.3182361"
+      ],
+      "url": "https://dblp.org/db/journals/tem/tem71#journals/tem/TrivediPSKY24",
+      "faculty": [
+        "Shrawan Kumar Trivedi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Engineering Management",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tem/TrivediSITP24",
+      "type": "article",
+      "title": "Energy Transition, the Next Hotspot of Energy Research: A Study Using Topic Modeling.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Engineering Management",
+      "booktitle": "",
+      "journal": "IEEE Trans. Engineering Management",
+      "volume": "71",
+      "number": "",
+      "pages": "5829-5846",
+      "authors": [
+        "https://dblp.org/pid/137/7308",
+        "https://dblp.org/pid/20/761",
+        "https://dblp.org/pid/240/3850",
+        "https://dblp.org/pid/371/1367",
+        "https://dblp.org/pid/371/1616"
+      ],
+      "dois": [
+        "10.1109/tem.2024.3368153"
+      ],
+      "url": "https://dblp.org/db/journals/tem/tem71#journals/tem/TrivediSITP24",
+      "faculty": [
+        "Shrawan Kumar Trivedi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Engineering Management",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tem/TrivediSPD24",
+      "type": "article",
+      "title": "Prediction of Intention to Use Social Media in Online Blended Learning Using Two Step Hybrid Feature Selection and Improved SVM Stacked Model.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Engineering Management",
+      "booktitle": "",
+      "journal": "IEEE Trans. Engineering Management",
+      "volume": "71",
+      "number": "",
+      "pages": "13501-13516",
+      "authors": [
+        "https://dblp.org/pid/137/7308",
+        "https://dblp.org/pid/20/761",
+        "https://dblp.org/pid/69/5513",
+        "https://dblp.org/pid/86/10044"
+      ],
+      "dois": [
+        "10.1109/tem.2022.3212901"
+      ],
+      "url": "https://dblp.org/db/journals/tem/tem71#journals/tem/TrivediSPD24",
+      "faculty": [
+        "Shrawan Kumar Trivedi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Engineering Management",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tem/TrivediSYKS24",
+      "type": "article",
+      "title": "Intention to Use Social Media in Online and Blended Learning: Potential Predictors and Mediation of Collectivism.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Engineering Management",
+      "booktitle": "",
+      "journal": "IEEE Trans. Engineering Management",
+      "volume": "71",
+      "number": "",
+      "pages": "13558-13571",
+      "authors": [
+        "https://dblp.org/pid/137/7308",
+        "https://dblp.org/pid/144/3380",
+        "https://dblp.org/pid/240/3850",
+        "https://dblp.org/pid/82/6392",
+        "https://dblp.org/pid/85/4670"
+      ],
+      "dois": [
+        "10.1109/tem.2023.3257422"
+      ],
+      "url": "https://dblp.org/db/journals/tem/tem71#journals/tem/TrivediSYKS24",
+      "faculty": [
+        "Shrawan Kumar Trivedi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Engineering Management",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tem/TrivediVSY24",
+      "type": "article",
+      "title": "Research Trends in Sustainable E-Payment Systems: A Study Using Topic Modeling Approach.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Engineering Management",
+      "booktitle": "",
+      "journal": "IEEE Trans. Engineering Management",
+      "volume": "71",
+      "number": "",
+      "pages": "7511-7525",
+      "authors": [
+        "https://dblp.org/pid/137/7308",
+        "https://dblp.org/pid/144/3380",
+        "https://dblp.org/pid/240/3850",
+        "https://dblp.org/pid/372/9456"
+      ],
+      "dois": [
+        "10.1109/tem.2023.3280216"
+      ],
+      "url": "https://dblp.org/db/journals/tem/tem71#journals/tem/TrivediVSY24",
+      "faculty": [
+        "Shrawan Kumar Trivedi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Engineering Management",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tem/YadavKT24",
+      "type": "article",
+      "title": "Investigating Emerging Trends in Sustainable Fashion Research: Topics, Challenges, Strategies, and Future Directions.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Engineering Management",
+      "booktitle": "",
+      "journal": "IEEE Trans. Engineering Management",
+      "volume": "71",
+      "number": "",
+      "pages": "5600-5615",
+      "authors": [
+        "https://dblp.org/pid/137/7308",
+        "https://dblp.org/pid/370/1683",
+        "https://dblp.org/pid/370/1772"
+      ],
+      "dois": [
+        "10.1109/tem.2024.3362403"
+      ],
+      "url": "https://dblp.org/db/journals/tem/tem71#journals/tem/YadavKT24",
+      "faculty": [
+        "Shrawan Kumar Trivedi"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Engineering Management",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tetc/BeyKN25",
+      "type": "article",
+      "title": "Quantum-Inspired Differential Evolution With Decoding Using Hashing for Efficient User Allocation in Edge Computing Environment.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": null,
+      "venue": "IEEE Trans. Emerg. Top. Comput.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Emerg. Top. Comput.",
+      "volume": "13",
+      "number": "2",
+      "pages": "481-495",
+      "authors": [
+        "https://dblp.org/pid/229/3216",
+        "https://dblp.org/pid/361/5570",
+        "https://dblp.org/pid/48/11140"
+      ],
+      "dois": [
+        "10.1109/tetc.2024.3433570"
+      ],
+      "url": "https://dblp.org/db/journals/tetc/tetc13#journals/tetc/BeyKN25",
+      "faculty": [
+        "Pratyay Kuila"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Emerg. Top. Comput.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "journals/tit/DinhNSS18",
+      "type": "article",
+      "title": "On the Symbol-Pair Distance of Repeated-Root Constacyclic Codes of Prime Power Lengths.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": null,
+      "venue": "IEEE Trans. Inf. Theory",
+      "booktitle": "",
+      "journal": "IEEE Trans. Inf. Theory",
+      "volume": "64",
+      "number": "4",
+      "pages": "2417-2430",
+      "authors": [
+        "https://dblp.org/pid/19/4411",
+        "https://dblp.org/pid/231/7459",
+        "https://dblp.org/pid/27/10726",
+        "https://dblp.org/pid/57/11469-2"
+      ],
+      "dois": [
+        "10.1109/tit.2017.2726691"
+      ],
+      "url": "https://dblp.org/db/journals/tit/tit64#journals/tit/DinhNSS18",
+      "faculty": [
+        "Abhay Kumar Singh 0002"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Inf. Theory",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2018
@@ -1136,108 +799,213 @@
       ]
     },
     {
-      "key": "conf/tencon/BharadwajKK23",
-      "type": "inproceedings",
-      "title": "Compact Dual-Band Implantable Asymmetric Multi-Slot Patch Antenna for WMTS and ISM Applications.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "TENCON",
-      "booktitle": "TENCON",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "130-133",
+      "key": "journals/tit/VermaPS25",
+      "type": "article",
+      "title": "Code Size Constraints in b-Symbol Read Channels: A Bound Analysis.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": null,
+      "venue": "IEEE Trans. Inf. Theory",
+      "booktitle": "",
+      "journal": "IEEE Trans. Inf. Theory",
+      "volume": "71",
+      "number": "12",
+      "pages": "9496-9505",
       "authors": [
-        "https://dblp.org/pid/06/5441-3",
-        "https://dblp.org/pid/181/2884",
-        "https://dblp.org/pid/362/1206"
+        "https://dblp.org/pid/238/0985",
+        "https://dblp.org/pid/400/8562",
+        "https://dblp.org/pid/57/11469-2"
       ],
       "dois": [
-        "10.1109/tencon58879.2023.10322398"
+        "10.1109/tit.2025.3622757"
       ],
-      "url": "https://dblp.org/db/conf/tencon/tencon2023#conf/tencon/BharadwajKK23",
+      "url": "https://dblp.org/db/journals/tit/tit71#journals/tit/VermaPS25",
       "faculty": [
-        "Sandeep Kumar 0003"
+        "Abhay Kumar Singh 0002"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "TENCON",
+          "venue": "IEEE Trans. Inf. Theory",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2023
+          "year": 2025
         }
       ]
     },
     {
-      "key": "conf/tencon/SudhanvaYKKB23",
-      "type": "inproceedings",
-      "title": "High Gain Ultra-Low NF Wideband CMOS Low Noise Amplifier Design Using 2-Stage Series-Parallel LC Matching Network.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "TENCON",
-      "booktitle": "TENCON",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-5",
+      "key": "journals/tit/VermaSS26",
+      "type": "article",
+      "title": "Function-Correcting b-Symbol Codes for Locally (λ, ρ, b)-Functions.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": null,
+      "venue": "IEEE Trans. Inf. Theory",
+      "booktitle": "",
+      "journal": "IEEE Trans. Inf. Theory",
+      "volume": "72",
+      "number": "1",
+      "pages": "331-341",
       "authors": [
-        "https://dblp.org/pid/06/5441-3",
-        "https://dblp.org/pid/211/3223",
-        "https://dblp.org/pid/362/1319",
-        "https://dblp.org/pid/362/1458",
-        "https://dblp.org/pid/362/1685"
+        "https://dblp.org/pid/319/1312",
+        "https://dblp.org/pid/400/8562",
+        "https://dblp.org/pid/57/11469-2"
       ],
       "dois": [
-        "10.1109/tencon58879.2023.10322545"
+        "10.1109/tit.2025.3633259"
       ],
-      "url": "https://dblp.org/db/conf/tencon/tencon2023#conf/tencon/SudhanvaYKKB23",
+      "url": "https://dblp.org/db/journals/tit/tit72#journals/tit/VermaSS26",
       "faculty": [
-        "Sandeep Kumar 0003"
+        "Abhay Kumar Singh 0002"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "TENCON",
+          "venue": "IEEE Trans. Inf. Theory",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2023
+          "year": 2026
         }
       ]
     },
     {
-      "key": "conf/wci/SharmaK15b",
-      "type": "inproceedings",
-      "title": "Design of Dependable Task Scheduling Algorithm in Cloud Environment.",
-      "year": 2015,
-      "publication_year": 2015,
-      "event_year": 2015,
-      "venue": "WCI",
-      "booktitle": "WCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "516-521",
+      "key": "journals/tiv/BandyopadhyayKBG24",
+      "type": "article",
+      "title": "Quantum-Inspired Differential Evolution for Freshness-Aware Caching-Aided Offloading in Digital Twin-Enabled Internet of Vehicles.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Intell. Veh.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Intell. Veh.",
+      "volume": "9",
+      "number": "12",
+      "pages": "7646-7659",
       "authors": [
-        "https://dblp.org/pid/168/3238",
+        "https://dblp.org/pid/361/5570",
+        "https://dblp.org/pid/375/6978",
+        "https://dblp.org/pid/45/11139",
         "https://dblp.org/pid/48/11140"
       ],
       "dois": [
-        "10.1145/2791405.2791502"
+        "10.1109/tiv.2024.3401033"
       ],
-      "url": "https://dblp.org/db/conf/wci/wci2015#conf/wci/SharmaK15b",
+      "url": "https://dblp.org/db/journals/tiv/tiv9#journals/tiv/BandyopadhyayKBG24",
       "faculty": [
         "Pratyay Kuila"
       ],
       "memberships": [
         {
-          "source": "acm",
-          "venue": "WCI",
+          "source": "ieee",
+          "venue": "IEEE Trans. Intell. Veh.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2015
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tnsm/BandyopadhyayKG24",
+      "type": "article",
+      "title": "Popularity-Conscious Service Caching and Offloading in Digital Twin and NOMA-Aided Connected Autonomous Vehicular Systems.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Netw. Serv. Manag.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Netw. Serv. Manag.",
+      "volume": "21",
+      "number": "6",
+      "pages": "6451-6464",
+      "authors": [
+        "https://dblp.org/pid/375/6978",
+        "https://dblp.org/pid/45/11139",
+        "https://dblp.org/pid/48/11140"
+      ],
+      "dois": [
+        "10.1109/tnsm.2024.3462481"
+      ],
+      "url": "https://dblp.org/db/journals/tnsm/tnsm21#journals/tnsm/BandyopadhyayKG24",
+      "faculty": [
+        "Pratyay Kuila"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Netw. Serv. Manag.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tvt/MaithaniG24",
+      "type": "article",
+      "title": "A Compact, Dual-Band, Full-Duplex Conformal Filtering Antenna Array for Seamless Vehicular Connectivity.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Veh. Technol.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Veh. Technol.",
+      "volume": "73",
+      "number": "7",
+      "pages": "10617-10626",
+      "authors": [
+        "https://dblp.org/pid/382/0109",
+        "https://dblp.org/pid/84/10402"
+      ],
+      "dois": [
+        "10.1109/tvt.2024.3372193"
+      ],
+      "url": "https://dblp.org/db/journals/tvt/tvt73#journals/tvt/MaithaniG24",
+      "faculty": [
+        "Ravi Kumar Gangwar"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Veh. Technol.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tvt/SrivastavaKSG26",
+      "type": "article",
+      "title": "Wideband Circularly Polarized Conformal MIMO Antenna System for 5G Sub-6 GHz Vehicular Applications.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": null,
+      "venue": "IEEE Trans. Veh. Technol.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Veh. Technol.",
+      "volume": "75",
+      "number": "4",
+      "pages": "5708-5719",
+      "authors": [
+        "https://dblp.org/pid/434/0465",
+        "https://dblp.org/pid/434/0513",
+        "https://dblp.org/pid/434/0519",
+        "https://dblp.org/pid/84/10402"
+      ],
+      "dois": [
+        "10.1109/tvt.2025.3622637"
+      ],
+      "url": "https://dblp.org/db/journals/tvt/tvt75#journals/tvt/SrivastavaKSG26",
+      "faculty": [
+        "Ravi Kumar Gangwar"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Veh. Technol.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
         }
       ]
     }

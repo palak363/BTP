@@ -1,13 +1,19 @@
-export const sourceNames = { csrankings: "CSRankings", "core-a-star": "CORE A*", "core-a": "CORE A", ieee: "IEEE", acm: "ACM" };
-export const venueName = paper => paper.venue || paper.booktitle || paper.journal || "Unknown venue";
-const transactionJournal = /^(?:ACM|IEEE)\s+Trans\./i;
+export const sourceNames = { csrankings: "CSRankings", "core-a-star": "CORE A*", "core-a": "CORE A", ieee: "IEEE Trans.", acm: "ACM Trans." };
+export const normalizeVenueName = value => String(value || "").replace(/\s+\(\d+\)$/, "").trim();
+export const venueName = paper => normalizeVenueName(paper.venue || paper.booktitle || paper.journal || "Unknown venue");
+const transactionJournal = /^(?:ACM|IEEE)\s+(?:Trans\.(?:\s|$)|Transactions?\b)/i;
+const transactionJournals = {
+  ieee: /^IEEE\s+(?:Trans\.(?:\s|$)|Transactions?\b)/i,
+  acm: /^ACM\s+(?:Trans\.(?:\s|$)|Transactions?\b)/i,
+};
 const acmIeeeJournalName = /^(?:ACM|IEEE|Proc\.\s*ACM|J\.\s*ACM)\b/i;
 const acmIeeeDoi = /^(?:10\.1145|10\.1109)\//i;
 
-export function isTransactionPaper(paper) {
+export function isTransactionPaper(paper, source) {
   if (paper.type !== "article") return false;
   const venue = paper.journal || venueName(paper);
-  return transactionJournal.test(venue) || (paper.dois || []).some(doi => acmIeeeDoi.test(doi));
+  return source ? Boolean(transactionJournals[source]?.test(venue))
+    : Object.values(transactionJournals).some(pattern => pattern.test(venue));
 }
 
 export function isVisiblePaper(paper) {
@@ -19,12 +25,22 @@ export function isVisiblePaper(paper) {
   const isAcmIeee = acmIeeeJournalName.test(venue) || (paper.dois || []).some(doi => acmIeeeDoi.test(doi));
   return !isAcmIeee || transactionJournal.test(venue);
 }
-export function filterPapers(papers, { venues = [], sources = [], periods = [], search = "" } = {}) {
+export function filterPapers(papers, { venues = [], sources = [], periods = [], search = "", optionalVenues = [], includeOptional = false } = {}) {
   const query = search.trim().toLowerCase();
-  return papers.filter(paper => isVisiblePaper(paper) && (!venues.length || venues.includes(venueName(paper)))
-    && (!sources.length || paper.memberships.some(item => sources.includes(item.source)))
+  const isOptionalCsrMembership = item => item.source === "csrankings" && optionalVenues.includes(item.area);
+  const matchesSource = (paper, source) => source === "ieee" || source === "acm"
+    ? isTransactionPaper(paper, source) && paper.memberships.some(item => item.source === source)
+    : paper.memberships.some(item => item.source === source && (includeOptional || !isOptionalCsrMembership(item)));
+  return papers.filter(paper => {
+    const memberships = paper.memberships || [];
+    const hasOptionalCsrMembership = memberships.some(isOptionalCsrMembership);
+    const hasEligibleMembership = memberships.some(item => includeOptional || !isOptionalCsrMembership(item));
+    return isVisiblePaper(paper) && (!hasOptionalCsrMembership || includeOptional || hasEligibleMembership)
+    && (!venues.length || venues.includes(venueName(paper)))
+    && (!sources.length || sources.some(source => matchesSource(paper, source)))
     && (!periods.length || periods.some(({ start, end }) => paper.year >= start && paper.year <= end))
-    && `${paper.title} ${venueName(paper)}`.toLowerCase().includes(query));
+    && `${paper.title} ${venueName(paper)}`.toLowerCase().includes(query);
+  });
 }
 export function venueDistribution(papers) {
   const counts = new Map();

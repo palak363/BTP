@@ -14,6 +14,7 @@ from fetch_sparql import parse_results, SCHEMA, RDF_TYPE
 from venue_rules import load_rules, classify_csr
 from core_venues import classify_core
 from publisher_venues import classify_publisher, dois_from_links
+from build_institutes import build_institute
 from build_iiitd_dataset import summarize
 from api.app import app
 
@@ -100,33 +101,48 @@ class SparqlTests(unittest.TestCase):
 
 
 class PublisherTests(unittest.TestCase):
-    def test_doi_prefix_selects_publisher(self):
-        self.assertEqual(classify_publisher(paper(venue='ICASSP', booktitle='ICASSP', dois=['10.1109/x']), None)['source'], 'ieee')
-        self.assertEqual(classify_publisher(paper(venue='CHI', booktitle='CHI', dois=['10.1145/x']), None)['source'], 'acm')
-        self.assertIsNone(classify_publisher(paper(dois=['10.1007/x']), None))
-        self.assertIsNone(classify_publisher(paper(), None))
+    def test_only_transactions_journals_receive_ieee_or_acm_membership(self):
+        self.assertIsNone(classify_publisher(paper(venue='ICASSP', booktitle='ICASSP', dois=['10.1109/x']), None))
+        self.assertIsNone(classify_publisher(paper(venue='CHI', booktitle='CHI', dois=['10.1145/x']), None))
+        ieee = paper(type='article', venue='IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.',
+                     journal='IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.', dois=['10.1109/x'])
+        acm = paper(type='article', venue='ACM Trans. Graph.', journal='ACM Trans. Graph.', dois=['10.1145/x'])
+        self.assertEqual(classify_publisher(ieee, None)['source'], 'ieee')
+        self.assertEqual(classify_publisher(acm, None)['source'], 'acm')
+        self.assertIsNone(classify_publisher(paper(type='article', venue='IEEE Access', journal='IEEE Access',
+                                                   dois=['10.1109/x']), None))
 
-    def test_any_length_main_conference_with_csr_area(self):
-        result = classify_publisher(paper(pages='1-4', dois=['10.1109/x']), None)
-        self.assertEqual((result['venue'], result['domain']), ('AAAI', 'Other IEEE/ACM areas'))
+    def test_transaction_article_uses_csr_area_when_available(self):
+        transaction = paper(type='article', venue='IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.',
+                            journal='IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.', year=2023)
         csr = dict(source='csrankings', year=2024, area='aaai', domain='Artificial intelligence', venue='AAAI')
-        result = classify_publisher(paper(venue='AAAI (2)', booktitle='AAAI (2)', dois=['10.1145/x']), csr)
-        self.assertEqual((result['venue'], result['area'], result['year']), ('AAAI', 'aaai', 2024))
+        result = classify_publisher(transaction, csr)
+        self.assertEqual((result['venue'], result['area'], result['year']), (transaction['journal'], 'aaai', 2024))
 
-    def test_doi_links_and_verified_legacy_acm_ids(self):
+    def test_doi_links_are_normalized(self):
         self.assertEqual(dois_from_links({'https://doi.org/10.1109/X.1'}, {'https://doi.ieeecomputersociety.org/10.1109/x.1',
                          'https://dl.acm.org/doi/10.1145/Y.2', 'http://dl.acm.org/citation.cfm?id=3', 'https://ieeexplore.ieee.org/document/4'}),
                          ['10.1109/x.1', '10.1145/y.2'])
-        self.assertEqual(classify_publisher(paper(key='conf/imc/YadavSGSC18', venue='IMC', booktitle='IMC'), None)['source'], 'acm')
 
-    def test_workshops_satellites_and_journals_excluded(self):
+    def test_conferences_and_non_transaction_journals_are_excluded(self):
         for venue in ['CVPR Workshops', 'ICDM (Workshops)', 'WWW (Companion Volume)', 'UbiComp Adjunct',
                       'CHI Extended Abstracts', 'e-Energy (Posters)', 'LLM4CODE@ICSE']:
             self.assertIsNone(classify_publisher(paper(venue=venue, booktitle=venue, dois=['10.1145/x']), None), venue)
-        workshop = paper(venue='CCGridW', booktitle='CCGridW', dois=['10.1109/x'],
-                         url='https://dblp.org/db/conf/ccgrid/ccgrid2023w#key')
-        self.assertIsNone(classify_publisher(workshop, None))
         self.assertIsNone(classify_publisher(paper(type='article', dois=['10.1109/x']), None))
+
+    def test_build_keeps_transactions_articles_for_professor_bibliography(self):
+        records = [
+            paper(key='journals/tcad/test', type='article', venue='IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.',
+                  journal='IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.', pages='1-10', dois=['10.1109/x']),
+            paper(key='journals/access/test', type='article', venue='IEEE Access', journal='IEEE Access',
+                  pages='1-10', dois=['10.1109/y']),
+        ]
+        roster = {'name': 'Test Institute', 'slug': 'test-institute', 'homepage': '',
+                  'faculty': [{'name': 'Virendra Singh', 'dblp_url': 'https://dblp.org/pid/test'}], 'unresolved': []}
+        dataset = build_institute(roster, load_rules(), None,
+                                  lambda *_args: records)
+        self.assertEqual([paper['key'] for paper in dataset['publications']], ['journals/tcad/test'])
+        self.assertEqual([m['source'] for m in dataset['publications'][0]['memberships']], ['ieee'])
 
 
 @unittest.skipUnless((BASE / 'data/reference/csrankings.py').exists(), 'Download reference rules first')
@@ -163,6 +179,15 @@ class EligibilityTests(unittest.TestCase):
 
 
 class CountingTests(unittest.TestCase):
+    def test_duplicate_dblp_venue_suffixes_are_merged(self):
+        value = dataset()
+        duplicate = copy.deepcopy(value['publications'][0])
+        duplicate['key'] = 'conf/test/p2'
+        duplicate['memberships'][0]['venue'] = 'AAAI (1)'
+        value['publications'].append(duplicate)
+        result = summarize(value, 2023, 2023)
+        self.assertEqual(result['top_venues'], [{'venue': 'AAAI', 'papers': 2}])
+
     def test_union_and_fractional_authorship(self):
         result = summarize(dataset(), 2023, 2023, ['csrankings', 'core-a-star'])
         self.assertEqual(result['total_papers'], 1)
@@ -244,8 +269,10 @@ class ApiTests(unittest.TestCase):
                   for source in ['ieee', 'acm', 'ieee,acm']]
         self.assertGreater(min(totals), 0)
         self.assertEqual(totals[2], totals[0] + totals[1])
-        venues = {v['venue'] for v in self.client.get('/iiitd/domains?sources=ieee,acm&start_year=1970').get_json()['top_venues']}
-        self.assertFalse({v for v in venues if 'Workshop' in v or '@' in v})
+        for source, prefix in [('ieee', 'IEEE Trans.'), ('acm', 'ACM Trans.')]:
+            venues = {v['venue'] for v in self.client.get('/iiitd/domains?sources=' + source + '&start_year=1970').get_json()['top_venues']}
+            self.assertTrue(venues)
+            self.assertTrue(all(venue.startswith(prefix) for venue in venues))
 
 
 if __name__ == '__main__':

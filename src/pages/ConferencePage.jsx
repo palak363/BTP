@@ -1,10 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { facultyDirectory, loadAllInstitutes } from "../data";
-import { isTransactionPaper, isVisiblePaper, venueName } from "../publications";
+import { isTransactionPaper, isVisiblePaper, normalizeVenueName, venueName } from "../publications";
 import ProfessorLink from "../components/ProfessorLink";
-
-const conferenceName = value => value.replace(/\s+\(\d+\)$/, "").trim();
 
 function isConferenceOrTransaction(paper) {
   return paper.type !== "article"
@@ -19,13 +17,13 @@ function buildCatalog(datasets) {
     (dataset.publications || []).forEach(paper => {
       if (!isVisiblePaper(paper) || !isConferenceOrTransaction(paper)) return;
       const memberships = paper.memberships || [];
-      const names = new Set(memberships.map(membership => conferenceName(membership.venue || venueName(paper))).filter(Boolean));
-      if (isTransactionPaper(paper)) names.add(conferenceName(venueName(paper)));
+      const names = new Set(memberships.map(membership => normalizeVenueName(membership.venue || venueName(paper))).filter(Boolean));
+      if (isTransactionPaper(paper)) names.add(normalizeVenueName(venueName(paper)));
       names.forEach(name => {
         const entry = venues.get(name) || { name, fields: new Set(), papers: 0 };
-        memberships.filter(membership => conferenceName(membership.venue || venueName(paper)) === name)
+        memberships.filter(membership => normalizeVenueName(membership.venue || venueName(paper)) === name)
           .forEach(membership => entry.fields.add(membership.domain || "Other"));
-        if (isTransactionPaper(paper) && name === conferenceName(venueName(paper)) && !entry.fields.size) entry.fields.add("ACM/IEEE transactions");
+        if (isTransactionPaper(paper) && name === normalizeVenueName(venueName(paper)) && !entry.fields.size) entry.fields.add("ACM/IEEE transactions");
         entry.papers += 1;
         venues.set(name, entry);
       });
@@ -59,8 +57,8 @@ export default function ConferencePage() {
   const visibleVenues = useMemo(() => (catalog?.venues || []).filter(venue =>
     (!field || venue.fields.includes(field)) && venue.name.toLowerCase().includes(search.trim().toLowerCase())), [catalog, field, search]);
   const selectedPapers = useMemo(() => new Map((catalog?.papers || [])
-    .filter(paper => paper.memberships?.some(membership => selected.includes(conferenceName(membership.venue || venueName(paper))))
-      || (isTransactionPaper(paper) && selected.includes(conferenceName(venueName(paper)))))
+    .filter(paper => paper.memberships?.some(membership => selected.includes(normalizeVenueName(membership.venue || venueName(paper))))
+      || (isTransactionPaper(paper) && selected.includes(normalizeVenueName(venueName(paper)))))
     .map(paper => [`${paper.slug}:${paper.key}`, paper])), [catalog, selected]);
   const facultyRows = useMemo(() => {
     const rows = new Map();

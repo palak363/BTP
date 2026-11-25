@@ -5,7 +5,7 @@
     "slug": "university-of-delhi",
     "homepage": "https://cs.du.ac.in/",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-11-19T18:01:56.766280+00:00",
+    "generated_at": "2026-11-25T13:32:25.047714+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -576,110 +576,6 @@
   ],
   "publications": [
     {
-      "key": "conf/ACISicis/BhatnagarKG09",
-      "type": "inproceedings",
-      "title": "Identifying Structures with Informative Dimensions in Streams.",
-      "year": 2009,
-      "publication_year": 2009,
-      "event_year": 2009,
-      "venue": "ACIS-ICIS",
-      "booktitle": "ACIS-ICIS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "375-382",
-      "authors": [
-        "https://dblp.org/pid/18/1460",
-        "https://dblp.org/pid/43/644",
-        "https://dblp.org/pid/74/723"
-      ],
-      "dois": [
-        "10.1109/icis.2009.95"
-      ],
-      "url": "https://dblp.org/db/conf/ACISicis/ACISicis2009#conf/ACISicis/BhatnagarKG09",
-      "faculty": [
-        "Neelima Gupta",
-        "Vasudha Bhatnagar"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ACIS-ICIS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2009
-        }
-      ]
-    },
-    {
-      "key": "conf/ACISicis/KumarP14",
-      "type": "inproceedings",
-      "title": "ICT Integrated Social Media Framework for consumer awareness in society using ICT tools.",
-      "year": 2014,
-      "publication_year": 2014,
-      "event_year": 2014,
-      "venue": "ICIS",
-      "booktitle": "ICIS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "229-233",
-      "authors": [
-        "https://dblp.org/pid/31/4484-5",
-        "https://dblp.org/pid/66/8143"
-      ],
-      "dois": [
-        "10.1109/icis.2014.6912139"
-      ],
-      "url": "https://dblp.org/db/conf/ACISicis/ACISicis2014#conf/ACISicis/KumarP14",
-      "faculty": [
-        "Sachin Kumar 0005"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICIS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2014
-        }
-      ]
-    },
-    {
-      "key": "conf/a2cwic/KirthigaJ10",
-      "type": "inproceedings",
-      "title": "AutoRegressive channel modeling and estimation using Kalman filter for downlink LTE systems.",
-      "year": 2010,
-      "publication_year": 2010,
-      "event_year": 2010,
-      "venue": "A2CWiC",
-      "booktitle": "A2CWiC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "45:1-45:5",
-      "authors": [
-        "https://dblp.org/pid/46/9766",
-        "https://dblp.org/pid/47/5769"
-      ],
-      "dois": [
-        "10.1145/1858378.1858423"
-      ],
-      "url": "https://dblp.org/db/conf/a2cwic/a2cwic2010#conf/a2cwic/KirthigaJ10",
-      "faculty": [
-        "M. Jayakumar 0001"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "A2CWiC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2010
-        }
-      ]
-    },
-    {
       "key": "conf/aaai/ChhabraRM20",
       "type": "inproceedings",
       "title": "Suspicion-Free Adversarial Attacks on Clustering Algorithms.",
@@ -766,254 +662,6 @@
       ]
     },
     {
-      "key": "conf/aiml2/0002SKSG023",
-      "type": "inproceedings",
-      "title": "Predicting Depth of Anesthesia using EEG Signals and Deep Convolution Network.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "AIMLSystems",
-      "booktitle": "AIMLSystems",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "7:1-7:8",
-      "authors": [
-        "https://dblp.org/pid/130/9395",
-        "https://dblp.org/pid/375/5219",
-        "https://dblp.org/pid/68/6632",
-        "https://dblp.org/pid/78/2996-1",
-        "https://dblp.org/pid/81/6554",
-        "https://dblp.org/pid/91/10124-2"
-      ],
-      "dois": [
-        "10.1145/3639856.3639863"
-      ],
-      "url": "https://dblp.org/db/conf/aiml2/aiml2023#conf/aiml2/0002SKSG023",
-      "faculty": [
-        "Naveen Kumar 0001",
-        "Neeraj Kumar Sharma 0002"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "AIMLSystems",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/aina/DhurandherKWO17",
-      "type": "inproceedings",
-      "title": "Supernova and Hypernova Misbehavior Detection Scheme for Opportunistic Networks.",
-      "year": 2017,
-      "publication_year": 2017,
-      "event_year": 2017,
-      "venue": "AINA",
-      "booktitle": "AINA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "387-391",
-      "authors": [
-        "https://dblp.org/pid/30/4308-13",
-        "https://dblp.org/pid/52/6933",
-        "https://dblp.org/pid/67/176",
-        "https://dblp.org/pid/91/2882"
-      ],
-      "dois": [
-        "10.1109/aina.2017.17"
-      ],
-      "url": "https://dblp.org/db/conf/aina/aina2017#conf/aina/DhurandherKWO17",
-      "faculty": [
-        "Arun Kumar 0013"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "AINA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2017
-        }
-      ]
-    },
-    {
-      "key": "conf/artcom/AakankshaB09",
-      "type": "inproceedings",
-      "title": "A Self-organizing Self-healing On-demand Loop-free Path Routing Protocol Using Mobile Process Groups for Mobile Ad-hoc Networks.",
-      "year": 2009,
-      "publication_year": 2009,
-      "event_year": 2009,
-      "venue": "ARTCom",
-      "booktitle": "ARTCom",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "396-400",
-      "authors": [
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/40/7688"
-      ],
-      "dois": [
-        "10.1109/artcom.2009.97"
-      ],
-      "url": "https://dblp.org/db/conf/artcom/artcom2009#conf/artcom/AakankshaB09",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ARTCom",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2009
-        }
-      ]
-    },
-    {
-      "key": "conf/artcom/GandotraSB09",
-      "type": "inproceedings",
-      "title": "Threat Mitigation, Monitoring and Management Plan - A New Approach in Risk Management.",
-      "year": 2009,
-      "publication_year": 2009,
-      "event_year": 2009,
-      "venue": "ARTCom",
-      "booktitle": "ARTCom",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "719-723",
-      "authors": [
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/56/7423",
-        "https://dblp.org/pid/67/7424"
-      ],
-      "dois": [
-        "10.1109/artcom.2009.38"
-      ],
-      "url": "https://dblp.org/db/conf/artcom/artcom2009#conf/artcom/GandotraSB09",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ARTCom",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2009
-        }
-      ]
-    },
-    {
-      "key": "conf/artcom/SharmaB09",
-      "type": "inproceedings",
-      "title": "Personalized Tag Recommendations to Enhance User's Perception.",
-      "year": 2009,
-      "publication_year": 2009,
-      "event_year": 2009,
-      "venue": "ARTCom",
-      "booktitle": "ARTCom",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "944-947",
-      "authors": [
-        "https://dblp.org/pid/10/7686",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/artcom.2009.96"
-      ],
-      "url": "https://dblp.org/db/conf/artcom/artcom2009#conf/artcom/SharmaB09",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ARTCom",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2009
-        }
-      ]
-    },
-    {
-      "key": "conf/asunam/JainBK23",
-      "type": "inproceedings",
-      "title": "Modeling Behavioral and Epidemic Dynamics in Social Contact Networks.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "ASONAM",
-      "booktitle": "ASONAM",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "356-363",
-      "authors": [
-        "https://dblp.org/pid/18/1460",
-        "https://dblp.org/pid/338/1717",
-        "https://dblp.org/pid/74/723"
-      ],
-      "dois": [
-        "10.1145/3625007.3631605"
-      ],
-      "url": "https://dblp.org/db/conf/asunam/asonam2023#conf/asunam/JainBK23",
-      "faculty": [
-        "Vasudha Bhatnagar"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ASONAM",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/aswec/GargLK13",
-      "type": "inproceedings",
-      "title": "A Method for Selecting a Model to Estimate the Reliability of a Software Component in a Dynamic System.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "Australian Software Engineering Conference",
-      "booktitle": "Australian Software Engineering Conference",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "40-50",
-      "authors": [
-        "https://dblp.org/pid/14/10037",
-        "https://dblp.org/pid/29/4549-1",
-        "https://dblp.org/pid/l/RichardLai-1"
-      ],
-      "dois": [
-        "10.1109/aswec.2013.15"
-      ],
-      "url": "https://dblp.org/db/conf/aswec/aswec2013#conf/aswec/GargLK13",
-      "faculty": [
-        "P. K. Kapur 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "Australian Software Engineering Conference",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
       "key": "conf/atal/KagitaPP0021",
       "type": "inproceedings",
       "title": "Committee Selection using Attribute Approvals.",
@@ -1047,46 +695,6 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2021
-        }
-      ]
-    },
-    {
-      "key": "conf/bcd/TamuraMATZ0HY24",
-      "type": "inproceedings",
-      "title": "OSS Fault Removal System Based on Deep Learning Inspired by Immune System.",
-      "year": 2024,
-      "publication_year": 2024,
-      "event_year": 2024,
-      "venue": "BCD",
-      "booktitle": "BCD",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "91-96",
-      "authors": [
-        "https://dblp.org/pid/14/10037",
-        "https://dblp.org/pid/378/6541",
-        "https://dblp.org/pid/390/2835",
-        "https://dblp.org/pid/390/2889",
-        "https://dblp.org/pid/56/2910",
-        "https://dblp.org/pid/68/11352",
-        "https://dblp.org/pid/72/5749",
-        "https://dblp.org/pid/85/5224"
-      ],
-      "dois": [
-        "10.1109/bcd61269.2024.10743074"
-      ],
-      "url": "https://dblp.org/db/conf/bcd/bcd2024#conf/bcd/TamuraMATZ0HY24",
-      "faculty": [
-        "P. K. Kapur 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "BCD",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2024
         }
       ]
     },
@@ -1130,13 +738,6 @@
           "area": "ccs",
           "domain": "Computer security",
           "year": 2021
-        },
-        {
-          "source": "acm",
-          "venue": "CCS",
-          "area": "ccs",
-          "domain": "Computer security",
-          "year": 2021
         }
       ]
     },
@@ -1176,13 +777,6 @@
         },
         {
           "source": "core-a-star",
-          "venue": "CCS",
-          "area": "ccs",
-          "domain": "Computer security",
-          "year": 2019
-        },
-        {
-          "source": "acm",
           "venue": "CCS",
           "area": "ccs",
           "domain": "Computer security",
@@ -1231,662 +825,6 @@
           "area": "chiconf",
           "domain": "Human-computer interaction",
           "year": 2021
-        },
-        {
-          "source": "acm",
-          "venue": "CHI",
-          "area": "chiconf",
-          "domain": "Human-computer interaction",
-          "year": 2021
-        }
-      ]
-    },
-    {
-      "key": "conf/cibcb/KumarGKJKC21",
-      "type": "inproceedings",
-      "title": "Identification of chloroplast and sub-chloroplast proteins from sequence-attributed features using support vector machine and domain information.",
-      "year": 2021,
-      "publication_year": 2021,
-      "event_year": 2021,
-      "venue": "CIBCB",
-      "booktitle": "CIBCB",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-9",
-      "authors": [
-        "https://dblp.org/pid/130/8217",
-        "https://dblp.org/pid/242/6976",
-        "https://dblp.org/pid/268/8974",
-        "https://dblp.org/pid/304/4794",
-        "https://dblp.org/pid/35/4332-5",
-        "https://dblp.org/pid/67/10122"
-      ],
-      "dois": [
-        "10.1109/cibcb49929.2021.9562787"
-      ],
-      "url": "https://dblp.org/db/conf/cibcb/cibcb2021#conf/cibcb/KumarGKJKC21",
-      "faculty": [
-        "Manish Kumar 0005"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "CIBCB",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2021
-        }
-      ]
-    },
-    {
-      "key": "conf/cidu/BhatnagarDJM12",
-      "type": "inproceedings",
-      "title": "Data Understanding using Semi-Supervised Clustering.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "CIDU",
-      "booktitle": "CIDU",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "118-123",
-      "authors": [
-        "https://dblp.org/pid/124/2256",
-        "https://dblp.org/pid/21/6335",
-        "https://dblp.org/pid/49/11474",
-        "https://dblp.org/pid/74/723"
-      ],
-      "dois": [
-        "10.1109/cidu.2012.6382192"
-      ],
-      "url": "https://dblp.org/db/conf/cidu/cidu2012#conf/cidu/BhatnagarDJM12",
-      "faculty": [
-        "Vasudha Bhatnagar"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "CIDU",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
-      "key": "conf/cisim/SinghMA10",
-      "type": "inproceedings",
-      "title": "Mining the Blogosphere from a socio-political perspective.",
-      "year": 2010,
-      "publication_year": 2010,
-      "event_year": 2010,
-      "venue": "CISIM",
-      "booktitle": "CISIM",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "365-370",
-      "authors": [
-        "https://dblp.org/pid/00/6451-1",
-        "https://dblp.org/pid/124/7097",
-        "https://dblp.org/pid/167/0042"
-      ],
-      "dois": [
-        "10.1109/cisim.2010.5643634"
-      ],
-      "url": "https://dblp.org/db/conf/cisim/cisim2010#conf/cisim/SinghMA10",
-      "faculty": [
-        "Vivek Kumar Singh 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "CISIM",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2010
-        }
-      ]
-    },
-    {
-      "key": "conf/ciss/ChhabraVS17",
-      "type": "inproceedings",
-      "title": "SEIR: A Stackelberg game based approach for energy-aware and incentivized routing in selfish Opportunistic Networks.",
-      "year": 2017,
-      "publication_year": 2017,
-      "event_year": 2017,
-      "venue": "CISS",
-      "booktitle": "CISS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
-      "authors": [
-        "https://dblp.org/pid/199/8895",
-        "https://dblp.org/pid/199/8940",
-        "https://dblp.org/pid/99/11050"
-      ],
-      "dois": [
-        "10.1109/ciss.2017.7926113"
-      ],
-      "url": "https://dblp.org/db/conf/ciss/ciss2017#conf/ciss/ChhabraVS17",
-      "faculty": [
-        "Anshuman Chhabra"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "CISS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2017
-        }
-      ]
-    },
-    {
-      "key": "conf/ciss/ChhabraVS17a",
-      "type": "inproceedings",
-      "title": "A game theory based secure model against Black hole attacks in Opportunistic Networks.",
-      "year": 2017,
-      "publication_year": 2017,
-      "event_year": 2017,
-      "venue": "CISS",
-      "booktitle": "CISS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
-      "authors": [
-        "https://dblp.org/pid/199/8895",
-        "https://dblp.org/pid/199/8940",
-        "https://dblp.org/pid/99/11050"
-      ],
-      "dois": [
-        "10.1109/ciss.2017.7926114"
-      ],
-      "url": "https://dblp.org/db/conf/ciss/ciss2017#conf/ciss/ChhabraVS17a",
-      "faculty": [
-        "Anshuman Chhabra"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "CISS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2017
-        }
-      ]
-    },
-    {
-      "key": "conf/cit/Kumar0M23",
-      "type": "inproceedings",
-      "title": "Prediction of Age and Gender from Masked Face Images using Convolution Neural Network.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "OCIT",
-      "booktitle": "OCIT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "29-34",
-      "authors": [
-        "https://dblp.org/pid/188/1042",
-        "https://dblp.org/pid/67/5917",
-        "https://dblp.org/pid/81/4530-3"
-      ],
-      "dois": [
-        "10.1109/ocit59427.2023.10430876"
-      ],
-      "url": "https://dblp.org/db/conf/cit/ocit2023#conf/cit/Kumar0M23",
-      "faculty": [
-        "Kuldeep Singh 0003"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "OCIT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/cit/SahuPKKP15",
-      "type": "inproceedings",
-      "title": "GP-SVM: Tree Structured Multiclass SVM with Greedy Partitioning.",
-      "year": 2015,
-      "publication_year": 2015,
-      "event_year": 2015,
-      "venue": "ICIT",
-      "booktitle": "ICIT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "142-147",
-      "authors": [
-        "https://dblp.org/pid/137/3335",
-        "https://dblp.org/pid/177/7323",
-        "https://dblp.org/pid/21/1587-3",
-        "https://dblp.org/pid/95/6184",
-        "https://dblp.org/pid/98/255"
-      ],
-      "dois": [
-        "10.1109/icit.2015.24"
-      ],
-      "url": "https://dblp.org/db/conf/cit/cit2015#conf/cit/SahuPKKP15",
-      "faculty": [
-        "Vikas Kumar 0003"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICIT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2015
-        }
-      ]
-    },
-    {
-      "key": "conf/cits/DoadGOJRH23",
-      "type": "inproceedings",
-      "title": "Profit aware Resource Allocation in Fog Computing: A Stackelberg Game Approach.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "CITS",
-      "booktitle": "CITS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-8",
-      "authors": [
-        "https://dblp.org/pid/12/1770-6",
-        "https://dblp.org/pid/280/7270",
-        "https://dblp.org/pid/35/10056",
-        "https://dblp.org/pid/353/5249",
-        "https://dblp.org/pid/353/5697",
-        "https://dblp.org/pid/91/2882"
-      ],
-      "dois": [
-        "10.1109/cits58301.2023.10188727"
-      ],
-      "url": "https://dblp.org/db/conf/cits/cits2023#conf/cits/DoadGOJRH23",
-      "faculty": [
-        "Nitin Gupta 0006"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "CITS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/cits/GuptaOBGH22",
-      "type": "inproceedings",
-      "title": "A Comprehensive Study on Artificial Intelligence and Blockchain Driven Beyond 5G Networks.",
-      "year": 2022,
-      "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "CITS",
-      "booktitle": "CITS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
-      "authors": [
-        "https://dblp.org/pid/12/1770-6",
-        "https://dblp.org/pid/259/7657",
-        "https://dblp.org/pid/35/10056",
-        "https://dblp.org/pid/91/2882",
-        "https://dblp.org/pid/97/9748"
-      ],
-      "dois": [
-        "10.1109/cits55221.2022.9832998"
-      ],
-      "url": "https://dblp.org/db/conf/cits/cits2022#conf/cits/GuptaOBGH22",
-      "faculty": [
-        "Nitin Gupta 0006"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "CITS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "conf/coinco/ChhabraA17",
-      "type": "inproceedings",
-      "title": "An Elliptic Curve Cryptography Based Encryption Scheme for Securing the Cloud against Eavesdropping Attacks.",
-      "year": 2017,
-      "publication_year": 2017,
-      "event_year": 2017,
-      "venue": "CIC",
-      "booktitle": "CIC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "243-246",
-      "authors": [
-        "https://dblp.org/pid/199/8940",
-        "https://dblp.org/pid/211/1497"
-      ],
-      "dois": [
-        "10.1109/cic.2017.00040"
-      ],
-      "url": "https://dblp.org/db/conf/coinco/cic2017#conf/coinco/ChhabraA17",
-      "faculty": [
-        "Anshuman Chhabra"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "CIC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2017
-        }
-      ]
-    },
-    {
-      "key": "conf/comad/KumarBVB24",
-      "type": "inproceedings",
-      "title": "Deep dive into language traits of AI-generated Abstracts.",
-      "year": 2024,
-      "publication_year": 2024,
-      "event_year": 2024,
-      "venue": "COMAD/CODS",
-      "booktitle": "COMAD/CODS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "237-241",
-      "authors": [
-        "https://dblp.org/pid/21/1587-3",
-        "https://dblp.org/pid/235/1731",
-        "https://dblp.org/pid/364/1521",
-        "https://dblp.org/pid/74/723"
-      ],
-      "dois": [
-        "10.1145/3632410.3632471"
-      ],
-      "url": "https://dblp.org/db/conf/comad/comad2024#conf/comad/KumarBVB24",
-      "faculty": [
-        "Vasudha Bhatnagar",
-        "Vikas Kumar 0003"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "COMAD/CODS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2024
-        }
-      ]
-    },
-    {
-      "key": "conf/compgeom/GuptaS96",
-      "type": "inproceedings",
-      "title": "Faster Output-Sensitive Parallel Convex Hulls for d<=3: Optimal Sublogarithmic Algorithms for Small Outputs.",
-      "year": 1996,
-      "publication_year": 1996,
-      "event_year": 1996,
-      "venue": "SCG",
-      "booktitle": "SCG",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "176-185",
-      "authors": [
-        "https://dblp.org/pid/43/644",
-        "https://dblp.org/pid/s/SandeepSen"
-      ],
-      "dois": [
-        "10.1145/237218.237351"
-      ],
-      "url": "https://dblp.org/db/conf/compgeom/compgeom96#conf/compgeom/GuptaS96",
-      "faculty": [
-        "Neelima Gupta"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "SCG",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 1996
-        }
-      ]
-    },
-    {
-      "key": "conf/comsnets/MeenaS025",
-      "type": "inproceedings",
-      "title": "Ranking-based Diversified Influence Maximization for Dynamic Social Networks.",
-      "year": 2025,
-      "publication_year": 2025,
-      "event_year": 2025,
-      "venue": "COMSNETS",
-      "booktitle": "COMSNETS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "456-464",
-      "authors": [
-        "https://dblp.org/pid/148/2028",
-        "https://dblp.org/pid/232/9512",
-        "https://dblp.org/pid/81/4530-3"
-      ],
-      "dois": [
-        "10.1109/comsnets63942.2025.10885680"
-      ],
-      "url": "https://dblp.org/db/conf/comsnets/comsnets2025#conf/comsnets/MeenaS025",
-      "faculty": [
-        "Kuldeep Singh 0003"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "COMSNETS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2025
-        }
-      ]
-    },
-    {
-      "key": "conf/cse/ChaturvediBMS13",
-      "type": "inproceedings",
-      "title": "An Empirical Validation of the Complexity of Code Changes and Bugs in Predicting the Release Time of Open Source Software.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "CSE",
-      "booktitle": "CSE",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1201-1206",
-      "authors": [
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/68/264",
-        "https://dblp.org/pid/71/8783",
-        "https://dblp.org/pid/86/20"
-      ],
-      "dois": [
-        "10.1109/cse.2013.201"
-      ],
-      "url": "https://dblp.org/db/conf/cse/cse2013#conf/cse/ChaturvediBMS13",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "CSE",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/cvmi/LohaniRKSAP24",
-      "type": "inproceedings",
-      "title": "Spinocerebellar Ataxia Type 12 classification through Structural MRI: Insights from Regional Brain Volume and Cortical Thickness Analysis.",
-      "year": 2024,
-      "publication_year": 2024,
-      "event_year": 2024,
-      "venue": "CVMI",
-      "booktitle": "CVMI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
-      "authors": [
-        "https://dblp.org/pid/115/7719",
-        "https://dblp.org/pid/161/7931",
-        "https://dblp.org/pid/322/2544",
-        "https://dblp.org/pid/322/2573",
-        "https://dblp.org/pid/387/2858",
-        "https://dblp.org/pid/85/864"
-      ],
-      "dois": [
-        "10.1109/cvmi61877.2024.10781980"
-      ],
-      "url": "https://dblp.org/db/conf/cvmi/cvmi2024#conf/cvmi/LohaniRKSAP24",
-      "faculty": [
-        "Bharti Rana"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "CVMI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2024
-        }
-      ]
-    },
-    {
-      "key": "conf/dsde/GaurSB10",
-      "type": "inproceedings",
-      "title": "An Application of Multi-Person Decision-Making Model for Negotiating and Prioritizing Requirements in Agent-Oriented Paradigm.",
-      "year": 2010,
-      "publication_year": 2010,
-      "event_year": 2010,
-      "venue": "DSDE",
-      "booktitle": "DSDE",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "164-168",
-      "authors": [
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/28/5092",
-        "https://dblp.org/pid/77/9715"
-      ],
-      "dois": [
-        "10.1109/dsde.2010.59"
-      ],
-      "url": "https://dblp.org/db/conf/dsde/dsde2010#conf/dsde/GaurSB10",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "DSDE",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2010
-        }
-      ]
-    },
-    {
-      "key": "conf/eScience/SuryaniWSBWR22",
-      "type": "inproceedings",
-      "title": "A Framework for Extracting Scientific Measurements and Geo-Spatial Information from Scientific Literature.",
-      "year": 2022,
-      "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "e-Science",
-      "booktitle": "e-Science",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "236-245",
-      "authors": [
-        "https://dblp.org/pid/299/8598",
-        "https://dblp.org/pid/299/8629",
-        "https://dblp.org/pid/299/8701",
-        "https://dblp.org/pid/335/9922",
-        "https://dblp.org/pid/87/4567-5",
-        "https://dblp.org/pid/r/MatthiasRenz"
-      ],
-      "dois": [
-        "10.1109/escience55777.2022.00037"
-      ],
-      "url": "https://dblp.org/db/conf/eScience/eScience2022#conf/eScience/SuryaniWSBWR22",
-      "faculty": [
-        "Deepak Sharma 0005"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "e-Science",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "conf/edge/RoyCKM19",
-      "type": "inproceedings",
-      "title": "A moving target defense against adversarial machine learning.",
-      "year": 2019,
-      "publication_year": 2019,
-      "event_year": 2019,
-      "venue": "SEC",
-      "booktitle": "SEC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "383-388",
-      "authors": [
-        "https://dblp.org/pid/199/8940",
-        "https://dblp.org/pid/33/4379-5",
-        "https://dblp.org/pid/45/9386",
-        "https://dblp.org/pid/m/PrasantMohapatra"
-      ],
-      "dois": [
-        "10.1145/3318216.3363338"
-      ],
-      "url": "https://dblp.org/db/conf/edge/sec2019#conf/edge/RoyCKM19",
-      "faculty": [
-        "Anshuman Chhabra"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "SEC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2019
         }
       ]
     },
@@ -1926,226 +864,6 @@
       ]
     },
     {
-      "key": "conf/fskd/BansalAGSB09",
-      "type": "inproceedings",
-      "title": "Fingerprint Image Enhancement Using Type-2 Fuzzy Sets.",
-      "year": 2009,
-      "publication_year": 2009,
-      "event_year": 2009,
-      "venue": "FSKD (3)",
-      "booktitle": "FSKD (3)",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "412-417",
-      "authors": [
-        "https://dblp.org/pid/12/7811",
-        "https://dblp.org/pid/19/2162-1",
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/44/782",
-        "https://dblp.org/pid/70/7811"
-      ],
-      "dois": [
-        "10.1109/fskd.2009.396"
-      ],
-      "url": "https://dblp.org/db/conf/fskd/fskd2009-3#conf/fskd/BansalAGSB09",
-      "faculty": [
-        "Punam Bedi",
-        "Roli Bansal 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "FSKD",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2009
-        }
-      ]
-    },
-    {
-      "key": "conf/fskd/BansalSB08",
-      "type": "inproceedings",
-      "title": "A Novel Framework for Enhancing Images Corrupted by Impulse Noise Using Type-II Fuzzy Sets.",
-      "year": 2008,
-      "publication_year": 2008,
-      "event_year": 2008,
-      "venue": "FSKD (3)",
-      "booktitle": "FSKD (3)",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "266-271",
-      "authors": [
-        "https://dblp.org/pid/19/2162-1",
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/44/782"
-      ],
-      "dois": [
-        "10.1109/fskd.2008.80"
-      ],
-      "url": "https://dblp.org/db/conf/fskd/fskd2008-3#conf/fskd/BansalSB08",
-      "faculty": [
-        "Punam Bedi",
-        "Roli Bansal 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "FSKD",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2008
-        }
-      ]
-    },
-    {
-      "key": "conf/fuzzIEEE/BansalSBB13",
-      "type": "inproceedings",
-      "title": "Multi-agent system for intelligent watermarking of fingerprint images.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "FUZZ-IEEE",
-      "booktitle": "FUZZ-IEEE",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-8",
-      "authors": [
-        "https://dblp.org/pid/136/7821",
-        "https://dblp.org/pid/19/2162-1",
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/44/782"
-      ],
-      "dois": [
-        "10.1109/fuzz-ieee.2013.6622435"
-      ],
-      "url": "https://dblp.org/db/conf/fuzzIEEE/fuzzIEEE2013#conf/fuzzIEEE/BansalSBB13",
-      "faculty": [
-        "Punam Bedi",
-        "Roli Bansal 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "FUZZ-IEEE",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/fuzzIEEE/BediVKM13",
-      "type": "inproceedings",
-      "title": "Modeling user preferences in a hybrid recommender system using type-2 fuzzy sets.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "FUZZ-IEEE",
-      "booktitle": "FUZZ-IEEE",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-8",
-      "authors": [
-        "https://dblp.org/pid/125/0914",
-        "https://dblp.org/pid/136/7738",
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/53/8811"
-      ],
-      "dois": [
-        "10.1109/fuzz-ieee.2013.6622471"
-      ],
-      "url": "https://dblp.org/db/conf/fuzzIEEE/fuzzIEEE2013#conf/fuzzIEEE/BediVKM13",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "FUZZ-IEEE",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/fuzzIEEE/SharmaGAML21",
-      "type": "inproceedings",
-      "title": "A Python Software Library for Computing with Words and Perceptions.",
-      "year": 2021,
-      "publication_year": 2021,
-      "event_year": 2021,
-      "venue": "FUZZ-IEEE",
-      "booktitle": "FUZZ-IEEE",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
-      "authors": [
-        "https://dblp.org/pid/15/7049",
-        "https://dblp.org/pid/150/8650",
-        "https://dblp.org/pid/17/8681",
-        "https://dblp.org/pid/80/4639",
-        "https://dblp.org/pid/87/4567-5"
-      ],
-      "dois": [
-        "10.1109/fuzz45933.2021.9494557"
-      ],
-      "url": "https://dblp.org/db/conf/fuzzIEEE/fuzzIEEE2021#conf/fuzzIEEE/SharmaGAML21",
-      "faculty": [
-        "Deepak Sharma 0005"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "FUZZ-IEEE",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2021
-        }
-      ]
-    },
-    {
-      "key": "conf/fuzzIEEE/SharmaGB13",
-      "type": "inproceedings",
-      "title": "Distributed multi-agent reputation framework for interactions in e-market.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "FUZZ-IEEE",
-      "booktitle": "FUZZ-IEEE",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "",
-      "authors": [
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/28/5092",
-        "https://dblp.org/pid/91/10124-2"
-      ],
-      "dois": [
-        "10.1109/fuzz-ieee.2013.6622317"
-      ],
-      "url": "https://dblp.org/db/conf/fuzzIEEE/fuzzIEEE2013#conf/fuzzIEEE/SharmaGB13",
-      "faculty": [
-        "Neeraj Kumar Sharma 0002",
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "FUZZ-IEEE",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
       "key": "conf/gecco/GuptaTK14",
       "type": "inproceedings",
       "title": "Quantum inspired genetic algorithm for community structure detection in social networks.",
@@ -2177,1901 +895,6 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2014
-        },
-        {
-          "source": "acm",
-          "venue": "GECCO",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2014
-        }
-      ]
-    },
-    {
-      "key": "conf/globecom/0006GKDR21",
-      "type": "inproceedings",
-      "title": "Collection and Classification of Human Posture Data using Wearable Sensors.",
-      "year": 2021,
-      "publication_year": 2021,
-      "event_year": 2021,
-      "venue": "GLOBECOM",
-      "booktitle": "GLOBECOM",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
-      "authors": [
-        "https://dblp.org/pid/12/1770-6",
-        "https://dblp.org/pid/25/3419",
-        "https://dblp.org/pid/312/9526",
-        "https://dblp.org/pid/313/0592",
-        "https://dblp.org/pid/88/4978"
-      ],
-      "dois": [
-        "10.1109/globecom46510.2021.9685755"
-      ],
-      "url": "https://dblp.org/db/conf/globecom/globecom2021#conf/globecom/0006GKDR21",
-      "faculty": [
-        "Nitin Gupta 0006"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "GLOBECOM",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2021
-        }
-      ]
-    },
-    {
-      "key": "conf/globecom/GuptaDWR17",
-      "type": "inproceedings",
-      "title": "Game Theoretic Analysis of Post Handoff Target Channel Sharing in Cognitive Radio Networks.",
-      "year": 2017,
-      "publication_year": 2017,
-      "event_year": 2017,
-      "venue": "GLOBECOM",
-      "booktitle": "GLOBECOM",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
-      "authors": [
-        "https://dblp.org/pid/12/1770-6",
-        "https://dblp.org/pid/25/3419",
-        "https://dblp.org/pid/52/6933",
-        "https://dblp.org/pid/67/176"
-      ],
-      "dois": [
-        "10.1109/glocom.2017.8254068"
-      ],
-      "url": "https://dblp.org/db/conf/globecom/globecom2017#conf/globecom/GuptaDWR17",
-      "faculty": [
-        "Nitin Gupta 0006"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "GLOBECOM",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2017
-        }
-      ]
-    },
-    {
-      "key": "conf/hipc/ChakravortyGLKS13",
-      "type": "inproceedings",
-      "title": "Algorithms for the relaxed Multiple-Organization Multiple-Machine Scheduling Problem.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "HiPC",
-      "booktitle": "HiPC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "30-38",
-      "authors": [
-        "https://dblp.org/pid/139/4798",
-        "https://dblp.org/pid/144/4862",
-        "https://dblp.org/pid/43/644",
-        "https://dblp.org/pid/44/4194",
-        "https://dblp.org/pid/57/3685"
-      ],
-      "dois": [
-        "10.1109/hipc.2013.6799127"
-      ],
-      "url": "https://dblp.org/db/conf/hipc/hipc2013#conf/hipc/ChakravortyGLKS13",
-      "faculty": [
-        "Neelima Gupta"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "HiPC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/his/BanatiBM12",
-      "type": "inproceedings",
-      "title": "Extending BPEL for WSDL-Temporal based Web services.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "HIS",
-      "booktitle": "HIS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "484-489",
-      "authors": [
-        "https://dblp.org/pid/125/0914",
-        "https://dblp.org/pid/13/6820",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/his.2012.6421382"
-      ],
-      "url": "https://dblp.org/db/conf/his/his2012#conf/his/BanatiBM12",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "HIS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
-      "key": "conf/his/BansalSB12",
-      "type": "inproceedings",
-      "title": "Intelligent wavelet domain watermarking of fingerprint images.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "HIS",
-      "booktitle": "HIS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "90-95",
-      "authors": [
-        "https://dblp.org/pid/19/2162-1",
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/44/782"
-      ],
-      "dois": [
-        "10.1109/his.2012.6421315"
-      ],
-      "url": "https://dblp.org/db/conf/his/his2012#conf/his/BansalSB12",
-      "faculty": [
-        "Punam Bedi",
-        "Roli Bansal 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "HIS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
-      "key": "conf/his/BediA12",
-      "type": "inproceedings",
-      "title": "A Situation-Aware Proactive Recommender System.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "HIS",
-      "booktitle": "HIS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "85-89",
-      "authors": [
-        "https://dblp.org/pid/125/0906",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/his.2012.6421314"
-      ],
-      "url": "https://dblp.org/db/conf/his/his2012#conf/his/BediA12",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "HIS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
-      "key": "conf/his/BediGK12",
-      "type": "inproceedings",
-      "title": "Predicting attribute based user trustworthiness for access control of resources.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "HIS",
-      "booktitle": "HIS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "294-299",
-      "authors": [
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/60/5479",
-        "https://dblp.org/pid/61/8011"
-      ],
-      "dois": [
-        "10.1109/his.2012.6421350"
-      ],
-      "url": "https://dblp.org/db/conf/his/his2012#conf/his/BediGK12",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "HIS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
-      "key": "conf/ic3/AroraCS19",
-      "type": "inproceedings",
-      "title": "Exploiting Oriented Gradient Histogram for Dorsal Vein Recognition.",
-      "year": 2019,
-      "publication_year": 2019,
-      "event_year": 2019,
-      "venue": "IC3",
-      "booktitle": "IC3",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-4",
-      "authors": [
-        "https://dblp.org/pid/174/1389",
-        "https://dblp.org/pid/196/7524",
-        "https://dblp.org/pid/21/2820"
-      ],
-      "dois": [
-        "10.1109/ic3.2019.8844929"
-      ],
-      "url": "https://dblp.org/db/conf/ic3/ic3-2019#conf/ic3/AroraCS19",
-      "faculty": [
-        "Gopal 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IC3",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2019
-        }
-      ]
-    },
-    {
-      "key": "conf/ic3/BediRAG23",
-      "type": "inproceedings",
-      "title": "Smart Contract based Skill Verification System for Recruitment.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "IC3",
-      "booktitle": "IC3",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "147-152",
-      "authors": [
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/274/2966",
-        "https://dblp.org/pid/358/6898",
-        "https://dblp.org/pid/358/6912"
-      ],
-      "dois": [
-        "10.1145/3607947.3607973"
-      ],
-      "url": "https://dblp.org/db/conf/ic3/ic3-2023#conf/ic3/BediRAG23",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "IC3",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/ic3/KaiwartyaKK13",
-      "type": "inproceedings",
-      "title": "Traffic light based time stable geocast (T-TSG) routing for urban VANETs.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "IC3",
-      "booktitle": "IC3",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "113-117",
-      "authors": [
-        "https://dblp.org/pid/137/9941",
-        "https://dblp.org/pid/138/0214",
-        "https://dblp.org/pid/46/2681-1"
-      ],
-      "dois": [
-        "10.1109/ic3.2013.6612173"
-      ],
-      "url": "https://dblp.org/db/conf/ic3/ic3-2013#conf/ic3/KaiwartyaKK13",
-      "faculty": [
-        "Reena Kasana"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IC3",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/ic3/KhuranaRS13",
-      "type": "inproceedings",
-      "title": "A text analytics-based approach to compute coverage, readability and comprehensibility of eBooks.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "IC3",
-      "booktitle": "IC3",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "256-261",
-      "authors": [
-        "https://dblp.org/pid/00/6451-1",
-        "https://dblp.org/pid/138/0213",
-        "https://dblp.org/pid/52/4217"
-      ],
-      "dois": [
-        "10.1109/ic3.2013.6612200"
-      ],
-      "url": "https://dblp.org/db/conf/ic3/ic3-2013#conf/ic3/KhuranaRS13",
-      "faculty": [
-        "Vivek Kumar Singh 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IC3",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/ic3/SharmaSKJ17",
-      "type": "inproceedings",
-      "title": "Evaluation of parameters and techniques for genetic algorithm based channel allocation in Cognitive Radio Networks.",
-      "year": 2017,
-      "publication_year": 2017,
-      "event_year": 2017,
-      "venue": "IC3",
-      "booktitle": "IC3",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
-      "authors": [
-        "https://dblp.org/pid/129/5730-7",
-        "https://dblp.org/pid/214/2892",
-        "https://dblp.org/pid/73/10122",
-        "https://dblp.org/pid/99/11050"
-      ],
-      "dois": [
-        "10.1109/ic3.2017.8284341"
-      ],
-      "url": "https://dblp.org/db/conf/ic3/ic3-2017#conf/ic3/SharmaSKJ17",
-      "faculty": [
-        "Anubhav Jain 0007"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IC3",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2017
-        }
-      ]
-    },
-    {
-      "key": "conf/ic3/SinghalBU015",
-      "type": "inproceedings",
-      "title": "A Scientometric analysis of computer science research in India.",
-      "year": 2015,
-      "publication_year": 2015,
-      "event_year": 2015,
-      "venue": "IC3",
-      "booktitle": "IC3",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "177-182",
-      "authors": [
-        "https://dblp.org/pid/00/6451-1",
-        "https://dblp.org/pid/168/4187",
-        "https://dblp.org/pid/17/10072",
-        "https://dblp.org/pid/97/907-1"
-      ],
-      "dois": [
-        "10.1109/ic3.2015.7346675"
-      ],
-      "url": "https://dblp.org/db/conf/ic3/ic3-2015#conf/ic3/SinghalBU015",
-      "faculty": [
-        "Vivek Kumar Singh 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IC3",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2015
-        }
-      ]
-    },
-    {
-      "key": "conf/ic3/TanejaBBJB23",
-      "type": "inproceedings",
-      "title": "Predator-Prey PSO based Weapon deployment in Constructive Simulation.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "IC3",
-      "booktitle": "IC3",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "58-65",
-      "authors": [
-        "https://dblp.org/pid/141/8897",
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/358/6815",
-        "https://dblp.org/pid/358/6836",
-        "https://dblp.org/pid/358/6856"
-      ],
-      "dois": [
-        "10.1145/3607947.3608296"
-      ],
-      "url": "https://dblp.org/db/conf/ic3/ic3-2023#conf/ic3/TanejaBBJB23",
-      "faculty": [
-        "Punam Bedi",
-        "Vinita Jindal"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "IC3",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/ic3/ThakurS14",
-      "type": "inproceedings",
-      "title": "A lexicon pool augmented Naive Bayes Classifier for Nepali Text.",
-      "year": 2014,
-      "publication_year": 2014,
-      "event_year": 2014,
-      "venue": "IC3",
-      "booktitle": "IC3",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "542-546",
-      "authors": [
-        "https://dblp.org/pid/00/6451-1",
-        "https://dblp.org/pid/235/7109"
-      ],
-      "dois": [
-        "10.1109/ic3.2014.6897231"
-      ],
-      "url": "https://dblp.org/db/conf/ic3/ic3-2014#conf/ic3/ThakurS14",
-      "faculty": [
-        "Vivek Kumar Singh 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IC3",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2014
-        }
-      ]
-    },
-    {
-      "key": "conf/ic3/TyagiR23",
-      "type": "inproceedings",
-      "title": "Digital Twin Technology: Opportunities and Challenges for Smart Era's Applications.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "IC3",
-      "booktitle": "IC3",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "328-336",
-      "authors": [
-        "https://dblp.org/pid/190/4195",
-        "https://dblp.org/pid/240/6662"
-      ],
-      "dois": [
-        "10.1145/3607947.3608015"
-      ],
-      "url": "https://dblp.org/db/conf/ic3/ic3-2023#conf/ic3/TyagiR23",
-      "faculty": [
-        "Richa"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "IC3",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/ic3i/MishraMPMIG24",
-      "type": "inproceedings",
-      "title": "VoiceSense: Designing A Robust Emotion Detection System.",
-      "year": 2024,
-      "publication_year": 2024,
-      "event_year": 2024,
-      "venue": "IC3I",
-      "booktitle": "IC3I",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-7",
-      "authors": [
-        "https://dblp.org/pid/196/7524",
-        "https://dblp.org/pid/313/1524",
-        "https://dblp.org/pid/366/9540",
-        "https://dblp.org/pid/398/5296",
-        "https://dblp.org/pid/398/5311",
-        "https://dblp.org/pid/398/5869"
-      ],
-      "dois": [
-        "10.1109/ic3i61595.2024.10828819"
-      ],
-      "url": "https://dblp.org/db/conf/ic3i/ic3i2024#conf/ic3i/MishraMPMIG24",
-      "faculty": [
-        "Gopal 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IC3I",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2024
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/BansalSB12",
-      "type": "inproceedings",
-      "title": "Securing fingerprint images using a hybrid technique.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "557-565",
-      "authors": [
-        "https://dblp.org/pid/19/2162-1",
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/44/782"
-      ],
-      "dois": [
-        "10.1145/2345396.2345488"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2012#conf/icacci/BansalSB12",
-      "faculty": [
-        "Punam Bedi",
-        "Roli Bansal 0001"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/BediASJ14",
-      "type": "inproceedings",
-      "title": "SAPRS: Situation-Aware Proactive Recommender system with explanations.",
-      "year": 2014,
-      "publication_year": 2014,
-      "event_year": 2014,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "277-283",
-      "authors": [
-        "https://dblp.org/pid/125/0906",
-        "https://dblp.org/pid/154/8502",
-        "https://dblp.org/pid/154/8527",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/icacci.2014.6968321"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2014#conf/icacci/BediASJ14",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2014
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/BediBY16",
-      "type": "inproceedings",
-      "title": "2L-DWTS - Steganography technique based on second level DWT.",
-      "year": 2016,
-      "publication_year": 2016,
-      "event_year": 2016,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1533-1538",
-      "authors": [
-        "https://dblp.org/pid/136/7821",
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/87/7282"
-      ],
-      "dois": [
-        "10.1109/icacci.2016.7732266"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2016#conf/icacci/BediBY16",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/BediJ14",
-      "type": "inproceedings",
-      "title": "Use of Big Data technology in Vehicular Ad-hoc Networks.",
-      "year": 2014,
-      "publication_year": 2014,
-      "event_year": 2014,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1677-1683",
-      "authors": [
-        "https://dblp.org/pid/141/8897",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/icacci.2014.6968352"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2014#conf/icacci/BediJ14",
-      "faculty": [
-        "Punam Bedi",
-        "Vinita Jindal"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2014
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/BediJGD15",
-      "type": "inproceedings",
-      "title": "A preemptive approach to reduce average queue length in VANETs.",
-      "year": 2015,
-      "publication_year": 2015,
-      "event_year": 2015,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "2089-2095",
-      "authors": [
-        "https://dblp.org/pid/141/8897",
-        "https://dblp.org/pid/159/4635",
-        "https://dblp.org/pid/159/4689",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/icacci.2015.7275925"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2015#conf/icacci/BediJGD15",
-      "faculty": [
-        "Punam Bedi",
-        "Vinita Jindal"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2015
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/BediS15",
-      "type": "inproceedings",
-      "title": "User interest expansion using spreading activation for generating recommendations.",
-      "year": 2015,
-      "publication_year": 2015,
-      "event_year": 2015,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "766-771",
-      "authors": [
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/86/11292"
-      ],
-      "dois": [
-        "10.1109/icacci.2015.7275703"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2015#conf/icacci/BediS15",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2015
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/BediSAB16",
-      "type": "inproceedings",
-      "title": "ELM based imputation-boosted proactive recommender systems.",
-      "year": 2016,
-      "publication_year": 2016,
-      "event_year": 2016,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "69-74",
-      "authors": [
-        "https://dblp.org/pid/125/0906",
-        "https://dblp.org/pid/136/7821",
-        "https://dblp.org/pid/190/4195",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/icacci.2016.7732027"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2016#conf/icacci/BediSAB16",
-      "faculty": [
-        "Punam Bedi",
-        "Richa"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/BediSVGD15",
-      "type": "inproceedings",
-      "title": "Handling cold start problem in Recommender Systems by using Interaction Based Social Proximity factor.",
-      "year": 2015,
-      "publication_year": 2015,
-      "event_year": 2015,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1987-1993",
-      "authors": [
-        "https://dblp.org/pid/168/6814",
-        "https://dblp.org/pid/168/7024",
-        "https://dblp.org/pid/168/7076",
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/53/8811"
-      ],
-      "dois": [
-        "10.1109/icacci.2015.7275909"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2015#conf/icacci/BediSVGD15",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2015
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/BhasinB13",
-      "type": "inproceedings",
-      "title": "Multi-class JPEG Steganalysis using Extreme Learning Machine.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1948-1952",
-      "authors": [
-        "https://dblp.org/pid/136/7821",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/icacci.2013.6637480"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2013#conf/icacci/BhasinB13",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/BhasinBS14",
-      "type": "inproceedings",
-      "title": "Feature selection for steganalysis based on modified Stochastic Diffusion Search using Fisher score.",
-      "year": 2014,
-      "publication_year": 2014,
-      "event_year": 2014,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "2323-2330",
-      "authors": [
-        "https://dblp.org/pid/136/7821",
-        "https://dblp.org/pid/144/7783",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/icacci.2014.6968568"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2014#conf/icacci/BhasinBS14",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2014
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/CousikKHM15",
-      "type": "inproceedings",
-      "title": "Dependence of radius of cylindrical ground plane on the performance of coplanar based microstrip patch.",
-      "year": 2015,
-      "publication_year": 2015,
-      "event_year": 2015,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "675-679",
-      "authors": [
-        "https://dblp.org/pid/168/6858",
-        "https://dblp.org/pid/168/6932",
-        "https://dblp.org/pid/168/7183",
-        "https://dblp.org/pid/47/5769"
-      ],
-      "dois": [
-        "10.1109/icacci.2015.7275688"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2015#conf/icacci/CousikKHM15",
-      "faculty": [
-        "M. Jayakumar 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2015
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/GautamB15",
-      "type": "inproceedings",
-      "title": "MR-VSM: Map Reduce based vector Space Model for user profiling-an empirical study on News data.",
-      "year": 2015,
-      "publication_year": 2015,
-      "event_year": 2015,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "355-360",
-      "authors": [
-        "https://dblp.org/pid/154/8321",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/icacci.2015.7275635"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2015#conf/icacci/GautamB15",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2015
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/GautamCSB16",
-      "type": "inproceedings",
-      "title": "CBCARS: Content boosted context-aware recommendations using tensor factorization.",
-      "year": 2016,
-      "publication_year": 2016,
-      "event_year": 2016,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "75-81",
-      "authors": [
-        "https://dblp.org/pid/154/8321",
-        "https://dblp.org/pid/190/4246",
-        "https://dblp.org/pid/190/4252",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/icacci.2016.7732028"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2016#conf/icacci/GautamCSB16",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/GoelS13",
-      "type": "inproceedings",
-      "title": "Weighted semantic fusion of text and content for image retrieval.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "681-687",
-      "authors": [
-        "https://dblp.org/pid/138/1465-2",
-        "https://dblp.org/pid/44/782"
-      ],
-      "dois": [
-        "10.1109/icacci.2013.6637255"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2013#conf/icacci/GoelS13",
-      "faculty": [
-        "Nidhi Goel 0002"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/GopalRKJDGB18",
-      "type": "inproceedings",
-      "title": "Capacity Analysis of Correlated MIMO in GEOSAT Downlink Land Mobile System.",
-      "year": 2018,
-      "publication_year": 2018,
-      "event_year": 2018,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1594-1600",
-      "authors": [
-        "https://dblp.org/pid/144/6560",
-        "https://dblp.org/pid/146/9632",
-        "https://dblp.org/pid/215/4126",
-        "https://dblp.org/pid/217/7428",
-        "https://dblp.org/pid/46/9766",
-        "https://dblp.org/pid/47/5769",
-        "https://dblp.org/pid/84/4815"
-      ],
-      "dois": [
-        "10.1109/icacci.2018.8554436"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2018#conf/icacci/GopalRKJDGB18",
-      "faculty": [
-        "M. Jayakumar 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2018
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/GuptaB18",
-      "type": "inproceedings",
-      "title": "E-waste Management Using Blockchain based Smart Contracts.",
-      "year": 2018,
-      "publication_year": 2018,
-      "event_year": 2018,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "915-921",
-      "authors": [
-        "https://dblp.org/pid/09/6861",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/icacci.2018.8554912"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2018#conf/icacci/GuptaB18",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2018
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/JindalB17",
-      "type": "inproceedings",
-      "title": "GPU accelerated preemptive HAPO (GHAPO-P) for reducing trip time in VANETS.",
-      "year": 2017,
-      "publication_year": 2017,
-      "event_year": 2017,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1569-1575",
-      "authors": [
-        "https://dblp.org/pid/141/8897",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/icacci.2017.8126065"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2017#conf/icacci/JindalB17",
-      "faculty": [
-        "Punam Bedi",
-        "Vinita Jindal"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2017
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/JindalSB16",
-      "type": "inproceedings",
-      "title": "A preemptive hybrid ant particle optimization (HAPO-P) algorithm for smart transportation.",
-      "year": 2016,
-      "publication_year": 2016,
-      "event_year": 2016,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1357-1363",
-      "authors": [
-        "https://dblp.org/pid/141/8897",
-        "https://dblp.org/pid/190/3970",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/icacci.2016.7732237"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2016#conf/icacci/JindalSB16",
-      "faculty": [
-        "Punam Bedi",
-        "Vinita Jindal"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/KaushikKGGR18",
-      "type": "inproceedings",
-      "title": "Automated Public Bus Identification System for Visually Impaired.",
-      "year": 2018,
-      "publication_year": 2018,
-      "event_year": 2018,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1761-1767",
-      "authors": [
-        "https://dblp.org/pid/153/1980",
-        "https://dblp.org/pid/190/4064",
-        "https://dblp.org/pid/213/0391",
-        "https://dblp.org/pid/229/7538",
-        "https://dblp.org/pid/95/8394"
-      ],
-      "dois": [
-        "10.1109/icacci.2018.8554616"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2018#conf/icacci/KaushikKGGR18",
-      "faculty": [
-        "Nikhil Kumar Rajput"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2018
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/KumarRSP16",
-      "type": "inproceedings",
-      "title": "ELM variants comparison on applications of time series data forecasting.",
-      "year": 2016,
-      "publication_year": 2016,
-      "event_year": 2016,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1404-1409",
-      "authors": [
-        "https://dblp.org/pid/190/3642",
-        "https://dblp.org/pid/31/4484-5",
-        "https://dblp.org/pid/66/8143",
-        "https://dblp.org/pid/79/9180"
-      ],
-      "dois": [
-        "10.1109/icacci.2016.7732244"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2016#conf/icacci/KumarRSP16",
-      "faculty": [
-        "Sachin Kumar 0005"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/MadathilNSNVM15",
-      "type": "inproceedings",
-      "title": "Design and performance analysis of Substrate Integrated Waveguide based cavity backed slot antenna for MIMO configuration.",
-      "year": 2015,
-      "publication_year": 2015,
-      "event_year": 2015,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "680-683",
-      "authors": [
-        "https://dblp.org/pid/168/6628",
-        "https://dblp.org/pid/168/6705",
-        "https://dblp.org/pid/168/6848",
-        "https://dblp.org/pid/168/7033",
-        "https://dblp.org/pid/168/7050",
-        "https://dblp.org/pid/47/5769"
-      ],
-      "dois": [
-        "10.1109/icacci.2015.7275689"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2015#conf/icacci/MadathilNSNVM15",
-      "faculty": [
-        "M. Jayakumar 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2015
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/MehtaDB13",
-      "type": "inproceedings",
-      "title": "Weighted difference entropy based similarity measure at two levels in a recommendation framework.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "2076-2083",
-      "authors": [
-        "https://dblp.org/pid/125/1524",
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/43/10825"
-      ],
-      "dois": [
-        "10.1109/icacci.2013.6637501"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2013#conf/icacci/MehtaDB13",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/RichaB16",
-      "type": "inproceedings",
-      "title": "Parallel context aware recommender system using GPU and JCuda.",
-      "year": 2016,
-      "publication_year": 2016,
-      "event_year": 2016,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1383-1389",
-      "authors": [
-        "https://dblp.org/pid/190/4195",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/icacci.2016.7732241"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2016#conf/icacci/RichaB16",
-      "faculty": [
-        "Punam Bedi",
-        "Richa"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/SahanaJK18",
-      "type": "inproceedings",
-      "title": "High Performance Dual Circularly Polarized Microstrip Patch Antenna for Satellite Communication.",
-      "year": 2018,
-      "publication_year": 2018,
-      "event_year": 2018,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1608-1611",
-      "authors": [
-        "https://dblp.org/pid/156/9964",
-        "https://dblp.org/pid/232/7100",
-        "https://dblp.org/pid/47/5769"
-      ],
-      "dois": [
-        "10.1109/icacci.2018.8554817"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2018#conf/icacci/SahanaJK18",
-      "faculty": [
-        "M. Jayakumar 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2018
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/SehgalG16",
-      "type": "inproceedings",
-      "title": "Auto-annotation of tomato images based on ripeness and firmness classification for multimodal retrieval.",
-      "year": 2016,
-      "publication_year": 2016,
-      "event_year": 2016,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1084-1091",
-      "authors": [
-        "https://dblp.org/pid/138/1465-2",
-        "https://dblp.org/pid/44/782"
-      ],
-      "dois": [
-        "10.1109/icacci.2016.7732189"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2016#conf/icacci/SehgalG16",
-      "faculty": [
-        "Nidhi Goel 0002"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/SinghRSY16",
-      "type": "inproceedings",
-      "title": "Soft sensor for inferential control in non-isothermal CSTR.",
-      "year": 2016,
-      "publication_year": 2016,
-      "event_year": 2016,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1785-1790",
-      "authors": [
-        "https://dblp.org/pid/162/2007-1",
-        "https://dblp.org/pid/190/3876",
-        "https://dblp.org/pid/59/10106-1",
-        "https://dblp.org/pid/83/8094"
-      ],
-      "dois": [
-        "10.1109/icacci.2016.7732307"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2016#conf/icacci/SinghRSY16",
-      "faculty": [
-        "Jyoti Yadav 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/SinghalB16",
-      "type": "inproceedings",
-      "title": "Local binary pattern operator based steganography in wavelet domain.",
-      "year": 2016,
-      "publication_year": 2016,
-      "event_year": 2016,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "826-831",
-      "authors": [
-        "https://dblp.org/pid/144/7783",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/icacci.2016.7732148"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2016#conf/icacci/SinghalB16",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/SinghalB18",
-      "type": "inproceedings",
-      "title": "Blind Quantitative Steganalysis using SVD Features.",
-      "year": 2018,
-      "publication_year": 2018,
-      "event_year": 2018,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "369-374",
-      "authors": [
-        "https://dblp.org/pid/144/7783",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/icacci.2018.8554947"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2018#conf/icacci/SinghalB18",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2018
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/SudhakaranKSSSJ17",
-      "type": "inproceedings",
-      "title": "Evolutionary algorithm based structural optimization for patch antenna design and its performance analysis.",
-      "year": 2017,
-      "publication_year": 2017,
-      "event_year": 2017,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "2189-2192",
-      "authors": [
-        "https://dblp.org/pid/212/9986",
-        "https://dblp.org/pid/213/0088",
-        "https://dblp.org/pid/213/0131",
-        "https://dblp.org/pid/213/0238",
-        "https://dblp.org/pid/213/0247",
-        "https://dblp.org/pid/47/5769"
-      ],
-      "dois": [
-        "10.1109/icacci.2017.8126170"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2017#conf/icacci/SudhakaranKSSSJ17",
-      "faculty": [
-        "M. Jayakumar 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2017
-        }
-      ]
-    },
-    {
-      "key": "conf/icacci/WailaSS13",
-      "type": "inproceedings",
-      "title": "Blog text analysis using topic modeling, named entity recognition and sentiment classifier combine.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "ICACCI",
-      "booktitle": "ICACCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1166-1171",
-      "authors": [
-        "https://dblp.org/pid/00/6451-1",
-        "https://dblp.org/pid/138/1377",
-        "https://dblp.org/pid/66/7481"
-      ],
-      "dois": [
-        "10.1109/icacci.2013.6637342"
-      ],
-      "url": "https://dblp.org/db/conf/icacci/icacci2013#conf/icacci/WailaSS13",
-      "faculty": [
-        "Vivek Kumar Singh 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICACCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/icc/GuptaDWO18",
-      "type": "inproceedings",
-      "title": "Proactive Decision Based Handoff Scheme for Cognitive Radio Networks.",
-      "year": 2018,
-      "publication_year": 2018,
-      "event_year": 2018,
-      "venue": "ICC",
-      "booktitle": "ICC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
-      "authors": [
-        "https://dblp.org/pid/12/1770-6",
-        "https://dblp.org/pid/52/6933",
-        "https://dblp.org/pid/67/176",
-        "https://dblp.org/pid/91/2882"
-      ],
-      "dois": [
-        "10.1109/icc.2018.8422635"
-      ],
-      "url": "https://dblp.org/db/conf/icc/icc2018#conf/icc/GuptaDWO18",
-      "faculty": [
-        "Nitin Gupta 0006"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2018
-        }
-      ]
-    },
-    {
-      "key": "conf/icc/GuptaG0GDR22",
-      "type": "inproceedings",
-      "title": "Delay-Tolerant and Prioritized Batch Verification System using Efficient RSU Scheduling in VANET.",
-      "year": 2022,
-      "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "ICC",
-      "booktitle": "ICC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "5706-5711",
-      "authors": [
-        "https://dblp.org/pid/01/7983",
-        "https://dblp.org/pid/12/1770-6",
-        "https://dblp.org/pid/25/3419",
-        "https://dblp.org/pid/291/6766",
-        "https://dblp.org/pid/326/7595",
-        "https://dblp.org/pid/88/51"
-      ],
-      "dois": [
-        "10.1109/icc45855.2022.9838800"
-      ],
-      "url": "https://dblp.org/db/conf/icc/icc2022#conf/icc/GuptaG0GDR22",
-      "faculty": [
-        "Nitin Gupta 0006"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "conf/icc/Rohila0KG21",
-      "type": "inproceedings",
-      "title": "Towards Framework for Edge Computing Assisted COVID-19 Detection using CT-scan Images.",
-      "year": 2021,
-      "publication_year": 2021,
-      "event_year": 2021,
-      "venue": "ICC",
-      "booktitle": "ICC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
-      "authors": [
-        "https://dblp.org/pid/09/8837",
-        "https://dblp.org/pid/12/1770-6",
-        "https://dblp.org/pid/294/1251",
-        "https://dblp.org/pid/97/9748"
-      ],
-      "dois": [
-        "10.1109/icc42927.2021.9500414"
-      ],
-      "url": "https://dblp.org/db/conf/icc/icc2021#conf/icc/Rohila0KG21",
-      "faculty": [
-        "Nitin Gupta 0006"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2021
-        }
-      ]
-    },
-    {
-      "key": "conf/icca3/DuaAB17",
-      "type": "inproceedings",
-      "title": "Discriminative Training using Heterogeneous Feature Vector for Hindi Automatic Speech Recognition System.",
-      "year": 2017,
-      "publication_year": 2017,
-      "event_year": 2017,
-      "venue": "ICCA",
-      "booktitle": "ICCA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "158-162",
-      "authors": [
-        "https://dblp.org/pid/127/6595",
-        "https://dblp.org/pid/144/3210",
-        "https://dblp.org/pid/156/5835"
-      ],
-      "dois": [
-        "10.1109/comapp.2017.8079777"
-      ],
-      "url": "https://dblp.org/db/conf/icca3/icca2017#conf/icca3/DuaAB17",
-      "faculty": [
-        "Mantosh Biswas"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2017
-        }
-      ]
-    },
-    {
-      "key": "conf/icccnt/SharmaB23",
-      "type": "inproceedings",
-      "title": "WDRKNN: Weighted Distance Representation based Nearest Neighbor for Hyperspectral Remote Sensing Imagery Classification.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "ICCCNT",
-      "booktitle": "ICCCNT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
-      "authors": [
-        "https://dblp.org/pid/156/5835",
-        "https://dblp.org/pid/94/8145"
-      ],
-      "dois": [
-        "10.1109/icccnt56998.2023.10306930"
-      ],
-      "url": "https://dblp.org/db/conf/icccnt/icccnt2023#conf/icccnt/SharmaB23",
-      "faculty": [
-        "Mantosh Biswas"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICCCNT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/iccct/0003SB15",
-      "type": "inproceedings",
-      "title": "An Efficient Approach to Discovering Frequent Patterns from Data Cube using Aggregation and Directed Graph.",
-      "year": 2015,
-      "publication_year": 2015,
-      "event_year": 2015,
-      "venue": "ICCCT",
-      "booktitle": "ICCCT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "31-35",
-      "authors": [
-        "https://dblp.org/pid/187/0719",
-        "https://dblp.org/pid/64/3559",
-        "https://dblp.org/pid/81/4530-3"
-      ],
-      "dois": [
-        "10.1145/2818567.2818573"
-      ],
-      "url": "https://dblp.org/db/conf/iccct/iccct2015#conf/iccct/0003SB15",
-      "faculty": [
-        "Kuldeep Singh 0003"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICCCT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2015
         }
       ]
     },
@@ -4107,116 +930,6 @@
           "venue": "ICDAR",
           "area": "core-other",
           "domain": "Other CORE areas",
-          "year": 2001
-        },
-        {
-          "source": "ieee",
-          "venue": "ICDAR",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2001
-        }
-      ]
-    },
-    {
-      "key": "conf/icegov/KumarJ22",
-      "type": "inproceedings",
-      "title": "Fake News Goes Viral! Determination and Analysis of Virality of Socially Relevant Events in Digital Governance.",
-      "year": 2022,
-      "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "ICEGOV",
-      "booktitle": "ICEGOV",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "376-380",
-      "authors": [
-        "https://dblp.org/pid/31/4484-25",
-        "https://dblp.org/pid/333/7907"
-      ],
-      "dois": [
-        "10.1145/3560107.3560165"
-      ],
-      "url": "https://dblp.org/db/conf/icegov/icegov2022#conf/icegov/KumarJ22",
-      "faculty": [
-        "Sachin Kumar 0025"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICEGOV",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "conf/icetet/ChawlaB08",
-      "type": "inproceedings",
-      "title": "Improving Information Retrieval Precision by Finding Related Queries with Similar Information Need Using Information Scent.",
-      "year": 2008,
-      "publication_year": 2008,
-      "event_year": 2008,
-      "venue": "ICETET",
-      "booktitle": "ICETET",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "486-491",
-      "authors": [
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/45/3304"
-      ],
-      "dois": [
-        "10.1109/icetet.2008.23"
-      ],
-      "url": "https://dblp.org/db/conf/icetet/icetet2008#conf/icetet/ChawlaB08",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICETET",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2008
-        }
-      ]
-    },
-    {
-      "key": "conf/icip/HanmandluMC01",
-      "type": "inproceedings",
-      "title": "Fuzzy logic based handwritten character recognition.",
-      "year": 2001,
-      "publication_year": 2001,
-      "event_year": 2001,
-      "venue": "ICIP (3)",
-      "booktitle": "ICIP (3)",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "3:42-45",
-      "authors": [
-        "https://dblp.org/pid/33/5573",
-        "https://dblp.org/pid/39/6026",
-        "https://dblp.org/pid/89/3488-2"
-      ],
-      "dois": [
-        "10.1109/icip.2001.958046"
-      ],
-      "url": "https://dblp.org/db/conf/icip/icip2001#conf/icip/HanmandluMC01",
-      "faculty": [
-        "Sourav Chakraborty 0002"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICIP",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
           "year": 2001
         }
       ]
@@ -4385,181 +1098,6 @@
       ]
     },
     {
-      "key": "conf/icmla/AggarwalG13",
-      "type": "inproceedings",
-      "title": "BEMI Bicluster Ensemble Using Mutual Information.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "ICMLA (1)",
-      "booktitle": "ICMLA (1)",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "321-324",
-      "authors": [
-        "https://dblp.org/pid/132/2001-1",
-        "https://dblp.org/pid/43/644"
-      ],
-      "dois": [
-        "10.1109/icmla.2013.65"
-      ],
-      "url": "https://dblp.org/db/conf/icmla/icmla2013-1#conf/icmla/AggarwalG13",
-      "faculty": [
-        "Geeta Aggarwal 0001",
-        "Neelima Gupta"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICMLA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/icmla/ChhabraM22",
-      "type": "inproceedings",
-      "title": "Fair Algorithms for Hierarchical Agglomerative Clustering.",
-      "year": 2022,
-      "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "ICMLA",
-      "booktitle": "ICMLA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "206-211",
-      "authors": [
-        "https://dblp.org/pid/199/8940",
-        "https://dblp.org/pid/m/PrasantMohapatra"
-      ],
-      "dois": [
-        "10.1109/icmla55696.2022.00036"
-      ],
-      "url": "https://dblp.org/db/conf/icmla/icmla2022#conf/icmla/ChhabraM22",
-      "faculty": [
-        "Anshuman Chhabra"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICMLA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "conf/icn/KhuranaGA06",
-      "type": "inproceedings",
-      "title": "Reliable Ad-hoc On-demand Distance Vector Routing Protocol.",
-      "year": 2006,
-      "publication_year": 2006,
-      "event_year": 2006,
-      "venue": "ICN/ICONS/MCL",
-      "booktitle": "ICN/ICONS/MCL",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "98",
-      "authors": [
-        "https://dblp.org/pid/23/1239",
-        "https://dblp.org/pid/29/4911",
-        "https://dblp.org/pid/43/644"
-      ],
-      "dois": [
-        "10.1109/icniconsmcl.2006.183"
-      ],
-      "url": "https://dblp.org/db/conf/icn/icn2006#conf/icn/KhuranaGA06",
-      "faculty": [
-        "Neelima Gupta"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICN/ICONS/MCL",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2006
-        }
-      ]
-    },
-    {
-      "key": "conf/icn/KhuranaGA07",
-      "type": "inproceedings",
-      "title": "Minimum Exposed Path to the Attack (MEPA) in Mobile Ad Hoc Network (MANET).",
-      "year": 2007,
-      "publication_year": 2007,
-      "event_year": 2007,
-      "venue": "ICN",
-      "booktitle": "ICN",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "16",
-      "authors": [
-        "https://dblp.org/pid/23/1239",
-        "https://dblp.org/pid/29/4911",
-        "https://dblp.org/pid/43/644"
-      ],
-      "dois": [
-        "10.1109/icn.2007.57"
-      ],
-      "url": "https://dblp.org/db/conf/icn/icn2007#conf/icn/KhuranaGA07",
-      "faculty": [
-        "Neelima Gupta"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICN",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2007
-        }
-      ]
-    },
-    {
-      "key": "conf/icnc/GuptaKGK15",
-      "type": "inproceedings",
-      "title": "Modified partition integration method for community detection in multidimensional social networks.",
-      "year": 2015,
-      "publication_year": 2015,
-      "event_year": 2015,
-      "venue": "ICNC",
-      "booktitle": "ICNC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1188-1195",
-      "authors": [
-        "https://dblp.org/pid/117/3459",
-        "https://dblp.org/pid/174/2904",
-        "https://dblp.org/pid/174/2974",
-        "https://dblp.org/pid/78/2996-1"
-      ],
-      "dois": [
-        "10.1109/icnc.2015.7378160"
-      ],
-      "url": "https://dblp.org/db/conf/icnc/icnc2015#conf/icnc/GuptaKGK15",
-      "faculty": [
-        "Naveen Kumar 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICNC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2015
-        }
-      ]
-    },
-    {
       "key": "conf/ics/PathakSG23",
       "type": "inproceedings",
       "title": "Scalable algorithms for compact spanners on real world graphs.",
@@ -4598,519 +1136,6 @@
           "area": "ics",
           "domain": "High-performance computing",
           "year": 2023
-        },
-        {
-          "source": "acm",
-          "venue": "ICS",
-          "area": "ics",
-          "domain": "High-performance computing",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/icsea/GandotraSB09",
-      "type": "inproceedings",
-      "title": "Identifying Security Requirements Hybrid Technique.",
-      "year": 2009,
-      "publication_year": 2009,
-      "event_year": 2009,
-      "venue": "ICSEA",
-      "booktitle": "ICSEA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "407-412",
-      "authors": [
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/56/7423",
-        "https://dblp.org/pid/67/7424"
-      ],
-      "dois": [
-        "10.1109/icsea.2009.65"
-      ],
-      "url": "https://dblp.org/db/conf/icsea/icsea2009#conf/icsea/GandotraSB09",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICSEA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2009
-        }
-      ]
-    },
-    {
-      "key": "conf/ictc/KumarKDSB17",
-      "type": "inproceedings",
-      "title": "Chaotic dynamical systems based image encryption model.",
-      "year": 2017,
-      "publication_year": 2017,
-      "event_year": 2017,
-      "venue": "ICTC",
-      "booktitle": "ICTC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "93-98",
-      "authors": [
-        "https://dblp.org/pid/195/3304",
-        "https://dblp.org/pid/35/4332-12",
-        "https://dblp.org/pid/45/3365-4",
-        "https://dblp.org/pid/72/7798",
-        "https://dblp.org/pid/90/5885"
-      ],
-      "dois": [
-        "10.1109/ictc.2017.8190949"
-      ],
-      "url": "https://dblp.org/db/conf/ictc/ictc2017#conf/ictc/KumarKDSB17",
-      "faculty": [
-        "Manish Kumar 0012",
-        "Sunil Kumar 0004"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICTC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2017
-        }
-      ]
-    },
-    {
-      "key": "conf/ictc/KumarKDSB17a",
-      "type": "inproceedings",
-      "title": "Improved cryptographic model for better information security.",
-      "year": 2017,
-      "publication_year": 2017,
-      "event_year": 2017,
-      "venue": "ICTC",
-      "booktitle": "ICTC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "406-410",
-      "authors": [
-        "https://dblp.org/pid/195/3304",
-        "https://dblp.org/pid/35/4332-12",
-        "https://dblp.org/pid/45/3365-4",
-        "https://dblp.org/pid/72/7798",
-        "https://dblp.org/pid/90/5885"
-      ],
-      "dois": [
-        "10.1109/ictc.2017.8191013"
-      ],
-      "url": "https://dblp.org/db/conf/ictc/ictc2017#conf/ictc/KumarKDSB17a",
-      "faculty": [
-        "Manish Kumar 0012",
-        "Sunil Kumar 0004"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICTC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2017
-        }
-      ]
-    },
-    {
-      "key": "conf/icvgip/BagriR024",
-      "type": "inproceedings",
-      "title": "An Improved Framework for Precision Grading of Renal Cell Carcinoma using Histopathological Images.",
-      "year": 2024,
-      "publication_year": 2024,
-      "event_year": 2024,
-      "venue": "ICVGIP",
-      "booktitle": "ICVGIP",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "3:1-3:10",
-      "authors": [
-        "https://dblp.org/pid/185/7972",
-        "https://dblp.org/pid/341/8502",
-        "https://dblp.org/pid/78/2996-1"
-      ],
-      "dois": [
-        "10.1145/3702250.3702253"
-      ],
-      "url": "https://dblp.org/db/conf/icvgip/icvgip2024#conf/icvgip/BagriR024",
-      "faculty": [
-        "Ankit Rajpal",
-        "Naveen Kumar 0001"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICVGIP",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2024
-        }
-      ]
-    },
-    {
-      "key": "conf/icvgip/JunejaRA14",
-      "type": "inproceedings",
-      "title": "A Novel Approach for Computer Aided Diagnosis of Schizophrenia using Auditory Oddball Functional MRI.",
-      "year": 2014,
-      "publication_year": 2014,
-      "event_year": 2014,
-      "venue": "ICVGIP",
-      "booktitle": "ICVGIP",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "37:1-37:6",
-      "authors": [
-        "https://dblp.org/pid/115/7719",
-        "https://dblp.org/pid/161/7912",
-        "https://dblp.org/pid/30/6573"
-      ],
-      "dois": [
-        "10.1145/2683483.2683520"
-      ],
-      "url": "https://dblp.org/db/conf/icvgip/icvgip2014#conf/icvgip/JunejaRA14",
-      "faculty": [
-        "Bharti Rana"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICVGIP",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2014
-        }
-      ]
-    },
-    {
-      "key": "conf/icvgip/KaurCR24",
-      "type": "inproceedings",
-      "title": "Phase Synchronization-based Topological Features for Autism and ADHD Classification.",
-      "year": 2024,
-      "publication_year": 2024,
-      "event_year": 2024,
-      "venue": "ICVGIP",
-      "booktitle": "ICVGIP",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "45:1-45:8",
-      "authors": [
-        "https://dblp.org/pid/115/7719",
-        "https://dblp.org/pid/353/0638",
-        "https://dblp.org/pid/394/6794"
-      ],
-      "dois": [
-        "10.1145/3702250.3702295"
-      ],
-      "url": "https://dblp.org/db/conf/icvgip/icvgip2024#conf/icvgip/KaurCR24",
-      "faculty": [
-        "Bharti Rana"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICVGIP",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2024
-        }
-      ]
-    },
-    {
-      "key": "conf/icvgip/RanaJSGKAB16",
-      "type": "inproceedings",
-      "title": "Voxel-based morphometry and minimum redundancy maximum relevance method for classification of Parkinson's disease and controls from T1-weighted MRI.",
-      "year": 2016,
-      "publication_year": 2016,
-      "event_year": 2016,
-      "venue": "ICVGIP",
-      "booktitle": "ICVGIP",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "22:1-22:6",
-      "authors": [
-        "https://dblp.org/pid/115/7719",
-        "https://dblp.org/pid/161/7894",
-        "https://dblp.org/pid/161/7912",
-        "https://dblp.org/pid/161/7931",
-        "https://dblp.org/pid/161/8000",
-        "https://dblp.org/pid/30/6573",
-        "https://dblp.org/pid/45/5501"
-      ],
-      "dois": [
-        "10.1145/3009977.3009998"
-      ],
-      "url": "https://dblp.org/db/conf/icvgip/icvgip2016#conf/icvgip/RanaJSGKAB16",
-      "faculty": [
-        "Bharti Rana"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICVGIP",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "key": "conf/ideas/GargMGB06",
-      "type": "inproceedings",
-      "title": "PBIRCH: A Scalable Parallel Clustering algorithm for Incremental Data.",
-      "year": 2006,
-      "publication_year": 2006,
-      "event_year": 2006,
-      "venue": "IDEAS",
-      "booktitle": "IDEAS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "315-316",
-      "authors": [
-        "https://dblp.org/pid/01/1081",
-        "https://dblp.org/pid/15/3547",
-        "https://dblp.org/pid/43/644",
-        "https://dblp.org/pid/74/723"
-      ],
-      "dois": [
-        "10.1109/ideas.2006.36"
-      ],
-      "url": "https://dblp.org/db/conf/ideas/ideas2006#conf/ideas/GargMGB06",
-      "faculty": [
-        "Neelima Gupta",
-        "Vasudha Bhatnagar"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IDEAS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2006
-        }
-      ]
-    },
-    {
-      "key": "conf/iecon/RichaBDJ19",
-      "type": "inproceedings",
-      "title": "Operation of MMC Based Unipolar HVDC Under SM Failure.",
-      "year": 2019,
-      "publication_year": 2019,
-      "event_year": 2019,
-      "venue": "IECON",
-      "booktitle": "IECON",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "6133-6138",
-      "authors": [
-        "https://dblp.org/pid/122/7235",
-        "https://dblp.org/pid/142/1320",
-        "https://dblp.org/pid/190/4195",
-        "https://dblp.org/pid/81/11347"
-      ],
-      "dois": [
-        "10.1109/iecon.2019.8927428"
-      ],
-      "url": "https://dblp.org/db/conf/iecon/iecon2019#conf/iecon/RichaBDJ19",
-      "faculty": [
-        "Richa"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IECON",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2019
-        }
-      ]
-    },
-    {
-      "key": "conf/ieem/GarmabakiAK11",
-      "type": "inproceedings",
-      "title": "Multi up-gradation software reliability growth model with faults of different severity.",
-      "year": 2011,
-      "publication_year": 2011,
-      "event_year": 2011,
-      "venue": "IEEM",
-      "booktitle": "IEEM",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1539-1543",
-      "authors": [
-        "https://dblp.org/pid/14/10037",
-        "https://dblp.org/pid/54/11074",
-        "https://dblp.org/pid/71/11074"
-      ],
-      "dois": [
-        "10.1109/ieem.2011.6118175"
-      ],
-      "url": "https://dblp.org/db/conf/ieem/ieem2011#conf/ieem/GarmabakiAK11",
-      "faculty": [
-        "Anu G. Aggarwal 0001",
-        "P. K. Kapur 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IEEM",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2011
-        }
-      ]
-    },
-    {
-      "key": "conf/ieem/JhaCG11",
-      "type": "inproceedings",
-      "title": "On the development of adoption of newer successive technologies using stochastic differential equation.",
-      "year": 2011,
-      "publication_year": 2011,
-      "event_year": 2011,
-      "venue": "IEEM",
-      "booktitle": "IEEM",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1853-1858",
-      "authors": [
-        "https://dblp.org/pid/35/11351",
-        "https://dblp.org/pid/37/8945",
-        "https://dblp.org/pid/91/8945"
-      ],
-      "dois": [
-        "10.1109/ieem.2011.6118236"
-      ],
-      "url": "https://dblp.org/db/conf/ieem/ieem2011#conf/ieem/JhaCG11",
-      "faculty": [
-        "P. C. Jha 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IEEM",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2011
-        }
-      ]
-    },
-    {
-      "key": "conf/ieem/SinghCJ11",
-      "type": "inproceedings",
-      "title": "Optimal production policy of production system with inventory-level-dependent demand in segmented market.",
-      "year": 2011,
-      "publication_year": 2011,
-      "event_year": 2011,
-      "venue": "IEEM",
-      "booktitle": "IEEM",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "357-361",
-      "authors": [
-        "https://dblp.org/pid/23/11349",
-        "https://dblp.org/pid/35/11351",
-        "https://dblp.org/pid/91/8945"
-      ],
-      "dois": [
-        "10.1109/ieem.2011.6117938"
-      ],
-      "url": "https://dblp.org/db/conf/ieem/ieem2011#conf/ieem/SinghCJ11",
-      "faculty": [
-        "P. C. Jha 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IEEM",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2011
-        }
-      ]
-    },
-    {
-      "key": "conf/ieem/SinghKA11",
-      "type": "inproceedings",
-      "title": "A stochastic formulation of successive software releases with faults severity.",
-      "year": 2011,
-      "publication_year": 2011,
-      "event_year": 2011,
-      "venue": "IEEM",
-      "booktitle": "IEEM",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "136-140",
-      "authors": [
-        "https://dblp.org/pid/14/10037",
-        "https://dblp.org/pid/33/11074",
-        "https://dblp.org/pid/68/11352"
-      ],
-      "dois": [
-        "10.1109/ieem.2011.6117894"
-      ],
-      "url": "https://dblp.org/db/conf/ieem/ieem2011#conf/ieem/SinghKA11",
-      "faculty": [
-        "P. K. Kapur 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IEEM",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2011
-        }
-      ]
-    },
-    {
-      "key": "conf/ieem/TamuraAKY22",
-      "type": "inproceedings",
-      "title": "Cyclic Jump Diffusion Process Modeling Based on Different Effort Consumption Scenarios for OSS Multi Up-gradation.",
-      "year": 2022,
-      "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "IEEM",
-      "booktitle": "IEEM",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "463-467",
-      "authors": [
-        "https://dblp.org/pid/14/10037",
-        "https://dblp.org/pid/56/2910",
-        "https://dblp.org/pid/68/11352",
-        "https://dblp.org/pid/85/5224"
-      ],
-      "dois": [
-        "10.1109/ieem55944.2022.9989863"
-      ],
-      "url": "https://dblp.org/db/conf/ieem/ieem2022#conf/ieem/TamuraAKY22",
-      "faculty": [
-        "P. K. Kapur 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IEEM",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2022
         }
       ]
     },
@@ -5151,186 +1176,6 @@
           "area": "ijcai",
           "domain": "Artificial intelligence",
           "year": 2007
-        }
-      ]
-    },
-    {
-      "key": "conf/ijcnn/KashaniaRRK24",
-      "type": "inproceedings",
-      "title": "Revealing the Unseen: Explainable AI-Driven Masked Face Recognition.",
-      "year": 2024,
-      "publication_year": 2024,
-      "event_year": 2024,
-      "venue": "IJCNN",
-      "booktitle": "IJCNN",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-7",
-      "authors": [
-        "https://dblp.org/pid/185/7972",
-        "https://dblp.org/pid/271/0579",
-        "https://dblp.org/pid/385/4693",
-        "https://dblp.org/pid/78/2996-1"
-      ],
-      "dois": [
-        "10.1109/ijcnn60899.2024.10649984"
-      ],
-      "url": "https://dblp.org/db/conf/ijcnn/ijcnn2024#conf/ijcnn/KashaniaRRK24",
-      "faculty": [
-        "Ankit Rajpal",
-        "Naveen Kumar 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IJCNN",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2024
-        }
-      ]
-    },
-    {
-      "key": "conf/ijcnn/KumarN22",
-      "type": "inproceedings",
-      "title": "Does Social Media Feed Tell about Your Mental State? A Deep Randomised Neural Network Approach.",
-      "year": 2022,
-      "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "IJCNN",
-      "booktitle": "IJCNN",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-8",
-      "authors": [
-        "https://dblp.org/pid/31/4484-5",
-        "https://dblp.org/pid/313/4146"
-      ],
-      "dois": [
-        "10.1109/ijcnn55064.2022.9892210"
-      ],
-      "url": "https://dblp.org/db/conf/ijcnn/ijcnn2022#conf/ijcnn/KumarN22",
-      "faculty": [
-        "Sachin Kumar 0005"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IJCNN",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "conf/ijcnn/KumarSRNR24",
-      "type": "inproceedings",
-      "title": "Integrating Physiological Signals with Dynamical Attention Networks for Personality Trait Analysis.",
-      "year": 2024,
-      "publication_year": 2024,
-      "event_year": 2024,
-      "venue": "IJCNN",
-      "booktitle": "IJCNN",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-8",
-      "authors": [
-        "https://dblp.org/pid/190/4195",
-        "https://dblp.org/pid/25/1998",
-        "https://dblp.org/pid/261/1034",
-        "https://dblp.org/pid/57/6641",
-        "https://dblp.org/pid/66/3984"
-      ],
-      "dois": [
-        "10.1109/ijcnn60899.2024.10650662"
-      ],
-      "url": "https://dblp.org/db/conf/ijcnn/ijcnn2024#conf/ijcnn/KumarSRNR24",
-      "faculty": [
-        "Richa"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IJCNN",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2024
-        }
-      ]
-    },
-    {
-      "key": "conf/ijcnn/RajpalMB17",
-      "type": "inproceedings",
-      "title": "Fast digital watermarking of uncompressed colored images using bidirectional extreme learning machine.",
-      "year": 2017,
-      "publication_year": 2017,
-      "event_year": 2017,
-      "venue": "IJCNN",
-      "booktitle": "IJCNN",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1361-1366",
-      "authors": [
-        "https://dblp.org/pid/12/4682",
-        "https://dblp.org/pid/185/7972",
-        "https://dblp.org/pid/60/10135"
-      ],
-      "dois": [
-        "10.1109/ijcnn.2017.7966011"
-      ],
-      "url": "https://dblp.org/db/conf/ijcnn/ijcnn2017#conf/ijcnn/RajpalMB17",
-      "faculty": [
-        "Ankit Rajpal"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IJCNN",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2017
-        }
-      ]
-    },
-    {
-      "key": "conf/ijcnn/RishabhSKM26",
-      "type": "inproceedings",
-      "title": "A Fuzzy Pause-Aware Framework for Alzheimer's Disease Detection from Spontaneous Speech.",
-      "year": 2026,
-      "publication_year": 2026,
-      "event_year": 2026,
-      "venue": "IJCNN",
-      "booktitle": "IJCNN",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-5",
-      "authors": [
-        "https://dblp.org/pid/136/2533",
-        "https://dblp.org/pid/180/0227",
-        "https://dblp.org/pid/276/3775",
-        "https://dblp.org/pid/81/4530-3"
-      ],
-      "dois": [
-        "10.1109/ijcnn69854.2026.11728676"
-      ],
-      "url": "https://dblp.org/db/conf/ijcnn/ijcnn2026#conf/ijcnn/RishabhSKM26",
-      "faculty": [
-        "Kuldeep Singh 0003",
-        "Yogendra Meena"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IJCNN",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2026
         }
       ]
     },
@@ -5440,40 +1285,6 @@
       ]
     },
     {
-      "key": "conf/indiaSE/GuptaG12",
-      "type": "inproceedings",
-      "title": "Tagging requirements for web application.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "ISEC",
-      "booktitle": "ISEC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "81-90",
-      "authors": [
-        "https://dblp.org/pid/05/4820-4",
-        "https://dblp.org/pid/58/2931"
-      ],
-      "dois": [
-        "10.1145/2134254.2134269"
-      ],
-      "url": "https://dblp.org/db/conf/indiaSE/isec2012#conf/indiaSE/GuptaG12",
-      "faculty": [
-        "Karan Gupta 0004"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ISEC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
       "key": "conf/ipco/AggarwalABGGGJ10",
       "type": "inproceedings",
       "title": "A 3-Approximation for Facility Location with Uniform Capacities.",
@@ -5548,392 +1359,6 @@
       ]
     },
     {
-      "key": "conf/ipps/GuptaS98",
-      "type": "inproceedings",
-      "title": "An Improved Output-Size Sensitive Parallel Algorithm for Hidden-Surface Removal for Terrains.",
-      "year": 1998,
-      "publication_year": 1998,
-      "event_year": 1998,
-      "venue": "IPPS/SPDP",
-      "booktitle": "IPPS/SPDP",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "215-219",
-      "authors": [
-        "https://dblp.org/pid/43/644",
-        "https://dblp.org/pid/s/SandeepSen"
-      ],
-      "dois": [
-        "10.1109/ipps.1998.669913"
-      ],
-      "url": "https://dblp.org/db/conf/ipps/ipps1998#conf/ipps/GuptaS98",
-      "faculty": [
-        "Neelima Gupta"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IPPS/SPDP",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 1998
-        }
-      ]
-    },
-    {
-      "key": "conf/isda/AakankshaB12",
-      "type": "inproceedings",
-      "title": "Mobile process groups based device/service discovery and interoperability in MANets.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "ISDA",
-      "booktitle": "ISDA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "466-471",
-      "authors": [
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/40/7688"
-      ],
-      "dois": [
-        "10.1109/isda.2012.6416583"
-      ],
-      "url": "https://dblp.org/db/conf/isda/isda2012#conf/isda/AakankshaB12",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ISDA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
-      "key": "conf/isda/AgarwalSB12",
-      "type": "inproceedings",
-      "title": "Classification of RSS feed news items using ontology.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "ISDA",
-      "booktitle": "ISDA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "491-496",
-      "authors": [
-        "https://dblp.org/pid/125/1546",
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/67/7424"
-      ],
-      "dois": [
-        "10.1109/isda.2012.6416587"
-      ],
-      "url": "https://dblp.org/db/conf/isda/isda2012#conf/isda/AgarwalSB12",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ISDA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
-      "key": "conf/isda/BanatiBM12",
-      "type": "inproceedings",
-      "title": "WSDL-TC: Collaborative customization of web services.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "ISDA",
-      "booktitle": "ISDA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "692-697",
-      "authors": [
-        "https://dblp.org/pid/125/0914",
-        "https://dblp.org/pid/13/6820",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/isda.2012.6416621"
-      ],
-      "url": "https://dblp.org/db/conf/isda/isda2012#conf/isda/BanatiBM12",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ISDA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
-      "key": "conf/isda/BhatnagarBM10",
-      "type": "inproceedings",
-      "title": "Comparing SVM ensembles for imbalanced datasets.",
-      "year": 2010,
-      "publication_year": 2010,
-      "event_year": 2010,
-      "venue": "ISDA",
-      "booktitle": "ISDA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "651-657",
-      "authors": [
-        "https://dblp.org/pid/19/7937",
-        "https://dblp.org/pid/21/6335",
-        "https://dblp.org/pid/74/723"
-      ],
-      "dois": [
-        "10.1109/isda.2010.5687191"
-      ],
-      "url": "https://dblp.org/db/conf/isda/isda2010#conf/isda/BhatnagarBM10",
-      "faculty": [
-        "Vasudha Bhatnagar"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ISDA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2010
-        }
-      ]
-    },
-    {
-      "key": "conf/isda/MehtaDB12",
-      "type": "inproceedings",
-      "title": "Refinement of recommendations based on user preferences.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "ISDA",
-      "booktitle": "ISDA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "515-520",
-      "authors": [
-        "https://dblp.org/pid/125/1524",
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/43/10825"
-      ],
-      "dois": [
-        "10.1109/isda.2012.6416591"
-      ],
-      "url": "https://dblp.org/db/conf/isda/isda2012#conf/isda/MehtaDB12",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ISDA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
-      "key": "conf/isda/PunK11",
-      "type": "inproceedings",
-      "title": "Projected Rough Fuzzy c-means clustering.",
-      "year": 2011,
-      "publication_year": 2011,
-      "event_year": 2011,
-      "venue": "ISDA",
-      "booktitle": "ISDA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "530-536",
-      "authors": [
-        "https://dblp.org/pid/125/1907",
-        "https://dblp.org/pid/78/2996-1"
-      ],
-      "dois": [
-        "10.1109/isda.2011.6121710"
-      ],
-      "url": "https://dblp.org/db/conf/isda/isda2011#conf/isda/PunK11",
-      "faculty": [
-        "Naveen Kumar 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ISDA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2011
-        }
-      ]
-    },
-    {
-      "key": "conf/isda/SharmaBCS12",
-      "type": "inproceedings",
-      "title": "Predicting the priority of a reported bug using machine learning techniques and cross project validation.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "ISDA",
-      "booktitle": "ISDA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "539-545",
-      "authors": [
-        "https://dblp.org/pid/125/1562",
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/68/264",
-        "https://dblp.org/pid/71/8783"
-      ],
-      "dois": [
-        "10.1109/isda.2012.6416595"
-      ],
-      "url": "https://dblp.org/db/conf/isda/isda2012#conf/isda/SharmaBCS12",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ISDA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
-      "key": "conf/isda/SharmaDBB12",
-      "type": "inproceedings",
-      "title": "An opinion-based framework for designing socially aware e-learning systems.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "ISDA",
-      "booktitle": "ISDA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "431-436",
-      "authors": [
-        "https://dblp.org/pid/125/1456",
-        "https://dblp.org/pid/13/6820",
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/86/11292"
-      ],
-      "dois": [
-        "10.1109/isda.2012.6416577"
-      ],
-      "url": "https://dblp.org/db/conf/isda/isda2012#conf/isda/SharmaDBB12",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ISDA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
-      "key": "conf/isda/ThukralDBB12",
-      "type": "inproceedings",
-      "title": "Informal eLearning using Multi Agent Systems.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "ISDA",
-      "booktitle": "ISDA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "213-217",
-      "authors": [
-        "https://dblp.org/pid/125/1456",
-        "https://dblp.org/pid/13/6820",
-        "https://dblp.org/pid/18/10125",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/isda.2012.6416539"
-      ],
-      "url": "https://dblp.org/db/conf/isda/isda2012#conf/isda/ThukralDBB12",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ISDA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
-      "key": "conf/isda/VashisthCYB12",
-      "type": "inproceedings",
-      "title": "Trust enabled Argumentation Based Recommender System.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "ISDA",
-      "booktitle": "ISDA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "137-142",
-      "authors": [
-        "https://dblp.org/pid/125/1493",
-        "https://dblp.org/pid/125/1599",
-        "https://dblp.org/pid/25/4147",
-        "https://dblp.org/pid/53/8811"
-      ],
-      "dois": [
-        "10.1109/isda.2012.6416526"
-      ],
-      "url": "https://dblp.org/db/conf/isda/isda2012#conf/isda/VashisthCYB12",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ISDA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
       "key": "conf/issre/KapurAG92",
       "type": "inproceedings",
       "title": "Bicriterion release policy for exponential software reliability growth model.",
@@ -5964,13 +1389,6 @@
           "venue": "ISSRE",
           "area": "core-other",
           "domain": "Other CORE areas",
-          "year": 1992
-        },
-        {
-          "source": "ieee",
-          "venue": "ISSRE",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
           "year": 1992
         }
       ]
@@ -6007,193 +1425,6 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 1994
-        },
-        {
-          "source": "ieee",
-          "venue": "ISSRE",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 1994
-        }
-      ]
-    },
-    {
-      "key": "conf/ithings/KumarKBDS16",
-      "type": "inproceedings",
-      "title": "Lightweight Data Security Model for IoT Applications: A Dynamic Key Approach.",
-      "year": 2016,
-      "publication_year": 2016,
-      "event_year": 2016,
-      "venue": "iThings/GreenCom/CPSCom/SmartData",
-      "booktitle": "iThings/GreenCom/CPSCom/SmartData",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "424-428",
-      "authors": [
-        "https://dblp.org/pid/195/3304",
-        "https://dblp.org/pid/35/4332-12",
-        "https://dblp.org/pid/45/3365-4",
-        "https://dblp.org/pid/72/7798",
-        "https://dblp.org/pid/90/5885"
-      ],
-      "dois": [
-        "10.1109/ithings-greencom-cpscom-smartdata.2016.100"
-      ],
-      "url": "https://dblp.org/db/conf/ithings/ithings2016#conf/ithings/KumarKBDS16",
-      "faculty": [
-        "Manish Kumar 0012",
-        "Sunil Kumar 0004"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "iThings/GreenCom/CPSCom/SmartData",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "key": "conf/itnac/0002R24",
-      "type": "inproceedings",
-      "title": "Innovative Message Routing for Next Generation Transportation System Using GA-Based SVM.",
-      "year": 2024,
-      "publication_year": 2024,
-      "event_year": 2024,
-      "venue": "ITNAC",
-      "booktitle": "ITNAC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-7",
-      "authors": [
-        "https://dblp.org/pid/235/7035-2",
-        "https://dblp.org/pid/395/5807"
-      ],
-      "dois": [
-        "10.1109/itnac62915.2024.10815246"
-      ],
-      "url": "https://dblp.org/db/conf/itnac/itnac2024#conf/itnac/0002R24",
-      "faculty": [
-        "Priyanka Singla 0002"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ITNAC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2024
-        }
-      ]
-    },
-    {
-      "key": "conf/micai/JunejaRA14",
-      "type": "inproceedings",
-      "title": "A Novel Approach for Classification of Schizophrenia Patients and Healthy Subjects Using Auditory Oddball Functional MRI.",
-      "year": 2014,
-      "publication_year": 2014,
-      "event_year": 2014,
-      "venue": "MICAI (Special Sessions)",
-      "booktitle": "MICAI (Special Sessions)",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "75-81",
-      "authors": [
-        "https://dblp.org/pid/115/7719",
-        "https://dblp.org/pid/161/7912",
-        "https://dblp.org/pid/30/6573"
-      ],
-      "dois": [
-        "10.1109/micai.2014.17"
-      ],
-      "url": "https://dblp.org/db/conf/micai/micai2014s#conf/micai/JunejaRA14",
-      "faculty": [
-        "Bharti Rana"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "MICAI (Special Sessions)",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2014
-        }
-      ]
-    },
-    {
-      "key": "conf/mswim/GuptaNAG12",
-      "type": "inproceedings",
-      "title": "Reference based approach to mitigate blackhole attacks in delay tolerant networks.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "Q2SWinet",
-      "booktitle": "Q2SWinet",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "85-88",
-      "authors": [
-        "https://dblp.org/pid/151/0345",
-        "https://dblp.org/pid/33/641",
-        "https://dblp.org/pid/38/11299",
-        "https://dblp.org/pid/43/644"
-      ],
-      "dois": [
-        "10.1145/2387218.2387237"
-      ],
-      "url": "https://dblp.org/db/conf/mswim/q2swinet2012#conf/mswim/GuptaNAG12",
-      "faculty": [
-        "Neelima Gupta"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "Q2SWinet",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2012
-        }
-      ]
-    },
-    {
-      "key": "conf/ncvpripg/SahuP0KP15",
-      "type": "inproceedings",
-      "title": "Greedy partitioning based tree structured multiclass SVM for Odia OCR.",
-      "year": 2015,
-      "publication_year": 2015,
-      "event_year": 2015,
-      "venue": "NCVPRIPG",
-      "booktitle": "NCVPRIPG",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-4",
-      "authors": [
-        "https://dblp.org/pid/137/3335",
-        "https://dblp.org/pid/177/7323",
-        "https://dblp.org/pid/21/1587-3",
-        "https://dblp.org/pid/95/6184",
-        "https://dblp.org/pid/98/255"
-      ],
-      "dois": [
-        "10.1109/ncvpripg.2015.7490018"
-      ],
-      "url": "https://dblp.org/db/conf/ncvpripg/ncvpripg2015#conf/ncvpripg/SahuP0KP15",
-      "faculty": [
-        "Vikas Kumar 0003"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "NCVPRIPG",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2015
         }
       ]
     },
@@ -6280,425 +1511,104 @@
       ]
     },
     {
-      "key": "conf/pe-wasun/JohariGA13",
-      "type": "inproceedings",
-      "title": "CACBR: context aware community based routing for intermittently connected network.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "PE-WASUN",
-      "booktitle": "PE-WASUN",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "137-140",
+      "key": "journals/pami/JayakumarB98",
+      "type": "article",
+      "title": "Risk-Sensitive Filters for Recursive Estimation of Motion From Images.",
+      "year": 1998,
+      "publication_year": 1998,
+      "event_year": null,
+      "venue": "IEEE Trans. Pattern Anal. Mach. Intell.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Pattern Anal. Mach. Intell.",
+      "volume": "20",
+      "number": "6",
+      "pages": "659-666",
       "authors": [
-        "https://dblp.org/pid/125/5865",
-        "https://dblp.org/pid/38/11299",
-        "https://dblp.org/pid/43/644"
+        "https://dblp.org/pid/44/5767",
+        "https://dblp.org/pid/47/5769"
       ],
       "dois": [
-        "10.1145/2507248.2507272"
+        "10.1109/34.683783"
       ],
-      "url": "https://dblp.org/db/conf/pe-wasun/pe-wasun2013#conf/pe-wasun/JohariGA13",
+      "url": "https://dblp.org/db/journals/pami/pami20#journals/pami/JayakumarB98",
       "faculty": [
-        "Neelima Gupta"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "PE-WASUN",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/rait/KumarB16a",
-      "type": "inproceedings",
-      "title": "Design of a mobile Web crawler for hidden Web.",
-      "year": 2016,
-      "publication_year": 2016,
-      "event_year": 2016,
-      "venue": "RAIT",
-      "booktitle": "RAIT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "186-190",
-      "authors": [
-        "https://dblp.org/pid/35/4332-12",
-        "https://dblp.org/pid/89/2317"
-      ],
-      "dois": [
-        "10.1109/rait.2016.7507899"
-      ],
-      "url": "https://dblp.org/db/conf/rait/rait2016#conf/rait/KumarB16a",
-      "faculty": [
-        "Manish Kumar 0012"
+        "M. Jayakumar 0001"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "RAIT",
+          "venue": "IEEE Trans. Pattern Anal. Mach. Intell.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2016
+          "year": 1998
         }
       ]
     },
     {
-      "key": "conf/saci/SinghG09",
-      "type": "inproceedings",
-      "title": "From artificial to collective intelligence: Perspectives and implications.",
-      "year": 2009,
-      "publication_year": 2009,
-      "event_year": 2009,
-      "venue": "SACI",
-      "booktitle": "SACI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "545-550",
+      "key": "journals/tai/GuptaSA24",
+      "type": "article",
+      "title": "A Perceptual Computing Approach for Learning Interpretable Unsupervised Fuzzy Scoring Systems.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Artif. Intell.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Artif. Intell.",
+      "volume": "5",
+      "number": "8",
+      "pages": "3832-3844",
       "authors": [
-        "https://dblp.org/pid/00/6451-1",
-        "https://dblp.org/pid/89/4700"
+        "https://dblp.org/pid/15/7049",
+        "https://dblp.org/pid/150/8650",
+        "https://dblp.org/pid/87/4567-5"
       ],
       "dois": [
-        "10.1109/saci.2009.5136308"
+        "10.1109/tai.2023.3333762"
       ],
-      "url": "https://dblp.org/db/conf/saci/saci2009#conf/saci/SinghG09",
+      "url": "https://dblp.org/db/journals/tai/tai5#journals/tai/GuptaSA24",
       "faculty": [
-        "Vivek Kumar Singh 0001"
+        "Deepak Sharma 0005"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "SACI",
+          "venue": "IEEE Trans. Artif. Intell.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2009
+          "year": 2024
         }
       ]
     },
     {
-      "key": "conf/saci/SinghWSPU13",
-      "type": "inproceedings",
-      "title": "Computational analysis of thematic blog data for sociological inference mining.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "SACI",
-      "booktitle": "SACI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "293-298",
-      "authors": [
-        "https://dblp.org/pid/00/6451-1",
-        "https://dblp.org/pid/138/1377",
-        "https://dblp.org/pid/138/3081",
-        "https://dblp.org/pid/143/1617",
-        "https://dblp.org/pid/97/907-1"
-      ],
-      "dois": [
-        "10.1109/saci.2013.6608985"
-      ],
-      "url": "https://dblp.org/db/conf/saci/saci2013#conf/saci/SinghWSPU13",
-      "faculty": [
-        "Vivek Kumar Singh 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "SACI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/secon/VashishthCS19",
-      "type": "inproceedings",
-      "title": "A Machine Learning Approach Using Classifier Cascades for Optimal Routing in Opportunistic Internet of Things Networks.",
-      "year": 2019,
-      "publication_year": 2019,
-      "event_year": 2019,
-      "venue": "SECON",
-      "booktitle": "SECON",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-9",
-      "authors": [
-        "https://dblp.org/pid/199/8895",
-        "https://dblp.org/pid/199/8940",
-        "https://dblp.org/pid/99/11050"
-      ],
-      "dois": [
-        "10.1109/sahcn.2019.8824952"
-      ],
-      "url": "https://dblp.org/db/conf/secon/secon2019#conf/secon/VashishthCS19",
-      "faculty": [
-        "Anshuman Chhabra"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "SECON",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2019
-        }
-      ]
-    },
-    {
-      "key": "conf/securware/KhuranaG08",
-      "type": "inproceedings",
-      "title": "FEEPVR: First End-to-End Protocol to Secure Ad Hoc Networks with Variable Ranges against Wormhole Attacks.",
-      "year": 2008,
-      "publication_year": 2008,
-      "event_year": 2008,
-      "venue": "SECURWARE",
-      "booktitle": "SECURWARE",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "74-79",
-      "authors": [
-        "https://dblp.org/pid/29/4911",
-        "https://dblp.org/pid/43/644"
-      ],
-      "dois": [
-        "10.1109/securware.2008.36"
-      ],
-      "url": "https://dblp.org/db/conf/securware/securware2008#conf/securware/KhuranaG08",
-      "faculty": [
-        "Neelima Gupta"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "SECURWARE",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2008
-        }
-      ]
-    },
-    {
-      "key": "conf/sin/GaurLKK11",
-      "type": "inproceedings",
-      "title": "Detour attack in OLSR.",
-      "year": 2011,
-      "publication_year": 2011,
-      "event_year": 2011,
-      "venue": "SIN",
-      "booktitle": "SIN",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "137-142",
-      "authors": [
-        "https://dblp.org/pid/10/3052",
-        "https://dblp.org/pid/35/4332-12",
-        "https://dblp.org/pid/80/7311",
-        "https://dblp.org/pid/93/8926"
-      ],
-      "dois": [
-        "10.1145/2070425.2070448"
-      ],
-      "url": "https://dblp.org/db/conf/sin/sin2011#conf/sin/GaurLKK11",
-      "faculty": [
-        "Manish Kumar 0012"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "SIN",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2011
-        }
-      ]
-    },
-    {
-      "key": "conf/sin/KumarOJL09",
-      "type": "inproceedings",
-      "title": "BEAN: a lightweight stream cipher.",
-      "year": 2009,
-      "publication_year": 2009,
-      "event_year": 2009,
-      "venue": "SIN",
-      "booktitle": "SIN",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "168-171",
-      "authors": [
-        "https://dblp.org/pid/15/7434",
-        "https://dblp.org/pid/37/7434",
-        "https://dblp.org/pid/46/7436",
-        "https://dblp.org/pid/78/2996-1"
-      ],
-      "dois": [
-        "10.1145/1626195.1626238"
-      ],
-      "url": "https://dblp.org/db/conf/sin/sin2009#conf/sin/KumarOJL09",
-      "faculty": [
-        "Naveen Kumar 0001"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "SIN",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2009
-        }
-      ]
-    },
-    {
-      "key": "conf/smc/BediBMC14",
-      "type": "inproceedings",
-      "title": "FS-SDS: Feature selection for JPEG steganalysis using stochastic diffusion search.",
-      "year": 2014,
-      "publication_year": 2014,
-      "event_year": 2014,
-      "venue": "SMC",
-      "booktitle": "SMC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "3797-3802",
-      "authors": [
-        "https://dblp.org/pid/136/7821",
-        "https://dblp.org/pid/155/4521",
-        "https://dblp.org/pid/155/4737",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/smc.2014.6974522"
-      ],
-      "url": "https://dblp.org/db/conf/smc/smc2014#conf/smc/BediBMC14",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "SMC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2014
-        }
-      ]
-    },
-    {
-      "key": "conf/smc/BhasinB13",
-      "type": "inproceedings",
-      "title": "Steganalysis for JPEG Images Using Extreme Learning Machine.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "SMC",
-      "booktitle": "SMC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1361-1366",
-      "authors": [
-        "https://dblp.org/pid/136/7821",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1109/smc.2013.235"
-      ],
-      "url": "https://dblp.org/db/conf/smc/smc2013#conf/smc/BhasinB13",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "SMC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
-      "key": "conf/tencon/0004KBDS18",
-      "type": "inproceedings",
-      "title": "Investigation of coupled map lattice as a diffusion model for enhanced image security.",
-      "year": 2018,
-      "publication_year": 2018,
-      "event_year": 2018,
-      "venue": "TENCON",
-      "booktitle": "TENCON",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "172-175",
-      "authors": [
-        "https://dblp.org/pid/195/3304",
-        "https://dblp.org/pid/35/4332-12",
-        "https://dblp.org/pid/45/3365-4",
-        "https://dblp.org/pid/72/7798",
-        "https://dblp.org/pid/90/5885"
-      ],
-      "dois": [
-        "10.1109/tencon.2018.8650305"
-      ],
-      "url": "https://dblp.org/db/conf/tencon/tencon2018#conf/tencon/0004KBDS18",
-      "faculty": [
-        "Manish Kumar 0012",
-        "Sunil Kumar 0004"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "TENCON",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2018
-        }
-      ]
-    },
-    {
-      "key": "conf/tencon/JainUCSR25",
-      "type": "inproceedings",
-      "title": "Functional Connectivity-Driven Diagnosis of ADHD and ASD via Transfer Learning on rs-fMRI Data.",
+      "key": "journals/talip/SharmaNGS25",
+      "type": "article",
+      "title": "Hate Speech Detection Research in South Asian Languages: A Survey of Tasks, Datasets and Methods.",
       "year": 2025,
       "publication_year": 2025,
-      "event_year": 2025,
-      "venue": "TENCON",
-      "booktitle": "TENCON",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1868-1872",
+      "event_year": null,
+      "venue": "ACM Trans. Asian Low Resour. Lang. Inf. Process.",
+      "booktitle": "",
+      "journal": "ACM Trans. Asian Low Resour. Lang. Inf. Process.",
+      "volume": "24",
+      "number": "3",
+      "pages": "25:1-25:44",
       "authors": [
-        "https://dblp.org/pid/115/7719",
-        "https://dblp.org/pid/255/3630",
-        "https://dblp.org/pid/353/0638",
-        "https://dblp.org/pid/365/4749",
-        "https://dblp.org/pid/49/1326-2"
+        "https://dblp.org/pid/00/6451-1",
+        "https://dblp.org/pid/199/4761",
+        "https://dblp.org/pid/344/3139",
+        "https://dblp.org/pid/404/8490"
       ],
       "dois": [
-        "10.1109/tencon66050.2025.11375149"
+        "10.1145/3711710"
       ],
-      "url": "https://dblp.org/db/conf/tencon/tencon2025#conf/tencon/JainUCSR25",
+      "url": "https://dblp.org/db/journals/talip/talip24#journals/talip/SharmaNGS25",
       "faculty": [
-        "Bharti Rana"
+        "Vivek Kumar Singh 0001"
       ],
       "memberships": [
         {
-          "source": "ieee",
-          "venue": "TENCON",
+          "source": "acm",
+          "venue": "ACM Trans. Asian Low Resour. Lang. Inf. Process.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2025
@@ -6706,179 +1616,357 @@
       ]
     },
     {
-      "key": "conf/tencon/Kumar0BDS18",
-      "type": "inproceedings",
-      "title": "Performance evaluation of a new shuffling cipher model with most used chaotic dynamical systems.",
-      "year": 2018,
-      "publication_year": 2018,
-      "event_year": 2018,
-      "venue": "TENCON",
-      "booktitle": "TENCON",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "167-171",
+      "key": "journals/tcss/ChaudharyGSADR24",
+      "type": "article",
+      "title": "A Review of Deep Learning Models for Twitter Sentiment Analysis: Challenges and Opportunities.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Comput. Soc. Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Comput. Soc. Syst.",
+      "volume": "11",
+      "number": "3",
+      "pages": "3550-3579",
       "authors": [
-        "https://dblp.org/pid/195/3304",
-        "https://dblp.org/pid/35/4332-12",
-        "https://dblp.org/pid/45/3365-4",
-        "https://dblp.org/pid/72/7798",
-        "https://dblp.org/pid/90/5885"
+        "https://dblp.org/pid/15/7049",
+        "https://dblp.org/pid/229/7273",
+        "https://dblp.org/pid/232/9197",
+        "https://dblp.org/pid/86/1691",
+        "https://dblp.org/pid/87/4567-5",
+        "https://dblp.org/pid/r/MatthiasRenz"
       ],
       "dois": [
-        "10.1109/tencon.2018.8650471"
+        "10.1109/tcss.2023.3322002"
       ],
-      "url": "https://dblp.org/db/conf/tencon/tencon2018#conf/tencon/Kumar0BDS18",
+      "url": "https://dblp.org/db/journals/tcss/tcss11#journals/tcss/ChaudharyGSADR24",
       "faculty": [
-        "Manish Kumar 0012",
-        "Sunil Kumar 0004"
+        "Deepak Sharma 0005"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "TENCON",
+          "venue": "IEEE Trans. Comput. Soc. Syst.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2018
+          "year": 2024
         }
       ]
     },
     {
-      "key": "conf/uksim/SinghSP13",
-      "type": "inproceedings",
-      "title": "Emergence, Self-Organization and Collective Intelligence - Modeling the Dynamics of Complex Collectives in Social and Organizational Settings.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "UKSim",
-      "booktitle": "UKSim",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "182-189",
+      "key": "journals/tcss/MeenaSS25",
+      "type": "article",
+      "title": "Diversified Budgeted Influence Maximization in Dynamic Social Networks.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": null,
+      "venue": "IEEE Trans. Comput. Soc. Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Comput. Soc. Syst.",
+      "volume": "12",
+      "number": "4",
+      "pages": "1716-1727",
       "authors": [
-        "https://dblp.org/pid/00/6451-1",
-        "https://dblp.org/pid/117/4744",
-        "https://dblp.org/pid/130/8584"
+        "https://dblp.org/pid/148/2028",
+        "https://dblp.org/pid/232/9512",
+        "https://dblp.org/pid/81/4530-3"
       ],
       "dois": [
-        "10.1109/uksim.2013.77"
+        "10.1109/tcss.2024.3473948"
       ],
-      "url": "https://dblp.org/db/conf/uksim/uksim2013#conf/uksim/SinghSP13",
+      "url": "https://dblp.org/db/journals/tcss/tcss12#journals/tcss/MeenaSS25",
+      "faculty": [
+        "Kuldeep Singh 0003"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Comput. Soc. Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "journals/tcss/MeenaSS25a",
+      "type": "article",
+      "title": "Exploring Influence Maximization in Criminal Social Networks to Identify Key Individuals and Patterns.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": null,
+      "venue": "IEEE Trans. Comput. Soc. Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Comput. Soc. Syst.",
+      "volume": "12",
+      "number": "5",
+      "pages": "3478-3487",
+      "authors": [
+        "https://dblp.org/pid/148/2028",
+        "https://dblp.org/pid/232/9512",
+        "https://dblp.org/pid/81/4530-3"
+      ],
+      "dois": [
+        "10.1109/tcss.2025.3571963"
+      ],
+      "url": "https://dblp.org/db/journals/tcss/tcss12#journals/tcss/MeenaSS25a",
+      "faculty": [
+        "Kuldeep Singh 0003"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Comput. Soc. Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "journals/tcss/SinghSS25",
+      "type": "article",
+      "title": "EmoGif: A Multimodal Approach to Detect Emotional Support in Animated GIFs.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": null,
+      "venue": "IEEE Trans. Comput. Soc. Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Comput. Soc. Syst.",
+      "volume": "12",
+      "number": "5",
+      "pages": "3791-3803",
+      "authors": [
+        "https://dblp.org/pid/00/6451-1",
+        "https://dblp.org/pid/257/1439",
+        "https://dblp.org/pid/344/3139"
+      ],
+      "dois": [
+        "10.1109/tcss.2025.3544263"
+      ],
+      "url": "https://dblp.org/db/journals/tcss/tcss12#journals/tcss/SinghSS25",
       "faculty": [
         "Vivek Kumar Singh 0001"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "UKSim",
+          "venue": "IEEE Trans. Comput. Soc. Syst.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2013
+          "year": 2025
         }
       ]
     },
     {
-      "key": "conf/uksim/VermaJGG12",
-      "type": "inproceedings",
-      "title": "Simulation of Enhanced Gate Control in a Double Gate Quantum Domain InAlAs/InGaAs/InP HEMT.",
-      "year": 2012,
-      "publication_year": 2012,
-      "event_year": 2012,
-      "venue": "UKSim",
-      "booktitle": "UKSim",
-      "journal": "",
-      "volume": "",
+      "key": "journals/tem/JainDGRJ24",
+      "type": "article",
+      "title": "Biobjective Optimization Model for Store Selection for BOPS Service in Omni-Channel Retail Chain.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Engineering Management",
+      "booktitle": "",
+      "journal": "IEEE Trans. Engineering Management",
+      "volume": "71",
       "number": "",
-      "pages": "660-664",
+      "pages": "3028-3043",
       "authors": [
-        "https://dblp.org/pid/12/11473-3",
-        "https://dblp.org/pid/17/6238",
-        "https://dblp.org/pid/72/4162",
-        "https://dblp.org/pid/74/8551"
+        "https://dblp.org/pid/10/1926-2",
+        "https://dblp.org/pid/189/7669",
+        "https://dblp.org/pid/86/10278",
+        "https://dblp.org/pid/91/8945",
+        "https://dblp.org/pid/92/9095"
       ],
       "dois": [
-        "10.1109/uksim.2012.101"
+        "10.1109/tem.2022.3194986"
       ],
-      "url": "https://dblp.org/db/conf/uksim/uksim2012#conf/uksim/VermaJGG12",
+      "url": "https://dblp.org/db/journals/tem/tem71#journals/tem/JainDGRJ24",
       "faculty": [
-        "Neha Verma 0003"
+        "P. C. Jha 0001"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "UKSim",
+          "venue": "IEEE Trans. Engineering Management",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2012
+          "year": 2024
         }
       ]
     },
     {
-      "key": "conf/uksim/VermaPJ15",
-      "type": "inproceedings",
-      "title": "Quantum Simulation of a Double Gate Double Heterostructure in AlAs/InGaAs HEMT to Analyze Temperature Effects.",
-      "year": 2015,
-      "publication_year": 2015,
-      "event_year": 2015,
-      "venue": "UKSim",
-      "booktitle": "UKSim",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "582-587",
+      "key": "journals/tem/JainDKRJ22",
+      "type": "article",
+      "title": "Facility Selection Model for BOPS Service for an Omnichannel Retail Chain.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": null,
+      "venue": "IEEE Trans. Engineering Management",
+      "booktitle": "",
+      "journal": "IEEE Trans. Engineering Management",
+      "volume": "69",
+      "number": "6",
+      "pages": "2857-2870",
       "authors": [
-        "https://dblp.org/pid/12/11473-3",
-        "https://dblp.org/pid/192/7407",
-        "https://dblp.org/pid/74/8551"
+        "https://dblp.org/pid/156/2576",
+        "https://dblp.org/pid/189/7669",
+        "https://dblp.org/pid/86/10278",
+        "https://dblp.org/pid/91/8945",
+        "https://dblp.org/pid/92/9095"
       ],
       "dois": [
-        "10.1109/uksim.2015.39"
+        "10.1109/tem.2020.3018912"
       ],
-      "url": "https://dblp.org/db/conf/uksim/uksim2015#conf/uksim/VermaPJ15",
+      "url": "https://dblp.org/db/journals/tem/tem69#journals/tem/JainDKRJ22",
       "faculty": [
-        "Neha Verma 0003"
+        "P. C. Jha 0001"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "UKSim",
+          "venue": "IEEE Trans. Engineering Management",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2015
+          "year": 2022
         }
       ]
     },
     {
-      "key": "conf/vdat/MulayPKG21",
-      "type": "inproceedings",
-      "title": "FPGA based High Frequency Clock Phase Difference Measurement and Correction.",
+      "key": "journals/tem/KumarY24",
+      "type": "article",
+      "title": "A Multiobjective Multiperiod Efficient Portfolio Selection Approach for Positive and Negative Returns Using RDM-DEA Under Credibilistic Framework.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Engineering Management",
+      "booktitle": "",
+      "journal": "IEEE Trans. Engineering Management",
+      "volume": "71",
+      "number": "",
+      "pages": "14114-14125",
+      "authors": [
+        "https://dblp.org/pid/192/1207",
+        "https://dblp.org/pid/30/4308-17"
+      ],
+      "dois": [
+        "10.1109/tem.2024.3437160"
+      ],
+      "url": "https://dblp.org/db/journals/tem/tem71#journals/tem/KumarY24",
+      "faculty": [
+        "Arun Kumar 0017"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Engineering Management",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tem/KumarYGM23",
+      "type": "article",
+      "title": "A Credibilistic Multiobjective Multiperiod Efficient Portfolio Selection Approach Using Data Envelopment Analysis.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": null,
+      "venue": "IEEE Trans. Engineering Management",
+      "booktitle": "",
+      "journal": "IEEE Trans. Engineering Management",
+      "volume": "70",
+      "number": "6",
+      "pages": "2334-2348",
+      "authors": [
+        "https://dblp.org/pid/192/1207",
+        "https://dblp.org/pid/30/4308-17",
+        "https://dblp.org/pid/36/6585",
+        "https://dblp.org/pid/92/4081-1"
+      ],
+      "dois": [
+        "10.1109/tem.2021.3072543"
+      ],
+      "url": "https://dblp.org/db/journals/tem/tem70#journals/tem/KumarYGM23",
+      "faculty": [
+        "Arun Kumar 0017",
+        "Pankaj Gupta 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Engineering Management",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "key": "journals/tfs/GuptaM14",
+      "type": "article",
+      "title": "A New Possibilistic Programming Approach For Solving Fuzzy Multiobjective Assignment Problem.",
+      "year": 2014,
+      "publication_year": 2014,
+      "event_year": null,
+      "venue": "IEEE Trans. Fuzzy Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Fuzzy Syst.",
+      "volume": "22",
+      "number": "1",
+      "pages": "16-34",
+      "authors": [
+        "https://dblp.org/pid/36/6585",
+        "https://dblp.org/pid/92/4081-1"
+      ],
+      "dois": [
+        "10.1109/tfuzz.2013.2245134"
+      ],
+      "url": "https://dblp.org/db/journals/tfs/tfs22#journals/tfs/GuptaM14",
+      "faculty": [
+        "Pankaj Gupta 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Fuzzy Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "journals/tfs/GuptaMKP21",
+      "type": "article",
+      "title": "Sentiment Analysis for Driver Selection in Fuzzy Capacitated Vehicle Routing Problem With Simultaneous Pick-Up and Drop in Shared Transportation.",
       "year": 2021,
       "publication_year": 2021,
-      "event_year": 2021,
-      "venue": "VDAT",
-      "booktitle": "VDAT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-4",
+      "event_year": null,
+      "venue": "IEEE Trans. Fuzzy Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Fuzzy Syst.",
+      "volume": "29",
+      "number": "5",
+      "pages": "1198-1211",
       "authors": [
-        "https://dblp.org/pid/306/6221",
-        "https://dblp.org/pid/306/6673",
-        "https://dblp.org/pid/335/7769",
-        "https://dblp.org/pid/35/4332-12"
+        "https://dblp.org/pid/267/0770",
+        "https://dblp.org/pid/36/6585",
+        "https://dblp.org/pid/92/4081-1",
+        "https://dblp.org/pid/p/WitoldPedrycz"
       ],
       "dois": [
-        "10.1109/vdat53777.2021.9601050"
+        "10.1109/tfuzz.2020.2970834"
       ],
-      "url": "https://dblp.org/db/conf/vdat/vdat2021#conf/vdat/MulayPKG21",
+      "url": "https://dblp.org/db/journals/tfs/tfs29#journals/tfs/GuptaMKP21",
       "faculty": [
-        "Manish Kumar 0012"
+        "Pankaj Gupta 0001"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "VDAT",
+          "venue": "IEEE Trans. Fuzzy Syst.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2021
@@ -6886,71 +1974,294 @@
       ]
     },
     {
-      "key": "conf/vlsid/MuthuramanSKS25",
-      "type": "inproceedings",
-      "title": "An Ensemble MLP-RF Model for the Prediction of DG-MOSFETs: Addressing Fabrication Process Variations.",
-      "year": 2025,
-      "publication_year": 2025,
-      "event_year": 2025,
-      "venue": "VLSID",
-      "booktitle": "VLSID",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "439-444",
+      "key": "journals/tfs/KhanGM24",
+      "type": "article",
+      "title": "A Fuzzy Rule-Based System for Portfolio Selection Using Technical Analysis.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Fuzzy Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Fuzzy Syst.",
+      "volume": "32",
+      "number": "9",
+      "pages": "4861-4875",
       "authors": [
-        "https://dblp.org/pid/115/7003",
-        "https://dblp.org/pid/115/7051",
-        "https://dblp.org/pid/228/1831",
-        "https://dblp.org/pid/400/2552"
+        "https://dblp.org/pid/286/0627",
+        "https://dblp.org/pid/36/6585",
+        "https://dblp.org/pid/92/4081-1"
       ],
       "dois": [
-        "10.1109/vlsid64188.2025.00088"
+        "10.1109/tfuzz.2024.3355515"
       ],
-      "url": "https://dblp.org/db/conf/vlsid/vlsid2025#conf/vlsid/MuthuramanSKS25",
+      "url": "https://dblp.org/db/journals/tfs/tfs32#journals/tfs/KhanGM24",
       "faculty": [
-        "Manoj Saxena"
+        "Pankaj Gupta 0001"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "VLSID",
+          "venue": "IEEE Trans. Fuzzy Syst.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2025
+          "year": 2024
         }
       ]
     },
     {
-      "key": "conf/vlsid/SankarSMJ23",
-      "type": "inproceedings",
-      "title": "Reliability Enhancement of Hardware Trojan Detection using Histogram Augmentation Technique.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "VLSID",
-      "booktitle": "VLSID",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "365-370",
+      "key": "journals/tfs/LiuZG20",
+      "type": "article",
+      "title": "Multiperiod Portfolio Performance Evaluation Model Based on Possibility Theory.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": null,
+      "venue": "IEEE Trans. Fuzzy Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Fuzzy Syst.",
+      "volume": "28",
+      "number": "12",
+      "pages": "3391-3405",
       "authors": [
-        "https://dblp.org/pid/328/1285",
-        "https://dblp.org/pid/330/7768",
-        "https://dblp.org/pid/47/5769",
-        "https://dblp.org/pid/84/4815"
+        "https://dblp.org/pid/31/2020-1",
+        "https://dblp.org/pid/33/301-2",
+        "https://dblp.org/pid/92/4081-1"
       ],
       "dois": [
-        "10.1109/vlsid57277.2023.00079"
+        "10.1109/tfuzz.2019.2952754"
       ],
-      "url": "https://dblp.org/db/conf/vlsid/vlsid2023#conf/vlsid/SankarSMJ23",
+      "url": "https://dblp.org/db/journals/tfs/tfs28#journals/tfs/LiuZG20",
       "faculty": [
-        "M. Jayakumar 0001"
+        "Pankaj Gupta 0001"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "VLSID",
+          "venue": "IEEE Trans. Fuzzy Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "journals/tfs/MehlawatG14",
+      "type": "article",
+      "title": "Fuzzy Chance-Constrained Multiobjective Portfolio Selection Model.",
+      "year": 2014,
+      "publication_year": 2014,
+      "event_year": null,
+      "venue": "IEEE Trans. Fuzzy Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Fuzzy Syst.",
+      "volume": "22",
+      "number": "3",
+      "pages": "653-671",
+      "authors": [
+        "https://dblp.org/pid/36/6585",
+        "https://dblp.org/pid/92/4081-1"
+      ],
+      "dois": [
+        "10.1109/tfuzz.2013.2272479"
+      ],
+      "url": "https://dblp.org/db/journals/tfs/tfs22#journals/tfs/MehlawatG14",
+      "faculty": [
+        "Pankaj Gupta 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Fuzzy Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2014
+        }
+      ]
+    },
+    {
+      "key": "journals/tfs/MehlawatGKP20",
+      "type": "article",
+      "title": "A Hybrid Intelligent Approach to Integrated Fuzzy Multiple Depot Capacitated Green Vehicle Routing Problem With Split Delivery and Vehicle Selection.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": null,
+      "venue": "IEEE Trans. Fuzzy Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Fuzzy Syst.",
+      "volume": "28",
+      "number": "6",
+      "pages": "1155-1166",
+      "authors": [
+        "https://dblp.org/pid/267/0770",
+        "https://dblp.org/pid/36/6585",
+        "https://dblp.org/pid/92/4081-1",
+        "https://dblp.org/pid/p/WitoldPedrycz"
+      ],
+      "dois": [
+        "10.1109/tfuzz.2019.2946110"
+      ],
+      "url": "https://dblp.org/db/journals/tfs/tfs28#journals/tfs/MehlawatGKP20",
+      "faculty": [
+        "Pankaj Gupta 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Fuzzy Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "journals/tfs/MehlawatGKYA20",
+      "type": "article",
+      "title": "Multiobjective Fuzzy Portfolio Performance Evaluation Using Data Envelopment Analysis Under Credibilistic Framework.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": null,
+      "venue": "IEEE Trans. Fuzzy Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Fuzzy Syst.",
+      "volume": "28",
+      "number": "11",
+      "pages": "2726-2737",
+      "authors": [
+        "https://dblp.org/pid/177/6975",
+        "https://dblp.org/pid/192/1207",
+        "https://dblp.org/pid/30/4308-17",
+        "https://dblp.org/pid/36/6585",
+        "https://dblp.org/pid/92/4081-1"
+      ],
+      "dois": [
+        "10.1109/tfuzz.2020.2969406"
+      ],
+      "url": "https://dblp.org/db/journals/tfs/tfs28#journals/tfs/MehlawatGKYA20",
+      "faculty": [
+        "Arun Kumar 0017",
+        "Pankaj Gupta 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Fuzzy Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "journals/tfs/MehlawatGP18",
+      "type": "article",
+      "title": "A New Possibilistic Optimization Model for Multiple Criteria Assignment Problem.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": null,
+      "venue": "IEEE Trans. Fuzzy Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Fuzzy Syst.",
+      "volume": "26",
+      "number": "4",
+      "pages": "1775-1788",
+      "authors": [
+        "https://dblp.org/pid/36/6585",
+        "https://dblp.org/pid/92/4081-1",
+        "https://dblp.org/pid/p/WitoldPedrycz"
+      ],
+      "dois": [
+        "10.1109/tfuzz.2017.2751006"
+      ],
+      "url": "https://dblp.org/db/journals/tfs/tfs26#journals/tfs/MehlawatGP18",
+      "faculty": [
+        "Pankaj Gupta 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Fuzzy Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "journals/tfs/MesiarSGJ18",
+      "type": "article",
+      "title": "Aggregation of OWA Operators.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": null,
+      "venue": "IEEE Trans. Fuzzy Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Fuzzy Syst.",
+      "volume": "26",
+      "number": "1",
+      "pages": "284-291",
+      "authors": [
+        "https://dblp.org/pid/156/0770",
+        "https://dblp.org/pid/175/1127",
+        "https://dblp.org/pid/62/2253",
+        "https://dblp.org/pid/92/4081-1"
+      ],
+      "dois": [
+        "10.1109/tfuzz.2017.2654482"
+      ],
+      "url": "https://dblp.org/db/journals/tfs/tfs26#journals/tfs/MesiarSGJ18",
+      "faculty": [
+        "Pankaj Gupta 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Fuzzy Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "journals/tim/SaxenaKCAASKJSDKKSA23",
+      "type": "article",
+      "title": "Metasurface Instrumented High Gain and Low RCS X-Band Circularly Polarized MIMO Antenna for IoT Over Satellite Application.",
+      "year": 2023,
+      "publication_year": 2023,
+      "event_year": null,
+      "venue": "IEEE Trans. Instrum. Meas.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Instrum. Meas.",
+      "volume": "72",
+      "number": "",
+      "pages": "1-10",
+      "authors": [
+        "https://dblp.org/pid/126/2507",
+        "https://dblp.org/pid/151/6444",
+        "https://dblp.org/pid/183/8664",
+        "https://dblp.org/pid/191/0076",
+        "https://dblp.org/pid/261/2471",
+        "https://dblp.org/pid/28/5706",
+        "https://dblp.org/pid/318/2062",
+        "https://dblp.org/pid/318/2066",
+        "https://dblp.org/pid/342/7191",
+        "https://dblp.org/pid/343/2944",
+        "https://dblp.org/pid/351/7904",
+        "https://dblp.org/pid/351/8002",
+        "https://dblp.org/pid/65/4930",
+        "https://dblp.org/pid/81/3758-4"
+      ],
+      "dois": [
+        "10.1109/tim.2023.3287241"
+      ],
+      "url": "https://dblp.org/db/journals/tim/tim72#journals/tim/SaxenaKCAASKJSDKKSA23",
+      "faculty": [
+        "Himanshu Singh 0004"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Instrum. Meas.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2023
@@ -6958,36 +2269,67 @@
       ]
     },
     {
-      "key": "conf/vlsid/SrivastavaRSSS26",
-      "type": "inproceedings",
-      "title": "Leveraging XAI for Semiconductor Electrical - Parameter Characterization Using Machine Learning.",
-      "year": 2026,
-      "publication_year": 2026,
-      "event_year": 2026,
-      "venue": "VLSID",
-      "booktitle": "VLSID",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "269-274",
+      "key": "journals/tits/Kumar24",
+      "type": "article",
+      "title": "RSFVC: Robust Biometric-Based Secure Framework for Vehicular Cloud Networking.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Intell. Transp. Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Intell. Transp. Syst.",
+      "volume": "25",
+      "number": "5",
+      "pages": "3364-3374",
       "authors": [
-        "https://dblp.org/pid/115/7003",
-        "https://dblp.org/pid/228/1831",
-        "https://dblp.org/pid/431/6163",
-        "https://dblp.org/pid/431/6355",
-        "https://dblp.org/pid/431/6600"
+        "https://dblp.org/pid/26/6904-3"
       ],
       "dois": [
-        "10.1109/vlsid68508.2026.00060"
+        "10.1109/tits.2023.3322960"
       ],
-      "url": "https://dblp.org/db/conf/vlsid/vlsid2026#conf/vlsid/SrivastavaRSSS26",
+      "url": "https://dblp.org/db/journals/tits/tits25#journals/tits/Kumar24",
       "faculty": [
-        "Manoj Saxena"
+        "Vinod Kumar 0003"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "VLSID",
+          "venue": "IEEE Trans. Intell. Transp. Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tkdd/MeenaSS26",
+      "type": "article",
+      "title": "Exploring Influence Maximization: State-of-the-Art Methods, Taxonomies, and Trends.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": null,
+      "venue": "ACM Trans. Knowl. Discov. Data",
+      "booktitle": "",
+      "journal": "ACM Trans. Knowl. Discov. Data",
+      "volume": "20",
+      "number": "2",
+      "pages": "23:1-23:50",
+      "authors": [
+        "https://dblp.org/pid/148/2028",
+        "https://dblp.org/pid/232/9512",
+        "https://dblp.org/pid/81/4530-3"
+      ],
+      "dois": [
+        "10.1145/3779058"
+      ],
+      "url": "https://dblp.org/db/journals/tkdd/tkdd20#journals/tkdd/MeenaSS26",
+      "faculty": [
+        "Kuldeep Singh 0003"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Knowl. Discov. Data",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2026
@@ -6995,177 +2337,69 @@
       ]
     },
     {
-      "key": "conf/wci/BhasinBGG15",
-      "type": "inproceedings",
-      "title": "StegTrack: Tracking images with hidden content.",
-      "year": 2015,
-      "publication_year": 2015,
-      "event_year": 2015,
-      "venue": "WCI",
-      "booktitle": "WCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "318-323",
+      "key": "journals/tkdd/SinghB24",
+      "type": "article",
+      "title": "Mining Top-k High On-shelf Utility Itemsets Using Novel Threshold Raising Strategies.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "ACM Trans. Knowl. Discov. Data",
+      "booktitle": "",
+      "journal": "ACM Trans. Knowl. Discov. Data",
+      "volume": "18",
+      "number": "5",
+      "pages": "131:1-131:23",
       "authors": [
-        "https://dblp.org/pid/136/7821",
-        "https://dblp.org/pid/168/3334",
-        "https://dblp.org/pid/168/3424",
-        "https://dblp.org/pid/25/4147"
+        "https://dblp.org/pid/64/3559",
+        "https://dblp.org/pid/81/4530-3"
       ],
       "dois": [
-        "10.1145/2791405.2791451"
+        "10.1145/3645115"
       ],
-      "url": "https://dblp.org/db/conf/wci/wci2015#conf/wci/BhasinBGG15",
+      "url": "https://dblp.org/db/journals/tkdd/tkdd18#journals/tkdd/SinghB24",
       "faculty": [
-        "Punam Bedi"
+        "Kuldeep Singh 0003"
       ],
       "memberships": [
         {
           "source": "acm",
-          "venue": "WCI",
+          "venue": "ACM Trans. Knowl. Discov. Data",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2015
+          "year": 2024
         }
       ]
     },
     {
-      "key": "conf/wci/JindalDGB15",
-      "type": "inproceedings",
-      "title": "MACO: Modified ACO for reducing travel time in VANETs.",
-      "year": 2015,
-      "publication_year": 2015,
-      "event_year": 2015,
-      "venue": "WCI",
-      "booktitle": "WCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "97-102",
-      "authors": [
-        "https://dblp.org/pid/141/8897",
-        "https://dblp.org/pid/159/4635",
-        "https://dblp.org/pid/159/4689",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1145/2791405.2791476"
-      ],
-      "url": "https://dblp.org/db/conf/wci/wci2015#conf/wci/JindalDGB15",
-      "faculty": [
-        "Punam Bedi",
-        "Vinita Jindal"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "WCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2015
-        }
-      ]
-    },
-    {
-      "key": "conf/wci/SinghalB15",
-      "type": "inproceedings",
-      "title": "Steganography using Cuckoo Optimized Wavelet Coefficients.",
-      "year": 2015,
-      "publication_year": 2015,
-      "event_year": 2015,
-      "venue": "WCI",
-      "booktitle": "WCI",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "365-370",
-      "authors": [
-        "https://dblp.org/pid/144/7783",
-        "https://dblp.org/pid/25/4147"
-      ],
-      "dois": [
-        "10.1145/2791405.2791500"
-      ],
-      "url": "https://dblp.org/db/conf/wci/wci2015#conf/wci/SinghalB15",
-      "faculty": [
-        "Punam Bedi"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "WCI",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2015
-        }
-      ]
-    },
-    {
-      "key": "conf/websci/MahataT015",
-      "type": "inproceedings",
-      "title": "From Chirps to Whistles: Discovering Event-specific Informative Content from Twitter.",
-      "year": 2015,
-      "publication_year": 2015,
-      "event_year": 2015,
-      "venue": "WebSci",
-      "booktitle": "WebSci",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "17:1-17:10",
-      "authors": [
-        "https://dblp.org/pid/00/6451-1",
-        "https://dblp.org/pid/124/7097",
-        "https://dblp.org/pid/61/5980"
-      ],
-      "dois": [
-        "10.1145/2786451.2786476"
-      ],
-      "url": "https://dblp.org/db/conf/websci/websci2015#conf/websci/MahataT015",
-      "faculty": [
-        "Vivek Kumar Singh 0001"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "WebSci",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2015
-        }
-      ]
-    },
-    {
-      "key": "conf/wetice/SharmaSSR23",
-      "type": "inproceedings",
-      "title": "Synergize Multidisciplinary Research via Research Data Management.",
+      "key": "journals/tnse/JainBPK23",
+      "type": "article",
+      "title": "Coupling Fear and Contagion for Modeling Epidemic Dynamics.",
       "year": 2023,
       "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "WETICE",
-      "booktitle": "WETICE",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
+      "event_year": null,
+      "venue": "IEEE Trans. Netw. Sci. Eng.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Netw. Sci. Eng.",
+      "volume": "10",
+      "number": "1",
+      "pages": "20-34",
       "authors": [
-        "https://dblp.org/pid/299/8701",
-        "https://dblp.org/pid/327/1590",
-        "https://dblp.org/pid/87/4567-5",
-        "https://dblp.org/pid/r/MatthiasRenz"
+        "https://dblp.org/pid/18/1460",
+        "https://dblp.org/pid/338/1717",
+        "https://dblp.org/pid/338/2348",
+        "https://dblp.org/pid/74/723"
       ],
       "dois": [
-        "10.1109/wetice57085.2023.10477804"
+        "10.1109/tnse.2022.3187775"
       ],
-      "url": "https://dblp.org/db/conf/wetice/wetice2023#conf/wetice/SharmaSSR23",
+      "url": "https://dblp.org/db/journals/tnse/tnse10#journals/tnse/JainBPK23",
       "faculty": [
-        "Deepak Sharma 0005"
+        "Vasudha Bhatnagar"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "WETICE",
+          "venue": "IEEE Trans. Netw. Sci. Eng.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2023
@@ -7173,75 +2407,287 @@
       ]
     },
     {
-      "key": "conf/wimob/GuptaDWKO13",
-      "type": "inproceedings",
-      "title": "Trust-based Security Protocol against blackhole attacks in opportunistic networks.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "WiMob",
-      "booktitle": "WiMob",
-      "journal": "",
-      "volume": "",
+      "key": "journals/tnse/MeenaSS26",
+      "type": "article",
+      "title": "Achieving Fair Influence Maximization: Integrating Privacy, Diversity, and Temporal Fairness.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": null,
+      "venue": "IEEE Trans. Netw. Sci. Eng.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Netw. Sci. Eng.",
+      "volume": "13",
       "number": "",
-      "pages": "724-729",
+      "pages": "1676-1688",
       "authors": [
-        "https://dblp.org/pid/137/6623",
-        "https://dblp.org/pid/30/4308-13",
-        "https://dblp.org/pid/52/6933",
-        "https://dblp.org/pid/67/176",
-        "https://dblp.org/pid/91/2882"
+        "https://dblp.org/pid/148/2028",
+        "https://dblp.org/pid/232/9512",
+        "https://dblp.org/pid/81/4530-3"
       ],
       "dois": [
-        "10.1109/wimob.2013.6673436"
+        "10.1109/tnse.2025.3598819"
       ],
-      "url": "https://dblp.org/db/conf/wimob/wimob2013#conf/wimob/GuptaDWKO13",
+      "url": "https://dblp.org/db/journals/tnse/tnse13#journals/tnse/MeenaSS26",
       "faculty": [
-        "Arun Kumar 0013"
+        "Kuldeep Singh 0003"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "WiMob",
+          "venue": "IEEE Trans. Netw. Sci. Eng.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2013
+          "year": 2026
         }
       ]
     },
     {
-      "key": "conf/wocn/SarathkrishnaBDJ14",
-      "type": "inproceedings",
-      "title": "Design and analysis of GaN HEMT based LNA with CPW matching.",
-      "year": 2014,
-      "publication_year": 2014,
-      "event_year": 2014,
-      "venue": "WOCN",
-      "booktitle": "WOCN",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-4",
+      "key": "journals/tnse/ThakurKGC22",
+      "type": "article",
+      "title": "Secrecy Analysis of Reconfigurable Underlay Cognitive Radio Networks With SWIPT and Imperfect CSI.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": null,
+      "venue": "IEEE Trans. Netw. Sci. Eng.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Netw. Sci. Eng.",
+      "volume": "9",
+      "number": "1",
+      "pages": "89-97",
       "authors": [
-        "https://dblp.org/pid/153/4341",
-        "https://dblp.org/pid/153/4362",
-        "https://dblp.org/pid/47/5769",
-        "https://dblp.org/pid/84/4815"
+        "https://dblp.org/pid/12/1770-6",
+        "https://dblp.org/pid/299/0666",
+        "https://dblp.org/pid/311/6919",
+        "https://dblp.org/pid/55/3227-4"
       ],
       "dois": [
-        "10.1109/wocn.2014.6923066"
+        "10.1109/tnse.2020.3040531"
       ],
-      "url": "https://dblp.org/db/conf/wocn/wocn2014#conf/wocn/SarathkrishnaBDJ14",
+      "url": "https://dblp.org/db/journals/tnse/tnse9#journals/tnse/ThakurKGC22",
       "faculty": [
-        "M. Jayakumar 0001"
+        "Nitin Gupta 0006"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "WOCN",
+          "venue": "IEEE Trans. Netw. Sci. Eng.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2014
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "journals/tr/KapurPAK12",
+      "type": "article",
+      "title": "Two Dimensional Multi-Release Software Reliability Modeling and Optimal Release Planning.",
+      "year": 2012,
+      "publication_year": 2012,
+      "event_year": null,
+      "venue": "IEEE Trans. Reliab.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Reliab.",
+      "volume": "61",
+      "number": "3",
+      "pages": "758-768",
+      "authors": [
+        "https://dblp.org/pid/14/10037",
+        "https://dblp.org/pid/19/5207",
+        "https://dblp.org/pid/47/11075",
+        "https://dblp.org/pid/71/11074"
+      ],
+      "dois": [
+        "10.1109/tr.2012.2207531"
+      ],
+      "url": "https://dblp.org/db/journals/tr/tr61#journals/tr/KapurPAK12",
+      "faculty": [
+        "Anu G. Aggarwal 0001",
+        "P. K. Kapur 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Reliab.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2012
+        }
+      ]
+    },
+    {
+      "key": "journals/tr/KapurPAY11",
+      "type": "article",
+      "title": "A Unified Approach for Developing Software Reliability Growth Models in the Presence of Imperfect Debugging and Error Generation.",
+      "year": 2011,
+      "publication_year": 2011,
+      "event_year": null,
+      "venue": "IEEE Trans. Reliab.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Reliab.",
+      "volume": "60",
+      "number": "1",
+      "pages": "331-340",
+      "authors": [
+        "https://dblp.org/pid/04/9463",
+        "https://dblp.org/pid/14/10037",
+        "https://dblp.org/pid/19/5207",
+        "https://dblp.org/pid/27/9463"
+      ],
+      "dois": [
+        "10.1109/tr.2010.2103590"
+      ],
+      "url": "https://dblp.org/db/journals/tr/tr60#journals/tr/KapurPAY11",
+      "faculty": [
+        "P. K. Kapur 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Reliab.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2011
+        }
+      ]
+    },
+    {
+      "key": "journals/tsmc/GuptaLMG16",
+      "type": "article",
+      "title": "A New Method for Intuitionistic Fuzzy Multiattribute Decision Making.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": null,
+      "venue": "IEEE Trans. Syst. Man Cybern. Syst.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Syst. Man Cybern. Syst.",
+      "volume": "46",
+      "number": "9",
+      "pages": "1167-1179",
+      "authors": [
+        "https://dblp.org/pid/184/6811",
+        "https://dblp.org/pid/34/1447",
+        "https://dblp.org/pid/36/6585",
+        "https://dblp.org/pid/92/4081-1"
+      ],
+      "dois": [
+        "10.1109/tsmc.2015.2478401"
+      ],
+      "url": "https://dblp.org/db/journals/tsmc/tsmc46#journals/tsmc/GuptaLMG16",
+      "faculty": [
+        "Pankaj Gupta 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Syst. Man Cybern. Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "journals/tvt/DhurandherGN19",
+      "type": "article",
+      "title": "Contract Theory Based Medium Access Contention Resolution in TDMA Cognitive Radio Networks.",
+      "year": 2019,
+      "publication_year": 2019,
+      "event_year": null,
+      "venue": "IEEE Trans. Veh. Technol.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Veh. Technol.",
+      "volume": "68",
+      "number": "8",
+      "pages": "8026-8035",
+      "authors": [
+        "https://dblp.org/pid/12/1770-6",
+        "https://dblp.org/pid/23/1122",
+        "https://dblp.org/pid/52/6933"
+      ],
+      "dois": [
+        "10.1109/tvt.2019.2922478"
+      ],
+      "url": "https://dblp.org/db/journals/tvt/tvt68#journals/tvt/DhurandherGN19",
+      "faculty": [
+        "Nitin Gupta 0006"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Veh. Technol.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "key": "journals/tweb/MeenaSS24",
+      "type": "article",
+      "title": "DCDIMB: Dynamic Community-based Diversified Influence Maximization using Bridge Nodes.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "ACM Trans. Web",
+      "booktitle": "",
+      "journal": "ACM Trans. Web",
+      "volume": "18",
+      "number": "4",
+      "pages": "47:1-47:32",
+      "authors": [
+        "https://dblp.org/pid/148/2028",
+        "https://dblp.org/pid/232/9512",
+        "https://dblp.org/pid/81/4530-3"
+      ],
+      "dois": [
+        "10.1145/3664618"
+      ],
+      "url": "https://dblp.org/db/journals/tweb/tweb18#journals/tweb/MeenaSS24",
+      "faculty": [
+        "Kuldeep Singh 0003"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Web",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "key": "journals/tweb/MeenaSS24a",
+      "type": "article",
+      "title": "Cuckoo Search Optimization-Based Influence Maximization in Dynamic Social Networks.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "ACM Trans. Web",
+      "booktitle": "",
+      "journal": "ACM Trans. Web",
+      "volume": "18",
+      "number": "4",
+      "pages": "49:1-49:25",
+      "authors": [
+        "https://dblp.org/pid/148/2028",
+        "https://dblp.org/pid/232/9512",
+        "https://dblp.org/pid/81/4530-3"
+      ],
+      "dois": [
+        "10.1145/3690644"
+      ],
+      "url": "https://dblp.org/db/journals/tweb/tweb18#journals/tweb/MeenaSS24a",
+      "faculty": [
+        "Kuldeep Singh 0003"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Web",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
         }
       ]
     }

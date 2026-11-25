@@ -13,7 +13,7 @@ npm.cmd run dev
 
 Open http://localhost:5173. The UI includes the generated DBLP snapshots, so year, area, faculty search, sorting, and source selections also work without Flask. Each institute's snapshot is a separate file that loads only when its page is opened. The interface labels this as a bundled snapshot.
 
-Faculty bibliographies show ACM and IEEE journal articles only when the venue is an ACM Transactions or IEEE Transactions title. ACM/IEEE conference papers are unaffected. The rule applies to both the bundled snapshot and API response; it does not change aggregate CSRankings or CORE counts.
+IEEE Trans. and ACM Trans. are the source names throughout rankings, comparisons, institute pages, and faculty bibliographies. They count only articles published in IEEE Transactions or ACM Transactions journals; IEEE/ACM conference papers do not receive those source memberships. A paper may still count under CSRankings or CORE if it independently qualifies there.
 
 To use the API, in a second terminal:
 
@@ -90,7 +90,7 @@ Run `python backend/scripts/audit_core_counts.py` after rebuilding. It writes `i
 
 ## IEEE and ACM extension
 
-The IEEE and ACM sources count main-conference papers of any length whose DBLP DOI has the publisher prefix 10.1109 (IEEE) or 10.1145 (ACM). Journal articles and satellite proceedings are excluded: workshops (including DBLP volumes such as CCGridW filed as `<conf><year>w`), companion and adjunct volumes, extended abstracts, posters, demos, doctoral symposia, and co-located events named `X@Y`. Papers in a CSRankings area keep that area; all others appear under Other IEEE/ACM areas. Overlapping papers in a union count once.
+The IEEE Trans. and ACM Trans. sources count articles in IEEE Transactions and ACM Transactions journals, respectively. Their source memberships are based on the DBLP journal title, not a publisher DOI prefix. IEEE/ACM conference proceedings, other journals, and satellite tracks are excluded from these source counts. Papers in a CSRankings area keep that area; other Transactions articles appear under Other IEEE/ACM areas. Overlapping papers in a union count once.
 
 ## Generated artifacts and API
 

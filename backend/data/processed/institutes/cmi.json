@@ -5,7 +5,7 @@
     "slug": "cmi",
     "homepage": "https://www.cmi.ac.in",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-11-19T18:00:30.935307+00:00",
+    "generated_at": "2026-11-25T13:31:03.300156+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -661,78 +661,6 @@
           "area": "acl",
           "domain": "Natural language processing",
           "year": 2020
-        }
-      ]
-    },
-    {
-      "key": "conf/acsd/AbdullaAAMR18",
-      "type": "inproceedings",
-      "title": "Complexity of Reachability for Data-Aware Dynamic Systems.",
-      "year": 2018,
-      "publication_year": 2018,
-      "event_year": 2018,
-      "venue": "ACSD",
-      "booktitle": "ACSD",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "11-20",
-      "authors": [
-        "https://dblp.org/pid/42/4028",
-        "https://dblp.org/pid/71/10243",
-        "https://dblp.org/pid/85/1455",
-        "https://dblp.org/pid/90/6616",
-        "https://dblp.org/pid/a/PAAbdulla"
-      ],
-      "dois": [
-        "10.1109/acsd.2018.000-3"
-      ],
-      "url": "https://dblp.org/db/conf/acsd/acsd2018#conf/acsd/AbdullaAAMR18",
-      "faculty": [
-        "C. Aiswarya"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ACSD",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2018
-        }
-      ]
-    },
-    {
-      "key": "conf/acsd/AkshayHM14",
-      "type": "inproceedings",
-      "title": "Sessions with an Unbounded Number of Agents.",
-      "year": 2014,
-      "publication_year": 2014,
-      "event_year": 2014,
-      "venue": "ACSD",
-      "booktitle": "ACSD",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "166-175",
-      "authors": [
-        "https://dblp.org/pid/28/6534",
-        "https://dblp.org/pid/53/2323",
-        "https://dblp.org/pid/h/LoicHelouet"
-      ],
-      "dois": [
-        "10.1109/acsd.2014.16"
-      ],
-      "url": "https://dblp.org/db/conf/acsd/acsd2014#conf/acsd/AkshayHM14",
-      "faculty": [
-        "Madhavan Mukund"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ACSD",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2014
         }
       ]
     },
@@ -1749,13 +1677,6 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2013
-        },
-        {
-          "source": "ieee",
-          "venue": "CCC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
         }
       ]
     },
@@ -1791,13 +1712,6 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2013
-        },
-        {
-          "source": "ieee",
-          "venue": "CCC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
         }
       ]
     },
@@ -1832,13 +1746,6 @@
           "venue": "CCC",
           "area": "core-other",
           "domain": "Other CORE areas",
-          "year": 1997
-        },
-        {
-          "source": "ieee",
-          "venue": "CCC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
           "year": 1997
         }
       ]
@@ -1877,13 +1784,6 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2006
-        },
-        {
-          "source": "ieee",
-          "venue": "CCC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2006
         }
       ]
     },
@@ -1918,13 +1818,6 @@
           "venue": "CCC",
           "area": "core-other",
           "domain": "Other CORE areas",
-          "year": 2005
-        },
-        {
-          "source": "ieee",
-          "venue": "CCC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
           "year": 2005
         }
       ]
@@ -1961,13 +1854,6 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2008
-        },
-        {
-          "source": "ieee",
-          "venue": "CCC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2008
         }
       ]
     },
@@ -2000,13 +1886,6 @@
           "venue": "CCC",
           "area": "core-other",
           "domain": "Other CORE areas",
-          "year": 2005
-        },
-        {
-          "source": "ieee",
-          "venue": "CCC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
           "year": 2005
         }
       ]
@@ -2043,13 +1922,6 @@
           "venue": "CCC",
           "area": "core-other",
           "domain": "Other CORE areas",
-          "year": 2012
-        },
-        {
-          "source": "ieee",
-          "venue": "CCC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
           "year": 2012
         }
       ]
@@ -2089,48 +1961,6 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2009
-        },
-        {
-          "source": "ieee",
-          "venue": "CCC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2009
-        }
-      ]
-    },
-    {
-      "key": "conf/coco/SalujaST92",
-      "type": "inproceedings",
-      "title": "Descriptive Complexity of #P Functions.",
-      "year": 1992,
-      "publication_year": 1992,
-      "event_year": 1992,
-      "venue": "SCT",
-      "booktitle": "SCT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "169-184",
-      "authors": [
-        "https://dblp.org/pid/44/6271",
-        "https://dblp.org/pid/53/6952",
-        "https://dblp.org/pid/74/4799"
-      ],
-      "dois": [
-        "10.1109/sct.1992.215392"
-      ],
-      "url": "https://dblp.org/db/conf/coco/coco92#conf/coco/SalujaST92",
-      "faculty": [
-        "K. V. Subrahmanyam 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "SCT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 1992
         }
       ]
     },
@@ -2165,78 +1995,6 @@
           "venue": "COLT",
           "area": "core-other",
           "domain": "Other CORE areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/comad/KamathD0B22",
-      "type": "inproceedings",
-      "title": "Universalization of Any Adversarial Attack using Very Few Test Examples.",
-      "year": 2022,
-      "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "COMAD/CODS",
-      "booktitle": "COMAD/CODS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "72-80",
-      "authors": [
-        "https://dblp.org/pid/259/2875",
-        "https://dblp.org/pid/28/6953-1",
-        "https://dblp.org/pid/44/6271",
-        "https://dblp.org/pid/88/4691"
-      ],
-      "dois": [
-        "10.1145/3493700.3493718"
-      ],
-      "url": "https://dblp.org/db/conf/comad/comad2022#conf/comad/KamathD0B22",
-      "faculty": [
-        "K. V. Subrahmanyam 0001"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "COMAD/CODS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "conf/comped/GarciaGMS23",
-      "type": "inproceedings",
-      "title": "Best Practices for Developing Computational Thinking.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "CompEd (2)",
-      "booktitle": "CompEd (2)",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "183-184",
-      "authors": [
-        "https://dblp.org/pid/14/10607",
-        "https://dblp.org/pid/328/0227",
-        "https://dblp.org/pid/53/2323",
-        "https://dblp.org/pid/94/1159"
-      ],
-      "dois": [
-        "10.1145/3617650.3624926"
-      ],
-      "url": "https://dblp.org/db/conf/comped/comped2023-2#conf/comped/GarciaGMS23",
-      "faculty": [
-        "Madhavan Mukund"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "CompEd",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
           "year": 2023
         }
       ]
@@ -3213,13 +2971,6 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2024
-        },
-        {
-          "source": "ieee",
-          "venue": "CSF",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2024
         }
       ]
     },
@@ -3258,13 +3009,6 @@
           "area": "lics",
           "domain": "Logic & verification",
           "source": "csrankings"
-        },
-        {
-          "source": "acm",
-          "venue": "CSL-LICS",
-          "area": "lics",
-          "domain": "Logic & verification",
-          "year": 2014
         }
       ]
     },
@@ -3300,13 +3044,6 @@
           "area": "lics",
           "domain": "Logic & verification",
           "source": "csrankings"
-        },
-        {
-          "source": "acm",
-          "venue": "CSL-LICS",
-          "area": "lics",
-          "domain": "Logic & verification",
-          "year": 2014
         }
       ]
     },
@@ -3834,13 +3571,6 @@
           "area": "focs",
           "domain": "Algorithms & complexity",
           "year": 2013
-        },
-        {
-          "source": "ieee",
-          "venue": "FOCS",
-          "area": "focs",
-          "domain": "Algorithms & complexity",
-          "year": 2013
         }
       ]
     },
@@ -3879,13 +3609,6 @@
         },
         {
           "source": "core-a-star",
-          "venue": "FOCS",
-          "area": "focs",
-          "domain": "Algorithms & complexity",
-          "year": 2024
-        },
-        {
-          "source": "ieee",
           "venue": "FOCS",
           "area": "focs",
           "domain": "Algorithms & complexity",
@@ -3932,13 +3655,6 @@
           "area": "focs",
           "domain": "Algorithms & complexity",
           "year": 2011
-        },
-        {
-          "source": "ieee",
-          "venue": "FOCS",
-          "area": "focs",
-          "domain": "Algorithms & complexity",
-          "year": 2011
         }
       ]
     },
@@ -3977,13 +3693,6 @@
         },
         {
           "source": "core-a-star",
-          "venue": "FOCS",
-          "area": "focs",
-          "domain": "Algorithms & complexity",
-          "year": 1993
-        },
-        {
-          "source": "ieee",
           "venue": "FOCS",
           "area": "focs",
           "domain": "Algorithms & complexity",
@@ -4030,13 +3739,6 @@
           "area": "focs",
           "domain": "Algorithms & complexity",
           "year": 2023
-        },
-        {
-          "source": "ieee",
-          "venue": "FOCS",
-          "area": "focs",
-          "domain": "Algorithms & complexity",
-          "year": 2023
         }
       ]
     },
@@ -4075,13 +3777,6 @@
         },
         {
           "source": "core-a-star",
-          "venue": "FOCS",
-          "area": "focs",
-          "domain": "Algorithms & complexity",
-          "year": 2010
-        },
-        {
-          "source": "ieee",
           "venue": "FOCS",
           "area": "focs",
           "domain": "Algorithms & complexity",
@@ -4194,41 +3889,6 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2025
-        }
-      ]
-    },
-    {
-      "key": "conf/hicss/NaikBD05",
-      "type": "inproceedings",
-      "title": "Distributed Sleep-Scheduling Protocols for Energy Conservation in Wireless Networks.",
-      "year": 2005,
-      "publication_year": 2005,
-      "event_year": 2005,
-      "venue": "HICSS",
-      "booktitle": "HICSS",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "",
-      "authors": [
-        "https://dblp.org/pid/13/7447-2",
-        "https://dblp.org/pid/71/4016",
-        "https://dblp.org/pid/74/1407"
-      ],
-      "dois": [
-        "10.1109/hicss.2005.207"
-      ],
-      "url": "https://dblp.org/db/conf/hicss/hicss2005#conf/hicss/NaikBD05",
-      "faculty": [
-        "Samir Datta"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "HICSS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2005
         }
       ]
     },
@@ -5169,41 +4829,6 @@
       ]
     },
     {
-      "key": "conf/icassp/SaonGC23",
-      "type": "inproceedings",
-      "title": "Diagonal State Space Augmented Transformers for Speech Recognition.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "ICASSP",
-      "booktitle": "ICASSP",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-5",
-      "authors": [
-        "https://dblp.org/pid/52/6787",
-        "https://dblp.org/pid/61/362",
-        "https://dblp.org/pid/65/2886-1"
-      ],
-      "dois": [
-        "10.1109/icassp49357.2023.10096271"
-      ],
-      "url": "https://dblp.org/db/conf/icassp/icassp2023#conf/icassp/SaonGC23",
-      "faculty": [
-        "Ankit Gupta 0001"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICASSP",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
       "key": "conf/icdcs/SundaramG26",
       "type": "inproceedings",
       "title": "Minimizing Qubit Overhead in Error-Aware Distributed Quantum Computing.",
@@ -5234,53 +4859,6 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2026
-        },
-        {
-          "source": "ieee",
-          "venue": "ICDCS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2026
-        }
-      ]
-    },
-    {
-      "key": "conf/icfhr/CabreraCFBMCAP16",
-      "type": "inproceedings",
-      "title": "Multiple Generation of Bengali Static Signatures.",
-      "year": 2016,
-      "publication_year": 2016,
-      "event_year": 2016,
-      "venue": "ICFHR",
-      "booktitle": "ICFHR",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "42-47",
-      "authors": [
-        "https://dblp.org/pid/06/453",
-        "https://dblp.org/pid/08/4625-2",
-        "https://dblp.org/pid/193/4958",
-        "https://dblp.org/pid/193/4962",
-        "https://dblp.org/pid/226/7379",
-        "https://dblp.org/pid/76/7430",
-        "https://dblp.org/pid/f/MiguelAFerrer",
-        "https://dblp.org/pid/p/UmapadaPal"
-      ],
-      "dois": [
-        "10.1109/icfhr.2016.0021"
-      ],
-      "url": "https://dblp.org/db/conf/icfhr/icfhr2016#conf/icfhr/CabreraCFBMCAP16",
-      "faculty": [
-        "Anirban Majumdar 0002"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICFHR",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2016
         }
       ]
     },
@@ -5593,49 +5171,6 @@
           "area": "icra",
           "domain": "Robotics",
           "year": 2024
-        },
-        {
-          "source": "ieee",
-          "venue": "ICRA",
-          "area": "icra",
-          "domain": "Robotics",
-          "year": 2024
-        }
-      ]
-    },
-    {
-      "key": "conf/icse/AnilPMV20",
-      "type": "inproceedings",
-      "title": "Using hypersafety verification for proving correctness of programming assignments.",
-      "year": 2020,
-      "publication_year": 2020,
-      "event_year": 2020,
-      "venue": "ICSE (NIER)",
-      "booktitle": "ICSE (NIER)",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "81-84",
-      "authors": [
-        "https://dblp.org/pid/134/8956",
-        "https://dblp.org/pid/206/6798-1",
-        "https://dblp.org/pid/274/7546",
-        "https://dblp.org/pid/77/2661-1"
-      ],
-      "dois": [
-        "10.1145/3377816.3381747"
-      ],
-      "url": "https://dblp.org/db/conf/icse/nier2020#conf/icse/AnilPMV20",
-      "faculty": [
-        "Sumanth Prabhu S"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "ICSE (NIER)",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2020
         }
       ]
     },
@@ -5676,13 +5211,6 @@
         },
         {
           "source": "core-a-star",
-          "venue": "ICSE",
-          "area": "icse",
-          "domain": "Software engineering",
-          "year": 2022
-        },
-        {
-          "source": "acm",
           "venue": "ICSE",
           "area": "icse",
           "domain": "Software engineering",
@@ -6363,13 +5891,6 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2013
-        },
-        {
-          "source": "acm",
-          "venue": "ITCS",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
         }
       ]
     },
@@ -6718,40 +6239,6 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2024
-        }
-      ]
-    },
-    {
-      "key": "conf/ipccc/BiswasD04",
-      "type": "inproceedings",
-      "title": "Reducing overhearing energy in 802.11 networks by low-power interface idling.",
-      "year": 2004,
-      "publication_year": 2004,
-      "event_year": 2004,
-      "venue": "IPCCC",
-      "booktitle": "IPCCC",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "695-700",
-      "authors": [
-        "https://dblp.org/pid/13/7447-2",
-        "https://dblp.org/pid/71/4016"
-      ],
-      "dois": [
-        "10.1109/pccc.2004.1395157"
-      ],
-      "url": "https://dblp.org/db/conf/ipccc/ipccc2004#conf/ipccc/BiswasD04",
-      "faculty": [
-        "Samir Datta"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "IPCCC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2004
         }
       ]
     },
@@ -7150,13 +6637,6 @@
           "area": "lics",
           "domain": "Logic & verification",
           "year": 2022
-        },
-        {
-          "source": "acm",
-          "venue": "LICS",
-          "area": "lics",
-          "domain": "Logic & verification",
-          "year": 2022
         }
       ]
     },
@@ -7199,13 +6679,6 @@
           "area": "lics",
           "domain": "Logic & verification",
           "year": 2016
-        },
-        {
-          "source": "acm",
-          "venue": "LICS",
-          "area": "lics",
-          "domain": "Logic & verification",
-          "year": 2016
         }
       ]
     },
@@ -7244,13 +6717,6 @@
         },
         {
           "source": "core-a-star",
-          "venue": "LICS",
-          "area": "lics",
-          "domain": "Logic & verification",
-          "year": 2022
-        },
-        {
-          "source": "acm",
           "venue": "LICS",
           "area": "lics",
           "domain": "Logic & verification",
@@ -7300,13 +6766,6 @@
           "area": "lics",
           "domain": "Logic & verification",
           "year": 2016
-        },
-        {
-          "source": "acm",
-          "venue": "LICS",
-          "area": "lics",
-          "domain": "Logic & verification",
-          "year": 2016
         }
       ]
     },
@@ -7346,13 +6805,6 @@
         },
         {
           "source": "core-a-star",
-          "venue": "LICS",
-          "area": "lics",
-          "domain": "Logic & verification",
-          "year": 2022
-        },
-        {
-          "source": "acm",
           "venue": "LICS",
           "area": "lics",
           "domain": "Logic & verification",
@@ -7444,13 +6896,6 @@
           "area": "lics",
           "domain": "Logic & verification",
           "year": 2013
-        },
-        {
-          "source": "ieee",
-          "venue": "LICS",
-          "area": "lics",
-          "domain": "Logic & verification",
-          "year": 2013
         }
       ]
     },
@@ -7488,13 +6933,6 @@
         },
         {
           "source": "core-a-star",
-          "venue": "LICS",
-          "area": "lics",
-          "domain": "Logic & verification",
-          "year": 2018
-        },
-        {
-          "source": "acm",
           "venue": "LICS",
           "area": "lics",
           "domain": "Logic & verification",
@@ -7537,13 +6975,6 @@
         },
         {
           "source": "core-a-star",
-          "venue": "LICS",
-          "area": "lics",
-          "domain": "Logic & verification",
-          "year": 2012
-        },
-        {
-          "source": "ieee",
           "venue": "LICS",
           "area": "lics",
           "domain": "Logic & verification",
@@ -8716,54 +8147,6 @@
       ]
     },
     {
-      "key": "conf/ococosda/KumarASKPKPQPMK13",
-      "type": "inproceedings",
-      "title": "Seamless integration of common framework Indian language TTSes in various applications.",
-      "year": 2013,
-      "publication_year": 2013,
-      "event_year": 2013,
-      "venue": "O-COCOSDA/CASLRE",
-      "booktitle": "O-COCOSDA/CASLRE",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1-6",
-      "authors": [
-        "https://dblp.org/pid/168/8587",
-        "https://dblp.org/pid/196/6087",
-        "https://dblp.org/pid/196/6117",
-        "https://dblp.org/pid/196/6186",
-        "https://dblp.org/pid/196/6206",
-        "https://dblp.org/pid/196/6214",
-        "https://dblp.org/pid/196/6215",
-        "https://dblp.org/pid/196/6273",
-        "https://dblp.org/pid/196/6281",
-        "https://dblp.org/pid/196/6285",
-        "https://dblp.org/pid/196/6286",
-        "https://dblp.org/pid/196/6295",
-        "https://dblp.org/pid/196/6304",
-        "https://dblp.org/pid/38/5502",
-        "https://dblp.org/pid/43/2065",
-        "https://dblp.org/pid/81/2295"
-      ],
-      "dois": [
-        "10.1109/icsda.2013.6709873"
-      ],
-      "url": "https://dblp.org/db/conf/ococosda/ococosda2013#conf/ococosda/KumarASKPKPQPMK13",
-      "faculty": [
-        "M. Praveen"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "O-COCOSDA/CASLRE",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2013
-        }
-      ]
-    },
-    {
       "key": "conf/pkdd/Boing0MN20",
       "type": "inproceedings",
       "title": "Quality Guarantees for Autoencoders via Unsupervised Adversarial Attacks.",
@@ -8839,13 +8222,6 @@
           "area": "pldi",
           "domain": "Programming languages",
           "year": 2021
-        },
-        {
-          "source": "acm",
-          "venue": "PLDI",
-          "area": "pldi",
-          "domain": "Programming languages",
-          "year": 2021
         }
       ]
     },
@@ -8880,13 +8256,6 @@
           "venue": "PODC",
           "area": "core-other",
           "domain": "Other CORE areas",
-          "year": 2024
-        },
-        {
-          "source": "acm",
-          "venue": "PODC",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
           "year": 2024
         }
       ]
@@ -8927,13 +8296,6 @@
         },
         {
           "source": "core-a-star",
-          "venue": "PODS",
-          "area": "pods",
-          "domain": "Databases",
-          "year": 2019
-        },
-        {
-          "source": "acm",
           "venue": "PODS",
           "area": "pods",
           "domain": "Databases",
@@ -8982,13 +8344,6 @@
           "area": "pods",
           "domain": "Databases",
           "year": 2016
-        },
-        {
-          "source": "acm",
-          "venue": "PODS",
-          "area": "pods",
-          "domain": "Databases",
-          "year": 2016
         }
       ]
     },
@@ -9027,13 +8382,6 @@
         },
         {
           "source": "core-a-star",
-          "venue": "PODS",
-          "area": "pods",
-          "domain": "Databases",
-          "year": 2022
-        },
-        {
-          "source": "acm",
           "venue": "PODS",
           "area": "pods",
           "domain": "Databases",
@@ -9080,13 +8428,6 @@
           "area": "pods",
           "domain": "Databases",
           "year": 2021
-        },
-        {
-          "source": "acm",
-          "venue": "PODS",
-          "area": "pods",
-          "domain": "Databases",
-          "year": 2021
         }
       ]
     },
@@ -9129,254 +8470,6 @@
           "area": "pods",
           "domain": "Databases",
           "year": 2015
-        },
-        {
-          "source": "acm",
-          "venue": "PODS",
-          "area": "pods",
-          "domain": "Databases",
-          "year": 2015
-        }
-      ]
-    },
-    {
-      "key": "conf/qce/SundaramG24",
-      "type": "inproceedings",
-      "title": "Optimized Generation of Entanglement by Real-Time Ordering of Swapping Operations.",
-      "year": 2024,
-      "publication_year": 2024,
-      "event_year": 2024,
-      "venue": "QCE",
-      "booktitle": "QCE",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1973-1979",
-      "authors": [
-        "https://dblp.org/pid/264/5077",
-        "https://dblp.org/pid/g/HimanshuGupta"
-      ],
-      "dois": [
-        "10.1109/qce60285.2024.00228"
-      ],
-      "url": "https://dblp.org/db/conf/qce/qce2024#conf/qce/SundaramG24",
-      "faculty": [
-        "Ranjani G. Sundaram"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "QCE",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2024
-        }
-      ]
-    },
-    {
-      "key": "conf/qce/SundaramGR22",
-      "type": "inproceedings",
-      "title": "Distribution of Quantum Circuits Over General Quantum Networks.",
-      "year": 2022,
-      "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "QCE",
-      "booktitle": "QCE",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "415-425",
-      "authors": [
-        "https://dblp.org/pid/264/5077",
-        "https://dblp.org/pid/g/HimanshuGupta",
-        "https://dblp.org/pid/r/CRRamakrishnan"
-      ],
-      "dois": [
-        "10.1109/qce53715.2022.00063"
-      ],
-      "url": "https://dblp.org/db/conf/qce/qce2022#conf/qce/SundaramGR22",
-      "faculty": [
-        "Ranjani G. Sundaram"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "QCE",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "conf/qce/SundaramGR24",
-      "type": "inproceedings",
-      "title": "Distributing Quantum Circuits with Minimum Circuit Execution Time over Quantum Networks.",
-      "year": 2024,
-      "publication_year": 2024,
-      "event_year": 2024,
-      "venue": "QCE",
-      "booktitle": "QCE",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1938-1948",
-      "authors": [
-        "https://dblp.org/pid/264/5077",
-        "https://dblp.org/pid/g/HimanshuGupta",
-        "https://dblp.org/pid/r/CRRamakrishnan"
-      ],
-      "dois": [
-        "10.1109/qce60285.2024.00224"
-      ],
-      "url": "https://dblp.org/db/conf/qce/qce2024#conf/qce/SundaramGR24",
-      "faculty": [
-        "Ranjani G. Sundaram"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "QCE",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2024
-        }
-      ]
-    },
-    {
-      "key": "conf/qce/YangSG25",
-      "type": "inproceedings",
-      "title": "Efficient Execution of Multiple Quantum Circuits Over a Quantum Network.",
-      "year": 2025,
-      "publication_year": 2025,
-      "event_year": 2025,
-      "venue": "QCE",
-      "booktitle": "QCE",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "1123-1133",
-      "authors": [
-        "https://dblp.org/pid/234/4164",
-        "https://dblp.org/pid/264/5077",
-        "https://dblp.org/pid/g/HimanshuGupta"
-      ],
-      "dois": [
-        "10.1109/qce65121.2025.00126"
-      ],
-      "url": "https://dblp.org/db/conf/qce/qce2025#conf/qce/YangSG25",
-      "faculty": [
-        "Ranjani G. Sundaram"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "QCE",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2025
-        }
-      ]
-    },
-    {
-      "key": "conf/qsw/SundaramG23",
-      "type": "inproceedings",
-      "title": "Distributing Quantum Circuits Using Teleportations.",
-      "year": 2023,
-      "publication_year": 2023,
-      "event_year": 2023,
-      "venue": "QSW",
-      "booktitle": "QSW",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "186-192",
-      "authors": [
-        "https://dblp.org/pid/264/5077",
-        "https://dblp.org/pid/g/HimanshuGupta"
-      ],
-      "dois": [
-        "10.1109/qsw59989.2023.00030"
-      ],
-      "url": "https://dblp.org/db/conf/qsw/qsw2023#conf/qsw/SundaramG23",
-      "faculty": [
-        "Ranjani G. Sundaram"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "QSW",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2023
-        }
-      ]
-    },
-    {
-      "key": "conf/sefm/BhatejaM08",
-      "type": "inproceedings",
-      "title": "Tagging Make Local Testing of Message-Passing Systems Feasible.",
-      "year": 2008,
-      "publication_year": 2008,
-      "event_year": 2008,
-      "venue": "SEFM",
-      "booktitle": "SEFM",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "171-180",
-      "authors": [
-        "https://dblp.org/pid/53/2323",
-        "https://dblp.org/pid/67/295"
-      ],
-      "dois": [
-        "10.1109/sefm.2008.33"
-      ],
-      "url": "https://dblp.org/db/conf/sefm/sefm2008#conf/sefm/BhatejaM08",
-      "faculty": [
-        "Madhavan Mukund"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "SEFM",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2008
-        }
-      ]
-    },
-    {
-      "key": "conf/sefm/ChandrasekaranM09",
-      "type": "inproceedings",
-      "title": "Specifying Interacting Components with Coordinated Concurrent Scenarios.",
-      "year": 2009,
-      "publication_year": 2009,
-      "event_year": 2009,
-      "venue": "SEFM",
-      "booktitle": "SEFM",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "61-69",
-      "authors": [
-        "https://dblp.org/pid/53/2323",
-        "https://dblp.org/pid/92/1223"
-      ],
-      "dois": [
-        "10.1109/sefm.2009.18"
-      ],
-      "url": "https://dblp.org/db/conf/sefm/sefm2009#conf/sefm/ChandrasekaranM09",
-      "faculty": [
-        "Madhavan Mukund"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "SEFM",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2009
         }
       ]
     },
@@ -9417,13 +8510,6 @@
         },
         {
           "source": "core-a-star",
-          "venue": "EC",
-          "area": "ec",
-          "domain": "Economics & computation",
-          "year": 2025
-        },
-        {
-          "source": "acm",
           "venue": "EC",
           "area": "ec",
           "domain": "Economics & computation",
@@ -9808,42 +8894,6 @@
           "area": "soda",
           "domain": "Algorithms & complexity",
           "year": 2021
-        }
-      ]
-    },
-    {
-      "key": "conf/spaa/CoyCMM24",
-      "type": "inproceedings",
-      "title": "Log Diameter Rounds MST Verification and Sensitivity in MPC.",
-      "year": 2024,
-      "publication_year": 2024,
-      "event_year": 2024,
-      "venue": "SPAA",
-      "booktitle": "SPAA",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "269-280",
-      "authors": [
-        "https://dblp.org/pid/159/2023",
-        "https://dblp.org/pid/172/4993",
-        "https://dblp.org/pid/299/1917",
-        "https://dblp.org/pid/c/ArturCzumaj"
-      ],
-      "dois": [
-        "10.1145/3626183.3659984"
-      ],
-      "url": "https://dblp.org/db/conf/spaa/spaa2024#conf/spaa/CoyCMM24",
-      "faculty": [
-        "Anish Mukherjee 0001"
-      ],
-      "memberships": [
-        {
-          "source": "acm",
-          "venue": "SPAA",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2024
         }
       ]
     },
@@ -10460,13 +9510,6 @@
           "area": "stoc",
           "domain": "Algorithms & complexity",
           "year": 2025
-        },
-        {
-          "source": "acm",
-          "venue": "STOC",
-          "area": "stoc",
-          "domain": "Algorithms & complexity",
-          "year": 2025
         }
       ]
     },
@@ -10505,13 +9548,6 @@
         },
         {
           "source": "core-a-star",
-          "venue": "STOC",
-          "area": "stoc",
-          "domain": "Algorithms & complexity",
-          "year": 2024
-        },
-        {
-          "source": "acm",
           "venue": "STOC",
           "area": "stoc",
           "domain": "Algorithms & complexity",
@@ -10555,13 +9591,6 @@
         },
         {
           "source": "core-a-star",
-          "venue": "STOC",
-          "area": "stoc",
-          "domain": "Algorithms & complexity",
-          "year": 2017
-        },
-        {
-          "source": "acm",
           "venue": "STOC",
           "area": "stoc",
           "domain": "Algorithms & complexity",
@@ -10610,13 +9639,6 @@
           "area": "stoc",
           "domain": "Algorithms & complexity",
           "year": 2026
-        },
-        {
-          "source": "acm",
-          "venue": "STOC",
-          "area": "stoc",
-          "domain": "Algorithms & complexity",
-          "year": 2026
         }
       ]
     },
@@ -10655,13 +9677,6 @@
         },
         {
           "source": "core-a-star",
-          "venue": "STOC",
-          "area": "stoc",
-          "domain": "Algorithms & complexity",
-          "year": 2021
-        },
-        {
-          "source": "acm",
           "venue": "STOC",
           "area": "stoc",
           "domain": "Algorithms & complexity",
@@ -10708,13 +9723,6 @@
           "area": "stoc",
           "domain": "Algorithms & complexity",
           "year": 2012
-        },
-        {
-          "source": "acm",
-          "venue": "STOC",
-          "area": "stoc",
-          "domain": "Algorithms & complexity",
-          "year": 2012
         }
       ]
     },
@@ -10753,13 +9761,6 @@
         },
         {
           "source": "core-a-star",
-          "venue": "STOC",
-          "area": "stoc",
-          "domain": "Algorithms & complexity",
-          "year": 2022
-        },
-        {
-          "source": "acm",
           "venue": "STOC",
           "area": "stoc",
           "domain": "Algorithms & complexity",
@@ -10807,13 +9808,6 @@
           "area": "stoc",
           "domain": "Algorithms & complexity",
           "year": 2010
-        },
-        {
-          "source": "acm",
-          "venue": "STOC",
-          "area": "stoc",
-          "domain": "Algorithms & complexity",
-          "year": 2010
         }
       ]
     },
@@ -10852,13 +9846,6 @@
         },
         {
           "source": "core-a-star",
-          "venue": "STOC",
-          "area": "stoc",
-          "domain": "Algorithms & complexity",
-          "year": 2011
-        },
-        {
-          "source": "acm",
           "venue": "STOC",
           "area": "stoc",
           "domain": "Algorithms & complexity",
@@ -11193,13 +10180,6 @@
           "area": "core-other",
           "domain": "Other CORE areas",
           "year": 2007
-        },
-        {
-          "source": "acm",
-          "venue": "TARK",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2007
         }
       ]
     },
@@ -11371,43 +10351,6 @@
           "area": "wine",
           "domain": "Economics & computation",
           "source": "csrankings"
-        }
-      ]
-    },
-    {
-      "key": "conf/wowmom/DattaSDMR05",
-      "type": "inproceedings",
-      "title": "Ad-Hoc Extensions to the 802.15.3 MAC Protocol.",
-      "year": 2005,
-      "publication_year": 2005,
-      "event_year": 2005,
-      "venue": "WOWMOM",
-      "booktitle": "WOWMOM",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "293-298",
-      "authors": [
-        "https://dblp.org/pid/21/6910",
-        "https://dblp.org/pid/32/3417",
-        "https://dblp.org/pid/49/4817",
-        "https://dblp.org/pid/62/6788",
-        "https://dblp.org/pid/71/4016"
-      ],
-      "dois": [
-        "10.1109/wowmom.2005.15"
-      ],
-      "url": "https://dblp.org/db/conf/wowmom/wowmom2005#conf/wowmom/DattaSDMR05",
-      "faculty": [
-        "Samir Datta"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "WOWMOM",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2005
         }
       ]
     },
@@ -11836,6 +10779,696 @@
           "area": "pldi",
           "domain": "Programming languages",
           "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "journals/talg/KratschPR16",
+      "type": "article",
+      "title": "Point Line Cover: The Easy Kernel is Essentially Tight.",
+      "year": 2016,
+      "publication_year": 2016,
+      "event_year": null,
+      "venue": "ACM Trans. Algorithms",
+      "booktitle": "",
+      "journal": "ACM Trans. Algorithms",
+      "volume": "12",
+      "number": "3",
+      "pages": "40:1-40:16",
+      "authors": [
+        "https://dblp.org/pid/03/601",
+        "https://dblp.org/pid/61/921",
+        "https://dblp.org/pid/93/5872"
+      ],
+      "dois": [
+        "10.1145/2832912"
+      ],
+      "url": "https://dblp.org/db/journals/talg/talg12#journals/talg/KratschPR16",
+      "faculty": [
+        "Geevarghese Philip"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Algorithms",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "key": "journals/talg/LokshtanovMMPPS21",
+      "type": "article",
+      "title": "2-Approximating Feedback Vertex Set in Tournaments.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": null,
+      "venue": "ACM Trans. Algorithms",
+      "booktitle": "",
+      "journal": "ACM Trans. Algorithms",
+      "volume": "17",
+      "number": "2",
+      "pages": "11:1-11:14",
+      "authors": [
+        "https://dblp.org/pid/01/9688",
+        "https://dblp.org/pid/03/601",
+        "https://dblp.org/pid/10/10553",
+        "https://dblp.org/pid/11/5491",
+        "https://dblp.org/pid/60/11535",
+        "https://dblp.org/pid/78/67"
+      ],
+      "dois": [
+        "10.1145/3446969"
+      ],
+      "url": "https://dblp.org/db/journals/talg/talg17#journals/talg/LokshtanovMMPPS21",
+      "faculty": [
+        "Geevarghese Philip"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Algorithms",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "journals/talg/PhilipRS12",
+      "type": "article",
+      "title": "Polynomial kernels for dominating set in graphs of bounded degeneracy and beyond.",
+      "year": 2012,
+      "publication_year": 2012,
+      "event_year": null,
+      "venue": "ACM Trans. Algorithms",
+      "booktitle": "",
+      "journal": "ACM Trans. Algorithms",
+      "volume": "9",
+      "number": "1",
+      "pages": "11:1-11:23",
+      "authors": [
+        "https://dblp.org/pid/03/601",
+        "https://dblp.org/pid/25/2134",
+        "https://dblp.org/pid/70/1506"
+      ],
+      "dois": [
+        "10.1145/2390176.2390187"
+      ],
+      "url": "https://dblp.org/db/journals/talg/talg9#journals/talg/PhilipRS12",
+      "faculty": [
+        "Geevarghese Philip"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Algorithms",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2012
+        }
+      ]
+    },
+    {
+      "key": "journals/tcyb/FerrerCDB0CAP18",
+      "type": "article",
+      "title": "Static and Dynamic Synthesis of Bengali and Devanagari Signatures.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": null,
+      "venue": "IEEE Trans. Cybern.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Cybern.",
+      "volume": "48",
+      "number": "10",
+      "pages": "2896-2907",
+      "authors": [
+        "https://dblp.org/pid/06/453",
+        "https://dblp.org/pid/08/4625-2",
+        "https://dblp.org/pid/193/4958",
+        "https://dblp.org/pid/193/4962",
+        "https://dblp.org/pid/226/7379",
+        "https://dblp.org/pid/76/7430",
+        "https://dblp.org/pid/f/MiguelAFerrer",
+        "https://dblp.org/pid/p/UmapadaPal"
+      ],
+      "dois": [
+        "10.1109/tcyb.2017.2751740"
+      ],
+      "url": "https://dblp.org/db/journals/tcyb/tcyb48#journals/tcyb/FerrerCDB0CAP18",
+      "faculty": [
+        "Anirban Majumdar 0002"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Cybern.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "journals/tit/ChakrabortyFGMS25",
+      "type": "article",
+      "title": "Exploring the Gap Between Tolerant and Non-Tolerant Distribution Testing.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": null,
+      "venue": "IEEE Trans. Inf. Theory",
+      "booktitle": "",
+      "journal": "IEEE Trans. Inf. Theory",
+      "volume": "71",
+      "number": "2",
+      "pages": "1153-1170",
+      "authors": [
+        "https://dblp.org/pid/172/4993",
+        "https://dblp.org/pid/274/1210",
+        "https://dblp.org/pid/34/814",
+        "https://dblp.org/pid/39/5366-2",
+        "https://dblp.org/pid/89/3488-1"
+      ],
+      "dois": [
+        "10.1109/tit.2024.3483995"
+      ],
+      "url": "https://dblp.org/db/journals/tit/tit71#journals/tit/ChakrabortyFGMS25",
+      "faculty": [
+        "Sourav Chakraborty 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Inf. Theory",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "journals/tocl/HerbreteauSTW20",
+      "type": "article",
+      "title": "Why Liveness for Timed Automata Is Hard, and What We Can Do About It.",
+      "year": 2020,
+      "publication_year": 2020,
+      "event_year": null,
+      "venue": "ACM Trans. Comput. Log.",
+      "booktitle": "",
+      "journal": "ACM Trans. Comput. Log.",
+      "volume": "21",
+      "number": "3",
+      "pages": "17:1-17:28",
+      "authors": [
+        "https://dblp.org/pid/153/1984",
+        "https://dblp.org/pid/27/7046",
+        "https://dblp.org/pid/51/345",
+        "https://dblp.org/pid/86/8295"
+      ],
+      "dois": [
+        "10.1145/3372310"
+      ],
+      "url": "https://dblp.org/db/journals/tocl/tocl21#journals/tocl/HerbreteauSTW20",
+      "faculty": [
+        "B. Srivathsan"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Comput. Log.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "key": "journals/tocl/Praveen13",
+      "type": "article",
+      "title": "Does Treewidth Help in Modal Satisfiability?",
+      "year": 2013,
+      "publication_year": 2013,
+      "event_year": null,
+      "venue": "ACM Trans. Comput. Log.",
+      "booktitle": "",
+      "journal": "ACM Trans. Comput. Log.",
+      "volume": "14",
+      "number": "3",
+      "pages": "18:1-18:32",
+      "authors": [
+        "https://dblp.org/pid/43/2065"
+      ],
+      "dois": [
+        "10.1145/2499937.2499939"
+      ],
+      "url": "https://dblp.org/db/journals/tocl/tocl14#journals/tocl/Praveen13",
+      "faculty": [
+        "M. Praveen"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Comput. Log.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2013
+        }
+      ]
+    },
+    {
+      "key": "journals/toct/ArunachalamCKSW21",
+      "type": "article",
+      "title": "Improved Bounds on Fourier Entropy and Min-entropy.",
+      "year": 2021,
+      "publication_year": 2021,
+      "event_year": null,
+      "venue": "ACM Trans. Comput. Theory",
+      "booktitle": "",
+      "journal": "ACM Trans. Comput. Theory",
+      "volume": "13",
+      "number": "4",
+      "pages": "22:1-22:40",
+      "authors": [
+        "https://dblp.org/pid/128/4902",
+        "https://dblp.org/pid/14/1317-1",
+        "https://dblp.org/pid/159/8588",
+        "https://dblp.org/pid/89/3488-1",
+        "https://dblp.org/pid/w/RonalddeWolf"
+      ],
+      "dois": [
+        "10.1145/3470860"
+      ],
+      "url": "https://dblp.org/db/journals/toct/toct13#journals/toct/ArunachalamCKSW21",
+      "faculty": [
+        "Sourav Chakraborty 0001"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Comput. Theory",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "key": "journals/toct/BeyersdorffDKMSSTV13",
+      "type": "article",
+      "title": "Verifying proofs in constant depth.",
+      "year": 2013,
+      "publication_year": 2013,
+      "event_year": null,
+      "venue": "ACM Trans. Comput. Theory",
+      "booktitle": "",
+      "journal": "ACM Trans. Comput. Theory",
+      "volume": "5",
+      "number": "1",
+      "pages": "2:1-2:23",
+      "authors": [
+        "https://dblp.org/pid/10/695-1",
+        "https://dblp.org/pid/16/9960",
+        "https://dblp.org/pid/35/4442",
+        "https://dblp.org/pid/68/9206",
+        "https://dblp.org/pid/71/4016",
+        "https://dblp.org/pid/72/1636",
+        "https://dblp.org/pid/91/2292",
+        "https://dblp.org/pid/v/HeribertVollmer"
+      ],
+      "dois": [
+        "10.1145/2462896.2462898"
+      ],
+      "url": "https://dblp.org/db/journals/toct/toct5#journals/toct/BeyersdorffDKMSSTV13",
+      "faculty": [
+        "Samir Datta"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Comput. Theory",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2013
+        }
+      ]
+    },
+    {
+      "key": "journals/toct/BhattacharyyaC18",
+      "type": "article",
+      "title": "Property Testing of Joint Distributions using Conditional Samples.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": null,
+      "venue": "ACM Trans. Comput. Theory",
+      "booktitle": "",
+      "journal": "ACM Trans. Comput. Theory",
+      "volume": "10",
+      "number": "4",
+      "pages": "16:1-16:20",
+      "authors": [
+        "https://dblp.org/pid/60/7604",
+        "https://dblp.org/pid/89/3488-1"
+      ],
+      "dois": [
+        "10.1145/3241377"
+      ],
+      "url": "https://dblp.org/db/journals/toct/toct10#journals/toct/BhattacharyyaC18",
+      "faculty": [
+        "Sourav Chakraborty 0001"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Comput. Theory",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "journals/toct/ChakrabartyCS26",
+      "type": "article",
+      "title": "Fault-tolerant k-Supplier with Outliers.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": null,
+      "venue": "ACM Trans. Comput. Theory",
+      "booktitle": "",
+      "journal": "ACM Trans. Comput. Theory",
+      "volume": "18",
+      "number": "3",
+      "pages": "18:1-18:19",
+      "authors": [
+        "https://dblp.org/pid/181/3807",
+        "https://dblp.org/pid/235/6911-1",
+        "https://dblp.org/pid/80/5358"
+      ],
+      "dois": [
+        "10.1145/3799696"
+      ],
+      "url": "https://dblp.org/db/journals/toct/toct18#journals/toct/ChakrabartyCS26",
+      "faculty": [
+        "Ankita Sarkar 0001"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Comput. Theory",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "journals/toct/DattaGJST26",
+      "type": "article",
+      "title": "Unambiguous, Randomized, and Symmetric Catalytic Computation.",
+      "year": 2026,
+      "publication_year": 2026,
+      "event_year": null,
+      "venue": "ACM Trans. Comput. Theory",
+      "booktitle": "",
+      "journal": "ACM Trans. Comput. Theory",
+      "volume": "18",
+      "number": "1",
+      "pages": "4:1-4:21",
+      "authors": [
+        "https://dblp.org/pid/221/4444",
+        "https://dblp.org/pid/42/4430-15",
+        "https://dblp.org/pid/71/4016",
+        "https://dblp.org/pid/75/4596-2",
+        "https://dblp.org/pid/94/2680"
+      ],
+      "dois": [
+        "10.1145/3774644"
+      ],
+      "url": "https://dblp.org/db/journals/toct/toct18#journals/toct/DattaGJST26",
+      "faculty": [
+        "Samir Datta"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Comput. Theory",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "key": "journals/toct/DattaKLM10",
+      "type": "article",
+      "title": "Planarity, Determinants, Permanents, and (Unique) Matchings.",
+      "year": 2010,
+      "publication_year": 2010,
+      "event_year": null,
+      "venue": "ACM Trans. Comput. Theory",
+      "booktitle": "",
+      "journal": "ACM Trans. Comput. Theory",
+      "volume": "1",
+      "number": "3",
+      "pages": "10:1-10:20",
+      "authors": [
+        "https://dblp.org/pid/07/3731",
+        "https://dblp.org/pid/11/1649",
+        "https://dblp.org/pid/71/4016",
+        "https://dblp.org/pid/72/1636"
+      ],
+      "dois": [
+        "10.1145/1714450.1714453"
+      ],
+      "url": "https://dblp.org/db/journals/toct/toct1#journals/toct/DattaKLM10",
+      "faculty": [
+        "Samir Datta"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Comput. Theory",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2010
+        }
+      ]
+    },
+    {
+      "key": "journals/toct/DattaLNTW22",
+      "type": "article",
+      "title": "Planar Graph Isomorphism Is in Log-Space.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": null,
+      "venue": "ACM Trans. Comput. Theory",
+      "booktitle": "",
+      "journal": "ACM Trans. Comput. Theory",
+      "volume": "14",
+      "number": "2",
+      "pages": "8:1-8:33",
+      "authors": [
+        "https://dblp.org/pid/05/2925",
+        "https://dblp.org/pid/11/1649",
+        "https://dblp.org/pid/71/4016",
+        "https://dblp.org/pid/82/1904",
+        "https://dblp.org/pid/t/ThomasThierauf"
+      ],
+      "dois": [
+        "10.1145/3543686"
+      ],
+      "url": "https://dblp.org/db/journals/toct/toct14#journals/toct/DattaLNTW22",
+      "faculty": [
+        "Prajakta Nimbhorkar",
+        "Samir Datta"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Comput. Theory",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "journals/toct/LeviPRV22",
+      "type": "article",
+      "title": "Erasure-Resilient Sublinear-Time Graph Algorithms.",
+      "year": 2022,
+      "publication_year": 2022,
+      "event_year": null,
+      "venue": "ACM Trans. Comput. Theory",
+      "booktitle": "",
+      "journal": "ACM Trans. Comput. Theory",
+      "volume": "14",
+      "number": "1",
+      "pages": "1:1-1:22",
+      "authors": [
+        "https://dblp.org/pid/14/3654",
+        "https://dblp.org/pid/161/4014-1",
+        "https://dblp.org/pid/185/0957",
+        "https://dblp.org/pid/41/11199"
+      ],
+      "dois": [
+        "10.1145/3488250"
+      ],
+      "url": "https://dblp.org/db/journals/toct/toct14#journals/toct/LeviPRV22",
+      "faculty": [
+        "Nithin Varma 0001"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Comput. Theory",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "key": "journals/toct/PallavoorRV18",
+      "type": "article",
+      "title": "Parameterized Property Testing of Functions.",
+      "year": 2018,
+      "publication_year": 2018,
+      "event_year": null,
+      "venue": "ACM Trans. Comput. Theory",
+      "booktitle": "",
+      "journal": "ACM Trans. Comput. Theory",
+      "volume": "9",
+      "number": "4",
+      "pages": "17:1-17:19",
+      "authors": [
+        "https://dblp.org/pid/14/3654",
+        "https://dblp.org/pid/185/0957",
+        "https://dblp.org/pid/41/11199"
+      ],
+      "dois": [
+        "10.1145/3155296"
+      ],
+      "url": "https://dblp.org/db/journals/toct/toct9#journals/toct/PallavoorRV18",
+      "faculty": [
+        "Nithin Varma 0001"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Comput. Theory",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "key": "journals/toplas/RoychoudhuryKRR04",
+      "type": "article",
+      "title": "An unfold/fold transformation framework for definite logic programs.",
+      "year": 2004,
+      "publication_year": 2004,
+      "event_year": null,
+      "venue": "ACM Trans. Program. Lang. Syst.",
+      "booktitle": "",
+      "journal": "ACM Trans. Program. Lang. Syst.",
+      "volume": "26",
+      "number": "3",
+      "pages": "464-509",
+      "authors": [
+        "https://dblp.org/pid/04/5884",
+        "https://dblp.org/pid/54/203",
+        "https://dblp.org/pid/r/CRRamakrishnan",
+        "https://dblp.org/pid/r/IVRamakrishnan"
+      ],
+      "dois": [
+        "10.1145/982158.982160"
+      ],
+      "url": "https://dblp.org/db/journals/toplas/toplas26#journals/toplas/RoychoudhuryKRR04",
+      "faculty": [
+        "K. Narayan Kumar"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Program. Lang. Syst.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2004
+        }
+      ]
+    },
+    {
+      "key": "journals/tqc/SundaramGR25",
+      "type": "article",
+      "title": "DQC-QR: Distributing and Routing Quantum Circuits with Minimum Execution Time.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": null,
+      "venue": "ACM Trans. Quantum Comput.",
+      "booktitle": "",
+      "journal": "ACM Trans. Quantum Comput.",
+      "volume": "6",
+      "number": "4",
+      "pages": "30:1-30:26",
+      "authors": [
+        "https://dblp.org/pid/264/5077",
+        "https://dblp.org/pid/g/HimanshuGupta",
+        "https://dblp.org/pid/r/CRRamakrishnan"
+      ],
+      "dois": [
+        "10.1145/3757069"
+      ],
+      "url": "https://dblp.org/db/journals/tqc/tqc6#journals/tqc/SundaramGR25",
+      "faculty": [
+        "Ranjani G. Sundaram"
+      ],
+      "memberships": [
+        {
+          "source": "acm",
+          "venue": "ACM Trans. Quantum Comput.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "key": "journals/tse/BaranovCLMV24",
+      "type": "article",
+      "title": "A Scalable $t$t-Wise Coverage Estimator: Algorithms and Applications.",
+      "year": 2024,
+      "publication_year": 2024,
+      "event_year": null,
+      "venue": "IEEE Trans. Software Eng.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Software Eng.",
+      "volume": "50",
+      "number": "8",
+      "pages": "2021-2039",
+      "authors": [
+        "https://dblp.org/pid/129/1623",
+        "https://dblp.org/pid/136/6151",
+        "https://dblp.org/pid/336/9941",
+        "https://dblp.org/pid/52/579",
+        "https://dblp.org/pid/89/3488-1"
+      ],
+      "dois": [
+        "10.1109/tse.2024.3419919"
+      ],
+      "url": "https://dblp.org/db/journals/tse/tse50#journals/tse/BaranovCLMV24",
+      "faculty": [
+        "Sourav Chakraborty 0001"
+      ],
+      "memberships": [
+        {
+          "source": "ieee",
+          "venue": "IEEE Trans. Software Eng.",
+          "area": "publisher-other",
+          "domain": "Other IEEE/ACM areas",
+          "year": 2024
         }
       ]
     }

@@ -1,7 +1,7 @@
 import unittest
 import json
 from pathlib import Path
-from journal_policy import is_visible_paper
+from journal_policy import is_visible_paper, transaction_publisher
 from api.app import app
 
 
@@ -33,3 +33,15 @@ class JournalPolicyTests(unittest.TestCase):
                 response = client.get('/iiitd/faculty/' + faculty['name'])
                 self.assertEqual(response.status_code, 200)
                 self.assertTrue(all(is_visible_paper(paper) for paper in response.get_json()['publications']))
+
+    def test_publisher_memberships_are_transactions_across_all_institutes(self):
+        root = Path(__file__).resolve().parents[1] / 'data/processed/institutes'
+        datasets = [path for path in root.glob('*.json') if '.validation' not in path.name]
+        self.assertTrue(datasets)
+        for path in datasets:
+            data = json.loads(path.read_text(encoding='utf-8'))
+            for paper in data['publications']:
+                for membership in paper.get('memberships', []):
+                    if membership['source'] in {'ieee', 'acm'}:
+                        with self.subTest(dataset=path.name, key=paper['key']):
+                            self.assertEqual(transaction_publisher(paper), membership['source'])

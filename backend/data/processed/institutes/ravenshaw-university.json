@@ -5,7 +5,7 @@
     "slug": "ravenshaw-university",
     "homepage": "https://ravenshawuniversity.ac.in",
     "data_source": "dblp-sparql",
-    "generated_at": "2026-11-19T18:01:49.393308+00:00",
+    "generated_at": "2026-11-25T13:32:18.842376+00:00",
     "reference_revision": "b2e76bcec658a429c26011530767528839d524df",
     "rules_sha256": "d8f2481684b5d3f230a52c11a4d96dc6c851ff3bc313437cfab2e1ddb7da0dc9",
     "available_sources": [
@@ -171,216 +171,76 @@
   ],
   "publications": [
     {
-      "key": "conf/cit/JenaPBN18",
-      "type": "inproceedings",
-      "title": "Implementation of Linear Discriminant Analysis for Odia Numeral Recognition.",
-      "year": 2018,
-      "publication_year": 2018,
-      "event_year": 2018,
-      "venue": "ICIT",
-      "booktitle": "ICIT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "166-171",
+      "key": "journals/tce/TripathyBCSPG25",
+      "type": "article",
+      "title": "Leveraging Resource-Aware Deep Collaborative Learning Toward Secure B5G-Driven IoT-Fog-Based Consumer Electronic Systems.",
+      "year": 2025,
+      "publication_year": 2025,
+      "event_year": null,
+      "venue": "IEEE Trans. Consumer Electron.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Consumer Electron.",
+      "volume": "71",
+      "number": "2",
+      "pages": "4443-4450",
       "authors": [
-        "https://dblp.org/pid/126/6352",
-        "https://dblp.org/pid/242/0246",
-        "https://dblp.org/pid/242/0264",
-        "https://dblp.org/pid/40/449"
+        "https://dblp.org/pid/172/3933",
+        "https://dblp.org/pid/236/9089",
+        "https://dblp.org/pid/270/9695",
+        "https://dblp.org/pid/294/6767",
+        "https://dblp.org/pid/46/10401",
+        "https://dblp.org/pid/71/7427"
       ],
       "dois": [
-        "10.1109/icit.2018.00043"
+        "10.1109/tce.2024.3411869"
       ],
-      "url": "https://dblp.org/db/conf/cit/cit2018#conf/cit/JenaPBN18",
+      "url": "https://dblp.org/db/journals/tce/tce71#journals/tce/TripathyBCSPG25",
       "faculty": [
-        "Om Prakash Jena"
+        "Dilip Senapati"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "ICIT",
+          "venue": "IEEE Trans. Consumer Electron.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
-          "year": 2018
+          "year": 2025
         }
       ]
     },
     {
-      "key": "conf/cit/MohantyRPT08",
-      "type": "inproceedings",
-      "title": "Topological Properties of a New Fault Tolerant Interconnection Network for Parallel Computer.",
-      "year": 2008,
-      "publication_year": 2008,
-      "event_year": 2008,
-      "venue": "ICIT",
-      "booktitle": "ICIT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "36-40",
-      "authors": [
-        "https://dblp.org/pid/134/1660",
-        "https://dblp.org/pid/160/3301",
-        "https://dblp.org/pid/37/8392",
-        "https://dblp.org/pid/81/8389"
-      ],
-      "dois": [
-        "10.1109/icit.2008.64"
-      ],
-      "url": "https://dblp.org/db/conf/cit/cit2008#conf/cit/MohantyRPT08",
-      "faculty": [
-        "Alok Ranjan Tripathy"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICIT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2008
-        }
-      ]
-    },
-    {
-      "key": "conf/cit/RayTR21",
-      "type": "inproceedings",
-      "title": "Efficient Algorithm for Hermite Interpolation.",
-      "year": 2021,
-      "publication_year": 2021,
-      "event_year": 2021,
-      "venue": "OCIT",
-      "booktitle": "OCIT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "32-36",
-      "authors": [
-        "https://dblp.org/pid/160/3301",
-        "https://dblp.org/pid/315/2248",
-        "https://dblp.org/pid/37/8392"
-      ],
-      "dois": [
-        "10.1109/ocit53463.2021.00018"
-      ],
-      "url": "https://dblp.org/db/conf/cit/ocit2021#conf/cit/RayTR21",
-      "faculty": [
-        "Alok Ranjan Tripathy"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "OCIT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2021
-        }
-      ]
-    },
-    {
-      "key": "conf/cit/RayTR22",
-      "type": "inproceedings",
-      "title": "Extended Folded Cube with Cross Connection: A New Fault Tolerant Interconnection Network for Parallel Computing.",
+      "key": "journals/tgcn/BeborttaSPP22",
+      "type": "article",
+      "title": "An Adaptive Modeling and Performance Evaluation Framework for Edge-Enabled Green IoT Systems.",
       "year": 2022,
       "publication_year": 2022,
-      "event_year": 2022,
-      "venue": "OCIT",
-      "booktitle": "OCIT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "480-484",
+      "event_year": null,
+      "venue": "IEEE Trans. Green Commun. Netw.",
+      "booktitle": "",
+      "journal": "IEEE Trans. Green Commun. Netw.",
+      "volume": "6",
+      "number": "2",
+      "pages": "836-844",
       "authors": [
-        "https://dblp.org/pid/160/3301",
-        "https://dblp.org/pid/315/2248",
-        "https://dblp.org/pid/37/8392"
+        "https://dblp.org/pid/128/3111",
+        "https://dblp.org/pid/172/3933",
+        "https://dblp.org/pid/270/9695",
+        "https://dblp.org/pid/60/9099"
       ],
       "dois": [
-        "10.1109/ocit56763.2022.00095"
+        "10.1109/tgcn.2021.3127487"
       ],
-      "url": "https://dblp.org/db/conf/cit/ovit2022#conf/cit/RayTR22",
+      "url": "https://dblp.org/db/journals/tgcn/tgcn6#journals/tgcn/BeborttaSPP22",
       "faculty": [
-        "Alok Ranjan Tripathy"
+        "Dilip Senapati"
       ],
       "memberships": [
         {
           "source": "ieee",
-          "venue": "OCIT",
+          "venue": "IEEE Trans. Green Commun. Netw.",
           "area": "publisher-other",
           "domain": "Other IEEE/ACM areas",
           "year": 2022
-        }
-      ]
-    },
-    {
-      "key": "conf/cit/RayTSDM14",
-      "type": "inproceedings",
-      "title": "Half-Perimeter Wirelength Model for VLSI Analytical Placement.",
-      "year": 2014,
-      "publication_year": 2014,
-      "event_year": 2014,
-      "venue": "ICIT",
-      "booktitle": "ICIT",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "287-292",
-      "authors": [
-        "https://dblp.org/pid/160/3182",
-        "https://dblp.org/pid/160/3269",
-        "https://dblp.org/pid/160/3301",
-        "https://dblp.org/pid/160/3426",
-        "https://dblp.org/pid/37/8392"
-      ],
-      "dois": [
-        "10.1109/icit.2014.61"
-      ],
-      "url": "https://dblp.org/db/conf/cit/cit2014#conf/cit/RayTSDM14",
-      "faculty": [
-        "Alok Ranjan Tripathy"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "ICIT",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2014
-        }
-      ]
-    },
-    {
-      "key": "conf/ncm/RayTM09",
-      "type": "inproceedings",
-      "title": "A New Interconnection Network for Parallel Computers.",
-      "year": 2009,
-      "publication_year": 2009,
-      "event_year": 2009,
-      "venue": "NCM",
-      "booktitle": "NCM",
-      "journal": "",
-      "volume": "",
-      "number": "",
-      "pages": "19-24",
-      "authors": [
-        "https://dblp.org/pid/160/3301",
-        "https://dblp.org/pid/37/8392",
-        "https://dblp.org/pid/81/8389"
-      ],
-      "dois": [
-        "10.1109/ncm.2009.363"
-      ],
-      "url": "https://dblp.org/db/conf/ncm/ncm2009#conf/ncm/RayTM09",
-      "faculty": [
-        "Alok Ranjan Tripathy"
-      ],
-      "memberships": [
-        {
-          "source": "ieee",
-          "venue": "NCM",
-          "area": "publisher-other",
-          "domain": "Other IEEE/ACM areas",
-          "year": 2009
         }
       ]
     }

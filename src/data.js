@@ -8,6 +8,7 @@ const loaded = new Map();
 export const institutes = index.institutes;
 export const availableAreas = index.metadata.available_areas;
 export const areaNames = index.metadata.area_names;
+export const optionalVenues = index.metadata.optional_venues;
 export const availableSources = index.metadata.available_sources;
 export const defaultWindow = index.metadata.default_window;
 export const facultyDirectory = index.faculty;
